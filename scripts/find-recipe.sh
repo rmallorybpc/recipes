@@ -62,7 +62,11 @@ if [[ ! -d "$search_path" ]]; then
 fi
 
 if [[ -n "$query" ]]; then
-  rg -i --files-with-matches "$query" "$search_path" --glob '*.md' || true
+  if command -v rg >/dev/null 2>&1; then
+    rg -i --files-with-matches "$query" "$search_path" --glob '*.md' || true
+  else
+    grep -Ril --include='*.md' -- "$query" "$search_path" || true
+  fi
 else
   find "$search_path" -type f -name '*.md' ! -name 'README.md' ! -name 'recipe-template.md' | sort
 fi
