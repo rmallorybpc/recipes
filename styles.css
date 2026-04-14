@@ -108,6 +108,14 @@ h1 {
   font-size: 0.92rem;
 }
 
+.plannerStatus {
+  margin: -0.45rem 0 0.7rem;
+  min-height: 1.1em;
+  color: #2d5f55;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
 .plannerActionButton {
   border: 1px solid #d8c7b8;
   background: #fffdf8;

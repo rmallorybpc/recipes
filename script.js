@@ -107,7 +107,9 @@ const queryFilter = document.querySelector("#queryFilter");
 const recipeGrid = document.querySelector("#recipeGrid");
 const resultCount = document.querySelector("#resultCount");
 const plannerGrid = document.querySelector("#plannerGrid");
+const plannerStatus = document.querySelector("#plannerStatus");
 const clearCalendar = document.querySelector("#clearCalendar");
+const copyPlan = document.querySelector("#copyPlan");
 const exportPlan = document.querySelector("#exportPlan");
 const printPlan = document.querySelector("#printPlan");
 
@@ -378,6 +380,35 @@ function exportWeeklyPlan() {
   URL.revokeObjectURL(url);
 }
 
+function setPlannerStatus(message) {
+  plannerStatus.textContent = message;
+}
+
+async function copyWeeklyPlan() {
+  const content = buildPlanExport();
+
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(content);
+      setPlannerStatus("Weekly plan copied to clipboard.");
+      return;
+    }
+
+    const textarea = document.createElement("textarea");
+    textarea.value = content;
+    textarea.setAttribute("readonly", "true");
+    textarea.style.position = "fixed";
+    textarea.style.left = "-9999px";
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    textarea.remove();
+    setPlannerStatus("Weekly plan copied to clipboard.");
+  } catch (_error) {
+    setPlannerStatus("Copy failed. Use Export instead.");
+  }
+}
+
 function renderCards(items) {
   recipeGrid.innerHTML = "";
   resultCount.textContent = `${items.length} recipe${items.length === 1 ? "" : "s"}`;
@@ -492,6 +523,7 @@ recipeGrid.addEventListener("click", (event) => {
 });
 
 clearCalendar.addEventListener("click", clearWholeWeek);
+copyPlan.addEventListener("click", copyWeeklyPlan);
 exportPlan.addEventListener("click", exportWeeklyPlan);
 printPlan.addEventListener("click", () => window.print());
 
