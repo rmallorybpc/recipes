@@ -138,6 +138,10 @@ const MEALS = [
 
 const recipesById = new Map();
 let weekPlan = makeEmptyWeekPlan();
+const breakfastExpandedByDay = DAYS.reduce((acc, day) => {
+  acc[day.key] = false;
+  return acc;
+}, {});
 
 function pretty(str) {
   return str
@@ -430,6 +434,15 @@ function clearWholeWeek() {
   renderPlanner();
 }
 
+function toggleBreakfastLane(dayKey) {
+  if (!Object.prototype.hasOwnProperty.call(breakfastExpandedByDay, dayKey)) {
+    return;
+  }
+
+  breakfastExpandedByDay[dayKey] = !breakfastExpandedByDay[dayKey];
+  renderPlanner();
+}
+
 function renderPlanner() {
   plannerGrid.innerHTML = "";
 
@@ -446,9 +459,33 @@ function renderPlanner() {
       lane.className = "mealLane";
       lane.dataset.day = day.key;
       lane.dataset.meal = meal.key;
-      lane.innerHTML = `<h4 class="mealLaneTitle">${meal.label}</h4><ul class="dayList"></ul>`;
+      let laneList;
 
-      const laneList = lane.querySelector(".dayList");
+      if (meal.key === "breakfast") {
+        const expanded = breakfastExpandedByDay[day.key];
+        const panelId = `breakfast-${day.key}-panel`;
+        lane.classList.add("mealLaneBreakfast");
+
+        lane.innerHTML = `
+          <button
+            type="button"
+            class="mealLaneToggle"
+            data-day="${day.key}"
+            aria-expanded="${expanded}"
+            aria-controls="${panelId}"
+          >
+            <span class="mealLaneTitle">${meal.label}</span>
+            <span class="mealLaneToggleIcon" aria-hidden="true">${expanded ? "-" : "+"}</span>
+          </button>
+          <div class="mealLaneBody" id="${panelId}" ${expanded ? "" : "hidden"}>
+            <ul class="dayList"></ul>
+          </div>
+        `;
+      } else {
+        lane.innerHTML = `<h4 class="mealLaneTitle">${meal.label}</h4><ul class="dayList"></ul>`;
+      }
+
+      laneList = lane.querySelector(".dayList");
       const plannedIds = weekPlan[day.key][meal.key];
 
       if (!plannedIds.length) {
@@ -669,6 +706,16 @@ plannerGrid.addEventListener("click", (event) => {
     const { day } = target.dataset;
     if (day) {
       clearDay(day);
+    }
+  }
+
+  if (target.closest(".mealLaneToggle")) {
+    const toggleButton = target.closest(".mealLaneToggle");
+    if (toggleButton instanceof HTMLElement) {
+      const { day } = toggleButton.dataset;
+      if (day) {
+        toggleBreakfastLane(day);
+      }
     }
   }
 });

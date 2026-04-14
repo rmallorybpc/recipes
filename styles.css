@@ -233,6 +233,46 @@ h1 {
   color: #6e5f53;
 }
 
+.mealLaneBreakfast {
+  padding-top: 0.35rem;
+}
+
+.mealLaneToggle {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+}
+
+.mealLaneToggleIcon {
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: #5f4a3f;
+  border: 1px solid #ddcdbf;
+  border-radius: 999px;
+  width: 1.1rem;
+  height: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.mealLaneToggle:focus-visible {
+  outline: 3px solid var(--ring);
+  border-radius: 7px;
+}
+
+.mealLaneBody {
+  margin-top: 0.35rem;
+}
+
 .dayRecipe {
   border: 1px solid #e7dccc;
   border-radius: 10px;
