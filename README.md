@@ -6,6 +6,8 @@ Family Recipe Book with a searchable structure.
 
 https://rmallorybpc.github.io/recipes/
 
+The live page opens a recipe explorer with browse and search filters.
+
 ## Repository Purpose
 
 This repo is set up to store known recipes and make them easy to find by:

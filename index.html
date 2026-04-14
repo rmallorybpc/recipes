@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Family Recipe Book</title>
+    <meta
+      name="description"
+      content="Search and browse known recipes by meal type and style."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Literata:opsz,wght@7..72,400;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Family Recipe Book</p>
+        <h1>Find dinner fast, and never lose a favorite again.</h1>
+        <p class="subtitle">
+          Browse by meal and style, then search ingredients or titles across your known recipes.
+        </p>
+      </section>
+
+      <section class="controls" aria-label="Recipe filters">
+        <label>
+          Meal
+          <select id="mealFilter">
+            <option value="all">All meals</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+          </select>
+        </label>
+
+        <label>
+          Style
+          <select id="styleFilter">
+            <option value="all">All styles</option>
+            <option value="meat">Meat</option>
+            <option value="rice-or-pasta">Rice or Pasta</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+
+        <label class="searchField">
+          Search
+          <input
+            id="queryFilter"
+            type="search"
+            placeholder="Try: chicken, soup, stroganoff"
+          />
+        </label>
+      </section>
+
+      <section class="metaBar" aria-live="polite">
+        <p id="resultCount">0 recipes</p>
+      </section>
+
+      <section>
+        <ul id="recipeGrid" class="grid"></ul>
+      </section>
+
+      <section class="listLinks">
+        <h2>Category Lists</h2>
+        <p>These markdown files are the source lists currently used in this page.</p>
+        <ul>
+          <li><a href="recipes/breakfast/meat/known-recipes.md">Breakfast / Meat</a></li>
+          <li><a href="recipes/breakfast/other/known-recipes.md">Breakfast / Other</a></li>
+          <li><a href="recipes/dinner/meat/known-recipes.md">Dinner / Meat</a></li>
+          <li><a href="recipes/dinner/rice-or-pasta/known-recipes.md">Dinner / Rice or Pasta</a></li>
+          <li><a href="recipes/dinner/other/known-recipes.md">Dinner / Other</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
