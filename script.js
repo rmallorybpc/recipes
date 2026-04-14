@@ -119,6 +119,7 @@ const submitStatus = document.querySelector("#submitStatus");
 const copyRecipeMarkdown = document.querySelector("#copyRecipeMarkdown");
 
 const STORAGE_KEY = "weeklyRecipePlanner.v1";
+const BREAKFAST_UI_STORAGE_KEY = "weeklyRecipePlanner.breakfastExpanded.v1";
 const GITHUB_OWNER = "rmallorybpc";
 const GITHUB_REPO = "recipes";
 const DAYS = [
@@ -391,6 +392,28 @@ function saveWeekPlan() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(weekPlan));
 }
 
+function loadBreakfastExpandedState() {
+  try {
+    const saved = localStorage.getItem(BREAKFAST_UI_STORAGE_KEY);
+    if (!saved) {
+      return;
+    }
+
+    const parsed = JSON.parse(saved);
+    DAYS.forEach(({ key }) => {
+      breakfastExpandedByDay[key] = Boolean(parsed?.[key]);
+    });
+  } catch (_error) {
+    DAYS.forEach(({ key }) => {
+      breakfastExpandedByDay[key] = false;
+    });
+  }
+}
+
+function saveBreakfastExpandedState() {
+  localStorage.setItem(BREAKFAST_UI_STORAGE_KEY, JSON.stringify(breakfastExpandedByDay));
+}
+
 function addRecipeToDay(dayKey, mealKey, recipeId) {
   if (!recipesById.has(recipeId) || !weekPlan[dayKey]?.[mealKey]) {
     return;
@@ -440,6 +463,7 @@ function toggleBreakfastLane(dayKey) {
   }
 
   breakfastExpandedByDay[dayKey] = !breakfastExpandedByDay[dayKey];
+  saveBreakfastExpandedState();
   renderPlanner();
 }
 
@@ -766,5 +790,6 @@ if (copyRecipeMarkdown) {
 
 hydrateRecipeIds();
 weekPlan = loadWeekPlan();
+loadBreakfastExpandedState();
 renderPlanner();
 applyFilters();
