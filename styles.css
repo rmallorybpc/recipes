@@ -248,6 +248,12 @@ h1 {
   cursor: pointer;
   text-align: left;
   font: inherit;
+  min-width: 0;
+}
+
+.mealLaneToggle .mealLaneTitle {
+  min-width: 0;
+  display: block;
 }
 
 .mealLaneBreakfast.isCollapsed {
@@ -284,6 +290,8 @@ h1 {
 
 .mealLaneBreakfast .mealLaneTitle {
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .dayRecipe {
