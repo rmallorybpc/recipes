@@ -1,0 +1,1027 @@
+{
+  "generated_at": "2026-04-14T21:09:02.411Z",
+  "stats": {
+    "total_recipes": 46,
+    "with_existing_source": 8,
+    "resolved_from_search": 0,
+    "scraped_ingredients": 4,
+    "heuristic_only": 42
+  },
+  "recipes": [
+    {
+      "title": "Big daddy biscuits",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source_url": "https://www.allrecipes.com/recipe/7040/jps-big-daddy-biscuits/",
+      "id": "breakfast-baked-casserole-big-daddy-biscuits",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/7040/jps-big-daddy-biscuits/",
+      "source_origin": "existing_source",
+      "ingredients": [
+        "flour",
+        "butter",
+        "baking powder"
+      ],
+      "ingredients_normalized": [
+        "flour",
+        "butter",
+        "baking powder"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.45
+    },
+    {
+      "title": "Crusty bread",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source_url": "https://www.recipetineats.com/easy-yeast-bread-recipe-no-knead/",
+      "id": "breakfast-baked-casserole-crusty-bread",
+      "resolved_source_url": "https://www.recipetineats.com/easy-yeast-bread-recipe-no-knead/",
+      "source_origin": "existing_source",
+      "ingredients": [
+        "3 cups (450g)  flour (, bread or plain/all purpose (Note 1))",
+        "2 tsp instant or rapid rise yeast ((Note 2 for normal / active dry yeast))",
+        "1 1/2 tsp cooking salt / kosher salt (, HALVE if using table salt  (Note 3))",
+        "1 1/2 cups (375 ml)   very warm tap water (, NOT boiling or super hot (ie up to 55°C/130°F) (Note 4))",
+        "1 1/2 tbsp flour (, for dusting)"
+      ],
+      "ingredients_normalized": [
+        "flour",
+        "instant or rapid rise yeast",
+        "cooking salt kosher salt",
+        "very warm tap water"
+      ],
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
+    },
+    {
+      "title": "Flourless chickpea peanut butter muffins",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source_url": "https://www.ambitiouskitchen.com/flourless-peanut-butter-chickpea-muffins/",
+      "id": "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
+      "resolved_source_url": "https://www.ambitiouskitchen.com/flourless-peanut-butter-chickpea-muffins/",
+      "source_origin": "existing_source",
+      "ingredients": [
+        "flour",
+        "butter",
+        "baking powder",
+        "peanut butter"
+      ],
+      "ingredients_normalized": [
+        "flour",
+        "butter",
+        "baking powder",
+        "peanut butter"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.45
+    },
+    {
+      "title": "Pineapple zucchini muffin",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source_url": "https://www.blessthismessplease.com/zucchini-pineapple-muffins/",
+      "id": "breakfast-baked-casserole-pineapple-zucchini-muffin",
+      "resolved_source_url": "https://www.blessthismessplease.com/zucchini-pineapple-muffins/",
+      "source_origin": "existing_source",
+      "ingredients": [
+        "2 cups granulated sugar",
+        "1/2 cup applesauce",
+        "1/2 cup oil",
+        "3  eggs",
+        "2 teaspoons vanilla extract",
+        "3 cups all-purpose flour",
+        "2 teaspoons baking soda",
+        "1 1/2 teaspoons ground cinnamon",
+        "1 teaspoon salt",
+        "1/4 teaspoon baking powder",
+        "2 cups shredded zucchini (water squeezed out)",
+        "1 can crushed pineapple ((8-ounce), well drained)"
+      ],
+      "ingredients_normalized": [
+        "granulated sugar",
+        "applesauce",
+        "oil",
+        "eggs",
+        "vanilla extract",
+        "all-purpose flour",
+        "baking soda",
+        "ground cinnamon",
+        "salt",
+        "baking powder",
+        "shredded zucchini",
+        "can crushed pineapple well drained"
+      ],
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
+    },
+    {
+      "title": "Greek pitas with chicken",
+      "meal": "breakfast",
+      "style": "meat",
+      "source_url": null,
+      "id": "breakfast-meat-greek-pitas-with-chicken",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Greek pitas with turkey meat",
+      "meal": "breakfast",
+      "style": "meat",
+      "source_url": null,
+      "id": "breakfast-meat-greek-pitas-with-turkey-meat",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
+      "meal": "breakfast",
+      "style": "meat",
+      "source_url": "https://pinchofyum.com/peanut-chicken-lettuce-wraps-ginger-garlic-sauce",
+      "id": "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
+      "resolved_source_url": "https://pinchofyum.com/peanut-chicken-lettuce-wraps-ginger-garlic-sauce",
+      "source_origin": "existing_source",
+      "ingredients": [
+        "4 tablespoons soy sauce",
+        "3 tablespoons oyster sauce",
+        "3 tablespoons water",
+        "1 tablespoon sambal oelek (chili paste)",
+        "1 tablespoon honey",
+        "1 tablespoon fresh ginger (I use a paste)",
+        "juice of 2 limes",
+        "2 garlic cloves, minced",
+        "4 green onions, minced",
+        "1 tablespoon rice vinegar (optional &#8211; makes it more tangy)",
+        "1 teaspoon cornstarch (optional &#8211; helps the sauce thicken)",
+        "2 tablespoons sesame oil",
+        "1 lb. ground chicken or turkey",
+        "1/2 cup lightly salted peanuts, chopped",
+        "6 ounces rice noodles",
+        "12 leaves of lettuce (I used Boston lettuce)",
+        "chopped cilantro, green onions, and peanuts for topping"
+      ],
+      "ingredients_normalized": [
+        "soy sauce",
+        "oyster sauce",
+        "water",
+        "sambal oelek",
+        "honey",
+        "ginger",
+        "juice of limes",
+        "garlic cloves",
+        "green onions",
+        "rice vinegar",
+        "cornstarch",
+        "sesame oil",
+        "ground chicken or turkey",
+        "lightly salted peanuts",
+        "rice noodles",
+        "leaves of lettuce",
+        "cilantro green onions and peanuts for topping"
+      ],
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
+    },
+    {
+      "title": "White chicken chili",
+      "meal": "breakfast",
+      "style": "meat",
+      "source_url": "https://www.pinterest.com/pin/487233253450153141/sent/?invite_code=4fe827f3cea649cf9c9996a6747132c8&sender=487233390844584842&sfo=1",
+      "id": "breakfast-meat-white-chicken-chili",
+      "resolved_source_url": "https://www.pinterest.com/pin/487233253450153141/sent/?invite_code=4fe827f3cea649cf9c9996a6747132c8&sender=487233390844584842&sfo=1",
+      "source_origin": "existing_source",
+      "ingredients": [
+        "chicken",
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredients_normalized": [
+        "chicken",
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.45
+    },
+    {
+      "title": "Spicy pesto and cheese stuffed zucchini involtin",
+      "meal": "breakfast",
+      "style": "vegetarian",
+      "source_url": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1",
+      "id": "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
+      "resolved_source_url": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1",
+      "source_origin": "existing_source",
+      "ingredients": [
+        "zucchini",
+        "basil",
+        "olive oil",
+        "parmesan",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "zucchini",
+        "basil",
+        "olive oil",
+        "parmesan",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.45
+    },
+    {
+      "title": "Homemade pizza",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source_url": null,
+      "id": "dinner-baked-casserole-homemade-pizza",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "flour",
+        "cheese",
+        "tomato sauce"
+      ],
+      "ingredients_normalized": [
+        "flour",
+        "cheese",
+        "tomato sauce"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Chipotle bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source_url": null,
+      "id": "dinner-bowls-chipotle-bowls",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Salmon veggie bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source_url": null,
+      "id": "dinner-bowls-salmon-veggie-bowls",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "seafood"
+      ],
+      "ingredients_normalized": [
+        "seafood"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Lettuce wraps",
+      "meal": "dinner",
+      "style": "handheld",
+      "source_url": null,
+      "id": "dinner-handheld-lettuce-wraps",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "lettuce"
+      ],
+      "ingredients_normalized": [
+        "lettuce"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "BBQ in crockpot",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-bbq-in-crockpot",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "pork"
+      ],
+      "ingredients_normalized": [
+        "pork"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Braised short ribs",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-braised-short-ribs",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "pork"
+      ],
+      "ingredients_normalized": [
+        "pork"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Camper chicken enchiladas",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-camper-chicken-enchiladas",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken",
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "chicken",
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Cheeseburgers",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-cheeseburgers",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "beef",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "beef",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Chicken parm",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-chicken-parm",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Chicken wings",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-chicken-wings",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Chili",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-chili",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredients_normalized": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Deconstructed steak sandwiches with cheese",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-deconstructed-steak-sandwiches-with-cheese",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Fried chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-fried-chicken",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Grilled chicken with potato salad",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-grilled-chicken-with-potato-salad",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken",
+        "potato"
+      ],
+      "ingredients_normalized": [
+        "chicken",
+        "potato"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Pork chops",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-pork-chops",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "pork"
+      ],
+      "ingredients_normalized": [
+        "pork"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Round steak stroganoff",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-round-steak-stroganoff",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "mushroom",
+        "onion",
+        "broth"
+      ],
+      "ingredients_normalized": [
+        "mushroom",
+        "onion",
+        "broth"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Skillet meatloaf / cheeseburger meatloaf",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "beef",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "beef",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Steak kabobs deconstructed",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-steak-kabobs-deconstructed",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Stew",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-stew",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredients_normalized": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Tacos",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-tacos",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Hamburger stroganoff",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-hamburger-stroganoff",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "beef",
+        "mushroom",
+        "onion",
+        "broth"
+      ],
+      "ingredients_normalized": [
+        "beef",
+        "mushroom",
+        "onion",
+        "broth"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Homemade mac n cheese",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-homemade-mac-n-cheese",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-lasagne",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Meatballs with zucchini and rice",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "rice",
+        "zucchini"
+      ],
+      "ingredients_normalized": [
+        "rice",
+        "zucchini"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Penne lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-penne-lasagne",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Salmon and rice",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-salmon-and-rice",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "seafood",
+        "rice"
+      ],
+      "ingredients_normalized": [
+        "seafood",
+        "rice"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Spaghetti",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-spaghetti",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Tortellini with pesto and shrimp and spinach",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "seafood",
+        "pasta",
+        "cheese",
+        "basil",
+        "olive oil",
+        "parmesan"
+      ],
+      "ingredients_normalized": [
+        "seafood",
+        "pasta",
+        "cheese",
+        "basil",
+        "olive oil",
+        "parmesan"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Tortellini with sausage, spinach, mushrooms, lemon",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "pasta",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Zucchini and squash lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "pasta",
+        "cheese",
+        "zucchini"
+      ],
+      "ingredients_normalized": [
+        "pasta",
+        "cheese",
+        "zucchini"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Cheddar broccoli soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-cheddar-broccoli-soup",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "broth",
+        "onion",
+        "garlic",
+        "broccoli"
+      ],
+      "ingredients_normalized": [
+        "broth",
+        "onion",
+        "garlic",
+        "broccoli"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Chicken tortilla soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": "https://dashofsanity.com/chicken-tortilla-soup-crock-pot/",
+      "id": "dinner-soup-or-stew-chicken-tortilla-soup",
+      "resolved_source_url": "https://dashofsanity.com/chicken-tortilla-soup-crock-pot/",
+      "source_origin": "existing_source",
+      "ingredients": [
+        "3 tablespoons butter",
+        "1  yellow onion (diced)",
+        "1  red pepper (diced)",
+        "1  yellow pepper (diced)",
+        "2 cloves garlic",
+        "2 teaspoons salt (divided)",
+        "2 lbs boneless skinless chicken breasts (about 2-3 breasts)",
+        "2 cans chicken broth (14.5-ounce cans)",
+        "14 ounces red enchilada sauce",
+        "2 teaspoons cumin",
+        "1 teaspoon chili powder",
+        "1 teaspoon oregano",
+        "1 tablespoon taco seasoning",
+        "1 1/2 cups half-and-half or heavy cream (if desired, for a creamier soup)",
+        "2-3 tablespoons flour or cornstarch (if desired to make a thicker soup)",
+        "1 can  pinto beans (drained, optional)",
+        "1 1/2 cups  frozen corn (optional, do not use canned)",
+        "1/2 cup  fresh cilantro (chopped, for garnish)"
+      ],
+      "ingredients_normalized": [
+        "butter",
+        "yellow onion",
+        "red pepper",
+        "yellow pepper",
+        "cloves garlic",
+        "salt",
+        "boneless skinless chicken breasts",
+        "cans chicken broth",
+        "red enchilada sauce",
+        "cumin",
+        "chili powder",
+        "oregano",
+        "taco seasoning",
+        "half-and-half or heavy cream",
+        "flour or cornstarch",
+        "can pinto beans",
+        "frozen corn",
+        "cilantro"
+      ],
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
+    },
+    {
+      "title": "Chicken tortilla soup in crock pot",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken",
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredients_normalized": [
+        "chicken",
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Chicken wild rice soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-chicken-wild-rice-soup",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken",
+        "broth",
+        "onion",
+        "garlic",
+        "rice"
+      ],
+      "ingredients_normalized": [
+        "chicken",
+        "broth",
+        "onion",
+        "garlic",
+        "rice"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Grilled cheese and tomato soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "broth",
+        "onion",
+        "garlic",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "broth",
+        "onion",
+        "garlic",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Wonton soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-wonton-soup",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "seafood",
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredients_normalized": [
+        "seafood",
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Stir fry",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source_url": null,
+      "id": "dinner-vegetarian-stir-fry",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    }
+  ]
+}

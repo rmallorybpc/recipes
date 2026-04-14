@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Ingredient Search</title>
+    <meta
+      name="description"
+      content="Search recipes by ingredient, title, meal, and style with confidence labels."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Literata:opsz,wght@7..72,400;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Ingredient Search</p>
+        <h1>Find recipes by what you have at home.</h1>
+        <p class="subtitle">
+          Search one ingredient or many, switch between AND/OR matching, and filter by meal and style.
+        </p>
+      </section>
+
+      <nav class="subNav" aria-label="Pages">
+        <a href="index.html">Planner</a>
+        <a href="ingredients.html" aria-current="page">Ingredient Search</a>
+      </nav>
+
+      <section class="controls controlsIngredients" aria-label="Ingredient filters">
+        <label>
+          Meal
+          <select id="ingredientMealFilter">
+            <option value="all">All meals</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+          </select>
+        </label>
+
+        <label>
+          Style
+          <select id="ingredientStyleFilter">
+            <option value="all">All styles</option>
+            <option value="meat">Meat</option>
+            <option value="rice-or-pasta">Rice or Pasta</option>
+            <option value="soup-or-stew">Soup or Stew</option>
+            <option value="handheld">Handheld</option>
+            <option value="baked-casserole">Baked Casserole</option>
+            <option value="bowls">Bowls</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="seafood">Seafood</option>
+          </select>
+        </label>
+
+        <label>
+          Match mode
+          <select id="ingredientMode">
+            <option value="and">AND (all ingredients)</option>
+            <option value="or">OR (any ingredient)</option>
+          </select>
+        </label>
+
+        <label class="searchField wideSearch">
+          Ingredients (comma separated)
+          <input
+            id="ingredientQuery"
+            type="search"
+            placeholder="Try: chicken, rice, spinach"
+          />
+        </label>
+
+        <label class="searchField wideSearch">
+          Recipe title search
+          <input
+            id="titleQuery"
+            type="search"
+            placeholder="Try: soup, tacos, lasagne"
+          />
+        </label>
+      </section>
+
+      <section class="metaBar" aria-live="polite">
+        <p id="ingredientResultCount">0 recipes</p>
+        <p id="ingredientDataStatus" class="ingredientDataStatus"></p>
+      </section>
+
+      <section>
+        <ul id="ingredientRecipeGrid" class="grid"></ul>
+      </section>
+    </main>
+
+    <script src="ingredients.js"></script>
+  </body>
+</html>

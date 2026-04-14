@@ -1,0 +1,528 @@
+{
+  "generated_at": "2026-04-14T21:09:02.413Z",
+  "total_ingredients": 72,
+  "entries": [
+    {
+      "ingredient": "all-purpose flour",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "applesauce",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "baking powder",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits",
+        "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "baking soda",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "basil",
+      "recipe_ids": [
+        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
+        "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach"
+      ]
+    },
+    {
+      "ingredient": "beef",
+      "recipe_ids": [
+        "dinner-meat-cheeseburgers",
+        "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
+        "dinner-rice-or-pasta-hamburger-stroganoff"
+      ]
+    },
+    {
+      "ingredient": "boneless skinless chicken breasts",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "broccoli",
+      "recipe_ids": [
+        "dinner-soup-or-stew-cheddar-broccoli-soup"
+      ]
+    },
+    {
+      "ingredient": "broth",
+      "recipe_ids": [
+        "breakfast-meat-white-chicken-chili",
+        "dinner-meat-chili",
+        "dinner-meat-round-steak-stroganoff",
+        "dinner-meat-stew",
+        "dinner-rice-or-pasta-hamburger-stroganoff",
+        "dinner-soup-or-stew-cheddar-broccoli-soup",
+        "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
+        "dinner-soup-or-stew-chicken-wild-rice-soup",
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
+        "dinner-soup-or-stew-wonton-soup"
+      ]
+    },
+    {
+      "ingredient": "butter",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits",
+        "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "can crushed pineapple well drained",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "can pinto beans",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "cans chicken broth",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "cheese",
+      "recipe_ids": [
+        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
+        "dinner-baked-casserole-homemade-pizza",
+        "dinner-bowls-chipotle-bowls",
+        "dinner-meat-camper-chicken-enchiladas",
+        "dinner-meat-cheeseburgers",
+        "dinner-meat-deconstructed-steak-sandwiches-with-cheese",
+        "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
+        "dinner-meat-tacos",
+        "dinner-rice-or-pasta-homemade-mac-n-cheese",
+        "dinner-rice-or-pasta-lasagne",
+        "dinner-rice-or-pasta-penne-lasagne",
+        "dinner-rice-or-pasta-spaghetti",
+        "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
+        "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
+        "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
+      ]
+    },
+    {
+      "ingredient": "chicken",
+      "recipe_ids": [
+        "breakfast-meat-greek-pitas-with-chicken",
+        "breakfast-meat-white-chicken-chili",
+        "dinner-meat-camper-chicken-enchiladas",
+        "dinner-meat-chicken-parm",
+        "dinner-meat-chicken-wings",
+        "dinner-meat-fried-chicken",
+        "dinner-meat-grilled-chicken-with-potato-salad",
+        "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
+        "dinner-soup-or-stew-chicken-wild-rice-soup"
+      ]
+    },
+    {
+      "ingredient": "chili powder",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "cilantro",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "cilantro green onions and peanuts for topping",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "cloves garlic",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "cooking salt kosher salt",
+      "recipe_ids": [
+        "breakfast-baked-casserole-crusty-bread"
+      ]
+    },
+    {
+      "ingredient": "cornstarch",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "cumin",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "eggs",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "flour",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits",
+        "breakfast-baked-casserole-crusty-bread",
+        "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
+        "dinner-baked-casserole-homemade-pizza"
+      ]
+    },
+    {
+      "ingredient": "flour or cornstarch",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "frozen corn",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "garlic",
+      "recipe_ids": [
+        "breakfast-meat-white-chicken-chili",
+        "dinner-meat-chili",
+        "dinner-meat-stew",
+        "dinner-soup-or-stew-cheddar-broccoli-soup",
+        "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
+        "dinner-soup-or-stew-chicken-wild-rice-soup",
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
+        "dinner-soup-or-stew-wonton-soup"
+      ]
+    },
+    {
+      "ingredient": "garlic cloves",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "ginger",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "granulated sugar",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "green onions",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "ground chicken or turkey",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "ground cinnamon",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "half-and-half or heavy cream",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "honey",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "instant or rapid rise yeast",
+      "recipe_ids": [
+        "breakfast-baked-casserole-crusty-bread"
+      ]
+    },
+    {
+      "ingredient": "juice of limes",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "leaves of lettuce",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "lettuce",
+      "recipe_ids": [
+        "dinner-handheld-lettuce-wraps"
+      ]
+    },
+    {
+      "ingredient": "lightly salted peanuts",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "mushroom",
+      "recipe_ids": [
+        "dinner-meat-round-steak-stroganoff",
+        "dinner-rice-or-pasta-hamburger-stroganoff"
+      ]
+    },
+    {
+      "ingredient": "oil",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "olive oil",
+      "recipe_ids": [
+        "breakfast-meat-greek-pitas-with-turkey-meat",
+        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
+        "dinner-meat-steak-kabobs-deconstructed",
+        "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
+        "dinner-vegetarian-stir-fry"
+      ]
+    },
+    {
+      "ingredient": "onion",
+      "recipe_ids": [
+        "breakfast-meat-white-chicken-chili",
+        "dinner-bowls-chipotle-bowls",
+        "dinner-meat-camper-chicken-enchiladas",
+        "dinner-meat-chili",
+        "dinner-meat-round-steak-stroganoff",
+        "dinner-meat-stew",
+        "dinner-meat-tacos",
+        "dinner-rice-or-pasta-hamburger-stroganoff",
+        "dinner-soup-or-stew-cheddar-broccoli-soup",
+        "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
+        "dinner-soup-or-stew-chicken-wild-rice-soup",
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
+        "dinner-soup-or-stew-wonton-soup"
+      ]
+    },
+    {
+      "ingredient": "oregano",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "oyster sauce",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "parmesan",
+      "recipe_ids": [
+        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
+        "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach"
+      ]
+    },
+    {
+      "ingredient": "pasta",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-homemade-mac-n-cheese",
+        "dinner-rice-or-pasta-lasagne",
+        "dinner-rice-or-pasta-penne-lasagne",
+        "dinner-rice-or-pasta-spaghetti",
+        "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
+        "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
+        "dinner-rice-or-pasta-zucchini-and-squash-lasagne"
+      ]
+    },
+    {
+      "ingredient": "peanut butter",
+      "recipe_ids": [
+        "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins"
+      ]
+    },
+    {
+      "ingredient": "pepper",
+      "recipe_ids": [
+        "breakfast-meat-greek-pitas-with-turkey-meat",
+        "dinner-meat-steak-kabobs-deconstructed",
+        "dinner-vegetarian-stir-fry"
+      ]
+    },
+    {
+      "ingredient": "pork",
+      "recipe_ids": [
+        "dinner-meat-bbq-in-crockpot",
+        "dinner-meat-braised-short-ribs",
+        "dinner-meat-pork-chops"
+      ]
+    },
+    {
+      "ingredient": "potato",
+      "recipe_ids": [
+        "dinner-meat-grilled-chicken-with-potato-salad"
+      ]
+    },
+    {
+      "ingredient": "red enchilada sauce",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "red pepper",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "rice",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
+        "dinner-rice-or-pasta-salmon-and-rice",
+        "dinner-soup-or-stew-chicken-wild-rice-soup"
+      ]
+    },
+    {
+      "ingredient": "rice noodles",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "rice vinegar",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "salt",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin",
+        "breakfast-meat-greek-pitas-with-turkey-meat",
+        "dinner-meat-steak-kabobs-deconstructed",
+        "dinner-soup-or-stew-chicken-tortilla-soup",
+        "dinner-vegetarian-stir-fry"
+      ]
+    },
+    {
+      "ingredient": "sambal oelek",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "seafood",
+      "recipe_ids": [
+        "dinner-bowls-salmon-veggie-bowls",
+        "dinner-rice-or-pasta-salmon-and-rice",
+        "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
+        "dinner-soup-or-stew-wonton-soup"
+      ]
+    },
+    {
+      "ingredient": "sesame oil",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "shredded zucchini",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "soy sauce",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "taco seasoning",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "tomato sauce",
+      "recipe_ids": [
+        "dinner-baked-casserole-homemade-pizza"
+      ]
+    },
+    {
+      "ingredient": "tortilla",
+      "recipe_ids": [
+        "dinner-bowls-chipotle-bowls",
+        "dinner-meat-camper-chicken-enchiladas",
+        "dinner-meat-tacos"
+      ]
+    },
+    {
+      "ingredient": "vanilla extract",
+      "recipe_ids": [
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "very warm tap water",
+      "recipe_ids": [
+        "breakfast-baked-casserole-crusty-bread"
+      ]
+    },
+    {
+      "ingredient": "water",
+      "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "yellow onion",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "yellow pepper",
+      "recipe_ids": [
+        "dinner-soup-or-stew-chicken-tortilla-soup"
+      ]
+    },
+    {
+      "ingredient": "zucchini",
+      "recipe_ids": [
+        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
+        "dinner-rice-or-pasta-zucchini-and-squash-lasagne"
+      ]
+    }
+  ]
+}

@@ -74,6 +74,36 @@ h1 {
   animation: riseIn 650ms ease both;
 }
 
+.controlsIngredients {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.wideSearch {
+  grid-column: span 3;
+}
+
+.subNav {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.55rem;
+}
+
+.subNav a {
+  text-decoration: none;
+  border: 1px solid #d8c7b8;
+  background: #fffdf8;
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.subNav a[aria-current="page"] {
+  background: color-mix(in srgb, var(--accent) 12%, white 88%);
+  border-color: color-mix(in srgb, var(--accent) 50%, #d8c7b8 50%);
+}
+
 .planner {
   margin-top: 1rem;
   background: color-mix(in srgb, var(--card) 90%, #d8efe8 10%);
@@ -457,6 +487,22 @@ textarea {
   color: #3e534f;
 }
 
+.ingredientCard {
+  align-content: start;
+}
+
+.ingredientSummary {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #4d3a2f;
+}
+
+.ingredientDataStatus {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #5e6e67;
+}
+
 .submitActions {
   display: flex;
   flex-wrap: wrap;
@@ -509,6 +555,14 @@ textarea {
 
   .controls {
     grid-template-columns: 1fr;
+  }
+
+  .controlsIngredients {
+    grid-template-columns: 1fr;
+  }
+
+  .wideSearch {
+    grid-column: auto;
   }
 
   .submitGrid {

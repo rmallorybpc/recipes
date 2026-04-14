@@ -1,0 +1,52 @@
+name: Ingredient Data Validation
+
+on:
+  workflow_dispatch:
+    inputs:
+      sample_size:
+        description: "Number of recipes to validate with Claude Sonnet"
+        required: false
+        default: "46"
+      chunk_size:
+        description: "Recipes per model request"
+        required: false
+        default: "8"
+
+permissions:
+  contents: read
+  models: read
+
+jobs:
+  validate-ingredients:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate ingredient data
+        run: node ./scripts/generate-ingredient-data.mjs
+
+      - name: Validate with Claude Sonnet via GitHub Models
+        env:
+          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_MODELS_MODEL: anthropic/claude-3.5-sonnet
+          VALIDATION_SAMPLE_SIZE: ${{ inputs.sample_size }}
+          VALIDATION_CHUNK_SIZE: ${{ inputs.chunk_size }}
+        run: node ./scripts/verify-ingredient-data-with-model.mjs
+
+      - name: Upload validation artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ingredient-validation-artifacts
+          path: |
+            data/recipes-with-ingredients.json
+            data/ingredient-index.json
+            data/ingredient-validation-report.json
