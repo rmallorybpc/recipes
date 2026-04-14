@@ -1,10 +1,5 @@
-# Dinner Other Recipes
+# Dinner Soup Or Stew Recipes
 
-- Stir fry
-- Lettuce wraps
-- Salmon veggie bowls
-- Chipotle bowls
-- Homemade pizza
 - Chicken tortilla soup in crock pot
 - Chicken tortilla soup
   - Source: https://dashofsanity.com/chicken-tortilla-soup-crock-pot/
