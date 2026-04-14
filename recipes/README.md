@@ -28,6 +28,8 @@ If you created a recipe via the Live page issue form, import it with:
 
 `node ./scripts/import-recipe-from-issue.mjs --issue <number-or-issue-url>`
 
+You can also label the issue with `ready-to-import` to trigger the GitHub Actions auto-import workflow.
+
 ## Naming Convention
 
 Use lowercase and hyphens.

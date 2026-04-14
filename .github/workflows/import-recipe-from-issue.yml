@@ -1,0 +1,92 @@
+name: Import Recipe From Issue
+
+"on":
+  issues:
+    types: [labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number containing recipe submission markdown"
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  import-recipe:
+    if: github.event_name == 'workflow_dispatch' || github.event.label.name == 'ready-to-import'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Determine issue number
+        id: issue
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            issue_number="${{ inputs.issue_number }}"
+          else
+            issue_number="${{ github.event.issue.number }}"
+          fi
+
+          if [[ -z "$issue_number" ]]; then
+            echo "Issue number is required" >&2
+            exit 1
+          fi
+
+          echo "issue_number=$issue_number" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Import recipe from issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node ./scripts/import-recipe-from-issue.mjs \
+            --issue "${{ steps.issue.outputs.issue_number }}" \
+            --repo "${{ github.repository }}"
+
+      - name: Regenerate ingredient datasets
+        run: node ./scripts/generate-ingredient-data.mjs
+
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/import-recipe-issue-${{ steps.issue.outputs.issue_number }}
+          delete-branch: true
+          commit-message: "chore: import recipe from issue #${{ steps.issue.outputs.issue_number }}"
+          title: "Import recipe from issue #${{ steps.issue.outputs.issue_number }}"
+          body: |
+            Automated import generated from issue #${{ steps.issue.outputs.issue_number }}.
+
+            This workflow:
+            - imports the recipe markdown into recipes/<meal>/<style>/
+            - updates the matching known-recipes.md
+            - updates the homepage RECIPES list in script.js
+            - regenerates ingredient datasets
+          labels: automation
+
+      - name: Comment on issue with PR link
+        if: github.event_name == 'issues' && steps.cpr.outputs.pull-request-number != ''
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = Number("${{ steps.issue.outputs.issue_number }}");
+            const prNumber = "${{ steps.cpr.outputs.pull-request-number }}";
+            const prUrl = "${{ steps.cpr.outputs.pull-request-url }}";
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: `Imported recipe changes are ready in PR #${prNumber}: ${prUrl}`
+            });

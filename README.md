@@ -82,6 +82,17 @@ Then regenerate ingredient data:
 
 `node ./scripts/generate-ingredient-data.mjs`
 
+### Automatic import via GitHub Actions
+
+Apply the `ready-to-import` label to a recipe submission issue. The workflow in `.github/workflows/import-recipe-from-issue.yml` will:
+
+- run the importer for that issue
+- regenerate ingredient datasets
+- open a pull request with the changes
+- comment back on the issue with the PR link
+
+You can also run it manually from Actions using the `Import Recipe From Issue` workflow and provide the issue number.
+
 ## Search Recipes
 
 Use the helper script:
