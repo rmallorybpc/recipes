@@ -13,7 +13,7 @@ usage() {
 Search recipes by meal, style, and free text.
 
 Usage:
-  ./scripts/find-recipe.sh [--meal breakfast|lunch|dinner] [--style meat|rice-or-pasta|other] [--q text]
+  ./scripts/find-recipe.sh [--meal breakfast|lunch|dinner] [--style meat|rice-or-pasta|soup-or-stew|handheld|baked-casserole|bowls|vegetarian|seafood] [--q text]
 
 Examples:
   ./scripts/find-recipe.sh --meal dinner --style meat

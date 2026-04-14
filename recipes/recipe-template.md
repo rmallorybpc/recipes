@@ -1,7 +1,7 @@
 ---
 title: ""
 meal: breakfast   # breakfast | lunch | dinner
-style: other      # meat | rice-or-pasta | other
+style: meat       # meat | rice-or-pasta | soup-or-stew | handheld | baked-casserole | bowls | vegetarian | seafood
 protein: ""       # chicken | beef | pork | fish | tofu | none | etc.
 cuisine: ""       # mexican | italian | american | etc.
 time_minutes: 0

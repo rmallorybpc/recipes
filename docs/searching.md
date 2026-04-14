@@ -5,7 +5,7 @@ Use `./scripts/find-recipe.sh` from the repository root.
 ## Quick Filters
 
 - By meal: `--meal breakfast|lunch|dinner`
-- By style: `--style meat|rice-or-pasta|other`
+- By style: `--style meat|rice-or-pasta|soup-or-stew|handheld|baked-casserole|bowls|vegetarian|seafood`
 - By keyword or text: `--q <text>`
 
 ## Useful Search Patterns

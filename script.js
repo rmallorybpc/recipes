@@ -1,5 +1,5 @@
 const RECIPES = [
-  { name: "Tacos", meal: "dinner", style: "meat" },
+  { name: "Tacos", meal: "dinner", style: "handheld" },
   { name: "Skillet meatloaf / cheeseburger meatloaf", meal: "dinner", style: "meat" },
   { name: "Cheeseburgers", meal: "dinner", style: "meat" },
   { name: "Round steak stroganoff", meal: "dinner", style: "meat" },
@@ -7,14 +7,14 @@ const RECIPES = [
   { name: "Chicken parm", meal: "dinner", style: "meat" },
   { name: "Grilled chicken with potato salad", meal: "dinner", style: "meat" },
   { name: "Fried chicken", meal: "dinner", style: "meat" },
-  { name: "Camper chicken enchiladas", meal: "dinner", style: "meat" },
+  { name: "Camper chicken enchiladas", meal: "dinner", style: "handheld" },
   { name: "Chicken wings", meal: "dinner", style: "meat" },
   { name: "Steak kabobs deconstructed", meal: "dinner", style: "meat" },
-  { name: "Chili", meal: "dinner", style: "meat" },
+  { name: "Chili", meal: "dinner", style: "soup-or-stew" },
   { name: "BBQ in crockpot", meal: "dinner", style: "meat" },
   { name: "Braised short ribs", meal: "dinner", style: "meat" },
-  { name: "Stew", meal: "dinner", style: "meat" },
-  { name: "Deconstructed steak sandwiches with cheese", meal: "dinner", style: "meat" },
+  { name: "Stew", meal: "dinner", style: "soup-or-stew" },
+  { name: "Deconstructed steak sandwiches with cheese", meal: "dinner", style: "handheld" },
 
   { name: "Meatballs with zucchini and rice", meal: "dinner", style: "rice-or-pasta" },
   { name: "Hamburger stroganoff", meal: "dinner", style: "rice-or-pasta" },
@@ -35,67 +35,67 @@ const RECIPES = [
   { name: "Salmon and rice", meal: "dinner", style: "rice-or-pasta" },
   { name: "Zucchini and squash lasagne", meal: "dinner", style: "rice-or-pasta" },
 
-  { name: "Stir fry", meal: "dinner", style: "other" },
-  { name: "Lettuce wraps", meal: "dinner", style: "other" },
-  { name: "Salmon veggie bowls", meal: "dinner", style: "other" },
-  { name: "Chipotle bowls", meal: "dinner", style: "other" },
-  { name: "Homemade pizza", meal: "dinner", style: "other" },
+  { name: "Stir fry", meal: "dinner", style: "vegetarian" },
+  { name: "Lettuce wraps", meal: "dinner", style: "handheld" },
+  { name: "Salmon veggie bowls", meal: "dinner", style: "bowls" },
+  { name: "Chipotle bowls", meal: "dinner", style: "bowls" },
+  { name: "Homemade pizza", meal: "dinner", style: "baked-casserole" },
   {
     name: "Chicken tortilla soup in crock pot",
     meal: "dinner",
-    style: "other",
+    style: "soup-or-stew",
     source: "https://dashofsanity.com/chicken-tortilla-soup-crock-pot/"
   },
-  { name: "Chicken tortilla soup", meal: "dinner", style: "other" },
-  { name: "Cheddar broccoli soup", meal: "dinner", style: "other" },
-  { name: "Chicken wild rice soup", meal: "dinner", style: "other" },
-  { name: "Wonton soup", meal: "dinner", style: "other" },
-  { name: "Grilled cheese and tomato soup", meal: "dinner", style: "other" },
+  { name: "Chicken tortilla soup", meal: "dinner", style: "soup-or-stew" },
+  { name: "Cheddar broccoli soup", meal: "dinner", style: "soup-or-stew" },
+  { name: "Chicken wild rice soup", meal: "dinner", style: "soup-or-stew" },
+  { name: "Wonton soup", meal: "dinner", style: "soup-or-stew" },
+  { name: "Grilled cheese and tomato soup", meal: "dinner", style: "soup-or-stew" },
 
   {
     name: "White chicken chili",
     meal: "breakfast",
-    style: "meat",
+    style: "soup-or-stew",
     source:
       "https://www.pinterest.com/pin/487233253450153141/sent/?invite_code=4fe827f3cea649cf9c9996a6747132c8&sender=487233390844584842&sfo=1"
   },
   {
     name: "Peanut chicken lettuce wraps with ginger garlic sauce",
     meal: "breakfast",
-    style: "meat",
+    style: "handheld",
     source: "https://pinchofyum.com/peanut-chicken-lettuce-wraps-ginger-garlic-sauce"
   },
-  { name: "Greek pitas with chicken", meal: "breakfast", style: "meat" },
-  { name: "Greek pitas with turkey meat", meal: "breakfast", style: "meat" },
+  { name: "Greek pitas with chicken", meal: "breakfast", style: "handheld" },
+  { name: "Greek pitas with turkey meat", meal: "breakfast", style: "handheld" },
 
   {
     name: "Pineapple zucchini muffin",
     meal: "breakfast",
-    style: "other",
+    style: "baked-casserole",
     source: "https://www.blessthismessplease.com/zucchini-pineapple-muffins/"
   },
   {
     name: "Flourless chickpea peanut butter muffins",
     meal: "breakfast",
-    style: "other",
+    style: "baked-casserole",
     source: "https://www.ambitiouskitchen.com/flourless-peanut-butter-chickpea-muffins/"
   },
   {
     name: "Big daddy biscuits",
     meal: "breakfast",
-    style: "other",
+    style: "baked-casserole",
     source: "https://www.allrecipes.com/recipe/7040/jps-big-daddy-biscuits/"
   },
   {
     name: "Crusty bread",
     meal: "breakfast",
-    style: "other",
+    style: "baked-casserole",
     source: "https://www.recipetineats.com/easy-yeast-bread-recipe-no-knead/"
   },
   {
     name: "Spicy pesto and cheese stuffed zucchini involtin",
     meal: "breakfast",
-    style: "other",
+    style: "vegetarian",
     source:
       "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
   }

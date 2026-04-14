@@ -7,7 +7,7 @@ This folder stores all known recipes.
 Recipes are organized by two dimensions:
 
 1. Meal time: `breakfast`, `lunch`, `dinner`
-2. Primary style: `meat`, `rice-or-pasta`, `other`
+2. Primary style: `meat`, `rice-or-pasta`, `soup-or-stew`, `handheld`, `baked-casserole`, `bowls`, `vegetarian`, `seafood`
 
 Path pattern:
 

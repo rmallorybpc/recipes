@@ -13,7 +13,7 @@ The live page opens a recipe explorer with browse and search filters.
 This repo is set up to store known recipes and make them easy to find by:
 
 - Meal: breakfast, lunch, dinner
-- Style: meat, rice-or-pasta, other
+- Style: meat, rice-or-pasta, soup-or-stew, handheld, baked-casserole, bowls, vegetarian, seafood
 - Keywords and free-text search
 
 ## Folder Layout
@@ -23,15 +23,30 @@ recipes/
 	breakfast/
 		meat/
 		rice-or-pasta/
-		other/
+		soup-or-stew/
+		handheld/
+		baked-casserole/
+		bowls/
+		vegetarian/
+		seafood/
 	lunch/
 		meat/
 		rice-or-pasta/
-		other/
+		soup-or-stew/
+		handheld/
+		baked-casserole/
+		bowls/
+		vegetarian/
+		seafood/
 	dinner/
 		meat/
 		rice-or-pasta/
-		other/
+		soup-or-stew/
+		handheld/
+		baked-casserole/
+		bowls/
+		vegetarian/
+		seafood/
 ```
 
 Use this path shape for each recipe file:
