@@ -74,6 +74,186 @@ h1 {
   animation: riseIn 650ms ease both;
 }
 
+.planner {
+  margin-top: 1rem;
+  background: color-mix(in srgb, var(--card) 90%, #d8efe8 10%);
+  border: 1px solid #d4e2da;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  animation: riseIn 540ms ease both;
+}
+
+.plannerHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.plannerActions {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.plannerHead h2 {
+  margin: 0;
+}
+
+.plannerHelp {
+  margin: 0.35rem 0 0.8rem;
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.plannerActionButton {
+  border: 1px solid #d8c7b8;
+  background: #fffdf8;
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 0.5rem 0.7rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.plannerActionButton:hover {
+  background: #f8f1e8;
+}
+
+.plannerActionButton:focus-visible {
+  outline: 3px solid var(--ring);
+}
+
+.plannerGrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(7, minmax(120px, 1fr));
+}
+
+.dayColumn {
+  background: #fffdfa;
+  border: 1px solid #e6d8c8;
+  border-radius: 14px;
+  padding: 0.65rem;
+  min-height: 220px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.55rem;
+}
+
+.dayColumn.isOver {
+  border-color: var(--accent-2);
+  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--accent-2) 35%, white 65%);
+  background: #f4fcf8;
+}
+
+.dayTitle {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.dayList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+  align-content: start;
+}
+
+.mealLanes {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.mealLane {
+  border: 1px dashed #dccdbf;
+  border-radius: 10px;
+  background: #fffefb;
+  padding: 0.45rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.mealLane.isOver {
+  border-color: var(--accent-2);
+  background: #f4fcf8;
+}
+
+.mealLaneTitle {
+  margin: 0;
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6e5f53;
+}
+
+.dayRecipe {
+  border: 1px solid #e7dccc;
+  border-radius: 10px;
+  background: #fff;
+  padding: 0.45rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.dayRecipeName {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.removePlanned {
+  justify-self: start;
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0;
+  cursor: pointer;
+}
+
+.removePlanned:hover {
+  text-decoration: underline;
+}
+
+.dayHint {
+  margin: 0;
+  font-size: 0.78rem;
+  color: #7a6a5f;
+}
+
+.clearDayButton {
+  justify-self: start;
+  border: 1px solid #ddcbbb;
+  border-radius: 9px;
+  background: #fffaf3;
+  color: #5b4539;
+  padding: 0.25rem 0.45rem;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.clearDayButton:hover {
+  background: #f6ecdf;
+}
+
+.clearDayButton:focus-visible {
+  outline: 3px solid var(--ring);
+}
+
 label {
   display: grid;
   gap: 0.35rem;
@@ -124,6 +304,47 @@ input:focus {
   transform: translateY(12px);
   opacity: 0;
   animation: reveal 420ms ease forwards;
+}
+
+.card[draggable="true"] {
+  cursor: grab;
+}
+
+.card[draggable="true"]:active {
+  cursor: grabbing;
+}
+
+.addToPlan {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.addToPlan select {
+  padding: 0.35rem 0.45rem;
+  border-radius: 9px;
+  font-size: 0.8rem;
+}
+
+.addToPlanButton {
+  border: 1px solid #ddcbbb;
+  border-radius: 9px;
+  background: #fffaf3;
+  color: #5b4539;
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.addToPlanButton:hover {
+  background: #f6ecdf;
+}
+
+.addToPlanButton:focus-visible {
+  outline: 3px solid var(--ring);
 }
 
 .recipeName {
@@ -196,7 +417,63 @@ input:focus {
     padding-top: 1.2rem;
   }
 
+  .plannerHead {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .plannerActions {
+    width: 100%;
+  }
+
+  .plannerActionButton {
+    flex: 1;
+  }
+
+  .plannerGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .dayColumn {
+    min-height: 0;
+  }
+
   .controls {
     grid-template-columns: 1fr;
+  }
+
+  .addToPlan {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .hero,
+  .controls,
+  .metaBar,
+  .grid,
+  .listLinks,
+  .plannerHelp,
+  .plannerActions,
+  .clearDayButton,
+  .removePlanned,
+  .dayHint {
+    display: none !important;
+  }
+
+  .page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .planner {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .plannerGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
