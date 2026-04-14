@@ -98,7 +98,8 @@ const RECIPES = [
     style: "vegetarian",
     source:
       "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
-  }
+  },
+  { name: "Beef and broccoli", meal: "dinner", style: "meat" },
 ];
 
 const mealFilter = document.querySelector("#mealFilter");

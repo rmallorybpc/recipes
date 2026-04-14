@@ -64,6 +64,24 @@ Use this path shape for each recipe file:
 3. Fill metadata (`meal`, `style`, `protein`, `cuisine`, `keywords`)
 4. Add ingredients and instructions
 
+If a recipe came in through the Live page as a GitHub issue, you can import it automatically:
+
+`node ./scripts/import-recipe-from-issue.mjs --issue <number-or-issue-url>`
+
+Example:
+
+`node ./scripts/import-recipe-from-issue.mjs --issue 1`
+
+What it updates:
+
+- recipe markdown file under `recipes/<meal>/<style>/`
+- corresponding `known-recipes.md`
+- `RECIPES` list in `script.js`
+
+Then regenerate ingredient data:
+
+`node ./scripts/generate-ingredient-data.mjs`
+
 ## Search Recipes
 
 Use the helper script:

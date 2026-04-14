@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-14T21:09:02.411Z",
+  "generated_at": "2026-04-14T21:42:47.804Z",
   "stats": {
-    "total_recipes": 46,
+    "total_recipes": 47,
     "with_existing_source": 8,
     "resolved_from_search": 0,
     "scraped_ingredients": 4,
-    "heuristic_only": 42
+    "heuristic_only": 43
   },
   "recipes": [
     {
@@ -339,6 +339,25 @@
       ],
       "ingredients_normalized": [
         "pork"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Beef and broccoli",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-beef-and-broccoli",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "beef",
+        "broccoli"
+      ],
+      "ingredients_normalized": [
+        "beef",
+        "broccoli"
       ],
       "ingredient_source": "title_heuristic",
       "confidence": 0.35

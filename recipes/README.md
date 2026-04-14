@@ -24,6 +24,10 @@ Example:
 3. Fill in metadata fields and instructions
 4. Add keywords that make searching easy
 
+If you created a recipe via the Live page issue form, import it with:
+
+`node ./scripts/import-recipe-from-issue.mjs --issue <number-or-issue-url>`
+
 ## Naming Convention
 
 Use lowercase and hyphens.

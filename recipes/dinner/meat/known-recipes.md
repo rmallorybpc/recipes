@@ -16,3 +16,5 @@
 - Braised short ribs
 - Stew
 - Deconstructed steak sandwiches with cheese
+
+- Beef and broccoli

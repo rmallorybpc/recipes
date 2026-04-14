@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T21:09:02.413Z",
+  "generated_at": "2026-04-14T21:42:47.807Z",
   "total_ingredients": 72,
   "entries": [
     {
@@ -38,6 +38,7 @@
     {
       "ingredient": "beef",
       "recipe_ids": [
+        "dinner-meat-beef-and-broccoli",
         "dinner-meat-cheeseburgers",
         "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
         "dinner-rice-or-pasta-hamburger-stroganoff"
@@ -52,6 +53,7 @@
     {
       "ingredient": "broccoli",
       "recipe_ids": [
+        "dinner-meat-beef-and-broccoli",
         "dinner-soup-or-stew-cheddar-broccoli-soup"
       ]
     },
