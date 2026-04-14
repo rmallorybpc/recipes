@@ -92,6 +92,106 @@
           <li><a href="recipes/README.md">Recipe folder guide</a></li>
         </ul>
       </section>
+
+      <section class="submitRecipe" aria-label="Submit a recipe">
+        <h2>Submit A Recipe</h2>
+        <p>
+          Fill this out and click Create GitHub Issue. It will open a prefilled issue with
+          your recipe in the repository template format.
+        </p>
+
+        <form id="recipeSubmitForm" class="submitForm">
+          <label>
+            Recipe Title
+            <input id="submitTitle" name="title" type="text" required placeholder="e.g. One-pan lemon chicken rice" />
+          </label>
+
+          <div class="submitGrid">
+            <label>
+              Meal
+              <select id="submitMeal" name="meal" required>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner" selected>Dinner</option>
+              </select>
+            </label>
+
+            <label>
+              Style
+              <select id="submitStyle" name="style" required>
+                <option value="meat">Meat</option>
+                <option value="rice-or-pasta">Rice or Pasta</option>
+                <option value="soup-or-stew">Soup or Stew</option>
+                <option value="handheld">Handheld</option>
+                <option value="baked-casserole">Baked Casserole</option>
+                <option value="bowls">Bowls</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="seafood">Seafood</option>
+              </select>
+            </label>
+
+            <label>
+              Protein
+              <input id="submitProtein" name="protein" type="text" placeholder="e.g. chicken, tofu, none" />
+            </label>
+
+            <label>
+              Cuisine
+              <input id="submitCuisine" name="cuisine" type="text" placeholder="e.g. italian, mexican" />
+            </label>
+          </div>
+
+          <div class="submitGrid">
+            <label>
+              Time (minutes)
+              <input id="submitTime" name="time_minutes" type="number" min="0" step="1" value="0" />
+            </label>
+
+            <label>
+              Servings
+              <input id="submitServings" name="servings" type="number" min="0" step="1" value="0" />
+            </label>
+
+            <label class="wideField">
+              Source URL (optional)
+              <input id="submitSource" name="source" type="url" placeholder="https://..." />
+            </label>
+          </div>
+
+          <label>
+            Keywords (comma separated)
+            <input id="submitKeywords" name="keywords" type="text" placeholder="quick, kid-friendly, meal-prep" />
+          </label>
+
+          <label>
+            Summary
+            <textarea id="submitSummary" name="summary" rows="3" placeholder="A short description of the dish."></textarea>
+          </label>
+
+          <label>
+            Ingredients (one per line)
+            <textarea id="submitIngredients" name="ingredients" rows="6" placeholder="1 lb chicken\n2 cups rice"></textarea>
+          </label>
+
+          <label>
+            Instructions (one step per line)
+            <textarea id="submitInstructions" name="instructions" rows="6" placeholder="Season chicken\nCook rice\nServe"></textarea>
+          </label>
+
+          <label>
+            Notes (optional, one per line)
+            <textarea id="submitNotes" name="notes" rows="4" placeholder="Freezes well\nSwap cilantro for parsley"></textarea>
+          </label>
+
+          <p id="submitPathPreview" class="pathPreview" aria-live="polite"></p>
+          <p id="submitStatus" class="submitStatus" aria-live="polite"></p>
+
+          <div class="submitActions">
+            <button id="submitIssueButton" type="submit" class="plannerActionButton">Create GitHub Issue</button>
+            <button id="copyRecipeMarkdown" type="button" class="plannerActionButton">Copy Markdown</button>
+          </div>
+        </form>
+      </section>
     </main>
 
     <script src="script.js"></script>

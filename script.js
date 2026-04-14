@@ -112,8 +112,14 @@ const clearCalendar = document.querySelector("#clearCalendar");
 const copyPlan = document.querySelector("#copyPlan");
 const exportPlan = document.querySelector("#exportPlan");
 const printPlan = document.querySelector("#printPlan");
+const recipeSubmitForm = document.querySelector("#recipeSubmitForm");
+const submitPathPreview = document.querySelector("#submitPathPreview");
+const submitStatus = document.querySelector("#submitStatus");
+const copyRecipeMarkdown = document.querySelector("#copyRecipeMarkdown");
 
 const STORAGE_KEY = "weeklyRecipePlanner.v1";
+const GITHUB_OWNER = "rmallorybpc";
+const GITHUB_REPO = "recipes";
 const DAYS = [
   { key: "sunday", label: "Sunday" },
   { key: "monday", label: "Monday" },
@@ -144,6 +150,175 @@ function toId(str) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+function toQuotedYamlArray(value) {
+  const tags = value
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean)
+    .map((item) => `"${item.replace(/"/g, "\\\"")}"`);
+
+  return `[${tags.join(", ")}]`;
+}
+
+function toLineItems(value, prefix) {
+  const items = value
+    .split(/\r?\n/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+
+  if (!items.length) {
+    return [prefix === "-" ? "- " : "1. "];
+  }
+
+  if (prefix === "-") {
+    return items.map((item) => `- ${item}`);
+  }
+
+  return items.map((item, index) => `${index + 1}. ${item}`);
+}
+
+function buildSuggestedPath(title, meal, style) {
+  return `recipes/${meal}/${style}/${toId(title || "new-recipe")}.md`;
+}
+
+function buildRecipeMarkdown(data) {
+  const ingredients = toLineItems(data.ingredients, "-");
+  const instructions = toLineItems(data.instructions, "1.");
+  const notes = toLineItems(data.notes, "-");
+  const sourceNote = data.source ? [`- Source: ${data.source}`] : [];
+  const summary = data.summary || "A short description of the dish.";
+
+  return [
+    "---",
+    `title: \"${data.title.replace(/\"/g, "\\\"")}\"`,
+    `meal: ${data.meal}`,
+    `style: ${data.style}`,
+    `protein: \"${data.protein.replace(/\"/g, "\\\"")}\"`,
+    `cuisine: \"${data.cuisine.replace(/\"/g, "\\\"")}\"`,
+    `time_minutes: ${data.timeMinutes}`,
+    `servings: ${data.servings}`,
+    `keywords: ${toQuotedYamlArray(data.keywords)}`,
+    "---",
+    "",
+    "# Summary",
+    "",
+    summary,
+    "",
+    "# Ingredients",
+    "",
+    ...ingredients,
+    "",
+    "# Instructions",
+    "",
+    ...instructions,
+    "",
+    "# Notes",
+    "",
+    ...notes,
+    ...sourceNote
+  ].join("\n");
+}
+
+function collectSubmissionData() {
+  if (!(recipeSubmitForm instanceof HTMLFormElement)) {
+    return null;
+  }
+
+  const formData = new FormData(recipeSubmitForm);
+  const title = (formData.get("title") || "").toString().trim();
+
+  return {
+    title,
+    meal: (formData.get("meal") || "dinner").toString(),
+    style: (formData.get("style") || "meat").toString(),
+    protein: (formData.get("protein") || "").toString().trim(),
+    cuisine: (formData.get("cuisine") || "").toString().trim(),
+    timeMinutes: Number.parseInt((formData.get("time_minutes") || "0").toString(), 10) || 0,
+    servings: Number.parseInt((formData.get("servings") || "0").toString(), 10) || 0,
+    keywords: (formData.get("keywords") || "").toString(),
+    summary: (formData.get("summary") || "").toString().trim(),
+    ingredients: (formData.get("ingredients") || "").toString(),
+    instructions: (formData.get("instructions") || "").toString(),
+    notes: (formData.get("notes") || "").toString(),
+    source: (formData.get("source") || "").toString().trim()
+  };
+}
+
+function buildIssueUrl(data, suggestedPath, markdown) {
+  const issueTitle = `Recipe submission: ${data.title}`;
+  const issueBody = [
+    "## Proposed Recipe",
+    "",
+    `Suggested file path: ${suggestedPath}`,
+    "",
+    "Please review and add this recipe markdown file:",
+    "",
+    "```md",
+    markdown,
+    "```"
+  ].join("\n");
+
+  return `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}`;
+}
+
+function updateSubmitPathPreview() {
+  if (!(recipeSubmitForm instanceof HTMLFormElement) || !submitPathPreview) {
+    return;
+  }
+
+  const formData = new FormData(recipeSubmitForm);
+  const title = (formData.get("title") || "").toString().trim();
+  const meal = (formData.get("meal") || "dinner").toString();
+  const style = (formData.get("style") || "meat").toString();
+  const path = buildSuggestedPath(title, meal, style);
+  submitPathPreview.textContent = `Suggested file path: ${path}`;
+}
+
+function setSubmitStatus(message) {
+  if (!submitStatus) {
+    return;
+  }
+
+  submitStatus.textContent = message;
+}
+
+async function copyRecipeTemplateMarkdown() {
+  const data = collectSubmissionData();
+  if (!data || !data.title) {
+    setSubmitStatus("Enter a recipe title first.");
+    return;
+  }
+
+  const markdown = buildRecipeMarkdown(data);
+
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(markdown);
+      setSubmitStatus("Recipe markdown copied.");
+      return;
+    }
+  } catch (_error) {
+    setSubmitStatus("Copy failed. Use Create GitHub Issue instead.");
+  }
+}
+
+function submitRecipeIssue(event) {
+  event.preventDefault();
+
+  const data = collectSubmissionData();
+  if (!data || !data.title) {
+    setSubmitStatus("Recipe title is required.");
+    return;
+  }
+
+  const suggestedPath = buildSuggestedPath(data.title, data.meal, data.style);
+  const markdown = buildRecipeMarkdown(data);
+  const issueUrl = buildIssueUrl(data, suggestedPath, markdown);
+
+  window.open(issueUrl, "_blank", "noopener");
+  setSubmitStatus("Opened GitHub Issue with your prefilled recipe.");
 }
 
 function makeEmptyWeekPlan() {
@@ -530,6 +705,16 @@ printPlan.addEventListener("click", () => window.print());
 mealFilter.addEventListener("change", applyFilters);
 styleFilter.addEventListener("change", applyFilters);
 queryFilter.addEventListener("input", applyFilters);
+
+if (recipeSubmitForm instanceof HTMLFormElement) {
+  recipeSubmitForm.addEventListener("input", updateSubmitPathPreview);
+  recipeSubmitForm.addEventListener("submit", submitRecipeIssue);
+  updateSubmitPathPreview();
+}
+
+if (copyRecipeMarkdown) {
+  copyRecipeMarkdown.addEventListener("click", copyRecipeTemplateMarkdown);
+}
 
 hydrateRecipeIds();
 weekPlan = loadWeekPlan();

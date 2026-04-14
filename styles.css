@@ -270,7 +270,8 @@ label {
 }
 
 select,
-input {
+input,
+textarea {
   width: 100%;
   border: 1px solid #d8c7b8;
   background: #fffdf8;
@@ -281,9 +282,15 @@ input {
 }
 
 select:focus,
-input:focus {
+input:focus,
+textarea:focus {
   outline: 3px solid var(--ring);
   border-color: var(--accent);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 3.1rem;
 }
 
 .metaBar {
@@ -402,6 +409,60 @@ input:focus {
   color: #355d89;
 }
 
+.submitRecipe {
+  margin-top: 1.2rem;
+  background: color-mix(in srgb, var(--card) 90%, #f6e0cf 10%);
+  border: 1px solid #e5d5c6;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.submitRecipe h2 {
+  margin-top: 0;
+}
+
+.submitRecipe > p {
+  margin-top: 0.35rem;
+  color: var(--muted);
+}
+
+.submitForm {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.submitGrid {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.wideField {
+  grid-column: span 2;
+}
+
+.pathPreview {
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #365c53;
+}
+
+.submitStatus {
+  margin: 0;
+  min-height: 1.1em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #3e534f;
+}
+
+.submitActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 @keyframes riseIn {
   from {
     transform: translateY(12px);
@@ -450,6 +511,14 @@ input:focus {
     grid-template-columns: 1fr;
   }
 
+  .submitGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .wideField {
+    grid-column: auto;
+  }
+
   .addToPlan {
     grid-template-columns: 1fr;
   }
@@ -461,6 +530,7 @@ input:focus {
   .metaBar,
   .grid,
   .listLinks,
+  .submitRecipe,
   .plannerHelp,
   .plannerActions,
   .clearDayButton,
