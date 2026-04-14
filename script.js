@@ -489,6 +489,9 @@ function renderPlanner() {
         const expanded = breakfastExpandedByDay[day.key];
         const panelId = `breakfast-${day.key}-panel`;
         lane.classList.add("mealLaneBreakfast");
+        if (!expanded) {
+          lane.classList.add("isCollapsed");
+        }
 
         lane.innerHTML = `
           <button
@@ -562,20 +565,6 @@ function renderPlanner() {
 
     plannerGrid.appendChild(li);
   });
-}
-
-function dayOptions(selectedDay = DAYS[0].key) {
-  return DAYS.map((day) => {
-    const selected = day.key === selectedDay ? "selected" : "";
-    return `<option value="${day.key}" ${selected}>${day.label}</option>`;
-  }).join("");
-}
-
-function mealOptions(selectedMeal = "dinner") {
-  return MEALS.map((meal) => {
-    const selected = meal.key === selectedMeal ? "selected" : "";
-    return `<option value="${meal.key}" ${selected}>${meal.label}</option>`;
-  }).join("");
 }
 
 function buildPlanExport() {
@@ -680,15 +669,6 @@ function renderCards(items) {
         <span class="tag">${pretty(recipe.meal)}</span>
         <span class="tag">${pretty(recipe.style)}</span>
       </div>
-      <div class="addToPlan">
-        <select class="addDay" aria-label="Day for ${recipe.name}">
-          ${dayOptions()}
-        </select>
-        <select class="addMeal" aria-label="Meal slot for ${recipe.name}">
-          ${mealOptions(recipe.meal)}
-        </select>
-        <button type="button" class="addToPlanButton">Add</button>
-      </div>
       ${sourceHtml}
     `;
 
@@ -741,31 +721,6 @@ plannerGrid.addEventListener("click", (event) => {
         toggleBreakfastLane(day);
       }
     }
-  }
-});
-
-recipeGrid.addEventListener("click", (event) => {
-  const target = event.target;
-
-  if (!(target instanceof HTMLElement) || !target.classList.contains("addToPlanButton")) {
-    return;
-  }
-
-  const card = target.closest(".card");
-  if (!(card instanceof HTMLElement)) {
-    return;
-  }
-
-  const daySelect = card.querySelector(".addDay");
-  const mealSelect = card.querySelector(".addMeal");
-  const recipeId = card.dataset.recipeId;
-
-  if (
-    recipeId &&
-    daySelect instanceof HTMLSelectElement &&
-    mealSelect instanceof HTMLSelectElement
-  ) {
-    addRecipeToDay(daySelect.value, mealSelect.value, recipeId);
   }
 });
 

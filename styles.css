@@ -250,6 +250,15 @@ h1 {
   font: inherit;
 }
 
+.mealLaneBreakfast.isCollapsed {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.mealLaneBreakfast.isCollapsed .mealLaneToggle {
+  min-height: 1.3rem;
+}
+
 .mealLaneToggleIcon {
   font-size: 0.92rem;
   font-weight: 800;
@@ -271,6 +280,10 @@ h1 {
 
 .mealLaneBody {
   margin-top: 0.35rem;
+}
+
+.mealLaneBreakfast .mealLaneTitle {
+  white-space: nowrap;
 }
 
 .dayRecipe {
@@ -397,39 +410,6 @@ textarea {
 
 .card[draggable="true"]:active {
   cursor: grabbing;
-}
-
-.addToPlan {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  gap: 0.35rem;
-  align-items: center;
-}
-
-.addToPlan select {
-  padding: 0.35rem 0.45rem;
-  border-radius: 9px;
-  font-size: 0.8rem;
-}
-
-.addToPlanButton {
-  border: 1px solid #ddcbbb;
-  border-radius: 9px;
-  background: #fffaf3;
-  color: #5b4539;
-  padding: 0.35rem 0.5rem;
-  font: inherit;
-  font-size: 0.8rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.addToPlanButton:hover {
-  background: #f6ecdf;
-}
-
-.addToPlanButton:focus-visible {
-  outline: 3px solid var(--ring);
 }
 
 .recipeName {
@@ -613,9 +593,6 @@ textarea {
     grid-column: auto;
   }
 
-  .addToPlan {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media print {
