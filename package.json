@@ -4,6 +4,7 @@
   "scripts": {
     "generate:ingredients": "node ./scripts/generate-ingredient-data.mjs",
     "generate:seasonal-match": "node ./scripts/generate-ingredient-data.mjs",
-    "generate:seasonal": "node ./scripts/generate-seasonal-match.mjs"
+    "generate:seasonal": "node ./scripts/generate-seasonal-match.mjs",
+    "fetch:deals": "node ./scripts/fetch-weekly-deals.mjs"
   }
 }
