@@ -1,6 +1,7 @@
 import { readFile, writeFile } from 'fs/promises';
 import https from 'https';
 import { URL, URLSearchParams } from 'url';
+import { createGunzip } from 'zlib';
 
 const TOKEN_URL = 'https://api.kroger.com/v1/connect/oauth2/token';
 const PRODUCTS_URL = 'https://api.kroger.com/v1/products';
@@ -54,35 +55,33 @@ function validateEnvironment() {
 
 function httpsRequest(options, postData) {
   return new Promise((resolve, reject) => {
-    const req = https.request(options, (res) => {
-      let responseBody = '';
+    const requestOptions = {
+      ...options,
+      headers: {
+        ...(options?.headers || {}),
+        'Accept-Encoding': 'identity'
+      }
+    };
 
-      res.setEncoding('utf8');
-      res.on('data', (chunk) => {
-        responseBody += chunk;
-      });
+    const req = https.request(requestOptions, (res) => {
+      const encoding = res.headers['content-encoding'];
+      const stream = encoding === 'gzip' ? res.pipe(createGunzip()) : res;
+      const chunks = [];
 
-      res.on('end', () => {
-        const statusCode = res.statusCode || 0;
-
-        if (statusCode < 200 || statusCode >= 300) {
-          const err = new Error(`HTTP ${statusCode}: ${responseBody}`);
-          err.statusCode = statusCode;
-          err.responseBody = responseBody;
-          reject(err);
+      stream.on('data', (chunk) => chunks.push(chunk));
+      stream.on('end', () => {
+        const body = Buffer.concat(chunks).toString('utf8');
+        if (res.statusCode < 200 || res.statusCode >= 300) {
+          reject(new Error(`HTTP ${res.statusCode}: ${body}`));
           return;
         }
-
         try {
-          const parsed = responseBody ? JSON.parse(responseBody) : {};
-          resolve(parsed);
-        } catch (error) {
-          const err = new Error(`Failed to parse JSON response: ${error.message}. Body: ${responseBody}`);
-          err.statusCode = statusCode;
-          err.responseBody = responseBody;
-          reject(err);
+          resolve(JSON.parse(body));
+        } catch (e) {
+          reject(new Error(`Failed to parse JSON response: ${body.slice(0, 200)}`));
         }
       });
+      stream.on('error', reject);
     });
 
     req.setTimeout(10000, () => {
@@ -220,11 +219,10 @@ function computeWeekOf() {
 }
 
 async function authenticate(clientId, clientSecret) {
-  const authHeader = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
-  const body = new URLSearchParams({
-    grant_type: 'client_credentials',
-    scope: 'product.compact'
-  }).toString();
+  const credentials = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
+  console.log(`Auth: using client_id starting with: ${clientId.slice(0, 6)}...`);
+  console.log(`Auth: credential string length: ${(clientId + ':' + clientSecret).length} chars`);
+  const postBody = 'grant_type=client_credentials&scope=product.compact';
 
   const tokenUrl = new URL(TOKEN_URL);
   const options = {
@@ -234,12 +232,12 @@ async function authenticate(clientId, clientSecret) {
     path: tokenUrl.pathname,
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
-      Authorization: `Basic ${authHeader}`,
-      'Content-Length': Buffer.byteLength(body)
+      Authorization: `Basic ${credentials}`,
+      'Content-Length': Buffer.byteLength(postBody)
     }
   };
 
-  const response = await httpsRequest(options, body);
+  const response = await httpsRequest(options, postBody);
   const token = response?.access_token;
   if (!token) {
     throw new Error(`Authentication response missing access_token: ${JSON.stringify(response)}`);
