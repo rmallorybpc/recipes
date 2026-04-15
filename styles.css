@@ -412,6 +412,22 @@ textarea {
   animation: reveal 420ms ease forwards;
 }
 
+.ateOutCard {
+  background: linear-gradient(140deg, #fffdf8 0%, #f5f2ff 100%);
+  border-color: #d6c7ee;
+  box-shadow: 0 10px 26px rgba(76, 49, 118, 0.14);
+}
+
+.ateOutCard .recipeName {
+  color: #4c3176;
+}
+
+.ateOutCard .tag {
+  background: #f0e8ff;
+  border-color: #d9c8f3;
+  color: #4c3176;
+}
+
 .card[draggable="true"] {
   cursor: grab;
 }

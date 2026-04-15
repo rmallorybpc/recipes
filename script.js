@@ -136,6 +136,13 @@ const MEALS = [
   { key: "lunch", label: "Lunch" },
   { key: "dinner", label: "Dinner" }
 ];
+const ATE_OUT_RECIPE = {
+  id: "ate-out-option",
+  name: "Ate Out",
+  meal: "dinner",
+  style: "handheld",
+  isSpecial: true
+};
 
 const recipesById = new Map();
 let weekPlan = makeEmptyWeekPlan();
@@ -347,6 +354,8 @@ function hydrateRecipeIds() {
     recipe.id = id;
     recipesById.set(id, recipe);
   });
+
+  recipesById.set(ATE_OUT_RECIPE.id, ATE_OUT_RECIPE);
 }
 
 function loadWeekPlan() {
@@ -636,20 +645,17 @@ async function copyWeeklyPlan() {
 }
 
 function renderCards(items) {
+  const visibleItems = [...items, ATE_OUT_RECIPE];
+
   recipeGrid.innerHTML = "";
-  resultCount.textContent = `${items.length} recipe${items.length === 1 ? "" : "s"}`;
+  resultCount.textContent = `${visibleItems.length} recipe${visibleItems.length === 1 ? "" : "s"}`;
 
-  if (!items.length) {
-    const empty = document.createElement("li");
-    empty.className = "card";
-    empty.innerHTML = '<p class="recipeName">No recipes match these filters.</p>';
-    recipeGrid.appendChild(empty);
-    return;
-  }
-
-  items.forEach((recipe, index) => {
+  visibleItems.forEach((recipe, index) => {
     const li = document.createElement("li");
     li.className = "card";
+    if (recipe.isSpecial) {
+      li.classList.add("ateOutCard");
+    }
     li.style.animationDelay = `${Math.min(index * 20, 300)}ms`;
     li.draggable = true;
     li.dataset.recipeId = recipe.id;
@@ -663,11 +669,14 @@ function renderCards(items) {
       ? `<a class="sourceLink" href="${recipe.source}" target="_blank" rel="noopener noreferrer">Source</a>`
       : "";
 
+    const tagsHtml = recipe.isSpecial
+      ? '<span class="tag">Any meal</span><span class="tag">Planner option</span>'
+      : `<span class="tag">${pretty(recipe.meal)}</span><span class="tag">${pretty(recipe.style)}</span>`;
+
     li.innerHTML = `
       <p class="recipeName">${recipe.name}</p>
       <div class="tags">
-        <span class="tag">${pretty(recipe.meal)}</span>
-        <span class="tag">${pretty(recipe.style)}</span>
+        ${tagsHtml}
       </div>
       ${sourceHtml}
     `;
