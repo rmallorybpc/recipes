@@ -754,6 +754,154 @@ async function main() {
     console.log(`- ${recipe.title} (${recipe.seasonalScore})`);
   }
   console.log(`Output: ${path.relative(ROOT_DIR, SEASONAL_OUTPUT_PATH)}`);
+
+  // --- DEALS CROSS-REFERENCE ---
+  try {
+    const weeklyDealsPath = path.join(ROOT_DIR, "data", "weekly-deals.json");
+    const dealsOutputPath = path.join(ROOT_DIR, "data", "deals-match.json");
+    const weeklyDealsData = JSON.parse(await readFile(weeklyDealsPath, "utf8"));
+    const weeklyDeals = Array.isArray(weeklyDealsData?.deals) ? weeklyDealsData.deals : [];
+
+    const dealsByTerm = new Map();
+    for (const deal of weeklyDeals) {
+      const dealTerm = typeof deal?.term === "string" ? deal.term.trim().toLowerCase() : "";
+      if (!dealTerm || dealsByTerm.has(dealTerm)) {
+        continue;
+      }
+      dealsByTerm.set(dealTerm, deal);
+    }
+
+    const recipesByDealTerm = new Map();
+    for (const dealTerm of dealsByTerm.keys()) {
+      recipesByDealTerm.set(dealTerm, []);
+    }
+
+    for (const recipe of seasonalRecipes) {
+      const seasonalIngredients = Array.isArray(recipe.seasonalIngredients) ? recipe.seasonalIngredients : [];
+
+      for (const seasonalIngredient of seasonalIngredients) {
+        const ingredientName = typeof seasonalIngredient?.ingredient === "string" ? seasonalIngredient.ingredient.trim().toLowerCase() : "";
+        if (!ingredientName || !recipesByDealTerm.has(ingredientName)) {
+          continue;
+        }
+
+        recipesByDealTerm.get(ingredientName).push(recipe);
+      }
+    }
+
+    const dealRecipes = [];
+    for (const deal of weeklyDeals) {
+      const dealTerm = typeof deal?.term === "string" ? deal.term.trim().toLowerCase() : "";
+      const matchedRecipes = (recipesByDealTerm.get(dealTerm) || []).map((recipe) => ({
+        title: recipe.title,
+        meal: recipe.meal,
+        style: recipe.style,
+        source: recipe.source || ""
+      }));
+
+      if (matchedRecipes.length === 0) {
+        continue;
+      }
+
+      dealRecipes.push({
+        dealTerm: deal.term,
+        dealName: deal.name,
+        brand: deal.brand || "",
+        category: deal.category,
+        promoPrice: deal.promoPrice,
+        regularPrice: deal.regularPrice,
+        savings: deal.savings,
+        savingsPct: deal.savingsPct,
+        size: deal.size || "",
+        imageUrl: deal.imageUrl || "",
+        matchedRecipes
+      });
+    }
+
+    dealRecipes.sort((a, b) => {
+      const savingsPctDiff = (Number(b.savingsPct) || 0) - (Number(a.savingsPct) || 0);
+      if (savingsPctDiff !== 0) {
+        return savingsPctDiff;
+      }
+      return (a.dealName || "").localeCompare(b.dealName || "");
+    });
+
+    const recipeDeals = [];
+    for (const recipe of seasonalRecipes) {
+      const seasonalIngredients = Array.isArray(recipe.seasonalIngredients) ? recipe.seasonalIngredients : [];
+      const onSaleIngredients = [];
+
+      for (const seasonalIngredient of seasonalIngredients) {
+        const ingredientName = typeof seasonalIngredient?.ingredient === "string" ? seasonalIngredient.ingredient.trim().toLowerCase() : "";
+        if (!ingredientName || !dealsByTerm.has(ingredientName)) {
+          continue;
+        }
+
+        const deal = dealsByTerm.get(ingredientName);
+        onSaleIngredients.push({
+          ingredient: seasonalIngredient.ingredient,
+          dealName: deal.name,
+          promoPrice: deal.promoPrice,
+          savings: deal.savings,
+          savingsPct: deal.savingsPct,
+          size: deal.size || ""
+        });
+      }
+
+      const totalSavings = Number(onSaleIngredients.reduce((sum, item) => sum + (Number(item.savings) || 0), 0).toFixed(2));
+      const dealCount = onSaleIngredients.length;
+
+      if (dealCount === 0) {
+        continue;
+      }
+
+      recipeDeals.push({
+        title: recipe.title,
+        meal: recipe.meal,
+        style: recipe.style,
+        onSaleIngredients,
+        totalSavings,
+        dealCount
+      });
+    }
+
+    recipeDeals.sort((a, b) => {
+      if (b.dealCount !== a.dealCount) {
+        return b.dealCount - a.dealCount;
+      }
+      return b.totalSavings - a.totalSavings;
+    });
+
+    const dealsPayload = {
+      generatedAt: new Date().toISOString(),
+      weekOf: weeklyDealsData.weekOf,
+      locationId: weeklyDealsData.locationId,
+      chain: weeklyDealsData.chain,
+      totalDeals: weeklyDeals.length,
+      dealsWithRecipes: dealRecipes.length,
+      totalRecipes: seasonalRecipes.length,
+      recipesWithDeals: recipeDeals.length,
+      dealRecipes,
+      recipeDeals
+    };
+
+    await fs.writeFile(dealsOutputPath, `${JSON.stringify(dealsPayload, null, 2)}\n`, "utf8");
+
+    console.log("");
+    console.log("===== Deals Cross-Reference Complete =====");
+    console.log(`Deals with recipe matches: ${dealRecipes.length} of ${weeklyDeals.length} total deals`);
+    console.log(`Recipes with deal matches: ${recipeDeals.length} of ${seasonalRecipes.length} total recipes`);
+    if (recipeDeals.length > 0) {
+      const topRecipe = recipeDeals[0];
+      console.log(`Top recipe to cook this week: ${topRecipe.title} - ${topRecipe.dealCount} ingredients on sale`);
+    } else {
+      console.log("Top recipe to cook this week: No matching recipes found");
+    }
+    console.log("Output: data/deals-match.json");
+    console.log("");
+  } catch (_error) {
+    console.log("Skipping deals cross-reference: data/weekly-deals.json not found. Run fetch:deals first.");
+  }
 }
 
 main().catch((error) => {

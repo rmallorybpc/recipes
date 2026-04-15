@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-04-15T22:51:15.758Z",
+  "weekOf": "2026-04-15",
+  "locationId": "62000100",
+  "chain": "King Soopers",
+  "totalDeals": 42,
+  "dealsWithRecipes": 2,
+  "totalRecipes": 47,
+  "recipesWithDeals": 5,
+  "dealRecipes": [
+    {
+      "dealTerm": "zucchini",
+      "dealName": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
+      "brand": "Evergreen",
+      "category": "Frozen",
+      "promoPrice": 4.5,
+      "regularPrice": 6.79,
+      "savings": 2.29,
+      "savingsPct": 34,
+      "size": "9 ct / 9 oz",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0086000162723",
+      "matchedRecipes": [
+        {
+          "title": "Pineapple zucchini muffin",
+          "meal": "breakfast",
+          "style": "baked-casserole",
+          "source": "https://www.blessthismessplease.com/zucchini-pineapple-muffins/"
+        },
+        {
+          "title": "Spicy pesto and cheese stuffed zucchini involtin",
+          "meal": "breakfast",
+          "style": "vegetarian",
+          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
+        },
+        {
+          "title": "Meatballs with zucchini and rice",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": ""
+        },
+        {
+          "title": "Zucchini and squash lasagne",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "dealTerm": "basil",
+      "dealName": "Gotham Greens® Fresh Basil",
+      "brand": "Gotham Greens",
+      "category": "Produce",
+      "promoPrice": 3.79,
+      "regularPrice": 3.99,
+      "savings": 0.2,
+      "savingsPct": 5,
+      "size": "1.25 oz",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0085392700300",
+      "matchedRecipes": [
+        {
+          "title": "Spicy pesto and cheese stuffed zucchini involtin",
+          "meal": "breakfast",
+          "style": "vegetarian",
+          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
+        },
+        {
+          "title": "Tortellini with pesto and shrimp and spinach",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": ""
+        }
+      ]
+    }
+  ],
+  "recipeDeals": [
+    {
+      "title": "Spicy pesto and cheese stuffed zucchini involtin",
+      "meal": "breakfast",
+      "style": "vegetarian",
+      "onSaleIngredients": [
+        {
+          "ingredient": "zucchini",
+          "dealName": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
+          "promoPrice": 4.5,
+          "savings": 2.29,
+          "savingsPct": 34,
+          "size": "9 ct / 9 oz"
+        },
+        {
+          "ingredient": "basil",
+          "dealName": "Gotham Greens® Fresh Basil",
+          "promoPrice": 3.79,
+          "savings": 0.2,
+          "savingsPct": 5,
+          "size": "1.25 oz"
+        }
+      ],
+      "totalSavings": 2.49,
+      "dealCount": 2
+    },
+    {
+      "title": "Pineapple zucchini muffin",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "onSaleIngredients": [
+        {
+          "ingredient": "zucchini",
+          "dealName": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
+          "promoPrice": 4.5,
+          "savings": 2.29,
+          "savingsPct": 34,
+          "size": "9 ct / 9 oz"
+        }
+      ],
+      "totalSavings": 2.29,
+      "dealCount": 1
+    },
+    {
+      "title": "Meatballs with zucchini and rice",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "onSaleIngredients": [
+        {
+          "ingredient": "zucchini",
+          "dealName": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
+          "promoPrice": 4.5,
+          "savings": 2.29,
+          "savingsPct": 34,
+          "size": "9 ct / 9 oz"
+        }
+      ],
+      "totalSavings": 2.29,
+      "dealCount": 1
+    },
+    {
+      "title": "Zucchini and squash lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "onSaleIngredients": [
+        {
+          "ingredient": "zucchini",
+          "dealName": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
+          "promoPrice": 4.5,
+          "savings": 2.29,
+          "savingsPct": 34,
+          "size": "9 ct / 9 oz"
+        }
+      ],
+      "totalSavings": 2.29,
+      "dealCount": 1
+    },
+    {
+      "title": "Tortellini with pesto and shrimp and spinach",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "onSaleIngredients": [
+        {
+          "ingredient": "basil",
+          "dealName": "Gotham Greens® Fresh Basil",
+          "promoPrice": 3.79,
+          "savings": 0.2,
+          "savingsPct": 5,
+          "size": "1.25 oz"
+        }
+      ],
+      "totalSavings": 0.2,
+      "dealCount": 1
+    }
+  ]
+}

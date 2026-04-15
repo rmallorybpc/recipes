@@ -2,7 +2,9 @@
   "name": "recipes",
   "private": true,
   "scripts": {
+    "generate:all": "node ./scripts/generate-ingredient-data.mjs",
     "generate:ingredients": "node ./scripts/generate-ingredient-data.mjs",
+    "generate:deals-match": "node ./scripts/generate-ingredient-data.mjs",
     "generate:seasonal-match": "node ./scripts/generate-ingredient-data.mjs",
     "generate:seasonal": "node ./scripts/generate-seasonal-match.mjs",
     "fetch:deals": "node ./scripts/fetch-weekly-deals.mjs"

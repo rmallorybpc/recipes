@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-15T20:26:32.691Z",
+  "generated_at": "2026-04-15T22:51:15.744Z",
   "stats": {
     "total_recipes": 47,
     "with_existing_source": 8,
-    "resolved_from_search": 0,
+    "resolved_from_search": 1,
     "scraped_ingredients": 4,
     "heuristic_only": 43
   },
@@ -406,8 +406,8 @@
       "style": "meat",
       "source_url": null,
       "id": "dinner-meat-cheeseburgers",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bing.com/aclk?ld=e8cAEZdfOZiRspua3oqKvHfzVUCUxa63uxcElJwOtnR9oQcbbCNxC_HsBlgBec1luuZql79OPsWXWTtbsB95zp6L1ly1UQirsR0AkEndcgoYbfY5eTDCmd1m0kZvI0A7Fk88yWnGX7uXpv2AW78WdD6-5IMIfx77q4iQ2Lx61TJpKgfFkSFP5cvBeAOQBxUzB9VdqY3r75bjNUxXZpxCvOI3KT5jU&amp;u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4Mjg3NzI0MjA1NyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODk3NTAzNzg2OSUyNmRzX2FfY2lkJTNkNzI1NTg5NTQzJTI2ZHNfYV9jYWlkJTNkMjA1OTYyMjk5ODclMjZkc19hX2FnaWQlM2QxODk2OTkxMjc4MzMlMjZkc19hX2xpZCUzZGt3ZC0yMzA5MDM4MSUyNiUyNmRzX2VfYWRpZCUzZDc3NTE1NzkwOTExMjEzJTI2ZHNfZV90YXJnZXRfaWQlM2Rrd2QtNzc1MTYwODYyMzg2OTElM2Fsb2MtMTkwJTI2JTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cuaGlkZGVudmFsbGV5LmNvbSUyZnJlY2lwZS1jb2xsZWN0aW9ucyUyZmJ1cmdlciUyZiUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEhWRiUyNTdDR2VuZXJpYyUyNTdDTFQlMjU3Q1AlMjU3Q0tXJTI1N0NSZWNpcGUlMjU3Q0VuZ2xpc2glMjU3Q0VOS1ctRU5CUiUyNnV0bV9jb250ZW50JTNkMTI0MDI1MDQwMDUyNTU5OCUyNnV0bV90ZXJtJTNkYnVyZ2VyJTI1MjByZWNpcGUlMjZnY2xpZCUzZGZmZTUxZjcxYWZiMDEwZDE1NDJjNzY5MWI5ZDFkYjYyJTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZtc2Nsa2lkJTNkZmZlNTFmNzFhZmIwMTBkMTU0MmM3NjkxYjlkMWRiNjIlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RIVkYlMjU3Q0dlbmVyaWMlMjU3Q0xUJTI1N0NQJTI1N0NLVyUyNTdDUmVjaXBlJTI1N0NFbmdsaXNoJTI1N0NFTktXLUVOQlIlMjZ1dG1fdGVybSUzZGJ1cmdlciUyNTIwcmVjaXBlJTI2dXRtX2NvbnRlbnQlM2RSZWNpcGUlMjU3Q0J1cmdlcg&amp;rlid=ffe51f71afb010d1542c7691b9d1db62&amp;ntb=1",
+      "source_origin": "web_search",
       "ingredients": [
         "beef",
         "cheese"
@@ -417,7 +417,7 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Chicken parm",
