@@ -1,107 +1,15 @@
 {
-  "generatedAt": "2026-04-15T14:29:49.265Z",
+  "generatedAt": "2026-04-15T20:26:32.699Z",
   "region": "colorado",
+  "regionLabel": "Colorado",
+  "totalRecipes": 47,
+  "matchedRecipes": 17,
   "recipes": [
-    {
-      "title": "Big daddy biscuits",
-      "meal": "breakfast",
-      "style": "baked-casserole",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Crusty bread",
-      "meal": "breakfast",
-      "style": "baked-casserole",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Flourless chickpea peanut butter muffins",
-      "meal": "breakfast",
-      "style": "baked-casserole",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Pineapple zucchini muffin",
-      "meal": "breakfast",
-      "style": "baked-casserole",
-      "seasonalIngredients": [
-        {
-          "ingredient": "zucchini",
-          "peak": [
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9
-          ],
-          "matchedTerm": "shredded zucchini"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9
-      ],
-      "seasonalScore": 1
-    },
-    {
-      "title": "Greek pitas with chicken",
-      "meal": "breakfast",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Greek pitas with turkey meat",
-      "meal": "breakfast",
-      "style": "meat",
-      "seasonalIngredients": [
-        {
-          "ingredient": "peppers",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "pepper"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "seasonalScore": 1
-    },
     {
       "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
       "meal": "breakfast",
       "style": "meat",
+      "source": "https://pinchofyum.com/peanut-chicken-lettuce-wraps-ginger-garlic-sauce",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -116,24 +24,35 @@
             10,
             11
           ],
-          "matchedTerm": "garlic cloves"
+          "matchedTerm": "2 garlic cloves, minced"
         },
         {
-          "ingredient": "scallions",
+          "ingredient": "onions",
           "peak": [
-            6,
-            7,
-            8
-          ],
-          "available": [
-            5,
-            6,
-            7,
             8,
             9,
             10
           ],
-          "matchedTerm": "green onions"
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "4 green onions, minced"
+        },
+        {
+          "ingredient": "corn",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "1 teaspoon cornstarch (optional &#8211; helps the sauce thicken)"
         },
         {
           "ingredient": "lettuce",
@@ -151,28 +70,10 @@
             9,
             10
           ],
-          "matchedTerm": "leaves of lettuce"
-        },
-        {
-          "ingredient": "scallions",
-          "peak": [
-            6,
-            7,
-            8
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "cilantro green onions and peanuts for topping"
+          "matchedTerm": "12 leaves of lettuce (I used Boston lettuce)"
         }
       ],
       "bestMonths": [
-        7,
         8
       ],
       "availableMonths": [
@@ -187,16 +88,16 @@
       "seasonalScore": 4
     },
     {
-      "title": "White chicken chili",
-      "meal": "breakfast",
-      "style": "meat",
+      "title": "Chicken tortilla soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "https://dashofsanity.com/chicken-tortilla-soup-crock-pot/",
       "seasonalIngredients": [
         {
-          "ingredient": "onions",
+          "ingredient": "garlic",
           "peak": [
-            8,
-            9,
-            10
+            7,
+            8
           ],
           "available": [
             7,
@@ -205,8 +106,59 @@
             10,
             11
           ],
-          "matchedTerm": "onion"
+          "matchedTerm": "2 cloves garlic"
         },
+        {
+          "ingredient": "corn",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "2-3 tablespoons flour or cornstarch (if desired to make a thicker soup)"
+        },
+        {
+          "ingredient": "cilantro",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1/2 cup  fresh cilantro (chopped, for garnish)"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 3
+    },
+    {
+      "title": "Cheddar broccoli soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [
         {
           "ingredient": "garlic",
           "peak": [
@@ -221,6 +173,20 @@
             11
           ],
           "matchedTerm": "garlic"
+        },
+        {
+          "ingredient": "broccoli",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "broccoli"
         }
       ],
       "bestMonths": [
@@ -236,9 +202,57 @@
       "seasonalScore": 2
     },
     {
+      "title": "Pineapple zucchini muffin",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source": "https://www.blessthismessplease.com/zucchini-pineapple-muffins/",
+      "seasonalIngredients": [
+        {
+          "ingredient": "apples",
+          "peak": [
+            9,
+            10
+          ],
+          "available": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "1/2 cup applesauce"
+        },
+        {
+          "ingredient": "zucchini",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "2 cups shredded zucchini (water squeezed out)"
+        }
+      ],
+      "bestMonths": [
+        8,
+        9,
+        10
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 2
+    },
+    {
       "title": "Spicy pesto and cheese stuffed zucchini involtin",
       "meal": "breakfast",
       "style": "vegetarian",
+      "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1",
       "seasonalIngredients": [
         {
           "ingredient": "zucchini",
@@ -279,25 +293,49 @@
       "seasonalScore": 2
     },
     {
-      "title": "Homemade pizza",
+      "title": "Beef and broccoli",
       "meal": "dinner",
-      "style": "baked-casserole",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Chipotle bowls",
-      "meal": "dinner",
-      "style": "bowls",
+      "style": "meat",
+      "source": "",
       "seasonalIngredients": [
         {
-          "ingredient": "onions",
+          "ingredient": "broccoli",
           "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
             8,
             9,
             10
+          ],
+          "matchedTerm": "broccoli"
+        }
+      ],
+      "bestMonths": [
+        8,
+        9
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Chicken tortilla soup in crock pot",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
           ],
           "available": [
             7,
@@ -306,13 +344,12 @@
             10,
             11
           ],
-          "matchedTerm": "onion"
+          "matchedTerm": "garlic"
         }
       ],
       "bestMonths": [
-        8,
-        9,
-        10
+        7,
+        8
       ],
       "availableMonths": [
         7,
@@ -324,18 +361,115 @@
       "seasonalScore": 1
     },
     {
-      "title": "Salmon veggie bowls",
+      "title": "Chicken wild rice soup",
       "meal": "dinner",
-      "style": "bowls",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Chili",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Grilled cheese and tomato soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
     },
     {
       "title": "Lettuce wraps",
       "meal": "dinner",
       "style": "handheld",
+      "source": "",
       "seasonalIngredients": [
         {
           "ingredient": "lettuce",
@@ -373,423 +507,10 @@
       "seasonalScore": 1
     },
     {
-      "title": "BBQ in crockpot",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Beef and broccoli",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [
-        {
-          "ingredient": "broccoli",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "broccoli"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "seasonalScore": 1
-    },
-    {
-      "title": "Braised short ribs",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Camper chicken enchiladas",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9,
-        10
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 1
-    },
-    {
-      "title": "Cheeseburgers",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Chicken parm",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Chicken wings",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Chili",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "garlic"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
-    },
-    {
-      "title": "Deconstructed steak sandwiches with cheese",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Fried chicken",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Grilled chicken with potato salad",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Pork chops",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Round steak stroganoff",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9,
-        10
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 1
-    },
-    {
-      "title": "Skillet meatloaf / cheeseburger meatloaf",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Steak kabobs deconstructed",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [
-        {
-          "ingredient": "peppers",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "pepper"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "seasonalScore": 1
-    },
-    {
-      "title": "Stew",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "garlic"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
-    },
-    {
-      "title": "Tacos",
-      "meal": "dinner",
-      "style": "meat",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9,
-        10
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 1
-    },
-    {
-      "title": "Hamburger stroganoff",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9,
-        10
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 1
-    },
-    {
-      "title": "Homemade mac n cheese",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Lasagne",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
       "title": "Meatballs with zucchini and rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
+      "source": "",
       "seasonalIngredients": [
         {
           "ingredient": "zucchini",
@@ -815,36 +536,45 @@
       "seasonalScore": 1
     },
     {
-      "title": "Penne lasagne",
+      "title": "Stew",
       "meal": "dinner",
-      "style": "rice-or-pasta",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Salmon and rice",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Spaghetti",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
     },
     {
       "title": "Tortellini with pesto and shrimp and spinach",
       "meal": "dinner",
       "style": "rice-or-pasta",
+      "source": "",
       "seasonalIngredients": [
         {
           "ingredient": "basil",
@@ -874,18 +604,80 @@
       "seasonalScore": 1
     },
     {
-      "title": "Tortellini with sausage, spinach, mushrooms, lemon",
+      "title": "White chicken chili",
+      "meal": "breakfast",
+      "style": "meat",
+      "source": "https://www.pinterest.com/pin/487233253450153141/sent/?invite_code=4fe827f3cea649cf9c9996a6747132c8&sender=487233390844584842&sfo=1",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Wonton soup",
       "meal": "dinner",
-      "style": "rice-or-pasta",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
     },
     {
       "title": "Zucchini and squash lasagne",
       "meal": "dinner",
       "style": "rice-or-pasta",
+      "source": "",
       "seasonalIngredients": [
         {
           "ingredient": "zucchini",
@@ -911,404 +703,304 @@
       "seasonalScore": 1
     },
     {
-      "title": "Cheddar broccoli soup",
+      "title": "BBQ in crockpot",
       "meal": "dinner",
-      "style": "soup-or-stew",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "garlic"
-        },
-        {
-          "ingredient": "broccoli",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "broccoli"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 3
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
     },
     {
-      "title": "Chicken tortilla soup",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "yellow onion"
-        },
-        {
-          "ingredient": "peppers",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "red pepper"
-        },
-        {
-          "ingredient": "peppers",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "yellow pepper"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "cloves garlic"
-        },
-        {
-          "ingredient": "corn",
-          "peak": [
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9
-          ],
-          "matchedTerm": "frozen corn"
-        },
-        {
-          "ingredient": "cilantro",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "cilantro"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 6
+      "title": "Big daddy biscuits",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source": "https://www.allrecipes.com/recipe/7040/jps-big-daddy-biscuits/",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
     },
     {
-      "title": "Chicken tortilla soup in crock pot",
+      "title": "Braised short ribs",
       "meal": "dinner",
-      "style": "soup-or-stew",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "garlic"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
     },
     {
-      "title": "Chicken wild rice soup",
+      "title": "Camper chicken enchiladas",
       "meal": "dinner",
-      "style": "soup-or-stew",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "garlic"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
     },
     {
-      "title": "Grilled cheese and tomato soup",
+      "title": "Cheeseburgers",
       "meal": "dinner",
-      "style": "soup-or-stew",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "garlic"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
     },
     {
-      "title": "Wonton soup",
+      "title": "Chicken parm",
       "meal": "dinner",
-      "style": "soup-or-stew",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "onion"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "garlic"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Chicken wings",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Chipotle bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Crusty bread",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source": "https://www.recipetineats.com/easy-yeast-bread-recipe-no-knead/",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Deconstructed steak sandwiches with cheese",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Flourless chickpea peanut butter muffins",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source": "https://www.ambitiouskitchen.com/flourless-peanut-butter-chickpea-muffins/",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Fried chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Greek pitas with chicken",
+      "meal": "breakfast",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Greek pitas with turkey meat",
+      "meal": "breakfast",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Grilled chicken with potato salad",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Hamburger stroganoff",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Homemade mac n cheese",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Homemade pizza",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Penne lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Pork chops",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Round steak stroganoff",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Salmon and rice",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Salmon veggie bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Skillet meatloaf / cheeseburger meatloaf",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Spaghetti",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Steak kabobs deconstructed",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
     },
     {
       "title": "Stir fry",
       "meal": "dinner",
       "style": "vegetarian",
-      "seasonalIngredients": [
-        {
-          "ingredient": "peppers",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "pepper"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "seasonalScore": 1
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Tacos",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Tortellini with sausage, spinach, mushrooms, lemon",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
     }
   ]
 }

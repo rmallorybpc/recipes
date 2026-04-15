@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T21:42:47.804Z",
+  "generated_at": "2026-04-15T20:26:32.691Z",
   "stats": {
     "total_recipes": 47,
     "with_existing_source": 8,
@@ -62,13 +62,11 @@
       "resolved_source_url": "https://www.ambitiouskitchen.com/flourless-peanut-butter-chickpea-muffins/",
       "source_origin": "existing_source",
       "ingredients": [
-        "flour",
         "butter",
         "baking powder",
         "peanut butter"
       ],
       "ingredients_normalized": [
-        "flour",
         "butter",
         "baking powder",
         "peanut butter"

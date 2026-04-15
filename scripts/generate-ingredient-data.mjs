@@ -39,6 +39,14 @@ const TITLE_RULES = [
   [/cheese/, ["cheese"]]
 ];
 
+const TITLE_NEGATION_RULES = [
+  [/\bflourless\b/, ["flour"]],
+  [/\bsugar[-\s]?free\b|\bno sugar\b/, ["sugar"]],
+  [/\bdairy[-\s]?free\b|\bno dairy\b/, ["butter", "cheese", "milk", "cream"]],
+  [/\begg[-\s]?free\b|\bno eggs?\b/, ["egg"]],
+  [/\bgluten[-\s]?free\b|\bno gluten\b/, ["flour"]]
+];
+
 const BAD_SEARCH_HOSTS = ["pinterest.com", "facebook.com", "instagram.com"];
 
 function slugify(value) {
@@ -403,6 +411,7 @@ async function findRecipeUrl(recipe) {
 function inferIngredientsFromTitle(title) {
   const value = title.toLowerCase();
   const inferred = [];
+  const excluded = new Set();
 
   for (const [rule, ingredients] of TITLE_RULES) {
     if (rule.test(value)) {
@@ -410,11 +419,19 @@ function inferIngredientsFromTitle(title) {
     }
   }
 
+  for (const [rule, ingredients] of TITLE_NEGATION_RULES) {
+    if (rule.test(value)) {
+      for (const ingredient of ingredients) {
+        excluded.add(ingredient);
+      }
+    }
+  }
+
   if (inferred.length === 0) {
     inferred.push("salt", "pepper", "olive oil");
   }
 
-  return dedupe(inferred);
+  return dedupe(inferred).filter((ingredient) => !excluded.has(ingredient));
 }
 
 function buildIngredientIndex(recipes) {
