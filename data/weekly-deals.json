@@ -2,9 +2,9 @@
   "weekOf": "2026-04-15",
   "locationId": "62000100",
   "chain": "King Soopers",
-  "generatedAt": "2026-04-15T21:56:40.026Z",
+  "generatedAt": "2026-04-15T22:09:28.284Z",
   "totalSearched": 60,
-  "totalDeals": 39,
+  "totalDeals": 42,
   "deals": [
     {
       "term": "chard",
@@ -31,6 +31,19 @@
       "size": "1 lb",
       "category": "Produce",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0000000094080"
+    },
+    {
+      "term": "watermelon",
+      "name": "Simply® Watermelon Juice",
+      "brand": "Simply",
+      "upc": "0002500010211",
+      "regularPrice": 3.39,
+      "promoPrice": 2,
+      "savings": 1.39,
+      "savingsPct": 41,
+      "size": "52 fl oz",
+      "category": "Beverages",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002500010211"
     },
     {
       "term": "raspberries",
@@ -279,6 +292,19 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001480000010"
     },
     {
+      "term": "pumpkin",
+      "name": "Top Fox® Pop-Roasted Himalayan Salt Pumpkin Seeds",
+      "brand": "Top Fox",
+      "upc": "0086000333192",
+      "regularPrice": 3.99,
+      "promoPrice": 3.49,
+      "savings": 0.5,
+      "savingsPct": 13,
+      "size": "3.5 oz",
+      "category": "Snacks",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0086000333192"
+    },
+    {
       "term": "hatch green chile",
       "name": "505 Southwestern® Medium Flame Roasted Hatch Valley Green Chile",
       "brand": "505 Southwestern",
@@ -446,6 +472,19 @@
       "size": "4 ct / 4 oz",
       "category": "Snacks",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111006377"
+    },
+    {
+      "term": "scallions",
+      "name": "Mila™ Caramelized Scallion Noodles",
+      "brand": "Mila",
+      "upc": "0081013008081",
+      "regularPrice": 7.49,
+      "promoPrice": 6.99,
+      "savings": 0.5,
+      "savingsPct": 7,
+      "size": "5.68 oz",
+      "category": "Frozen",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0081013008081"
     },
     {
       "term": "hatch green chile",
