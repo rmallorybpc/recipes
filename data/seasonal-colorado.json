@@ -1,0 +1,326 @@
+{
+  "region": "colorado",
+  "regionLabel": "Colorado",
+  "source": "Colorado Department of Agriculture / Colorado Fruit and Vegetable Growers Association",
+  "sourceUrl": "https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar",
+  "lastUpdated": "2026-04-15",
+  "notes": "Growing season is generally May through November. Dates may vary up to two weeks based on elevation, weather, and farm location. Months are represented as integers 1–12.",
+  "produce": {
+    "apples": {
+      "peak": [9, 10],
+      "available": [8, 9, 10, 11],
+      "category": "fruit",
+      "notes": "Western Slope orchards dominate fresh-market volume; many varieties store into winter"
+    },
+    "apricots": {
+      "peak": [7],
+      "available": [7, 8],
+      "category": "fruit",
+      "notes": "Short and weather-sensitive harvest window"
+    },
+    "arugula": {
+      "peak": [5, 6, 9],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "vegetable",
+      "notes": "Best in cool shoulder-season weather"
+    },
+    "asparagus": {
+      "peak": [5, 6],
+      "available": [5, 6],
+      "category": "vegetable",
+      "notes": "Early spring crop, short season"
+    },
+    "basil": {
+      "peak": [7, 8],
+      "available": [6, 7, 8, 9],
+      "category": "herb"
+    },
+    "beets": {
+      "peak": [8, 9],
+      "available": [7, 8, 9, 10, 11],
+      "category": "root",
+      "notes": "Roots store well after first frost"
+    },
+    "bok choy": {
+      "peak": [6, 9],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "vegetable",
+      "notes": "Primarily spring and fall in Colorado"
+    },
+    "broccoli": {
+      "peak": [8, 9],
+      "available": [7, 8, 9, 10],
+      "category": "vegetable"
+    },
+    "brussels sprouts": {
+      "peak": [10, 11],
+      "available": [9, 10, 11],
+      "category": "vegetable",
+      "notes": "Flavor improves after cold nights"
+    },
+    "cabbage": {
+      "peak": [8, 9, 10],
+      "available": [7, 8, 9, 10, 11],
+      "category": "vegetable"
+    },
+    "cantaloupe": {
+      "peak": [8],
+      "available": [8, 9],
+      "category": "fruit",
+      "notes": "Olathe/Palisade area melons peak late summer"
+    },
+    "carrots": {
+      "peak": [8, 9, 10],
+      "available": [7, 8, 9, 10, 11],
+      "category": "root",
+      "notes": "Field harvest extends into late fall; storage carrots continue"
+    },
+    "cauliflower": {
+      "peak": [8, 9],
+      "available": [7, 8, 9, 10],
+      "category": "vegetable"
+    },
+    "celery": {
+      "peak": [9],
+      "available": [8, 9, 10],
+      "category": "vegetable"
+    },
+    "chard": {
+      "peak": [7, 8, 9],
+      "available": [6, 7, 8, 9, 10],
+      "category": "vegetable"
+    },
+    "cherries": {
+      "peak": [6, 7],
+      "available": [6, 7],
+      "category": "fruit",
+      "notes": "Typically a brief early summer season"
+    },
+    "cilantro": {
+      "peak": [6, 7, 8, 9],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "herb"
+    },
+    "collard greens": {
+      "peak": [9, 10],
+      "available": [6, 7, 8, 9, 10, 11],
+      "category": "vegetable",
+      "notes": "Cold-tolerant greens can run into November"
+    },
+    "corn": {
+      "peak": [8],
+      "available": [7, 8, 9],
+      "category": "grain",
+      "notes": "Sweet corn statewide with strong late-summer market presence"
+    },
+    "cucumbers": {
+      "peak": [8],
+      "available": [7, 8, 9],
+      "category": "vegetable"
+    },
+    "dill": {
+      "peak": [7, 8],
+      "available": [6, 7, 8, 9],
+      "category": "herb"
+    },
+    "eggplant": {
+      "peak": [8, 9],
+      "available": [7, 8, 9, 10],
+      "category": "fruit",
+      "notes": "Greenhouse and high-tunnel production can extend shoulder weeks"
+    },
+    "garlic": {
+      "peak": [7, 8],
+      "available": [7, 8, 9, 10, 11],
+      "category": "allium",
+      "notes": "Cured garlic stores well through fall"
+    },
+    "grapes": {
+      "peak": [9],
+      "available": [9, 10],
+      "category": "fruit",
+      "notes": "Primarily from Western Slope vineyards"
+    },
+    "green beans": {
+      "peak": [8],
+      "available": [7, 8, 9],
+      "category": "legume"
+    },
+    "hatch green chile": {
+      "peak": [9],
+      "available": [8, 9, 10],
+      "category": "fruit",
+      "notes": "Often sold fresh-roasted in season; Pueblo chile has similar timing"
+    },
+    "kale": {
+      "peak": [9, 10],
+      "available": [6, 7, 8, 9, 10, 11],
+      "category": "vegetable",
+      "notes": "Sweetens in cold weather"
+    },
+    "kohlrabi": {
+      "peak": [7, 8, 9],
+      "available": [6, 7, 8, 9, 10],
+      "category": "vegetable"
+    },
+    "leeks": {
+      "peak": [9, 10],
+      "available": [8, 9, 10, 11],
+      "category": "allium"
+    },
+    "lettuce": {
+      "peak": [6, 7, 8, 9],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "vegetable"
+    },
+    "mint": {
+      "peak": [6, 7, 8],
+      "available": [5, 6, 7, 8, 9],
+      "category": "herb"
+    },
+    "mustard greens": {
+      "peak": [6, 9],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "vegetable",
+      "notes": "Best quality in cooler spring/fall windows"
+    },
+    "nectarines": {
+      "peak": [8],
+      "available": [8, 9],
+      "category": "fruit",
+      "notes": "Mainly from Palisade and nearby orchards"
+    },
+    "onions": {
+      "peak": [8, 9, 10],
+      "available": [7, 8, 9, 10, 11],
+      "category": "allium",
+      "notes": "Storage onions continue after field harvest"
+    },
+    "parsley": {
+      "peak": [6, 7, 8, 9],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "herb"
+    },
+    "parsnips": {
+      "peak": [10, 11],
+      "available": [9, 10, 11],
+      "category": "root",
+      "notes": "Late fall root with improved sweetness after chill"
+    },
+    "peaches": {
+      "peak": [8],
+      "available": [8, 9],
+      "category": "fruit",
+      "notes": "Colorado Palisade peaches peak in August"
+    },
+    "pears": {
+      "peak": [9],
+      "available": [8, 9, 10],
+      "category": "fruit"
+    },
+    "peas": {
+      "peak": [6],
+      "available": [6, 7],
+      "category": "legume",
+      "notes": "Includes shelling and snap peas in early summer"
+    },
+    "peppers": {
+      "peak": [8, 9],
+      "available": [7, 8, 9, 10],
+      "category": "fruit",
+      "notes": "Includes bell and hot peppers"
+    },
+    "plums": {
+      "peak": [8],
+      "available": [8, 9],
+      "category": "fruit"
+    },
+    "potatoes": {
+      "peak": [9, 10],
+      "available": [8, 9, 10, 11],
+      "category": "root",
+      "notes": "San Luis Valley and other regions provide major crop volume"
+    },
+    "pumpkin": {
+      "peak": [10],
+      "available": [9, 10],
+      "category": "squash"
+    },
+    "radishes": {
+      "peak": [6, 7, 8, 9],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "root"
+    },
+    "raspberries": {
+      "peak": [8],
+      "available": [7, 8, 9],
+      "category": "fruit"
+    },
+    "scallions": {
+      "peak": [6, 7, 8],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "allium",
+      "notes": "Also marketed as green onions"
+    },
+    "shallots": {
+      "peak": [8, 9],
+      "available": [8, 9, 10],
+      "category": "allium"
+    },
+    "spinach": {
+      "peak": [5, 6, 9],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "vegetable",
+      "notes": "Spring and fall are strongest for quality"
+    },
+    "strawberries": {
+      "peak": [6],
+      "available": [6, 7],
+      "category": "fruit",
+      "notes": "Short local season, often June to early July"
+    },
+    "summer squash": {
+      "peak": [8],
+      "available": [7, 8, 9],
+      "category": "squash"
+    },
+    "sweet corn": {
+      "peak": [8],
+      "available": [7, 8, 9],
+      "category": "grain",
+      "notes": "Listed separately in many local market calendars"
+    },
+    "thyme": {
+      "peak": [6, 7, 8, 9],
+      "available": [5, 6, 7, 8, 9, 10],
+      "category": "herb"
+    },
+    "tomatoes": {
+      "peak": [8, 9],
+      "available": [7, 8, 9, 10],
+      "category": "fruit",
+      "notes": "Field tomatoes peak late summer; high tunnels can extend season"
+    },
+    "turnips": {
+      "peak": [9, 10],
+      "available": [7, 8, 9, 10, 11],
+      "category": "root"
+    },
+    "watermelon": {
+      "peak": [8],
+      "available": [8, 9],
+      "category": "fruit"
+    },
+    "winter squash": {
+      "peak": [10],
+      "available": [9, 10, 11],
+      "category": "squash",
+      "notes": "Excellent storage crop through late fall"
+    },
+    "zucchini": {
+      "peak": [8],
+      "available": [7, 8, 9],
+      "category": "squash"
+    }
+  }
+}

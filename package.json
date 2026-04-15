@@ -1,0 +1,7 @@
+{
+  "name": "recipes",
+  "private": true,
+  "scripts": {
+    "generate:seasonal": "node ./scripts/generate-seasonal-match.mjs"
+  }
+}
