@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import fs from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -10,6 +11,8 @@ const ROOT_DIR = path.resolve(__dirname, "..");
 const RECIPES_DIR = path.join(ROOT_DIR, "recipes");
 const OUTPUT_PATH = path.join(ROOT_DIR, "data", "recipes-with-ingredients.json");
 const INDEX_PATH = path.join(ROOT_DIR, "data", "ingredient-index.json");
+const SEASONAL_DATA_PATH = path.join(ROOT_DIR, "data", "seasonal-colorado.json");
+const SEASONAL_OUTPUT_PATH = path.join(ROOT_DIR, "data", "seasonal-match.json");
 
 const BING_SEARCH_URL = "https://www.bing.com/search";
 const REQUEST_TIMEOUT_MS = 5000;
@@ -513,6 +516,138 @@ async function mapWithConcurrency(items, limit, worker) {
   return results;
 }
 
+function uniqueSortedMonths(values) {
+  return [...new Set(values)].sort((a, b) => a - b);
+}
+
+function intersectMonthArrays(arrays) {
+  if (arrays.length === 0) {
+    return [];
+  }
+
+  const [first, ...rest] = arrays;
+  const firstUnique = [...new Set(first)];
+  return firstUnique.filter((month) => rest.every((months) => months.includes(month))).sort((a, b) => a - b);
+}
+
+function buildSeasonalLookup(produce) {
+  return Object.entries(produce).map(([key, value]) => ({
+    key: key.toLowerCase(),
+    peak: Array.isArray(value?.peak) ? value.peak : [],
+    available: Array.isArray(value?.available) ? value.available : [],
+    category: value?.category || ""
+  }));
+}
+
+function resolveLookupKey(seasonalLookup, ...candidates) {
+  for (const candidate of candidates) {
+    const normalized = candidate.toLowerCase();
+    const exact = seasonalLookup.find((entry) => entry.key === normalized);
+    if (exact) {
+      return exact;
+    }
+  }
+
+  for (const candidate of candidates) {
+    const normalized = candidate.toLowerCase();
+    const partial = seasonalLookup.find((entry) => entry.key.includes(normalized));
+    if (partial) {
+      return partial;
+    }
+  }
+
+  return null;
+}
+
+function matchSeasonalTerms(ingredientList, seasonalLookup) {
+  if (!Array.isArray(ingredientList) || ingredientList.length === 0) {
+    return [];
+  }
+
+  const matchesByKey = new Map();
+
+  for (const rawIngredient of ingredientList) {
+    if (typeof rawIngredient !== "string") {
+      continue;
+    }
+
+    const ingredient = rawIngredient.toLowerCase();
+    if (!ingredient.trim()) {
+      continue;
+    }
+
+    let matchedEntry = null;
+
+    if ((ingredient.includes("green chile") || ingredient.includes("hatch")) && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "green chile", "hatch green chile");
+    }
+
+    if (
+      ["bell pepper", "hot pepper", "chili pepper", "jalapeño", "jalapeno", "anaheim"].some((term) => ingredient.includes(term)) &&
+      !matchedEntry
+    ) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "peppers");
+    }
+
+    if (["cherry tomato", "roma tomato", "grape tomato", "plum tomato"].some((term) => ingredient.includes(term)) && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "tomatoes");
+    }
+
+    if (["summer squash", "zucchini"].some((term) => ingredient.includes(term)) && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "zucchini", "summer squash");
+    }
+
+    if (["sweet corn", "corn on the cob", "corn kernels"].some((term) => ingredient.includes(term)) && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "corn", "sweet corn");
+    }
+
+    if (["green onion", "scallion", "chive"].some((term) => ingredient.includes(term)) && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "onions");
+    }
+
+    if (["new potato", "fingerling", "russet", "yukon"].some((term) => ingredient.includes(term)) && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "potatoes");
+    }
+
+    if (["butternut", "acorn squash", "delicata", "kabocha"].some((term) => ingredient.includes(term)) && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "winter squash");
+    }
+
+    if (ingredient.includes("strawberry") && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "strawberries");
+    }
+
+    if (ingredient.includes("raspberry") && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "raspberries");
+    }
+
+    if (ingredient.includes("cherry") && !matchedEntry) {
+      matchedEntry = resolveLookupKey(seasonalLookup, "cherries");
+    }
+
+    if (ingredient.includes("blueberry") && !matchedEntry) {
+      continue;
+    }
+
+    if (!matchedEntry) {
+      matchedEntry = seasonalLookup.find((entry) => ingredient.includes(entry.key));
+    }
+
+    if (!matchedEntry || matchesByKey.has(matchedEntry.key)) {
+      continue;
+    }
+
+    matchesByKey.set(matchedEntry.key, {
+      ingredient: matchedEntry.key,
+      peak: matchedEntry.peak,
+      available: matchedEntry.available,
+      matchedTerm: rawIngredient
+    });
+  }
+
+  return [...matchesByKey.values()];
+}
+
 async function main() {
   const rawInventory = await loadInventory();
   const inventory = withStableIds(rawInventory).sort((a, b) => {
@@ -544,6 +679,64 @@ async function main() {
   console.log(`Generated ${stats.total_recipes} recipes -> ${path.relative(ROOT_DIR, OUTPUT_PATH)}`);
   console.log(`Ingredient index entries: ${indexPayload.total_ingredients}`);
   console.log(`Source scrape: ${stats.scraped_ingredients}, Heuristic fallback: ${stats.heuristic_only}`);
+
+  // --- SEASONAL MATCH GENERATION ---
+  const seasonalData = JSON.parse(await readFile(SEASONAL_DATA_PATH, "utf8"));
+  const seasonalProduce = seasonalData?.produce && typeof seasonalData.produce === "object" ? seasonalData.produce : {};
+  const seasonalLookup = buildSeasonalLookup(seasonalProduce);
+
+  const seasonalRecipes = recipes.map((recipe) => {
+    const ingredientList = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
+    const seasonalIngredients = matchSeasonalTerms(ingredientList, seasonalLookup);
+
+    const peakArrays = seasonalIngredients.map((entry) => entry.peak || []);
+    const peakIntersection = intersectMonthArrays(peakArrays);
+    const peakUnion = uniqueSortedMonths(peakArrays.flat());
+    const availableMonths = uniqueSortedMonths(seasonalIngredients.flatMap((entry) => entry.available || []));
+
+    return {
+      title: recipe.title,
+      meal: recipe.meal,
+      style: recipe.style,
+      source: recipe.source_url || recipe.resolved_source_url || "",
+      seasonalIngredients,
+      bestMonths: peakIntersection.length > 0 ? peakIntersection : peakUnion,
+      availableMonths,
+      seasonalScore: seasonalIngredients.length
+    };
+  });
+
+  seasonalRecipes.sort((a, b) => {
+    if (b.seasonalScore !== a.seasonalScore) {
+      return b.seasonalScore - a.seasonalScore;
+    }
+    return a.title.localeCompare(b.title);
+  });
+
+  const matchedRecipes = seasonalRecipes.filter((recipe) => recipe.seasonalScore > 0).length;
+  const seasonalPayload = {
+    generatedAt: new Date().toISOString(),
+    region: "colorado",
+    regionLabel: "Colorado",
+    totalRecipes: seasonalRecipes.length,
+    matchedRecipes,
+    recipes: seasonalRecipes
+  };
+
+  await fs.writeFile(SEASONAL_OUTPUT_PATH, `${JSON.stringify(seasonalPayload, null, 2)}\n`, "utf8");
+
+  const currentMonth = new Date().getMonth() + 1;
+  const topThisMonth = seasonalRecipes
+    .filter((recipe) => recipe.bestMonths.includes(currentMonth))
+    .slice(0, 3);
+
+  console.log("Seasonal match complete.");
+  console.log(`${matchedRecipes} of ${seasonalRecipes.length} recipes matched at least one seasonal ingredient.`);
+  console.log("Top seasonal recipes this month:");
+  for (const recipe of topThisMonth) {
+    console.log(`- ${recipe.title} (${recipe.seasonalScore})`);
+  }
+  console.log(`Output: ${path.relative(ROOT_DIR, SEASONAL_OUTPUT_PATH)}`);
 }
 
 main().catch((error) => {
