@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colorado Seasonal Produce</title>
+    <meta
+      name="description"
+      content="Explore Colorado produce at peak now, in season now, and by month."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Literata:opsz,wght@7..72,400;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      :root {
+        --seasonal-peak: color-mix(in srgb, var(--accent) 70%, #8f2f1b 30%);
+        --seasonal-available: color-mix(in srgb, var(--accent) 18%, #fff 82%);
+        --seasonal-border: #e9d9ca;
+      }
+
+      .tabs {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+      }
+
+      .tabButton {
+        border: 1px solid #d8c7b8;
+        background: #fffdf8;
+        color: var(--ink);
+        border-radius: 10px;
+        padding: 0.5rem 0.75rem;
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .tabButton:hover {
+        background: #f8f1e8;
+      }
+
+      .tabButton.active {
+        border-color: color-mix(in srgb, var(--accent) 55%, #d8c7b8 45%);
+        background: color-mix(in srgb, var(--accent) 10%, #fff 90%);
+        box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 30%, #fff 70%);
+      }
+
+      .tabButton:focus-visible {
+        outline: 3px solid var(--ring);
+      }
+
+      .panel {
+        margin-top: 1rem;
+      }
+
+      .panel[hidden] {
+        display: none;
+      }
+
+      .seasonalSection {
+        margin-top: 1rem;
+      }
+
+      .seasonalSection h2,
+      .seasonalSection h3 {
+        margin: 0 0 0.6rem;
+      }
+
+      .produceGrid,
+      .recipeGridCompact,
+      .checkResults {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 1rem;
+      }
+
+      .recipeGridCompact {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      }
+
+      .produceCard,
+      .recipeCardCompact,
+      .checkCard {
+        background: var(--card);
+        border: 1px solid var(--seasonal-border);
+        border-radius: 16px;
+        padding: 0.85rem;
+        box-shadow: 0 8px 24px rgba(60, 28, 16, 0.06);
+        display: grid;
+        gap: 0.45rem;
+      }
+
+      .produceHead,
+      .checkHead {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 0.5rem;
+      }
+
+      .produceName,
+      .recipeTitle,
+      .checkName {
+        margin: 0;
+        font-weight: 800;
+      }
+
+      .categoryBadge,
+      .peakIndicator,
+      .ingredientPill,
+      .scoreBadge {
+        border-radius: 999px;
+        padding: 0.15rem 0.5rem;
+        font-size: 0.74rem;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+
+      .categoryBadge {
+        border: 1px solid #e6d3c3;
+        background: #f7efe7;
+        color: #644c3f;
+      }
+
+      .peakIndicator {
+        background: color-mix(in srgb, var(--accent) 15%, white 85%);
+        color: #6a2216;
+        border: 1px solid color-mix(in srgb, var(--accent) 35%, #f3d2c8 65%);
+        justify-self: start;
+      }
+
+      .windowText,
+      .notesText,
+      .recipeMeta,
+      .emptyState,
+      .matchHelp {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .notesText {
+        font-size: 0.84rem;
+      }
+
+      .ingredientPills {
+        display: flex;
+        gap: 0.35rem;
+        flex-wrap: wrap;
+      }
+
+      .ingredientPill {
+        background: #f7ede3;
+        border: 1px solid #ebd6c3;
+        color: #5a4538;
+      }
+
+      .scoreBadge {
+        background: #edf6f3;
+        border: 1px solid #cfe4dd;
+        color: #2b6154;
+        justify-self: start;
+      }
+
+      .categoryGroup {
+        margin-top: 1rem;
+        background: color-mix(in srgb, var(--card) 92%, #f4ece2 8%);
+        border: 1px solid #e9ddcf;
+        border-radius: 14px;
+        padding: 0.8rem;
+      }
+
+      .categoryGroup h3 {
+        margin-top: 0;
+        margin-bottom: 0.65rem;
+      }
+
+      .groupList {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+
+      .groupItem {
+        border: 1px solid #dfcdbd;
+        border-radius: 999px;
+        background: #fffdfa;
+        padding: 0.25rem 0.6rem;
+        font-size: 0.82rem;
+        font-weight: 700;
+      }
+
+      .groupItem.isPeak {
+        background: color-mix(in srgb, var(--accent) 11%, #fff 89%);
+        border-color: color-mix(in srgb, var(--accent) 40%, #dfcdbd 60%);
+      }
+
+      .legend {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        margin-bottom: 0.75rem;
+      }
+
+      .legendItem {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: #5e4a3e;
+        font-weight: 600;
+      }
+
+      .legendSwatch {
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+        border: 1px solid #d9c8b8;
+      }
+
+      .legendSwatch.peak {
+        background: var(--seasonal-peak);
+        border-color: color-mix(in srgb, var(--seasonal-peak) 55%, #d9c8b8 45%);
+      }
+
+      .legendSwatch.available {
+        background: var(--seasonal-available);
+      }
+
+      .calendarScroller {
+        overflow-x: auto;
+        border: 1px solid #e8d9cb;
+        border-radius: 14px;
+        background: #fffdf9;
+      }
+
+      .calendarGrid {
+        display: grid;
+        grid-template-columns: minmax(180px, 220px) repeat(12, minmax(64px, 1fr));
+        min-width: 980px;
+      }
+
+      .calendarCell {
+        border-right: 1px solid #eee0d4;
+        border-bottom: 1px solid #eee0d4;
+        min-height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.82rem;
+      }
+
+      .calendarCell.isHeader {
+        background: #f8f0e7;
+        font-weight: 800;
+      }
+
+      .calendarCell.currentMonth {
+        box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--accent-2) 30%, #fff 70%);
+        background: color-mix(in srgb, var(--accent-2) 9%, #fff 91%);
+      }
+
+      .calendarCell.isLabel {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        justify-content: start;
+        padding: 0.35rem 0.6rem;
+        font-weight: 700;
+        background: #fffcf8;
+      }
+
+      .calendarCell.isLabel.currentMonth {
+        box-shadow: none;
+      }
+
+      .calendarCell.isPeak {
+        background: var(--seasonal-peak);
+      }
+
+      .calendarCell.isAvailable {
+        background: var(--seasonal-available);
+      }
+
+      .calendarCell.isPeak.currentMonth,
+      .calendarCell.isAvailable.currentMonth {
+        box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--accent-2) 30%, #fff 70%);
+      }
+
+      .checkSearchWrap {
+        margin: 0 0 1rem;
+      }
+
+      .miniBar {
+        display: inline-flex;
+        gap: 2px;
+      }
+
+      .miniCell {
+        width: 14px;
+        height: 20px;
+        border-radius: 2px;
+        border: 1px solid #e4d5c6;
+        background: transparent;
+      }
+
+      .miniCell.isPeak {
+        background: var(--seasonal-peak);
+        border-color: color-mix(in srgb, var(--seasonal-peak) 55%, #d9c8b8 45%);
+      }
+
+      .miniCell.isAvailable {
+        background: var(--seasonal-available);
+      }
+
+      .miniMonthsLabel {
+        margin: 0;
+        font-size: 0.76rem;
+        color: #6b5c51;
+      }
+
+      .checkRecipeList {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 0.3rem;
+      }
+
+      .checkRecipeItem {
+        font-size: 0.85rem;
+        color: #5b463b;
+      }
+
+      @media (max-width: 760px) {
+        .tabs {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Colorado Seasonal Produce</p>
+        <h1>Cook what's fresh, every month of the year.</h1>
+        <p class="subtitle">
+          See what Colorado produce is at peak right now, discover which recipes shine each season, and check any ingredient's harvest window.
+        </p>
+        <nav class="subNav" aria-label="Pages">
+          <a href="index.html">Planner</a>
+          <a href="ingredients.html">Ingredient Search</a>
+          <a href="seasonal.html" aria-current="page">Seasonal</a>
+        </nav>
+      </section>
+
+      <section class="tabs" aria-label="Seasonal views">
+        <button id="tab-peak" class="tabButton active" type="button">Peak Right Now</button>
+        <button id="tab-season" class="tabButton" type="button">In Season Now</button>
+        <button id="tab-calendar" class="tabButton" type="button">Season Calendar</button>
+        <button id="tab-check" class="tabButton" type="button">Ingredient Season Check</button>
+      </section>
+
+      <section class="metaBar" aria-live="polite">
+        <p id="metaText"></p>
+      </section>
+
+      <section id="panel-peak" class="panel" aria-label="Peak right now"></section>
+      <section id="panel-season" class="panel" aria-label="In season now" hidden></section>
+      <section id="panel-calendar" class="panel" aria-label="Season calendar" hidden></section>
+      <section id="panel-check" class="panel" aria-label="Ingredient season check" hidden></section>
+    </main>
+
+    <script>
+      const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      const FULL_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      const CATEGORY_ORDER = ["vegetable", "fruit", "herb", "grain", "allium", "root", "squash", "legume"];
+
+      const MATCH_MISSING_MESSAGE = "Run `node ./scripts/generate-seasonal-match.mjs` to see recipe matches.";
+
+      const currentMonth = new Date().getMonth() + 1;
+      const monthShort = MONTHS[currentMonth - 1];
+
+      const tabConfig = {
+        "tab-peak": {
+          panelId: "panel-peak",
+          meta: () => {
+            const peakCount = seasonalProduce.filter((item) => item.peak.includes(currentMonth)).length;
+            return `${peakCount} ingredients at peak in Colorado this month`;
+          }
+        },
+        "tab-season": {
+          panelId: "panel-season",
+          meta: () => {
+            const recipeCount = recipesInSeasonNow().length;
+            return `${recipeCount} recipes use ingredients currently in season`;
+          }
+        },
+        "tab-calendar": {
+          panelId: "panel-calendar",
+          meta: () => "Browse all 12 months"
+        },
+        "tab-check": {
+          panelId: "panel-check",
+          meta: () => "Type an ingredient to see its Colorado harvest window"
+        }
+      };
+
+      const metaText = document.getElementById("metaText");
+      const tabButtons = [...document.querySelectorAll(".tabButton")];
+      const panels = [...document.querySelectorAll(".panel")];
+
+      let seasonalProduce = [];
+      let seasonalByKey = {};
+      let seasonalMatchData = null;
+
+      function monthName(n) {
+        const index = Number(n) - 1;
+        if (index < 0 || index > 11) {
+          return "";
+        }
+        return FULL_MONTHS[index];
+      }
+
+      function capitalizeFirst(value) {
+        const text = String(value || "").trim();
+        if (!text) {
+          return "";
+        }
+        return text.charAt(0).toUpperCase() + text.slice(1);
+      }
+
+      function formatMonthRange(months) {
+        if (!Array.isArray(months) || !months.length) {
+          return "";
+        }
+        const sorted = [...new Set(months)].sort((a, b) => a - b);
+        if (sorted.length === 1) {
+          return MONTHS[sorted[0] - 1];
+        }
+        return `${MONTHS[sorted[0] - 1]} - ${MONTHS[sorted[sorted.length - 1] - 1]}`;
+      }
+
+      function safeText(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
+      function normalize(value) {
+        return String(value ?? "")
+          .toLowerCase()
+          .replace(/&/g, " and ")
+          .replace(/[^a-z0-9\s]/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+      }
+
+      function categorySort(a, b) {
+        const aIndex = CATEGORY_ORDER.indexOf(a.category);
+        const bIndex = CATEGORY_ORDER.indexOf(b.category);
+        const safeAIndex = aIndex === -1 ? Number.MAX_SAFE_INTEGER : aIndex;
+        const safeBIndex = bIndex === -1 ? Number.MAX_SAFE_INTEGER : bIndex;
+        if (safeAIndex !== safeBIndex) {
+          return safeAIndex - safeBIndex;
+        }
+        return a.name.localeCompare(b.name);
+      }
+
+      function recipeHasMatchData() {
+        return seasonalMatchData && Array.isArray(seasonalMatchData.recipes);
+      }
+
+      function recipesBestNow() {
+        if (!recipeHasMatchData()) {
+          return [];
+        }
+        return seasonalMatchData.recipes.filter((recipe) => Array.isArray(recipe.bestMonths) && recipe.bestMonths.includes(currentMonth));
+      }
+
+      function recipesInSeasonNow() {
+        if (!recipeHasMatchData()) {
+          return [];
+        }
+        return [...seasonalMatchData.recipes]
+          .filter((recipe) => Array.isArray(recipe.availableMonths) && recipe.availableMonths.includes(currentMonth))
+          .sort((a, b) => (b.seasonalScore || 0) - (a.seasonalScore || 0));
+      }
+
+      function matchingRecipesForIngredient(produceName) {
+        if (!recipeHasMatchData()) {
+          return [];
+        }
+        const key = normalize(produceName);
+        return seasonalMatchData.recipes.filter((recipe) => {
+          if (!Array.isArray(recipe.seasonalIngredients)) {
+            return false;
+          }
+          return recipe.seasonalIngredients.some((match) => normalize(match.ingredient) === key);
+        });
+      }
+
+      function renderPeakPanel() {
+        const panel = document.getElementById("panel-peak");
+        const peakItems = seasonalProduce.filter((item) => item.peak.includes(currentMonth));
+
+        const produceHtml = peakItems.length
+          ? `
+            <ul class="produceGrid">
+              ${peakItems
+                .map(
+                  (item) => `
+                    <li class="produceCard">
+                      <div class="produceHead">
+                        <h3 class="produceName">${safeText(capitalizeFirst(item.name))}</h3>
+                        <span class="categoryBadge">${safeText(item.category)}</span>
+                      </div>
+                      <span class="peakIndicator">Peak now</span>
+                      <p class="windowText">Available: ${safeText(formatMonthRange(item.available))}</p>
+                      ${item.notes ? `<p class="notesText">${safeText(item.notes)}</p>` : ""}
+                    </li>
+                  `
+                )
+                .join("")}
+            </ul>
+          `
+          : `<p class="emptyState">No items are marked peak for ${monthName(currentMonth)}.</p>`;
+
+        const recipes = recipesBestNow();
+        const recipesHtml = recipeHasMatchData()
+          ? recipes.length
+            ? `
+              <ul class="recipeGridCompact">
+                ${recipes
+                  .map((recipe) => {
+                    const ingredientPills = (recipe.seasonalIngredients || [])
+                      .map((match) => `<span class="ingredientPill">${safeText(match.ingredient)}</span>`)
+                      .join("");
+                    return `
+                      <li class="recipeCardCompact">
+                        <h4 class="recipeTitle">${safeText(recipe.title)}</h4>
+                        <p class="recipeMeta">${safeText(recipe.meal)} • ${safeText(recipe.style)}</p>
+                        <div class="ingredientPills">${ingredientPills || "<span class=\"ingredientPill\">No matched ingredients</span>"}</div>
+                      </li>
+                    `;
+                  })
+                  .join("")}
+              </ul>
+            `
+            : `<p class="emptyState">No recipes currently align with peak-month intersections for ${monthName(currentMonth)}.</p>`
+          : `<p class="matchHelp">${safeText(MATCH_MISSING_MESSAGE)}</p>`;
+
+        panel.innerHTML = `
+          <div class="seasonalSection">
+            <h2>Peak in ${monthShort}</h2>
+            ${produceHtml}
+          </div>
+          <div class="seasonalSection">
+            <h3>Recipes to make right now</h3>
+            ${recipesHtml}
+          </div>
+        `;
+      }
+
+      function renderSeasonPanel() {
+        const panel = document.getElementById("panel-season");
+        const availableItems = seasonalProduce.filter((item) => item.available.includes(currentMonth));
+        const grouped = new Map();
+
+        for (const item of availableItems) {
+          const key = item.category || "other";
+          if (!grouped.has(key)) {
+            grouped.set(key, []);
+          }
+          grouped.get(key).push(item);
+        }
+
+        const categories = [...grouped.keys()].sort((a, b) => {
+          const ai = CATEGORY_ORDER.indexOf(a);
+          const bi = CATEGORY_ORDER.indexOf(b);
+          const safeAi = ai === -1 ? Number.MAX_SAFE_INTEGER : ai;
+          const safeBi = bi === -1 ? Number.MAX_SAFE_INTEGER : bi;
+          if (safeAi !== safeBi) {
+            return safeAi - safeBi;
+          }
+          return a.localeCompare(b);
+        });
+
+        const groupsHtml = categories.length
+          ? categories
+              .map((category) => {
+                const items = grouped.get(category).sort((a, b) => a.name.localeCompare(b.name));
+                return `
+                  <div class="categoryGroup">
+                    <h3>${safeText(capitalizeFirst(category))}</h3>
+                    <ul class="groupList">
+                      ${items
+                        .map((item) => {
+                          const isPeak = item.peak.includes(currentMonth);
+                          return `<li class="groupItem ${isPeak ? "isPeak" : ""}">${safeText(capitalizeFirst(item.name))}${
+                            isPeak ? " • peak" : ""
+                          }</li>`;
+                        })
+                        .join("")}
+                    </ul>
+                  </div>
+                `;
+              })
+              .join("")
+          : `<p class="emptyState">No produce is listed as in season for ${monthName(currentMonth)}.</p>`;
+
+        const recipes = recipesInSeasonNow();
+        const recipeHtml = recipeHasMatchData()
+          ? recipes.length
+            ? `
+              <ul class="recipeGridCompact">
+                ${recipes
+                  .map((recipe) => {
+                    const ingredients = [...new Set((recipe.seasonalIngredients || []).map((item) => item.ingredient))];
+                    return `
+                      <li class="recipeCardCompact">
+                        <h4 class="recipeTitle">${safeText(recipe.title)}</h4>
+                        <p class="recipeMeta">${safeText(recipe.meal)} • ${safeText(recipe.style)}</p>
+                        <span class="scoreBadge">${safeText(String(recipe.seasonalScore || 0))} seasonal ingredients</span>
+                        <div class="ingredientPills">
+                          ${ingredients.map((name) => `<span class="ingredientPill">${safeText(name)}</span>`).join("")}
+                        </div>
+                      </li>
+                    `;
+                  })
+                  .join("")}
+              </ul>
+            `
+            : `<p class="emptyState">No recipe matches are in season for ${monthName(currentMonth)}.</p>`
+          : `<p class="matchHelp">${safeText(MATCH_MISSING_MESSAGE)}</p>`;
+
+        panel.innerHTML = `
+          <div class="seasonalSection">
+            <h2>In season now (${monthShort})</h2>
+            ${groupsHtml}
+          </div>
+          <div class="seasonalSection">
+            <h3>Recipes in season now</h3>
+            ${recipeHtml}
+          </div>
+        `;
+      }
+
+      function renderCalendarPanel() {
+        const panel = document.getElementById("panel-calendar");
+
+        const rows = [...seasonalProduce].sort(categorySort);
+        const headerCells = [
+          '<div class="calendarCell isHeader isLabel">Produce</div>',
+          ...MONTHS.map((label, idx) => {
+            const monthNumber = idx + 1;
+            const isCurrent = monthNumber === currentMonth ? " currentMonth" : "";
+            return `<div class="calendarCell isHeader${isCurrent}">${label}</div>`;
+          })
+        ].join("");
+
+        const bodyCells = rows
+          .map((item) => {
+            const label = `<div class="calendarCell isLabel">${safeText(capitalizeFirst(item.name))}</div>`;
+            const monthCells = MONTHS.map((_, idx) => {
+              const monthNumber = idx + 1;
+              const isPeak = item.peak.includes(monthNumber);
+              const isAvailable = !isPeak && item.available.includes(monthNumber);
+              const classes = ["calendarCell"];
+              if (isPeak) {
+                classes.push("isPeak");
+              } else if (isAvailable) {
+                classes.push("isAvailable");
+              }
+              if (monthNumber === currentMonth) {
+                classes.push("currentMonth");
+              }
+              return `<div class="${classes.join(" ")}" title="${safeText(capitalizeFirst(item.name))} - ${safeText(monthName(monthNumber))}"></div>`;
+            }).join("");
+
+            return `${label}${monthCells}`;
+          })
+          .join("");
+
+        panel.innerHTML = `
+          <div class="seasonalSection">
+            <h2>Season Calendar</h2>
+            <div class="legend">
+              <span class="legendItem"><span class="legendSwatch peak" aria-hidden="true"></span>Peak</span>
+              <span class="legendItem"><span class="legendSwatch available" aria-hidden="true"></span>Available</span>
+            </div>
+            <div class="calendarScroller">
+              <div class="calendarGrid">
+                ${headerCells}
+                ${bodyCells}
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      function renderCheckPanel(query = "") {
+        const panel = document.getElementById("panel-check");
+        const normalized = normalize(query);
+
+        const filtered = normalized
+          ? seasonalProduce.filter((item) => normalize(item.name).includes(normalized))
+          : [...seasonalProduce].sort((a, b) => a.name.localeCompare(b.name));
+
+        const resultsHtml = filtered.length
+          ? `
+            <ul class="checkResults">
+              ${filtered
+                .map((item) => {
+                  const miniCells = MONTHS.map((_, idx) => {
+                    const monthNumber = idx + 1;
+                    const classes = ["miniCell"];
+                    if (item.peak.includes(monthNumber)) {
+                      classes.push("isPeak");
+                    } else if (item.available.includes(monthNumber)) {
+                      classes.push("isAvailable");
+                    }
+                    return `<span class="${classes.join(" ")}" title="${safeText(monthName(monthNumber))}"></span>`;
+                  }).join("");
+
+                  const recipeMatches = matchingRecipesForIngredient(item.name);
+                  const recipesMarkup = recipeHasMatchData()
+                    ? recipeMatches.length
+                      ? `
+                        <ul class="checkRecipeList">
+                          ${recipeMatches
+                            .map(
+                              (recipe) => `<li class="checkRecipeItem">${safeText(recipe.title)} (${safeText(recipe.meal)} • ${safeText(recipe.style)})</li>`
+                            )
+                            .join("")}
+                        </ul>
+                      `
+                      : "<p class=\"emptyState\">No matched recipes yet.</p>"
+                    : `<p class="matchHelp">${safeText(MATCH_MISSING_MESSAGE)}</p>`;
+
+                  return `
+                    <li class="checkCard">
+                      <div class="checkHead">
+                        <h3 class="checkName">${safeText(capitalizeFirst(item.name))}</h3>
+                        <span class="categoryBadge">${safeText(item.category)}</span>
+                      </div>
+                      <div class="miniBar" aria-label="Month availability bar">${miniCells}</div>
+                      <p class="miniMonthsLabel">Jan to Dec availability and peak windows</p>
+                      ${item.notes ? `<p class="notesText">${safeText(item.notes)}</p>` : ""}
+                      <div>
+                        <h4>Recipes using this ingredient</h4>
+                        ${recipesMarkup}
+                      </div>
+                    </li>
+                  `;
+                })
+                .join("")}
+            </ul>
+          `
+          : '<p class="emptyState">No Colorado seasonal data found for that ingredient.</p>';
+
+        panel.innerHTML = `
+          <div class="seasonalSection">
+            <div class="checkSearchWrap">
+              <label for="ingredientSeasonSearch">Ingredient lookup</label>
+              <input id="ingredientSeasonSearch" type="search" placeholder="Try: peaches, corn, green chile" value="${safeText(query)}" />
+            </div>
+            ${resultsHtml}
+          </div>
+        `;
+
+        const input = document.getElementById("ingredientSeasonSearch");
+        if (input) {
+          input.addEventListener("input", (event) => {
+            renderCheckPanel(event.target.value);
+          });
+        }
+      }
+
+      function setActiveTab(tabId) {
+        for (const button of tabButtons) {
+          button.classList.toggle("active", button.id === tabId);
+        }
+
+        for (const panel of panels) {
+          const targetId = tabConfig[tabId].panelId;
+          panel.hidden = panel.id !== targetId;
+        }
+
+        metaText.textContent = tabConfig[tabId].meta();
+      }
+
+      function bindTabs() {
+        for (const button of tabButtons) {
+          button.addEventListener("click", () => {
+            setActiveTab(button.id);
+          });
+        }
+      }
+
+      async function loadData() {
+        const seasonalPromise = fetch("./data/seasonal-colorado.json").then((response) => {
+          if (!response.ok) {
+            throw new Error("Could not load seasonal data.");
+          }
+          return response.json();
+        });
+
+        const matchPromise = fetch("./data/seasonal-match.json").then((response) => {
+          if (!response.ok) {
+            throw new Error("Could not load seasonal recipe match data.");
+          }
+          return response.json();
+        });
+
+        const [seasonalResult, matchResult] = await Promise.allSettled([seasonalPromise, matchPromise]);
+
+        if (seasonalResult.status !== "fulfilled") {
+          throw seasonalResult.reason;
+        }
+
+        const produceObject = seasonalResult.value.produce || {};
+        seasonalByKey = produceObject;
+        seasonalProduce = Object.entries(produceObject).map(([name, details]) => ({
+          name,
+          peak: Array.isArray(details.peak) ? details.peak : [],
+          available: Array.isArray(details.available) ? details.available : [],
+          category: details.category || "other",
+          notes: details.notes || ""
+        }));
+
+        seasonalMatchData = matchResult.status === "fulfilled" ? matchResult.value : null;
+      }
+
+      async function init() {
+        bindTabs();
+
+        try {
+          await loadData();
+        } catch (error) {
+          const peakPanel = document.getElementById("panel-peak");
+          const message = error instanceof Error ? error.message : "Unable to load Colorado seasonal data.";
+          peakPanel.innerHTML = `<p class="emptyState">${safeText(message)}</p>`;
+          setActiveTab("tab-peak");
+          return;
+        }
+
+        renderPeakPanel();
+        renderSeasonPanel();
+        renderCalendarPanel();
+        renderCheckPanel();
+        setActiveTab("tab-peak");
+      }
+
+      init();
+    </script>
+  </body>
+</html>
