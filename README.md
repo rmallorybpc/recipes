@@ -1,12 +1,13 @@
----
+Rewrite `README.md` completely with the corrected version below.
+The current file has two problems: it begins with a fenced code
+block containing ---, which Jekyll interprets as YAML front matter
+and throws a parse error; and the Repository Structure section
+lost its code fence markers, causing the folder tree to render
+as unformatted plain text.
 
-# Family Recipe Book — A Meal Planning System Built on GitHub Pages
+Replace the entire contents of README.md with exactly this:
 
-This started as a simple problem: our family kept losing track of recipes. Some were bookmarked, some were in a notes app, some existed only in someone's memory. Finding what to cook on a Tuesday night meant opening four different apps and still not having an answer.
-
-So I built a structured recipe system on GitHub Pages — no backend, no database, no ongoing cost. What began as a searchable recipe collection grew into a full meal planning pipeline that connects a family recipe book to live grocery store deal data, Colorado seasonal produce availability, and an AI-assisted meal plan generator.
-
-Everything runs on static files, GitHub Actions, and a small set of public APIs. The total infrastructure cost is zero.
+====== START OF README.md CONTENT ======
 
 # Family Recipe Book — A Meal Planning System Built on GitHub Pages
 
@@ -111,35 +112,35 @@ the annual baseline that month — peak season. A multiplier above
 
 ```text
 recipes/               # Recipe markdown files by meal and style
-	breakfast/
-	lunch/
-	dinner/
-		meat/
-		rice-or-pasta/
-		soup-or-stew/
-		handheld/
-		baked-casserole/
-		bowls/
-		vegetarian/
-		seafood/
+  breakfast/
+  lunch/
+  dinner/
+    meat/
+    rice-or-pasta/
+    soup-or-stew/
+    handheld/
+    baked-casserole/
+    bowls/
+    vegetarian/
+    seafood/
 data/                  # Generated data files served as static JSON
-	recipes-with-ingredients.json
-	seasonal-colorado.json
-	seasonal-match.json
-	seasonal-price-multipliers.json
-	weekly-deals.json
-	deals-match.json
-	ingredient-prices.json
+  recipes-with-ingredients.json
+  seasonal-colorado.json
+  seasonal-match.json
+  seasonal-price-multipliers.json
+  weekly-deals.json
+  deals-match.json
+  ingredient-prices.json
 scripts/               # Node.js scripts for data generation and import
-	generate-ingredient-data.mjs
-	fetch-weekly-deals.mjs
-	import-recipe-from-issue.mjs
-	import-suggested-recipes.mjs
-	verify-ingredient-data-with-model.mjs
+  generate-ingredient-data.mjs
+  fetch-weekly-deals.mjs
+  import-recipe-from-issue.mjs
+  import-suggested-recipes.mjs
+  verify-ingredient-data-with-model.mjs
 .github/workflows/     # GitHub Actions automation
-	fetch-weekly-deals.yml
-	import-recipe-from-issue.yml
-	ingredient-data-validation.yml
+  fetch-weekly-deals.yml
+  import-recipe-from-issue.yml
+  ingredient-data-validation.yml
 docs/                  # Additional documentation
 ```
 
@@ -249,16 +250,26 @@ import. The Anthropic API is not called at runtime. The
 context and opens Claude.ai in a new tab -- no API key required
 from the user.
 
-| Data | Source | Update frequency |
-|---|---|---|
-| Weekly deals | [Kroger Developer API](https://developer.kroger.com) | Every Wednesday via GitHub Actions |
-| Seasonal availability | [Colorado Department of Agriculture](https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar) | Annual |
-| Seasonal price multipliers | [USDA Economic Research Service](https://www.ers.usda.gov) + CDA calendar | Annual |
-| Recipe ingredients | Source recipe pages + title heuristics | On import |
-| Ingredient validation | Claude Sonnet via [GitHub Models](https://github.com/features/models) | On demand |
+====== END OF README.md CONTENT ======
 
-## Technical Notes
+IMPORTANT INSTRUCTIONS FOR COPILOT:
 
-The site runs entirely on GitHub Pages with no server-side code. All data is pre-generated as static JSON files and served directly. The weekly deals automation is the only scheduled process — everything else is triggered manually or on recipe import. The Anthropic API is not called at runtime. The "Refine with Claude" feature on the Suggest page assembles context and opens Claude.ai in a new tab — no API key required from the user.
+1. The README.md file must start with the # heading on the very
+   first line. No blank lines, no code fences, no dashes before
+   the heading.
 
----
+2. The Repository Structure section uses a fenced code block
+   marked as ```text (not just ```). This is intentional --
+   use ```text exactly as shown.
+
+3. Do not add any --- horizontal rules anywhere in the file.
+   The em dash character in headings and sentences is fine --
+   only standalone lines containing only three hyphens are
+   forbidden.
+
+4. Do not add YAML front matter (no --- at the top of the file).
+
+5. Write the file exactly as shown between the START and END
+   markers above. Do not add, remove, or reformat any content.
+
+6. Do not modify any other file.
