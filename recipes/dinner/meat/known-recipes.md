@@ -18,3 +18,9 @@
 - Deconstructed steak sandwiches with cheese
 
 - Beef and broccoli
+
+- Suggested - Japanese chicken katsu
+- Suggested - Butter chicken
+- Suggested - Lamb kofta with tzatziki
+- Suggested - Sheet pan chicken thighs and vegetables
+- Suggested - Caprese stuffed chicken

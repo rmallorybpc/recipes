@@ -8,3 +8,5 @@
   - Source: https://www.allrecipes.com/recipe/7040/jps-big-daddy-biscuits/
 - Crusty bread
   - Source: https://www.recipetineats.com/easy-yeast-bread-recipe-no-knead/
+
+- Suggested - Banana oat pancakes
