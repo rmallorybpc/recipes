@@ -669,3 +669,118 @@ textarea {
   color: var(--color-text-primary);
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+
+  /* Page container — reduce horizontal padding */
+  .page {
+    padding: 0 1rem;
+  }
+
+  /* Hero section — tighter vertical spacing */
+  .hero {
+    padding: 1.5rem 0 1rem;
+  }
+
+  /* Hero h1 — scale down for mobile */
+  .hero h1 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    line-height: 1.25;
+  }
+
+  /* subNav — wrap links on narrow screens */
+  .subNav {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .subNav a {
+    font-size: 13px;
+    padding: 0.3rem 0.7rem;
+  }
+
+  /* Recipe grid — single column on tablet */
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.75rem;
+  }
+
+  /* Filter controls — stack vertically */
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.625rem;
+  }
+
+  .controls label {
+    width: 100%;
+  }
+
+  .controls select,
+  .controls input[type="search"] {
+    width: 100%;
+    font-size: 16px; /* prevents iOS zoom on focus */
+  }
+
+  /* metaBar */
+  .metaBar {
+    padding: 0.5rem 0;
+  }
+
+  /* Planner head — stack heading and actions */
+  .plannerHead {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .plannerActions {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .plannerActionButton {
+    font-size: 13px;
+    padding: 0.4rem 0.75rem;
+  }
+
+  /* Submit form grid — single column */
+  .submitGrid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Submit form textarea — full width */
+  .submitForm textarea,
+  .submitForm input {
+    font-size: 16px; /* prevents iOS zoom */
+  }
+
+  /* Site footer */
+  .siteFooter {
+    font-size: 11px;
+    padding: 1rem;
+    line-height: 1.7;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  /* Hero h1 — tighter on small phones */
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Recipe grid — two columns minimum */
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.625rem;
+  }
+
+  /* subNav — smaller text */
+  .subNav a {
+    font-size: 12px;
+    padding: 0.25rem 0.6rem;
+  }
+
+}
