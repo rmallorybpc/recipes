@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Meal Plan Generator</title>
+    <meta
+      name="description"
+      content="Generate a week of meals using your recipes, weekly deals, seasonal produce, and household preferences."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Literata:opsz,wght@7..72,400;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      :root {
+        --color-background-success: #e8f4ef;
+        --color-background-warning: #f9e8c2;
+        --color-background-info: color-mix(in srgb, var(--accent-2) 16%, #fff 84%);
+        --color-text-success: #255c4f;
+        --color-text-warning: #5f4216;
+        --color-text-info: #1f5d4f;
+        --color-text-secondary: var(--muted);
+        --color-border-tertiary: #e4d4c5;
+        --color-border-info: color-mix(in srgb, var(--accent-2) 45%, #cfe5de 55%);
+        --border-radius-lg: 16px;
+      }
+
+      .panelSection {
+        margin-top: 1.5rem;
+      }
+
+      .panelSection h2 {
+        margin: 0;
+      }
+
+      .panelSubtitle {
+        margin: 0.35rem 0 0.9rem;
+        font-size: 13px;
+        color: var(--color-text-secondary);
+      }
+
+      .settingsCard,
+      .weeklyCard {
+        background: #fff;
+        border: 0.5px solid var(--color-border-tertiary);
+        border-radius: var(--border-radius-lg);
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .cardSubsection {
+        margin-bottom: 1.25rem;
+        padding-bottom: 1.25rem;
+        border-bottom: 0.5px solid var(--color-border-tertiary);
+      }
+
+      .cardSubsection:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+      }
+
+      .subsectionLabel {
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--color-text-secondary);
+        display: block;
+        margin-bottom: 0.375rem;
+      }
+
+      .fieldNote {
+        margin: 0.45rem 0 0;
+        font-size: 12px;
+        color: var(--color-text-secondary);
+        min-height: 16px;
+      }
+
+      .dayGrid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 0.5rem;
+        text-align: center;
+      }
+
+      .dayColumn {
+        border: 0.5px solid var(--color-border-tertiary);
+        border-radius: 10px;
+        padding: 0.5rem;
+        background: #fffdf9;
+      }
+
+      .dayColumnHeader {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 0.375rem;
+      }
+
+      .daySelect {
+        width: 100%;
+        font-size: 12px;
+      }
+
+      .skipRow {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        margin-top: 0.375rem;
+      }
+
+      .dayColumn.isSkipped {
+        opacity: 0.4;
+      }
+
+      .summaryPills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+
+      .summaryPill {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        padding: 4px 10px;
+        border-radius: 20px;
+        margin: 3px;
+      }
+
+      .summaryPill.isGreen {
+        background: var(--color-background-success);
+        color: var(--color-text-success);
+      }
+
+      .summaryPill.isAmber {
+        background: var(--color-background-warning);
+        color: var(--color-text-warning);
+      }
+
+      .generateButton {
+        width: 100%;
+        padding: 1rem;
+        font-size: 16px;
+        font-weight: 500;
+        background: var(--color-background-info);
+        color: var(--color-text-info);
+        border: 1px solid var(--color-border-info);
+        border-radius: var(--border-radius-lg);
+        cursor: pointer;
+        margin-top: 1rem;
+      }
+
+      .generateButton:hover {
+        opacity: 0.85;
+      }
+
+      .generateStatus {
+        font-size: 13px;
+        color: var(--color-text-secondary);
+        text-align: center;
+        margin-top: 0.75rem;
+        min-height: 20px;
+      }
+
+      .generateHelp {
+        margin: 0.45rem 0 0;
+        font-size: 13px;
+        color: var(--color-text-secondary);
+        text-align: center;
+      }
+
+      .planOutput {
+        margin-top: 1rem;
+        min-height: 120px;
+        background: #fff;
+        border: 0.5px dashed var(--color-border-tertiary);
+        border-radius: var(--border-radius-lg);
+        padding: 1rem;
+      }
+
+      @media (max-width: 900px) {
+        .dayGrid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 560px) {
+        .dayGrid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Meal Plan Generator</p>
+        <h1>A week of meals planned around your life.</h1>
+        <p class="subtitle">
+          Claude looks at your recipe collection, this week's King Soopers deals, what's in season in Colorado, and your household rules - then builds a meal plan.
+        </p>
+        <nav class="subNav" aria-label="Pages">
+          <a href="index.html">Planner</a>
+          <a href="ingredients.html">Ingredient Search</a>
+          <a href="seasonal.html">Seasonal</a>
+          <a href="deals.html">Deals</a>
+          <a href="suggest.html" aria-current="page">Suggest</a>
+        </nav>
+      </section>
+
+      <section class="panelSection" aria-label="Restrictions profile panel">
+        <h2>Household Rules</h2>
+        <p class="panelSubtitle">Saved automatically. Applied every time you generate a plan.</p>
+
+        <div class="settingsCard">
+          <div class="cardSubsection">
+            <label class="subsectionLabel" for="dietaryRestrictions">Always avoid</label>
+            <textarea
+              id="dietaryRestrictions"
+              rows="2"
+              placeholder="e.g. no shellfish, no pork, gluten-free, nut allergy"
+            ></textarea>
+          </div>
+
+          <div class="cardSubsection">
+            <label class="subsectionLabel" for="dislikedIngredients">Ingredients we skip</label>
+            <input
+              id="dislikedIngredients"
+              type="text"
+              placeholder="e.g. cilantro, olives, blue cheese"
+            />
+          </div>
+
+          <div class="cardSubsection">
+            <label class="subsectionLabel" for="cuisinePreferences">Cuisines we love</label>
+            <input
+              id="cuisinePreferences"
+              type="text"
+              placeholder="e.g. Mexican, Italian, Thai, comfort food"
+            />
+          </div>
+
+          <div class="cardSubsection">
+            <label class="subsectionLabel" for="repeatRule">Avoid repeating a cuisine within</label>
+            <select id="repeatRule">
+              <option value="0">No restriction</option>
+              <option value="7">7 days</option>
+              <option value="14" selected>14 days</option>
+              <option value="21">21 days</option>
+            </select>
+          </div>
+
+          <button id="saveRules" type="button" class="plannerActionButton">Save Rules</button>
+          <p id="saveStatus" class="fieldNote" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="panelSection" aria-label="Weekly context panel">
+        <h2>This Week</h2>
+        <p class="panelSubtitle">Optional context that applies only to this plan.</p>
+
+        <div class="weeklyCard">
+          <div class="cardSubsection">
+            <p class="subsectionLabel">Day-by-day rules</p>
+            <div id="dayGrid" class="dayGrid"></div>
+          </div>
+
+          <div class="cardSubsection">
+            <label class="subsectionLabel" for="weeklyContext">Anything else Claude should know this week</label>
+            <textarea
+              id="weeklyContext"
+              rows="3"
+              placeholder="e.g. We have leftover rotisserie chicken. Busy Thursday, keep it very simple. Want to try something new on Saturday. Grilling Sunday if weather is good."
+            ></textarea>
+          </div>
+
+          <div class="cardSubsection">
+            <p class="subsectionLabel">Data inputs summary</p>
+            <div id="summaryPills" class="summaryPills" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panelSection" aria-label="Generate meal plan panel">
+        <button id="generateBtn" type="button" class="generateButton">Generate My Week</button>
+        <p class="generateHelp">
+          Takes about 15 seconds. Claude reads all your data and builds a personalized plan.
+        </p>
+        <p id="generateStatus" class="generateStatus" aria-live="polite"></p>
+        <div id="planOutput" class="planOutput" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script>
+      const HOUSEHOLD_RULES_KEY = "recipes_household_rules";
+      const DAY_RULES_KEY = "recipes_day_rules";
+
+      const DAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+      const TIME_CAP_OPTIONS = [
+        { value: "any", label: "Any time" },
+        { value: "20", label: "≤20 min" },
+        { value: "30", label: "≤30 min" },
+        { value: "45", label: "≤45 min" },
+        { value: "60", label: "≤60 min" }
+      ];
+
+      const dietaryRestrictionsInput = document.getElementById("dietaryRestrictions");
+      const dislikedIngredientsInput = document.getElementById("dislikedIngredients");
+      const cuisinePreferencesInput = document.getElementById("cuisinePreferences");
+      const repeatRuleInput = document.getElementById("repeatRule");
+      const saveRulesButton = document.getElementById("saveRules");
+      const saveStatus = document.getElementById("saveStatus");
+      const weeklyContextInput = document.getElementById("weeklyContext");
+      const dayGrid = document.getElementById("dayGrid");
+      const summaryPills = document.getElementById("summaryPills");
+      const generateBtn = document.getElementById("generateBtn");
+      const generateStatus = document.getElementById("generateStatus");
+
+      function parseStoredJson(key) {
+        try {
+          const raw = localStorage.getItem(key);
+          if (!raw) {
+            return null;
+          }
+          return JSON.parse(raw);
+        } catch {
+          return null;
+        }
+      }
+
+      function createDayGrid() {
+        dayGrid.innerHTML = "";
+        DAY_NAMES.forEach((name, index) => {
+          const column = document.createElement("div");
+          column.className = "dayColumn";
+          column.dataset.dayIndex = String(index);
+
+          const header = document.createElement("p");
+          header.className = "dayColumnHeader";
+          header.textContent = name;
+
+          const select = document.createElement("select");
+          select.id = `timeCap_${index}`;
+          select.className = "daySelect";
+          TIME_CAP_OPTIONS.forEach((optionConfig) => {
+            const option = document.createElement("option");
+            option.value = optionConfig.value;
+            option.textContent = optionConfig.label;
+            select.appendChild(option);
+          });
+
+          const skipRow = document.createElement("label");
+          skipRow.className = "skipRow";
+          skipRow.htmlFor = `skip_${index}`;
+
+          const skip = document.createElement("input");
+          skip.type = "checkbox";
+          skip.id = `skip_${index}`;
+
+          const skipText = document.createElement("span");
+          skipText.textContent = "Skip";
+
+          skipRow.append(skip, skipText);
+          column.append(header, select, skipRow);
+          dayGrid.appendChild(column);
+        });
+      }
+
+      function setDaySkipVisual(dayIndex, skipped) {
+        const column = dayGrid.querySelector(`[data-day-index="${dayIndex}"]`);
+        const select = document.getElementById(`timeCap_${dayIndex}`);
+        if (!column || !select) {
+          return;
+        }
+        column.classList.toggle("isSkipped", skipped);
+        select.disabled = skipped;
+      }
+
+      function getDayRulesFromDom() {
+        return DAY_NAMES.map((_, index) => {
+          const timeCap = document.getElementById(`timeCap_${index}`);
+          const skip = document.getElementById(`skip_${index}`);
+          return {
+            timeCap: timeCap ? timeCap.value : "any",
+            skip: skip ? Boolean(skip.checked) : false
+          };
+        });
+      }
+
+      function saveDayRules() {
+        const payload = { days: getDayRulesFromDom() };
+        localStorage.setItem(DAY_RULES_KEY, JSON.stringify(payload));
+      }
+
+      function applyDefaultDayRules() {
+        DAY_NAMES.forEach((_, index) => {
+          const timeCap = document.getElementById(`timeCap_${index}`);
+          const skip = document.getElementById(`skip_${index}`);
+          if (!timeCap || !skip) {
+            return;
+          }
+          if (index === 1 || index === 3) {
+            timeCap.value = "30";
+          } else {
+            timeCap.value = "any";
+          }
+          skip.checked = false;
+          setDaySkipVisual(index, false);
+        });
+      }
+
+      function restoreDayRules() {
+        const stored = parseStoredJson(DAY_RULES_KEY);
+        const savedDays = stored && Array.isArray(stored.days) ? stored.days : null;
+
+        if (savedDays && savedDays.length === DAY_NAMES.length) {
+          savedDays.forEach((rule, index) => {
+            const timeCap = document.getElementById(`timeCap_${index}`);
+            const skip = document.getElementById(`skip_${index}`);
+            if (!timeCap || !skip) {
+              return;
+            }
+            const value = String(rule && rule.timeCap ? rule.timeCap : "any");
+            const hasOption = TIME_CAP_OPTIONS.some((option) => option.value === value);
+            timeCap.value = hasOption ? value : "any";
+            skip.checked = Boolean(rule && rule.skip);
+            setDaySkipVisual(index, skip.checked);
+          });
+          return;
+        }
+
+        applyDefaultDayRules();
+        saveDayRules();
+      }
+
+      function bindDayRuleEvents() {
+        DAY_NAMES.forEach((_, index) => {
+          const timeCap = document.getElementById(`timeCap_${index}`);
+          const skip = document.getElementById(`skip_${index}`);
+          if (!timeCap || !skip) {
+            return;
+          }
+
+          timeCap.addEventListener("change", () => {
+            saveDayRules();
+          });
+
+          skip.addEventListener("change", () => {
+            setDaySkipVisual(index, skip.checked);
+            saveDayRules();
+          });
+        });
+      }
+
+      function loadHouseholdRules() {
+        const stored = parseStoredJson(HOUSEHOLD_RULES_KEY);
+        if (!stored || typeof stored !== "object") {
+          return;
+        }
+
+        dietaryRestrictionsInput.value = String(stored.dietary || "");
+        dislikedIngredientsInput.value = String(stored.disliked || "");
+        cuisinePreferencesInput.value = String(stored.cuisines || "");
+        repeatRuleInput.value = String(stored.repeatDays || "14");
+      }
+
+      function saveHouseholdRules() {
+        const payload = {
+          dietary: dietaryRestrictionsInput.value.trim(),
+          disliked: dislikedIngredientsInput.value.trim(),
+          cuisines: cuisinePreferencesInput.value.trim(),
+          repeatDays: repeatRuleInput.value
+        };
+
+        localStorage.setItem(HOUSEHOLD_RULES_KEY, JSON.stringify(payload));
+        saveStatus.textContent = "Rules saved.";
+        window.setTimeout(() => {
+          saveStatus.textContent = "";
+        }, 2000);
+      }
+
+      function renderSummaryPill(text, success) {
+        const pill = document.createElement("span");
+        pill.className = `summaryPill ${success ? "isGreen" : "isAmber"}`;
+        const dot = success ? "●" : "!";
+        pill.textContent = `${dot} ${text}`;
+        return pill;
+      }
+
+      function countSeasonalPeakItems(data) {
+        if (!data || typeof data !== "object" || !data.produce || typeof data.produce !== "object") {
+          return null;
+        }
+        const month = new Date().getMonth() + 1;
+        return Object.values(data.produce).filter((entry) => {
+          return entry && Array.isArray(entry.peak) && entry.peak.includes(month);
+        }).length;
+      }
+
+      async function loadSummaryData() {
+        const results = [
+          { key: "recipes", text: "Recipes: unavailable", success: false },
+          { key: "deals", text: "Deals: unavailable", success: false },
+          { key: "seasonal", text: "Seasonal: unavailable", success: false }
+        ];
+
+        try {
+          const response = await fetch("./data/recipes-with-ingredients.json");
+          if (!response.ok) {
+            throw new Error("Missing recipes-with-ingredients.json");
+          }
+          const data = await response.json();
+          const total = Number(data && data.stats && data.stats.total_recipes)
+            || (Array.isArray(data && data.recipes) ? data.recipes.length : 0);
+          if (total > 0 || (Array.isArray(data && data.recipes) && data.recipes.length === 0)) {
+            results[0] = {
+              key: "recipes",
+              text: `Recipes: ${total} recipes in collection`,
+              success: true
+            };
+          }
+        } catch {
+          results[0] = {
+            key: "recipes",
+            text: "Recipes: data file missing",
+            success: false
+          };
+        }
+
+        try {
+          const response = await fetch("./data/weekly-deals.json");
+          if (!response.ok) {
+            throw new Error("Missing weekly-deals.json");
+          }
+          const data = await response.json();
+          const totalDeals = Number(data && data.totalDeals);
+          if (Number.isFinite(totalDeals)) {
+            results[1] = {
+              key: "deals",
+              text: `Deals: ${totalDeals} on-sale items this week`,
+              success: true
+            };
+          }
+        } catch {
+          results[1] = {
+            key: "deals",
+            text: "Deals: data file missing",
+            success: false
+          };
+        }
+
+        try {
+          const response = await fetch("./data/seasonal-colorado.json");
+          if (!response.ok) {
+            throw new Error("Missing seasonal-colorado.json");
+          }
+          const data = await response.json();
+          const count = countSeasonalPeakItems(data);
+          if (count !== null) {
+            results[2] = {
+              key: "seasonal",
+              text: `Seasonal: ${count} ingredients at peak in Colorado this month`,
+              success: true
+            };
+          }
+        } catch {
+          results[2] = {
+            key: "seasonal",
+            text: "Seasonal: data file missing",
+            success: false
+          };
+        }
+
+        summaryPills.innerHTML = "";
+        results.forEach((result) => {
+          summaryPills.appendChild(renderSummaryPill(result.text, result.success));
+        });
+      }
+
+      function init() {
+        createDayGrid();
+        loadHouseholdRules();
+        restoreDayRules();
+        bindDayRuleEvents();
+        loadSummaryData();
+
+        saveRulesButton.addEventListener("click", saveHouseholdRules);
+
+        generateBtn.addEventListener("click", () => {
+          generateStatus.textContent = "Generator coming in next step.";
+        });
+
+        weeklyContextInput.addEventListener("input", () => {
+          generateStatus.textContent = "";
+        });
+      }
+
+      init();
+    </script>
+  </body>
+</html>
