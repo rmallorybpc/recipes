@@ -168,6 +168,7 @@ const recipeSubmitForm = document.querySelector("#recipeSubmitForm");
 const submitPathPreview = document.querySelector("#submitPathPreview");
 const submitStatus = document.querySelector("#submitStatus");
 const copyRecipeMarkdown = document.querySelector("#copyRecipeMarkdown");
+const isTouchDevice = ("ontouchstart" in window) || (navigator.maxTouchPoints > 0);
 
 const STORAGE_KEY = "weeklyRecipePlanner.v1";
 const BREAKFAST_UI_STORAGE_KEY = "weeklyRecipePlanner.breakfastExpanded.v1";
@@ -848,6 +849,221 @@ function setPlannerStatus(message) {
   plannerStatus.textContent = message;
 }
 
+function getRecipeDisplayTitle(recipe) {
+  if (!recipe || typeof recipe !== "object") {
+    return "Recipe";
+  }
+  return String(recipe.title || recipe.name || "Recipe");
+}
+
+function ensureTouchPickerStyles() {
+  if (document.getElementById("touchPickerStyles")) {
+    return;
+  }
+
+  const style = document.createElement("style");
+  style.id = "touchPickerStyles";
+  style.textContent = `
+    .touchAddBtn {
+      display: none;
+      width: 100%;
+      margin-top: 0.5rem;
+      padding: 0.5rem;
+      font-size: 13px;
+      background: var(--color-background-info, color-mix(in srgb, var(--accent-2) 16%, #fff 84%));
+      color: var(--color-text-info, #1f5d4f);
+      border: 1px solid var(--color-border-info, color-mix(in srgb, var(--accent-2) 45%, #cfe5de 55%));
+      border-radius: var(--border-radius-md, 10px);
+      cursor: pointer;
+      font-family: var(--font-sans, inherit);
+    }
+
+    @media (max-width: 768px) {
+      .touchAddBtn {
+        display: block;
+      }
+    }
+
+    .pickerOverlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 100;
+    }
+
+    .pickerPanel {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--color-background-primary, var(--card));
+      border-radius: var(--border-radius-lg, 16px) var(--border-radius-lg, 16px) 0 0;
+      padding: 1.25rem;
+      z-index: 101;
+      max-height: 70vh;
+      overflow-y: auto;
+    }
+
+    .pickerTitle {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      color: var(--color-text-primary, var(--ink));
+    }
+
+    .pickerGrid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .pickerSlot {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.625rem 0.375rem;
+      border: 0.5px solid var(--color-border-tertiary, #e4d4c5);
+      border-radius: var(--border-radius-md, 10px);
+      background: var(--color-background-secondary, #fffdf8);
+      cursor: pointer;
+      gap: 2px;
+      min-height: 44px;
+    }
+
+    .pickerSlot:active {
+      background: var(--color-background-info, color-mix(in srgb, var(--accent-2) 16%, #fff 84%));
+    }
+
+    .pickerDay {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--color-text-primary, var(--ink));
+    }
+
+    .pickerMeal {
+      font-size: 11px;
+      color: var(--color-text-secondary, var(--muted));
+    }
+
+    .pickerCancel {
+      width: 100%;
+      padding: 0.875rem;
+      font-size: 14px;
+      background: transparent;
+      border: 0.5px solid var(--color-border-secondary, #d8c7b8);
+      border-radius: var(--border-radius-md, 10px);
+      cursor: pointer;
+      color: var(--color-text-secondary, var(--muted));
+      font-family: var(--font-sans, inherit);
+      min-height: 44px;
+    }
+  `;
+
+  document.head.appendChild(style);
+}
+
+function showMealDayPicker(recipe, triggerElement) {
+  const existing = document.getElementById("mealDayPicker");
+  if (existing) {
+    existing.remove();
+  }
+
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const meals = ["Breakfast", "Lunch", "Dinner"];
+  const recipeTitle = getRecipeDisplayTitle(recipe).replace(/"/g, "&quot;");
+
+  const picker = document.createElement("div");
+  picker.id = "mealDayPicker";
+  picker.innerHTML = `
+    <div class="pickerOverlay"></div>
+    <div class="pickerPanel" role="dialog" aria-modal="true" aria-label="Add recipe to planner">
+      <p class="pickerTitle">Add "${recipeTitle}" to:</p>
+      <div class="pickerGrid">
+        ${days.map((day) => meals.map((meal) => `
+          <button class="pickerSlot" data-day="${day}" data-meal="${meal.toLowerCase()}" type="button">
+            <span class="pickerDay">${day.slice(0, 3)}</span>
+            <span class="pickerMeal">${meal}</span>
+          </button>
+        `).join("")).join("")}
+      </div>
+      <button class="pickerCancel" type="button">Cancel</button>
+    </div>
+  `;
+
+  document.body.appendChild(picker);
+
+  picker.querySelectorAll(".pickerSlot").forEach((btn) => {
+    btn.addEventListener("click", function onSlotClick() {
+      const day = this.dataset.day;
+      const meal = this.dataset.meal;
+      addRecipeToPlannerSlot(recipe, day, meal);
+      picker.remove();
+      if (triggerElement instanceof HTMLElement) {
+        triggerElement.focus();
+      }
+    });
+  });
+
+  const cancelButton = picker.querySelector(".pickerCancel");
+  const overlay = picker.querySelector(".pickerOverlay");
+
+  if (cancelButton instanceof HTMLElement) {
+    cancelButton.addEventListener("click", () => {
+      picker.remove();
+      if (triggerElement instanceof HTMLElement) {
+        triggerElement.focus();
+      }
+    });
+  }
+
+  if (overlay instanceof HTMLElement) {
+    overlay.addEventListener("click", () => {
+      picker.remove();
+      if (triggerElement instanceof HTMLElement) {
+        triggerElement.focus();
+      }
+    });
+  }
+}
+
+function addRecipeToPlannerSlot(recipe, dayName, mealType) {
+  const dayConfig = DAYS.find((day) => day.label.toLowerCase() === String(dayName || "").toLowerCase());
+  const mealKey = String(mealType || "").toLowerCase();
+
+  if (!dayConfig || !MEALS.some((meal) => meal.key === mealKey)) {
+    const status = document.getElementById("plannerStatus");
+    if (status) {
+      status.textContent = `Could not find ${dayName} ${mealType} slot. Try scrolling to that day first.`;
+      window.setTimeout(() => {
+        if (status.textContent.includes("Could not find")) {
+          status.textContent = "";
+        }
+      }, 3000);
+    }
+    return;
+  }
+
+  const recipeId = recipe && recipe.id ? recipe.id : null;
+  if (!recipeId || !recipesById.has(recipeId)) {
+    return;
+  }
+
+  addRecipeToDay(dayConfig.key, mealKey, recipeId);
+
+  const status = document.getElementById("plannerStatus");
+  if (status) {
+    status.textContent = `${getRecipeDisplayTitle(recipe)} added to ${dayConfig.label} ${mealKey}.`;
+    window.setTimeout(() => {
+      if (status.textContent.includes(" added to ")) {
+        status.textContent = "";
+      }
+    }, 3000);
+  }
+
+  document.getElementById("plannerGrid")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
 async function copyWeeklyPlan() {
   const content = buildPlanExport();
 
@@ -909,6 +1125,19 @@ function renderCards(items) {
       </div>
       ${sourceHtml}
     `;
+
+    if (isTouchDevice) {
+      const addBtn = document.createElement("button");
+      addBtn.className = "touchAddBtn";
+      addBtn.textContent = "+ Add to Plan";
+      addBtn.setAttribute("type", "button");
+      addBtn.setAttribute("aria-label", `Add ${getRecipeDisplayTitle(recipe)} to meal plan`);
+      addBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        showMealDayPicker(recipe, addBtn);
+      });
+      li.appendChild(addBtn);
+    }
 
     recipeGrid.appendChild(li);
   });
@@ -980,6 +1209,10 @@ if (recipeSubmitForm instanceof HTMLFormElement) {
 
 if (copyRecipeMarkdown) {
   copyRecipeMarkdown.addEventListener("click", copyRecipeTemplateMarkdown);
+}
+
+if (isTouchDevice) {
+  ensureTouchPickerStyles();
 }
 
 hydrateRecipeIds();

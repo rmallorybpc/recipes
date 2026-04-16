@@ -89,6 +89,9 @@ h1 {
 }
 
 .subNav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   text-decoration: none;
   border: 1px solid #d8c7b8;
   background: #fffdf8;
@@ -147,6 +150,7 @@ h1 {
 }
 
 .plannerActionButton {
+  min-height: 44px;
   border: 1px solid #d8c7b8;
   background: #fffdf8;
   color: var(--ink);
@@ -762,6 +766,17 @@ textarea {
     line-height: 1.7;
   }
 
+  input[type="text"],
+  input[type="search"],
+  input[type="number"],
+  input[type="url"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -783,4 +798,15 @@ textarea {
     padding: 0.25rem 0.6rem;
   }
 
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
