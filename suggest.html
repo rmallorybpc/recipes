@@ -311,36 +311,6 @@
         font-style: italic;
       }
 
-      .debug-row {
-        margin-top: 0.5rem;
-        font-size: 12px;
-        color: var(--color-text-tertiary);
-      }
-
-      .debug-label {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        cursor: pointer;
-        font-weight: 400;
-      }
-
-      .debug-pre {
-        font-family: var(--font-mono);
-        font-size: 11px;
-        background: var(--color-background-secondary);
-        border: 0.5px solid var(--color-border-tertiary);
-        border-radius: var(--border-radius-md);
-        padding: 0.75rem;
-        overflow-x: auto;
-        white-space: pre-wrap;
-        word-break: break-all;
-        max-height: 400px;
-        overflow-y: auto;
-        margin-top: 0.5rem;
-        color: var(--color-text-secondary);
-      }
-
       @media (max-width: 900px) {
         .dayGrid {
           grid-template-columns: repeat(2, 1fr);
@@ -451,16 +421,6 @@
           Takes about 15 seconds. Claude reads all your data and builds a personalized plan.
         </p>
         <p id="generateStatus" class="generateStatus" aria-live="polite"></p>
-        <div class="debug-row">
-          <label class="debug-label">
-            <input type="checkbox" id="debugToggle" />
-            Show raw Claude response (debug)
-          </label>
-        </div>
-        <details id="debugPanel" style="display:none;">
-          <summary style="font-size:12px; color:var(--color-text-tertiary); cursor:pointer; margin-top:0.5rem;">Raw Claude JSON</summary>
-          <pre id="debugOutput" class="debug-pre"></pre>
-        </details>
         <div id="planOutput" class="planOutput" aria-live="polite"></div>
       </section>
     </main>
@@ -1368,11 +1328,6 @@
         restoreDayRules();
         bindDayRuleEvents();
         loadSummaryData();
-
-        document.getElementById("debugToggle").addEventListener("change", function() {
-          const panel = document.getElementById("debugPanel");
-          panel.style.display = this.checked ? "block" : "none";
-        });
 
         saveRulesButton.addEventListener("click", saveHouseholdRules);
 
