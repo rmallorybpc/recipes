@@ -499,6 +499,120 @@ function addRecipeToDay(dayKey, mealKey, recipeId) {
   }
 }
 
+function addMealsToPlannerGrid(meals) {
+  try {
+    const mealItems = Array.isArray(meals) ? meals : [meals];
+    let placedCount = 0;
+
+    mealItems.forEach((meal, index) => {
+      if (!meal || typeof meal !== "object") {
+        return;
+      }
+
+      const targetDayName = String(meal.dayName || "").trim().toLowerCase();
+      if (!targetDayName) {
+        return;
+      }
+
+      const dayColumn = Array.from(plannerGrid.querySelectorAll(".dayColumn")).find((column) => {
+        const headerText = column.querySelector(".dayTitle")?.textContent || "";
+        return headerText.trim().toLowerCase() === targetDayName;
+      });
+
+      if (!(dayColumn instanceof HTMLElement)) {
+        return;
+      }
+
+      const targetMealName = String(meal.meal || "").trim().toLowerCase();
+      const dayLanes = Array.from(dayColumn.querySelectorAll(".mealLane"));
+
+      let lane = dayLanes.find((candidateLane) => {
+        const label = candidateLane.querySelector(".mealLaneTitle")?.textContent || "";
+        return label.trim().toLowerCase() === targetMealName;
+      });
+
+      if (!lane) {
+        lane = dayLanes[0] || null;
+      }
+
+      if (!(lane instanceof HTMLElement)) {
+        return;
+      }
+
+      const matchedRecipe = RECIPES.find((recipe) => {
+        return String(recipe.name || "").trim().toLowerCase() === String(meal.title || "").trim().toLowerCase();
+      });
+
+      const recipeForPlanner = matchedRecipe || {
+        name: String(meal.title || "Untitled meal"),
+        meal: String(meal.meal || "dinner").toLowerCase(),
+        style: String(meal.style || "meat").toLowerCase(),
+        time_minutes: meal.time_minutes ?? null,
+        matchedDeals: Array.isArray(meal.matchedDeals) ? meal.matchedDeals : [],
+        whyChosen: String(meal.whyChosen || "")
+      };
+
+      if (!recipeForPlanner.id) {
+        const generatedId = `session-${toId(recipeForPlanner.name)}-${Date.now()}-${index}`;
+        recipeForPlanner.id = generatedId;
+      }
+
+      recipesById.set(recipeForPlanner.id, recipeForPlanner);
+
+      const dayKey = dayColumn.dataset.day;
+      let mealKey = lane.dataset.meal;
+      if (!MEALS.some((item) => item.key === mealKey)) {
+        mealKey = MEALS[0]?.key;
+      }
+
+      if (!dayKey || !mealKey || !weekPlan[dayKey]?.[mealKey]) {
+        return;
+      }
+
+      weekPlan[dayKey][mealKey] = [recipeForPlanner.id];
+      placedCount += 1;
+    });
+
+    if (placedCount > 0) {
+      saveWeekPlan();
+      renderPlanner();
+
+      plannerGrid.querySelectorAll(".dayRecipe").forEach((item) => {
+        if (!(item instanceof HTMLElement)) {
+          return;
+        }
+
+        const removeButton = item.querySelector(".removePlanned");
+        if (!(removeButton instanceof HTMLElement)) {
+          return;
+        }
+
+        const recipeId = removeButton.dataset.recipe;
+        if (!recipeId) {
+          return;
+        }
+
+        item.draggable = true;
+        item.addEventListener("dragstart", (event) => {
+          event.dataTransfer.setData("text/plain", recipeId);
+          event.dataTransfer.effectAllowed = "copy";
+        });
+      });
+    }
+
+    if (plannerStatus) {
+      plannerStatus.textContent = `${placedCount} meals added from your suggested plan.`;
+      window.setTimeout(() => {
+        if (plannerStatus.textContent === `${placedCount} meals added from your suggested plan.`) {
+          plannerStatus.textContent = "";
+        }
+      }, 4000);
+    }
+  } catch (error) {
+    console.error("Failed to add suggested meals to planner.", error);
+  }
+}
+
 function removeRecipeFromDay(dayKey, mealKey, recipeId) {
   if (!weekPlan[dayKey]?.[mealKey]) {
     return;
@@ -821,4 +935,19 @@ hydrateRecipeIds();
 weekPlan = loadWeekPlan();
 loadBreakfastExpandedState();
 renderPlanner();
+
+const pendingPlannerMealsRaw = sessionStorage.getItem("recipes_add_to_planner");
+if (pendingPlannerMealsRaw) {
+  sessionStorage.removeItem("recipes_add_to_planner");
+
+  try {
+    const parsedMeals = JSON.parse(pendingPlannerMealsRaw);
+    const meals = Array.isArray(parsedMeals) ? parsedMeals : [parsedMeals];
+    addMealsToPlannerGrid(meals);
+    document.getElementById("plannerGrid")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  } catch (error) {
+    console.error("Failed to parse pending planner meals from sessionStorage.", error);
+  }
+}
+
 applyFilters();

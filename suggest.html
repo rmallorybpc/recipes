@@ -1207,6 +1207,7 @@
           <h2>Your Week of ${escapeHtml(weekLabel)}</h2>
           <p class="panelSubtitle">${escapeHtml(String(safePlan.recipesConsidered || 0))} recipes considered · Generated ${escapeHtml(generatedTime)}</p>
           ${Number(safePlan.estimatedSavings) > 0 ? `<span class="savings-pill">Est. savings this week: $${formatCurrency(safePlan.estimatedSavings)}</span>` : ""}
+          <button id="addAllToPlanner" type="button" class="plannerActionButton">Add All to Planner</button>
           ${safePlan.weeklyContext ? `<p class="panelSubtitle" style="font-style:italic;">Context applied: ${escapeHtml(safePlan.weeklyContext)}</p>` : ""}
         `;
         wrapper.appendChild(header);
@@ -1290,16 +1291,70 @@
         planOutput.appendChild(wrapper);
 
         planOutput.querySelectorAll("button[data-add-day]").forEach((button) => {
-          button.addEventListener("click", () => {
+          button.addEventListener("click", function() {
             const dayIndex = Number(button.getAttribute("data-add-day"));
             const day = days[dayIndex];
             if (!day || !day.meal) {
               return;
             }
-            sessionStorage.setItem("recipes_add_to_planner", JSON.stringify(day.meal));
-            window.location.href = "index.html#planner";
+
+            const mealToAdd = {
+              title: day.meal.title,
+              meal: day.meal.meal,
+              style: day.meal.style,
+              dayName: day.dayName,
+              time_minutes: day.meal.time_minutes || null,
+              matchedDeals: day.meal.matchedDeals || [],
+              whyChosen: day.meal.whyChosen || ""
+            };
+
+            let pending = [];
+            try {
+              const existing = sessionStorage.getItem("recipes_add_to_planner");
+              if (existing) {
+                pending = JSON.parse(existing);
+              }
+              if (!Array.isArray(pending)) {
+                pending = [];
+              }
+            } catch (_error) {
+              pending = [];
+            }
+
+            pending = pending.filter((m) => m.dayName !== mealToAdd.dayName);
+            pending.push(mealToAdd);
+            sessionStorage.setItem("recipes_add_to_planner", JSON.stringify(pending));
+
+            this.textContent = "Added ✓";
+            this.disabled = true;
+            this.style.opacity = "0.6";
           });
         });
+
+        const addAllToPlanner = document.getElementById("addAllToPlanner");
+        if (addAllToPlanner) {
+          addAllToPlanner.addEventListener("click", function() {
+            const pending = days
+              .filter((day) => day && !day.skip && day.meal)
+              .map((day) => ({
+                title: day.meal.title,
+                meal: day.meal.meal,
+                style: day.meal.style,
+                dayName: day.dayName,
+                time_minutes: day.meal.time_minutes || null,
+                matchedDeals: day.meal.matchedDeals || [],
+                whyChosen: day.meal.whyChosen || ""
+              }));
+
+            sessionStorage.setItem("recipes_add_to_planner", JSON.stringify(pending));
+            this.textContent = "Sending to Planner...";
+            this.disabled = true;
+
+            window.setTimeout(() => {
+              window.location.href = "index.html";
+            }, 500);
+          });
+        }
 
         const copyButton = document.getElementById("copyShoppingList");
         if (copyButton) {
