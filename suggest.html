@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Meal Plan Generator</title>
+    <title>Meal Plan Generator — Family Recipe Book</title>
     <meta
       name="description"
-      content="Generate a week of meals using your recipes, weekly deals, seasonal produce, and household preferences."
+      content="AI-powered meal plan generator. Builds a personalized week of meals using your recipe collection, this week's King Soopers deals, and Colorado seasonal produce."
     />
+    <meta property="og:title" content="Meal Plan Generator — Family Recipe Book" />
+    <meta property="og:description" content="Generate a weekly meal plan built around on-sale ingredients, peak Colorado produce, and your household rules. Refine with Claude for a personalized touch." />
+    <meta property="og:url" content="https://rmallorybpc.github.io/recipes/suggest.html" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -458,6 +463,17 @@
         <p id="generateStatus" class="generateStatus" aria-live="polite"></p>
         <div id="planOutput" class="planOutput" aria-live="polite"></div>
       </section>
+      <footer class="siteFooter">
+        <p>
+          Family Recipe Book &nbsp;·&nbsp;
+          Built with GitHub Pages &nbsp;·&nbsp;
+          <a href="https://github.com/rmallorybpc/recipes" target="_blank" rel="noopener">View source</a>
+          &nbsp;·&nbsp;
+          Deals updated Wednesdays via GitHub Actions
+          &nbsp;·&nbsp;
+          Seasonal data from the <a href="https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar" target="_blank" rel="noopener">Colorado Department of Agriculture</a>
+        </p>
+      </footer>
     </main>
 
     <script>

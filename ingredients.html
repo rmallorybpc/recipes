@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recipe Ingredient Search</title>
+    <title>Ingredient Search — Family Recipe Book</title>
     <meta
       name="description"
-      content="Search recipes by ingredient, title, meal, and style with confidence labels."
+      content="Search recipes by ingredient. Enter one or many ingredients with AND/OR matching to find what you can make with what you have."
     />
+    <meta property="og:title" content="Recipe Ingredient Search — Family Recipe Book" />
+    <meta property="og:description" content="Search recipes by ingredient with AND/OR matching, meal type, and style filters." />
+    <meta property="og:url" content="https://rmallorybpc.github.io/recipes/ingredients.html" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -95,6 +100,17 @@
       <section>
         <ul id="ingredientRecipeGrid" class="grid"></ul>
       </section>
+      <footer class="siteFooter">
+        <p>
+          Family Recipe Book &nbsp;·&nbsp;
+          Built with GitHub Pages &nbsp;·&nbsp;
+          <a href="https://github.com/rmallorybpc/recipes" target="_blank" rel="noopener">View source</a>
+          &nbsp;·&nbsp;
+          Deals updated Wednesdays via GitHub Actions
+          &nbsp;·&nbsp;
+          Seasonal data from the <a href="https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar" target="_blank" rel="noopener">Colorado Department of Agriculture</a>
+        </p>
+      </footer>
     </main>
 
     <script src="ingredients.js"></script>

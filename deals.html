@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>King Soopers Weekly Deals</title>
+    <title>King Soopers Weekly Deals — Family Recipe Book</title>
     <meta
       name="description"
-      content="Weekly King Soopers deals matched to your recipes."
+      content="This week's King Soopers deals matched to your recipe collection. Updated every Wednesday via GitHub Actions."
     />
+    <meta property="og:title" content="Weekly Deals — Family Recipe Book" />
+    <meta property="og:description" content="King Soopers on-sale ingredients matched to your recipes. Updated automatically every Wednesday." />
+    <meta property="og:url" content="https://rmallorybpc.github.io/recipes/deals.html" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -337,6 +342,17 @@
         <ul id="recipeWeekGrid" class="grid"></ul>
         <p id="recipeWeekMessage" class="recipeWeekEmpty" hidden></p>
       </section>
+      <footer class="siteFooter">
+        <p>
+          Family Recipe Book &nbsp;·&nbsp;
+          Built with GitHub Pages &nbsp;·&nbsp;
+          <a href="https://github.com/rmallorybpc/recipes" target="_blank" rel="noopener">View source</a>
+          &nbsp;·&nbsp;
+          Deals updated Wednesdays via GitHub Actions
+          &nbsp;·&nbsp;
+          Seasonal data from the <a href="https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar" target="_blank" rel="noopener">Colorado Department of Agriculture</a>
+        </p>
+      </footer>
     </main>
 
     <script>
