@@ -1,0 +1,1094 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Cost Estimator — Family Recipe Book</title>
+    <meta
+      name="description"
+      content="Estimate recipe costs by month using King Soopers shelf prices and Colorado seasonal data. Compare any two months ingredient by ingredient."
+    />
+    <meta property="og:title" content="Recipe Cost Estimator — Family Recipe Book" />
+    <meta property="og:description" content="Compare estimated ingredient costs across two months using real King Soopers shelf prices and Colorado seasonal data." />
+    <meta property="og:url" content="https://rmallorybpc.github.io/recipes/cost.html" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Literata:opsz,wght@7..72,400;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      :root {
+        --color-background-success: #e8f4ef;
+        --color-background-warning: #f9e8c2;
+        --color-background-info: color-mix(in srgb, var(--accent-2) 16%, #fff 84%);
+        --color-background-neutral: color-mix(in srgb, var(--card) 90%, #ede6dc 10%);
+        --color-text-success: #255c4f;
+        --color-text-warning: #5f4216;
+        --color-text-info: #1f5d4f;
+        --color-text-tertiary: #837366;
+        --color-border-tertiary: #e4d4c5;
+        --color-border-info: color-mix(in srgb, var(--accent-2) 45%, #cfe5de 55%);
+        --border-radius-lg: 16px;
+      }
+
+      .dataStatusBar {
+        margin-top: 0.9rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        align-items: center;
+        background: color-mix(in srgb, var(--card) 88%, #efe6db 12%);
+        border: 0.5px solid var(--color-border-tertiary);
+        border-radius: 12px;
+        padding: 0.7rem 0.9rem;
+      }
+
+      .statusPill {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        padding: 4px 10px;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .statusPill.isGreen {
+        background: var(--color-background-success);
+        color: var(--color-text-success);
+      }
+
+      .statusPill.isAmber {
+        background: var(--color-background-warning);
+        color: var(--color-text-warning);
+      }
+
+      .costSection {
+        margin-top: 1.2rem;
+        background: #fff;
+        border: 0.5px solid var(--color-border-tertiary);
+        border-radius: var(--border-radius-lg);
+        padding: 1rem;
+      }
+
+      .costSection h2 {
+        margin: 0 0 0.5rem;
+      }
+
+      .recipeSearchLabel {
+        display: block;
+      }
+
+      .recipeList {
+        margin-top: 0.7rem;
+        border: 0.5px solid var(--color-border-tertiary);
+        border-radius: 12px;
+        max-height: 280px;
+        overflow-y: auto;
+        background: #fffdf9;
+      }
+
+      .recipeListItem {
+        padding: 0.75rem 1rem;
+        cursor: pointer;
+        border-bottom: 0.5px solid var(--color-border-tertiary);
+      }
+
+      .recipeListItem:last-child {
+        border-bottom: 0;
+      }
+
+      .recipeListItem:hover {
+        background: color-mix(in srgb, var(--accent-2) 7%, #fff 93%);
+      }
+
+      .recipeListItem.isSelected {
+        background: var(--color-background-info);
+        border-left: 4px solid var(--accent-2);
+        padding-left: calc(1rem - 4px);
+      }
+
+      .recipeTitle {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .recipeMeta {
+        margin: 0.2rem 0 0;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .selectedLine {
+        margin-top: 0.7rem;
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        flex-wrap: wrap;
+        font-size: 13px;
+      }
+
+      .monthPickerRow {
+        display: flex;
+        gap: 0.8rem;
+      }
+
+      .monthPickerRow label {
+        flex: 1;
+      }
+
+      .compareButton {
+        width: 100%;
+        padding: 1rem;
+        font-size: 16px;
+        font-weight: 500;
+        background: var(--color-background-info);
+        color: var(--color-text-info);
+        border: 1px solid var(--color-border-info);
+        border-radius: var(--border-radius-lg);
+        cursor: pointer;
+        margin-top: 0.9rem;
+      }
+
+      .compareButton:hover {
+        opacity: 0.85;
+      }
+
+      .outputPanel {
+        margin-top: 1.2rem;
+        min-height: 100px;
+        border: 0.5px dashed var(--color-border-tertiary);
+        border-radius: var(--border-radius-lg);
+        padding: 1rem;
+        background: #fff;
+      }
+
+      .outputHeader {
+        display: grid;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .outputHeader h2 {
+        margin: 0;
+      }
+
+      .monthHeaders {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+      }
+
+      .monthHeader {
+        margin: 0;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--color-text-tertiary);
+      }
+
+      .verdictPill {
+        display: inline-flex;
+        border-radius: 999px;
+        padding: 4px 10px;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .verdictPill.isGreen {
+        background: var(--color-background-success);
+        color: var(--color-text-success);
+      }
+
+      .verdictPill.isAmber {
+        background: var(--color-background-warning);
+        color: var(--color-text-warning);
+      }
+
+      .verdictPill.isNeutral {
+        background: var(--color-background-neutral);
+        color: var(--ink);
+      }
+
+      .comparisonTable {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+
+      .comparisonTable th {
+        text-align: left;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--color-text-tertiary);
+        padding: 8px;
+        border-bottom: 0.5px solid var(--color-border-tertiary);
+      }
+
+      .comparisonTable td {
+        padding: 8px;
+        border-bottom: 0.5px solid var(--color-border-tertiary);
+        vertical-align: middle;
+      }
+
+      .confidenceBadge {
+        margin-left: 0.4rem;
+        font-size: 10px;
+        padding: 1px 5px;
+        border-radius: 3px;
+        font-weight: 700;
+      }
+
+      .confidenceBadge.actual {
+        background: var(--color-background-success);
+        color: var(--color-text-success);
+      }
+
+      .confidenceBadge.estimated {
+        background: var(--color-background-warning);
+        color: var(--color-text-warning);
+      }
+
+      .saleIntersection {
+        background: color-mix(in srgb, var(--color-background-success) 35%, #fff 65%);
+        border-radius: 12px;
+        padding: 1rem;
+        margin-top: 1rem;
+      }
+
+      .saleIntersection h3 {
+        margin: 0 0 0.6rem;
+      }
+
+      .saleItem {
+        border: 0.5px solid var(--color-border-tertiary);
+        border-radius: 10px;
+        padding: 0.65rem;
+        background: #fff;
+        margin-bottom: 0.6rem;
+      }
+
+      .saleItem:last-child {
+        margin-bottom: 0;
+      }
+
+      .saleBadge {
+        display: inline-flex;
+        margin-top: 0.45rem;
+        padding: 3px 8px;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: 700;
+      }
+
+      .saleBadge.inSeason {
+        background: #2d7a66;
+        color: #f2fff8;
+      }
+
+      .saleBadge.outSeason {
+        background: #f3ca78;
+        color: #4f370f;
+      }
+
+      .saleNote {
+        margin: 0.45rem 0 0;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .totalsBlock {
+        margin-top: 1rem;
+        padding-top: 0.8rem;
+        border-top: 2px solid #d6c5b6;
+        font-weight: 500;
+        display: grid;
+        gap: 0.35rem;
+      }
+
+      .confidenceSummary {
+        font-size: 12px;
+        color: var(--color-text-tertiary);
+        font-style: italic;
+        margin-top: 1rem;
+      }
+
+      .emptyMessage {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      @media (max-width: 768px) {
+        .comparisonTable {
+          display: block;
+          overflow-x: auto;
+        }
+
+        .monthPickerRow {
+          flex-direction: column;
+        }
+
+        .recipeList {
+          max-height: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Recipe Cost Estimator</p>
+        <h1>See when each recipe is cheapest to make.</h1>
+        <p class="subtitle">
+          Compare estimated ingredient costs across any two months using real King Soopers shelf prices and Colorado seasonal data. All estimates are marked clearly.
+        </p>
+        <nav class="subNav" aria-label="Pages">
+          <a href="index.html">Planner</a>
+          <a href="ingredients.html">Ingredient Search</a>
+          <a href="seasonal.html">Seasonal</a>
+          <a href="deals.html">Deals</a>
+          <a href="suggest.html">Suggest</a>
+          <a href="cost.html" aria-current="page">Cost</a>
+        </nav>
+      </section>
+
+      <section class="dataStatusBar" id="dataStatusBar" aria-live="polite"></section>
+
+      <section class="costSection" aria-label="Recipe selector">
+        <h2>Choose Recipe</h2>
+        <label for="recipeSearch" class="recipeSearchLabel">
+          Search
+          <input id="recipeSearch" type="search" placeholder="Search recipes..." />
+        </label>
+        <div id="recipeList" class="recipeList" role="listbox" aria-label="Recipes"></div>
+        <p class="selectedLine">
+          <strong>Selected:</strong>
+          <span id="selectedRecipeText">None</span>
+          <button id="clearSelectionBtn" type="button" class="plannerActionButton">Clear</button>
+        </p>
+      </section>
+
+      <section class="costSection" aria-label="Month comparison picker">
+        <h2>Compare Months</h2>
+        <div class="monthPickerRow">
+          <label for="monthA">
+            Month 1
+            <select id="monthA"></select>
+          </label>
+          <label for="monthB">
+            Month 2
+            <select id="monthB"></select>
+          </label>
+        </div>
+        <button id="compareBtn" type="button" class="compareButton">Compare Costs</button>
+      </section>
+
+      <section id="costOutput" class="outputPanel" aria-live="polite"></section>
+
+      <footer class="siteFooter">
+        <p>
+          Family Recipe Book &nbsp;·&nbsp;
+          Built with GitHub Pages &nbsp;·&nbsp;
+          <a href="https://github.com/rmallorybpc/recipes" target="_blank" rel="noopener">View source</a>
+          &nbsp;·&nbsp;
+          Deals updated Wednesdays via GitHub Actions
+          &nbsp;·&nbsp;
+          Seasonal data from the <a href="https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar" target="_blank" rel="noopener">Colorado Department of Agriculture</a>
+        </p>
+      </footer>
+    </main>
+
+    <script>
+      const MONTH_NAMES = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+      ];
+
+      const UNIT_WORD_PATTERN = /^(?:cups?|tbsp|tsp|oz|lb|lbs|pounds?|can|cans|clove|cloves|slice|slices|package|pkg|bunch|pinch|dash|tablespoons?|teaspoons?)\b\.?\s*/i;
+      const LEADING_QUANTITY_PATTERN = /^\s*(?:(?:\d+\s+\d\/\d)|(?:\d+\/\d+)|(?:\d+)|(?:\d*\.\d+)|(?:\d+-\d+)|(?:[¼½¾⅓⅔⅛⅜⅝⅞]))\s*/;
+
+      const state = {
+        recipes: [],
+        pricesData: { lastUpdated: null, prices: {} },
+        multipliersData: {},
+        dealsData: { deals: [], weekOf: null },
+        selectedRecipeId: null,
+        loadedFlags: {
+          recipes: false,
+          prices: false,
+          seasonal: false,
+          deals: false
+        }
+      };
+
+      const dataStatusBar = document.getElementById("dataStatusBar");
+      const recipeSearch = document.getElementById("recipeSearch");
+      const recipeList = document.getElementById("recipeList");
+      const selectedRecipeText = document.getElementById("selectedRecipeText");
+      const clearSelectionBtn = document.getElementById("clearSelectionBtn");
+      const monthASelect = document.getElementById("monthA");
+      const monthBSelect = document.getElementById("monthB");
+      const compareBtn = document.getElementById("compareBtn");
+      const costOutput = document.getElementById("costOutput");
+
+      function round2(value) {
+        return Number(Number(value || 0).toFixed(2));
+      }
+
+      function toTitleCase(value) {
+        return String(value || "")
+          .split(/\s+/)
+          .filter(Boolean)
+          .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(" ");
+      }
+
+      function cleanIngredientName(ingredientString) {
+        let text = String(ingredientString || "").toLowerCase();
+        text = text.replace(/\([^)]*\)/g, " ");
+        text = text.replace(/[^a-z0-9\s\/-]/g, " ");
+
+        let changed = true;
+        while (changed) {
+          const before = text;
+          text = text.replace(LEADING_QUANTITY_PATTERN, "");
+          text = text.replace(UNIT_WORD_PATTERN, "");
+          changed = before !== text;
+        }
+
+        text = text.replace(/\s+/g, " ").trim();
+        return text;
+      }
+
+      function findTermEntry(term, multipliersData) {
+        const groups = ["produce", "proteins", "pantry"];
+        for (const group of groups) {
+          const bucket = multipliersData && typeof multipliersData[group] === "object" ? multipliersData[group] : {};
+          if (bucket && bucket[term]) {
+            return bucket[term];
+          }
+        }
+        return null;
+      }
+
+      function resolveCanonicalTerm(cleaned, multipliersData) {
+        const map = multipliersData && typeof multipliersData.ingredient_term_map === "object"
+          ? multipliersData.ingredient_term_map
+          : {};
+        const mapEntries = Object.entries(map).map(([rawKey, rawValue]) => [String(rawKey).toLowerCase(), rawValue]);
+        const produceKeys = Object.keys(multipliersData && multipliersData.produce ? multipliersData.produce : {});
+        const normalized = String(cleaned || "").toLowerCase().trim();
+        if (!normalized) {
+          return "";
+        }
+
+        const exactMatch = mapEntries.find(([key]) => key === normalized);
+        if (exactMatch && typeof exactMatch[1] === "string") {
+          return exactMatch[1];
+        }
+
+        let bestForward = "";
+        let bestForwardValue = null;
+        for (const [key, value] of mapEntries) {
+          if (normalized.includes(key) && typeof value === "string" && key.length > bestForward.length) {
+            bestForward = key;
+            bestForwardValue = value;
+          }
+        }
+        if (bestForward && typeof bestForwardValue === "string") {
+          return bestForwardValue;
+        }
+
+        let bestReverse = "";
+        let bestReverseValue = null;
+        for (const [key, value] of mapEntries) {
+          if (key.includes(normalized) && typeof value === "string" && key.length > bestReverse.length) {
+            bestReverse = key;
+            bestReverseValue = value;
+          }
+        }
+        if (bestReverse && typeof bestReverseValue === "string") {
+          return bestReverseValue;
+        }
+
+        for (const produceKey of produceKeys) {
+          const keyReadable = produceKey.replace(/_/g, " ");
+          if (normalized === produceKey || normalized === keyReadable || normalized.includes(keyReadable) || keyReadable.includes(normalized)) {
+            return produceKey;
+          }
+        }
+
+        return "";
+      }
+
+      function resolveAverageCategory(term, multipliersData) {
+        const categories = multipliersData && typeof multipliersData.category_averages === "object"
+          ? multipliersData.category_averages
+          : {};
+
+        if (categories[term]) {
+          return term;
+        }
+
+        const aliases = {
+          tomatoes: "fresh_produce",
+          peppers: "fresh_produce",
+          onions: "fresh_produce",
+          potatoes: "fresh_produce",
+          lettuce: "leafy_greens",
+          kale: "leafy_greens",
+          basil: "fresh_herbs",
+          cilantro: "fresh_herbs",
+          parsley: "fresh_herbs",
+          strawberries: "fresh_fruit",
+          blueberries: "fresh_fruit",
+          raspberries: "fresh_fruit",
+          cherries: "fresh_fruit",
+          chicken_breast: "chicken_breast",
+          chicken_thigh: "chicken_thigh",
+          ground_beef: "ground_beef",
+          beef_steak: "beef_steak",
+          pork_chop: "pork_chop",
+          ground_pork: "ground_pork",
+          lamb: "lamb",
+          salmon: "salmon",
+          shrimp: "shrimp",
+          white_fish: "white_fish",
+          pasta: "dried_pasta",
+          rice: "rice",
+          flour: "flour",
+          eggs: "eggs",
+          butter: "butter",
+          olive_oil: "olive_oil",
+          tofu: "tofu",
+          paneer: "paneer",
+          coconut_milk: "coconut_milk",
+          phyllo_dough: "phyllo_dough",
+          tortillas: "tortilla",
+          bread: "bread",
+          broth: "broth_stock"
+        };
+
+        if (aliases[term] && categories[aliases[term]]) {
+          return aliases[term];
+        }
+
+        if (multipliersData && multipliersData.produce && multipliersData.produce[term] && categories.fresh_produce) {
+          return "fresh_produce";
+        }
+
+        if (categories.misc_pantry) {
+          return "misc_pantry";
+        }
+
+        return "";
+      }
+
+      function getAveragePriceAndUnit(categoryKey, multipliersData) {
+        const categories = multipliersData && typeof multipliersData.category_averages === "object"
+          ? multipliersData.category_averages
+          : {};
+        const average = categories[categoryKey] || {};
+
+        let priceValue = null;
+        for (const [key, value] of Object.entries(average)) {
+          if (key.startsWith("price_") && typeof value === "number") {
+            priceValue = value;
+            break;
+          }
+        }
+
+        return {
+          price: typeof priceValue === "number" ? priceValue : null,
+          unit: typeof average.unit === "string" ? average.unit : ""
+        };
+      }
+
+      function getSeasonStatus(term, month, multipliersData) {
+        const entry = findTermEntry(term, multipliersData);
+        const windows = entry && entry.seasonal_windows ? entry.seasonal_windows : null;
+        if (!windows) {
+          return "none";
+        }
+
+        const monthNum = Number(month);
+        const peak = Array.isArray(windows.peak) ? windows.peak : [];
+        const available = Array.isArray(windows.available) ? windows.available : [];
+
+        if (peak.includes(monthNum)) {
+          return "peak";
+        }
+        if (available.includes(monthNum)) {
+          return "available";
+        }
+        return "offseason";
+      }
+
+      function estimateIngredientCost(ingredientString, month, pricesData, multipliersData) {
+        const cleaned = cleanIngredientName(ingredientString);
+        const displayName = cleaned ? toTitleCase(cleaned) : String(ingredientString || "").trim();
+        const term = resolveCanonicalTerm(cleaned, multipliersData);
+        const normalizedTerm = term || cleaned;
+
+        const prices = pricesData && typeof pricesData.prices === "object" ? pricesData.prices : {};
+        const lookupKeys = [
+          normalizedTerm,
+          normalizedTerm.replace(/_/g, " "),
+          normalizedTerm.replace(/\s+/g, "_")
+        ].filter(Boolean);
+
+        let priceRecord = null;
+        for (const key of lookupKeys) {
+          if (prices[key] && typeof prices[key].regularPrice === "number") {
+            priceRecord = prices[key];
+            break;
+          }
+        }
+
+        let basePrice = null;
+        let baseUnit = "";
+        let basePriceSource = "unknown";
+
+        if (priceRecord) {
+          basePrice = round2(priceRecord.regularPrice);
+          baseUnit = typeof priceRecord.unit === "string" ? priceRecord.unit : "";
+          basePriceSource = "actual";
+        } else {
+          const categoryKey = resolveAverageCategory(normalizedTerm, multipliersData);
+          const avg = getAveragePriceAndUnit(categoryKey, multipliersData);
+          if (typeof avg.price === "number") {
+            basePrice = round2(avg.price);
+            baseUnit = avg.unit;
+            basePriceSource = "category_average";
+          }
+        }
+
+        if (typeof basePrice !== "number") {
+          basePrice = 0;
+          basePriceSource = "unknown";
+        }
+
+        const termEntry = findTermEntry(normalizedTerm, multipliersData);
+        const multipliers = termEntry && termEntry.monthly_multipliers ? termEntry.monthly_multipliers : null;
+        const multiplier = multipliers && typeof multipliers[String(month)] === "number"
+          ? multipliers[String(month)]
+          : 1.0;
+
+        const monthCost = round2(basePrice * multiplier);
+        const seasonStatus = getSeasonStatus(normalizedTerm, month, multipliersData);
+
+        let confidence = "estimated";
+        if (basePriceSource === "actual") {
+          confidence = "high";
+        } else if (termEntry && termEntry.confidence) {
+          confidence = termEntry.confidence;
+        } else if (basePriceSource === "category_average") {
+          confidence = "estimated";
+        } else {
+          confidence = "low";
+        }
+
+        return {
+          displayName,
+          term: normalizedTerm || "unknown",
+          basePrice,
+          basePriceSource,
+          baseUnit,
+          monthCost,
+          multiplier,
+          seasonStatus,
+          confidence
+        };
+      }
+
+      function formatMoney(value) {
+        return `$${round2(value).toFixed(2)}`;
+      }
+
+      function createMonthOptions() {
+        monthASelect.innerHTML = "";
+        monthBSelect.innerHTML = "";
+
+        MONTH_NAMES.forEach((name, idx) => {
+          const monthValue = idx + 1;
+          const optionA = document.createElement("option");
+          optionA.value = String(monthValue);
+          optionA.textContent = name;
+          monthASelect.appendChild(optionA);
+
+          const optionB = document.createElement("option");
+          optionB.value = String(monthValue);
+          optionB.textContent = name;
+          monthBSelect.appendChild(optionB);
+        });
+
+        const currentMonth = new Date().getMonth() + 1;
+        const monthSixAhead = ((currentMonth + 5) % 12) + 1;
+        monthASelect.value = String(currentMonth);
+        monthBSelect.value = String(monthSixAhead);
+      }
+
+      function renderStatusBar() {
+        const recipesCount = state.recipes.length;
+        const prices = state.pricesData && state.pricesData.prices ? state.pricesData.prices : {};
+        const actualPriceCount = Object.values(prices).filter((entry) => entry && entry.confidence === "actual").length;
+
+        const recipesClass = state.loadedFlags.recipes ? "isGreen" : "isAmber";
+        const pricesClass = actualPriceCount > 0 ? "isGreen" : "isAmber";
+        const seasonalClass = state.loadedFlags.seasonal ? "isGreen" : "isAmber";
+
+        dataStatusBar.innerHTML = `
+          <span class="statusPill ${recipesClass}">${recipesCount} recipes</span>
+          <span class="statusPill ${pricesClass}">${actualPriceCount} prices</span>
+          <span class="statusPill ${seasonalClass}">Seasonal data</span>
+        `;
+      }
+
+      function getFilteredRecipes() {
+        const query = recipeSearch.value.trim().toLowerCase();
+        if (!query) {
+          return [...state.recipes];
+        }
+        return state.recipes.filter((recipe) => String(recipe.title || "").toLowerCase().includes(query));
+      }
+
+      function renderRecipeList() {
+        const filtered = getFilteredRecipes();
+        recipeList.innerHTML = "";
+
+        if (filtered.length === 0) {
+          recipeList.innerHTML = '<p class="emptyMessage" style="padding: 0.75rem 1rem;">No recipes match your search.</p>';
+          return;
+        }
+
+        const fragment = document.createDocumentFragment();
+
+        filtered.forEach((recipe) => {
+          const item = document.createElement("div");
+          item.className = "recipeListItem" + (state.selectedRecipeId === recipe.id ? " isSelected" : "");
+          item.setAttribute("role", "option");
+          item.setAttribute("aria-selected", state.selectedRecipeId === recipe.id ? "true" : "false");
+          item.dataset.recipeId = recipe.id;
+
+          const cuisine = recipe.cuisine ? String(recipe.cuisine) : "Unknown cuisine";
+          item.innerHTML = `
+            <p class="recipeTitle">${recipe.title || "Untitled recipe"}</p>
+            <p class="recipeMeta">${recipe.meal || "meal"} · ${recipe.style || "style"} · ${cuisine}</p>
+          `;
+
+          item.addEventListener("click", () => {
+            state.selectedRecipeId = recipe.id;
+            selectedRecipeText.textContent = recipe.title || "Untitled recipe";
+            renderRecipeList();
+          });
+
+          fragment.appendChild(item);
+        });
+
+        recipeList.appendChild(fragment);
+      }
+
+      function getSelectedRecipe() {
+        return state.recipes.find((recipe) => recipe.id === state.selectedRecipeId) || null;
+      }
+
+      function describeSeasonStatus(status) {
+        if (status === "peak") {
+          return "Peak";
+        }
+        if (status === "available") {
+          return "Available";
+        }
+        if (status === "offseason") {
+          return "Off-season";
+        }
+        return "";
+      }
+
+      function totalsDisplayLine(monthName, total, useRange) {
+        if (!useRange) {
+          return `Estimated total — ${monthName}: ${formatMoney(total)}`;
+        }
+
+        const low = Math.max(0, Math.floor(total * 0.9));
+        const high = Math.max(low, Math.ceil(total * 1.1));
+        return `Estimated total — ${monthName}: $${low}–${high} (some ingredients estimated)`;
+      }
+
+      function findSaleMatches(resolvedTerms, dealsData, monthNow, multipliersData) {
+        const deals = Array.isArray(dealsData && dealsData.deals) ? dealsData.deals : [];
+        const termSet = new Set(resolvedTerms.map((term) => String(term || "").toLowerCase().trim()).filter(Boolean));
+
+        return deals.filter((deal) => {
+          const dealTerm = String(deal && deal.term ? deal.term : "").toLowerCase().trim();
+          return dealTerm && termSet.has(dealTerm);
+        }).map((deal) => {
+          const dealTerm = String(deal && deal.term ? deal.term : "").toLowerCase().trim();
+          const status = getSeasonStatus(dealTerm, monthNow, multipliersData);
+          return {
+            term: dealTerm,
+            regularPrice: typeof deal.regularPrice === "number" ? deal.regularPrice : 0,
+            promoPrice: typeof deal.promoPrice === "number" ? deal.promoPrice : 0,
+            savingsPct: typeof deal.savingsPct === "number" ? deal.savingsPct : 0,
+            seasonStatus: status
+          };
+        });
+      }
+
+      function renderComparison() {
+        const recipe = getSelectedRecipe();
+        if (!recipe) {
+          costOutput.innerHTML = '<p class="emptyMessage">Select a recipe, then click Compare Costs.</p>';
+          return;
+        }
+
+        const monthA = Number(monthASelect.value || 1);
+        const monthB = Number(monthBSelect.value || 1);
+        const monthAName = MONTH_NAMES[monthA - 1];
+        const monthBName = MONTH_NAMES[monthB - 1];
+
+        const ingredientList = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
+        const rows = ingredientList.map((ingredient) => {
+          const resultA = estimateIngredientCost(ingredient, monthA, state.pricesData, state.multipliersData);
+          const resultB = estimateIngredientCost(ingredient, monthB, state.pricesData, state.multipliersData);
+          return { ingredient, resultA, resultB };
+        });
+
+        const totalA = round2(rows.reduce((sum, row) => sum + row.resultA.monthCost, 0));
+        const totalB = round2(rows.reduce((sum, row) => sum + row.resultB.monthCost, 0));
+        const absoluteDiff = round2(Math.abs(totalA - totalB));
+        const percentDiff = totalA === 0 && totalB === 0 ? 0 : round2((Math.abs(totalA - totalB) / Math.max(totalA, totalB, 0.01)) * 100);
+
+        const cheaperInA = totalA < totalB;
+        const cheaperInB = totalB < totalA;
+
+        let verdictClass = "isNeutral";
+        let verdictText = `This recipe is estimated within 5% between ${monthAName} and ${monthBName}.`;
+
+        if (percentDiff > 5) {
+          if (cheaperInA) {
+            verdictClass = "isGreen";
+            verdictText = `This recipe is estimated ${percentDiff}% cheaper in ${monthAName} vs ${monthBName}.`;
+          } else if (cheaperInB) {
+            verdictClass = "isAmber";
+            verdictText = `This recipe is estimated ${percentDiff}% more expensive in ${monthAName} vs ${monthBName}.`;
+          }
+        }
+
+        let actualCount = 0;
+        let estimatedCount = 0;
+
+        const tableRows = rows.map((row) => {
+          const aIsActual = row.resultA.basePriceSource === "actual";
+          if (aIsActual) {
+            actualCount += 1;
+          } else {
+            estimatedCount += 1;
+          }
+
+          const badgeClass = aIsActual ? "actual" : "estimated";
+          const badgeText = aIsActual ? "Actual" : "Est.";
+          const diffValue = round2(row.resultB.monthCost - row.resultA.monthCost);
+
+          let diffArrow = "—";
+          if (diffValue > 0.01) {
+            diffArrow = "↑";
+          } else if (diffValue < -0.01) {
+            diffArrow = "↓";
+          }
+
+          const noteA = describeSeasonStatus(row.resultA.seasonStatus);
+          const noteB = describeSeasonStatus(row.resultB.seasonStatus);
+          const noteText = noteA || noteB ? `${monthAName}: ${noteA || ""} ${monthBName}: ${noteB || ""}`.trim() : "";
+
+          return `
+            <tr>
+              <td>${row.resultA.displayName}</td>
+              <td>${formatMoney(row.resultA.monthCost)} <span class="confidenceBadge ${badgeClass}">${badgeText}</span></td>
+              <td>${formatMoney(row.resultB.monthCost)} <span class="confidenceBadge ${badgeClass}">${badgeText}</span></td>
+              <td>${diffArrow} ${formatMoney(Math.abs(diffValue))}</td>
+              <td>${noteText}</td>
+            </tr>
+          `;
+        }).join("");
+
+        const estimateShare = rows.length > 0 ? estimatedCount / rows.length : 0;
+        const showRangeTotals = estimateShare > 0.3;
+
+        const currentMonth = new Date().getMonth() + 1;
+        const saleMatches = findSaleMatches(rows.map((row) => row.resultA.term), state.dealsData, currentMonth, state.multipliersData);
+
+        let saleIntersectionHtml = "";
+        if (saleMatches.length > 0) {
+          const saleItems = saleMatches.map((sale) => {
+            const seasonText = describeSeasonStatus(sale.seasonStatus);
+            const inSeason = sale.seasonStatus === "peak" || sale.seasonStatus === "available";
+            const badgeHtml = inSeason
+              ? '<span class="saleBadge inSeason">In season + on sale — best time to buy</span>'
+              : '<span class="saleBadge outSeason">On sale but out of season — this sale pattern may recur</span>';
+            const noteHtml = inSeason
+              ? ""
+              : '<p class="saleNote">Historically, out-of-season sales often reflect promotional cycles. Check back same time next year.</p>';
+
+            return `
+              <article class="saleItem">
+                <strong>${toTitleCase(sale.term.replace(/_/g, " "))}</strong><br />
+                Regular: ${formatMoney(sale.regularPrice)} · Sale: ${formatMoney(sale.promoPrice)} (${sale.savingsPct}% off)<br />
+                Season status this month: ${seasonText || "Unknown"}<br />
+                ${badgeHtml}
+                ${noteHtml}
+              </article>
+            `;
+          }).join("");
+
+          saleIntersectionHtml = `
+            <section class="saleIntersection">
+              <h3>On sale this week at King Soopers:</h3>
+              ${saleItems}
+            </section>
+          `;
+        }
+
+        const differenceArrow = totalA < totalB ? "↓" : totalA > totalB ? "↑" : "—";
+
+        costOutput.innerHTML = `
+          <div class="outputHeader">
+            <h2>${recipe.title || "Untitled recipe"}</h2>
+            <div class="monthHeaders">
+              <p class="monthHeader">${monthAName}</p>
+              <p class="monthHeader">${monthBName}</p>
+            </div>
+            <span class="verdictPill ${verdictClass}">${verdictText}</span>
+          </div>
+
+          <table class="comparisonTable">
+            <thead>
+              <tr>
+                <th>Ingredient</th>
+                <th>${monthAName} cost</th>
+                <th>${monthBName} cost</th>
+                <th>Difference</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${tableRows}
+            </tbody>
+          </table>
+
+          ${saleIntersectionHtml}
+
+          <div class="totalsBlock">
+            <div>${totalsDisplayLine(monthAName, totalA, showRangeTotals)}</div>
+            <div>${totalsDisplayLine(monthBName, totalB, showRangeTotals)}</div>
+            <div>Estimated difference: ${differenceArrow} ${formatMoney(absoluteDiff)}</div>
+          </div>
+
+          <p class="confidenceSummary">
+            ${actualCount} of ${rows.length} ingredients use actual King Soopers shelf prices.
+            ${estimatedCount} ingredients use category average estimates.
+            Estimates are marked with Est. badges above.
+            Actual prices update every Wednesday from the King Soopers Kroger API.
+            Estimates will be replaced with actual prices as more deal data accumulates.
+          </p>
+        `;
+      }
+
+      async function loadData() {
+        const [recipesResult, pricesResult, multipliersResult, dealsResult] = await Promise.allSettled([
+          fetch("./data/recipes-with-ingredients.json").then((response) => {
+            if (!response.ok) {
+              throw new Error("recipes-with-ingredients.json missing");
+            }
+            return response.json();
+          }),
+          fetch("./data/ingredient-prices.json").then((response) => {
+            if (!response.ok) {
+              throw new Error("ingredient-prices.json missing");
+            }
+            return response.json();
+          }),
+          fetch("./data/seasonal-price-multipliers.json").then((response) => {
+            if (!response.ok) {
+              throw new Error("seasonal-price-multipliers.json missing");
+            }
+            return response.json();
+          }),
+          fetch("./data/weekly-deals.json").then((response) => {
+            if (!response.ok) {
+              throw new Error("weekly-deals.json missing");
+            }
+            return response.json();
+          })
+        ]);
+
+        if (recipesResult.status === "fulfilled") {
+          const recipes = Array.isArray(recipesResult.value && recipesResult.value.recipes)
+            ? recipesResult.value.recipes
+            : [];
+          state.recipes = recipes.slice().sort((a, b) => String(a.title || "").localeCompare(String(b.title || "")));
+          state.loadedFlags.recipes = true;
+        } else {
+          state.recipes = [];
+          state.loadedFlags.recipes = false;
+        }
+
+        if (pricesResult.status === "fulfilled") {
+          state.pricesData = {
+            lastUpdated: pricesResult.value && pricesResult.value.lastUpdated ? pricesResult.value.lastUpdated : null,
+            prices: pricesResult.value && pricesResult.value.prices ? pricesResult.value.prices : {}
+          };
+          state.loadedFlags.prices = true;
+        } else {
+          state.pricesData = { lastUpdated: null, prices: {} };
+          state.loadedFlags.prices = false;
+        }
+
+        if (multipliersResult.status === "fulfilled") {
+          state.multipliersData = multipliersResult.value || {};
+          state.loadedFlags.seasonal = true;
+        } else {
+          state.multipliersData = {};
+          state.loadedFlags.seasonal = false;
+        }
+
+        if (dealsResult.status === "fulfilled") {
+          state.dealsData = dealsResult.value || { deals: [], weekOf: null };
+          state.loadedFlags.deals = true;
+        } else {
+          state.dealsData = { deals: [], weekOf: null };
+          state.loadedFlags.deals = false;
+        }
+      }
+
+      function attachEvents() {
+        recipeSearch.addEventListener("input", renderRecipeList);
+
+        clearSelectionBtn.addEventListener("click", () => {
+          state.selectedRecipeId = null;
+          selectedRecipeText.textContent = "None";
+          renderRecipeList();
+          costOutput.innerHTML = '<p class="emptyMessage">Select a recipe, then click Compare Costs.</p>';
+        });
+
+        compareBtn.addEventListener("click", renderComparison);
+      }
+
+      async function init() {
+        createMonthOptions();
+        attachEvents();
+        await loadData();
+        renderStatusBar();
+        renderRecipeList();
+        costOutput.innerHTML = '<p class="emptyMessage">Select a recipe, then click Compare Costs.</p>';
+      }
+
+      init();
+    </script>
+  </body>
+</html>

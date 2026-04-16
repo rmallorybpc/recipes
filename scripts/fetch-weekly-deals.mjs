@@ -6,6 +6,7 @@ import { createGunzip } from 'zlib';
 const TOKEN_URL = 'https://api.kroger.com/v1/connect/oauth2/token';
 const PRODUCTS_URL = 'https://api.kroger.com/v1/products';
 const OUTPUT_PATH = 'data/weekly-deals.json';
+const INGREDIENT_PRICES_PATH = 'data/ingredient-prices.json';
 const SEASONAL_PATH = 'data/seasonal-colorado.json';
 const RECIPES_PATH = 'data/recipes-with-ingredients.json';
 
@@ -395,6 +396,72 @@ async function main() {
   console.log(`Week of: ${weekOf}`);
   console.log(`Location: ${locationId}`);
   console.log('Output: data/weekly-deals.json');
+
+  // --- INGREDIENT PRICES SIDE OUTPUT ---
+  let ingredientPricesData = {
+    lastUpdated: '',
+    prices: {}
+  };
+
+  try {
+    const existingIngredientPricesRaw = await readFile(INGREDIENT_PRICES_PATH, 'utf8');
+    const parsed = JSON.parse(existingIngredientPricesRaw);
+    ingredientPricesData = {
+      lastUpdated: typeof parsed?.lastUpdated === 'string' ? parsed.lastUpdated : '',
+      prices: typeof parsed?.prices === 'object' && parsed?.prices !== null ? parsed.prices : {}
+    };
+  } catch (error) {
+    if (error?.code !== 'ENOENT') {
+      throw error;
+    }
+  }
+
+  const prices = ingredientPricesData.prices;
+  const today = new Date().toISOString().split('T')[0];
+  const touchedTerms = new Set();
+
+  for (const deal of deals) {
+    const term = String(deal?.term || '').toLowerCase().trim();
+    if (!term || typeof deal?.regularPrice !== 'number') {
+      continue;
+    }
+
+    touchedTerms.add(term);
+
+    const existing = prices[term];
+    if (!existing) {
+      prices[term] = {
+        term,
+        name: String(deal?.name || ''),
+        regularPrice: deal.regularPrice,
+        unit: deal?.size ? String(deal.size) : '',
+        lastSeen: today,
+        weekOf,
+        source: 'kroger_api',
+        confidence: 'actual'
+      };
+      continue;
+    }
+
+    if (existing.regularPrice !== deal.regularPrice) {
+      existing.term = term;
+      existing.name = String(deal?.name || '');
+      existing.regularPrice = deal.regularPrice;
+      existing.unit = deal?.size ? String(deal.size) : '';
+      existing.source = 'kroger_api';
+      existing.confidence = 'actual';
+    }
+
+    existing.lastSeen = today;
+    existing.weekOf = weekOf;
+  }
+
+  ingredientPricesData.lastUpdated = new Date().toISOString();
+
+  await writeFile(INGREDIENT_PRICES_PATH, `${JSON.stringify(ingredientPricesData, null, 2)}\n`, 'utf8');
+
+  console.log(`Ingredient prices updated: ${touchedTerms.size} terms with actual Kroger prices`);
+  console.log('Output: data/ingredient-prices.json');
   console.log('');
 }
 
