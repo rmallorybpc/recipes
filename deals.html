@@ -282,6 +282,113 @@
           min-width: 0;
         }
       }
+
+      @media (max-width: 768px) {
+
+        /* Store context bar — stack items vertically */
+        [class*="contextBar"],
+        [class*="context-bar"],
+        [class*="storeBar"] {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.25rem;
+          font-size: 12px;
+          padding: 0.75rem 1rem;
+        }
+
+        /* Filter controls — stack vertically */
+        [class*="filterBar"],
+        [class*="filter-bar"],
+        [class*="controls"] {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 0.625rem;
+        }
+
+        [class*="filterBar"] select,
+        [class*="filterBar"] input[type="search"] {
+          width: 100%;
+          font-size: 16px; /* prevents iOS zoom */
+        }
+
+        /* Deal card grid — 2 columns on tablet */
+        [class*="dealGrid"],
+        [class*="deal-grid"],
+        [class*="dealsGrid"] {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 0.75rem;
+        }
+
+        /* Deal card image area — reduce height on mobile */
+        [class*="dealCard"] [class*="imageArea"],
+        [class*="deal-card"] [class*="image-area"] {
+          height: 90px;
+        }
+
+        /* Deal card body — tighter padding */
+        [class*="dealCard"] [class*="body"],
+        [class*="deal-card"] [class*="body"] {
+          padding: 0.625rem;
+        }
+
+        /* Product name — still 2-line clamp but smaller */
+        [class*="productName"],
+        [class*="product-name"] {
+          font-size: 13px;
+        }
+
+        /* Promo price — slightly smaller */
+        [class*="promoPrice"],
+        [class*="promo-price"] {
+          font-size: 16px;
+        }
+
+        /* Recipes to cook this week section — single column */
+        [class*="recipeWeek"],
+        [class*="recipe-week"] {
+          grid-template-columns: 1fr;
+        }
+
+        /* Shopping list section */
+        [class*="shoppingTable"],
+        [class*="shopping-table"] {
+          font-size: 12px;
+        }
+
+        /* Location row — stack zip input and button */
+        .location-row {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 0.5rem;
+        }
+
+        #zipInput {
+          width: 100%;
+          font-size: 16px;
+        }
+
+        #findStoreBtn {
+          width: 100%;
+        }
+
+      }
+
+      @media (max-width: 480px) {
+
+        /* Deal cards — single column on small phones */
+        [class*="dealGrid"],
+        [class*="deal-grid"],
+        [class*="dealsGrid"] {
+          grid-template-columns: 1fr;
+        }
+
+        /* Deal card image — smaller on small phones */
+        [class*="dealCard"] [class*="imageArea"],
+        [class*="deal-card"] [class*="image-area"] {
+          height: 70px;
+        }
+
+      }
     </style>
   </head>
   <body>

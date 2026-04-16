@@ -352,6 +352,83 @@
           grid-template-columns: 1fr;
         }
       }
+
+      @media (max-width: 768px) {
+
+        /* Tab bar — wrap tabs and shrink text */
+        .tabBar,
+        [id^="tab-"],
+        [class*="tab"] {
+          flex-wrap: wrap;
+          gap: 0.375rem;
+        }
+
+        button[id^="tab-"] {
+          font-size: 12px;
+          padding: 0.375rem 0.625rem;
+          flex: 1 1 auto;
+          text-align: center;
+        }
+
+        /* Produce card grid — 2 columns on tablet */
+        .produceGrid,
+        [class*="produce-grid"],
+        [class*="produceCard"] {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 0.75rem;
+        }
+
+        /* Season Calendar panel — horizontal scroll */
+        /* The 12-month grid is too wide for mobile — wrap in a scrollable container */
+        #panel-calendar {
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+        }
+
+        /* Calendar grid — set minimum width so it scrolls rather than collapsing */
+        /* Sticky row labels stay fixed, months scroll horizontally */
+        [class*="calendarGrid"],
+        [class*="calendar-grid"] {
+          min-width: 700px;
+        }
+
+        /* Mini bar cells in Ingredient Season Check — scale down slightly */
+        [class*="mini-bar"] > div,
+        [class*="miniBar"] > div {
+          width: 12px;
+          height: 18px;
+        }
+
+        /* Ingredient search input */
+        #ingredientCheckInput,
+        [id*="check"] input[type="search"] {
+          font-size: 16px; /* prevents iOS zoom */
+          width: 100%;
+        }
+
+        /* Recipe match cards in seasonal context */
+        [class*="recipeMatch"],
+        [class*="recipe-match"] {
+          font-size: 12px;
+        }
+
+      }
+
+      @media (max-width: 480px) {
+
+        /* Produce grid — single column on small phones */
+        .produceGrid,
+        [class*="produce-grid"] {
+          grid-template-columns: 1fr;
+        }
+
+        /* Tab buttons — full row */
+        button[id^="tab-"] {
+          font-size: 11px;
+          padding: 0.3rem 0.5rem;
+        }
+
+      }
     </style>
   </head>
   <body>
