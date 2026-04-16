@@ -1,153 +1,155 @@
-# recipes
+---
 
-Family Recipe Book with a searchable structure.
+# Family Recipe Book — A Meal Planning System Built on GitHub Pages
 
-## Live Page
+This started as a simple problem: our family kept losing track of recipes. Some were bookmarked, some were in a notes app, some existed only in someone's memory. Finding what to cook on a Tuesday night meant opening four different apps and still not having an answer.
 
-https://rmallorybpc.github.io/recipes/
+So I built a structured recipe system on GitHub Pages — no backend, no database, no ongoing cost. What began as a searchable recipe collection grew into a full meal planning pipeline that connects a family recipe book to live grocery store deal data, Colorado seasonal produce availability, and an AI-assisted meal plan generator.
 
-The live page opens a recipe explorer with browse and search filters.
+Everything runs on static files, GitHub Actions, and a small set of public APIs. The total infrastructure cost is zero.
 
-Ingredient search page:
+## What This Is
 
-https://rmallorybpc.github.io/recipes/ingredients.html
+A family recipe system with six interconnected pages:
 
-## Repository Purpose
+**[Planner](https://rmallorybpc.github.io/recipes/)** — Browse 99 recipes by meal type and cooking style. Drag recipe cards into a weekly meal planning grid organized by day and meal slot.
 
-This repo is set up to store known recipes and make them easy to find by:
+**[Ingredient Search](https://rmallorybpc.github.io/recipes/ingredients.html)** — Find recipes by ingredient using AND/OR matching. Type what you have in the fridge and see what you can cook.
 
-- Meal: breakfast, lunch, dinner
-- Style: meat, rice-or-pasta, soup-or-stew, handheld, baked-casserole, bowls, vegetarian, seafood
-- Keywords and free-text search
+**[Seasonal](https://rmallorybpc.github.io/recipes/seasonal.html)** — See what Colorado produce is at peak right now, browse which recipes are best suited to each month, and check any ingredient's harvest window across the full year. Sourced from the Colorado Department of Agriculture produce calendar.
 
-## Folder Layout
+**[Deals](https://rmallorybpc.github.io/recipes/deals.html)** — This week's on-sale items at King Soopers Belleview Square, matched to recipes in the collection. Updated automatically every Wednesday morning via GitHub Actions using the Kroger Developer API.
 
+**[Suggest](https://rmallorybpc.github.io/recipes/suggest.html)** — A rule-based meal plan generator that scores recipes against this week's deals, current seasonal availability, and household rules you define once and save. Monday and Wednesday time caps, skip days, dietary restrictions, cuisine preferences, and a repeat window to avoid the same cuisine two weeks in a row. Optionally refines with Claude via a one-click prompt handoff to Claude.ai.
+
+**[Cost](https://rmallorybpc.github.io/recipes/cost.html)** — A recipe cost estimator that compares estimated ingredient costs across any two months of the year. Uses actual King Soopers shelf prices from the Kroger API as the baseline, adjusted with seasonal price multipliers derived from USDA Economic Research Service retail price data and the Colorado Department of Agriculture seasonal calendar. Ingredients without actual price data are marked as estimated.
+
+## How the Data Pipeline Works
+
+The system is built around a set of data files that live in the `data/` folder and are generated or updated by scripts and GitHub Actions workflows.
+
+**Weekly on Wednesdays:** A GitHub Actions workflow authenticates to the Kroger Developer API, queries ingredient terms from the recipe collection against the King Soopers Belleview Square store, identifies items where the promotional price is below the regular shelf price, and commits `data/weekly-deals.json` back to the repo. The deals page reads this file on every page load. No server, no database — just a JSON file updated once a week.
+
+**Recipe ingredient data:** Running `node ./scripts/generate-ingredient-data.mjs` processes all recipe markdown files, extracts and normalizes ingredients, cross-references them against the Colorado seasonal calendar, and cross-references again against the current week's deals. It produces three output files: `data/recipes-with-ingredients.json`, `data/seasonal-match.json`, and `data/deals-match.json`. The seasonal and deals pages read these files to show recipe matches.
+
+**Ingredient prices:** Each Wednesday deals run also writes `data/ingredient-prices.json` as a side effect — capturing the actual non-sale shelf price for every ingredient that appeared in the deals search. This file accumulates over time. Each week it gains more actual price data, gradually replacing estimated category averages with real Kroger prices. The cost estimator uses this file as its price baseline.
+
+**Seasonal price multipliers:** `data/seasonal-price-multipliers.json` encodes month-by-month price multipliers for every produce item, protein, and pantry category in the collection. Multipliers are derived from USDA retail price spread data and the CDA seasonal calendar. A multiplier below 1.00 means the item is cheaper than the annual baseline that month — peak season. A multiplier above 1.00 means it costs more — off-season import premium.
+
+## Repository Structure
+recipes/               # Recipe markdown files organized by meal and style
+breakfast/
+lunch/
+dinner/
+meat/
+rice-or-pasta/
+soup-or-stew/
+handheld/
+baked-casserole/
+bowls/
+vegetarian/
+seafood/
+data/                  # Generated data files (committed to repo, served as static JSON)
+recipes-with-ingredients.json
+seasonal-colorado.json
+seasonal-match.json
+seasonal-price-multipliers.json
+weekly-deals.json
+deals-match.json
+ingredient-prices.json
+kroger-locations.json
+scripts/               # Node.js scripts for data generation and import
+generate-ingredient-data.mjs
+generate-seasonal-match.mjs
+fetch-weekly-deals.mjs
+import-recipe-from-issue.mjs
+import-suggested-recipes.mjs
+verify-ingredient-data-with-model.mjs
+.github/workflows/     # GitHub Actions automation
+fetch-weekly-deals.yml
+import-recipe-from-issue.yml
+ingredient-data-validation.yml
+docs/                  # Additional documentation
+
+Each recipe file follows this path shape: `recipes/<meal>/<style>/<recipe-name>.md`
+
+## Adding a Recipe
+
+The fastest path is through the Submit form on the live Planner page. Fill in the recipe fields and click Create GitHub Issue — it opens a prefilled issue in the correct template format. Apply the `ready-to-import` label and the import workflow runs automatically:
+
+- Creates the recipe markdown file in the correct folder
+- Updates `known-recipes.md`
+- Updates the `RECIPES` array in `script.js`
+- Regenerates ingredient datasets
+- Opens a pull request with the changes
+- Comments back on the issue with the PR link
+
+You can also import manually from the command line:
+
+```bash
+node ./scripts/import-recipe-from-issue.mjs --issue <number>
 ```
-recipes/
-	breakfast/
-		meat/
-		rice-or-pasta/
-		soup-or-stew/
-		handheld/
-		baked-casserole/
-		bowls/
-		vegetarian/
-		seafood/
-	lunch/
-		meat/
-		rice-or-pasta/
-		soup-or-stew/
-		handheld/
-		baked-casserole/
-		bowls/
-		vegetarian/
-		seafood/
-	dinner/
-		meat/
-		rice-or-pasta/
-		soup-or-stew/
-		handheld/
-		baked-casserole/
-		bowls/
-		vegetarian/
-		seafood/
+
+After any import, regenerate the full data pipeline:
+
+```bash
+node ./scripts/generate-ingredient-data.mjs
 ```
 
-Use this path shape for each recipe file:
+## Running the Deals Fetch Locally
 
-`recipes/<meal>/<style>/<recipe-name>.md`
+Requires a free Kroger Developer account at [developer.kroger.com](https://developer.kroger.com). Register an app to get a `client_id` and `client_secret`. Find your nearest King Soopers location ID from the store URL on kingsoopers.com — the last two path segments combine to form the ID (e.g. `/620/00100` → `62000100`).
 
-## Add A Recipe
+```bash
+KROGER_CLIENT_ID=your_id \
+KROGER_CLIENT_SECRET=your_secret \
+KROGER_LOCATION_ID=62000100 \
+node ./scripts/fetch-weekly-deals.mjs
+```
 
-1. Copy `recipes/recipe-template.md`
-2. Save it in the correct category folder
-3. Fill metadata (`meal`, `style`, `protein`, `cuisine`, `keywords`)
-4. Add ingredients and instructions
+For automated weekly runs, add those three values as GitHub Secrets (`KROGER_CLIENT_ID`, `KROGER_CLIENT_SECRET`, `KROGER_LOCATION_ID`) and the Wednesday workflow handles the rest.
 
-If a recipe came in through the Live page as a GitHub issue, you can import it automatically:
+## Validating Ingredient Data with Claude Sonnet
 
-`node ./scripts/import-recipe-from-issue.mjs --issue <number-or-issue-url>`
+A model-based audit workflow uses Claude Sonnet via GitHub Models to validate ingredient accuracy across the recipe collection. It samples recipes, checks ingredient lists against expected content, and produces a confidence report.
 
-Example:
+Run locally:
 
-`node ./scripts/import-recipe-from-issue.mjs --issue 1`
-
-What it updates:
-
-- recipe markdown file under `recipes/<meal>/<style>/`
-- corresponding `known-recipes.md`
-- `RECIPES` list in `script.js`
-
-Then regenerate ingredient data:
-
-`node ./scripts/generate-ingredient-data.mjs`
-
-### Automatic import via GitHub Actions
-
-Apply the `ready-to-import` label to a recipe submission issue. The workflow in `.github/workflows/import-recipe-from-issue.yml` will:
-
-- run the importer for that issue
-- regenerate ingredient datasets
-- open a pull request with the changes
-- comment back on the issue with the PR link
-
-You can also run it manually from Actions using the `Import Recipe From Issue` workflow and provide the issue number.
-
-## Search Recipes
-
-Use the helper script:
-
-`./scripts/find-recipe.sh --help`
-
-Examples:
-
-- `./scripts/find-recipe.sh --meal dinner`
-- `./scripts/find-recipe.sh --meal lunch --style meat`
-- `./scripts/find-recipe.sh --q chicken`
-- `./scripts/find-recipe.sh --meal breakfast --q quick`
-
-More search guidance is in `docs/searching.md`.
-
-## Generate Ingredient Dataset
-
-Run this one-time batch command from repo root:
-
-`node ./scripts/generate-ingredient-data.mjs`
-
-It creates:
-
-- `data/recipes-with-ingredients.json`
-- `data/ingredient-index.json`
-
-The generator uses this priority:
-
-1. Existing `Source` links in `known-recipes.md`
-2. Web search for missing recipe links
-3. Title-based ingredient heuristics when scraping is unavailable
-
-Each recipe includes an ingredient confidence score and ingredient source label.
-
-## Validate Ingredient Accuracy With Claude Sonnet
-
-You can run a model-based audit using GitHub Models (Claude Sonnet) after generation.
-
-Local command:
-
-`GITHUB_MODELS_TOKEN=<token> node ./scripts/verify-ingredient-data-with-model.mjs`
+```bash
+GITHUB_MODELS_TOKEN=<token> node ./scripts/verify-ingredient-data-with-model.mjs
+```
 
 Optional environment variables:
-
 - `GITHUB_MODELS_MODEL` (default: `anthropic/claude-3.5-sonnet`)
 - `GITHUB_MODELS_ENDPOINT` (default: `https://models.inference.ai.azure.com`)
 - `VALIDATION_SAMPLE_SIZE` (default: `46`)
 - `VALIDATION_CHUNK_SIZE` (default: `8`)
 
-Output report:
+Or run it from the Actions tab using the `Ingredient Data Validation` workflow dispatch. Output is written to `data/ingredient-validation-report.json` and uploaded as a workflow artifact.
 
-- `data/ingredient-validation-report.json`
+## Searching Recipes from the Command Line
 
-GitHub Actions workflow:
+```bash
+./scripts/find-recipe.sh --meal dinner
+./scripts/find-recipe.sh --meal lunch --style meat
+./scripts/find-recipe.sh --q chicken
+./scripts/find-recipe.sh --meal breakfast --q quick
+```
 
-- `.github/workflows/ingredient-data-validation.yml`
+Full search options are documented in `docs/searching.md`.
 
-Run it from the Actions tab with workflow dispatch. It generates recipe data, validates it with Claude Sonnet, and uploads the report as an artifact.
+## Data Sources
+
+| Data | Source | Update frequency |
+|---|---|---|
+| Weekly deals | [Kroger Developer API](https://developer.kroger.com) | Every Wednesday via GitHub Actions |
+| Seasonal availability | [Colorado Department of Agriculture](https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar) | Annual |
+| Seasonal price multipliers | [USDA Economic Research Service](https://www.ers.usda.gov) + CDA calendar | Annual |
+| Recipe ingredients | Source recipe pages + title heuristics | On import |
+| Ingredient validation | Claude Sonnet via [GitHub Models](https://github.com/features/models) | On demand |
+
+## Technical Notes
+
+The site runs entirely on GitHub Pages with no server-side code. All data is pre-generated as static JSON files and served directly. The weekly deals automation is the only scheduled process — everything else is triggered manually or on recipe import. The Anthropic API is not called at runtime. The "Refine with Claude" feature on the Suggest page assembles context and opens Claude.ai in a new tab — no API key required from the user.
+
+---
