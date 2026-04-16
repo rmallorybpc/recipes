@@ -79,12 +79,6 @@
         min-height: 16px;
       }
 
-      .apiKeyHint {
-        margin: 0.45rem 0 0;
-        font-size: 12px;
-        color: var(--color-text-secondary);
-      }
-
       .dayGrid {
         display: grid;
         grid-template-columns: repeat(7, 1fr);
@@ -202,7 +196,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         gap: 1rem;
-        margin-bottom: 2rem;
+        margin: 1.5rem 0;
       }
 
       .day-card {
@@ -212,15 +206,19 @@
         padding: 1rem;
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0.4rem;
+      }
+
+      .day-card-skipped {
+        opacity: 0.4;
       }
 
       .day-card-header {
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 500;
-        color: var(--color-text-secondary);
+        color: var(--color-text-tertiary);
         text-transform: uppercase;
-        letter-spacing: 0.05em;
+        letter-spacing: 0.06em;
       }
 
       .day-card-title {
@@ -233,24 +231,20 @@
         overflow: hidden;
       }
 
-      .day-card-skipped {
-        opacity: 0.4;
-        font-style: italic;
-      }
-
-      .new-badge {
-        font-size: 10px;
-        background: var(--color-background-info);
-        color: var(--color-text-info);
-        padding: 1px 6px;
-        border-radius: 3px;
-        font-weight: 500;
-      }
-
       .sale-pill {
         font-size: 11px;
         background: var(--color-background-success);
         color: var(--color-text-success);
+        padding: 2px 6px;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 1px;
+      }
+
+      .peak-pill {
+        font-size: 11px;
+        background: var(--color-background-info);
+        color: var(--color-text-info);
         padding: 2px 6px;
         border-radius: 3px;
         display: inline-block;
@@ -262,19 +256,20 @@
         color: var(--color-text-tertiary);
         font-style: italic;
         margin-top: auto;
+        padding-top: 0.4rem;
       }
 
       .card-actions {
         display: flex;
         gap: 0.5rem;
-        margin-top: 0.75rem;
-        padding-top: 0.75rem;
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
         border-top: 0.5px solid var(--color-border-tertiary);
       }
 
       .card-actions button {
         font-size: 12px;
-        padding: 4px 10px;
+        padding: 4px 8px;
         flex: 1;
       }
 
@@ -288,11 +283,13 @@
         width: 100%;
         border-collapse: collapse;
         font-size: 13px;
+        margin-bottom: 1rem;
       }
 
       .shopping-table td {
         padding: 6px 8px;
         border-bottom: 0.5px solid var(--color-border-tertiary);
+        vertical-align: middle;
       }
 
       .savings-pill {
@@ -303,6 +300,15 @@
         font-size: 13px;
         font-weight: 500;
         display: inline-block;
+        margin-left: 0.5rem;
+      }
+
+      .plan-regenerate-hint {
+        font-size: 12px;
+        color: var(--color-text-tertiary);
+        text-align: center;
+        margin-top: 1.5rem;
+        font-style: italic;
       }
 
       .debug-row {
@@ -436,13 +442,6 @@
             <div id="summaryPills" class="summaryPills" aria-live="polite"></div>
           </div>
 
-          <div class="cardSubsection">
-            <label class="subsectionLabel" for="apiKeyInput">Anthropic API Key</label>
-            <input id="apiKeyInput" type="password" placeholder="sk-ant-..." />
-            <p class="apiKeyHint">
-              Your key is used only in this browser session and never stored or sent anywhere except directly to api.anthropic.com. Clear your browser session to remove it.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -469,7 +468,7 @@
     <script>
       const HOUSEHOLD_RULES_KEY = "recipes_household_rules";
       const DAY_RULES_KEY = "recipes_day_rules";
-      const API_KEY_STORAGE_KEY = "recipes_api_key";
+      const RECENT_MEALS_KEY = "recipes_recent_meals";
 
       const DAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
       const FULL_DAY_NAMES = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -492,7 +491,6 @@
       const summaryPills = document.getElementById("summaryPills");
       const generateBtn = document.getElementById("generateBtn");
       const generateStatus = document.getElementById("generateStatus");
-      const apiKeyInput = document.getElementById("apiKeyInput");
       const planOutput = document.getElementById("planOutput");
 
       let recipesData = null;
@@ -780,321 +778,439 @@
         return numeric.toFixed(2);
       }
 
-      function parseHouseholdRules() {
-        const defaults = {
-          dietary: "",
-          disliked: "",
-          cuisines: "",
-          repeatDays: 14
-        };
+      function splitTerms(value) {
+        return String(value || "")
+          .split(",")
+          .map((part) => part.trim().toLowerCase())
+          .filter(Boolean);
+      }
 
-        const parsed = parseStoredJson(HOUSEHOLD_RULES_KEY);
-        if (!parsed || typeof parsed !== "object") {
-          return defaults;
+      function normalizeRecipes(recipesSource) {
+        if (Array.isArray(recipesSource)) {
+          return recipesSource;
         }
+        if (recipesSource && Array.isArray(recipesSource.recipes)) {
+          return recipesSource.recipes;
+        }
+        if (recipesSource && Array.isArray(recipesSource.data)) {
+          return recipesSource.data;
+        }
+        return [];
+      }
 
+      function normalizeDealMatch(deal) {
         return {
-          dietary: String(parsed.dietary || ""),
-          disliked: String(parsed.disliked || ""),
-          cuisines: String(parsed.cuisines || ""),
-          repeatDays: Number(parsed.repeatDays) || 14
+          term: String(deal && deal.term ? deal.term : ""),
+          name: String(deal && deal.name ? deal.name : ""),
+          promoPrice: deal && deal.promoPrice != null ? deal.promoPrice : null,
+          savings: deal && deal.savings != null ? Number(deal.savings) || 0 : 0,
+          savingsPct: deal && deal.savingsPct != null ? deal.savingsPct : null
         };
       }
 
-      function assemblePromptData() {
-        if (!recipesData || !dealsData || !seasonalData) {
-          throw new Error("Missing one or more input data files. Refresh and try again.");
-        }
+      function getRecipeSearchText(recipe) {
+        const ingredients = Array.isArray(recipe && recipe.ingredients) ? recipe.ingredients : [];
+        const keywords = Array.isArray(recipe && recipe.keywords) ? recipe.keywords : [];
+        const title = String(recipe && recipe.title ? recipe.title : "");
+        return `${ingredients.join(" ")} ${title} ${keywords.join(" ")}`.toLowerCase();
+      }
 
-        const monthInt = new Date().getMonth() + 1;
-        const monthName = new Date().toLocaleString("en-US", { month: "long" });
-        const excludedCategories = new Set(["Cleaning Products", "Baby", "Candy"]);
-        const recipeItems = Array.isArray(recipesData.recipes) ? recipesData.recipes : [];
-        const prioritizedRecipes = recipeItems
-          .slice()
-          .sort((a, b) => {
-            const aHasTime = Number.isFinite(Number(a && a.time_minutes));
-            const bHasTime = Number.isFinite(Number(b && b.time_minutes));
-            if (aHasTime === bHasTime) {
-              return 0;
-            }
-            return bHasTime - aHasTime;
-          })
-          .slice(0, 60)
-          .map((recipe) => ({
-            title: String(recipe.title || ""),
-            meal: String(recipe.meal || ""),
-            style: String(recipe.style || ""),
-            protein: recipe.protein == null ? null : String(recipe.protein),
-            cuisine: recipe.cuisine == null ? null : String(recipe.cuisine),
-            time_minutes: Number.isFinite(Number(recipe.time_minutes)) ? Number(recipe.time_minutes) : null,
-            keywords: Array.isArray(recipe.keywords) ? recipe.keywords : [],
-            summary: recipe.summary == null ? null : String(recipe.summary)
-          }));
+      function getRecipeIngredientText(recipe) {
+        const ingredients = Array.isArray(recipe && recipe.ingredients) ? recipe.ingredients : [];
+        return ingredients.join(" ").toLowerCase();
+      }
 
-        const filteredDeals = (Array.isArray(dealsData.deals) ? dealsData.deals : [])
-          .filter((deal) => !excludedCategories.has(String(deal && deal.category || "")))
-          .map((deal) => ({
-            term: deal.term,
-            name: deal.name,
-            promoPrice: deal.promoPrice,
-            savings: deal.savings,
-            savingsPct: deal.savingsPct,
-            category: deal.category
-          }));
+      function scoreDeal(recipe, deals) {
+        const haystack = getRecipeSearchText(recipe);
+        const matchedDeals = [];
+        let score = 0;
 
-        const produce = seasonalData && seasonalData.produce && typeof seasonalData.produce === "object"
-          ? seasonalData.produce
-          : {};
-
-        const peakNow = [];
-        const availableNow = [];
-        Object.entries(produce).forEach(([name, entry]) => {
-          if (entry && Array.isArray(entry.peak) && entry.peak.includes(monthInt)) {
-            peakNow.push(name);
+        (Array.isArray(deals) ? deals : []).forEach((deal) => {
+          const term = String(deal && deal.term ? deal.term : "").trim().toLowerCase();
+          if (!term) {
+            return;
           }
-          if (entry && Array.isArray(entry.available) && entry.available.includes(monthInt)) {
-            availableNow.push(name);
+          if (haystack.includes(term)) {
+            score += 1;
+            matchedDeals.push(normalizeDealMatch(deal));
           }
         });
 
-        const dayRules = DAY_NAMES.map((_, index) => {
-          const select = document.getElementById(`timeCap_${index}`);
-          const checkbox = document.getElementById(`skip_${index}`);
-          const selectedValue = select ? String(select.value) : "any";
-          const selectedOption = TIME_CAP_OPTIONS.find((option) => option.value === selectedValue);
+        return { score, matchedDeals };
+      }
+
+      function scoreSeasonal(recipe, seasonalData, currentMonth) {
+        const haystack = `${getRecipeIngredientText(recipe)} ${String(recipe && recipe.title ? recipe.title : "").toLowerCase()}`;
+        const produce = seasonalData && typeof seasonalData === "object" ? seasonalData : {};
+        const peakMatches = [];
+        const availableMatches = [];
+
+        Object.entries(produce).forEach(([produceName, info]) => {
+          const nameLower = String(produceName || "").toLowerCase();
+          if (!nameLower || !haystack.includes(nameLower)) {
+            return;
+          }
+
+          const isPeak = info && Array.isArray(info.peak) && info.peak.includes(currentMonth);
+          const isAvailable = info && Array.isArray(info.available) && info.available.includes(currentMonth);
+
+          if (isPeak) {
+            peakMatches.push(produceName);
+            return;
+          }
+
+          if (isAvailable) {
+            availableMatches.push(produceName);
+          }
+        });
+
+        return {
+          peakScore: peakMatches.length,
+          availableScore: availableMatches.length,
+          peakMatches,
+          availableMatches
+        };
+      }
+
+      function meetsDayConstraints(recipe, dayRule) {
+        if (!dayRule || dayRule.skip) {
+          return false;
+        }
+
+        const rawTimeCap = String(dayRule.timeCap || "Any time");
+        const mapped = {
+          any: "Any time",
+          "20": "≤20 min",
+          "30": "≤30 min",
+          "45": "≤45 min",
+          "60": "≤60 min"
+        };
+        const timeCap = mapped[rawTimeCap] || rawTimeCap;
+        if (timeCap === "Any time") {
+          return true;
+        }
+
+        const timeValue = Number(recipe && recipe.time_minutes);
+        if (!timeValue || !Number.isFinite(timeValue)) {
+          return true;
+        }
+
+        if (timeCap === "≤20 min") {
+          return timeValue <= 20;
+        }
+        if (timeCap === "≤30 min") {
+          return timeValue <= 30;
+        }
+        if (timeCap === "≤45 min") {
+          return timeValue <= 45;
+        }
+        if (timeCap === "≤60 min") {
+          return timeValue <= 60;
+        }
+        return true;
+      }
+
+      function meetsHouseholdRules(recipe, householdRules) {
+        const ingredientText = getRecipeIngredientText(recipe);
+        const dietaryTerms = splitTerms(householdRules && householdRules.dietary);
+        const dislikedTerms = splitTerms(householdRules && householdRules.disliked);
+
+        if (dietaryTerms.some((term) => ingredientText.includes(term))) {
+          return false;
+        }
+        if (dislikedTerms.some((term) => ingredientText.includes(term))) {
+          return false;
+        }
+        return true;
+      }
+
+      function getMostRecentSunday(date) {
+        const copy = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+        const distance = copy.getDay();
+        copy.setDate(copy.getDate() - distance);
+        return copy;
+      }
+
+      function toIsoDateOnly(date) {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, "0");
+        const day = String(date.getDate()).padStart(2, "0");
+        return `${year}-${month}-${day}`;
+      }
+
+      function getRecentMeals() {
+        const stored = parseStoredJson(RECENT_MEALS_KEY);
+        if (!Array.isArray(stored)) {
+          return [];
+        }
+        return stored.filter((item) => item && item.title && item.date);
+      }
+
+      function mealUsedInRepeatWindow(title, recentMeals, repeatDays, now) {
+        if (!repeatDays || repeatDays <= 0) {
+          return false;
+        }
+        const windowMs = repeatDays * 24 * 60 * 60 * 1000;
+        const titleLower = String(title || "").toLowerCase();
+        return recentMeals.some((entry) => {
+          const entryTitle = String(entry.title || "").toLowerCase();
+          if (!entryTitle || entryTitle !== titleLower) {
+            return false;
+          }
+          const entryDate = new Date(entry.date);
+          if (Number.isNaN(entryDate.getTime())) {
+            return false;
+          }
+          return now.getTime() - entryDate.getTime() <= windowMs;
+        });
+      }
+
+      function truncateText(value, maxLen) {
+        const text = String(value || "");
+        if (text.length <= maxLen) {
+          return text;
+        }
+        return `${text.slice(0, maxLen - 1)}…`;
+      }
+
+      function buildWeekPlan(recipes, deals, seasonalData, householdRules, dayRules, weeklyContext) {
+        const recipeList = normalizeRecipes(recipes).filter((item) => item && item.title);
+        const repeatDays = Number(householdRules && householdRules.repeatDays) || 0;
+
+        let filteredRecipes = recipeList.filter((recipe) => meetsHouseholdRules(recipe, householdRules || {}));
+        if (filteredRecipes.length === 0) {
+          filteredRecipes = recipeList.slice();
+        }
+
+        const currentMonth = new Date().getMonth() + 1;
+        const scored = filteredRecipes.map((recipe) => {
+          const dealResult = scoreDeal(recipe, deals);
+          const seasonalResult = scoreSeasonal(recipe, seasonalData, currentMonth);
+          const totalScore = (dealResult.score * 3) + (seasonalResult.peakScore * 2) + seasonalResult.availableScore;
           return {
-            day: FULL_DAY_NAMES[index],
-            timeCap: selectedOption ? selectedOption.label : "Any time",
-            skip: Boolean(checkbox && checkbox.checked)
+            recipe,
+            dealScore: dealResult.score,
+            matchedDeals: dealResult.matchedDeals,
+            peakScore: seasonalResult.peakScore,
+            availableScore: seasonalResult.availableScore,
+            peakMatches: seasonalResult.peakMatches,
+            availableMatches: seasonalResult.availableMatches,
+            totalScore
           };
         });
 
+        const candidatePool = scored.slice().sort((a, b) => b.totalScore - a.totalScore);
+
+        // Shuffle equal-score groups so repeated generations vary while preserving score order.
+        let groupStart = 0;
+        while (groupStart < candidatePool.length) {
+          let groupEnd = groupStart + 1;
+          while (groupEnd < candidatePool.length && candidatePool[groupEnd].totalScore === candidatePool[groupStart].totalScore) {
+            groupEnd += 1;
+          }
+          for (let i = groupEnd - 1; i > groupStart; i -= 1) {
+            const j = Math.floor(Math.random() * (i - groupStart + 1)) + groupStart;
+            const temp = candidatePool[i];
+            candidatePool[i] = candidatePool[j];
+            candidatePool[j] = temp;
+          }
+          groupStart = groupEnd;
+        }
+
+        const recentMeals = getRecentMeals();
+        const now = new Date();
+        const assignedTitles = new Set();
+        const days = [];
+
+        for (let dayIndex = 0; dayIndex < 7; dayIndex += 1) {
+          const dayRule = dayRules && dayRules[dayIndex] ? dayRules[dayIndex] : { timeCap: "Any time", skip: false };
+          const dayName = FULL_DAY_NAMES[dayIndex];
+
+          if (dayRule.skip) {
+            days.push({ dayIndex, dayName, skip: true, meal: null });
+            continue;
+          }
+
+          const findCandidateIndex = (options) => candidatePool.findIndex((candidate) => {
+            if (!candidate || !candidate.recipe) {
+              return false;
+            }
+            const title = String(candidate.recipe.title || "");
+            if (!title) {
+              return false;
+            }
+            if (!options.ignoreAssigned && assignedTitles.has(title.toLowerCase())) {
+              return false;
+            }
+            if (!options.ignoreRepeat && mealUsedInRepeatWindow(title, recentMeals, repeatDays, now)) {
+              return false;
+            }
+            if (!options.ignoreTime && !meetsDayConstraints(candidate.recipe, dayRule)) {
+              return false;
+            }
+            return true;
+          });
+
+          let selectedIndex = findCandidateIndex({ ignoreAssigned: false, ignoreRepeat: false, ignoreTime: false });
+          if (selectedIndex === -1) {
+            selectedIndex = findCandidateIndex({ ignoreAssigned: false, ignoreRepeat: true, ignoreTime: false });
+          }
+          if (selectedIndex === -1) {
+            selectedIndex = findCandidateIndex({ ignoreAssigned: false, ignoreRepeat: true, ignoreTime: true });
+          }
+          if (selectedIndex === -1) {
+            selectedIndex = findCandidateIndex({ ignoreAssigned: true, ignoreRepeat: true, ignoreTime: true });
+          }
+
+          if (selectedIndex === -1) {
+            days.push({ dayIndex, dayName, skip: false, meal: null });
+            continue;
+          }
+
+          const selected = candidatePool.splice(selectedIndex, 1)[0];
+          const selectedRecipe = selected.recipe;
+          assignedTitles.add(String(selectedRecipe.title || "").toLowerCase());
+
+          let whyChosen = "Fits your schedule and household preferences";
+          if (selected.dealScore > 0 && selected.peakScore > 0) {
+            whyChosen = `Uses ${selected.matchedDeals[0].name} on sale + ${selected.peakMatches[0]} at peak season`;
+          } else if (selected.dealScore > 0) {
+            whyChosen = `Uses ${selected.matchedDeals[0].name} on sale this week`;
+          } else if (selected.peakScore > 0) {
+            whyChosen = `${selected.peakMatches[0]} is at peak in Colorado this month`;
+          } else if (selected.availableScore > 0) {
+            whyChosen = "Uses locally available Colorado produce";
+          } else if (selected.totalScore === 0) {
+            whyChosen = "Fits your schedule and household preferences";
+          }
+
+          days.push({
+            dayIndex,
+            dayName,
+            skip: false,
+            meal: {
+              title: String(selectedRecipe.title || ""),
+              meal: selectedRecipe.meal ? String(selectedRecipe.meal) : "",
+              style: selectedRecipe.style ? String(selectedRecipe.style) : "",
+              time_minutes: Number(selectedRecipe.time_minutes) > 0 ? Number(selectedRecipe.time_minutes) : null,
+              cuisine: selectedRecipe.cuisine ? String(selectedRecipe.cuisine) : null,
+              summary: selectedRecipe.summary ? String(selectedRecipe.summary) : null,
+              ingredients: Array.isArray(selectedRecipe.ingredients) ? selectedRecipe.ingredients.slice() : [],
+              dealScore: selected.dealScore,
+              peakScore: selected.peakScore,
+              availableScore: selected.availableScore,
+              totalScore: selected.totalScore,
+              matchedDeals: selected.matchedDeals,
+              peakMatches: selected.peakMatches,
+              availableMatches: selected.availableMatches,
+              whyChosen
+            }
+          });
+        }
+
+        const ingredientSet = new Set();
+        days.forEach((day) => {
+          if (!day || !day.meal || !Array.isArray(day.meal.ingredients)) {
+            return;
+          }
+          day.meal.ingredients.forEach((ingredient) => {
+            const cleaned = String(ingredient || "").trim();
+            if (cleaned) {
+              ingredientSet.add(cleaned);
+            }
+          });
+        });
+
+        const onSaleItems = [];
+        const otherItems = [];
+        Array.from(ingredientSet).forEach((ingredient) => {
+          const lowerIngredient = ingredient.toLowerCase();
+          const matchedDeal = (Array.isArray(deals) ? deals : []).find((deal) => {
+            const term = String(deal && deal.term ? deal.term : "").trim().toLowerCase();
+            return term && lowerIngredient.includes(term);
+          });
+
+          if (matchedDeal) {
+            onSaleItems.push({
+              ingredient,
+              dealName: String(matchedDeal.name || matchedDeal.term || ""),
+              promoPrice: matchedDeal.promoPrice,
+              size: matchedDeal.size || ""
+            });
+          } else {
+            otherItems.push({ ingredient });
+          }
+        });
+
+        let estimatedSavings = 0;
+        days.forEach((day) => {
+          if (!day || !day.meal || !Array.isArray(day.meal.matchedDeals)) {
+            return;
+          }
+          day.meal.matchedDeals.forEach((deal) => {
+            estimatedSavings += Number(deal.savings) || 0;
+          });
+        });
+        estimatedSavings = Number(estimatedSavings.toFixed(2));
+
+        const thirtyDaysAgo = new Date(now);
+        thirtyDaysAgo.setDate(now.getDate() - 30);
+        const trimmedHistory = recentMeals.filter((entry) => {
+          const entryDate = new Date(entry.date);
+          return !Number.isNaN(entryDate.getTime()) && entryDate >= thirtyDaysAgo;
+        });
+
+        days.forEach((day) => {
+          if (day && day.meal && day.meal.title) {
+            trimmedHistory.push({
+              title: day.meal.title,
+              date: now.toISOString()
+            });
+          }
+        });
+        localStorage.setItem(RECENT_MEALS_KEY, JSON.stringify(trimmedHistory));
+
         return {
-          recipes: prioritizedRecipes,
-          deals: filteredDeals,
-          seasonal: {
-            peakNow,
-            availableNow
+          generatedAt: now.toISOString(),
+          weekOf: toIsoDateOnly(getMostRecentSunday(now)),
+          days,
+          shoppingList: {
+            onSaleItems,
+            otherItems
           },
-          householdRules: parseHouseholdRules(),
-          dayRules,
-          weeklyContext: weeklyContextInput.value.trim(),
-          weekOf: String(dealsData.weekOf || ""),
-          currentMonth: monthName
+          estimatedSavings,
+          recipesConsidered: filteredRecipes.length,
+          weeklyContext: String(weeklyContext || "")
         };
       }
 
-      function buildPrompt(data) {
-        const today = new Date().toLocaleDateString("en-US", {
-          weekday: "long",
-          year: "numeric",
-          month: "long",
-          day: "numeric"
-        });
+      async function copyShoppingListText(plan) {
+        const onSaleItems = plan && plan.shoppingList && Array.isArray(plan.shoppingList.onSaleItems)
+          ? plan.shoppingList.onSaleItems
+          : [];
+        const otherItems = plan && plan.shoppingList && Array.isArray(plan.shoppingList.otherItems)
+          ? plan.shoppingList.otherItems
+          : [];
 
-        const recipeLines = data.recipes.map((recipe) => {
-          const extraBits = [];
-          if (Number.isFinite(Number(recipe.time_minutes))) {
-            extraBits.push(`${Number(recipe.time_minutes)} min`);
-          }
-          if (recipe.cuisine) {
-            extraBits.push(recipe.cuisine);
-          }
-          const suffix = extraBits.length ? `, ${extraBits.join(", ")}` : "";
-          return `- ${recipe.title} (${recipe.meal}, ${recipe.style}${suffix})`;
-        });
-
-        const dealLines = data.deals.map((deal) => {
-          const price = Number.isFinite(Number(deal.promoPrice)) ? Number(deal.promoPrice).toFixed(2) : "0.00";
-          const savingsPct = Number.isFinite(Number(deal.savingsPct)) ? Number(deal.savingsPct) : 0;
-          return `- ${deal.name}: $${price} (save ${savingsPct}%)`;
-        });
-
-        const dayRuleLines = data.dayRules
-          .map((rule) => {
-            if (rule.skip) {
-              return `- ${rule.day}: SKIP — do not plan a meal for this day`;
-            }
-            if (rule.timeCap !== "Any time") {
-              return `- ${rule.day}: must be ${rule.timeCap} or faster`;
-            }
-            return null;
-          })
-          .filter(Boolean);
-
-        const sections = [
-          `You are a meal planning assistant for a family in Denver, Colorado. Today is ${today}. Build a complete 7-day meal plan for the week of ${data.weekOf}. Use the information below to make the plan practical, affordable, and personalized.`,
+        const lines = [
+          `Shopping List — Week of ${plan.weekOf || ""}`,
           "",
-          `KNOWN RECIPES (${data.recipes.length} total): These are recipes this family already knows how to make. Prefer these when possible — only suggest a completely new recipe if no known recipe fits a slot well.`,
-          recipeLines.length ? recipeLines.join("\n") : "- None",
-          "",
-          "ON SALE AT KING SOOPERS THIS WEEK: Prioritize meals that use these ingredients to maximize savings.",
-          dealLines.length ? dealLines.join("\n") : "- None",
-          "",
-          `IN SEASON IN COLORADO THIS MONTH (${data.currentMonth}):`,
-          `Peak now (best quality): ${data.seasonal.peakNow.join(", ") || "none"}`,
-          `Also available locally: ${data.seasonal.availableNow.join(", ") || "none"}`,
-          "",
-          "HOUSEHOLD RULES (apply to every day):",
-          `- Dietary restrictions: ${data.householdRules.dietary || "none"}`,
-          `- Skip these ingredients: ${data.householdRules.disliked || "none"}`,
-          `- Preferred cuisines: ${data.householdRules.cuisines || "no preference"}`,
-          `- Do not repeat the same cuisine within ${data.householdRules.repeatDays || 14} days`,
-          "",
-          "DAY-BY-DAY RULES:",
-          dayRuleLines.length ? dayRuleLines.join("\n") : "- None",
-          ""
+          "ON SALE THIS WEEK:"
         ];
 
-        if (data.weeklyContext) {
-          sections.push("ADDITIONAL CONTEXT FOR THIS WEEK:");
-          sections.push(data.weeklyContext);
-          sections.push("");
-        }
-
-        sections.push(
-          "RESPONSE FORMAT: Respond only with a valid JSON object. No markdown, no code fences, no explanation text before or after. The JSON must have this exact structure:",
-          "{",
-          `  'weekOf': '${data.weekOf}',`,
-          "  'days': [",
-          "    {",
-          "      'day': 'Sunday',",
-          "      'skip': false,",
-          "      'meal': {",
-          "        'title': 'Recipe title here',",
-          "        'type': 'known' or 'new',",
-          "        'meal': 'dinner',",
-          "        'style': 'meat',",
-          "        'estimatedTime': 30,",
-          "        'whyCheap': 'Uses asparagus on sale at $2.49/lb',",
-          "        'whySeasonal': 'Asparagus is at peak in Colorado in April',",
-          "        'whyChosen': 'Quick weeknight dinner using on-sale produce',",
-          "        'ingredients': ['ingredient 1', 'ingredient 2'],",
-          "        'onSaleIngredients': ['asparagus · $2.49'],",
-          "        'isNew': false",
-          "      }",
-          "    }",
-          "  ],",
-          "  'shoppingList': [",
-          "    { 'item': 'asparagus', 'amount': '1 lb', 'estimatedCost': 2.49, 'onSale': true }",
-          "  ],",
-          "  'weeklySavings': 12.50,",
-          "  'planSummary': 'A short 2-3 sentence summary of the week plan and why it was chosen.'",
-          "}",
-          "If a day is skipped, set skip to true and meal to null.",
-          "Do not include any text outside the JSON object."
-        );
-
-        return sections.join("\n");
-      }
-
-      async function callClaude(promptText, apiKey) {
-        let rawResponse = "";
-        let rawResponseText = "";
-        try {
-          const response = await fetch("https://api.anthropic.com/v1/messages", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              "x-api-key": apiKey,
-              "anthropic-version": "2023-06-01",
-              "anthropic-dangerous-direct-browser-access": "true"
-            },
-            body: JSON.stringify({
-              model: "claude-sonnet-4-20250514",
-              max_tokens: 4000,
-              system: "You are a meal planning assistant. You always respond with valid JSON only — no markdown, no code fences, no explanation. Your entire response must be parseable by JSON.parse().",
-              messages: [{ role: "user", content: promptText }]
-            })
-          });
-
-          rawResponseText = await response.text();
-          rawResponse = rawResponseText;
-          let envelope;
-
-          try {
-            envelope = JSON.parse(rawResponseText);
-            rawResponse = envelope;
-          } catch (error) {
-            throw new Error(`Anthropic response was not valid JSON: ${error.message}`);
-          }
-
-          if (!response.ok) {
-            const apiMessage = envelope && envelope.error && envelope.error.message
-              ? envelope.error.message
-              : `HTTP ${response.status}`;
-            throw new Error(`Anthropic API request failed: ${apiMessage}`);
-          }
-
-          const extracted = envelope
-            && Array.isArray(envelope.content)
-            && envelope.content[0]
-            && typeof envelope.content[0].text === "string"
-            ? envelope.content[0].text
-            : "";
-
-          const rawText = extracted;
-          const debugOutput = document.getElementById("debugOutput");
-          if (debugOutput) {
-            debugOutput.textContent = rawText;
-          }
-
-          if (!extracted) {
-            throw new Error("Anthropic response did not contain content[0].text");
-          }
-
-          const cleaned = extracted
-            .replace(/^\s*```json\s*/i, "")
-            .replace(/^\s*```\s*/i, "")
-            .replace(/\s*```\s*$/i, "")
-            .trim();
-
-          try {
-            return JSON.parse(cleaned);
-          } catch (error) {
-            throw new Error(`Claude returned invalid JSON: ${error.message}`);
-          }
-        } catch (error) {
-          const rawSnippet = String(rawResponseText || "").slice(0, 300);
-          const constructedError = new Error(`${error.message} | Raw response: ${rawSnippet}`);
-          const debugOutput = document.getElementById("debugOutput");
-          if (debugOutput) {
-            debugOutput.textContent = "ERROR:\n" + (typeof rawResponse === "string" ? rawResponse : JSON.stringify(rawResponse, null, 2));
-          }
-          const panel = document.getElementById("debugPanel");
-          const debugToggle = document.getElementById("debugToggle");
-          if (panel && debugToggle && debugToggle.checked) {
-            panel.style.display = "block";
-          }
-          throw constructedError;
-        }
-      }
-
-      function addToPlannerCard(_meal) {
-        window.alert("Planner integration coming soon");
-      }
-
-      function prefillSubmitForm(meal) {
-        const targetUrl = "index.html#recipeSubmitForm";
-        sessionStorage.setItem("recipes_prefill_meal", JSON.stringify(meal || {}));
-        window.location.href = targetUrl;
-      }
-
-      async function copyShoppingListText(items) {
-        const lines = ["Shopping List"];
-        items.forEach((item) => {
-          const cost = Number.isFinite(Number(item.estimatedCost))
-            ? `$${Number(item.estimatedCost).toFixed(2)}`
-            : "";
-          const saleLabel = item.onSale ? " [SALE]" : "";
-          lines.push(`- ${item.item} (${item.amount || ""}) ${cost}${saleLabel}`.trim());
+        onSaleItems.forEach((item) => {
+          lines.push(`• ${item.ingredient} — ${item.dealName} $${formatCurrency(item.promoPrice)}`);
         });
-        const payload = lines.join("\n");
 
+        lines.push("");
+        lines.push("OTHER ITEMS:");
+        otherItems.forEach((item) => {
+          lines.push(`• ${item.ingredient}`);
+        });
+
+        const payload = lines.join("\n");
         if (navigator.clipboard && navigator.clipboard.writeText) {
           await navigator.clipboard.writeText(payload);
-          setStatus("Shopping list copied to clipboard.");
           return;
         }
 
@@ -1106,122 +1222,135 @@
         textarea.select();
         document.execCommand("copy");
         textarea.remove();
-        setStatus("Shopping list copied to clipboard.");
-      }
-
-      function renderShoppingTable(items, withSaleBadge) {
-        if (!items.length) {
-          return "<p class=\"panelSubtitle\">None</p>";
-        }
-
-        const rows = items.map((item) => {
-          const price = Number.isFinite(Number(item.estimatedCost))
-            ? `$${Number(item.estimatedCost).toFixed(2)}`
-            : "-";
-          const saleBadge = withSaleBadge && item.onSale ? "<span class=\"sale-pill\">SALE</span>" : "";
-          return `<tr><td>${escapeHtml(item.item || "")}</td><td>${escapeHtml(item.amount || "")}</td><td>${price} ${saleBadge}</td></tr>`;
-        }).join("");
-
-        return `<table class=\"shopping-table\"><tbody>${rows}</tbody></table>`;
       }
 
       function renderPlan(plan) {
-        const normalizedPlan = plan && typeof plan === "object" ? plan : {};
-        const days = Array.isArray(normalizedPlan.days) ? normalizedPlan.days : [];
-        const shoppingList = Array.isArray(normalizedPlan.shoppingList) ? normalizedPlan.shoppingList : [];
-        const saleItems = shoppingList.filter((item) => item && item.onSale);
-        const otherItems = shoppingList.filter((item) => item && !item.onSale);
-        const weeklySavings = Number(normalizedPlan.weeklySavings);
+        const safePlan = plan && typeof plan === "object" ? plan : {};
+        const days = Array.isArray(safePlan.days) ? safePlan.days : [];
+        const shopping = safePlan.shoppingList && typeof safePlan.shoppingList === "object"
+          ? safePlan.shoppingList
+          : { onSaleItems: [], otherItems: [] };
+        const onSaleItems = Array.isArray(shopping.onSaleItems) ? shopping.onSaleItems : [];
+        const otherItems = Array.isArray(shopping.otherItems) ? shopping.otherItems : [];
 
-        const dayCards = days.map((day) => {
-          const dayName = escapeHtml(day && day.day ? day.day : "Day");
+        planOutput.innerHTML = "";
 
+        const wrapper = document.createElement("div");
+        const weekDate = safePlan.weekOf ? new Date(`${safePlan.weekOf}T00:00:00`) : new Date();
+        const generatedDate = safePlan.generatedAt ? new Date(safePlan.generatedAt) : new Date();
+        const weekLabel = weekDate.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+        const generatedTime = generatedDate.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" });
+
+        const header = document.createElement("div");
+        header.className = "plan-header";
+        header.innerHTML = `
+          <h2>Your Week of ${escapeHtml(weekLabel)}</h2>
+          <p class="panelSubtitle">${escapeHtml(String(safePlan.recipesConsidered || 0))} recipes considered · Generated ${escapeHtml(generatedTime)}</p>
+          ${Number(safePlan.estimatedSavings) > 0 ? `<span class="savings-pill">Est. savings this week: $${formatCurrency(safePlan.estimatedSavings)}</span>` : ""}
+          ${safePlan.weeklyContext ? `<p class="panelSubtitle" style="font-style:italic;">Context applied: ${escapeHtml(safePlan.weeklyContext)}</p>` : ""}
+        `;
+        wrapper.appendChild(header);
+
+        const grid = document.createElement("div");
+        grid.className = "plan-grid";
+        days.forEach((day, index) => {
           if (day && day.skip) {
-            return `
-              <article class="day-card day-card-skipped">
-                <div class="day-card-header">${dayName}</div>
-                <p>Skipped</p>
-              </article>
+            const skipped = document.createElement("article");
+            skipped.className = "day-card day-card-skipped";
+            skipped.innerHTML = `
+              <div class="day-card-header">${escapeHtml(day.dayName || FULL_DAY_NAMES[index] || "Day")}</div>
+              <p class="panelSubtitle">Skipped</p>
             `;
+            grid.appendChild(skipped);
+            return;
           }
 
-          const meal = day && day.meal && typeof day.meal === "object" ? day.meal : {};
-          const onSaleIngredients = Array.isArray(meal.onSaleIngredients) ? meal.onSaleIngredients : [];
-          const salePills = onSaleIngredients
-            .map((item) => `<span class=\"sale-pill\">${escapeHtml(item)}</span>`)
-            .join(" ");
+          const meal = day && day.meal ? day.meal : null;
+          const card = document.createElement("article");
+          card.className = "day-card";
 
-          const showNewBadge = String(meal.type || "").toLowerCase() === "new";
-          const estimatedTime = Number.isFinite(Number(meal.estimatedTime))
-            ? `<p class="panelSubtitle">~${Number(meal.estimatedTime)} min</p>`
+          const salePills = meal && Array.isArray(meal.matchedDeals) && meal.matchedDeals.length
+            ? `<div><span class="panelSubtitle" style="margin-right:4px;">On sale:</span>${meal.matchedDeals.map((deal) => `<span class="sale-pill">${escapeHtml(truncateText(deal.name || deal.term || "Deal", 20))} $${formatCurrency(deal.promoPrice)}</span>`).join("")}</div>`
             : "";
 
-          return `
-            <article class="day-card">
-              <div class="day-card-header">${dayName}</div>
-              <div class="day-card-title">${escapeHtml(meal.title || "Untitled meal")}</div>
-              ${showNewBadge ? '<span class="new-badge">NEW</span>' : ""}
-              <div class="summaryPills">
-                <span class="summaryPill isAmber">${escapeHtml(meal.meal || "meal")}</span>
-                <span class="summaryPill isGreen">${escapeHtml(meal.style || "style")}</span>
-              </div>
-              ${estimatedTime}
-              ${salePills ? `<div>${salePills}</div>` : ""}
-              <p class="why-chosen">${escapeHtml(meal.whyChosen || "")}</p>
-              <div class="card-actions">
-                <button type="button" data-action="planner" data-day-index="${escapeHtml(String(days.indexOf(day)))}">Add to Planner</button>
-                ${showNewBadge ? `<button type=\"button\" data-action=\"save\" data-day-index=\"${escapeHtml(String(days.indexOf(day)))}\">Save as New Recipe</button>` : ""}
-              </div>
-            </article>
+          const peakPills = meal && Array.isArray(meal.peakMatches) && meal.peakMatches.length
+            ? `<div><span class="panelSubtitle" style="margin-right:4px;">Peak season:</span>${meal.peakMatches.map((item) => `<span class="peak-pill">${escapeHtml(item)}</span>`).join("")}</div>`
+            : "";
+
+          const timeLabel = meal && Number(meal.time_minutes) > 0 ? `<p class="panelSubtitle">~${Number(meal.time_minutes)} min</p>` : "";
+
+          card.innerHTML = `
+            <div class="day-card-header">${escapeHtml(day.dayName || FULL_DAY_NAMES[index] || "Day")}</div>
+            <div class="day-card-title">${escapeHtml(meal && meal.title ? meal.title : "No meal assigned")}</div>
+            <div class="summaryPills">
+              <span class="summaryPill isAmber">${escapeHtml(meal && meal.meal ? meal.meal : "meal")}</span>
+              <span class="summaryPill isGreen">${escapeHtml(meal && meal.style ? meal.style : "style")}</span>
+            </div>
+            ${timeLabel}
+            ${salePills}
+            ${peakPills}
+            <p class="why-chosen">${escapeHtml(meal && meal.whyChosen ? meal.whyChosen : "Fits your schedule and household preferences")}</p>
+            <div class="card-actions">
+              <button type="button" data-add-day="${String(index)}">Add to Planner</button>
+            </div>
           `;
-        }).join("");
-
-        planOutput.innerHTML = `
-          <div class="plan-header">
-            <h2>Your Week of ${escapeHtml(normalizedPlan.weekOf || "")}</h2>
-            <p class="panelSubtitle">${escapeHtml(normalizedPlan.planSummary || "")}</p>
-            ${Number.isFinite(weeklySavings) && weeklySavings > 0 ? `<span class="savings-pill">Estimated savings this week: $${formatCurrency(weeklySavings)}</span>` : ""}
-          </div>
-
-          <div class="plan-grid">${dayCards || '<p class="panelSubtitle">No days returned.</p>'}</div>
-
-          <section class="shopping-list-section">
-            <h3>Shopping List</h3>
-            <p>
-              <button id="copyShoppingList" type="button" class="plannerActionButton">Copy Shopping List</button>
-            </p>
-            <h4>On Sale This Week</h4>
-            ${renderShoppingTable(saleItems, true)}
-            <h4>Other Items Needed</h4>
-            ${renderShoppingTable(otherItems, false)}
-          </section>
-        `;
-
-        planOutput.querySelectorAll("button[data-action='planner']").forEach((button) => {
-          button.addEventListener("click", () => {
-            const dayIndex = Number(button.getAttribute("data-day-index"));
-            const day = days[dayIndex];
-            if (day && day.meal) {
-              addToPlannerCard(day.meal);
-            }
-          });
+          grid.appendChild(card);
         });
+        wrapper.appendChild(grid);
 
-        planOutput.querySelectorAll("button[data-action='save']").forEach((button) => {
+        const shoppingSection = document.createElement("section");
+        shoppingSection.className = "shopping-list-section";
+        const onSaleRows = onSaleItems.length
+          ? onSaleItems.map((item) => `
+              <tr>
+                <td>${escapeHtml(item.ingredient)}</td>
+                <td>${escapeHtml(truncateText(item.dealName || "", 30))}</td>
+                <td>$${formatCurrency(item.promoPrice)} <span class="sale-pill">SALE</span></td>
+              </tr>
+            `).join("")
+          : "";
+
+        shoppingSection.innerHTML = `
+          <h3>Shopping List for the Week</h3>
+          <h4>On Sale This Week</h4>
+          ${onSaleItems.length
+    ? `<table class="shopping-table"><tbody>${onSaleRows}</tbody></table>`
+    : '<p class="panelSubtitle">No deal matches found for this week\'s recipes.</p>'}
+          <h4>Other Items Needed</h4>
+          ${otherItems.length ? `<p class="panelSubtitle">${escapeHtml(otherItems.map((item) => item.ingredient).join(", "))}</p>` : ""}
+          <p><button id="copyShoppingList" type="button" class="plannerActionButton">Copy Shopping List</button></p>
+        `;
+        wrapper.appendChild(shoppingSection);
+
+        const hint = document.createElement("p");
+        hint.className = "plan-regenerate-hint";
+        hint.textContent = "Not happy with this plan? Click Generate My Week again for an alternative — the engine randomizes tie-breaking so each run may produce different results.";
+        wrapper.appendChild(hint);
+
+        planOutput.appendChild(wrapper);
+
+        planOutput.querySelectorAll("button[data-add-day]").forEach((button) => {
           button.addEventListener("click", () => {
-            const dayIndex = Number(button.getAttribute("data-day-index"));
+            const dayIndex = Number(button.getAttribute("data-add-day"));
             const day = days[dayIndex];
-            if (day && day.meal) {
-              prefillSubmitForm(day.meal);
+            if (!day || !day.meal) {
+              return;
             }
+            sessionStorage.setItem("recipes_add_to_planner", JSON.stringify(day.meal));
+            window.location.href = "index.html#planner";
           });
         });
 
         const copyButton = document.getElementById("copyShoppingList");
         if (copyButton) {
           copyButton.addEventListener("click", async () => {
+            const original = copyButton.textContent;
             try {
-              await copyShoppingListText(shoppingList);
+              await copyShoppingListText(safePlan);
+              copyButton.textContent = "Copied!";
+              window.setTimeout(() => {
+                copyButton.textContent = original;
+              }, 2000);
             } catch (error) {
               setStatus(`Failed to copy list: ${error.message}`);
             }
@@ -1233,73 +1362,12 @@
         document.getElementById("generateStatus").textContent = msg;
       }
 
-      async function handleGenerate() {
-        const apiKey = document.getElementById("apiKeyInput").value.trim();
-        if (!apiKey || !apiKey.startsWith("sk-ant-")) {
-          setStatus("Please enter a valid Anthropic API key starting with sk-ant-");
-          return;
-        }
-
-        sessionStorage.setItem("recipes_api_key", apiKey);
-
-        generateBtn.disabled = true;
-        generateBtn.textContent = "Generating...";
-
-        const statusSteps = [
-          "Reading your recipe collection...",
-          "Loading this week's King Soopers deals...",
-          "Checking what's in season in Colorado...",
-          "Assembling your household rules...",
-          "Sending everything to Claude...",
-          "Claude is building your meal plan...",
-          "Almost there..."
-        ];
-
-        let stepIndex = 0;
-        setStatus(statusSteps[0]);
-        const statusInterval = setInterval(() => {
-          stepIndex = Math.min(stepIndex + 1, statusSteps.length - 1);
-          setStatus(statusSteps[stepIndex]);
-        }, 2000);
-
-        try {
-          const data = assemblePromptData();
-          const prompt = buildPrompt(data);
-          const plan = await callClaude(prompt, apiKey);
-          clearInterval(statusInterval);
-          setStatus("Plan generated successfully.");
-          renderPlan(plan);
-        } catch (err) {
-          clearInterval(statusInterval);
-          setStatus("Error: " + err.message);
-          const debugToggle = document.getElementById("debugToggle");
-          const debugPanel = document.getElementById("debugPanel");
-          if (debugPanel && debugToggle) {
-            debugToggle.checked = true;
-            debugPanel.style.display = "block";
-          }
-          console.error("Generation error:", err);
-        } finally {
-          generateBtn.disabled = false;
-          generateBtn.textContent = "Generate My Week";
-        }
-      }
-
       function init() {
         createDayGrid();
         loadHouseholdRules();
         restoreDayRules();
         bindDayRuleEvents();
         loadSummaryData();
-
-        const storedApiKey = sessionStorage.getItem(API_KEY_STORAGE_KEY);
-        if (storedApiKey) {
-          apiKeyInput.value = storedApiKey;
-        }
-
-        apiKeyInput.addEventListener("input", () => {
-          sessionStorage.setItem(API_KEY_STORAGE_KEY, apiKeyInput.value.trim());
-        });
 
         document.getElementById("debugToggle").addEventListener("change", function() {
           const panel = document.getElementById("debugPanel");
@@ -1308,7 +1376,53 @@
 
         saveRulesButton.addEventListener("click", saveHouseholdRules);
 
-        generateBtn.addEventListener("click", handleGenerate);
+        generateBtn.addEventListener("click", function() {
+          if (!recipesData || !dealsData || !seasonalData) {
+            setStatus("Still loading data — please wait a moment and try again.");
+            return;
+          }
+
+          generateBtn.disabled = true;
+          generateBtn.textContent = "Generating...";
+          setStatus("Building your week plan...");
+
+          // Small timeout to let the UI update before the synchronous computation
+          setTimeout(() => {
+            try {
+              const householdRules = JSON.parse(localStorage.getItem("recipes_household_rules") || "{}");
+              const dayRulesRaw = JSON.parse(localStorage.getItem("recipes_day_rules") || "[]");
+              const weeklyContext = document.getElementById("weeklyContext").value.trim();
+              void dayRulesRaw;
+
+              // Build dayRules array from current UI state (UI is authoritative, not localStorage)
+              const dayRules = [0, 1, 2, 3, 4, 5, 6].map((i) => ({
+                day: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][i],
+                timeCap: document.getElementById(`timeCap_${i}`)?.value || "Any time",
+                skip: document.getElementById(`skip_${i}`)?.checked || false
+              }));
+
+              const currentMonth = new Date().getMonth() + 1;
+              void currentMonth;
+              const plan = buildWeekPlan(
+                recipesData,
+                dealsData.deals || [],
+                seasonalData.produce || {},
+                householdRules,
+                dayRules,
+                weeklyContext
+              );
+
+              setStatus("Plan ready.");
+              renderPlan(plan);
+            } catch (err) {
+              setStatus("Error generating plan: " + err.message);
+              console.error(err);
+            } finally {
+              generateBtn.disabled = false;
+              generateBtn.textContent = "Generate My Week";
+            }
+          }, 50);
+        });
 
         weeklyContextInput.addEventListener("input", () => {
           setStatus("");
