@@ -1,14 +1,3 @@
-Rewrite `README.md` completely with the corrected version below.
-The current file has two problems: it begins with a fenced code
-block containing ---, which Jekyll interprets as YAML front matter
-and throws a parse error; and the Repository Structure section
-lost its code fence markers, causing the folder tree to render
-as unformatted plain text.
-
-Replace the entire contents of README.md with exactly this:
-
-====== START OF README.md CONTENT ======
-
 # Family Recipe Book — A Meal Planning System Built on GitHub Pages
 
 This started as a simple problem: our family kept losing track of
