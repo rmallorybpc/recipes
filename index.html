@@ -20,6 +20,52 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      @media (max-width: 768px) {
+
+        /* Weekly planner grid — horizontal scroll on mobile */
+        /* Each day column stays full width so content is readable */
+        .plannerGrid {
+          display: flex;
+          flex-direction: row;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          scroll-snap-type: x mandatory;
+          gap: 0.75rem;
+          padding-bottom: 1rem;
+        }
+
+        /* Each day column — fixed width so it does not collapse */
+        .plannerGrid > li,
+        .plannerGrid > .dayColumn {
+          flex: 0 0 240px;
+          scroll-snap-align: start;
+          min-width: 240px;
+        }
+
+        /* Planner help text — update to hint at scroll */
+        .plannerHelp {
+          font-size: 12px;
+        }
+
+        /* Planner status */
+        .plannerStatus {
+          font-size: 12px;
+        }
+
+      }
+
+      @media (max-width: 480px) {
+
+        /* Day columns narrower on small phones */
+        .plannerGrid > li,
+        .plannerGrid > .dayColumn {
+          flex: 0 0 200px;
+          min-width: 200px;
+        }
+
+      }
+    </style>
   </head>
   <body>
     <main class="page">
