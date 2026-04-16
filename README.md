@@ -238,27 +238,3 @@ import. The Anthropic API is not called at runtime. The
 "Refine with Claude" feature on the Suggest page assembles
 context and opens Claude.ai in a new tab -- no API key required
 from the user.
-
-====== END OF README.md CONTENT ======
-
-IMPORTANT INSTRUCTIONS FOR COPILOT:
-
-1. The README.md file must start with the # heading on the very
-   first line. No blank lines, no code fences, no dashes before
-   the heading.
-
-2. The Repository Structure section uses a fenced code block
-   marked as ```text (not just ```). This is intentional --
-   use ```text exactly as shown.
-
-3. Do not add any --- horizontal rules anywhere in the file.
-   The em dash character in headings and sentences is fine --
-   only standalone lines containing only three hyphens are
-   forbidden.
-
-4. Do not add YAML front matter (no --- at the top of the file).
-
-5. Write the file exactly as shown between the START and END
-   markers above. Do not add, remove, or reformat any content.
-
-6. Do not modify any other file.
