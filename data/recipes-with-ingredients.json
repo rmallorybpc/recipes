@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-15T22:51:15.744Z",
+  "generated_at": "2026-04-16T19:35:08.571Z",
   "stats": {
-    "total_recipes": 47,
+    "total_recipes": 98,
     "with_existing_source": 8,
-    "resolved_from_search": 1,
+    "resolved_from_search": 0,
     "scraped_ingredients": 4,
-    "heuristic_only": 43
+    "heuristic_only": 94
   },
   "recipes": [
     {
@@ -112,6 +112,69 @@
       ],
       "ingredient_source": "source_scrape",
       "confidence": 0.95
+    },
+    {
+      "title": "Suggested - Banana oat pancakes",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source_url": null,
+      "id": "breakfast-baked-casserole-suggested-banana-oat-pancakes",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Greek yogurt parfait",
+      "meal": "breakfast",
+      "style": "bowls",
+      "source_url": null,
+      "id": "breakfast-bowls-suggested-greek-yogurt-parfait",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Breakfast burritos",
+      "meal": "breakfast",
+      "style": "handheld",
+      "source_url": null,
+      "id": "breakfast-handheld-suggested-breakfast-burritos",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
     },
     {
       "title": "Greek pitas with chicken",
@@ -249,6 +312,27 @@
       "confidence": 0.45
     },
     {
+      "title": "Suggested - Avocado toast with egg",
+      "meal": "breakfast",
+      "style": "vegetarian",
+      "source_url": null,
+      "id": "breakfast-vegetarian-suggested-avocado-toast-with-egg",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
       "title": "Homemade pizza",
       "meal": "dinner",
       "style": "baked-casserole",
@@ -265,6 +349,69 @@
         "flour",
         "cheese",
         "tomato sauce"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Black bean enchiladas",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source_url": null,
+      "id": "dinner-baked-casserole-suggested-black-bean-enchiladas",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Eggplant parmesan",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source_url": null,
+      "id": "dinner-baked-casserole-suggested-eggplant-parmesan",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Spanakopita",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source_url": null,
+      "id": "dinner-baked-casserole-suggested-spanakopita",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
       ],
       "ingredient_source": "title_heuristic",
       "confidence": 0.35
@@ -308,6 +455,120 @@
       "confidence": 0.35
     },
     {
+      "title": "Suggested - Chicken tikka masala",
+      "meal": "dinner",
+      "style": "bowls",
+      "source_url": null,
+      "id": "dinner-bowls-suggested-chicken-tikka-masala",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Korean beef bulgogi bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source_url": null,
+      "id": "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "beef"
+      ],
+      "ingredients_normalized": [
+        "beef"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Roasted vegetable grain bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source_url": null,
+      "id": "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Teriyaki salmon bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source_url": null,
+      "id": "dinner-bowls-suggested-teriyaki-salmon-bowls",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "seafood"
+      ],
+      "ingredients_normalized": [
+        "seafood"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Thai green curry",
+      "meal": "dinner",
+      "style": "bowls",
+      "source_url": null,
+      "id": "dinner-bowls-suggested-thai-green-curry",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Vegetable curry",
+      "meal": "dinner",
+      "style": "bowls",
+      "source_url": null,
+      "id": "dinner-bowls-suggested-vegetable-curry",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
       "title": "Lettuce wraps",
       "meal": "dinner",
       "style": "handheld",
@@ -320,6 +581,71 @@
       ],
       "ingredients_normalized": [
         "lettuce"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Fish tacos with cabbage slaw",
+      "meal": "dinner",
+      "style": "handheld",
+      "source_url": null,
+      "id": "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Sausage and peppers",
+      "meal": "dinner",
+      "style": "handheld",
+      "source_url": null,
+      "id": "dinner-handheld-suggested-sausage-and-peppers",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Shrimp tacos with mango slaw",
+      "meal": "dinner",
+      "style": "handheld",
+      "source_url": null,
+      "id": "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "seafood",
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "seafood",
+        "tortilla",
+        "onion",
+        "cheese"
       ],
       "ingredient_source": "title_heuristic",
       "confidence": 0.35
@@ -406,8 +732,8 @@
       "style": "meat",
       "source_url": null,
       "id": "dinner-meat-cheeseburgers",
-      "resolved_source_url": "https://www.bing.com/aclk?ld=e8cAEZdfOZiRspua3oqKvHfzVUCUxa63uxcElJwOtnR9oQcbbCNxC_HsBlgBec1luuZql79OPsWXWTtbsB95zp6L1ly1UQirsR0AkEndcgoYbfY5eTDCmd1m0kZvI0A7Fk88yWnGX7uXpv2AW78WdD6-5IMIfx77q4iQ2Lx61TJpKgfFkSFP5cvBeAOQBxUzB9VdqY3r75bjNUxXZpxCvOI3KT5jU&amp;u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4Mjg3NzI0MjA1NyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODk3NTAzNzg2OSUyNmRzX2FfY2lkJTNkNzI1NTg5NTQzJTI2ZHNfYV9jYWlkJTNkMjA1OTYyMjk5ODclMjZkc19hX2FnaWQlM2QxODk2OTkxMjc4MzMlMjZkc19hX2xpZCUzZGt3ZC0yMzA5MDM4MSUyNiUyNmRzX2VfYWRpZCUzZDc3NTE1NzkwOTExMjEzJTI2ZHNfZV90YXJnZXRfaWQlM2Rrd2QtNzc1MTYwODYyMzg2OTElM2Fsb2MtMTkwJTI2JTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cuaGlkZGVudmFsbGV5LmNvbSUyZnJlY2lwZS1jb2xsZWN0aW9ucyUyZmJ1cmdlciUyZiUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEhWRiUyNTdDR2VuZXJpYyUyNTdDTFQlMjU3Q1AlMjU3Q0tXJTI1N0NSZWNpcGUlMjU3Q0VuZ2xpc2glMjU3Q0VOS1ctRU5CUiUyNnV0bV9jb250ZW50JTNkMTI0MDI1MDQwMDUyNTU5OCUyNnV0bV90ZXJtJTNkYnVyZ2VyJTI1MjByZWNpcGUlMjZnY2xpZCUzZGZmZTUxZjcxYWZiMDEwZDE1NDJjNzY5MWI5ZDFkYjYyJTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZtc2Nsa2lkJTNkZmZlNTFmNzFhZmIwMTBkMTU0MmM3NjkxYjlkMWRiNjIlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RIVkYlMjU3Q0dlbmVyaWMlMjU3Q0xUJTI1N0NQJTI1N0NLVyUyNTdDUmVjaXBlJTI1N0NFbmdsaXNoJTI1N0NFTktXLUVOQlIlMjZ1dG1fdGVybSUzZGJ1cmdlciUyNTIwcmVjaXBlJTI2dXRtX2NvbnRlbnQlM2RSZWNpcGUlMjU3Q0J1cmdlcg&amp;rlid=ffe51f71afb010d1542c7691b9d1db62&amp;ntb=1",
-      "source_origin": "web_search",
+      "resolved_source_url": null,
+      "source_origin": "none",
       "ingredients": [
         "beef",
         "cheese"
@@ -417,7 +743,7 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "confidence": 0.35
     },
     {
       "title": "Chicken parm",
@@ -627,6 +953,95 @@
       "confidence": 0.35
     },
     {
+      "title": "Suggested - Butter chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-suggested-butter-chicken",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Caprese stuffed chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-suggested-caprese-stuffed-chicken",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Japanese chicken katsu",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-suggested-japanese-chicken-katsu",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Lamb kofta with tzatziki",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-suggested-lamb-kofta-with-tzatziki",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Sheet pan chicken thighs and vegetables",
+      "meal": "dinner",
+      "style": "meat",
+      "source_url": null,
+      "id": "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
       "title": "Tacos",
       "meal": "dinner",
       "style": "meat",
@@ -785,6 +1200,158 @@
       "confidence": 0.35
     },
     {
+      "title": "Suggested - Caprese pasta",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-suggested-caprese-pasta",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Chicken pad thai",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-suggested-chicken-pad-thai",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Dan dan noodles",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-suggested-dan-dan-noodles",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Fried rice with egg and vegetables",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "rice"
+      ],
+      "ingredients_normalized": [
+        "rice"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Garlic butter shrimp with pasta",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "seafood"
+      ],
+      "ingredients_normalized": [
+        "seafood"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Mushroom risotto",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-suggested-mushroom-risotto",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - One-pot chicken and rice",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-suggested-one-pot-chicken-and-rice",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken",
+        "rice"
+      ],
+      "ingredients_normalized": [
+        "chicken",
+        "rice"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Shrimp fried rice",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source_url": null,
+      "id": "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "seafood",
+        "rice"
+      ],
+      "ingredients_normalized": [
+        "seafood",
+        "rice"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
       "title": "Tortellini with pesto and shrimp and spinach",
       "meal": "dinner",
       "style": "rice-or-pasta",
@@ -847,6 +1414,44 @@
         "pasta",
         "cheese",
         "zucchini"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Baked salmon with asparagus",
+      "meal": "dinner",
+      "style": "seafood",
+      "source_url": null,
+      "id": "dinner-seafood-suggested-baked-salmon-with-asparagus",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "seafood"
+      ],
+      "ingredients_normalized": [
+        "seafood"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Mediterranean baked cod",
+      "meal": "dinner",
+      "style": "seafood",
+      "source_url": null,
+      "id": "dinner-seafood-suggested-mediterranean-baked-cod",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
       ],
       "ingredient_source": "title_heuristic",
       "confidence": 0.35
@@ -997,6 +1602,132 @@
       "confidence": 0.35
     },
     {
+      "title": "Suggested - Black bean soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-suggested-black-bean-soup",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredients_normalized": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Butternut squash soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-suggested-butternut-squash-soup",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredients_normalized": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Clam chowder",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-suggested-clam-chowder",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Dal tadka",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-suggested-dal-tadka",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Miso soup with tofu and vegetables",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-suggested-miso-soup-with-tofu-and-vegetables",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredients_normalized": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Vietnamese pho",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "dinner-soup-or-stew-suggested-vietnamese-pho",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
       "title": "Wonton soup",
       "meal": "dinner",
       "style": "soup-or-stew",
@@ -1036,6 +1767,296 @@
         "salt",
         "pepper",
         "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Aloo gobi",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source_url": null,
+      "id": "dinner-vegetarian-suggested-aloo-gobi",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Saag paneer",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source_url": null,
+      "id": "dinner-vegetarian-suggested-saag-paneer",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Shakshuka",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source_url": null,
+      "id": "dinner-vegetarian-suggested-shakshuka",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Veggie stir fry with tofu",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source_url": null,
+      "id": "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Asian noodle salad",
+      "meal": "lunch",
+      "style": "bowls",
+      "source_url": null,
+      "id": "lunch-bowls-suggested-asian-noodle-salad",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Caprese salad with prosciutto",
+      "meal": "lunch",
+      "style": "bowls",
+      "source_url": null,
+      "id": "lunch-bowls-suggested-caprese-salad-with-prosciutto",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Greek salad with chicken",
+      "meal": "lunch",
+      "style": "bowls",
+      "source_url": null,
+      "id": "lunch-bowls-suggested-greek-salad-with-chicken",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "chicken"
+      ],
+      "ingredients_normalized": [
+        "chicken"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Black bean tacos",
+      "meal": "lunch",
+      "style": "handheld",
+      "source_url": null,
+      "id": "lunch-handheld-suggested-black-bean-tacos",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredients_normalized": [
+        "tortilla",
+        "onion",
+        "cheese"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - BLT sandwich",
+      "meal": "lunch",
+      "style": "handheld",
+      "source_url": null,
+      "id": "lunch-handheld-suggested-blt-sandwich",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Egg salad sandwich",
+      "meal": "lunch",
+      "style": "handheld",
+      "source_url": null,
+      "id": "lunch-handheld-suggested-egg-salad-sandwich",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Quesadillas",
+      "meal": "lunch",
+      "style": "handheld",
+      "source_url": null,
+      "id": "lunch-handheld-suggested-quesadillas",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Tuna salad sandwich",
+      "meal": "lunch",
+      "style": "handheld",
+      "source_url": null,
+      "id": "lunch-handheld-suggested-tuna-salad-sandwich",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Turkey and avocado wrap",
+      "meal": "lunch",
+      "style": "handheld",
+      "source_url": null,
+      "id": "lunch-handheld-suggested-turkey-and-avocado-wrap",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredients_normalized": [
+        "salt",
+        "pepper",
+        "olive oil"
+      ],
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.35
+    },
+    {
+      "title": "Suggested - Lentil soup",
+      "meal": "lunch",
+      "style": "soup-or-stew",
+      "source_url": null,
+      "id": "lunch-soup-or-stew-suggested-lentil-soup",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "broth",
+        "onion",
+        "garlic"
+      ],
+      "ingredients_normalized": [
+        "broth",
+        "onion",
+        "garlic"
       ],
       "ingredient_source": "title_heuristic",
       "confidence": 0.35

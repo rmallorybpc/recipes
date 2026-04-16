@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-15T22:51:15.755Z",
+  "generatedAt": "2026-04-16T19:35:08.579Z",
   "region": "colorado",
   "regionLabel": "Colorado",
-  "totalRecipes": 47,
-  "matchedRecipes": 17,
+  "totalRecipes": 98,
+  "matchedRecipes": 21,
   "recipes": [
     {
       "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
@@ -571,6 +571,146 @@
       "seasonalScore": 1
     },
     {
+      "title": "Suggested - Black bean soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Suggested - Butternut squash soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Suggested - Lentil soup",
+      "meal": "lunch",
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Suggested - Miso soup with tofu and vegetables",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
       "title": "Tortellini with pesto and shrimp and spinach",
       "meal": "dinner",
       "style": "rice-or-pasta",
@@ -746,7 +886,7 @@
       "title": "Cheeseburgers",
       "meal": "dinner",
       "style": "meat",
-      "source": "https://www.bing.com/aclk?ld=e8cAEZdfOZiRspua3oqKvHfzVUCUxa63uxcElJwOtnR9oQcbbCNxC_HsBlgBec1luuZql79OPsWXWTtbsB95zp6L1ly1UQirsR0AkEndcgoYbfY5eTDCmd1m0kZvI0A7Fk88yWnGX7uXpv2AW78WdD6-5IMIfx77q4iQ2Lx61TJpKgfFkSFP5cvBeAOQBxUzB9VdqY3r75bjNUxXZpxCvOI3KT5jU&amp;u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4Mjg3NzI0MjA1NyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwODk3NTAzNzg2OSUyNmRzX2FfY2lkJTNkNzI1NTg5NTQzJTI2ZHNfYV9jYWlkJTNkMjA1OTYyMjk5ODclMjZkc19hX2FnaWQlM2QxODk2OTkxMjc4MzMlMjZkc19hX2xpZCUzZGt3ZC0yMzA5MDM4MSUyNiUyNmRzX2VfYWRpZCUzZDc3NTE1NzkwOTExMjEzJTI2ZHNfZV90YXJnZXRfaWQlM2Rrd2QtNzc1MTYwODYyMzg2OTElM2Fsb2MtMTkwJTI2JTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cuaGlkZGVudmFsbGV5LmNvbSUyZnJlY2lwZS1jb2xsZWN0aW9ucyUyZmJ1cmdlciUyZiUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEhWRiUyNTdDR2VuZXJpYyUyNTdDTFQlMjU3Q1AlMjU3Q0tXJTI1N0NSZWNpcGUlMjU3Q0VuZ2xpc2glMjU3Q0VOS1ctRU5CUiUyNnV0bV9jb250ZW50JTNkMTI0MDI1MDQwMDUyNTU5OCUyNnV0bV90ZXJtJTNkYnVyZ2VyJTI1MjByZWNpcGUlMjZnY2xpZCUzZGZmZTUxZjcxYWZiMDEwZDE1NDJjNzY5MWI5ZDFkYjYyJTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZtc2Nsa2lkJTNkZmZlNTFmNzFhZmIwMTBkMTU0MmM3NjkxYjlkMWRiNjIlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RIVkYlMjU3Q0dlbmVyaWMlMjU3Q0xUJTI1N0NQJTI1N0NLVyUyNTdDUmVjaXBlJTI1N0NFbmdsaXNoJTI1N0NFTktXLUVOQlIlMjZ1dG1fdGVybSUzZGJ1cmdlciUyNTIwcmVjaXBlJTI2dXRtX2NvbnRlbnQlM2RSZWNpcGUlMjU3Q0J1cmdlcg&amp;rlid=ffe51f71afb010d1542c7691b9d1db62&amp;ntb=1",
+      "source": "",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -976,6 +1116,476 @@
       "title": "Stir fry",
       "meal": "dinner",
       "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Aloo gobi",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Asian noodle salad",
+      "meal": "lunch",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Avocado toast with egg",
+      "meal": "breakfast",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Baked salmon with asparagus",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Banana oat pancakes",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Black bean enchiladas",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Black bean tacos",
+      "meal": "lunch",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - BLT sandwich",
+      "meal": "lunch",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Breakfast burritos",
+      "meal": "breakfast",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Butter chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Caprese pasta",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Caprese salad with prosciutto",
+      "meal": "lunch",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Caprese stuffed chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Chicken pad thai",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Chicken tikka masala",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Clam chowder",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Dal tadka",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Dan dan noodles",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Egg salad sandwich",
+      "meal": "lunch",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Eggplant parmesan",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Fish tacos with cabbage slaw",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Fried rice with egg and vegetables",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Garlic butter shrimp with pasta",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Greek salad with chicken",
+      "meal": "lunch",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Greek yogurt parfait",
+      "meal": "breakfast",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Japanese chicken katsu",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Korean beef bulgogi bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Lamb kofta with tzatziki",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Mediterranean baked cod",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Mushroom risotto",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - One-pot chicken and rice",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Quesadillas",
+      "meal": "lunch",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Roasted vegetable grain bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Saag paneer",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Sausage and peppers",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Shakshuka",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Sheet pan chicken thighs and vegetables",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Shrimp fried rice",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Shrimp tacos with mango slaw",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Spanakopita",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Teriyaki salmon bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Thai green curry",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Tuna salad sandwich",
+      "meal": "lunch",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Turkey and avocado wrap",
+      "meal": "lunch",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Vegetable curry",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Veggie stir fry with tofu",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Vietnamese pho",
+      "meal": "dinner",
+      "style": "soup-or-stew",
       "source": "",
       "seasonalIngredients": [],
       "bestMonths": [],
