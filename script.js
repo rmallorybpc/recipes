@@ -120,6 +120,7 @@ const copyRecipeMarkdown = document.querySelector("#copyRecipeMarkdown");
 
 const STORAGE_KEY = "weeklyRecipePlanner.v1";
 const BREAKFAST_UI_STORAGE_KEY = "weeklyRecipePlanner.breakfastExpanded.v1";
+const PREFILL_MEAL_STORAGE_KEY = "recipes_prefill_meal";
 const GITHUB_OWNER = "rmallorybpc";
 const GITHUB_REPO = "recipes";
 const DAYS = [
@@ -332,6 +333,69 @@ function submitRecipeIssue(event) {
 
   window.open(issueUrl, "_blank", "noopener");
   setSubmitStatus("Opened GitHub Issue with your prefilled recipe.");
+}
+
+function hydrateSubmissionFormFromSessionMeal() {
+  if (!(recipeSubmitForm instanceof HTMLFormElement)) {
+    return;
+  }
+
+  const raw = sessionStorage.getItem(PREFILL_MEAL_STORAGE_KEY);
+  if (!raw) {
+    return;
+  }
+
+  sessionStorage.removeItem(PREFILL_MEAL_STORAGE_KEY);
+
+  let meal;
+  try {
+    meal = JSON.parse(raw);
+  } catch (_error) {
+    return;
+  }
+
+  const titleInput = document.getElementById("submitTitle");
+  const mealSelect = document.getElementById("submitMeal");
+  const styleSelect = document.getElementById("submitStyle");
+  const ingredientsInput = document.getElementById("submitIngredients");
+  const instructionsInput = document.getElementById("submitInstructions");
+
+  if (titleInput instanceof HTMLInputElement && meal && meal.title) {
+    titleInput.value = String(meal.title);
+  }
+
+  if (mealSelect instanceof HTMLSelectElement && meal && meal.meal) {
+    const mealValue = String(meal.meal).toLowerCase();
+    if ([...mealSelect.options].some((option) => option.value === mealValue)) {
+      mealSelect.value = mealValue;
+    }
+  }
+
+  if (styleSelect instanceof HTMLSelectElement && meal && meal.style) {
+    const styleValue = String(meal.style).toLowerCase();
+    if ([...styleSelect.options].some((option) => option.value === styleValue)) {
+      styleSelect.value = styleValue;
+    }
+  }
+
+  if (ingredientsInput instanceof HTMLTextAreaElement) {
+    if (meal && Array.isArray(meal.ingredients)) {
+      ingredientsInput.value = meal.ingredients.map((item) => String(item)).join("\n");
+    } else if (meal && typeof meal.ingredients === "string") {
+      ingredientsInput.value = meal.ingredients;
+    }
+  }
+
+  if (instructionsInput instanceof HTMLTextAreaElement) {
+    if (meal && typeof meal.instructions === "string" && meal.instructions.trim()) {
+      instructionsInput.value = meal.instructions.trim();
+    } else if (meal && typeof meal.whyChosen === "string" && meal.whyChosen.trim()) {
+      instructionsInput.value = meal.whyChosen.trim();
+    }
+  }
+
+  updateSubmitPathPreview();
+  recipeSubmitForm.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function makeEmptyWeekPlan() {
@@ -745,6 +809,7 @@ queryFilter.addEventListener("input", applyFilters);
 if (recipeSubmitForm instanceof HTMLFormElement) {
   recipeSubmitForm.addEventListener("input", updateSubmitPathPreview);
   recipeSubmitForm.addEventListener("submit", submitRecipeIssue);
+  hydrateSubmissionFormFromSessionMeal();
   updateSubmitPathPreview();
 }
 

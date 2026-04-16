@@ -79,6 +79,12 @@
         min-height: 16px;
       }
 
+      .apiKeyHint {
+        margin: 0.45rem 0 0;
+        font-size: 12px;
+        color: var(--color-text-secondary);
+      }
+
       .dayGrid {
         display: grid;
         grid-template-columns: repeat(7, 1fr);
@@ -184,6 +190,121 @@
         padding: 1rem;
       }
 
+      #planOutput {
+        margin-top: 2rem;
+      }
+
+      .plan-header {
+        margin-bottom: 1.5rem;
+      }
+
+      .plan-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .day-card {
+        background: var(--color-background-primary);
+        border: 0.5px solid var(--color-border-tertiary);
+        border-radius: var(--border-radius-lg);
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .day-card-header {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--color-text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .day-card-title {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.4;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .day-card-skipped {
+        opacity: 0.4;
+        font-style: italic;
+      }
+
+      .new-badge {
+        font-size: 10px;
+        background: var(--color-background-info);
+        color: var(--color-text-info);
+        padding: 1px 6px;
+        border-radius: 3px;
+        font-weight: 500;
+      }
+
+      .sale-pill {
+        font-size: 11px;
+        background: var(--color-background-success);
+        color: var(--color-text-success);
+        padding: 2px 6px;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 1px;
+      }
+
+      .why-chosen {
+        font-size: 12px;
+        color: var(--color-text-tertiary);
+        font-style: italic;
+        margin-top: auto;
+      }
+
+      .card-actions {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 0.75rem;
+        padding-top: 0.75rem;
+        border-top: 0.5px solid var(--color-border-tertiary);
+      }
+
+      .card-actions button {
+        font-size: 12px;
+        padding: 4px 10px;
+        flex: 1;
+      }
+
+      .shopping-list-section {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 2px solid var(--color-border-tertiary);
+      }
+
+      .shopping-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+
+      .shopping-table td {
+        padding: 6px 8px;
+        border-bottom: 0.5px solid var(--color-border-tertiary);
+      }
+
+      .savings-pill {
+        background: var(--color-background-success);
+        color: var(--color-text-success);
+        padding: 3px 12px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 500;
+        display: inline-block;
+      }
+
       @media (max-width: 900px) {
         .dayGrid {
           grid-template-columns: repeat(2, 1fr);
@@ -284,6 +405,14 @@
             <p class="subsectionLabel">Data inputs summary</p>
             <div id="summaryPills" class="summaryPills" aria-live="polite"></div>
           </div>
+
+          <div class="cardSubsection">
+            <label class="subsectionLabel" for="apiKeyInput">Anthropic API Key</label>
+            <input id="apiKeyInput" type="password" placeholder="sk-ant-..." />
+            <p class="apiKeyHint">
+              Your key is used only in this browser session and never stored or sent anywhere except directly to api.anthropic.com. Clear your browser session to remove it.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -300,8 +429,10 @@
     <script>
       const HOUSEHOLD_RULES_KEY = "recipes_household_rules";
       const DAY_RULES_KEY = "recipes_day_rules";
+      const API_KEY_STORAGE_KEY = "recipes_api_key";
 
       const DAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+      const FULL_DAY_NAMES = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
       const TIME_CAP_OPTIONS = [
         { value: "any", label: "Any time" },
         { value: "20", label: "≤20 min" },
@@ -321,6 +452,12 @@
       const summaryPills = document.getElementById("summaryPills");
       const generateBtn = document.getElementById("generateBtn");
       const generateStatus = document.getElementById("generateStatus");
+      const apiKeyInput = document.getElementById("apiKeyInput");
+      const planOutput = document.getElementById("planOutput");
+
+      let recipesData = null;
+      let dealsData = null;
+      let seasonalData = null;
 
       function parseStoredJson(key) {
         try {
@@ -516,6 +653,7 @@
             throw new Error("Missing recipes-with-ingredients.json");
           }
           const data = await response.json();
+          recipesData = data;
           const total = Number(data && data.stats && data.stats.total_recipes)
             || (Array.isArray(data && data.recipes) ? data.recipes.length : 0);
           if (total > 0 || (Array.isArray(data && data.recipes) && data.recipes.length === 0)) {
@@ -539,6 +677,7 @@
             throw new Error("Missing weekly-deals.json");
           }
           const data = await response.json();
+          dealsData = data;
           const totalDeals = Number(data && data.totalDeals);
           if (Number.isFinite(totalDeals)) {
             results[1] = {
@@ -561,6 +700,7 @@
             throw new Error("Missing seasonal-colorado.json");
           }
           const data = await response.json();
+          seasonalData = data;
           const count = countSeasonalPeakItems(data);
           if (count !== null) {
             results[2] = {
@@ -583,6 +723,503 @@
         });
       }
 
+      function escapeHtml(value) {
+        return String(value == null ? "" : value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
+      function formatCurrency(value) {
+        const numeric = Number(value);
+        if (!Number.isFinite(numeric)) {
+          return "0.00";
+        }
+        return numeric.toFixed(2);
+      }
+
+      function parseHouseholdRules() {
+        const defaults = {
+          dietary: "",
+          disliked: "",
+          cuisines: "",
+          repeatDays: 14
+        };
+
+        const parsed = parseStoredJson(HOUSEHOLD_RULES_KEY);
+        if (!parsed || typeof parsed !== "object") {
+          return defaults;
+        }
+
+        return {
+          dietary: String(parsed.dietary || ""),
+          disliked: String(parsed.disliked || ""),
+          cuisines: String(parsed.cuisines || ""),
+          repeatDays: Number(parsed.repeatDays) || 14
+        };
+      }
+
+      function assemblePromptData() {
+        if (!recipesData || !dealsData || !seasonalData) {
+          throw new Error("Missing one or more input data files. Refresh and try again.");
+        }
+
+        const monthInt = new Date().getMonth() + 1;
+        const monthName = new Date().toLocaleString("en-US", { month: "long" });
+        const excludedCategories = new Set(["Cleaning Products", "Baby", "Candy"]);
+        const recipeItems = Array.isArray(recipesData.recipes) ? recipesData.recipes : [];
+        const prioritizedRecipes = recipeItems
+          .slice()
+          .sort((a, b) => {
+            const aHasTime = Number.isFinite(Number(a && a.time_minutes));
+            const bHasTime = Number.isFinite(Number(b && b.time_minutes));
+            if (aHasTime === bHasTime) {
+              return 0;
+            }
+            return bHasTime - aHasTime;
+          })
+          .slice(0, 60)
+          .map((recipe) => ({
+            title: String(recipe.title || ""),
+            meal: String(recipe.meal || ""),
+            style: String(recipe.style || ""),
+            protein: recipe.protein == null ? null : String(recipe.protein),
+            cuisine: recipe.cuisine == null ? null : String(recipe.cuisine),
+            time_minutes: Number.isFinite(Number(recipe.time_minutes)) ? Number(recipe.time_minutes) : null,
+            keywords: Array.isArray(recipe.keywords) ? recipe.keywords : [],
+            summary: recipe.summary == null ? null : String(recipe.summary)
+          }));
+
+        const filteredDeals = (Array.isArray(dealsData.deals) ? dealsData.deals : [])
+          .filter((deal) => !excludedCategories.has(String(deal && deal.category || "")))
+          .map((deal) => ({
+            term: deal.term,
+            name: deal.name,
+            promoPrice: deal.promoPrice,
+            savings: deal.savings,
+            savingsPct: deal.savingsPct,
+            category: deal.category
+          }));
+
+        const produce = seasonalData && seasonalData.produce && typeof seasonalData.produce === "object"
+          ? seasonalData.produce
+          : {};
+
+        const peakNow = [];
+        const availableNow = [];
+        Object.entries(produce).forEach(([name, entry]) => {
+          if (entry && Array.isArray(entry.peak) && entry.peak.includes(monthInt)) {
+            peakNow.push(name);
+          }
+          if (entry && Array.isArray(entry.available) && entry.available.includes(monthInt)) {
+            availableNow.push(name);
+          }
+        });
+
+        const dayRules = DAY_NAMES.map((_, index) => {
+          const select = document.getElementById(`timeCap_${index}`);
+          const checkbox = document.getElementById(`skip_${index}`);
+          const selectedValue = select ? String(select.value) : "any";
+          const selectedOption = TIME_CAP_OPTIONS.find((option) => option.value === selectedValue);
+          return {
+            day: FULL_DAY_NAMES[index],
+            timeCap: selectedOption ? selectedOption.label : "Any time",
+            skip: Boolean(checkbox && checkbox.checked)
+          };
+        });
+
+        return {
+          recipes: prioritizedRecipes,
+          deals: filteredDeals,
+          seasonal: {
+            peakNow,
+            availableNow
+          },
+          householdRules: parseHouseholdRules(),
+          dayRules,
+          weeklyContext: weeklyContextInput.value.trim(),
+          weekOf: String(dealsData.weekOf || ""),
+          currentMonth: monthName
+        };
+      }
+
+      function buildPrompt(data) {
+        const today = new Date().toLocaleDateString("en-US", {
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric"
+        });
+
+        const recipeLines = data.recipes.map((recipe) => {
+          const extraBits = [];
+          if (Number.isFinite(Number(recipe.time_minutes))) {
+            extraBits.push(`${Number(recipe.time_minutes)} min`);
+          }
+          if (recipe.cuisine) {
+            extraBits.push(recipe.cuisine);
+          }
+          const suffix = extraBits.length ? `, ${extraBits.join(", ")}` : "";
+          return `- ${recipe.title} (${recipe.meal}, ${recipe.style}${suffix})`;
+        });
+
+        const dealLines = data.deals.map((deal) => {
+          const price = Number.isFinite(Number(deal.promoPrice)) ? Number(deal.promoPrice).toFixed(2) : "0.00";
+          const savingsPct = Number.isFinite(Number(deal.savingsPct)) ? Number(deal.savingsPct) : 0;
+          return `- ${deal.name}: $${price} (save ${savingsPct}%)`;
+        });
+
+        const dayRuleLines = data.dayRules
+          .map((rule) => {
+            if (rule.skip) {
+              return `- ${rule.day}: SKIP — do not plan a meal for this day`;
+            }
+            if (rule.timeCap !== "Any time") {
+              return `- ${rule.day}: must be ${rule.timeCap} or faster`;
+            }
+            return null;
+          })
+          .filter(Boolean);
+
+        const sections = [
+          `You are a meal planning assistant for a family in Denver, Colorado. Today is ${today}. Build a complete 7-day meal plan for the week of ${data.weekOf}. Use the information below to make the plan practical, affordable, and personalized.`,
+          "",
+          `KNOWN RECIPES (${data.recipes.length} total): These are recipes this family already knows how to make. Prefer these when possible — only suggest a completely new recipe if no known recipe fits a slot well.`,
+          recipeLines.length ? recipeLines.join("\n") : "- None",
+          "",
+          "ON SALE AT KING SOOPERS THIS WEEK: Prioritize meals that use these ingredients to maximize savings.",
+          dealLines.length ? dealLines.join("\n") : "- None",
+          "",
+          `IN SEASON IN COLORADO THIS MONTH (${data.currentMonth}):`,
+          `Peak now (best quality): ${data.seasonal.peakNow.join(", ") || "none"}`,
+          `Also available locally: ${data.seasonal.availableNow.join(", ") || "none"}`,
+          "",
+          "HOUSEHOLD RULES (apply to every day):",
+          `- Dietary restrictions: ${data.householdRules.dietary || "none"}`,
+          `- Skip these ingredients: ${data.householdRules.disliked || "none"}`,
+          `- Preferred cuisines: ${data.householdRules.cuisines || "no preference"}`,
+          `- Do not repeat the same cuisine within ${data.householdRules.repeatDays || 14} days`,
+          "",
+          "DAY-BY-DAY RULES:",
+          dayRuleLines.length ? dayRuleLines.join("\n") : "- None",
+          ""
+        ];
+
+        if (data.weeklyContext) {
+          sections.push("ADDITIONAL CONTEXT FOR THIS WEEK:");
+          sections.push(data.weeklyContext);
+          sections.push("");
+        }
+
+        sections.push(
+          "RESPONSE FORMAT: Respond only with a valid JSON object. No markdown, no code fences, no explanation text before or after. The JSON must have this exact structure:",
+          "{",
+          `  'weekOf': '${data.weekOf}',`,
+          "  'days': [",
+          "    {",
+          "      'day': 'Sunday',",
+          "      'skip': false,",
+          "      'meal': {",
+          "        'title': 'Recipe title here',",
+          "        'type': 'known' or 'new',",
+          "        'meal': 'dinner',",
+          "        'style': 'meat',",
+          "        'estimatedTime': 30,",
+          "        'whyCheap': 'Uses asparagus on sale at $2.49/lb',",
+          "        'whySeasonal': 'Asparagus is at peak in Colorado in April',",
+          "        'whyChosen': 'Quick weeknight dinner using on-sale produce',",
+          "        'ingredients': ['ingredient 1', 'ingredient 2'],",
+          "        'onSaleIngredients': ['asparagus · $2.49'],",
+          "        'isNew': false",
+          "      }",
+          "    }",
+          "  ],",
+          "  'shoppingList': [",
+          "    { 'item': 'asparagus', 'amount': '1 lb', 'estimatedCost': 2.49, 'onSale': true }",
+          "  ],",
+          "  'weeklySavings': 12.50,",
+          "  'planSummary': 'A short 2-3 sentence summary of the week plan and why it was chosen.'",
+          "}",
+          "If a day is skipped, set skip to true and meal to null.",
+          "Do not include any text outside the JSON object."
+        );
+
+        return sections.join("\n");
+      }
+
+      async function callClaude(promptText, apiKey) {
+        let rawResponseText = "";
+        try {
+          const response = await fetch("https://api.anthropic.com/v1/messages", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "x-api-key": apiKey,
+              "anthropic-version": "2023-06-01",
+              "anthropic-dangerous-direct-browser-access": "true"
+            },
+            body: JSON.stringify({
+              model: "claude-sonnet-4-20250514",
+              max_tokens: 4000,
+              system: "You are a meal planning assistant. You always respond with valid JSON only — no markdown, no code fences, no explanation. Your entire response must be parseable by JSON.parse().",
+              messages: [{ role: "user", content: promptText }]
+            })
+          });
+
+          rawResponseText = await response.text();
+          let envelope;
+
+          try {
+            envelope = JSON.parse(rawResponseText);
+          } catch (error) {
+            throw new Error(`Anthropic response was not valid JSON: ${error.message}`);
+          }
+
+          if (!response.ok) {
+            const apiMessage = envelope && envelope.error && envelope.error.message
+              ? envelope.error.message
+              : `HTTP ${response.status}`;
+            throw new Error(`Anthropic API request failed: ${apiMessage}`);
+          }
+
+          const extracted = envelope
+            && Array.isArray(envelope.content)
+            && envelope.content[0]
+            && typeof envelope.content[0].text === "string"
+            ? envelope.content[0].text
+            : "";
+
+          if (!extracted) {
+            throw new Error("Anthropic response did not contain content[0].text");
+          }
+
+          const cleaned = extracted
+            .replace(/^\s*```json\s*/i, "")
+            .replace(/^\s*```\s*/i, "")
+            .replace(/\s*```\s*$/i, "")
+            .trim();
+
+          try {
+            return JSON.parse(cleaned);
+          } catch (error) {
+            throw new Error(`Claude returned invalid JSON: ${error.message}`);
+          }
+        } catch (error) {
+          const rawSnippet = String(rawResponseText || "").slice(0, 300);
+          throw new Error(`${error.message} | Raw response: ${rawSnippet}`);
+        }
+      }
+
+      function addToPlannerCard(_meal) {
+        window.alert("Planner integration coming soon");
+      }
+
+      function prefillSubmitForm(meal) {
+        const targetUrl = "index.html#recipeSubmitForm";
+        sessionStorage.setItem("recipes_prefill_meal", JSON.stringify(meal || {}));
+        window.location.href = targetUrl;
+      }
+
+      async function copyShoppingListText(items) {
+        const lines = ["Shopping List"];
+        items.forEach((item) => {
+          const cost = Number.isFinite(Number(item.estimatedCost))
+            ? `$${Number(item.estimatedCost).toFixed(2)}`
+            : "";
+          const saleLabel = item.onSale ? " [SALE]" : "";
+          lines.push(`- ${item.item} (${item.amount || ""}) ${cost}${saleLabel}`.trim());
+        });
+        const payload = lines.join("\n");
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(payload);
+          setStatus("Shopping list copied to clipboard.");
+          return;
+        }
+
+        const textarea = document.createElement("textarea");
+        textarea.value = payload;
+        textarea.style.position = "fixed";
+        textarea.style.left = "-9999px";
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        textarea.remove();
+        setStatus("Shopping list copied to clipboard.");
+      }
+
+      function renderShoppingTable(items, withSaleBadge) {
+        if (!items.length) {
+          return "<p class=\"panelSubtitle\">None</p>";
+        }
+
+        const rows = items.map((item) => {
+          const price = Number.isFinite(Number(item.estimatedCost))
+            ? `$${Number(item.estimatedCost).toFixed(2)}`
+            : "-";
+          const saleBadge = withSaleBadge && item.onSale ? "<span class=\"sale-pill\">SALE</span>" : "";
+          return `<tr><td>${escapeHtml(item.item || "")}</td><td>${escapeHtml(item.amount || "")}</td><td>${price} ${saleBadge}</td></tr>`;
+        }).join("");
+
+        return `<table class=\"shopping-table\"><tbody>${rows}</tbody></table>`;
+      }
+
+      function renderPlan(plan) {
+        const normalizedPlan = plan && typeof plan === "object" ? plan : {};
+        const days = Array.isArray(normalizedPlan.days) ? normalizedPlan.days : [];
+        const shoppingList = Array.isArray(normalizedPlan.shoppingList) ? normalizedPlan.shoppingList : [];
+        const saleItems = shoppingList.filter((item) => item && item.onSale);
+        const otherItems = shoppingList.filter((item) => item && !item.onSale);
+        const weeklySavings = Number(normalizedPlan.weeklySavings);
+
+        const dayCards = days.map((day) => {
+          const dayName = escapeHtml(day && day.day ? day.day : "Day");
+
+          if (day && day.skip) {
+            return `
+              <article class="day-card day-card-skipped">
+                <div class="day-card-header">${dayName}</div>
+                <p>Skipped</p>
+              </article>
+            `;
+          }
+
+          const meal = day && day.meal && typeof day.meal === "object" ? day.meal : {};
+          const onSaleIngredients = Array.isArray(meal.onSaleIngredients) ? meal.onSaleIngredients : [];
+          const salePills = onSaleIngredients
+            .map((item) => `<span class=\"sale-pill\">${escapeHtml(item)}</span>`)
+            .join(" ");
+
+          const showNewBadge = String(meal.type || "").toLowerCase() === "new";
+          const estimatedTime = Number.isFinite(Number(meal.estimatedTime))
+            ? `<p class="panelSubtitle">~${Number(meal.estimatedTime)} min</p>`
+            : "";
+
+          return `
+            <article class="day-card">
+              <div class="day-card-header">${dayName}</div>
+              <div class="day-card-title">${escapeHtml(meal.title || "Untitled meal")}</div>
+              ${showNewBadge ? '<span class="new-badge">NEW</span>' : ""}
+              <div class="summaryPills">
+                <span class="summaryPill isAmber">${escapeHtml(meal.meal || "meal")}</span>
+                <span class="summaryPill isGreen">${escapeHtml(meal.style || "style")}</span>
+              </div>
+              ${estimatedTime}
+              ${salePills ? `<div>${salePills}</div>` : ""}
+              <p class="why-chosen">${escapeHtml(meal.whyChosen || "")}</p>
+              <div class="card-actions">
+                <button type="button" data-action="planner" data-day-index="${escapeHtml(String(days.indexOf(day)))}">Add to Planner</button>
+                ${showNewBadge ? `<button type=\"button\" data-action=\"save\" data-day-index=\"${escapeHtml(String(days.indexOf(day)))}\">Save as New Recipe</button>` : ""}
+              </div>
+            </article>
+          `;
+        }).join("");
+
+        planOutput.innerHTML = `
+          <div class="plan-header">
+            <h2>Your Week of ${escapeHtml(normalizedPlan.weekOf || "")}</h2>
+            <p class="panelSubtitle">${escapeHtml(normalizedPlan.planSummary || "")}</p>
+            ${Number.isFinite(weeklySavings) && weeklySavings > 0 ? `<span class="savings-pill">Estimated savings this week: $${formatCurrency(weeklySavings)}</span>` : ""}
+          </div>
+
+          <div class="plan-grid">${dayCards || '<p class="panelSubtitle">No days returned.</p>'}</div>
+
+          <section class="shopping-list-section">
+            <h3>Shopping List</h3>
+            <p>
+              <button id="copyShoppingList" type="button" class="plannerActionButton">Copy Shopping List</button>
+            </p>
+            <h4>On Sale This Week</h4>
+            ${renderShoppingTable(saleItems, true)}
+            <h4>Other Items Needed</h4>
+            ${renderShoppingTable(otherItems, false)}
+          </section>
+        `;
+
+        planOutput.querySelectorAll("button[data-action='planner']").forEach((button) => {
+          button.addEventListener("click", () => {
+            const dayIndex = Number(button.getAttribute("data-day-index"));
+            const day = days[dayIndex];
+            if (day && day.meal) {
+              addToPlannerCard(day.meal);
+            }
+          });
+        });
+
+        planOutput.querySelectorAll("button[data-action='save']").forEach((button) => {
+          button.addEventListener("click", () => {
+            const dayIndex = Number(button.getAttribute("data-day-index"));
+            const day = days[dayIndex];
+            if (day && day.meal) {
+              prefillSubmitForm(day.meal);
+            }
+          });
+        });
+
+        const copyButton = document.getElementById("copyShoppingList");
+        if (copyButton) {
+          copyButton.addEventListener("click", async () => {
+            try {
+              await copyShoppingListText(shoppingList);
+            } catch (error) {
+              setStatus(`Failed to copy list: ${error.message}`);
+            }
+          });
+        }
+      }
+
+      function setStatus(msg) {
+        document.getElementById("generateStatus").textContent = msg;
+      }
+
+      async function handleGenerate() {
+        const apiKey = document.getElementById("apiKeyInput").value.trim();
+        if (!apiKey || !apiKey.startsWith("sk-ant-")) {
+          setStatus("Please enter a valid Anthropic API key starting with sk-ant-");
+          return;
+        }
+
+        sessionStorage.setItem("recipes_api_key", apiKey);
+
+        generateBtn.disabled = true;
+        generateBtn.textContent = "Generating...";
+
+        const statusSteps = [
+          "Reading your recipe collection...",
+          "Loading this week's King Soopers deals...",
+          "Checking what's in season in Colorado...",
+          "Assembling your household rules...",
+          "Sending everything to Claude...",
+          "Claude is building your meal plan...",
+          "Almost there..."
+        ];
+
+        let stepIndex = 0;
+        setStatus(statusSteps[0]);
+        const statusInterval = setInterval(() => {
+          stepIndex = Math.min(stepIndex + 1, statusSteps.length - 1);
+          setStatus(statusSteps[stepIndex]);
+        }, 2000);
+
+        try {
+          const data = assemblePromptData();
+          const prompt = buildPrompt(data);
+          const plan = await callClaude(prompt, apiKey);
+          clearInterval(statusInterval);
+          setStatus("Plan generated successfully.");
+          renderPlan(plan);
+        } catch (err) {
+          clearInterval(statusInterval);
+          setStatus("Error: " + err.message);
+          console.error("Generation error:", err);
+        } finally {
+          generateBtn.disabled = false;
+          generateBtn.textContent = "Generate My Week";
+        }
+      }
+
       function init() {
         createDayGrid();
         loadHouseholdRules();
@@ -590,14 +1227,21 @@
         bindDayRuleEvents();
         loadSummaryData();
 
-        saveRulesButton.addEventListener("click", saveHouseholdRules);
+        const storedApiKey = sessionStorage.getItem(API_KEY_STORAGE_KEY);
+        if (storedApiKey) {
+          apiKeyInput.value = storedApiKey;
+        }
 
-        generateBtn.addEventListener("click", () => {
-          generateStatus.textContent = "Generator coming in next step.";
+        apiKeyInput.addEventListener("input", () => {
+          sessionStorage.setItem(API_KEY_STORAGE_KEY, apiKeyInput.value.trim());
         });
 
+        saveRulesButton.addEventListener("click", saveHouseholdRules);
+
+        generateBtn.addEventListener("click", handleGenerate);
+
         weeklyContextInput.addEventListener("input", () => {
-          generateStatus.textContent = "";
+          setStatus("");
         });
       }
 
