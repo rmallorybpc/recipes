@@ -311,6 +311,41 @@
         font-style: italic;
       }
 
+      .refine-section {
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+        border-top: 0.5px solid var(--color-border-tertiary);
+      }
+
+      .refine-section summary {
+        font-size: 13px;
+        color: var(--color-text-secondary);
+        cursor: pointer;
+        padding: 0.5rem 0;
+        user-select: none;
+      }
+
+      .refine-section summary:hover {
+        color: var(--color-text-primary);
+      }
+
+      .refine-instruction {
+        font-size: 12px;
+        color: var(--color-text-tertiary);
+        margin-bottom: 0.75rem;
+        line-height: 1.6;
+      }
+
+      .session-notice {
+        font-size: 12px;
+        color: var(--color-text-warning);
+        background: var(--color-background-warning);
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+        display: none;
+      }
+
       @media (max-width: 900px) {
         .dayGrid {
           grid-template-columns: repeat(2, 1fr);
@@ -330,7 +365,7 @@
         <p class="eyebrow">Meal Plan Generator</p>
         <h1>A week of meals planned around your life.</h1>
         <p class="subtitle">
-          Claude looks at your recipe collection, this week's King Soopers deals, what's in season in Colorado, and your household rules - then builds a meal plan.
+          Builds a personalized week of dinners using your recipe collection, this week's King Soopers deals, and what's in season in Colorado. Apply your household rules, then refine with Claude for a personalized touch.
         </p>
         <nav class="subNav" aria-label="Pages">
           <a href="index.html">Planner</a>
@@ -418,7 +453,7 @@
       <section class="panelSection" aria-label="Generate meal plan panel">
         <button id="generateBtn" type="button" class="generateButton">Generate My Week</button>
         <p class="generateHelp">
-          Takes about 15 seconds. Claude reads all your data and builds a personalized plan.
+          Runs instantly using your recipe collection, current deals, and seasonal data. Use Refine with Claude for an AI-enhanced version.
         </p>
         <p id="generateStatus" class="generateStatus" aria-live="polite"></p>
         <div id="planOutput" class="planOutput" aria-live="polite"></div>
@@ -456,6 +491,11 @@
       let recipesData = null;
       let dealsData = null;
       let seasonalData = null;
+      let currentPlan = null;
+      let hasStoredClaudePrompt = false;
+
+      const CLAUDE_PROMPT_KEY = "recipes_claude_prompt";
+      const CLAUDE_URL_SAFE_LIMIT = 8000;
 
       function parseStoredJson(key) {
         try {
@@ -933,6 +973,353 @@
         return `${text.slice(0, maxLen - 1)}…`;
       }
 
+      function normalizeDealList(source) {
+        if (Array.isArray(source)) {
+          return source;
+        }
+        if (source && Array.isArray(source.deals)) {
+          return source.deals;
+        }
+        return [];
+      }
+
+      function isFoodDeal(deal) {
+        const category = String(deal && deal.category ? deal.category : "");
+        if (!category) {
+          return true;
+        }
+        return !/(adult beverage|beer|wine|spirits|liquor|tobacco|cigarette|vape|household|pet|pharmacy|personal care|baby|cleaning|floral|gift card|electronics)/i.test(category);
+      }
+
+      function getFoodDeals(dealsSource) {
+        return normalizeDealList(dealsSource).filter((deal) => deal && isFoodDeal(deal));
+      }
+
+      function getTopRecipesForClaude(plan, allRecipes, maxCount) {
+        const recipes = Array.isArray(allRecipes) ? allRecipes.slice() : [];
+        const cap = Math.max(0, Number(maxCount) || 0);
+        const scored = Array.isArray(plan && plan.recipeScores) ? plan.recipeScores : [];
+
+        if (scored.length >= recipes.length && recipes.length > 0) {
+          const scoreByTitle = new Map();
+          scored.forEach((entry) => {
+            const title = String(entry && entry.title ? entry.title : "").toLowerCase();
+            if (!title || scoreByTitle.has(title)) {
+              return;
+            }
+            scoreByTitle.set(title, Number(entry && entry.totalScore) || 0);
+          });
+
+          const ranked = recipes.slice().sort((a, b) => {
+            const scoreA = scoreByTitle.get(String(a && a.title ? a.title : "").toLowerCase()) || 0;
+            const scoreB = scoreByTitle.get(String(b && b.title ? b.title : "").toLowerCase()) || 0;
+            if (scoreB !== scoreA) {
+              return scoreB - scoreA;
+            }
+            return String(a && a.title ? a.title : "").localeCompare(String(b && b.title ? b.title : ""));
+          });
+          return ranked.slice(0, cap);
+        }
+
+        return recipes
+          .slice()
+          .sort((a, b) => String(a && a.title ? a.title : "").localeCompare(String(b && b.title ? b.title : "")))
+          .slice(0, cap);
+      }
+
+      function buildClaudePrompt(plan, recipeLimit) {
+        const safePlan = plan && typeof plan === "object" ? plan : {};
+        const days = Array.isArray(safePlan.days) ? safePlan.days : [];
+        const rules = parseStoredJson(HOUSEHOLD_RULES_KEY) || {};
+        const dayRules = parseStoredJson(DAY_RULES_KEY);
+        const allRecipes = normalizeRecipes(recipesData).filter((recipe) => recipe && recipe.title);
+        const targetLimit = Number.isFinite(Number(recipeLimit)) ? Number(recipeLimit) : 60;
+        const selectedRecipes = getTopRecipesForClaude(safePlan, allRecipes, targetLimit);
+        const foodDeals = getFoodDeals(dealsData);
+
+        const planLines = days.map((day, index) => {
+          const dayName = String(day && day.dayName ? day.dayName : FULL_DAY_NAMES[index] || "Day");
+          if (day && day.skip) {
+            return `${dayName}: Skipped`;
+          }
+          const meal = day && day.meal ? day.meal : null;
+          const timeSegment = meal && Number(meal.time_minutes) > 0 ? `, ~${Number(meal.time_minutes)} min` : "";
+          const header = `${dayName}: ${String(meal && meal.title ? meal.title : "No meal assigned")} (${String(meal && meal.meal ? meal.meal : "meal")}, ${String(meal && meal.style ? meal.style : "style")}${timeSegment})`;
+          const whyChosen = String(meal && meal.whyChosen ? meal.whyChosen : "").trim();
+          return whyChosen ? `${header}\n  → ${whyChosen}` : header;
+        });
+
+        const recipeLines = selectedRecipes.map((recipe) => {
+          const mealType = String(recipe && recipe.meal ? recipe.meal : "meal");
+          const style = String(recipe && recipe.style ? recipe.style : "style");
+          const time = Number(recipe && recipe.time_minutes);
+          const cuisine = String(recipe && recipe.cuisine ? recipe.cuisine : "").trim();
+          const parts = [`${mealType}`, `${style}`];
+          if (Number.isFinite(time) && time > 0) {
+            parts.push(`${time} min`);
+          }
+          if (cuisine) {
+            parts.push(cuisine);
+          }
+          return `- ${String(recipe.title)} (${parts.join(", ")})`;
+        });
+
+        const currentMonth = new Date().getMonth() + 1;
+        const seasonalProduce = seasonalData && typeof seasonalData === "object" && seasonalData.produce
+          ? seasonalData.produce
+          : {};
+        const peakNow = [];
+        const alsoAvailable = [];
+        Object.entries(seasonalProduce).forEach(([name, info]) => {
+          const isPeak = info && Array.isArray(info.peak) && info.peak.includes(currentMonth);
+          const isAvailable = info && Array.isArray(info.available) && info.available.includes(currentMonth);
+          if (isPeak) {
+            peakNow.push(name);
+          } else if (isAvailable) {
+            alsoAvailable.push(name);
+          }
+        });
+
+        const ruleLines = [];
+        const dietary = String(rules.dietary || "").trim();
+        const disliked = String(rules.disliked || "").trim();
+        const cuisines = String(rules.cuisines || "").trim();
+        const repeatDays = Number(rules.repeatDays) || 0;
+        if (dietary) {
+          ruleLines.push(`- Always avoid: ${dietary}`);
+        }
+        if (disliked) {
+          ruleLines.push(`- Skip these ingredients: ${disliked}`);
+        }
+        if (cuisines) {
+          ruleLines.push(`- Preferred cuisines: ${cuisines}`);
+        }
+        if (repeatDays > 0) {
+          ruleLines.push(`- Avoid repeating cuisine within ${repeatDays} days`);
+        }
+
+        const dayConstraintLines = [];
+        const savedDays = dayRules && Array.isArray(dayRules.days) ? dayRules.days : [];
+        savedDays.forEach((rule, index) => {
+          const dayName = FULL_DAY_NAMES[index] || `Day ${index + 1}`;
+          if (rule && rule.skip) {
+            dayConstraintLines.push(`- ${dayName}: Skip`);
+            return;
+          }
+          if (!rule) {
+            return;
+          }
+          const cap = String(rule.timeCap || "any");
+          const label = TIME_CAP_OPTIONS.find((option) => option.value === cap)?.label || cap;
+          if (label && label !== "Any time") {
+            dayConstraintLines.push(`- ${dayName}: ${label}`);
+          }
+        });
+
+        const weeklyContext = String(safePlan.weeklyContext || "").trim();
+
+        const lines = [
+          `I have a meal plan for the week of ${String(safePlan.weekOf || "")} generated by a rule-based system. Please review it and suggest improvements based on the context below. You can swap meals, reorder days, or suggest alternatives — but try to keep meals that use on-sale ingredients or peak-season produce where possible.`,
+          "",
+          "Return your response as a revised plan in this same format, or explain your changes in plain text if you prefer.",
+          "",
+          "CURRENT PLAN:",
+          ...planLines,
+          "",
+          `MY RECIPE COLLECTION (${allRecipes.length} recipes):`,
+          ...recipeLines,
+          "",
+          "ON SALE AT KING SOOPERS THIS WEEK:",
+          ...(foodDeals.length
+            ? foodDeals.map((deal) => `- ${String(deal.name || deal.term || "Deal")}: $${formatCurrency(deal.promoPrice)} (save ${Number(deal.savingsPct) || 0}%)`)
+            : ["- No food-category deals available this week."]),
+          "",
+          "IN SEASON IN COLORADO THIS MONTH:",
+          `Peak now: ${peakNow.length ? peakNow.join(", ") : "None listed"}`,
+          `Also available: ${alsoAvailable.length ? alsoAvailable.join(", ") : "None listed"}`,
+          "",
+          "HOUSEHOLD RULES:",
+          ...(ruleLines.length ? ruleLines : ["- No household rules provided."])
+        ];
+
+        if (dayConstraintLines.length) {
+          lines.push("");
+          lines.push("DAY CONSTRAINTS:");
+          lines.push(...dayConstraintLines);
+        }
+
+        if (weeklyContext) {
+          lines.push("");
+          lines.push(`ADDITIONAL CONTEXT: ${weeklyContext}`);
+        }
+
+        lines.push("");
+        lines.push("Please suggest a revised plan or improvements. For each day you change, briefly explain why the new meal is a better fit. Focus especially on: (1) using on-sale ingredients, (2) seasonal Colorado produce, (3) variety across the week, and (4) fitting the day constraints.");
+
+        return {
+          promptText: lines.join("\n"),
+          shownRecipeCount: recipeLines.length,
+          totalRecipeCount: allRecipes.length
+        };
+      }
+
+      function refineWithClaude(plan) {
+        const safePlan = plan && typeof plan === "object" ? plan : null;
+        if (!safePlan || !Array.isArray(safePlan.days) || safePlan.days.length === 0) {
+          alert("Generate a plan first, then use Refine with Claude.");
+          return;
+        }
+
+        let recipeLimit = 60;
+        let promptInfo = buildClaudePrompt(safePlan, recipeLimit);
+        let promptText = promptInfo.promptText;
+        let encoded = encodeURIComponent(promptText);
+        let truncatedForUrl = false;
+
+        while (encoded.length > CLAUDE_URL_SAFE_LIMIT && recipeLimit > 0) {
+          truncatedForUrl = true;
+          recipeLimit -= 1;
+          promptInfo = buildClaudePrompt(safePlan, recipeLimit);
+          promptText = promptInfo.promptText;
+          encoded = encodeURIComponent(promptText);
+        }
+
+        if (truncatedForUrl && promptInfo.totalRecipeCount > promptInfo.shownRecipeCount) {
+          const hiddenCount = promptInfo.totalRecipeCount - promptInfo.shownRecipeCount;
+          const marker = "\n\nON SALE AT KING SOOPERS THIS WEEK:";
+          const insertNote = `\n[list truncated to fit URL — ${hiddenCount} more recipes in collection]`;
+          if (promptText.includes(marker)) {
+            promptText = promptText.replace(marker, `${insertNote}${marker}`);
+          }
+          encoded = encodeURIComponent(promptText);
+        }
+
+        if (encoded.length > CLAUDE_URL_SAFE_LIMIT) {
+          setStatus("Prompt is too long for URL sharing. Try a shorter weekly context and retry.");
+          return;
+        }
+
+        sessionStorage.setItem(CLAUDE_PROMPT_KEY, promptText);
+
+        const claudeUrl = `https://claude.ai/new?q=${encoded}`;
+        window.open(claudeUrl, "_blank", "noopener");
+      }
+
+      function parseClaudeJsonPlan(rawText) {
+        try {
+          const parsed = JSON.parse(rawText);
+          if (parsed && typeof parsed === "object" && Array.isArray(parsed.days)) {
+            return parsed;
+          }
+        } catch {
+          return null;
+        }
+        return null;
+      }
+
+      function resolveDayIndex(dayToken) {
+        const text = String(dayToken || "").trim().toLowerCase();
+        const dayMap = {
+          sunday: 0,
+          sun: 0,
+          monday: 1,
+          mon: 1,
+          tuesday: 2,
+          tue: 2,
+          tues: 2,
+          wednesday: 3,
+          wed: 3,
+          thursday: 4,
+          thu: 4,
+          thurs: 4,
+          friday: 5,
+          fri: 5,
+          saturday: 6,
+          sat: 6
+        };
+        return dayMap[text];
+      }
+
+      function findRecipeByPartialTitle(titleLike) {
+        const target = String(titleLike || "").trim().toLowerCase();
+        if (!target) {
+          return null;
+        }
+        const recipes = normalizeRecipes(recipesData).filter((recipe) => recipe && recipe.title);
+        let exact = recipes.find((recipe) => String(recipe.title).toLowerCase() === target);
+        if (exact) {
+          return exact;
+        }
+        exact = recipes.find((recipe) => String(recipe.title).toLowerCase().includes(target));
+        if (exact) {
+          return exact;
+        }
+        return recipes.find((recipe) => target.includes(String(recipe.title).toLowerCase())) || null;
+      }
+
+      function applyClaudeTextPlan(rawText) {
+        if (!currentPlan || !Array.isArray(currentPlan.days)) {
+          return false;
+        }
+
+        const lines = String(rawText || "").split(/\r?\n/);
+        const matches = [];
+        lines.forEach((line) => {
+          const matched = line.match(/^\s*(Sunday|Sun|Monday|Mon|Tuesday|Tue|Tues|Wednesday|Wed|Thursday|Thu|Thurs|Friday|Fri|Saturday|Sat)\s*:\s*(.+?)\s*$/i);
+          if (!matched) {
+            return;
+          }
+          const dayIndex = resolveDayIndex(matched[1]);
+          if (dayIndex == null) {
+            return;
+          }
+          const recipe = findRecipeByPartialTitle(matched[2]);
+          if (!recipe) {
+            return;
+          }
+          matches.push({ dayIndex, recipe });
+        });
+
+        if (matches.length === 0) {
+          return false;
+        }
+
+        const updatedPlan = {
+          ...currentPlan,
+          days: (Array.isArray(currentPlan.days) ? currentPlan.days : []).map((day, idx) => {
+            const replacement = matches.find((entry) => entry.dayIndex === idx);
+            if (!replacement) {
+              return day;
+            }
+            const selected = replacement.recipe;
+            return {
+              ...day,
+              skip: false,
+              meal: {
+                title: String(selected.title || ""),
+                meal: selected.meal ? String(selected.meal) : "",
+                style: selected.style ? String(selected.style) : "",
+                time_minutes: Number(selected.time_minutes) > 0 ? Number(selected.time_minutes) : null,
+                cuisine: selected.cuisine ? String(selected.cuisine) : null,
+                summary: selected.summary ? String(selected.summary) : null,
+                ingredients: Array.isArray(selected.ingredients) ? selected.ingredients.slice() : [],
+                dealScore: 0,
+                peakScore: 0,
+                availableScore: 0,
+                totalScore: 0,
+                matchedDeals: [],
+                peakMatches: [],
+                availableMatches: [],
+                whyChosen: "Updated from Claude response"
+              }
+            };
+          })
+        };
+
+        renderPlan(updatedPlan);
+        return true;
+      }
+
       function buildWeekPlan(recipes, deals, seasonalData, householdRules, dayRules, weeklyContext) {
         const recipeList = normalizeRecipes(recipes).filter((item) => item && item.title);
         const repeatDays = Number(householdRules && householdRules.repeatDays) || 0;
@@ -1140,6 +1527,12 @@
           },
           estimatedSavings,
           recipesConsidered: filteredRecipes.length,
+          recipeScores: scored
+            .map((entry) => ({
+              title: String(entry.recipe && entry.recipe.title ? entry.recipe.title : ""),
+              totalScore: Number(entry.totalScore) || 0
+            }))
+            .filter((entry) => entry.title),
           weeklyContext: String(weeklyContext || "")
         };
       }
@@ -1186,6 +1579,7 @@
 
       function renderPlan(plan) {
         const safePlan = plan && typeof plan === "object" ? plan : {};
+        currentPlan = safePlan;
         const days = Array.isArray(safePlan.days) ? safePlan.days : [];
         const shopping = safePlan.shoppingList && typeof safePlan.shoppingList === "object"
           ? safePlan.shoppingList
@@ -1207,7 +1601,16 @@
           <h2>Your Week of ${escapeHtml(weekLabel)}</h2>
           <p class="panelSubtitle">${escapeHtml(String(safePlan.recipesConsidered || 0))} recipes considered · Generated ${escapeHtml(generatedTime)}</p>
           ${Number(safePlan.estimatedSavings) > 0 ? `<span class="savings-pill">Est. savings this week: $${formatCurrency(safePlan.estimatedSavings)}</span>` : ""}
-          <button id="addAllToPlanner" type="button" class="plannerActionButton">Add All to Planner</button>
+          <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.75rem;">
+            <button id="addAllToPlanner" type="button" class="plannerActionButton">Add All to Planner</button>
+            <button
+              id="refineWithClaude"
+              type="button"
+              class="plannerActionButton"
+              title="Opens Claude.ai in a new tab with your full plan context as a ready-to-send prompt"
+              onclick="refineWithClaude(currentPlan)"
+            >Refine with Claude ↗</button>
+          </div>
           ${safePlan.weeklyContext ? `<p class="panelSubtitle" style="font-style:italic;">Context applied: ${escapeHtml(safePlan.weeklyContext)}</p>` : ""}
         `;
         wrapper.appendChild(header);
@@ -1282,6 +1685,18 @@
           <p><button id="copyShoppingList" type="button" class="plannerActionButton">Copy Shopping List</button></p>
         `;
         wrapper.appendChild(shoppingSection);
+
+        const refineSection = document.createElement("details");
+        refineSection.className = "refine-section";
+        refineSection.id = "claudeRefineDetails";
+        refineSection.innerHTML = `
+          <summary>Load a revised plan from Claude</summary>
+          <p class="refine-instruction">After Claude suggests changes in the new tab, copy its response and paste it here. The planner will parse Claude's plain-text response and update your week.</p>
+          <p id="claudeSessionNotice" class="session-notice">A previous Claude prompt was found in your session. The Refine with Claude button will generate a fresh prompt when you have a plan.</p>
+          <textarea id="claudeResponseInput" rows="6" placeholder="Paste Claude's response here..." style="width:100%; font-size:13px; font-family:var(--font-mono);"></textarea>
+          <p style="margin-top:0.5rem;"><button id="loadClaudeResponse" type="button" class="plannerActionButton">Apply Claude's Plan</button></p>
+        `;
+        wrapper.appendChild(refineSection);
 
         const hint = document.createElement("p");
         hint.className = "plan-regenerate-hint";
@@ -1371,18 +1786,79 @@
             }
           });
         }
+
+        const loadClaudeResponseButton = document.getElementById("loadClaudeResponse");
+        if (loadClaudeResponseButton) {
+          loadClaudeResponseButton.addEventListener("click", () => {
+            const input = document.getElementById("claudeResponseInput");
+            const details = document.getElementById("claudeRefineDetails");
+            const text = String(input && input.value ? input.value : "").trim();
+            if (!text) {
+              alert("Could not parse Claude's response. Make sure you copied the full response including the day-by-day plan.");
+              return;
+            }
+
+            const parsedJson = parseClaudeJsonPlan(text);
+            if (parsedJson) {
+              renderPlan(parsedJson);
+              if (details) {
+                details.open = false;
+              }
+              setStatus("Plan updated from Claude's response.");
+              window.setTimeout(() => {
+                setStatus("");
+              }, 3000);
+              return;
+            }
+
+            const appliedFromText = applyClaudeTextPlan(text);
+            if (!appliedFromText) {
+              alert("Could not parse Claude's response. Make sure you copied the full response including the day-by-day plan.");
+              return;
+            }
+
+            if (details) {
+              details.open = false;
+            }
+            setStatus("Plan updated from Claude's response.");
+            window.setTimeout(() => {
+              setStatus("");
+            }, 3000);
+          });
+        }
+
+        if (hasStoredClaudePrompt) {
+          const details = document.getElementById("claudeRefineDetails");
+          const notice = document.getElementById("claudeSessionNotice");
+          if (details) {
+            details.open = true;
+          }
+          if (notice) {
+            notice.style.display = "block";
+          }
+        }
       }
 
       function setStatus(msg) {
         document.getElementById("generateStatus").textContent = msg;
       }
 
-      function init() {
+      async function init() {
         createDayGrid();
         loadHouseholdRules();
         restoreDayRules();
         bindDayRuleEvents();
-        loadSummaryData();
+        await loadSummaryData();
+
+        hasStoredClaudePrompt = Boolean(sessionStorage.getItem(CLAUDE_PROMPT_KEY));
+        const existingDetails = document.getElementById("claudeRefineDetails");
+        const existingNotice = document.getElementById("claudeSessionNotice");
+        if (hasStoredClaudePrompt && existingDetails) {
+          existingDetails.open = true;
+        }
+        if (hasStoredClaudePrompt && existingNotice) {
+          existingNotice.style.display = "block";
+        }
 
         saveRulesButton.addEventListener("click", saveHouseholdRules);
 
