@@ -8,6 +8,7 @@
     "generate:seasonal-match": "node ./scripts/generate-ingredient-data.mjs",
     "generate:seasonal": "node ./scripts/generate-seasonal-match.mjs",
     "fetch:deals": "node ./scripts/fetch-weekly-deals.mjs",
+    "generate:locations": "node ./scripts/generate-location-lookup.mjs",
     "import:suggested": "node ./scripts/import-suggested-recipes.mjs"
   }
 }

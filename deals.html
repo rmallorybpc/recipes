@@ -388,6 +388,101 @@
         }
 
       }
+
+      .locationRow {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+      }
+
+      .locationInput {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      #zipInput {
+        width: 120px;
+        padding: 0.5rem 0.75rem;
+        font-size: 16px;
+        font-family: var(--font-sans);
+        border: 1px solid var(--color-border-secondary);
+        border-radius: var(--border-radius-md);
+        background: var(--color-background-primary);
+        color: var(--color-text-primary);
+      }
+
+      #zipInput:focus {
+        outline: none;
+        border-color: var(--color-border-focus, var(--color-text-link));
+      }
+
+      .storeResult {
+        font-size: 13px;
+        min-height: 1.5rem;
+      }
+
+      .storeResult-found {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--color-text-success);
+      }
+
+      .storeResultIcon {
+        font-size: 14px;
+      }
+
+      .storeResultName {
+        font-weight: 500;
+        color: var(--color-text-primary);
+      }
+
+      .storeResultNote {
+        font-size: 11px;
+        color: var(--color-text-tertiary);
+      }
+
+      .storeResultError {
+        color: var(--color-text-warning);
+        font-size: 13px;
+      }
+
+      .storeClearBtn {
+        font-size: 11px;
+        padding: 2px 8px;
+        background: transparent;
+        border: 1px solid var(--color-border-tertiary);
+        border-radius: var(--border-radius-sm);
+        cursor: pointer;
+        color: var(--color-text-secondary);
+        font-family: var(--font-sans);
+      }
+
+      .coverageNote {
+        font-size: 11px;
+        color: var(--color-text-tertiary);
+        margin-top: 0.375rem;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 768px) {
+        .locationInput {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        #zipInput {
+          width: 100%;
+        }
+
+        #findStoreBtn {
+          width: 100%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -397,6 +492,30 @@
         <h1>This week's sales, matched to your recipes.</h1>
         <p class="subtitle">
           On-sale ingredients at your local King Soopers, updated every Wednesday. See what's on sale and which recipes to make this week.
+        </p>
+        <div class="locationRow" id="locationRow">
+          <div class="locationInput">
+            <input
+              type="text"
+              id="zipInput"
+              placeholder="Enter your zip code"
+              maxlength="5"
+              pattern="[0-9]{5}"
+              inputmode="numeric"
+              aria-label="Your zip code"
+            />
+            <button id="findStoreBtn" class="plannerActionButton">
+              Find My Store
+            </button>
+          </div>
+          <div id="storeResult" class="storeResult" aria-live="polite"></div>
+        </div>
+        <p class="coverageNote" id="coverageNote">
+          Zip code lookup covers 2,040 US zip codes across major metro
+          areas. Kroger-family stores include King Soopers, Ralphs,
+          Fred Meyer, Fry's, Harris Teeter, Smith's, Mariano's,
+          Dillons, Pick 'n Save, and QFC.
+          <span id="coverageStats"></span>
         </p>
         <nav class="subNav" aria-label="Pages">
           <a href="index.html">Planner</a>
@@ -497,6 +616,9 @@
       let seasonalRecipes = [];
       let termDealMap = new Map();
       let seasonalDataLoaded = false;
+      let locationsData = null;
+      let userLocationId = null;
+      let userStoreName = null;
 
       function escapeHtml(value) {
         return String(value ?? "")
@@ -560,12 +682,106 @@
         const weekText = formatWeekOf(data.weekOf);
         const count = Number(data.totalDeals) || 0;
 
+        if (userStoreName) {
+          storeContextBar.innerHTML = `
+            <strong>${escapeHtml(userStoreName)}</strong>
+            <span>${escapeHtml(weekText)}</span>
+            <span>${count} deals this week</span>
+            <span class="storeContextNote">Nearest store match shown above. Deals displayed are still for King Soopers Belleview Square (default).</span>
+          `;
+          return;
+        }
+
         storeContextBar.innerHTML = `
           <strong>${escapeHtml(chain)} · ${escapeHtml(locationName)}</strong>
           <span>${escapeHtml(weekText)}</span>
           <span>${count} deals this week</span>
-          <span class="storeContextNote">Updated Wednesdays</span>
+          <span class="storeContextNote">Showing deals for King Soopers Belleview Square (default). Enter your zip code above to find your store.</span>
         `;
+      }
+
+      function handleZipLookup() {
+        const zip = document.getElementById("zipInput").value.trim();
+
+        if (!/^\d{5}$/.test(zip)) {
+          showStoreResult("Please enter a valid 5-digit zip code.", null, false);
+          return;
+        }
+
+        if (!locationsData) {
+          showStoreResult("Location data is still loading — please try again in a moment.", null, false);
+          return;
+        }
+
+        const location = locationsData.locations[zip];
+
+        if (location === undefined) {
+          showStoreResult(
+            `Zip code ${zip} is not in our coverage table yet. ` +
+            `Try a nearby zip code, or see the note below about coverage.`,
+            null,
+            false
+          );
+          return;
+        }
+
+        if (location === null) {
+          showStoreResult(
+            `No Kroger-family store found within 25 miles of ${zip}. ` +
+            `Kroger-family stores include King Soopers, Ralphs, Fred Meyer, ` +
+            `Fry's, Harris Teeter, Smith's, Mariano's, and others.`,
+            null,
+            false
+          );
+          return;
+        }
+
+        userLocationId = location.locationId;
+        userStoreName = `${location.name} — ${location.city}, ${location.state}`;
+
+        localStorage.setItem("recipes_user_zip", zip);
+        localStorage.setItem("recipes_user_locationId", location.locationId);
+        localStorage.setItem("recipes_user_store", userStoreName);
+
+        showStoreResult(userStoreName, zip, true);
+      }
+
+      function showStoreResult(message, zip, isSuccess) {
+        const el = document.getElementById("storeResult");
+
+        if (isSuccess) {
+          el.innerHTML = `
+            <span class="storeResultIcon">📍</span>
+            <span class="storeResultName">${escapeHtml(message)}</span>
+            <span class="storeResultNote">
+              Deals shown are fetched weekly for this store.
+              Your store is saved for future visits.
+            </span>
+            <button class="storeClearBtn" id="clearStoreBtn">Change store</button>
+          `;
+          el.className = "storeResult storeResult-found";
+
+          document.getElementById("clearStoreBtn").addEventListener("click", function () {
+            localStorage.removeItem("recipes_user_zip");
+            localStorage.removeItem("recipes_user_locationId");
+            localStorage.removeItem("recipes_user_store");
+            userLocationId = null;
+            userStoreName = null;
+            document.getElementById("zipInput").value = "";
+            el.innerHTML = "";
+            el.className = "storeResult";
+            if (window.__weeklyDealsData) {
+              populateStoreContext(window.__weeklyDealsData);
+            }
+          });
+        } else {
+          el.innerHTML = `<span class="storeResultError">${escapeHtml(message)}</span>`;
+          el.className = "storeResult storeResult-error";
+        }
+
+        if (isSuccess && window.__weeklyDealsData) {
+          populateStoreContext(window.__weeklyDealsData);
+        }
       }
 
       function populateCategoryFilter(deals) {
@@ -796,8 +1012,28 @@
       async function init() {
         const [weeklyResult, seasonalResult] = await Promise.allSettled([
           fetchJsonOrThrow("./data/weekly-deals.json"),
-          fetchJsonOrThrow("./data/seasonal-match.json")
+          fetchJsonOrThrow("./data/seasonal-match.json"),
+          fetch("./data/kroger-locations.json")
+            .then((r) => (r.ok ? r.json() : null))
+            .then((data) => {
+              if (data) {
+                locationsData = data;
+                console.log(`Locations loaded: ${data.found} stores across ${data.total_zips} zips`);
+              }
+            })
+            .catch(() => {
+              console.log("Location data not available — zip lookup disabled");
+            })
         ]);
+
+        if (locationsData) {
+          const statsEl = document.getElementById("coverageStats");
+          if (statsEl) {
+            statsEl.textContent =
+              ` Coverage: ${locationsData.found} stores found ` +
+              `across ${locationsData.coverage_pct}% of indexed zips.`;
+          }
+        }
 
         if (weeklyResult.status !== "fulfilled") {
           storeContextBar.innerHTML = `<p>Unable to load weekly deals right now. ${escapeHtml(String(weeklyResult.reason?.message || "Please try again later."))}</p>`;
@@ -809,6 +1045,7 @@
         }
 
         const weeklyData = weeklyResult.value;
+        window.__weeklyDealsData = weeklyData;
         const allDeals = Array.isArray(weeklyData.deals) ? weeklyData.deals : [];
         baseDeals = allDeals.filter((deal) => !EXCLUDED_CATEGORIES.has(deal.category));
 
@@ -824,6 +1061,17 @@
         buildTermDealMap(baseDeals);
         buildDealMatches(baseDeals, seasonalRecipes);
 
+        const savedZip = localStorage.getItem("recipes_user_zip");
+        const savedLocationId = localStorage.getItem("recipes_user_locationId");
+        const savedStoreName = localStorage.getItem("recipes_user_store");
+
+        if (savedZip && savedLocationId) {
+          userLocationId = savedLocationId;
+          userStoreName = savedStoreName;
+          document.getElementById("zipInput").value = savedZip;
+          showStoreResult(savedStoreName, savedZip, true);
+        }
+
         populateStoreContext(weeklyData);
         populateCategoryFilter(baseDeals);
         renderDeals(baseDeals);
@@ -832,6 +1080,12 @@
         initializeFilterListeners();
         applyFilters();
       }
+
+      document.getElementById("zipInput").addEventListener("keydown", function (e) {
+        if (e.key === "Enter") handleZipLookup();
+      });
+
+      document.getElementById("findStoreBtn").addEventListener("click", handleZipLookup);
 
       init();
     </script>
