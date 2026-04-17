@@ -528,8 +528,6 @@ async function main() {
   console.log('Output: data/ingredient-prices.json');
   console.log('');
 
-  const chainResults = new Map();
-
   console.log('\n--- Fetching chain-specific deals ---');
 
   for (const chain of CHAIN_LOCATIONS) {
@@ -542,7 +540,7 @@ async function main() {
         chain.outputFile,
         chain.name
       );
-      chainResults.set(chain.chain, result.dealsFound);
+      chain.dealsFound = result.dealsFound;
       console.log(`${chain.name}: ${result.dealsFound} deals found`);
     } catch (err) {
       console.error(`Failed to fetch deals for ${chain.name}: ${err.message}`);
@@ -556,12 +554,9 @@ async function main() {
   console.log('');
   console.log('===== Multi-Chain Deals Fetch Complete =====');
   console.log(`Default location (King Soopers): ${defaultResult.dealsFound} deals`);
-  console.log(`Harris Teeter: ${chainResults.get('HARRIS TEETER') ?? 0} deals`);
-  console.log(`Ralphs: ${chainResults.get('RALPHS') ?? 0} deals`);
-  console.log(`Fred Meyer: ${chainResults.get('FRED MEYER') ?? 0} deals`);
-  console.log(`Smith's: ${chainResults.get('SMITHS') ?? 0} deals`);
-  console.log(`Fry's: ${chainResults.get('FRYS') ?? 0} deals`);
-  console.log(`Mariano's: ${chainResults.get('MARIANOS') ?? 0} deals`);
+  CHAIN_LOCATIONS.forEach(chain => {
+    console.log(`${chain.name}: ${chain.dealsFound ?? 0} deals`);
+  });
   console.log('All output files written to data/');
 }
 
