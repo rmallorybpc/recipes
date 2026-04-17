@@ -10,5 +10,8 @@
     "fetch:deals": "node ./scripts/fetch-weekly-deals.mjs",
     "generate:locations": "node ./scripts/generate-location-lookup.mjs",
     "import:suggested": "node ./scripts/import-suggested-recipes.mjs"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
