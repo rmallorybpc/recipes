@@ -2,9 +2,9 @@
   "weekOf": "2026-04-15",
   "locationId": "62000100",
   "chain": "King Soopers",
-  "generatedAt": "2026-04-15T22:09:28.284Z",
+  "generatedAt": "2026-04-17T14:10:30.557Z",
   "totalSearched": 60,
-  "totalDeals": 42,
+  "totalDeals": 38,
   "deals": [
     {
       "term": "chard",
@@ -124,7 +124,7 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0079144700004"
     },
     {
-      "term": "grapes",
+      "term": "cherries",
       "name": "Fresh Seedless Red Grapes",
       "upc": "0000000004023",
       "regularPrice": 2.69,
@@ -292,45 +292,6 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001480000010"
     },
     {
-      "term": "pumpkin",
-      "name": "Top Fox® Pop-Roasted Himalayan Salt Pumpkin Seeds",
-      "brand": "Top Fox",
-      "upc": "0086000333192",
-      "regularPrice": 3.99,
-      "promoPrice": 3.49,
-      "savings": 0.5,
-      "savingsPct": 13,
-      "size": "3.5 oz",
-      "category": "Snacks",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0086000333192"
-    },
-    {
-      "term": "hatch green chile",
-      "name": "505 Southwestern® Medium Flame Roasted Hatch Valley Green Chile",
-      "brand": "505 Southwestern",
-      "upc": "0060205010350",
-      "regularPrice": 4.99,
-      "promoPrice": 4.39,
-      "savings": 0.6,
-      "savingsPct": 12,
-      "size": "16 oz",
-      "category": "Snacks",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0060205010350"
-    },
-    {
-      "term": "sweet corn",
-      "name": "Birds Eye Steamfresh Super Sweet Corn, Frozen Vegetables",
-      "brand": "Birds Eye",
-      "upc": "0001450002099",
-      "regularPrice": 1.69,
-      "promoPrice": 1.49,
-      "savings": 0.2,
-      "savingsPct": 12,
-      "size": "10 oz",
-      "category": "Frozen",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001450002099"
-    },
-    {
       "term": "peas",
       "name": "Birds Eye Steamfresh Sweet Peas, Frozen Vegetables",
       "brand": "Birds Eye",
@@ -344,19 +305,6 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001450002100"
     },
     {
-      "term": "beets",
-      "name": "Del Monte Sliced Pickled Beets",
-      "brand": "Del Monte",
-      "upc": "0002400001409",
-      "regularPrice": 2.79,
-      "promoPrice": 2.49,
-      "savings": 0.3,
-      "savingsPct": 11,
-      "size": "16 oz",
-      "category": "Canned & Packaged",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002400001409"
-    },
-    {
       "term": "hatch green chile",
       "name": "Hatch® Mild Green Chile Enchilada Sauce",
       "brand": "Hatch",
@@ -368,6 +316,19 @@
       "size": "15 oz",
       "category": "International",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002818910448"
+    },
+    {
+      "term": "hatch green chile",
+      "name": "Hatch™ Medium Green Chile Enchilada Sauce",
+      "brand": "Hatch",
+      "upc": "0002818973200",
+      "regularPrice": 4.49,
+      "promoPrice": 4.09,
+      "savings": 0.4,
+      "savingsPct": 9,
+      "size": "15 oz",
+      "category": "International",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002818973200"
     },
     {
       "term": "mint",
@@ -472,19 +433,6 @@
       "size": "4 ct / 4 oz",
       "category": "Snacks",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111006377"
-    },
-    {
-      "term": "scallions",
-      "name": "Mila™ Caramelized Scallion Noodles",
-      "brand": "Mila",
-      "upc": "0081013008081",
-      "regularPrice": 7.49,
-      "promoPrice": 6.99,
-      "savings": 0.5,
-      "savingsPct": 7,
-      "size": "5.68 oz",
-      "category": "Frozen",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0081013008081"
     },
     {
       "term": "hatch green chile",

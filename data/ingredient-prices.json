@@ -1,0 +1,205 @@
+{
+  "lastUpdated": "2026-04-17T14:10:30.559Z",
+  "prices": {
+    "chard": {
+      "term": "chard",
+      "name": "Josh Cellars Chardonnay California White Wine",
+      "regularPrice": 18.99,
+      "unit": "750 ml",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "asparagus": {
+      "term": "asparagus",
+      "name": "Pictsweet Farms® Seasoned Vegetables for the Air Fryer Cut Asparagus Spears",
+      "regularPrice": 4.39,
+      "unit": "11 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "watermelon": {
+      "term": "watermelon",
+      "name": "Simply® Watermelon Juice",
+      "regularPrice": 3.39,
+      "unit": "52 fl oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "raspberries": {
+      "term": "raspberries",
+      "name": "Fresh Red Raspberries - 12 OZ Clamshell",
+      "regularPrice": 7.29,
+      "unit": "12 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "zucchini": {
+      "term": "zucchini",
+      "name": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
+      "regularPrice": 6.79,
+      "unit": "9 ct / 9 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "nectarines": {
+      "term": "nectarines",
+      "name": "Polar Nectarine Lemon Flavored Seltzer Water Cans",
+      "regularPrice": 4.99,
+      "unit": "8 pk / 12 fl oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "cherries": {
+      "term": "cherries",
+      "name": "Simple Truth Organic® Dark Sweet Cherries",
+      "regularPrice": 3.49,
+      "unit": "10 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "all-purpose": {
+      "term": "all-purpose",
+      "name": "Lysol All Purpose Cleaner Spray Lemon Breeze",
+      "regularPrice": 5.49,
+      "unit": "32 fl oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "plums": {
+      "term": "plums",
+      "name": "Happy Baby Organics Stage 2 Bananas Plums & Granola Organic Baby Meal Pouch",
+      "regularPrice": 1.89,
+      "unit": "4 fl oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "grapes": {
+      "term": "grapes",
+      "name": "Fresh Cotton Candy Seedless Green Grapes in Bag",
+      "regularPrice": 4.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "eggplant": {
+      "term": "eggplant",
+      "name": "Michael Angelo's® Eggplant Parmigiana Frozen Meal",
+      "regularPrice": 4.99,
+      "unit": "11 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "apricots": {
+      "term": "apricots",
+      "name": "Mariani® Mediterranean Apricots",
+      "regularPrice": 20.99,
+      "unit": "32 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "arugula": {
+      "term": "arugula",
+      "name": "80 Acres Farms® Arugula Microgreens",
+      "regularPrice": 2.99,
+      "unit": "0.75 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "mint": {
+      "term": "mint",
+      "name": "Life Savers Wint-O-Green Breath Mints Hard Candy Bag",
+      "regularPrice": 3.29,
+      "unit": "6.25 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "dill": {
+      "term": "dill",
+      "name": "Litehouse® Freeze Dried Dill",
+      "regularPrice": 6.99,
+      "unit": "0.35 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "applesauce": {
+      "term": "applesauce",
+      "name": "Mott's Applesauce, 4 oz cups, 6 count",
+      "regularPrice": 3.19,
+      "unit": "3.9 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "peas": {
+      "term": "peas",
+      "name": "Birds Eye Steamfresh Sweet Peas, Frozen Vegetables",
+      "regularPrice": 1.69,
+      "unit": "10 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "hatch green chile": {
+      "term": "hatch green chile",
+      "name": "Hatch Mild Chopped Green Chiles",
+      "regularPrice": 7.79,
+      "unit": "27 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "peaches": {
+      "term": "peaches",
+      "name": "Kroger® Yellow Cling Diced Peach Cups in 100% Juice",
+      "regularPrice": 2.99,
+      "unit": "4 ct / 4 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "basil": {
+      "term": "basil",
+      "name": "Gotham Greens® Fresh Basil",
+      "regularPrice": 3.99,
+      "unit": "1.25 oz",
+      "lastSeen": "2026-04-17",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    }
+  }
+}

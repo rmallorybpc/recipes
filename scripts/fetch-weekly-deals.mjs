@@ -1,12 +1,17 @@
 import { readFile, writeFile } from 'fs/promises';
 import https from 'https';
-import { URL, URLSearchParams } from 'url';
+import { URL, URLSearchParams, fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 import { createGunzip } from 'zlib';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const repoRoot = join(__dirname, '..');
 
 const TOKEN_URL = 'https://api.kroger.com/v1/connect/oauth2/token';
 const PRODUCTS_URL = 'https://api.kroger.com/v1/products';
-const OUTPUT_PATH = 'data/weekly-deals.json';
-const INGREDIENT_PRICES_PATH = 'data/ingredient-prices.json';
+const OUTPUT_PATH = join(repoRoot, 'data', 'weekly-deals.json');
+const INGREDIENT_PRICES_PATH = join(repoRoot, 'data', 'ingredient-prices.json');
 const SEASONAL_PATH = 'data/seasonal-colorado.json';
 const RECIPES_PATH = 'data/recipes-with-ingredients.json';
 
