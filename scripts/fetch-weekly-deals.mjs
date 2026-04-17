@@ -15,6 +15,45 @@ const INGREDIENT_PRICES_PATH = join(repoRoot, 'data', 'ingredient-prices.json');
 const SEASONAL_PATH = 'data/seasonal-colorado.json';
 const RECIPES_PATH = 'data/recipes-with-ingredients.json';
 
+const CHAIN_LOCATIONS = [
+  {
+    chain: 'HARRIS TEETER',
+    locationId: '00500113',
+    name: 'Harris Teeter Charlotte Uptown',
+    outputFile: 'data/deals-harris-teeter.json'
+  },
+  {
+    chain: 'RALPHS',
+    locationId: '70100255',
+    name: 'Ralphs Los Angeles',
+    outputFile: 'data/deals-ralphs.json'
+  },
+  {
+    chain: 'FRED MEYER',
+    locationId: '68200172',
+    name: 'Fred Meyer Portland',
+    outputFile: 'data/deals-fred-meyer.json'
+  },
+  {
+    chain: 'SMITHS',
+    locationId: '70900631',
+    name: 'Smith\'s Salt Lake City',
+    outputFile: 'data/deals-smiths.json'
+  },
+  {
+    chain: 'FRYS',
+    locationId: '62100013',
+    name: 'Fry\'s Phoenix',
+    outputFile: 'data/deals-frys.json'
+  },
+  {
+    chain: 'MARIANOS',
+    locationId: '62000526',
+    name: 'Mariano\'s Chicago',
+    outputFile: 'data/deals-marianos.json'
+  }
+];
+
 const STOPWORDS = new Set([
   'the',
   'and',
@@ -40,7 +79,7 @@ const UNIT_WORD_PATTERN = /^(?:cups?|tbsp|tsp|oz|lb|lbs|pounds?|cans?|cloves?|sl
 const LEADING_QUANTITY_PATTERN = /^\s*(?:(?:\d+\s+\d\/\d)|(?:\d+\/?\d*)|(?:\d*\.\d+)|(?:\d+-\d+)|(?:[¼½¾⅓⅔⅛⅜⅝⅞]))\s*/;
 
 function validateEnvironment() {
-  const requiredVars = ['KROGER_CLIENT_ID', 'KROGER_CLIENT_SECRET', 'KROGER_LOCATION_ID'];
+  const requiredVars = ['KROGER_CLIENT_ID', 'KROGER_CLIENT_SECRET'];
   const missing = [];
 
   for (const varName of requiredVars) {
@@ -53,7 +92,7 @@ function validateEnvironment() {
 
   if (missing.length > 0) {
     console.error(
-      'To run locally: KROGER_CLIENT_ID=xxx KROGER_CLIENT_SECRET=xxx KROGER_LOCATION_ID=62000100 node ./scripts/fetch-weekly-deals.mjs'
+      'To run locally: KROGER_CLIENT_ID=xxx KROGER_CLIENT_SECRET=xxx [KROGER_LOCATION_ID=62000100] node ./scripts/fetch-weekly-deals.mjs'
     );
     process.exit(1);
   }
@@ -349,12 +388,39 @@ async function buildTermList() {
   return buildSearchTerms(seasonalProduceKeys, recipeTerms);
 }
 
+async function fetchDealsForLocation(accessToken, locationId, searchTerms, outputPath, locationName) {
+  const deals = await fetchDealsByTerms(searchTerms, locationId, accessToken);
+  deals.sort((a, b) => {
+    if (b.savingsPct !== a.savingsPct) {
+      return b.savingsPct - a.savingsPct;
+    }
+    return String(a.name || '').localeCompare(String(b.name || ''));
+  });
+
+  const weekOf = computeWeekOf();
+  const output = {
+    weekOf,
+    locationId,
+    chain: locationName.includes('King Soopers') ? 'King Soopers' : locationName,
+    generatedAt: new Date().toISOString(),
+    totalSearched: searchTerms.length,
+    totalDeals: deals.length,
+    deals
+  };
+
+  await writeFile(join(repoRoot, outputPath), `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+
+  return {
+    dealsFound: deals.length,
+    weekOf
+  };
+}
+
 async function main() {
   validateEnvironment();
 
   const clientId = process.env.KROGER_CLIENT_ID.trim();
   const clientSecret = process.env.KROGER_CLIENT_SECRET.trim();
-  const locationId = process.env.KROGER_LOCATION_ID.trim();
 
   let accessToken;
   try {
@@ -370,36 +436,29 @@ async function main() {
 
   console.log('Authentication successful.');
 
-  const terms = await buildTermList();
-  console.log(`Built search list: ${terms.length} terms`);
+  const searchTerms = await buildTermList();
+  console.log(`Built search list: ${searchTerms.length} terms`);
 
-  const deals = await fetchDealsByTerms(terms, locationId, accessToken);
-  deals.sort((a, b) => {
-    if (b.savingsPct !== a.savingsPct) {
-      return b.savingsPct - a.savingsPct;
-    }
-    return String(a.name || '').localeCompare(String(b.name || ''));
-  });
+  const defaultResult = await fetchDealsForLocation(
+    accessToken,
+    process.env.KROGER_LOCATION_ID || '62000100',
+    searchTerms,
+    'data/weekly-deals.json',
+    'King Soopers Belleview Square'
+  );
 
-  const weekOf = computeWeekOf();
-  const output = {
-    weekOf,
-    locationId,
-    chain: 'King Soopers',
-    generatedAt: new Date().toISOString(),
-    totalSearched: terms.length,
-    totalDeals: deals.length,
-    deals
-  };
-
-  await writeFile(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+  const defaultDealsRaw = await readFile(OUTPUT_PATH, 'utf8');
+  const defaultDealsParsed = JSON.parse(defaultDealsRaw);
+  const deals = Array.isArray(defaultDealsParsed?.deals) ? defaultDealsParsed.deals : [];
+  const weekOf = defaultResult.weekOf;
+  const defaultLocationId = process.env.KROGER_LOCATION_ID || '62000100';
 
   console.log('');
-  console.log('===== Kroger Deals Fetch Complete =====');
-  console.log(`Terms searched: ${terms.length}`);
-  console.log(`On-sale items found: ${deals.length}`);
+  console.log('===== Kroger Deals Fetch (Default) Complete =====');
+  console.log(`Terms searched: ${searchTerms.length}`);
+  console.log(`On-sale items found: ${defaultResult.dealsFound}`);
   console.log(`Week of: ${weekOf}`);
-  console.log(`Location: ${locationId}`);
+  console.log(`Location: ${defaultLocationId}`);
   console.log('Output: data/weekly-deals.json');
 
   // --- INGREDIENT PRICES SIDE OUTPUT ---
@@ -468,6 +527,42 @@ async function main() {
   console.log(`Ingredient prices updated: ${touchedTerms.size} terms with actual Kroger prices`);
   console.log('Output: data/ingredient-prices.json');
   console.log('');
+
+  const chainResults = new Map();
+
+  console.log('\n--- Fetching chain-specific deals ---');
+
+  for (const chain of CHAIN_LOCATIONS) {
+    try {
+      console.log(`\nFetching deals for ${chain.name}...`);
+      const result = await fetchDealsForLocation(
+        accessToken,
+        chain.locationId,
+        searchTerms,
+        chain.outputFile,
+        chain.name
+      );
+      chainResults.set(chain.chain, result.dealsFound);
+      console.log(`${chain.name}: ${result.dealsFound} deals found`);
+    } catch (err) {
+      console.error(`Failed to fetch deals for ${chain.name}: ${err.message}`);
+      console.error('Continuing with remaining chains...');
+    }
+
+    // Rate limit pause between chains
+    await new Promise((r) => setTimeout(r, 1000));
+  }
+
+  console.log('');
+  console.log('===== Multi-Chain Deals Fetch Complete =====');
+  console.log(`Default location (King Soopers): ${defaultResult.dealsFound} deals`);
+  console.log(`Harris Teeter: ${chainResults.get('HARRIS TEETER') ?? 0} deals`);
+  console.log(`Ralphs: ${chainResults.get('RALPHS') ?? 0} deals`);
+  console.log(`Fred Meyer: ${chainResults.get('FRED MEYER') ?? 0} deals`);
+  console.log(`Smith's: ${chainResults.get('SMITHS') ?? 0} deals`);
+  console.log(`Fry's: ${chainResults.get('FRYS') ?? 0} deals`);
+  console.log(`Mariano's: ${chainResults.get('MARIANOS') ?? 0} deals`);
+  console.log('All output files written to data/');
 }
 
 main().catch((error) => {

@@ -603,6 +603,25 @@
       const LOCATION_BY_ID = {
         "62000100": "Belleview Square"
       };
+      const CHAIN_DEALS_MAP = {
+        "KING SOOPERS": "./data/weekly-deals.json",
+        "HARRIS TEETER": "./data/deals-harris-teeter.json",
+        "RALPHS": "./data/deals-ralphs.json",
+        "FRED MEYER": "./data/deals-fred-meyer.json",
+        "QFC": "./data/deals-fred-meyer.json",
+        "SMITHS": "./data/deals-smiths.json",
+        "SMITH'S": "./data/deals-smiths.json",
+        "FRYS": "./data/deals-frys.json",
+        "FRY'S": "./data/deals-frys.json",
+        "MARIANOS": "./data/deals-marianos.json",
+        "MARIANO'S": "./data/deals-marianos.json",
+        "DILLONS": "./data/weekly-deals.json",
+        "PICK N SAVE": "./data/weekly-deals.json",
+        "METRO MARKET": "./data/weekly-deals.json",
+        "GERBES": "./data/weekly-deals.json",
+        "KROGER": "./data/weekly-deals.json",
+        "DEFAULT": "./data/weekly-deals.json"
+      };
 
       const storeContextBar = document.getElementById("storeContextBar");
       const dealSearch = document.getElementById("dealSearch");
@@ -622,6 +641,7 @@
       let locationsData = null;
       let userLocationId = null;
       let userStoreName = null;
+      let dealsData = null;
 
       function escapeHtml(value) {
         return String(value ?? "")
@@ -679,28 +699,97 @@
         return LOCATION_BY_ID[String(data.locationId || "")] || "Unknown Location";
       }
 
+      function getDealsFileForChain(chainName) {
+        if (!chainName) return CHAIN_DEALS_MAP["DEFAULT"];
+        const normalized = chainName.toUpperCase()
+          .replace(/[^A-Z0-9 ]/g, "")
+          .trim();
+        for (const key of Object.keys(CHAIN_DEALS_MAP)) {
+          if (normalized.includes(key) || key.includes(normalized)) {
+            return CHAIN_DEALS_MAP[key];
+          }
+        }
+        return CHAIN_DEALS_MAP["DEFAULT"];
+      }
+
+      function updateStoreContextBar(storeName, isDefault, weekOf) {
+        const bar = document.getElementById("storeContextBar") ||
+                    document.querySelector('[class*="contextBar"]') ||
+                    document.querySelector('[class*="storeBar"]');
+
+        if (!bar) return;
+
+        const formattedDate = weekOf
+          ? new Date(weekOf).toLocaleDateString("en-US",
+              { month: "long", day: "numeric", year: "numeric" })
+          : "this week";
+
+        if (isDefault) {
+          bar.innerHTML = `
+            <span class="storeBarName">King Soopers Belleview Square</span>
+            <span class="storeBarMeta">Week of ${formattedDate}</span>
+            <span class="storeBarNote">
+              Enter your zip code above to find your nearest store.
+            </span>
+          `;
+        } else {
+          bar.innerHTML = `
+            <span class="storeBarName">${storeName}</span>
+            <span class="storeBarMeta">Week of ${formattedDate}</span>
+            <span class="storeBarNote">
+              Showing deals for your nearest Kroger-family store.
+            </span>
+          `;
+        }
+      }
+
       function populateStoreContext(data) {
         const chain = data.chain || "King Soopers";
         const locationName = locationNameFromJson(data);
-        const weekText = formatWeekOf(data.weekOf);
-        const count = Number(data.totalDeals) || 0;
+        const storeName = `${chain} · ${locationName}`;
 
         if (userStoreName) {
-          storeContextBar.innerHTML = `
-            <strong>${escapeHtml(userStoreName)}</strong>
-            <span>${escapeHtml(weekText)}</span>
-            <span>${count} deals this week</span>
-            <span class="storeContextNote">Nearest store match shown above. Deals displayed are still for King Soopers Belleview Square (default).</span>
-          `;
+          updateStoreContextBar(escapeHtml(userStoreName), false, data.weekOf);
           return;
         }
 
-        storeContextBar.innerHTML = `
-          <strong>${escapeHtml(chain)} · ${escapeHtml(locationName)}</strong>
-          <span>${escapeHtml(weekText)}</span>
-          <span>${count} deals this week</span>
-          <span class="storeContextNote">Showing deals for King Soopers Belleview Square (default). Enter your zip code above to find your store.</span>
-        `;
+        updateStoreContextBar(escapeHtml(storeName), true, data.weekOf);
+      }
+
+      async function loadDealsForChain(chainName, storeName) {
+        const dealsFile = getDealsFileForChain(chainName);
+        const isDefault = dealsFile === "./data/weekly-deals.json";
+
+        try {
+          const response = await fetch(dealsFile);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const data = await response.json();
+
+          // Update the global dealsData variable used by the
+          // existing rendering functions
+          dealsData = data;
+
+          const allDeals = Array.isArray(data.deals) ? data.deals : [];
+          baseDeals = allDeals.filter((deal) => !EXCLUDED_CATEGORIES.has(deal.category));
+          buildTermDealMap(baseDeals);
+          buildDealMatches(baseDeals, seasonalRecipes);
+          populateCategoryFilter(baseDeals);
+
+          // Re-render the deals with the new data
+          renderDeals(dealsData.deals || []);
+          applyFilters();
+          renderRecipeWeekSection();
+
+          // Update the store context bar
+          updateStoreContextBar(storeName, isDefault, data.weekOf);
+
+          console.log(`Loaded ${data.deals?.length || 0} deals for ${storeName}`);
+        } catch (err) {
+          console.warn(`Could not load chain deals file: ${err.message}`);
+          console.warn("Falling back to default King Soopers deals");
+          // Fall back to default — dealsData already loaded on init
+          updateStoreContextBar(storeName, true, dealsData?.weekOf);
+        }
       }
 
       function handleZipLookup() {
@@ -751,8 +840,10 @@
         localStorage.setItem("recipes_user_zip", zip);
         localStorage.setItem("recipes_user_locationId", location.locationId);
         localStorage.setItem("recipes_user_store", userStoreName);
+        localStorage.setItem("recipes_user_chain", location.chain);
 
         showStoreResult(userStoreName, zip, true);
+        loadDealsForChain(location.chain, userStoreName);
       }
 
       function showStoreResult(message, zip, isSuccess) {
@@ -763,7 +854,8 @@
             <span class="storeResultIcon">📍</span>
             <span class="storeResultName">${escapeHtml(message)}</span>
             <span class="storeResultNote">
-              Deals shown are fetched weekly for this store.
+              Showing this week's deals for your nearest Kroger-family store.
+              Updated every Wednesday.
               Your store is saved for future visits.
             </span>
             <button class="storeClearBtn" id="clearStoreBtn">Change store</button>
@@ -774,6 +866,7 @@
             localStorage.removeItem("recipes_user_zip");
             localStorage.removeItem("recipes_user_locationId");
             localStorage.removeItem("recipes_user_store");
+            localStorage.removeItem("recipes_user_chain");
             userLocationId = null;
             userStoreName = null;
             document.getElementById("zipInput").value = "";
@@ -781,6 +874,7 @@
             el.className = "storeResult";
             if (window.__weeklyDealsData) {
               populateStoreContext(window.__weeklyDealsData);
+              loadDealsForChain("KING SOOPERS", "King Soopers Belleview Square");
             }
           });
         } else {
@@ -1055,6 +1149,7 @@
 
         const weeklyData = weeklyResult.value;
         window.__weeklyDealsData = weeklyData;
+          dealsData = weeklyData;
         const allDeals = Array.isArray(weeklyData.deals) ? weeklyData.deals : [];
         baseDeals = allDeals.filter((deal) => !EXCLUDED_CATEGORIES.has(deal.category));
 
@@ -1079,6 +1174,12 @@
           userStoreName = savedStoreName;
           document.getElementById("zipInput").value = savedZip;
           showStoreResult(savedStoreName, savedZip, true);
+
+          // Re-load chain deals for the saved store
+          const savedChain = localStorage.getItem("recipes_user_chain");
+          if (savedChain) {
+            loadDealsForChain(savedChain, savedStoreName);
+          }
         }
 
         populateStoreContext(weeklyData);

@@ -43,8 +43,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet data/weekly-deals.json || (
-            git add data/weekly-deals.json &&
-            git commit -m "chore: update weekly deals [skip ci]" &&
-            git push
-          )
+          git add data/weekly-deals.json \
+                  data/ingredient-prices.json \
+                  data/deals-harris-teeter.json \
+                  data/deals-ralphs.json \
+                  data/deals-fred-meyer.json \
+                  data/deals-smiths.json \
+                  data/deals-frys.json \
+                  data/deals-marianos.json
+          git diff --staged --quiet || git commit -m "chore: update weekly deals for all chains [skip ci]"
+          git diff --staged --quiet || git push
