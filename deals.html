@@ -511,10 +511,11 @@
           <div id="storeResult" class="storeResult" aria-live="polite"></div>
         </div>
         <p class="coverageNote" id="coverageNote">
-          Zip code lookup covers 2,040 US zip codes across major metro
-          areas. Kroger-family stores include King Soopers, Ralphs,
-          Fred Meyer, Fry's, Harris Teeter, Smith's, Mariano's,
-          Dillons, Pick 'n Save, and QFC.
+          Zip code lookup covers 2,040+ US zip codes across major metro
+          areas. Kroger-family stores operate in 35 states — if your area
+          is not covered, the deals page shows the default King Soopers
+          location. Kroger does not operate in New England, most of the
+          Mountain West, or the Dakotas.
           <span id="coverageStats"></span>
         </p>
         <nav class="subNav" aria-label="Pages">
@@ -727,9 +728,12 @@
 
         if (location === null) {
           showStoreResult(
-            `No Kroger-family store found within 25 miles of ${zip}. ` +
-            `Kroger-family stores include King Soopers, Ralphs, Fred Meyer, ` +
-            `Fry's, Harris Teeter, Smith's, Mariano's, and others.`,
+            `No Kroger-family store found within 25 miles of zip code ${zip}. ` +
+            `Kroger operates in 35 states — if you are in Montana, Wyoming, ` +
+            `the Dakotas, New England, or other areas without Kroger coverage, ` +
+            `deals shown are for the default King Soopers location in Colorado. ` +
+            `Kroger-family chains include King Soopers, Ralphs, Fred Meyer, ` +
+            `Fry's, Harris Teeter, Smith's, and Mariano's.`,
             null,
             false
           );
