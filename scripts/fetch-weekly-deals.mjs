@@ -17,39 +17,39 @@ const RECIPES_PATH = 'data/recipes-with-ingredients.json';
 
 const CHAIN_LOCATIONS = [
   {
-    chain: 'HARRIS TEETER',
-    locationId: '00500113',
-    name: 'Harris Teeter Charlotte Uptown',
+    chain: 'HART',
+    locationId: '09700205',
+    name: 'Harris Teeter - Charlotte NC',
     outputFile: 'data/deals-harris-teeter.json'
   },
   {
     chain: 'RALPHS',
     locationId: '70100255',
-    name: 'Ralphs Los Angeles',
+    name: 'Ralphs - Los Angeles CA',
     outputFile: 'data/deals-ralphs.json'
   },
   {
-    chain: 'FRED MEYER',
-    locationId: '68200172',
-    name: 'Fred Meyer Portland',
+    chain: 'FRED',
+    locationId: '70100360',
+    name: 'Fred Meyer - Portland OR',
     outputFile: 'data/deals-fred-meyer.json'
   },
   {
     chain: 'SMITHS',
-    locationId: '70900631',
-    name: 'Smith\'s Salt Lake City',
+    locationId: '70600094',
+    name: "Smith's Marketplace - Salt Lake City UT",
     outputFile: 'data/deals-smiths.json'
   },
   {
     chain: 'FRYS',
-    locationId: '62100013',
-    name: 'Fry\'s Phoenix',
+    locationId: '66000088',
+    name: "Fry's Food And Drug - Phoenix AZ",
     outputFile: 'data/deals-frys.json'
   },
   {
     chain: 'MARIANOS',
-    locationId: '62000526',
-    name: 'Mariano\'s Chicago',
+    locationId: '53100503',
+    name: "Mariano's - Chicago IL",
     outputFile: 'data/deals-marianos.json'
   }
 ];
