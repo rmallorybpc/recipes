@@ -15,6 +15,186 @@ const INGREDIENT_PRICES_PATH = join(repoRoot, 'data', 'ingredient-prices.json');
 const SEASONAL_PATH = 'data/seasonal-colorado.json';
 const RECIPES_PATH = 'data/recipes-with-ingredients.json';
 
+const SEARCH_TERMS = [
+  // PROTEINS - chicken
+  'chicken breast',
+  'chicken thighs',
+  'chicken wings',
+  'whole chicken',
+  'ground chicken',
+
+  // PROTEINS - beef
+  'ground beef',
+  'beef steak',
+  'sirloin',
+  'ribeye',
+  'short ribs',
+  'beef chuck',
+  'flank steak',
+
+  // PROTEINS - pork
+  'ground pork',
+  'pork chops',
+  'pork tenderloin',
+  'pork shoulder',
+  'bacon',
+  'Italian sausage',
+  'breakfast sausage',
+  'ham',
+  'prosciutto',
+
+  // PROTEINS - turkey
+  'ground turkey',
+  'turkey breast',
+
+  // PROTEINS - lamb
+  'ground lamb',
+  'lamb chops',
+
+  // PROTEINS - seafood
+  'salmon',
+  'shrimp',
+  'tilapia',
+  'cod',
+  'tuna',
+  'halibut',
+  'mahi mahi',
+  'sea bass',
+  'clams',
+  'crab',
+
+  // DAIRY
+  'butter',
+  'eggs',
+  'whole milk',
+  'heavy cream',
+  'sour cream',
+  'cream cheese',
+  'Greek yogurt',
+  'ricotta',
+  'mozzarella',
+  'Parmesan',
+  'cheddar',
+  'feta',
+  'shredded cheese',
+  'half and half',
+  'paneer',
+  'coconut milk',
+
+  // PANTRY - pasta and grains
+  'pasta',
+  'spaghetti',
+  'penne',
+  'linguine',
+  'rice',
+  'basmati rice',
+  'jasmine rice',
+  'wild rice',
+  'quinoa',
+  'farro',
+  'rice noodles',
+  'egg noodles',
+
+  // PANTRY - canned and jarred
+  'canned tomatoes',
+  'crushed tomatoes',
+  'tomato sauce',
+  'tomato paste',
+  'chicken broth',
+  'beef broth',
+  'vegetable broth',
+  'black beans',
+  'kidney beans',
+  'white beans',
+  'chickpeas',
+  'pinto beans',
+  'lentils',
+  'red enchilada sauce',
+
+  // PANTRY - oils and condiments
+  'olive oil',
+  'vegetable oil',
+  'sesame oil',
+  'soy sauce',
+  'oyster sauce',
+  'fish sauce',
+  'hoisin sauce',
+  'Worcestershire sauce',
+  'hot sauce',
+  'sriracha',
+  'tahini',
+  'peanut butter',
+  'honey',
+  'apple cider vinegar',
+  'rice vinegar',
+
+  // PANTRY - baking and dry goods
+  'all-purpose flour',
+  'breadcrumbs',
+  'panko',
+  'baking powder',
+  'baking soda',
+  'brown sugar',
+  'tortillas',
+  'pita bread',
+  'phyllo dough',
+
+  // PRODUCE - vegetables
+  'asparagus',
+  'broccoli',
+  'brussels sprouts',
+  'cabbage',
+  'carrots',
+  'cauliflower',
+  'celery',
+  'corn',
+  'cucumbers',
+  'eggplant',
+  'garlic',
+  'green beans',
+  'jalapeño',
+  'kale',
+  'lettuce',
+  'mushrooms',
+  'onions',
+  'peas',
+  'peppers',
+  'potatoes',
+  'spinach',
+  'sweet potato',
+  'tomatoes',
+  'cherry tomatoes',
+  'zucchini',
+  'butternut squash',
+  'avocado',
+  'baby spinach',
+  'scallions',
+  'ginger',
+  'bok choy',
+
+  // PRODUCE - fruit
+  'apples',
+  'bananas',
+  'blueberries',
+  'lemons',
+  'limes',
+  'mangoes',
+  'oranges',
+  'peaches',
+  'pears',
+  'raspberries',
+  'strawberries',
+  'watermelon',
+
+  // HERBS
+  'basil',
+  'cilantro',
+  'parsley',
+  'thyme',
+  'dill',
+  'rosemary'
+];
+
 const CHAIN_LOCATIONS = [
   {
     chain: 'HART',
@@ -205,40 +385,9 @@ function extractRecipeTerms(recipesData) {
 }
 
 function buildSearchTerms(seasonalProduceKeys, recipeTerms) {
-  const seasonalSet = new Set(
-    seasonalProduceKeys
-      .map((term) => String(term).toLowerCase().trim())
-      .filter((term) => term.length >= 3 && !STOPWORDS.has(term))
-  );
-
-  const recipeSet = new Set(
-    recipeTerms
-      .map((term) => String(term).toLowerCase().trim())
-      .filter((term) => term.length >= 3 && !STOPWORDS.has(term))
-  );
-
-  const combined = new Set([...seasonalSet, ...recipeSet]);
-  const both = [];
-  const onlySeasonal = [];
-  const onlyRecipe = [];
-
-  for (const term of combined) {
-    const inSeasonal = seasonalSet.has(term);
-    const inRecipe = recipeSet.has(term);
-    if (inSeasonal && inRecipe) {
-      both.push(term);
-    } else if (inSeasonal) {
-      onlySeasonal.push(term);
-    } else {
-      onlyRecipe.push(term);
-    }
-  }
-
-  both.sort((a, b) => a.localeCompare(b));
-  onlySeasonal.sort((a, b) => a.localeCompare(b));
-  onlyRecipe.sort((a, b) => a.localeCompare(b));
-
-  return [...both, ...onlySeasonal, ...onlyRecipe].slice(0, 60);
+  void seasonalProduceKeys;
+  void recipeTerms;
+  return [...SEARCH_TERMS];
 }
 
 function pickImageUrl(images) {
@@ -437,7 +586,7 @@ async function main() {
   console.log('Authentication successful.');
 
   const searchTerms = await buildTermList();
-  console.log(`Built search list: ${searchTerms.length} terms`);
+  console.log(`Built search list: ${SEARCH_TERMS.length} terms`);
 
   const defaultResult = await fetchDealsForLocation(
     accessToken,
