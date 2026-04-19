@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T18:04:28.916Z",
+  "lastUpdated": "2026-04-19T16:37:08.072Z",
   "prices": {
     "chard": {
       "term": "chard",
@@ -16,7 +16,7 @@
       "name": "Pictsweet Farms® Seasoned Vegetables for the Air Fryer Cut Asparagus Spears",
       "regularPrice": 4.39,
       "unit": "11 oz",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
       "weekOf": "2026-04-15",
       "source": "kroger_api",
       "confidence": "actual"
@@ -26,7 +26,7 @@
       "name": "Simply® Watermelon Juice",
       "regularPrice": 3.39,
       "unit": "52 fl oz",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
       "weekOf": "2026-04-15",
       "source": "kroger_api",
       "confidence": "actual"
@@ -36,17 +36,17 @@
       "name": "Fresh Red Raspberries - 12 OZ Clamshell",
       "regularPrice": 7.29,
       "unit": "12 oz",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
       "weekOf": "2026-04-15",
       "source": "kroger_api",
       "confidence": "actual"
     },
     "zucchini": {
       "term": "zucchini",
-      "name": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
-      "regularPrice": 6.79,
-      "unit": "9 ct / 9 oz",
-      "lastSeen": "2026-04-17",
+      "name": "Smart Ones Zucchini Zesty Green Chile Sour Cream Sauce & Mozzarella Cheese Santa Fe Rice & Beans",
+      "regularPrice": 2.49,
+      "unit": "9 oz",
+      "lastSeen": "2026-04-19",
       "weekOf": "2026-04-15",
       "source": "kroger_api",
       "confidence": "actual"
@@ -106,7 +106,7 @@
       "name": "Michael Angelo's® Eggplant Parmigiana Frozen Meal",
       "regularPrice": 4.99,
       "unit": "11 oz",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
       "weekOf": "2026-04-15",
       "source": "kroger_api",
       "confidence": "actual"
@@ -146,7 +146,7 @@
       "name": "Litehouse® Freeze Dried Dill",
       "regularPrice": 6.99,
       "unit": "0.35 oz",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
       "weekOf": "2026-04-15",
       "source": "kroger_api",
       "confidence": "actual"
@@ -166,7 +166,7 @@
       "name": "Birds Eye Steamfresh Sweet Peas, Frozen Vegetables",
       "regularPrice": 1.69,
       "unit": "10 oz",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
       "weekOf": "2026-04-15",
       "source": "kroger_api",
       "confidence": "actual"
@@ -186,7 +186,7 @@
       "name": "Kroger® Yellow Cling Diced Peach Cups in 100% Juice",
       "regularPrice": 2.99,
       "unit": "4 ct / 4 oz",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
       "weekOf": "2026-04-15",
       "source": "kroger_api",
       "confidence": "actual"
@@ -196,7 +196,577 @@
       "name": "Gotham Greens® Fresh Basil",
       "regularPrice": 3.99,
       "unit": "1.25 oz",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "sirloin": {
+      "term": "sirloin",
+      "name": "Choice Beef Petite Boneless Sirloin",
+      "regularPrice": 13.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "pork tenderloin": {
+      "term": "pork tenderloin",
+      "name": "Kroger® Fresh Natural Pork Loin Boneless",
+      "regularPrice": 2.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "ham": {
+      "term": "ham",
+      "name": "Simple Truth Organic® Honey Ham Uncured Sliced",
+      "regularPrice": 5.49,
+      "unit": "6 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "linguine": {
+      "term": "linguine",
+      "name": "De Cecco No. 7 Linguine",
+      "regularPrice": 3.99,
+      "unit": "16 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "pasta": {
+      "term": "pasta",
+      "name": "American Beauty™ Long Spaghetti Pasta",
+      "regularPrice": 1.69,
+      "unit": "16 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "farro": {
+      "term": "farro",
+      "name": "RiceSelect Orzo Pasta, Non-GMO",
+      "regularPrice": 9.99,
+      "unit": "26.5 onz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "crushed tomatoes": {
+      "term": "crushed tomatoes",
+      "name": "Simple Truth Organic® No Salt Added Crushed Tomatoes",
+      "regularPrice": 1.5,
+      "unit": "14.5 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "canned tomatoes": {
+      "term": "canned tomatoes",
+      "name": "Muir Glen Organic Whole Peeled Canned Tomatoes",
+      "regularPrice": 4.99,
+      "unit": "28 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "bananas": {
+      "term": "bananas",
+      "name": "Simple Truth® Berries & Banana Trail Mix",
+      "regularPrice": 8.99,
+      "unit": "16 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "feta": {
+      "term": "feta",
+      "name": "President Feta Cheese Chunk 8 oz",
+      "regularPrice": 7.49,
+      "unit": "8 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "pork shoulder": {
+      "term": "pork shoulder",
+      "name": "Simple Truth® Natural Lamb Shoulder",
+      "regularPrice": 12.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "wild rice": {
+      "term": "wild rice",
+      "name": "Minute® Gluten Free Ready to Serve Brown & Wild Rice",
+      "regularPrice": 2.29,
+      "unit": "8.8 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "bacon": {
+      "term": "bacon",
+      "name": "Oscar Mayer Original Center Cut Bacon",
+      "regularPrice": 7.99,
+      "unit": "12 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "basmati rice": {
+      "term": "basmati rice",
+      "name": "Kroger® Basmati Rice",
+      "regularPrice": 5.49,
+      "unit": "2 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "ground turkey": {
+      "term": "ground turkey",
+      "name": "Kroger® 85/15 Fresh Ground Turkey Tray 1 LB",
+      "regularPrice": 4.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "jasmine rice": {
+      "term": "jasmine rice",
+      "name": "Mahatma Thai Fragrant Jasmine Rice, Uncooked Rice, 32 oz (907g)",
+      "regularPrice": 4.49,
+      "unit": "2 lbr",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "soy sauce": {
+      "term": "soy sauce",
+      "name": "Kikkoman® Soy Sauce",
+      "regularPrice": 6.99,
+      "unit": "20 fl oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "rice": {
+      "term": "rice",
+      "name": "Mahatma Gluten-Free Extra Long Grain White Rice",
+      "regularPrice": 3.29,
+      "unit": "2 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "beef chuck": {
+      "term": "beef chuck",
+      "name": "Choice Beef Chuck Blade Steak Family Pack",
+      "regularPrice": 11.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "shrimp": {
+      "term": "shrimp",
+      "name": "Kroger® Extra Large Shrimp Cooked Peeled and Deveined Tail On BIG DEAL!",
+      "regularPrice": 19.98,
+      "unit": "2 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "chicken broth": {
+      "term": "chicken broth",
+      "name": "Kroger® 99% Fat Free Chicken Broth",
+      "regularPrice": 1.59,
+      "unit": "32 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "beef broth": {
+      "term": "beef broth",
+      "name": "Kroger® Fat Free Beef Broth",
+      "regularPrice": 1.59,
+      "unit": "32 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "eggs": {
+      "term": "eggs",
+      "name": "Simple Truth™ Natural Cage Free Grade AA Large Brown Eggs",
+      "regularPrice": 3.99,
+      "unit": "12 ct",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "ground pork": {
+      "term": "ground pork",
+      "name": "Carando® Hot Sicilian Ground Sausage",
+      "regularPrice": 6.49,
+      "unit": "16 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "mahi mahi": {
+      "term": "mahi mahi",
+      "name": "Great American Seafood Wild Caught Mahi Mahi",
+      "regularPrice": 29.99,
+      "unit": "32 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "tuna": {
+      "term": "tuna",
+      "name": "StarKist Light Wild Caught Tuna in Water Pouch",
+      "regularPrice": 1.5,
+      "unit": "2.6 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "crab": {
+      "term": "crab",
+      "name": "Kroger® Crab Select™ Imitation Crab Meat Flake Style",
+      "regularPrice": 6.29,
+      "unit": "16 ounces",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "quinoa": {
+      "term": "quinoa",
+      "name": "Kroger® Quinoa",
+      "regularPrice": 4.39,
+      "unit": "16 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "apple cider vinegar": {
+      "term": "apple cider vinegar",
+      "name": "Bragg® Organic Apple Cider Vinegar with the Mother",
+      "regularPrice": 4.99,
+      "unit": "16 fl oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "ground beef": {
+      "term": "ground beef",
+      "name": "Kroger® 80/20 Ground Beef Tray 3 LB",
+      "regularPrice": 21.99,
+      "unit": "3 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "jalapeño": {
+      "term": "jalapeño",
+      "name": "Mt. Olive Diced Jalapeño Peppers",
+      "regularPrice": 2.69,
+      "unit": "12 fl oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "tomato sauce": {
+      "term": "tomato sauce",
+      "name": "Simple Truth Organic® Tomato Sauce",
+      "regularPrice": 1.5,
+      "unit": "15 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "lemons": {
+      "term": "lemons",
+      "name": "Wonderful Seedless Lemons",
+      "regularPrice": 2.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "ricotta": {
+      "term": "ricotta",
+      "name": "Galbani Whole Milk Ricotta Cheese",
+      "regularPrice": 4.99,
+      "unit": "15 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "sriracha": {
+      "term": "sriracha",
+      "name": "Kroger® Sriracha Sauce",
+      "regularPrice": 3.49,
+      "unit": "17 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "whole milk": {
+      "term": "whole milk",
+      "name": "Simple Truth Organic® Vitamin D Whole Milk Half Gallon",
+      "regularPrice": 4.69,
+      "unit": "1/2 gal",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "cod": {
+      "term": "cod",
+      "name": "Kroger® Wild Caught Pacific Cod Fillets Frozen BIG DEAL!",
+      "regularPrice": 17.49,
+      "unit": "32 ounces",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "thyme": {
+      "term": "thyme",
+      "name": "Litehouse™ Instantly Fresh Freeze Dried Thyme",
+      "regularPrice": 6.99,
+      "unit": "0.52 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "penne": {
+      "term": "penne",
+      "name": "De Cecco Penne Rigate Pasta",
+      "regularPrice": 3.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "ground lamb": {
+      "term": "ground lamb",
+      "name": "Ground Bison 90/10- 16 oz",
+      "regularPrice": 11.99,
+      "unit": "front",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "turkey breast": {
+      "term": "turkey breast",
+      "name": "JENNIE-O OVEN READY Boneless Turkey Breast - 2.75 lb.",
+      "regularPrice": 14.99,
+      "unit": "varied wt. 2.75lb (44 oz)",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "brown sugar": {
+      "term": "brown sugar",
+      "name": "Kroger® Dark Brown Sugar",
+      "regularPrice": 2.29,
+      "unit": "32 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "red enchilada sauce": {
+      "term": "red enchilada sauce",
+      "name": "Hatch® Organic Mild Red Enchilada Sauce",
+      "regularPrice": 4.49,
+      "unit": "14 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "parmesan": {
+      "term": "parmesan",
+      "name": "Kroger® Parmesan Shredded Cheese",
+      "regularPrice": 2.49,
+      "unit": "6 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "cream cheese": {
+      "term": "cream cheese",
+      "name": "Philadelphia Original Cream Cheese Spread",
+      "regularPrice": 4.49,
+      "unit": "8 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "baby spinach": {
+      "term": "baby spinach",
+      "name": "Happy Baby Organics Teethers Pea & Spinach Organic Baby Snack Box",
+      "regularPrice": 4.99,
+      "unit": "1.7 fl oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "olive oil": {
+      "term": "olive oil",
+      "name": "Graza® Sizzle Extra Virgin Olive Cooking Oil",
+      "regularPrice": 15.29,
+      "unit": "25.3 fl oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "chicken thighs": {
+      "term": "chicken thighs",
+      "name": "Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller Pack BIG DEAL!",
+      "regularPrice": 4.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "egg noodles": {
+      "term": "egg noodles",
+      "name": "American Beauty Extra Wide Egg Noodles",
+      "regularPrice": 3.29,
+      "unit": "12 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "prosciutto": {
+      "term": "prosciutto",
+      "name": "Private Selection® Old World Prosciutto Deli Sliced",
+      "regularPrice": 6.49,
+      "unit": "3 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "chicken wings": {
+      "term": "chicken wings",
+      "name": "Kroger® Raw Frozen Bone In Skin On Chicken Wings Party Size",
+      "regularPrice": 13.99,
+      "unit": "4 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "shredded cheese": {
+      "term": "shredded cheese",
+      "name": "Kroger® Colby Jack Shredded Cheese",
+      "regularPrice": 2.49,
+      "unit": "8 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "vegetable broth": {
+      "term": "vegetable broth",
+      "name": "Kroger® Fat Free Vegetable Broth",
+      "regularPrice": 1.59,
+      "unit": "32 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "cheddar": {
+      "term": "cheddar",
+      "name": "Kroger® Sharp Cheddar Block Cheese",
+      "regularPrice": 3.69,
+      "unit": "16 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "mozzarella": {
+      "term": "mozzarella",
+      "name": "Kroger® Mozzarella Block Cheese",
+      "regularPrice": 2.49,
+      "unit": "8 oz",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "lamb chops": {
+      "term": "lamb chops",
+      "name": "Simple Truth® Natural Lamb Sirloin Chops",
+      "regularPrice": 17.49,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
+      "weekOf": "2026-04-15",
+      "source": "kroger_api",
+      "confidence": "actual"
+    },
+    "ribeye": {
+      "term": "ribeye",
+      "name": "Choice Boneless Ribeye Beef Steak Family Pack",
+      "regularPrice": 21.99,
+      "unit": "1 lb",
+      "lastSeen": "2026-04-19",
       "weekOf": "2026-04-15",
       "source": "kroger_api",
       "confidence": "actual"
