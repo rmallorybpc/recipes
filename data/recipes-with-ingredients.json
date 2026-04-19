@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-18T13:33:56.882Z",
+  "generated_at": "2026-04-19T19:57:53.215Z",
   "stats": {
     "total_recipes": 98,
     "with_existing_source": 8,
     "resolved_from_search": 0,
-    "scraped_ingredients": 4,
-    "heuristic_only": 94
+    "scraped_ingredients": 3,
+    "heuristic_only": 95
   },
   "recipes": [
     {
@@ -223,45 +223,17 @@
       "resolved_source_url": "https://pinchofyum.com/peanut-chicken-lettuce-wraps-ginger-garlic-sauce",
       "source_origin": "existing_source",
       "ingredients": [
-        "4 tablespoons soy sauce",
-        "3 tablespoons oyster sauce",
-        "3 tablespoons water",
-        "1 tablespoon sambal oelek (chili paste)",
-        "1 tablespoon honey",
-        "1 tablespoon fresh ginger (I use a paste)",
-        "juice of 2 limes",
-        "2 garlic cloves, minced",
-        "4 green onions, minced",
-        "1 tablespoon rice vinegar (optional &#8211; makes it more tangy)",
-        "1 teaspoon cornstarch (optional &#8211; helps the sauce thicken)",
-        "2 tablespoons sesame oil",
-        "1 lb. ground chicken or turkey",
-        "1/2 cup lightly salted peanuts, chopped",
-        "6 ounces rice noodles",
-        "12 leaves of lettuce (I used Boston lettuce)",
-        "chopped cilantro, green onions, and peanuts for topping"
+        "chicken",
+        "lettuce",
+        "peanut butter"
       ],
       "ingredients_normalized": [
-        "soy sauce",
-        "oyster sauce",
-        "water",
-        "sambal oelek",
-        "honey",
-        "ginger",
-        "juice of limes",
-        "garlic cloves",
-        "green onions",
-        "rice vinegar",
-        "cornstarch",
-        "sesame oil",
-        "ground chicken or turkey",
-        "lightly salted peanuts",
-        "rice noodles",
-        "leaves of lettuce",
-        "cilantro green onions and peanuts for topping"
+        "chicken",
+        "lettuce",
+        "peanut butter"
       ],
-      "ingredient_source": "source_scrape",
-      "confidence": 0.95
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.45
     },
     {
       "title": "White chicken chili",

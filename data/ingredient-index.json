@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-18T13:33:56.975Z",
-  "total_ingredients": 72,
+  "generated_at": "2026-04-19T19:57:53.222Z",
+  "total_ingredients": 55,
   "entries": [
     {
       "ingredient": "all-purpose flour",
@@ -132,6 +132,7 @@
       "ingredient": "chicken",
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-chicken",
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
         "breakfast-meat-white-chicken-chili",
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-meat-camper-chicken-enchiladas",
@@ -163,12 +164,6 @@
       ]
     },
     {
-      "ingredient": "cilantro green onions and peanuts for topping",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
       "ingredient": "cloves garlic",
       "recipe_ids": [
         "dinner-soup-or-stew-chicken-tortilla-soup"
@@ -178,12 +173,6 @@
       "ingredient": "cooking salt kosher salt",
       "recipe_ids": [
         "breakfast-baked-casserole-crusty-bread"
-      ]
-    },
-    {
-      "ingredient": "cornstarch",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
       ]
     },
     {
@@ -236,33 +225,9 @@
       ]
     },
     {
-      "ingredient": "garlic cloves",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
-      "ingredient": "ginger",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
       "ingredient": "granulated sugar",
       "recipe_ids": [
         "breakfast-baked-casserole-pineapple-zucchini-muffin"
-      ]
-    },
-    {
-      "ingredient": "green onions",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
-      "ingredient": "ground chicken or turkey",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
       ]
     },
     {
@@ -278,39 +243,16 @@
       ]
     },
     {
-      "ingredient": "honey",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
       "ingredient": "instant or rapid rise yeast",
       "recipe_ids": [
         "breakfast-baked-casserole-crusty-bread"
       ]
     },
     {
-      "ingredient": "juice of limes",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
-      "ingredient": "leaves of lettuce",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
       "ingredient": "lettuce",
       "recipe_ids": [
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
         "dinner-handheld-lettuce-wraps"
-      ]
-    },
-    {
-      "ingredient": "lightly salted peanuts",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
       ]
     },
     {
@@ -398,12 +340,6 @@
       ]
     },
     {
-      "ingredient": "oyster sauce",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
       "ingredient": "parmesan",
       "recipe_ids": [
         "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
@@ -425,7 +361,8 @@
     {
       "ingredient": "peanut butter",
       "recipe_ids": [
-        "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins"
+        "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
+        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
       ]
     },
     {
@@ -503,18 +440,6 @@
       ]
     },
     {
-      "ingredient": "rice noodles",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
-      "ingredient": "rice vinegar",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
       "ingredient": "salt",
       "recipe_ids": [
         "breakfast-baked-casserole-pineapple-zucchini-muffin",
@@ -554,12 +479,6 @@
       ]
     },
     {
-      "ingredient": "sambal oelek",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
       "ingredient": "seafood",
       "recipe_ids": [
         "dinner-bowls-salmon-veggie-bowls",
@@ -574,21 +493,9 @@
       ]
     },
     {
-      "ingredient": "sesame oil",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
       "ingredient": "shredded zucchini",
       "recipe_ids": [
         "breakfast-baked-casserole-pineapple-zucchini-muffin"
-      ]
-    },
-    {
-      "ingredient": "soy sauce",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
       ]
     },
     {
@@ -625,12 +532,6 @@
       "ingredient": "very warm tap water",
       "recipe_ids": [
         "breakfast-baked-casserole-crusty-bread"
-      ]
-    },
-    {
-      "ingredient": "water",
-      "recipe_ids": [
-        "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
       ]
     },
     {

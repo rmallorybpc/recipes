@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-18T13:33:56.987Z",
+  "generatedAt": "2026-04-19T19:57:53.231Z",
   "weekOf": "2026-04-15",
   "locationId": "62000100",
   "chain": "King Soopers",
-  "totalDeals": 38,
-  "dealsWithRecipes": 2,
+  "totalDeals": 124,
+  "dealsWithRecipes": 3,
   "totalRecipes": 98,
   "recipesWithDeals": 5,
   "dealRecipes": [
@@ -19,6 +19,44 @@
       "savingsPct": 34,
       "size": "9 ct / 9 oz",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0086000162723",
+      "matchedRecipes": [
+        {
+          "title": "Pineapple zucchini muffin",
+          "meal": "breakfast",
+          "style": "baked-casserole",
+          "source": "https://www.blessthismessplease.com/zucchini-pineapple-muffins/"
+        },
+        {
+          "title": "Spicy pesto and cheese stuffed zucchini involtin",
+          "meal": "breakfast",
+          "style": "vegetarian",
+          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
+        },
+        {
+          "title": "Meatballs with zucchini and rice",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": ""
+        },
+        {
+          "title": "Zucchini and squash lasagne",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "dealTerm": "zucchini",
+      "dealName": "Smart Ones Zucchini Zesty Green Chile Sour Cream Sauce & Mozzarella Cheese Santa Fe Rice & Beans",
+      "brand": "Smart Ones",
+      "category": "Frozen",
+      "promoPrice": 1.99,
+      "regularPrice": 2.49,
+      "savings": 0.5,
+      "savingsPct": 20,
+      "size": "9 oz",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002580002360",
       "matchedRecipes": [
         {
           "title": "Pineapple zucchini muffin",
