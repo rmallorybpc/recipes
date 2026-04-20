@@ -1,0 +1,55 @@
+name: Regenerate Ingredient Data
+
+on:
+  push:
+    paths:
+      - "recipes/**/*.md"
+      - "scripts/generate-ingredient-data.mjs"
+      - "data/seasonal-colorado.json"
+      - "data/weekly-deals.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Regenerate ingredient datasets
+        run: node ./scripts/generate-ingredient-data.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/recipes-with-ingredients.json \
+                  data/ingredient-index.json \
+                  data/seasonal-match.json \
+                  data/deals-match.json
+
+          if git diff --staged --quiet; then
+            echo "No dataset changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore: regenerate ingredient datasets [skip ci]"
+          git push
