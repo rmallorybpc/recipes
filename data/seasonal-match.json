@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-20T16:14:03.632Z",
+  "generatedAt": "2026-04-20T20:53:40.950Z",
   "region": "colorado",
   "regionLabel": "Colorado",
   "totalRecipes": 98,
-  "matchedRecipes": 21,
+  "matchedRecipes": 25,
   "recipes": [
     {
       "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
@@ -88,6 +88,86 @@
       "seasonalScore": 4
     },
     {
+      "title": "Tacos",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "https://www.isabeleats.com/easy-ground-beef-tacos/",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "½ teaspoon garlic powder"
+        },
+        {
+          "ingredient": "corn",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "12  corn tortillas"
+        },
+        {
+          "ingredient": "lettuce",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "Thinly shredded lettuce"
+        },
+        {
+          "ingredient": "tomatoes",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "Diced tomatoes"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 4
+    },
+    {
       "title": "Chicken tortilla soup",
       "meal": "dinner",
       "style": "soup-or-stew",
@@ -154,10 +234,283 @@
       "seasonalScore": 3
     },
     {
+      "title": "Chicken tortilla soup in crock pot",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "https://dashofsanity.com/chicken-tortilla-soup-crock-pot/",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 cloves garlic"
+        },
+        {
+          "ingredient": "corn",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "2-3 tablespoons flour or cornstarch (if desired to make a thicker soup)"
+        },
+        {
+          "ingredient": "cilantro",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1/2 cup  fresh cilantro (chopped, for garnish)"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 3
+    },
+    {
+      "title": "Spaghetti",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "https://www.recipetineats.com/spaghetti-bolognese/",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2  garlic cloves (, minced)"
+        },
+        {
+          "ingredient": "thyme",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "2  sprigs fresh thyme ((or 1/2 tsp dried thyme or oregano))"
+        },
+        {
+          "ingredient": "parsley",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "Parmesan cheese (and finely chopped parsley (optional))"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 3
+    },
+    {
+      "title": "Stir fry",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "https://www.recipetineats.com/vegetable-stir-fry/",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2  garlic cloves (, finely chopped)"
+        },
+        {
+          "ingredient": "corn",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "1 tbsp cornflour / corn starch"
+        },
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "Finely sliced green onions"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 3
+    },
+    {
+      "title": "Wonton soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "https://www.recipetineats.com/wonton-soup/",
+      "seasonalIngredients": [
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2  shallots / green onions (, finely chopped (5 tbsp))"
+        },
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2  garlic cloves (, smashed (6))"
+        },
+        {
+          "ingredient": "bok choy",
+          "peak": [
+            6,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "Bok choy (, quartered, or Chinese broccoli cut into 10cm /4\" lengths (optional))"
+        }
+      ],
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 3
+    },
+    {
       "title": "Cheddar broccoli soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/24098/broccoli-cheese-soup/",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -193,6 +546,61 @@
         8
       ],
       "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 2
+    },
+    {
+      "title": "Hamburger stroganoff",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "3 garlic cloves, minced"
+        },
+        {
+          "ingredient": "parsley",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "Chopped fresh parsley, optional"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        5,
+        6,
         7,
         8,
         9,
@@ -296,7 +704,7 @@
       "title": "Beef and broccoli",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.recipetineats.com/beef-and-broccoli/",
       "seasonalIngredients": [
         {
           "ingredient": "broccoli",
@@ -326,45 +734,10 @@
       "seasonalScore": 1
     },
     {
-      "title": "Chicken tortilla soup in crock pot",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "source": "",
-      "seasonalIngredients": [
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "garlic"
-        }
-      ],
-      "bestMonths": [
-        7,
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 1
-    },
-    {
       "title": "Chicken wild rice soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "",
+      "source": "https://www.tasteofhome.com/recipes/chicken-and-wild-rice-soup/",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -399,7 +772,7 @@
       "title": "Chili",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/26317/award-winning-chili/",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -434,7 +807,7 @@
       "title": "Grilled cheese and tomato soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "",
+      "source": "https://www.seriouseats.com/cream-of-tomato-soup-from-scratch",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -469,7 +842,7 @@
       "title": "Lettuce wraps",
       "meal": "dinner",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.damndelicious.net/2014/06/13/chicken-lettuce-wraps/",
       "seasonalIngredients": [
         {
           "ingredient": "lettuce",
@@ -510,7 +883,7 @@
       "title": "Meatballs with zucchini and rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.budgetbytes.com/baked-meatballs/",
       "seasonalIngredients": [
         {
           "ingredient": "zucchini",
@@ -539,7 +912,7 @@
       "title": "Stew",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.seriouseats.com/old-fashioned-beef-stew",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -574,7 +947,7 @@
       "title": "Suggested - Black bean soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/14838/black-bean-soup/",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -609,7 +982,7 @@
       "title": "Suggested - Butternut squash soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/229658/butternut-squash-soup-ii/",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -644,7 +1017,7 @@
       "title": "Suggested - Lentil soup",
       "meal": "lunch",
       "style": "soup-or-stew",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/22028/lentil-soup/",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -679,7 +1052,7 @@
       "title": "Suggested - Miso soup with tofu and vegetables",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/13107/real-miso-soup/",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -714,7 +1087,7 @@
       "title": "Tortellini with pesto and shrimp and spinach",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/pesto-tortellini-shrimp/",
       "seasonalIngredients": [
         {
           "ingredient": "basil",
@@ -779,45 +1152,10 @@
       "seasonalScore": 1
     },
     {
-      "title": "Wonton soup",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "source": "",
-      "seasonalIngredients": [
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "garlic"
-        }
-      ],
-      "bestMonths": [
-        7,
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 1
-    },
-    {
       "title": "Zucchini and squash lasagne",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.bonappetit.com/recipe/summer-squash-lasagna",
       "seasonalIngredients": [
         {
           "ingredient": "zucchini",
@@ -846,7 +1184,7 @@
       "title": "BBQ in crockpot",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.cookingclassy.com/slow-cooker-pulled-pork/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -866,7 +1204,7 @@
       "title": "Braised short ribs",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.seriouseats.com/braised-short-ribs-recipe",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -876,7 +1214,7 @@
       "title": "Camper chicken enchiladas",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.tasteofhome.com/recipes/chicken-enchiladas/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -886,7 +1224,7 @@
       "title": "Cheeseburgers",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.seriouseats.com/the-best-basic-burger",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -896,7 +1234,7 @@
       "title": "Chicken parm",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.foodnetwork.com/recipes/ree-drummond/chicken-parmesan",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -906,7 +1244,7 @@
       "title": "Chicken wings",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.seriouseats.com/the-best-buffalo-wings-recipe",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -916,7 +1254,7 @@
       "title": "Chipotle bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.themodernproper.com/chipotle-chicken-burrito-bowls",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -936,7 +1274,7 @@
       "title": "Deconstructed steak sandwiches with cheese",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.foodnetwork.com/recipes/philly-cheesesteak",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -956,7 +1294,7 @@
       "title": "Fried chicken",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.seriouseats.com/the-food-labs-buttermilk-fried-chicken",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -966,7 +1304,7 @@
       "title": "Greek pitas with chicken",
       "meal": "breakfast",
       "style": "meat",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/23600/greek-chicken-pitas/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -976,7 +1314,7 @@
       "title": "Greek pitas with turkey meat",
       "meal": "breakfast",
       "style": "meat",
-      "source": "",
+      "source": "https://www.foodnetwork.com/recipes/turkey-gyros",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -986,17 +1324,7 @@
       "title": "Grilled chicken with potato salad",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Hamburger stroganoff",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.bonappetit.com/recipe/grilled-chicken-and-potato-salad",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1006,7 +1334,7 @@
       "title": "Homemade mac n cheese",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.seriouseats.com/the-food-labs-ultra-gooey-stovetop-mac-and-cheese",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1016,7 +1344,7 @@
       "title": "Homemade pizza",
       "meal": "dinner",
       "style": "baked-casserole",
-      "source": "",
+      "source": "https://www.seriouseats.com/basic-new-york-style-pizza-dough",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1026,7 +1354,7 @@
       "title": "Lasagne",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.recipetineats.com/the-best-lasagna/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1036,7 +1364,7 @@
       "title": "Penne lasagne",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.foodnetwork.com/recipes/baked-penne-recipe",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1046,7 +1374,7 @@
       "title": "Pork chops",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.seriouseats.com/pan-seared-pork-chops-with-herb-pan-sauce",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1056,7 +1384,7 @@
       "title": "Round steak stroganoff",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/11718/simple-beef-stroganoff/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1066,7 +1394,7 @@
       "title": "Salmon and rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.halfbakedharvest.com/easy-lemon-butter-salmon-rice/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1076,7 +1404,7 @@
       "title": "Salmon veggie bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.halfbakedharvest.com/salmon-bowls/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1086,17 +1414,7 @@
       "title": "Skillet meatloaf / cheeseburger meatloaf",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Spaghetti",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.foodnetwork.com/recipes/food-network-kitchen/classic-meatloaf",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1106,17 +1424,7 @@
       "title": "Steak kabobs deconstructed",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Stir fry",
-      "meal": "dinner",
-      "style": "vegetarian",
-      "source": "",
+      "source": "https://www.foodnetwork.com/recipes/bobby-flay/steak-kabobs",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1126,7 +1434,7 @@
       "title": "Suggested - Aloo gobi",
       "meal": "dinner",
       "style": "vegetarian",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/aloo-gobi/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1136,7 +1444,7 @@
       "title": "Suggested - Asian noodle salad",
       "meal": "lunch",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/237310/cold-asian-noodle-salad/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1146,7 +1454,7 @@
       "title": "Suggested - Avocado toast with egg",
       "meal": "breakfast",
       "style": "vegetarian",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/241032/avocado-toast/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1156,7 +1464,7 @@
       "title": "Suggested - Baked salmon with asparagus",
       "meal": "dinner",
       "style": "seafood",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/baked-salmon-with-garlic-and-dijon/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1166,7 +1474,7 @@
       "title": "Suggested - Banana oat pancakes",
       "meal": "breakfast",
       "style": "baked-casserole",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/banana-oat-pancakes/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1176,7 +1484,7 @@
       "title": "Suggested - Black bean enchiladas",
       "meal": "dinner",
       "style": "baked-casserole",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/214842/black-bean-enchiladas/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1186,7 +1494,7 @@
       "title": "Suggested - Black bean tacos",
       "meal": "lunch",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/261680/black-bean-tacos/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1196,7 +1504,7 @@
       "title": "Suggested - BLT sandwich",
       "meal": "lunch",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/218735/classic-blt/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1206,7 +1514,7 @@
       "title": "Suggested - Breakfast burritos",
       "meal": "breakfast",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/14942/breakfast-burrito/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1216,7 +1524,7 @@
       "title": "Suggested - Butter chicken",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/246717/chef-johns-chicken-tikka-masala/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1226,7 +1534,7 @@
       "title": "Suggested - Caprese pasta",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/229960/caprese-pasta/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1236,7 +1544,7 @@
       "title": "Suggested - Caprese salad with prosciutto",
       "meal": "lunch",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/12720/caprese-salad/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1246,7 +1554,7 @@
       "title": "Suggested - Caprese stuffed chicken",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/caprese-stuffed-chicken/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1256,7 +1564,7 @@
       "title": "Suggested - Chicken pad thai",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1266,7 +1574,7 @@
       "title": "Suggested - Chicken tikka masala",
       "meal": "dinner",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228293/curry-stand-chicken-tikka-masala-sauce/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1276,7 +1584,7 @@
       "title": "Suggested - Clam chowder",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/13109/new-england-clam-chowder-i/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1286,7 +1594,7 @@
       "title": "Suggested - Dal tadka",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/dal-tadka/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1296,7 +1604,7 @@
       "title": "Suggested - Dan dan noodles",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/dan-dan-noodles/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1306,7 +1614,7 @@
       "title": "Suggested - Egg salad sandwich",
       "meal": "lunch",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/4565/classic-egg-salad/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1316,7 +1624,7 @@
       "title": "Suggested - Eggplant parmesan",
       "meal": "dinner",
       "style": "baked-casserole",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/13981/eggplant-parmesan-ii/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1326,7 +1634,7 @@
       "title": "Suggested - Fish tacos with cabbage slaw",
       "meal": "dinner",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/fish-tacos/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1336,7 +1644,7 @@
       "title": "Suggested - Fried rice with egg and vegetables",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/16954/fried-rice/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1346,7 +1654,7 @@
       "title": "Suggested - Garlic butter shrimp with pasta",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/238604/garlic-shrimp-pasta/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1356,7 +1664,7 @@
       "title": "Suggested - Greek salad with chicken",
       "meal": "lunch",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/21177/greek-salad/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1366,7 +1674,7 @@
       "title": "Suggested - Greek yogurt parfait",
       "meal": "breakfast",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/greek-yogurt-parfait/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1376,7 +1684,7 @@
       "title": "Suggested - Japanese chicken katsu",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/72069/chicken-katsu/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1386,7 +1694,7 @@
       "title": "Suggested - Korean beef bulgogi bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/246686/korean-beef-bowl/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1396,7 +1704,7 @@
       "title": "Suggested - Lamb kofta with tzatziki",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/lamb-kofta/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1406,7 +1714,7 @@
       "title": "Suggested - Mediterranean baked cod",
       "meal": "dinner",
       "style": "seafood",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/mediterranean-baked-cod/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1416,7 +1724,7 @@
       "title": "Suggested - Mushroom risotto",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1426,7 +1734,7 @@
       "title": "Suggested - One-pot chicken and rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/one-pot-chicken-rice/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1436,7 +1744,7 @@
       "title": "Suggested - Quesadillas",
       "meal": "lunch",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/223042/easy-chicken-quesadillas/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1446,7 +1754,7 @@
       "title": "Suggested - Roasted vegetable grain bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/263648/roasted-vegetable-and-farro-bowl/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1456,7 +1764,7 @@
       "title": "Suggested - Saag paneer",
       "meal": "dinner",
       "style": "vegetarian",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/saag-paneer/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1466,7 +1774,7 @@
       "title": "Suggested - Sausage and peppers",
       "meal": "dinner",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/35306/sausage-and-peppers/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1476,7 +1784,7 @@
       "title": "Suggested - Shakshuka",
       "meal": "dinner",
       "style": "vegetarian",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/267468/easy-shakshuka/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1486,7 +1794,7 @@
       "title": "Suggested - Sheet pan chicken thighs and vegetables",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/234440/sheet-pan-chicken-thighs-and-veggies/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1496,7 +1804,7 @@
       "title": "Suggested - Shrimp fried rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/16954/shrimp-fried-rice/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1506,7 +1814,7 @@
       "title": "Suggested - Shrimp tacos with mango slaw",
       "meal": "dinner",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/234060/shrimp-tacos/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1516,7 +1824,7 @@
       "title": "Suggested - Spanakopita",
       "meal": "dinner",
       "style": "baked-casserole",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/25680/spanakopita-greek-spinach-pie/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1526,7 +1834,7 @@
       "title": "Suggested - Teriyaki salmon bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228285/teriyaki-salmon/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1536,7 +1844,7 @@
       "title": "Suggested - Thai green curry",
       "meal": "dinner",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/222412/thai-green-curry/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1546,7 +1854,7 @@
       "title": "Suggested - Tuna salad sandwich",
       "meal": "lunch",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/23544/tuna-salad/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1556,7 +1864,7 @@
       "title": "Suggested - Turkey and avocado wrap",
       "meal": "lunch",
       "style": "handheld",
-      "source": "",
+      "source": "https://www.eatingwell.com/recipe/269311/turkey-avocado-wrap/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1566,7 +1874,7 @@
       "title": "Suggested - Vegetable curry",
       "meal": "dinner",
       "style": "bowls",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/34423/chickpea-coconut-curry/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1576,7 +1884,7 @@
       "title": "Suggested - Veggie stir fry with tofu",
       "meal": "dinner",
       "style": "vegetarian",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1586,17 +1894,7 @@
       "title": "Suggested - Vietnamese pho",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Tacos",
-      "meal": "dinner",
-      "style": "meat",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/228720/authentic-pho/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -1606,7 +1904,7 @@
       "title": "Tortellini with sausage, spinach, mushrooms, lemon",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "",
+      "source": "https://www.allrecipes.com/recipe/tortellini-sausage-spinach/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-20T16:14:03.625Z",
+  "generated_at": "2026-04-20T20:53:40.942Z",
   "stats": {
     "total_recipes": 98,
-    "with_existing_source": 8,
+    "with_existing_source": 98,
     "resolved_from_search": 0,
-    "scraped_ingredients": 4,
-    "heuristic_only": 94
+    "scraped_ingredients": 10,
+    "heuristic_only": 88
   },
   "recipes": [
     {
@@ -117,10 +117,10 @@
       "title": "Suggested - Banana oat pancakes",
       "meal": "breakfast",
       "style": "baked-casserole",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/banana-oat-pancakes/",
       "id": "breakfast-baked-casserole-suggested-banana-oat-pancakes",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/banana-oat-pancakes/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -132,16 +132,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Greek yogurt parfait",
       "meal": "breakfast",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/greek-yogurt-parfait/",
       "id": "breakfast-bowls-suggested-greek-yogurt-parfait",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/greek-yogurt-parfait/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -153,16 +153,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Breakfast burritos",
       "meal": "breakfast",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/14942/breakfast-burrito/",
       "id": "breakfast-handheld-suggested-breakfast-burritos",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/14942/breakfast-burrito/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -174,16 +174,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Greek pitas with chicken",
       "meal": "breakfast",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/23600/greek-chicken-pitas/",
       "id": "breakfast-meat-greek-pitas-with-chicken",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/23600/greek-chicken-pitas/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -191,16 +191,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Greek pitas with turkey meat",
       "meal": "breakfast",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.foodnetwork.com/recipes/turkey-gyros",
       "id": "breakfast-meat-greek-pitas-with-turkey-meat",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.foodnetwork.com/recipes/turkey-gyros",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -212,7 +212,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
@@ -315,10 +315,10 @@
       "title": "Suggested - Avocado toast with egg",
       "meal": "breakfast",
       "style": "vegetarian",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/241032/avocado-toast/",
       "id": "breakfast-vegetarian-suggested-avocado-toast-with-egg",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/241032/avocado-toast/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -330,16 +330,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Homemade pizza",
       "meal": "dinner",
       "style": "baked-casserole",
-      "source_url": null,
+      "source_url": "https://www.seriouseats.com/basic-new-york-style-pizza-dough",
       "id": "dinner-baked-casserole-homemade-pizza",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.seriouseats.com/basic-new-york-style-pizza-dough",
+      "source_origin": "existing_source",
       "ingredients": [
         "flour",
         "cheese",
@@ -351,16 +351,16 @@
         "tomato sauce"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Black bean enchiladas",
       "meal": "dinner",
       "style": "baked-casserole",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/214842/black-bean-enchiladas/",
       "id": "dinner-baked-casserole-suggested-black-bean-enchiladas",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/214842/black-bean-enchiladas/",
+      "source_origin": "existing_source",
       "ingredients": [
         "tortilla",
         "onion",
@@ -372,16 +372,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Eggplant parmesan",
       "meal": "dinner",
       "style": "baked-casserole",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/13981/eggplant-parmesan-ii/",
       "id": "dinner-baked-casserole-suggested-eggplant-parmesan",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/13981/eggplant-parmesan-ii/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -393,16 +393,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Spanakopita",
       "meal": "dinner",
       "style": "baked-casserole",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/25680/spanakopita-greek-spinach-pie/",
       "id": "dinner-baked-casserole-suggested-spanakopita",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/25680/spanakopita-greek-spinach-pie/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -414,16 +414,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Chipotle bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.themodernproper.com/chipotle-chicken-burrito-bowls",
       "id": "dinner-bowls-chipotle-bowls",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.themodernproper.com/chipotle-chicken-burrito-bowls",
+      "source_origin": "existing_source",
       "ingredients": [
         "tortilla",
         "onion",
@@ -435,16 +435,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Salmon veggie bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.halfbakedharvest.com/salmon-bowls/",
       "id": "dinner-bowls-salmon-veggie-bowls",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.halfbakedharvest.com/salmon-bowls/",
+      "source_origin": "existing_source",
       "ingredients": [
         "seafood"
       ],
@@ -452,16 +452,16 @@
         "seafood"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Chicken tikka masala",
       "meal": "dinner",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228293/curry-stand-chicken-tikka-masala-sauce/",
       "id": "dinner-bowls-suggested-chicken-tikka-masala",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228293/curry-stand-chicken-tikka-masala-sauce/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -469,16 +469,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Korean beef bulgogi bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/246686/korean-beef-bowl/",
       "id": "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/246686/korean-beef-bowl/",
+      "source_origin": "existing_source",
       "ingredients": [
         "beef"
       ],
@@ -486,16 +486,16 @@
         "beef"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Roasted vegetable grain bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/263648/roasted-vegetable-and-farro-bowl/",
       "id": "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/263648/roasted-vegetable-and-farro-bowl/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -507,16 +507,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Teriyaki salmon bowls",
       "meal": "dinner",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/teriyaki-salmon/",
       "id": "dinner-bowls-suggested-teriyaki-salmon-bowls",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/teriyaki-salmon/",
+      "source_origin": "existing_source",
       "ingredients": [
         "seafood"
       ],
@@ -524,16 +524,16 @@
         "seafood"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Thai green curry",
       "meal": "dinner",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/222412/thai-green-curry/",
       "id": "dinner-bowls-suggested-thai-green-curry",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/222412/thai-green-curry/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -545,16 +545,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Vegetable curry",
       "meal": "dinner",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/34423/chickpea-coconut-curry/",
       "id": "dinner-bowls-suggested-vegetable-curry",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/34423/chickpea-coconut-curry/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -566,16 +566,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Lettuce wraps",
       "meal": "dinner",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.damndelicious.net/2014/06/13/chicken-lettuce-wraps/",
       "id": "dinner-handheld-lettuce-wraps",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.damndelicious.net/2014/06/13/chicken-lettuce-wraps/",
+      "source_origin": "existing_source",
       "ingredients": [
         "lettuce"
       ],
@@ -583,16 +583,16 @@
         "lettuce"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Fish tacos with cabbage slaw",
       "meal": "dinner",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/fish-tacos/",
       "id": "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/fish-tacos/",
+      "source_origin": "existing_source",
       "ingredients": [
         "tortilla",
         "onion",
@@ -604,16 +604,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Sausage and peppers",
       "meal": "dinner",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/35306/sausage-and-peppers/",
       "id": "dinner-handheld-suggested-sausage-and-peppers",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/35306/sausage-and-peppers/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -625,16 +625,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Shrimp tacos with mango slaw",
       "meal": "dinner",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/234060/shrimp-tacos/",
       "id": "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/234060/shrimp-tacos/",
+      "source_origin": "existing_source",
       "ingredients": [
         "seafood",
         "tortilla",
@@ -648,16 +648,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "BBQ in crockpot",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.cookingclassy.com/slow-cooker-pulled-pork/",
       "id": "dinner-meat-bbq-in-crockpot",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.cookingclassy.com/slow-cooker-pulled-pork/",
+      "source_origin": "existing_source",
       "ingredients": [
         "pork"
       ],
@@ -665,16 +665,16 @@
         "pork"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Beef and broccoli",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.recipetineats.com/beef-and-broccoli/",
       "id": "dinner-meat-beef-and-broccoli",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.recipetineats.com/beef-and-broccoli/",
+      "source_origin": "existing_source",
       "ingredients": [
         "beef",
         "broccoli"
@@ -684,16 +684,16 @@
         "broccoli"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Braised short ribs",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.seriouseats.com/braised-short-ribs-recipe",
       "id": "dinner-meat-braised-short-ribs",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.seriouseats.com/braised-short-ribs-recipe",
+      "source_origin": "existing_source",
       "ingredients": [
         "pork"
       ],
@@ -701,16 +701,16 @@
         "pork"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Camper chicken enchiladas",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.tasteofhome.com/recipes/chicken-enchiladas/",
       "id": "dinner-meat-camper-chicken-enchiladas",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.tasteofhome.com/recipes/chicken-enchiladas/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken",
         "tortilla",
@@ -724,16 +724,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Cheeseburgers",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.seriouseats.com/the-best-basic-burger",
       "id": "dinner-meat-cheeseburgers",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.seriouseats.com/the-best-basic-burger",
+      "source_origin": "existing_source",
       "ingredients": [
         "beef",
         "cheese"
@@ -743,16 +743,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Chicken parm",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.foodnetwork.com/recipes/ree-drummond/chicken-parmesan",
       "id": "dinner-meat-chicken-parm",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.foodnetwork.com/recipes/ree-drummond/chicken-parmesan",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -760,16 +760,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Chicken wings",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.seriouseats.com/the-best-buffalo-wings-recipe",
       "id": "dinner-meat-chicken-wings",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.seriouseats.com/the-best-buffalo-wings-recipe",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -777,16 +777,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Chili",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/26317/award-winning-chili/",
       "id": "dinner-meat-chili",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/26317/award-winning-chili/",
+      "source_origin": "existing_source",
       "ingredients": [
         "broth",
         "onion",
@@ -798,16 +798,16 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Deconstructed steak sandwiches with cheese",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.foodnetwork.com/recipes/philly-cheesesteak",
       "id": "dinner-meat-deconstructed-steak-sandwiches-with-cheese",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.foodnetwork.com/recipes/philly-cheesesteak",
+      "source_origin": "existing_source",
       "ingredients": [
         "cheese"
       ],
@@ -815,16 +815,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Fried chicken",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.seriouseats.com/the-food-labs-buttermilk-fried-chicken",
       "id": "dinner-meat-fried-chicken",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.seriouseats.com/the-food-labs-buttermilk-fried-chicken",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -832,16 +832,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Grilled chicken with potato salad",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.bonappetit.com/recipe/grilled-chicken-and-potato-salad",
       "id": "dinner-meat-grilled-chicken-with-potato-salad",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bonappetit.com/recipe/grilled-chicken-and-potato-salad",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken",
         "potato"
@@ -851,16 +851,16 @@
         "potato"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Pork chops",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.seriouseats.com/pan-seared-pork-chops-with-herb-pan-sauce",
       "id": "dinner-meat-pork-chops",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.seriouseats.com/pan-seared-pork-chops-with-herb-pan-sauce",
+      "source_origin": "existing_source",
       "ingredients": [
         "pork"
       ],
@@ -868,16 +868,16 @@
         "pork"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Round steak stroganoff",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/11718/simple-beef-stroganoff/",
       "id": "dinner-meat-round-steak-stroganoff",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/11718/simple-beef-stroganoff/",
+      "source_origin": "existing_source",
       "ingredients": [
         "mushroom",
         "onion",
@@ -889,16 +889,16 @@
         "broth"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Skillet meatloaf / cheeseburger meatloaf",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.foodnetwork.com/recipes/food-network-kitchen/classic-meatloaf",
       "id": "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.foodnetwork.com/recipes/food-network-kitchen/classic-meatloaf",
+      "source_origin": "existing_source",
       "ingredients": [
         "beef",
         "cheese"
@@ -908,16 +908,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Steak kabobs deconstructed",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.foodnetwork.com/recipes/bobby-flay/steak-kabobs",
       "id": "dinner-meat-steak-kabobs-deconstructed",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.foodnetwork.com/recipes/bobby-flay/steak-kabobs",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -929,16 +929,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Stew",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.seriouseats.com/old-fashioned-beef-stew",
       "id": "dinner-meat-stew",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.seriouseats.com/old-fashioned-beef-stew",
+      "source_origin": "existing_source",
       "ingredients": [
         "broth",
         "onion",
@@ -950,16 +950,16 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Butter chicken",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/246717/chef-johns-chicken-tikka-masala/",
       "id": "dinner-meat-suggested-butter-chicken",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/246717/chef-johns-chicken-tikka-masala/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -967,16 +967,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Caprese stuffed chicken",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/caprese-stuffed-chicken/",
       "id": "dinner-meat-suggested-caprese-stuffed-chicken",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/caprese-stuffed-chicken/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -984,16 +984,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Japanese chicken katsu",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/72069/chicken-katsu/",
       "id": "dinner-meat-suggested-japanese-chicken-katsu",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/72069/chicken-katsu/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -1001,16 +1001,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Lamb kofta with tzatziki",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/lamb-kofta/",
       "id": "dinner-meat-suggested-lamb-kofta-with-tzatziki",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/lamb-kofta/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1022,7 +1022,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Sheet pan chicken thighs and vegetables",
@@ -1039,7 +1039,7 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Tacos",
@@ -1050,49 +1050,95 @@
       "resolved_source_url": "https://www.isabeleats.com/easy-ground-beef-tacos/",
       "source_origin": "existing_source",
       "ingredients": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "1 ½ teaspoons olive oil",
+        "1 pound ground beef",
+        "3 tablespoons tomato paste ((see notes for using tomato sauce))",
+        "½ cup water ((or beef broth))",
+        "1 tablespoon chili powder",
+        "1 teaspoon kosher salt",
+        "½ teaspoon ground cumin",
+        "½ teaspoon garlic powder",
+        "½ teaspoon onion powder",
+        "¼ teaspoon dried oregano",
+        "1 tablespoon lime juice ((about ½ lime))",
+        "12  corn tortillas",
+        "Oil, (for frying (vegetable oil, olive oil, or avocado oil are great))",
+        "Thinly shredded lettuce",
+        "Shredded cheese",
+        "Diced tomatoes",
+        "Sour cream"
       ],
       "ingredients_normalized": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "teaspoons olive oil",
+        "ground beef",
+        "tomato paste",
+        "cup water",
+        "chili powder",
+        "kosher salt",
+        "teaspoon ground cumin",
+        "teaspoon garlic powder",
+        "teaspoon onion powder",
+        "teaspoon dried oregano",
+        "lime juice",
+        "corn tortillas",
+        "oil",
+        "thinly shredded lettuce",
+        "shredded cheese",
+        "tomatoes",
+        "sour cream"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
     },
     {
       "title": "Hamburger stroganoff",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/",
       "id": "dinner-rice-or-pasta-hamburger-stroganoff",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/",
+      "source_origin": "existing_source",
       "ingredients": [
-        "beef",
-        "mushroom",
-        "onion",
-        "broth"
+        "4-1/2 cups uncooked yolk-free noodles",
+        "1 pound lean ground beef (90% lean)",
+        "1/2 pound sliced fresh mushrooms",
+        "1 large onion, halved and sliced",
+        "3 garlic cloves, minced",
+        "1 tablespoon butter",
+        "2 tablespoons all-purpose flour",
+        "1 can (14-1/2 ounces) reduced-sodium beef broth",
+        "2 tablespoons tomato paste",
+        "1 cup reduced-fat sour cream",
+        "1/4 teaspoon salt",
+        "1/4 teaspoon pepper",
+        "Chopped fresh parsley, optional"
       ],
       "ingredients_normalized": [
-        "beef",
-        "mushroom",
-        "onion",
-        "broth"
+        "uncooked yolk-free noodles",
+        "lean ground beef",
+        "mushrooms",
+        "large onion halved and",
+        "garlic cloves",
+        "butter",
+        "all-purpose flour",
+        "can reduced-sodium beef broth",
+        "tomato paste",
+        "reduced-fat sour cream",
+        "salt",
+        "pepper",
+        "parsley"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
     },
     {
       "title": "Homemade mac n cheese",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.seriouseats.com/the-food-labs-ultra-gooey-stovetop-mac-and-cheese",
       "id": "dinner-rice-or-pasta-homemade-mac-n-cheese",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.seriouseats.com/the-food-labs-ultra-gooey-stovetop-mac-and-cheese",
+      "source_origin": "existing_source",
       "ingredients": [
         "pasta",
         "cheese"
@@ -1102,16 +1148,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Lasagne",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.recipetineats.com/the-best-lasagna/",
       "id": "dinner-rice-or-pasta-lasagne",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.recipetineats.com/the-best-lasagna/",
+      "source_origin": "existing_source",
       "ingredients": [
         "pasta",
         "cheese"
@@ -1121,16 +1167,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Meatballs with zucchini and rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.budgetbytes.com/baked-meatballs/",
       "id": "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.budgetbytes.com/baked-meatballs/",
+      "source_origin": "existing_source",
       "ingredients": [
         "rice",
         "zucchini"
@@ -1140,16 +1186,16 @@
         "zucchini"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Penne lasagne",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.foodnetwork.com/recipes/baked-penne-recipe",
       "id": "dinner-rice-or-pasta-penne-lasagne",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.foodnetwork.com/recipes/baked-penne-recipe",
+      "source_origin": "existing_source",
       "ingredients": [
         "pasta",
         "cheese"
@@ -1159,16 +1205,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Salmon and rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.halfbakedharvest.com/easy-lemon-butter-salmon-rice/",
       "id": "dinner-rice-or-pasta-salmon-and-rice",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.halfbakedharvest.com/easy-lemon-butter-salmon-rice/",
+      "source_origin": "existing_source",
       "ingredients": [
         "seafood",
         "rice"
@@ -1178,35 +1224,63 @@
         "rice"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Spaghetti",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.recipetineats.com/spaghetti-bolognese/",
       "id": "dinner-rice-or-pasta-spaghetti",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.recipetineats.com/spaghetti-bolognese/",
+      "source_origin": "existing_source",
       "ingredients": [
-        "pasta",
-        "cheese"
+        "1 1/2 tbsp olive oil",
+        "2  garlic cloves (, minced)",
+        "1  onion (, finely chopped (brown, yellow or white))",
+        "1 lb / 500g   beef mince (ground beef) (OR half pork, half beef (Note 1))",
+        "1/2 cup (125 ml)  dry red wine ((sub water or beef broth/stock))",
+        "2  beef bouillon cubes (, crumbled OR granulated beef bouillon (Note 2))",
+        "800g / 28 oz  can crushed tomato ((or tomato passata))",
+        "2 tbsp tomato paste",
+        "2 tsp white sugar (, if needed (Note 3))",
+        "2 tsp Worcestershire sauce",
+        "2  dried bay leaves",
+        "2  sprigs fresh thyme ((or 1/2 tsp dried thyme or oregano))",
+        "3/4 tsp cooking salt (kosher salt)",
+        "1/2 tsp black pepper",
+        "400 g / 13 oz   spaghetti (, dried)",
+        "Parmesan cheese (and finely chopped parsley (optional))"
       ],
       "ingredients_normalized": [
-        "pasta",
-        "cheese"
+        "olive oil",
+        "garlic cloves",
+        "onion",
+        "g beef mince",
+        "dry red wine",
+        "beef bouillon cubes",
+        "g can crushed tomato",
+        "tomato paste",
+        "white sugar",
+        "worcestershire sauce",
+        "dried bay leaves",
+        "sprigs thyme",
+        "cooking salt",
+        "black pepper",
+        "g spaghetti",
+        "parmesan cheese"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
     },
     {
       "title": "Suggested - Caprese pasta",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/229960/caprese-pasta/",
       "id": "dinner-rice-or-pasta-suggested-caprese-pasta",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/229960/caprese-pasta/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1218,16 +1292,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Chicken pad thai",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/",
       "id": "dinner-rice-or-pasta-suggested-chicken-pad-thai",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -1235,16 +1309,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Dan dan noodles",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/dan-dan-noodles/",
       "id": "dinner-rice-or-pasta-suggested-dan-dan-noodles",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/dan-dan-noodles/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1256,16 +1330,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Fried rice with egg and vegetables",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/16954/fried-rice/",
       "id": "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/16954/fried-rice/",
+      "source_origin": "existing_source",
       "ingredients": [
         "rice"
       ],
@@ -1273,16 +1347,16 @@
         "rice"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Garlic butter shrimp with pasta",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/238604/garlic-shrimp-pasta/",
       "id": "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/238604/garlic-shrimp-pasta/",
+      "source_origin": "existing_source",
       "ingredients": [
         "seafood"
       ],
@@ -1290,16 +1364,16 @@
         "seafood"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Mushroom risotto",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/",
       "id": "dinner-rice-or-pasta-suggested-mushroom-risotto",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1311,16 +1385,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - One-pot chicken and rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/one-pot-chicken-rice/",
       "id": "dinner-rice-or-pasta-suggested-one-pot-chicken-and-rice",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/one-pot-chicken-rice/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken",
         "rice"
@@ -1330,16 +1404,16 @@
         "rice"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Shrimp fried rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/16954/shrimp-fried-rice/",
       "id": "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/16954/shrimp-fried-rice/",
+      "source_origin": "existing_source",
       "ingredients": [
         "seafood",
         "rice"
@@ -1349,16 +1423,16 @@
         "rice"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Tortellini with pesto and shrimp and spinach",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/pesto-tortellini-shrimp/",
       "id": "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/pesto-tortellini-shrimp/",
+      "source_origin": "existing_source",
       "ingredients": [
         "seafood",
         "pasta",
@@ -1376,16 +1450,16 @@
         "parmesan"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Tortellini with sausage, spinach, mushrooms, lemon",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/tortellini-sausage-spinach/",
       "id": "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/tortellini-sausage-spinach/",
+      "source_origin": "existing_source",
       "ingredients": [
         "pasta",
         "cheese"
@@ -1395,16 +1469,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Zucchini and squash lasagne",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source_url": null,
+      "source_url": "https://www.bonappetit.com/recipe/summer-squash-lasagna",
       "id": "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bonappetit.com/recipe/summer-squash-lasagna",
+      "source_origin": "existing_source",
       "ingredients": [
         "pasta",
         "cheese",
@@ -1416,16 +1490,16 @@
         "zucchini"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Baked salmon with asparagus",
       "meal": "dinner",
       "style": "seafood",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/baked-salmon-with-garlic-and-dijon/",
       "id": "dinner-seafood-suggested-baked-salmon-with-asparagus",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/baked-salmon-with-garlic-and-dijon/",
+      "source_origin": "existing_source",
       "ingredients": [
         "seafood"
       ],
@@ -1433,16 +1507,16 @@
         "seafood"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Mediterranean baked cod",
       "meal": "dinner",
       "style": "seafood",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/mediterranean-baked-cod/",
       "id": "dinner-seafood-suggested-mediterranean-baked-cod",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/mediterranean-baked-cod/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1454,16 +1528,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Cheddar broccoli soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/24098/broccoli-cheese-soup/",
       "id": "dinner-soup-or-stew-cheddar-broccoli-soup",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/24098/broccoli-cheese-soup/",
+      "source_origin": "existing_source",
       "ingredients": [
         "broth",
         "onion",
@@ -1477,7 +1551,7 @@
         "broccoli"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Chicken tortilla soup",
@@ -1534,33 +1608,61 @@
       "title": "Chicken tortilla soup in crock pot",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://dashofsanity.com/chicken-tortilla-soup-crock-pot/",
       "id": "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://dashofsanity.com/chicken-tortilla-soup-crock-pot/",
+      "source_origin": "existing_source",
       "ingredients": [
-        "chicken",
-        "broth",
-        "onion",
-        "garlic"
+        "3 tablespoons butter",
+        "1  yellow onion (diced)",
+        "1  red pepper (diced)",
+        "1  yellow pepper (diced)",
+        "2 cloves garlic",
+        "2 teaspoons salt (divided)",
+        "2 lbs boneless skinless chicken breasts (about 2-3 breasts)",
+        "2 cans chicken broth (14.5-ounce cans)",
+        "14 ounces red enchilada sauce",
+        "2 teaspoons cumin",
+        "1 teaspoon chili powder",
+        "1 teaspoon oregano",
+        "1 tablespoon taco seasoning",
+        "1 1/2 cups half-and-half or heavy cream (if desired, for a creamier soup)",
+        "2-3 tablespoons flour or cornstarch (if desired to make a thicker soup)",
+        "1 can  pinto beans (drained, optional)",
+        "1 1/2 cups  frozen corn (optional, do not use canned)",
+        "1/2 cup  fresh cilantro (chopped, for garnish)"
       ],
       "ingredients_normalized": [
-        "chicken",
-        "broth",
-        "onion",
-        "garlic"
+        "butter",
+        "yellow onion",
+        "red pepper",
+        "yellow pepper",
+        "cloves garlic",
+        "salt",
+        "boneless skinless chicken breasts",
+        "cans chicken broth",
+        "red enchilada sauce",
+        "cumin",
+        "chili powder",
+        "oregano",
+        "taco seasoning",
+        "half-and-half or heavy cream",
+        "flour or cornstarch",
+        "can pinto beans",
+        "frozen corn",
+        "cilantro"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
     },
     {
       "title": "Chicken wild rice soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.tasteofhome.com/recipes/chicken-and-wild-rice-soup/",
       "id": "dinner-soup-or-stew-chicken-wild-rice-soup",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.tasteofhome.com/recipes/chicken-and-wild-rice-soup/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken",
         "broth",
@@ -1576,16 +1678,16 @@
         "rice"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Grilled cheese and tomato soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.seriouseats.com/cream-of-tomato-soup-from-scratch",
       "id": "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.seriouseats.com/cream-of-tomato-soup-from-scratch",
+      "source_origin": "existing_source",
       "ingredients": [
         "broth",
         "onion",
@@ -1599,16 +1701,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Black bean soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/14838/black-bean-soup/",
       "id": "dinner-soup-or-stew-suggested-black-bean-soup",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/14838/black-bean-soup/",
+      "source_origin": "existing_source",
       "ingredients": [
         "broth",
         "onion",
@@ -1620,16 +1722,16 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Butternut squash soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/229658/butternut-squash-soup-ii/",
       "id": "dinner-soup-or-stew-suggested-butternut-squash-soup",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/229658/butternut-squash-soup-ii/",
+      "source_origin": "existing_source",
       "ingredients": [
         "broth",
         "onion",
@@ -1641,16 +1743,16 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Clam chowder",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/13109/new-england-clam-chowder-i/",
       "id": "dinner-soup-or-stew-suggested-clam-chowder",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/13109/new-england-clam-chowder-i/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1662,16 +1764,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Dal tadka",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/dal-tadka/",
       "id": "dinner-soup-or-stew-suggested-dal-tadka",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/dal-tadka/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1683,16 +1785,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Miso soup with tofu and vegetables",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/13107/real-miso-soup/",
       "id": "dinner-soup-or-stew-suggested-miso-soup-with-tofu-and-vegetables",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/13107/real-miso-soup/",
+      "source_origin": "existing_source",
       "ingredients": [
         "broth",
         "onion",
@@ -1704,16 +1806,16 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Vietnamese pho",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228720/authentic-pho/",
       "id": "dinner-soup-or-stew-suggested-vietnamese-pho",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228720/authentic-pho/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1725,60 +1827,118 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Wonton soup",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.recipetineats.com/wonton-soup/",
       "id": "dinner-soup-or-stew-wonton-soup",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.recipetineats.com/wonton-soup/",
+      "source_origin": "existing_source",
       "ingredients": [
-        "seafood",
-        "broth",
-        "onion",
-        "garlic"
+        "50 - 60  wonton wrappers ((Note 1))",
+        "200 g / 7 oz   lean pork mince ((ground pork))",
+        "200 g / 7 oz   peeled prawns / shrimp (, roughly chopped)",
+        "1 tbsp ginger (, finely grated (1.5\" / 3cm piece))",
+        "2  shallots / green onions (, finely chopped (5 tbsp))",
+        "1 tbsp light soy sauce ((Note 2))",
+        "2 tbsp Chinese cooking wine ((Shaoxing wine) (Note 3))",
+        "1/2 tsp salt",
+        "2 tbsp sesame oil, toasted ((Note 4))",
+        "3 cups / 750 ml   chicken broth ((Note 5))",
+        "2  garlic cloves (, smashed (6))",
+        "⅓\" / 1 cm   piece of ginger (, sliced (optional, but highly recommended))",
+        "1½ tbsp light soy sauce ((Note 2))",
+        "2 tsp sugar ((any))",
+        "1½ tbsp chinese cooking wine ((Note 3))",
+        "¼ - ½ tsp sesame oil",
+        "Shallots / scallions (, finely chopped)",
+        "Bok choy (, quartered, or Chinese broccoli cut into 10cm /4\" lengths (optional))",
+        "40 - 50 g / 1.5 - 1.75 oz   dried egg noodles per person (, (optional) (8))"
       ],
       "ingredients_normalized": [
-        "seafood",
-        "broth",
-        "onion",
-        "garlic"
+        "- wonton wrappers",
+        "g lean pork mince",
+        "g peeled prawns shrimp",
+        "ginger",
+        "shallots green onions",
+        "light soy sauce",
+        "chinese cooking wine",
+        "salt",
+        "sesame oil toasted",
+        "chicken broth",
+        "garlic cloves",
+        "cm piece of ginger",
+        "tbsp light soy sauce",
+        "sugar",
+        "tbsp chinese cooking wine",
+        "- tsp sesame oil",
+        "shallots scallions",
+        "bok choy",
+        "- g dried egg noodles per person"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
     },
     {
       "title": "Stir fry",
       "meal": "dinner",
       "style": "vegetarian",
-      "source_url": null,
+      "source_url": "https://www.recipetineats.com/vegetable-stir-fry/",
       "id": "dinner-vegetarian-stir-fry",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.recipetineats.com/vegetable-stir-fry/",
+      "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1 tbsp vegetable oil",
+        "2  garlic cloves (, finely chopped)",
+        "1 tbsp ginger (, finely sliced (optional))",
+        "1/2  onion (, peeled and sliced)",
+        "1  carrot (, large)",
+        "3  medium buk choy ( or other leafy greens of choice (Note 1))",
+        "1 cup mushrooms (, sliced 3mm / 1/8\" thick)",
+        "1  capsicum (, sliced 1/2cm / 1/5\" thick)",
+        "1 tbsp cornflour / corn starch",
+        "1 1/2 tbsp soy sauce (, light or all purpose (not dark soy) (Note 2))",
+        "2 tsp Oyster Sauce",
+        "1 tbsp Chinese Cooking Wine or Mirin ((Note 3))",
+        "1/2 tsp sesame oil ((optional))",
+        "Dash of white pepper ((or black))",
+        "3/4 cup / 185 ml   water",
+        "Finely sliced green onions",
+        "Sesame seeds"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "vegetable oil",
+        "garlic cloves",
+        "ginger",
+        "onion",
+        "carrot",
+        "medium buk choy",
+        "mushrooms",
+        "capsicum",
+        "cornflour corn starch",
+        "soy sauce",
+        "oyster sauce",
+        "chinese cooking wine or mirin",
+        "sesame oil",
+        "dash of white pepper",
+        "water",
+        "finely green onions",
+        "sesame seeds"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
     },
     {
       "title": "Suggested - Aloo gobi",
       "meal": "dinner",
       "style": "vegetarian",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/aloo-gobi/",
       "id": "dinner-vegetarian-suggested-aloo-gobi",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/aloo-gobi/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1790,16 +1950,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Saag paneer",
       "meal": "dinner",
       "style": "vegetarian",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/228285/saag-paneer/",
       "id": "dinner-vegetarian-suggested-saag-paneer",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/228285/saag-paneer/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1811,16 +1971,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Shakshuka",
       "meal": "dinner",
       "style": "vegetarian",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/267468/easy-shakshuka/",
       "id": "dinner-vegetarian-suggested-shakshuka",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/267468/easy-shakshuka/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1832,16 +1992,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Veggie stir fry with tofu",
       "meal": "dinner",
       "style": "vegetarian",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/",
       "id": "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1853,16 +2013,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Asian noodle salad",
       "meal": "lunch",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/237310/cold-asian-noodle-salad/",
       "id": "lunch-bowls-suggested-asian-noodle-salad",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/237310/cold-asian-noodle-salad/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1874,16 +2034,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Caprese salad with prosciutto",
       "meal": "lunch",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/12720/caprese-salad/",
       "id": "lunch-bowls-suggested-caprese-salad-with-prosciutto",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/12720/caprese-salad/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1895,16 +2055,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Greek salad with chicken",
       "meal": "lunch",
       "style": "bowls",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/21177/greek-salad/",
       "id": "lunch-bowls-suggested-greek-salad-with-chicken",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/21177/greek-salad/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
@@ -1912,16 +2072,16 @@
         "chicken"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Black bean tacos",
       "meal": "lunch",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/261680/black-bean-tacos/",
       "id": "lunch-handheld-suggested-black-bean-tacos",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/261680/black-bean-tacos/",
+      "source_origin": "existing_source",
       "ingredients": [
         "tortilla",
         "onion",
@@ -1933,16 +2093,16 @@
         "cheese"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - BLT sandwich",
       "meal": "lunch",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/218735/classic-blt/",
       "id": "lunch-handheld-suggested-blt-sandwich",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/218735/classic-blt/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1954,16 +2114,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Egg salad sandwich",
       "meal": "lunch",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/4565/classic-egg-salad/",
       "id": "lunch-handheld-suggested-egg-salad-sandwich",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/4565/classic-egg-salad/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1975,16 +2135,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Quesadillas",
       "meal": "lunch",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/223042/easy-chicken-quesadillas/",
       "id": "lunch-handheld-suggested-quesadillas",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/223042/easy-chicken-quesadillas/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -1996,16 +2156,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Tuna salad sandwich",
       "meal": "lunch",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/23544/tuna-salad/",
       "id": "lunch-handheld-suggested-tuna-salad-sandwich",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/23544/tuna-salad/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -2017,16 +2177,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Turkey and avocado wrap",
       "meal": "lunch",
       "style": "handheld",
-      "source_url": null,
+      "source_url": "https://www.eatingwell.com/recipe/269311/turkey-avocado-wrap/",
       "id": "lunch-handheld-suggested-turkey-and-avocado-wrap",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.eatingwell.com/recipe/269311/turkey-avocado-wrap/",
+      "source_origin": "existing_source",
       "ingredients": [
         "salt",
         "pepper",
@@ -2038,16 +2198,16 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "Suggested - Lentil soup",
       "meal": "lunch",
       "style": "soup-or-stew",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/22028/lentil-soup/",
       "id": "lunch-soup-or-stew-suggested-lentil-soup",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/22028/lentil-soup/",
+      "source_origin": "existing_source",
       "ingredients": [
         "broth",
         "onion",
@@ -2059,7 +2219,7 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     }
   ]
 }
