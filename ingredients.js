@@ -76,8 +76,8 @@ function renderCards(items) {
     li.style.animationDelay = `${Math.min(index * 20, 300)}ms`;
 
     const ingredients = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
-    const sourceLink = recipe.resolved_source_url
-      ? `<a class="sourceLink" href="${recipe.resolved_source_url}" target="_blank" rel="noopener noreferrer">Source</a>`
+    const sourceLink = recipe.source_url && recipe.source_url.trim() !== ""
+      ? `<a class="sourceLink" href="${recipe.source_url}" target="_blank" rel="noopener noreferrer">Source</a>`
       : "";
 
     li.innerHTML = `
