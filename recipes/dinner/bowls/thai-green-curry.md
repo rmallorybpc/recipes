@@ -6,7 +6,7 @@ protein: chicken
 cuisine: thai
 time_minutes: 35
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/222412/thai-green-curry/
 keywords: "thai, asian, coconut, quick, weeknight"
 summary: "Tender chicken and vegetables in a fragrant coconut milk green curry sauce. Serve over jasmine rice with fresh Thai basil."
 ---

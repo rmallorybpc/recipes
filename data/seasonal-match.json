@@ -1,10 +1,92 @@
 {
-  "generatedAt": "2026-04-19T19:57:53.228Z",
+  "generatedAt": "2026-04-20T14:33:07.653Z",
   "region": "colorado",
   "regionLabel": "Colorado",
   "totalRecipes": 98,
   "matchedRecipes": 21,
   "recipes": [
+    {
+      "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
+      "meal": "breakfast",
+      "style": "meat",
+      "source": "https://pinchofyum.com/peanut-chicken-lettuce-wraps-ginger-garlic-sauce",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 garlic cloves, minced"
+        },
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "4 green onions, minced"
+        },
+        {
+          "ingredient": "corn",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "1 teaspoon cornstarch (optional &#8211; helps the sauce thicken)"
+        },
+        {
+          "ingredient": "lettuce",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "12 leaves of lettuce (I used Boston lettuce)"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 4
+    },
     {
       "title": "Chicken tortilla soup",
       "meal": "dinner",
@@ -450,47 +532,6 @@
         7,
         8,
         9
-      ],
-      "seasonalScore": 1
-    },
-    {
-      "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
-      "meal": "breakfast",
-      "style": "meat",
-      "source": "https://pinchofyum.com/peanut-chicken-lettuce-wraps-ginger-garlic-sauce",
-      "seasonalIngredients": [
-        {
-          "ingredient": "lettuce",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "lettuce"
-        }
-      ],
-      "bestMonths": [
-        6,
-        7,
-        8,
-        9
-      ],
-      "availableMonths": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
       ],
       "seasonalScore": 1
     },

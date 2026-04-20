@@ -6,7 +6,7 @@ protein: none
 cuisine: mediterranean
 time_minutes: 40
 servings: 6
-source_url: 
+source_url: https://www.allrecipes.com/recipe/22028/lentil-soup/
 keywords: "vegetarian, vegan, healthy, meal-prep, high-protein"
 summary: "Hearty red lentil soup with carrots, celery, cumin, and lemon. A satisfying and inexpensive lunch that improves overnight."
 ---

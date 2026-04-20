@@ -6,7 +6,7 @@ protein: none
 cuisine: mexican
 time_minutes: 20
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/261680/black-bean-tacos/
 keywords: "vegetarian, vegan, quick, budget, kid-friendly"
 summary: "Crispy black bean tacos with shredded cabbage slaw, avocado, and a squeeze of lime. A fast and filling meatless lunch."
 ---

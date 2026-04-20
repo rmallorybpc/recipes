@@ -6,7 +6,7 @@ protein: none
 cuisine: indian
 time_minutes: 35
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/aloo-gobi/
 keywords: "vegetarian, vegan, indian, healthy, budget"
 summary: "Potatoes and cauliflower spiced with cumin, turmeric, and garam masala. A simple and deeply flavorful dry curry."
 ---

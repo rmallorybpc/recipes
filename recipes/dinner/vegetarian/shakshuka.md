@@ -6,7 +6,7 @@ protein: none
 cuisine: middle-eastern
 time_minutes: 30
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/267468/easy-shakshuka/
 keywords: "vegetarian, quick, one-pan, healthy, egg-based"
 summary: "Eggs poached in a spiced tomato and pepper sauce. A Middle Eastern classic that works for breakfast, brunch, or dinner."
 ---

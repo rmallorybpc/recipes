@@ -6,7 +6,7 @@ protein: fish
 cuisine: mexican
 time_minutes: 25
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/fish-tacos/
 keywords: "fresh, quick, coastal, summer"
 summary: "Crispy pan-fried white fish in corn tortillas with tangy cabbage slaw and a chipotle crema."
 ---

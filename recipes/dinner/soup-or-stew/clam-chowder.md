@@ -6,7 +6,7 @@ protein: seafood
 cuisine: american
 time_minutes: 45
 servings: 6
-source_url: 
+source_url: https://www.allrecipes.com/recipe/13109/new-england-clam-chowder-i/
 keywords: "comfort, winter, creamy, hearty"
 summary: "Rich and creamy New England-style clam chowder with tender potatoes, smoky bacon, and briny clams."
 ---

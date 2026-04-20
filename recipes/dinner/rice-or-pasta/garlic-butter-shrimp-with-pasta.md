@@ -6,7 +6,7 @@ protein: shrimp
 cuisine: italian
 time_minutes: 25
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/238604/garlic-shrimp-pasta/
 keywords: "quick, weeknight, elegant, date-night"
 summary: "Juicy shrimp sauteed in garlic butter with white wine and lemon tossed through linguine. Ready in 25 minutes."
 ---

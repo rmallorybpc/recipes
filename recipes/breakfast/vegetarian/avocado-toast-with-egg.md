@@ -6,7 +6,7 @@ protein: none
 cuisine: american
 time_minutes: 10
 servings: 2
-source_url: 
+source_url: https://www.allrecipes.com/recipe/241032/avocado-toast/
 keywords: "quick, healthy, fresh, vegetarian, 10-minutes"
 summary: "Creamy mashed avocado on toasted sourdough topped with a perfectly fried egg and everything bagel seasoning."
 ---

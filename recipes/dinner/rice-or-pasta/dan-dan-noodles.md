@@ -6,7 +6,7 @@ protein: pork
 cuisine: chinese
 time_minutes: 30
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/dan-dan-noodles/
 keywords: "asian, chinese, spicy, noodles, weeknight"
 summary: "Chinese wheat noodles in a spicy sesame and chili sauce with ground pork and scallions. A bold and satisfying bowl."
 ---

@@ -6,7 +6,7 @@ protein: chicken
 cuisine: greek
 time_minutes: 20
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/21177/greek-salad/
 keywords: "fresh, mediterranean, healthy, summer"
 summary: "Chopped romaine with cucumber, tomato, red onion, olives, and feta topped with grilled or rotisserie chicken and Greek dressing."
 ---

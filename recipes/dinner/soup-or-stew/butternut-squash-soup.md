@@ -6,7 +6,7 @@ protein: none
 cuisine: american
 time_minutes: 45
 servings: 6
-source_url: 
+source_url: https://www.allrecipes.com/recipe/229658/butternut-squash-soup-ii/
 keywords: "vegetarian, vegan, fall, meal-prep, comfort"
 summary: "Silky roasted butternut squash soup with apple, ginger, and a swirl of cream. A Colorado fall staple when winter squash is at peak."
 ---

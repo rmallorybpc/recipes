@@ -6,7 +6,7 @@ protein: beef
 cuisine: vietnamese
 time_minutes: 45
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228720/authentic-pho/
 keywords: "asian, vietnamese, warming, noodles, weekend"
 summary: "A simplified home version of Vietnamese beef pho with fragrant star anise broth, rice noodles, thin sliced beef, and fresh herbs."
 ---

@@ -6,7 +6,7 @@ protein: pork
 cuisine: italian
 time_minutes: 25
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/35306/sausage-and-peppers/
 keywords: "quick, weeknight, one-pan, italian, comfort"
 summary: "Italian sausages with sauteed bell peppers and onions in a savory tomato sauce. Serve in hoagie rolls or over pasta."
 ---

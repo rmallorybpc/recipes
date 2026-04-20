@@ -6,7 +6,7 @@ protein: none
 cuisine: indian
 time_minutes: 40
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/dal-tadka/
 keywords: "vegetarian, vegan, indian, healthy, budget, high-protein"
 summary: "Yellow lentils simmered with tomato, ginger, and turmeric finished with a sizzling tempered oil of cumin, garlic, and dried chilies."
 ---

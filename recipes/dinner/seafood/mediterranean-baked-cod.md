@@ -6,7 +6,7 @@ protein: fish
 cuisine: mediterranean
 time_minutes: 30
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/mediterranean-baked-cod/
 keywords: "healthy, fresh, quick, one-pan, mediterranean"
 summary: "Cod fillets baked over cherry tomatoes, olives, capers, and white wine with lemon and herbs."
 ---

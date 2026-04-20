@@ -6,7 +6,7 @@ protein: none
 cuisine: greek
 time_minutes: 60
 servings: 8
-source_url: 
+source_url: https://www.allrecipes.com/recipe/25680/spanakopita-greek-spinach-pie/
 keywords: "vegetarian, greek, weekend, impressive, make-ahead"
 summary: "Flaky phyllo pastry filled with spinach, feta, ricotta, and dill. A Greek classic that is surprisingly achievable at home."
 ---

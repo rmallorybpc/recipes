@@ -6,7 +6,7 @@ protein: none
 cuisine: italian
 time_minutes: 45
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/
 keywords: "vegetarian, comfort, elegant, date-night, weekend"
 summary: "Creamy Arborio rice slowly cooked with sauteed mushrooms, white wine, Parmesan, and fresh thyme."
 ---

@@ -6,7 +6,7 @@ protein: none
 cuisine: mediterranean
 time_minutes: 45
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/263648/roasted-vegetable-and-farro-bowl/
 keywords: "vegetarian, vegan, meal-prep, healthy, flexible"
 summary: "Roasted seasonal vegetables over farro or quinoa with hummus, pickled red onion, and a lemon-herb dressing."
 ---

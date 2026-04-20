@@ -6,7 +6,7 @@ protein: pork
 cuisine: american
 time_minutes: 15
 servings: 2
-source_url: 
+source_url: https://www.allrecipes.com/recipe/218735/classic-blt/
 keywords: "classic, quick, kid-friendly, summer"
 summary: "The classic BLT - crispy bacon, fresh tomato, and crisp lettuce on toasted bread with mayo. Best in summer when tomatoes are at peak."
 ---

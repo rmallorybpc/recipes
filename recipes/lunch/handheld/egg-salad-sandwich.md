@@ -6,7 +6,7 @@ protein: none
 cuisine: american
 time_minutes: 20
 servings: 2
-source_url: 
+source_url: https://www.allrecipes.com/recipe/4565/classic-egg-salad/
 keywords: "quick, pantry, kid-friendly, no-cook"
 summary: "Creamy egg salad with Dijon, celery, and chives on toasted bread. A classic that comes together in 20 minutes including boiling the eggs."
 ---

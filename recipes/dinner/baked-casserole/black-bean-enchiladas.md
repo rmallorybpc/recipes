@@ -6,7 +6,7 @@ protein: none
 cuisine: mexican
 time_minutes: 45
 servings: 6
-source_url: 
+source_url: https://www.allrecipes.com/recipe/214842/black-bean-enchiladas/
 keywords: "vegetarian, comfort, make-ahead, crowd-pleaser"
 summary: "Corn tortillas filled with seasoned black beans, roasted corn, and cheese smothered in red enchilada sauce and baked until bubbly."
 ---

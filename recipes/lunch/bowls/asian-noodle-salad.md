@@ -6,7 +6,7 @@ protein: none
 cuisine: asian
 time_minutes: 20
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/237310/cold-asian-noodle-salad/
 keywords: "vegetarian, meal-prep, cold, summer, fresh"
 summary: "Cold rice noodles with shredded cabbage, carrots, cucumber, and scallions in a sesame-ginger dressing. Great for meal prep."
 ---

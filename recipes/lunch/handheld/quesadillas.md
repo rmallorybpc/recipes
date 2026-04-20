@@ -6,7 +6,7 @@ protein: chicken
 cuisine: mexican
 time_minutes: 15
 servings: 2
-source_url: 
+source_url: https://www.allrecipes.com/recipe/223042/easy-chicken-quesadillas/
 keywords: "quick, kid-friendly, cheesy, weekday"
 summary: "Crispy flour tortillas filled with melted cheese and shredded chicken. Ready in 15 minutes and endlessly customizable."
 ---

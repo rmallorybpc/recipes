@@ -6,7 +6,7 @@ protein: chicken
 cuisine: indian
 time_minutes: 45
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228293/curry-stand-chicken-tikka-masala-sauce/
 keywords: "indian, comfort, creamy, weeknight, crowd-pleaser"
 summary: "Tender marinated chicken in a rich and creamy tomato-based curry sauce with warm spices."
 ---

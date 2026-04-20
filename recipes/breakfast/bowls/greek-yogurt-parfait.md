@@ -6,7 +6,7 @@ protein: none
 cuisine: american
 time_minutes: 5
 servings: 2
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/greek-yogurt-parfait/
 keywords: "quick, healthy, no-cook, fresh, summer, 5-minutes"
 summary: "Creamy Greek yogurt layered with granola, fresh berries, and a drizzle of honey. The fastest breakfast in the collection at 5 minutes."
 ---

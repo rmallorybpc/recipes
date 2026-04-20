@@ -6,7 +6,7 @@ protein: chicken
 cuisine: italian
 time_minutes: 30
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/caprese-stuffed-chicken/
 keywords: "quick, elegant, weeknight, summer, fresh"
 summary: "Chicken breasts stuffed with fresh mozzarella and tomato, seared and finished in the oven with basil. Looks impressive, takes 30 minutes."
 ---

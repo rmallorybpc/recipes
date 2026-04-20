@@ -6,7 +6,7 @@ protein: none
 cuisine: italian
 time_minutes: 60
 servings: 6
-source_url: 
+source_url: https://www.allrecipes.com/recipe/13981/eggplant-parmesan-ii/
 keywords: "vegetarian, comfort, weekend, crowd-pleaser, make-ahead"
 summary: "Sliced eggplant breaded and baked then layered with marinara and mozzarella and baked until bubbly."
 ---

@@ -6,7 +6,7 @@ protein: chicken
 cuisine: japanese
 time_minutes: 35
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/72069/chicken-katsu/
 keywords: "japanese, asian, crispy, weeknight, kid-friendly"
 summary: "Panko-crusted chicken cutlets fried until golden and served over rice with a tangy tonkatsu sauce and shredded cabbage."
 ---

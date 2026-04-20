@@ -6,7 +6,7 @@ protein: pork
 cuisine: mexican
 time_minutes: 20
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/14942/breakfast-burrito/
 keywords: "quick, filling, kid-friendly, meal-prep, weekday"
 summary: "Scrambled eggs with sausage, peppers, and cheese wrapped in a warm flour tortilla. Make-ahead friendly and great for busy mornings."
 ---

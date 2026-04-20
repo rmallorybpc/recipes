@@ -6,7 +6,7 @@ protein: shrimp
 cuisine: asian
 time_minutes: 20
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/16954/shrimp-fried-rice/
 keywords: "quick, weeknight, pantry, leftover-rice"
 summary: "Classic shrimp fried rice with egg, peas, carrots, and soy sauce. Best made with day-old refrigerated rice."
 ---

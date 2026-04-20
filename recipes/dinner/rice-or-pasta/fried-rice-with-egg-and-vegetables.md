@@ -6,7 +6,7 @@ protein: none
 cuisine: asian
 time_minutes: 15
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/16954/fried-rice/
 keywords: "vegetarian, quick, pantry, leftover-rice, kid-friendly"
 summary: "Day-old rice stir-fried with eggs, soy sauce, and whatever vegetables are in the fridge. Ready in 15 minutes."
 ---

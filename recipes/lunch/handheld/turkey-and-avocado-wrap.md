@@ -6,7 +6,7 @@ protein: turkey
 cuisine: american
 time_minutes: 10
 servings: 2
-source_url: 
+source_url: https://www.eatingwell.com/recipe/269311/turkey-avocado-wrap/
 keywords: "quick, no-cook, meal-prep, kid-friendly"
 summary: "A simple turkey and avocado wrap with crisp lettuce, tomato, and a smear of mayo or hummus. Ready in under 10 minutes."
 ---

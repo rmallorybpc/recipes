@@ -6,7 +6,7 @@ protein: chicken
 cuisine: indian
 time_minutes: 45
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/246717/chef-johns-chicken-tikka-masala/
 keywords: "indian, comfort, creamy, mild, kid-friendly, crowd-pleaser"
 summary: "Chicken in a rich buttery tomato cream sauce. A milder and sweeter cousin to tikka masala that even picky eaters love."
 ---

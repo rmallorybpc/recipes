@@ -6,7 +6,7 @@ protein: none
 cuisine: indian
 time_minutes: 40
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/saag-paneer/
 keywords: "vegetarian, indian, spinach, healthy, warming"
 summary: "Creamy spiced spinach with cubes of paneer cheese. A classic Indian vegetarian dish served with basmati rice and naan."
 ---

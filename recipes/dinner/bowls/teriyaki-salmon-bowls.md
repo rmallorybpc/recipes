@@ -6,7 +6,7 @@ protein: salmon
 cuisine: japanese
 time_minutes: 25
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/teriyaki-salmon/
 keywords: "healthy, fresh, quick, meal-prep, asian"
 summary: "Glazed teriyaki salmon over steamed rice with cucumber, edamame, avocado, and a drizzle of sriracha mayo."
 ---

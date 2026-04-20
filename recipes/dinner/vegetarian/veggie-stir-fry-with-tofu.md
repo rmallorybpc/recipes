@@ -6,7 +6,7 @@ protein: tofu
 cuisine: asian
 time_minutes: 25
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/
 keywords: "vegetarian, vegan, quick, healthy, weeknight"
 summary: "Crispy baked tofu and colorful vegetables in a savory ginger-garlic sauce served over rice."
 ---

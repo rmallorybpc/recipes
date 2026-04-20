@@ -6,7 +6,7 @@ protein: lamb
 cuisine: middle-eastern
 time_minutes: 30
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/lamb-kofta/
 keywords: "middle-eastern, grilling, quick, fresh, summer"
 summary: "Spiced ground lamb skewers grilled until charred and juicy, served with creamy tzatziki, warm pita, and a simple chopped salad."
 ---

@@ -6,7 +6,7 @@ protein: none
 cuisine: latin
 time_minutes: 30
 servings: 6
-source_url: 
+source_url: https://www.allrecipes.com/recipe/14838/black-bean-soup/
 keywords: "vegetarian, vegan, quick, budget, pantry, healthy"
 summary: "Rich and smoky black bean soup from pantry staples in 30 minutes. Loaded with cumin, smoked paprika, and garlic."
 ---

@@ -6,7 +6,7 @@ protein: none
 cuisine: indian
 time_minutes: 40
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/34423/chickpea-coconut-curry/
 keywords: "vegetarian, vegan, healthy, meal-prep, warming"
 summary: "A warming coconut milk vegetable curry with chickpeas, sweet potato, spinach, and aromatic spices served over basmati rice."
 ---

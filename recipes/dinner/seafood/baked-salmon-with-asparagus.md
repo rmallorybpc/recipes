@@ -6,7 +6,7 @@ protein: salmon
 cuisine: american
 time_minutes: 30
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/baked-salmon-with-garlic-and-dijon/
 keywords: "healthy, spring, one-pan, quick, fresh"
 summary: "Sheet pan salmon and asparagus roasted together with lemon, garlic, and herbs. One pan, minimal cleanup, ready in 30 minutes."
 ---

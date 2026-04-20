@@ -6,7 +6,7 @@ protein: none
 cuisine: italian
 time_minutes: 20
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/229960/caprese-pasta/
 keywords: "vegetarian, quick, summer, fresh, no-cook-sauce"
 summary: "Hot pasta tossed with fresh mozzarella, cherry tomatoes, torn basil, and good olive oil. The heat melts the cheese into a light creamy sauce."
 ---

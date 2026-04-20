@@ -6,7 +6,7 @@ protein: shrimp
 cuisine: mexican
 time_minutes: 25
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/234060/shrimp-tacos/
 keywords: "fresh, summer, coastal, quick"
 summary: "Chili-lime shrimp in warm tortillas topped with a bright mango and cabbage slaw. A fast and vibrant dinner that feels like summer."
 ---

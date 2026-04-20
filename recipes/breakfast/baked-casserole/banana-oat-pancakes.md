@@ -6,7 +6,7 @@ protein: none
 cuisine: american
 time_minutes: 20
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/228285/banana-oat-pancakes/
 keywords: "healthy, kid-friendly, gluten-free-option, quick, weekend"
 summary: "Fluffy pancakes made with mashed banana and oats. Naturally sweetened and more filling than standard pancakes."
 ---

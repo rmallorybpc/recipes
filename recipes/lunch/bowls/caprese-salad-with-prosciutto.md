@@ -6,7 +6,7 @@ protein: pork
 cuisine: italian
 time_minutes: 10
 servings: 2
-source_url: 
+source_url: https://www.allrecipes.com/recipe/12720/caprese-salad/
 keywords: "no-cook, fresh, summer, elegant, quick"
 summary: "Fresh mozzarella, ripe tomatoes, and basil drizzled with olive oil and balsamic, topped with thin-sliced prosciutto. Perfect in summer when tomatoes are at peak."
 ---

@@ -6,7 +6,7 @@ protein: chicken
 cuisine: american
 time_minutes: 35
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/234440/sheet-pan-chicken-thighs-and-veggies/
 keywords: "one-pan, weeknight, easy, minimal-cleanup"
 summary: "Bone-in chicken thighs and seasonal vegetables roasted on a single sheet pan with olive oil and herbs. Maximum flavor with minimal cleanup."
 ---

@@ -6,7 +6,7 @@ protein: seafood
 cuisine: american
 time_minutes: 10
 servings: 2
-source_url: 
+source_url: https://www.allrecipes.com/recipe/23544/tuna-salad/
 keywords: "quick, pantry, no-cook, meal-prep"
 summary: "Classic tuna salad with celery, red onion, and mayo on toasted bread. A pantry staple that comes together in minutes."
 ---

@@ -6,7 +6,7 @@ protein: chicken
 cuisine: thai
 time_minutes: 30
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/66664/chicken-pad-thai/
 keywords: "asian, thai, weeknight, noodles, quick"
 summary: "Rice noodles stir-fried with chicken, egg, bean sprouts, and a tangy tamarind-based sauce topped with peanuts and lime."
 ---

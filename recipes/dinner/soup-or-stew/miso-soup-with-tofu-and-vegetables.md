@@ -6,7 +6,7 @@ protein: tofu
 cuisine: japanese
 time_minutes: 20
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/13107/real-miso-soup/
 keywords: "japanese, vegetarian, quick, light, healthy"
 summary: "A warming miso soup with silken tofu, wakame seaweed, mushrooms, and scallions. Light enough as a starter, satisfying as a simple dinner with rice."
 ---

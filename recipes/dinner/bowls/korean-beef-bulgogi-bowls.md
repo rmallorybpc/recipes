@@ -6,7 +6,7 @@ protein: beef
 cuisine: korean
 time_minutes: 30
 servings: 4
-source_url: 
+source_url: https://www.allrecipes.com/recipe/246686/korean-beef-bowl/
 keywords: "korean, asian, beef, weeknight, flavorful"
 summary: "Thinly sliced beef marinated in soy, pear, sesame, and garlic, quickly cooked and served over rice with kimchi and cucumber."
 ---
