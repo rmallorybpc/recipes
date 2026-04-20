@@ -6,6 +6,8 @@ const titleQuery = document.querySelector("#titleQuery");
 const recipeGrid = document.querySelector("#ingredientRecipeGrid");
 const resultCount = document.querySelector("#ingredientResultCount");
 const dataStatus = document.querySelector("#ingredientDataStatus");
+const INGREDIENT_PREVIEW_COUNT = 4;
+const MAX_MATCH_CHIPS = 3;
 
 let recipes = [];
 
@@ -92,14 +94,25 @@ function renderMatchedChips(matched) {
     return "";
   }
 
+  const visible = matched.slice(0, MAX_MATCH_CHIPS);
+  const hiddenCount = matched.length - visible.length;
+
   return `
-    <div class="matchedChips" aria-label="Matched ingredients">
-      ${matched.map((ingredient) => `<span class="matchedChip">Matches: ${escapeHtml(ingredient)}</span>`).join("")}
+    <div class="matchedRow" aria-label="Matched ingredients">
+      <span class="matchedLabel">Matches</span>
+      <div class="matchedChips">
+        ${visible.map((ingredient) => `<span class="matchedChip">${escapeHtml(ingredient)}</span>`).join("")}
+        ${
+          hiddenCount > 0
+            ? `<span class="matchedChip matchedChipMore">+${hiddenCount} more</span>`
+            : ""
+        }
+      </div>
     </div>
   `;
 }
 
-function renderIngredientPreview(ingredients, recipeId, previewCount = 5) {
+function renderIngredientPreview(ingredients, recipeId, previewCount = INGREDIENT_PREVIEW_COUNT) {
   if (!ingredients.length) {
     return '<p class="ingredientSummary">Ingredients: Unknown</p>';
   }
@@ -148,6 +161,15 @@ function reliabilityText(source) {
   return value.includes("scrape") ? "From source" : "Estimated";
 }
 
+function reliabilityDetail(source) {
+  const value = String(source || "").toLowerCase();
+  if (value.includes("scrape")) {
+    return "Ingredients were scraped from the linked source recipe.";
+  }
+
+  return "Ingredients are inferred and may be incomplete.";
+}
+
 function renderCards(items, queryTokens) {
   recipeGrid.innerHTML = "";
   resultCount.textContent = `${items.length} recipe${items.length === 1 ? "" : "s"}`;
@@ -174,8 +196,14 @@ function renderCards(items, queryTokens) {
     const fullIngredientList = renderFullIngredientList(ingredients, recipeId);
 
     const sourceLink = recipe.source_url && recipe.source_url.trim() !== ""
-      ? `<a class="sourceLink" href="${recipe.source_url}" target="_blank" rel="noopener noreferrer">Source</a>`
+      ? `<a class="sourceLink" href="${escapeHtml(recipe.source_url)}" target="_blank" rel="noopener noreferrer">Source</a>`
       : "";
+
+    const sourceReliability = reliabilityText(recipe.ingredient_source);
+    const sourceDetail = reliabilityDetail(recipe.ingredient_source);
+    const sourceInfoClass = sourceReliability === "Estimated"
+      ? "sourceInfo sourceInfoEstimated"
+      : "sourceInfo";
 
     li.innerHTML = `
       <p class="recipeName">${escapeHtml(recipe.title)}</p>
@@ -190,7 +218,7 @@ function renderCards(items, queryTokens) {
       ${fullIngredientList}
       <div class="sourceContext">
         ${sourceLink}
-        <span class="sourceInfo">${escapeHtml(reliabilityText(recipe.ingredient_source))}</span>
+        <span class="${sourceInfoClass}" title="${escapeHtml(sourceDetail)}" aria-label="${escapeHtml(sourceDetail)}">${escapeHtml(sourceReliability)}</span>
       </div>
     `;
 
