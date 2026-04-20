@@ -49,6 +49,22 @@ const TITLE_NEGATION_RULES = [
 
 const BAD_SEARCH_HOSTS = ["pinterest.com", "facebook.com", "instagram.com"];
 
+const INGREDIENT_ALIASES = {
+  "chicken breast": ["chicken breasts", "boneless chicken", "chicken cutlet"],
+  "chicken thighs": ["chicken thigh", "bone-in chicken"],
+  "ground beef": ["beef mince", "minced beef"],
+  "beef chuck": ["chuck roast", "chuck steak"],
+  "pork shoulder": ["pork butt", "shoulder butt"],
+  shrimp: ["prawns"],
+  scallions: ["green onions", "spring onions"],
+  cilantro: ["fresh cilantro", "coriander"],
+  pasta: ["spaghetti", "penne", "linguine", "fettuccine", "rigatoni", "macaroni", "noodles"],
+  rice: ["basmati rice", "jasmine rice", "white rice", "long-grain rice", "wild rice"],
+  broth: ["chicken broth", "beef broth", "vegetable broth", "stock", "chicken stock", "beef stock"],
+  cheese: ["cheddar", "mozzarella", "parmesan", "ricotta", "feta", "gruyere", "shredded cheese"],
+  tomatoes: ["crushed tomatoes", "diced tomatoes", "canned tomatoes", "tomato sauce", "cherry tomatoes"]
+};
+
 function slugify(value) {
   return value
     .toLowerCase()
@@ -205,6 +221,25 @@ function normalizeIngredient(value) {
     .replace(/\b\d+[\/\d.\s-]*(cups?|cup|tbsp|tsp|teaspoons?|tablespoons?|oz|ounces?|lbs?|pounds?|grams?|kg|ml|l)\b/g, " ")
     .replace(/\b(to taste|divided|optional|for serving|fresh|chopped|minced|diced|sliced)\b/g, " ")
     .replace(/[^a-z\s-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function cleanForDealsMatch(ingredientStr) {
+  return String(ingredientStr || "")
+    .toLowerCase()
+    .replace(/\d+\/\d+/g, "")
+    .replace(/\d+\.?\d*/g, "")
+    .replace(
+      /\b(cups?|tbsp|tsp|tablespoons?|teaspoons?|oz|lbs?|pounds?|ounces?|grams?|kg|ml|liters?|gallons?|quarts?|pints?|cans?|cloves?|slices?|strips?|sprigs?|bunches?|heads?|stalks?|pieces?|fillets?|packets?|packages?)\b/gi,
+      ""
+    )
+    .replace(
+      /\b(boneless|skinless|bone.in|skin.on|fresh|frozen|dried|ground|shredded|grated|sliced|diced|chopped|minced|crushed|peeled|deveined|trimmed|halved|quartered|cubed|beaten|softened|melted|cooked|raw|lean|extra.lean|whole|skim|low.fat|reduced.fat|fat.free|organic|natural|large|medium|small|thin|thick)\b/gi,
+      ""
+    )
+    .replace(/\(.*?\)/g, "")
+    .replace(/[^a-z\s]/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -665,6 +700,42 @@ function matchSeasonalTerms(ingredientList, seasonalLookup) {
   return [...matchesByKey.values()];
 }
 
+function buildDealsAliasLookup() {
+  const aliasLookup = new Map();
+
+  for (const [canonical, aliases] of Object.entries(INGREDIENT_ALIASES)) {
+    const cleanedCanonical = cleanForDealsMatch(canonical);
+    const cleanedAliases = dedupe((aliases || []).map((alias) => cleanForDealsMatch(alias)).filter(Boolean));
+
+    if (!aliasLookup.has(cleanedCanonical)) {
+      aliasLookup.set(cleanedCanonical, new Set());
+    }
+
+    for (const cleanedAlias of cleanedAliases) {
+      aliasLookup.get(cleanedCanonical).add(cleanedAlias);
+
+      if (!aliasLookup.has(cleanedAlias)) {
+        aliasLookup.set(cleanedAlias, new Set());
+      }
+      aliasLookup.get(cleanedAlias).add(cleanedCanonical);
+    }
+  }
+
+  return aliasLookup;
+}
+
+function isDealsMatch(cleanedIngredient, cleanedDealTerm, aliasTerms) {
+  if (!cleanedIngredient || !cleanedDealTerm) {
+    return false;
+  }
+
+  if (cleanedIngredient.includes(cleanedDealTerm) || cleanedDealTerm.includes(cleanedIngredient)) {
+    return true;
+  }
+
+  return aliasTerms.some((alias) => alias && cleanedIngredient.includes(alias));
+}
+
 async function main() {
   const rawInventory = await loadInventory();
   const inventory = withStableIds(rawInventory).sort((a, b) => {
@@ -771,22 +842,95 @@ async function main() {
       dealsByTerm.set(dealTerm, deal);
     }
 
+    const aliasLookup = buildDealsAliasLookup();
+    const dealsMatcherEntries = [...dealsByTerm.entries()].map(([dealTerm, deal]) => {
+      const cleanedDealTerm = cleanForDealsMatch(dealTerm);
+      const aliasTerms = [...(aliasLookup.get(cleanedDealTerm) || new Set())].filter(Boolean);
+      return {
+        dealTerm,
+        cleanedDealTerm,
+        aliasTerms,
+        deal
+      };
+    });
+
+    const recipesForMatching = recipes.map((recipe) => ({
+      title: recipe.title,
+      meal: recipe.meal,
+      style: recipe.style,
+      source: recipe.source_url || recipe.resolved_source_url || "",
+      ingredientsNormalized: Array.isArray(recipe.ingredients_normalized) ? recipe.ingredients_normalized : []
+    }));
+
     const recipesByDealTerm = new Map();
     for (const dealTerm of dealsByTerm.keys()) {
       recipesByDealTerm.set(dealTerm, []);
     }
 
-    for (const recipe of seasonalRecipes) {
-      const seasonalIngredients = Array.isArray(recipe.seasonalIngredients) ? recipe.seasonalIngredients : [];
+    const recipeDeals = [];
+    let totalRecipeIngredientCount = 0;
 
-      for (const seasonalIngredient of seasonalIngredients) {
-        const ingredientName = typeof seasonalIngredient?.ingredient === "string" ? seasonalIngredient.ingredient.trim().toLowerCase() : "";
-        if (!ingredientName || !recipesByDealTerm.has(ingredientName)) {
+    for (const recipe of recipesForMatching) {
+      const cleanedIngredientMap = new Map();
+      for (const ingredient of recipe.ingredientsNormalized) {
+        const cleaned = cleanForDealsMatch(ingredient);
+        if (!cleaned || cleanedIngredientMap.has(cleaned)) {
+          continue;
+        }
+        cleanedIngredientMap.set(cleaned, ingredient);
+      }
+
+      const cleanedIngredients = [...cleanedIngredientMap.entries()].map(([cleaned, raw]) => ({ raw, cleaned }));
+
+      totalRecipeIngredientCount += cleanedIngredients.length;
+
+      const onSaleIngredients = [];
+
+      for (const entry of dealsMatcherEntries) {
+        if (!entry.cleanedDealTerm) {
           continue;
         }
 
-        recipesByDealTerm.get(ingredientName).push(recipe);
+        const matchedIngredient = cleanedIngredients.find((ingredient) =>
+          isDealsMatch(ingredient.cleaned, entry.cleanedDealTerm, entry.aliasTerms)
+        );
+
+        if (!matchedIngredient) {
+          continue;
+        }
+
+        recipesByDealTerm.get(entry.dealTerm).push({
+          title: recipe.title,
+          meal: recipe.meal,
+          style: recipe.style,
+          source: recipe.source
+        });
+
+        onSaleIngredients.push({
+          ingredient: matchedIngredient.raw,
+          dealName: entry.deal.name,
+          promoPrice: entry.deal.promoPrice,
+          savings: entry.deal.savings,
+          savingsPct: entry.deal.savingsPct,
+          size: entry.deal.size || ""
+        });
       }
+
+      const totalSavings = Number(onSaleIngredients.reduce((sum, item) => sum + (Number(item.savings) || 0), 0).toFixed(2));
+      const dealCount = onSaleIngredients.length;
+
+      if (dealCount === 0) {
+        continue;
+      }
+
+      recipeDeals.push({
+        title: recipe.title,
+        meal: recipe.meal,
+        style: recipe.style,
+        onSaleIngredients,
+        totalSavings,
+        dealCount
+      });
     }
 
     const dealRecipes = [];
@@ -826,51 +970,14 @@ async function main() {
       return (a.dealName || "").localeCompare(b.dealName || "");
     });
 
-    const recipeDeals = [];
-    for (const recipe of seasonalRecipes) {
-      const seasonalIngredients = Array.isArray(recipe.seasonalIngredients) ? recipe.seasonalIngredients : [];
-      const onSaleIngredients = [];
-
-      for (const seasonalIngredient of seasonalIngredients) {
-        const ingredientName = typeof seasonalIngredient?.ingredient === "string" ? seasonalIngredient.ingredient.trim().toLowerCase() : "";
-        if (!ingredientName || !dealsByTerm.has(ingredientName)) {
-          continue;
-        }
-
-        const deal = dealsByTerm.get(ingredientName);
-        onSaleIngredients.push({
-          ingredient: seasonalIngredient.ingredient,
-          dealName: deal.name,
-          promoPrice: deal.promoPrice,
-          savings: deal.savings,
-          savingsPct: deal.savingsPct,
-          size: deal.size || ""
-        });
-      }
-
-      const totalSavings = Number(onSaleIngredients.reduce((sum, item) => sum + (Number(item.savings) || 0), 0).toFixed(2));
-      const dealCount = onSaleIngredients.length;
-
-      if (dealCount === 0) {
-        continue;
-      }
-
-      recipeDeals.push({
-        title: recipe.title,
-        meal: recipe.meal,
-        style: recipe.style,
-        onSaleIngredients,
-        totalSavings,
-        dealCount
-      });
-    }
-
     recipeDeals.sort((a, b) => {
       if (b.dealCount !== a.dealCount) {
         return b.dealCount - a.dealCount;
       }
       return b.totalSavings - a.totalSavings;
     });
+
+    const matchedDealTerms = [...recipesByDealTerm.values()].filter((matched) => matched.length > 0).length;
 
     const dealsPayload = {
       generatedAt: new Date().toISOString(),
@@ -889,8 +996,8 @@ async function main() {
 
     console.log("");
     console.log("===== Deals Cross-Reference Complete =====");
-    console.log(`Deals with recipe matches: ${dealRecipes.length} of ${weeklyDeals.length} total deals`);
-    console.log(`Recipes with deal matches: ${recipeDeals.length} of ${seasonalRecipes.length} total recipes`);
+    console.log(`Deals cross-reference: ${matchedDealTerms} deal terms matched against ${totalRecipeIngredientCount} recipe ingredients`);
+    console.log(`Recipes with at least 1 deal match: ${recipeDeals.length} of ${recipes.length} total`);
     if (recipeDeals.length > 0) {
       const topRecipe = recipeDeals[0];
       console.log(`Top recipe to cook this week: ${topRecipe.title} - ${topRecipe.dealCount} ingredients on sale`);
