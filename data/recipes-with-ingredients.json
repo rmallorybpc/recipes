@@ -1028,10 +1028,10 @@
       "title": "Suggested - Sheet pan chicken thighs and vegetables",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.allrecipes.com/recipe/234440/sheet-pan-chicken-thighs-and-veggies/",
       "id": "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.allrecipes.com/recipe/234440/sheet-pan-chicken-thighs-and-veggies/",
+      "source_origin": "existing_source",
       "ingredients": [
         "chicken"
       ],
