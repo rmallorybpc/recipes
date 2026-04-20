@@ -539,10 +539,105 @@ textarea {
   align-content: start;
 }
 
+.matchedChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.matchedChip {
+  display: inline-flex;
+  align-items: center;
+  background: #fff3e3;
+  border: 1px solid #f1d2ad;
+  color: #6f3a1e;
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.ingredientPreview {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.ingredientPreviewLabel {
+  margin: 0;
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: #5c483c;
+}
+
+.ingredientList {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: #4d3a2f;
+  font-size: 0.88rem;
+  display: grid;
+  gap: 0.25rem 0.7rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ingredientListCompact {
+  margin-bottom: 0.05rem;
+}
+
+.ingredientFull {
+  background: #fffaf5;
+  border: 1px solid #ecdac8;
+  border-radius: 12px;
+  padding: 0.55rem 0.7rem;
+}
+
+.ingredientListFull {
+  grid-template-columns: 1fr;
+}
+
+.expandIngredients {
+  justify-self: start;
+  border: none;
+  background: transparent;
+  color: var(--accent-2);
+  padding: 0;
+  font: inherit;
+  font-size: 0.83rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.expandIngredients:hover {
+  color: #225f52;
+}
+
+.expandIngredients:focus-visible {
+  outline: 3px solid var(--ring);
+  border-radius: 6px;
+}
+
 .ingredientSummary {
   margin: 0;
   font-size: 0.9rem;
   color: #4d3a2f;
+}
+
+.sourceContext {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.sourceInfo {
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #4c5c56;
+  background: #e8f2ee;
+  border: 1px solid #cde1da;
+  border-radius: 999px;
+  padding: 0.16rem 0.45rem;
 }
 
 .ingredientDataStatus {
@@ -816,6 +911,10 @@ textarea {
   .subNav a {
     font-size: 12px;
     padding: 0.25rem 0.6rem;
+  }
+
+  .ingredientList {
+    grid-template-columns: 1fr;
   }
 
 }

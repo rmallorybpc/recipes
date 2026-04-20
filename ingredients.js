@@ -58,7 +58,97 @@ function confidenceLabel(value) {
   return `Low (${score.toFixed(2)})`;
 }
 
-function renderCards(items) {
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function getMatchedIngredients(recipe, queryTokens) {
+  if (!queryTokens.length) {
+    return [];
+  }
+
+  const normalized = Array.isArray(recipe.ingredients_normalized)
+    ? recipe.ingredients_normalized.map((item) => item.toLowerCase())
+    : [];
+
+  const matches = [];
+  queryTokens.forEach((token) => {
+    const found = normalized.find((ingredient) => ingredient.includes(token));
+    if (found) {
+      matches.push(found);
+    }
+  });
+
+  return [...new Set(matches)];
+}
+
+function renderMatchedChips(matched) {
+  if (!matched.length) {
+    return "";
+  }
+
+  return `
+    <div class="matchedChips" aria-label="Matched ingredients">
+      ${matched.map((ingredient) => `<span class="matchedChip">Matches: ${escapeHtml(ingredient)}</span>`).join("")}
+    </div>
+  `;
+}
+
+function renderIngredientPreview(ingredients, recipeId, previewCount = 5) {
+  if (!ingredients.length) {
+    return '<p class="ingredientSummary">Ingredients: Unknown</p>';
+  }
+
+  const preview = ingredients.slice(0, previewCount);
+  const remaining = ingredients.length - preview.length;
+
+  return `
+    <div class="ingredientPreview">
+      <p class="ingredientPreviewLabel">Ingredients (${ingredients.length})</p>
+      <ul class="ingredientList ingredientListCompact">
+        ${preview.map((ingredient) => `<li>${escapeHtml(ingredient)}</li>`).join("")}
+      </ul>
+      ${
+        remaining > 0
+          ? `<button
+              class="expandIngredients"
+              type="button"
+              aria-expanded="false"
+              aria-controls="ingredients-${recipeId}"
+              data-recipe-id="${recipeId}"
+              data-remaining="${remaining}"
+            >Show +${remaining} more</button>`
+          : ""
+      }
+    </div>
+  `;
+}
+
+function renderFullIngredientList(ingredients, recipeId) {
+  if (!ingredients.length) {
+    return "";
+  }
+
+  return `
+    <div id="ingredients-${recipeId}" class="ingredientFull" hidden>
+      <ul class="ingredientList ingredientListFull">
+        ${ingredients.map((ingredient) => `<li>${escapeHtml(ingredient)}</li>`).join("")}
+      </ul>
+    </div>
+  `;
+}
+
+function reliabilityText(source) {
+  const value = String(source || "").toLowerCase();
+  return value.includes("scrape") ? "From source" : "Estimated";
+}
+
+function renderCards(items, queryTokens) {
   recipeGrid.innerHTML = "";
   resultCount.textContent = `${items.length} recipe${items.length === 1 ? "" : "s"}`;
 
@@ -75,25 +165,58 @@ function renderCards(items) {
     li.className = "card ingredientCard";
     li.style.animationDelay = `${Math.min(index * 20, 300)}ms`;
 
+    const recipeId = escapeHtml(recipe.id || `${recipe.meal}-${recipe.style}-${index}`);
+
     const ingredients = Array.isArray(recipe.ingredients) ? recipe.ingredients : [];
+    const matched = getMatchedIngredients(recipe, queryTokens);
+    const matchedChips = renderMatchedChips(matched);
+    const ingredientPreview = renderIngredientPreview(ingredients, recipeId);
+    const fullIngredientList = renderFullIngredientList(ingredients, recipeId);
+
     const sourceLink = recipe.source_url && recipe.source_url.trim() !== ""
       ? `<a class="sourceLink" href="${recipe.source_url}" target="_blank" rel="noopener noreferrer">Source</a>`
       : "";
 
     li.innerHTML = `
-      <p class="recipeName">${recipe.title}</p>
+      <p class="recipeName">${escapeHtml(recipe.title)}</p>
       <div class="tags">
-        <span class="tag">${pretty(recipe.meal)}</span>
-        <span class="tag">${pretty(recipe.style)}</span>
-        <span class="tag">${recipe.ingredient_source}</span>
+        <span class="tag">${escapeHtml(pretty(recipe.meal))}</span>
+        <span class="tag">${escapeHtml(pretty(recipe.style))}</span>
+        <span class="tag">${escapeHtml(recipe.ingredient_source || "Unknown")}</span>
         <span class="tag">Confidence: ${confidenceLabel(recipe.confidence)}</span>
       </div>
-      <p class="ingredientSummary">Ingredients: ${ingredients.join(", ") || "Unknown"}</p>
-      ${sourceLink}
+      ${matchedChips}
+      ${ingredientPreview}
+      ${fullIngredientList}
+      <div class="sourceContext">
+        ${sourceLink}
+        <span class="sourceInfo">${escapeHtml(reliabilityText(recipe.ingredient_source))}</span>
+      </div>
     `;
 
     recipeGrid.appendChild(li);
   });
+}
+
+function handleIngredientToggle(event) {
+  const button = event.target.closest(".expandIngredients");
+  if (!button) {
+    return;
+  }
+
+  const recipeId = button.dataset.recipeId;
+  const fullList = document.getElementById(`ingredients-${recipeId}`);
+  if (!fullList) {
+    return;
+  }
+
+  const currentlyExpanded = button.getAttribute("aria-expanded") === "true";
+  const nextExpanded = !currentlyExpanded;
+  const remaining = Number(button.dataset.remaining || "0");
+
+  button.setAttribute("aria-expanded", String(nextExpanded));
+  button.textContent = nextExpanded ? "Show less" : `Show +${remaining} more`;
+  fullList.hidden = !nextExpanded;
 }
 
 function applyFilters() {
@@ -114,7 +237,7 @@ function applyFilters() {
     return matchesMeal && matchesStyle && matchesIngredients && matchesTitle;
   });
 
-  renderCards(filtered);
+  renderCards(filtered, ingredientTokens);
 }
 
 async function loadData() {
@@ -130,7 +253,7 @@ async function loadData() {
     applyFilters();
   } catch (_error) {
     dataStatus.textContent = "Recipe ingredient dataset is missing. Run scripts/generate-ingredient-data.mjs.";
-    renderCards([]);
+    renderCards([], []);
   }
 }
 
@@ -139,5 +262,6 @@ styleFilter.addEventListener("change", applyFilters);
 ingredientMode.addEventListener("change", applyFilters);
 ingredientQuery.addEventListener("input", applyFilters);
 titleQuery.addEventListener("input", applyFilters);
+recipeGrid.addEventListener("click", handleIngredientToggle);
 
 loadData();
