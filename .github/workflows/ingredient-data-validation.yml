@@ -19,6 +19,8 @@ permissions:
 jobs:
   validate-ingredients:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     timeout-minutes: 25
 
     steps:
@@ -28,14 +30,14 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "24"
 
       - name: Generate ingredient data
         run: node ./scripts/generate-ingredient-data.mjs
 
       - name: Validate with Claude Sonnet via GitHub Models
         env:
-          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
           GITHUB_MODELS_MODEL: anthropic/claude-3.5-sonnet
           VALIDATION_SAMPLE_SIZE: ${{ inputs.sample_size }}
           VALIDATION_CHUNK_SIZE: ${{ inputs.chunk_size }}
