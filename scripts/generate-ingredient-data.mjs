@@ -131,6 +131,36 @@ function parseKnownRecipes(markdown, meal, style) {
   return recipes;
 }
 
+function stripYamlValue(raw) {
+  return raw.trim().replace(/^['"]|['"]$/g, "");
+}
+
+function parseRecipeFrontmatter(markdown) {
+  const frontmatterMatch = markdown.match(/^---\s*\n([\s\S]*?)\n---\s*(?:\n|$)/);
+  if (!frontmatterMatch) {
+    return null;
+  }
+
+  const fields = {};
+  const lines = frontmatterMatch[1].split(/\r?\n/);
+
+  for (const line of lines) {
+    const match = line.match(/^([a-zA-Z0-9_]+):\s*(.+)\s*$/);
+    if (!match) {
+      continue;
+    }
+
+    const [, key, value] = match;
+    fields[key] = stripYamlValue(value);
+  }
+
+  return fields;
+}
+
+function recipeInventoryKey(meal, style, title) {
+  return `${meal}::${style}::${title.toLowerCase().trim()}`;
+}
+
 async function walkKnownRecipeFiles(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   const files = [];
@@ -150,8 +180,59 @@ async function walkKnownRecipeFiles(dir) {
   return files;
 }
 
+async function walkRecipeMarkdownFiles(dir) {
+  const entries = await fs.readdir(dir, { withFileTypes: true });
+  const files = [];
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...(await walkRecipeMarkdownFiles(fullPath)));
+      continue;
+    }
+
+    if (!entry.isFile() || !entry.name.endsWith(".md")) {
+      continue;
+    }
+
+    if (entry.name === "known-recipes.md" || entry.name === "README.md" || entry.name === "recipe-template.md") {
+      continue;
+    }
+
+    files.push(fullPath);
+  }
+
+  return files;
+}
+
+async function loadRecipeMetadata() {
+  const recipeFiles = await walkRecipeMarkdownFiles(RECIPES_DIR);
+  const metadata = new Map();
+
+  for (const filePath of recipeFiles) {
+    const relative = path.relative(RECIPES_DIR, filePath).split(path.sep);
+    if (relative.length < 3) {
+      continue;
+    }
+
+    const [meal, style] = relative;
+    const markdown = await fs.readFile(filePath, "utf8");
+    const frontmatter = parseRecipeFrontmatter(markdown);
+    if (!frontmatter?.title) {
+      continue;
+    }
+
+    metadata.set(recipeInventoryKey(meal, style, frontmatter.title), {
+      source_url: frontmatter.source_url || null
+    });
+  }
+
+  return metadata;
+}
+
 async function loadInventory() {
   const files = await walkKnownRecipeFiles(RECIPES_DIR);
+  const recipeMetadata = await loadRecipeMetadata();
   const inventory = [];
 
   for (const filePath of files) {
@@ -162,7 +243,19 @@ async function loadInventory() {
 
     const [meal, style] = relative;
     const markdown = await fs.readFile(filePath, "utf8");
-    inventory.push(...parseKnownRecipes(markdown, meal, style));
+    const parsed = parseKnownRecipes(markdown, meal, style).map((recipe) => {
+      const metadata = recipeMetadata.get(recipeInventoryKey(recipe.meal, recipe.style, recipe.title));
+      if (!metadata?.source_url || recipe.source_url) {
+        return recipe;
+      }
+
+      return {
+        ...recipe,
+        source_url: metadata.source_url
+      };
+    });
+
+    inventory.push(...parsed);
   }
 
   return inventory;

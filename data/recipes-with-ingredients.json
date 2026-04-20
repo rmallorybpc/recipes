@@ -1045,10 +1045,10 @@
       "title": "Tacos",
       "meal": "dinner",
       "style": "meat",
-      "source_url": null,
+      "source_url": "https://www.isabeleats.com/easy-ground-beef-tacos/",
       "id": "dinner-meat-tacos",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.isabeleats.com/easy-ground-beef-tacos/",
+      "source_origin": "existing_source",
       "ingredients": [
         "tortilla",
         "onion",
