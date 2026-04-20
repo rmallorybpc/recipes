@@ -161,6 +161,25 @@ function recipeInventoryKey(meal, style, title) {
   return `${meal}::${style}::${title.toLowerCase().trim()}`;
 }
 
+function stripSuggestedPrefix(title) {
+  return String(title || "").replace(/^suggested\s*-\s*/i, "").trim();
+}
+
+function recipeInventoryKeys(meal, style, title) {
+  const raw = String(title || "").trim();
+  if (!raw) {
+    return [];
+  }
+
+  const keys = [recipeInventoryKey(meal, style, raw)];
+  const withoutSuggested = stripSuggestedPrefix(raw);
+  if (withoutSuggested && withoutSuggested.toLowerCase() !== raw.toLowerCase()) {
+    keys.push(recipeInventoryKey(meal, style, withoutSuggested));
+  }
+
+  return dedupe(keys);
+}
+
 async function walkKnownRecipeFiles(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   const files = [];
@@ -222,9 +241,13 @@ async function loadRecipeMetadata() {
       continue;
     }
 
-    metadata.set(recipeInventoryKey(meal, style, frontmatter.title), {
+    const metadataValue = {
       source_url: frontmatter.source_url || null
-    });
+    };
+
+    for (const key of recipeInventoryKeys(meal, style, frontmatter.title)) {
+      metadata.set(key, metadataValue);
+    }
   }
 
   return metadata;
@@ -244,7 +267,9 @@ async function loadInventory() {
     const [meal, style] = relative;
     const markdown = await fs.readFile(filePath, "utf8");
     const parsed = parseKnownRecipes(markdown, meal, style).map((recipe) => {
-      const metadata = recipeMetadata.get(recipeInventoryKey(recipe.meal, recipe.style, recipe.title));
+      const metadata = recipeInventoryKeys(recipe.meal, recipe.style, recipe.title)
+        .map((key) => recipeMetadata.get(key))
+        .find(Boolean);
       if (!metadata?.source_url || recipe.source_url) {
         return recipe;
       }
