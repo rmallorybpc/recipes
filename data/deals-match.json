@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-20T21:22:57.401Z",
+  "generatedAt": "2026-04-21T14:58:57.990Z",
   "weekOf": "2026-04-15",
   "locationId": "62000100",
   "chain": "King Soopers",
-  "totalDeals": 124,
-  "dealsWithRecipes": 80,
+  "totalDeals": 126,
+  "dealsWithRecipes": 78,
   "totalRecipes": 98,
   "recipesWithDeals": 90,
   "dealRecipes": [
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "dealTerm": "pasta",
+      "dealTerm": "spaghetti",
       "dealName": "American Beauty™ Long Spaghetti Pasta",
       "brand": "American Beauty",
       "category": "Pasta, Sauces, Grain",
@@ -102,18 +102,6 @@
       "size": "16 oz",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002680000125",
       "matchedRecipes": [
-        {
-          "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
-          "meal": "breakfast",
-          "style": "meat",
-          "source": "https://pinchofyum.com/peanut-chicken-lettuce-wraps-ginger-garlic-sauce"
-        },
-        {
-          "title": "Hamburger stroganoff",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
-        },
         {
           "title": "Homemade mac n cheese",
           "meal": "dinner",
@@ -155,18 +143,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.bonappetit.com/recipe/summer-squash-lasagna"
-        },
-        {
-          "title": "Wonton soup",
-          "meal": "dinner",
-          "style": "soup-or-stew",
-          "source": "https://www.recipetineats.com/wonton-soup/"
         }
       ]
     },
     {
       "dealTerm": "watermelon",
-      "dealName": "Simply® Watermelon Juice",
+      "dealName": "Simply® Watermelon Juice Drink Bottle",
       "brand": "Simply",
       "category": "Beverages",
       "promoPrice": 2,
@@ -193,6 +175,38 @@
           "meal": "dinner",
           "style": "vegetarian",
           "source": "https://www.recipetineats.com/vegetable-stir-fry/"
+        }
+      ]
+    },
+    {
+      "dealTerm": "pork tenderloin",
+      "dealName": "Smithfield Applewood Smoked Bacon Dry Rubbed Pork Loin Filet",
+      "brand": "Smithfield",
+      "category": "Meat & Seafood",
+      "promoPrice": 6,
+      "regularPrice": 9.99,
+      "savings": 3.99,
+      "savingsPct": 40,
+      "size": "23 oz",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007080021635",
+      "matchedRecipes": [
+        {
+          "title": "BBQ in crockpot",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.cookingclassy.com/slow-cooker-pulled-pork/"
+        },
+        {
+          "title": "Braised short ribs",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.seriouseats.com/braised-short-ribs-recipe"
+        },
+        {
+          "title": "Pork chops",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.seriouseats.com/pan-seared-pork-chops-with-herb-pan-sauce"
         }
       ]
     },
@@ -246,26 +260,6 @@
           "style": "baked-casserole",
           "source": "https://www.seriouseats.com/basic-new-york-style-pizza-dough"
         },
-        {
-          "title": "Tacos",
-          "meal": "dinner",
-          "style": "meat",
-          "source": "https://www.isabeleats.com/easy-ground-beef-tacos/"
-        }
-      ]
-    },
-    {
-      "dealTerm": "canned tomatoes",
-      "dealName": "Red Gold® Petite Diced Tomatoes",
-      "brand": "Red Gold",
-      "category": "Canned & Packaged",
-      "promoPrice": 1,
-      "regularPrice": 1.59,
-      "savings": 0.59,
-      "savingsPct": 37,
-      "size": "14.5 oz",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007294011318",
-      "matchedRecipes": [
         {
           "title": "Tacos",
           "meal": "dinner",
@@ -1825,6 +1819,110 @@
       ]
     },
     {
+      "dealTerm": "vegetable broth",
+      "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+      "brand": "Swanson",
+      "category": "Canned & Packaged",
+      "promoPrice": 2.19,
+      "regularPrice": 2.99,
+      "savings": 0.8,
+      "savingsPct": 27,
+      "size": "32 oz",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0005100019879",
+      "matchedRecipes": [
+        {
+          "title": "White chicken chili",
+          "meal": "breakfast",
+          "style": "meat",
+          "source": "https://www.pinterest.com/pin/487233253450153141/sent/?invite_code=4fe827f3cea649cf9c9996a6747132c8&sender=487233390844584842&sfo=1"
+        },
+        {
+          "title": "Chili",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.allrecipes.com/recipe/26317/award-winning-chili/"
+        },
+        {
+          "title": "Round steak stroganoff",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.allrecipes.com/recipe/11718/simple-beef-stroganoff/"
+        },
+        {
+          "title": "Stew",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.seriouseats.com/old-fashioned-beef-stew"
+        },
+        {
+          "title": "Hamburger stroganoff",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
+        },
+        {
+          "title": "Cheddar broccoli soup",
+          "meal": "dinner",
+          "style": "soup-or-stew",
+          "source": "https://www.allrecipes.com/recipe/24098/broccoli-cheese-soup/"
+        },
+        {
+          "title": "Chicken tortilla soup",
+          "meal": "dinner",
+          "style": "soup-or-stew",
+          "source": "https://dashofsanity.com/chicken-tortilla-soup-crock-pot/"
+        },
+        {
+          "title": "Chicken tortilla soup in crock pot",
+          "meal": "dinner",
+          "style": "soup-or-stew",
+          "source": "https://dashofsanity.com/chicken-tortilla-soup-crock-pot/"
+        },
+        {
+          "title": "Chicken wild rice soup",
+          "meal": "dinner",
+          "style": "soup-or-stew",
+          "source": "https://www.tasteofhome.com/recipes/chicken-and-wild-rice-soup/"
+        },
+        {
+          "title": "Grilled cheese and tomato soup",
+          "meal": "dinner",
+          "style": "soup-or-stew",
+          "source": "https://www.seriouseats.com/cream-of-tomato-soup-from-scratch"
+        },
+        {
+          "title": "Suggested - Black bean soup",
+          "meal": "dinner",
+          "style": "soup-or-stew",
+          "source": "https://www.allrecipes.com/recipe/14838/black-bean-soup/"
+        },
+        {
+          "title": "Suggested - Butternut squash soup",
+          "meal": "dinner",
+          "style": "soup-or-stew",
+          "source": "https://www.allrecipes.com/recipe/229658/butternut-squash-soup-ii/"
+        },
+        {
+          "title": "Suggested - Miso soup with tofu and vegetables",
+          "meal": "dinner",
+          "style": "soup-or-stew",
+          "source": "https://www.allrecipes.com/recipe/13107/real-miso-soup/"
+        },
+        {
+          "title": "Wonton soup",
+          "meal": "dinner",
+          "style": "soup-or-stew",
+          "source": "https://www.recipetineats.com/wonton-soup/"
+        },
+        {
+          "title": "Suggested - Lentil soup",
+          "meal": "lunch",
+          "style": "soup-or-stew",
+          "source": "https://www.allrecipes.com/recipe/22028/lentil-soup/"
+        }
+      ]
+    },
+    {
       "dealTerm": "beef broth",
       "dealName": "Swanson® Beef Broth Carton",
       "brand": "Swanson",
@@ -2131,44 +2229,6 @@
       ]
     },
     {
-      "dealTerm": "zucchini",
-      "dealName": "Smart Ones Zucchini Zesty Green Chile Sour Cream Sauce & Mozzarella Cheese Santa Fe Rice & Beans",
-      "brand": "Smart Ones",
-      "category": "Frozen",
-      "promoPrice": 1.99,
-      "regularPrice": 2.49,
-      "savings": 0.5,
-      "savingsPct": 20,
-      "size": "9 oz",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002580002360",
-      "matchedRecipes": [
-        {
-          "title": "Pineapple zucchini muffin",
-          "meal": "breakfast",
-          "style": "baked-casserole",
-          "source": "https://www.blessthismessplease.com/zucchini-pineapple-muffins/"
-        },
-        {
-          "title": "Spicy pesto and cheese stuffed zucchini involtin",
-          "meal": "breakfast",
-          "style": "vegetarian",
-          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
-        },
-        {
-          "title": "Meatballs with zucchini and rice",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.budgetbytes.com/baked-meatballs/"
-        },
-        {
-          "title": "Zucchini and squash lasagne",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.bonappetit.com/recipe/summer-squash-lasagna"
-        }
-      ]
-    },
-    {
       "dealTerm": "ground beef",
       "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
       "brand": "Kroger",
@@ -2221,88 +2281,6 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
-        }
-      ]
-    },
-    {
-      "dealTerm": "ground beef",
-      "dealName": "Kroger® 80/20 Ground Beef Tray 3 LB",
-      "brand": "Kroger",
-      "category": "Meat & Seafood",
-      "promoPrice": 17.97,
-      "regularPrice": 21.99,
-      "savings": 4.02,
-      "savingsPct": 18,
-      "size": "3 lb",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111096970",
-      "matchedRecipes": [
-        {
-          "title": "Suggested - Korean beef bulgogi bowls",
-          "meal": "dinner",
-          "style": "bowls",
-          "source": "https://www.allrecipes.com/recipe/246686/korean-beef-bowl/"
-        },
-        {
-          "title": "Beef and broccoli",
-          "meal": "dinner",
-          "style": "meat",
-          "source": "https://www.recipetineats.com/beef-and-broccoli/"
-        },
-        {
-          "title": "Cheeseburgers",
-          "meal": "dinner",
-          "style": "meat",
-          "source": "https://www.seriouseats.com/the-best-basic-burger"
-        },
-        {
-          "title": "Skillet meatloaf / cheeseburger meatloaf",
-          "meal": "dinner",
-          "style": "meat",
-          "source": "https://www.foodnetwork.com/recipes/food-network-kitchen/classic-meatloaf"
-        },
-        {
-          "title": "Tacos",
-          "meal": "dinner",
-          "style": "meat",
-          "source": "https://www.isabeleats.com/easy-ground-beef-tacos/"
-        },
-        {
-          "title": "Hamburger stroganoff",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
-        },
-        {
-          "title": "Spaghetti",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.recipetineats.com/spaghetti-bolognese/"
-        }
-      ]
-    },
-    {
-      "dealTerm": "crushed tomatoes",
-      "dealName": "Simple Truth Organic® No Salt Added Crushed Tomatoes",
-      "brand": "Simple Truth Organic",
-      "category": "Natural & Organic",
-      "promoPrice": 1.25,
-      "regularPrice": 1.5,
-      "savings": 0.25,
-      "savingsPct": 17,
-      "size": "14.5 oz",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111088585",
-      "matchedRecipes": [
-        {
-          "title": "Homemade pizza",
-          "meal": "dinner",
-          "style": "baked-casserole",
-          "source": "https://www.seriouseats.com/basic-new-york-style-pizza-dough"
-        },
-        {
-          "title": "Tacos",
-          "meal": "dinner",
-          "style": "meat",
-          "source": "https://www.isabeleats.com/easy-ground-beef-tacos/"
         }
       ]
     },
@@ -2601,6 +2579,56 @@
       ]
     },
     {
+      "dealTerm": "beef steak",
+      "dealName": "Steak-umm® All Natural 100% Beef Sandwich Steaks",
+      "brand": "Steak-umm",
+      "category": "Meat & Seafood",
+      "promoPrice": 7.99,
+      "regularPrice": 9.49,
+      "savings": 1.5,
+      "savingsPct": 16,
+      "size": "10 ct / 15 oz",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007254506254",
+      "matchedRecipes": [
+        {
+          "title": "Suggested - Korean beef bulgogi bowls",
+          "meal": "dinner",
+          "style": "bowls",
+          "source": "https://www.allrecipes.com/recipe/246686/korean-beef-bowl/"
+        },
+        {
+          "title": "Beef and broccoli",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.recipetineats.com/beef-and-broccoli/"
+        },
+        {
+          "title": "Cheeseburgers",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.seriouseats.com/the-best-basic-burger"
+        },
+        {
+          "title": "Skillet meatloaf / cheeseburger meatloaf",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.foodnetwork.com/recipes/food-network-kitchen/classic-meatloaf"
+        },
+        {
+          "title": "Tacos",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.isabeleats.com/easy-ground-beef-tacos/"
+        },
+        {
+          "title": "Hamburger stroganoff",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
+        }
+      ]
+    },
+    {
       "dealTerm": "wild rice",
       "dealName": "Ben's Original Original Recipe Long Grain Rice & Wild Flavored Rice, 6 oz Box",
       "brand": "Uncle Ben's",
@@ -2687,56 +2715,6 @@
       "savingsPct": 13,
       "size": "16 oz",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002409407007",
-      "matchedRecipes": [
-        {
-          "title": "Homemade mac n cheese",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.seriouseats.com/the-food-labs-ultra-gooey-stovetop-mac-and-cheese"
-        },
-        {
-          "title": "Lasagne",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.recipetineats.com/the-best-lasagna/"
-        },
-        {
-          "title": "Penne lasagne",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.foodnetwork.com/recipes/baked-penne-recipe"
-        },
-        {
-          "title": "Tortellini with pesto and shrimp and spinach",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.allrecipes.com/recipe/pesto-tortellini-shrimp/"
-        },
-        {
-          "title": "Tortellini with sausage, spinach, mushrooms, lemon",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.allrecipes.com/recipe/tortellini-sausage-spinach/"
-        },
-        {
-          "title": "Zucchini and squash lasagne",
-          "meal": "dinner",
-          "style": "rice-or-pasta",
-          "source": "https://www.bonappetit.com/recipe/summer-squash-lasagna"
-        }
-      ]
-    },
-    {
-      "dealTerm": "penne",
-      "dealName": "De Cecco Penne Rigate Pasta",
-      "brand": "De Cecco",
-      "category": "Pasta, Sauces, Grain",
-      "promoPrice": 3.49,
-      "regularPrice": 3.99,
-      "savings": 0.5,
-      "savingsPct": 13,
-      "size": "1 lb",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002409407041",
       "matchedRecipes": [
         {
           "title": "Homemade mac n cheese",
@@ -3167,7 +3145,7 @@
       ]
     },
     {
-      "dealTerm": "jasmine rice",
+      "dealTerm": "rice",
       "dealName": "Mahatma Thai Fragrant Jasmine Rice, Uncooked Rice, 32 oz (907g)",
       "brand": "Mahatma",
       "category": "Pasta, Sauces, Grain",
@@ -3777,26 +3755,6 @@
       "savingsPct": 9,
       "size": "12 oz",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002680000464",
-      "matchedRecipes": [
-        {
-          "title": "Wonton soup",
-          "meal": "dinner",
-          "style": "soup-or-stew",
-          "source": "https://www.recipetineats.com/wonton-soup/"
-        }
-      ]
-    },
-    {
-      "dealTerm": "egg noodles",
-      "dealName": "American Beauty™ Wide Egg Noodles",
-      "brand": "American Beauty",
-      "category": "Pasta, Sauces, Grain",
-      "promoPrice": 2.99,
-      "regularPrice": 3.29,
-      "savings": 0.3,
-      "savingsPct": 9,
-      "size": "12 oz",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002680000445",
       "matchedRecipes": [
         {
           "title": "Wonton soup",
@@ -6557,6 +6515,62 @@
           "source": "https://www.seriouseats.com/pan-seared-pork-chops-with-herb-pan-sauce"
         }
       ]
+    },
+    {
+      "dealTerm": "ground beef",
+      "dealName": "Kroger® 91% Lean Frozen Ground Beef Burger",
+      "brand": "Kroger",
+      "category": "Meat & Seafood",
+      "promoPrice": 14,
+      "regularPrice": 14.49,
+      "savings": 0.49,
+      "savingsPct": 3,
+      "size": "32 oz",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111000917",
+      "matchedRecipes": [
+        {
+          "title": "Suggested - Korean beef bulgogi bowls",
+          "meal": "dinner",
+          "style": "bowls",
+          "source": "https://www.allrecipes.com/recipe/246686/korean-beef-bowl/"
+        },
+        {
+          "title": "Beef and broccoli",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.recipetineats.com/beef-and-broccoli/"
+        },
+        {
+          "title": "Cheeseburgers",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.seriouseats.com/the-best-basic-burger"
+        },
+        {
+          "title": "Skillet meatloaf / cheeseburger meatloaf",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.foodnetwork.com/recipes/food-network-kitchen/classic-meatloaf"
+        },
+        {
+          "title": "Tacos",
+          "meal": "dinner",
+          "style": "meat",
+          "source": "https://www.isabeleats.com/easy-ground-beef-tacos/"
+        },
+        {
+          "title": "Hamburger stroganoff",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
+        },
+        {
+          "title": "Spaghetti",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.recipetineats.com/spaghetti-bolognese/"
+        }
+      ]
     }
   ],
   "recipeDeals": [
@@ -6567,7 +6581,7 @@
       "onSaleIngredients": [
         {
           "ingredient": "cup water",
-          "dealName": "Simply® Watermelon Juice",
+          "dealName": "Simply® Watermelon Juice Drink Bottle",
           "promoPrice": 2,
           "savings": 1.39,
           "savingsPct": 41,
@@ -6580,14 +6594,6 @@
           "savings": 0.59,
           "savingsPct": 37,
           "size": "15 oz"
-        },
-        {
-          "ingredient": "tomatoes",
-          "dealName": "Red Gold® Petite Diced Tomatoes",
-          "promoPrice": 1,
-          "savings": 0.59,
-          "savingsPct": 37,
-          "size": "14.5 oz"
         },
         {
           "ingredient": "shredded cheese",
@@ -6614,6 +6620,14 @@
           "size": "32 oz"
         },
         {
+          "ingredient": "tomatoes",
+          "dealName": "Muir Glen Organic Whole Peeled Canned Tomatoes",
+          "promoPrice": 3.99,
+          "savings": 1,
+          "savingsPct": 20,
+          "size": "28 oz"
+        },
+        {
           "ingredient": "ground beef",
           "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
           "promoPrice": 6.99,
@@ -6636,6 +6650,14 @@
           "savings": 0.5,
           "savingsPct": 16,
           "size": "15 oz"
+        },
+        {
+          "ingredient": "ground beef",
+          "dealName": "Steak-umm® All Natural 100% Beef Sandwich Steaks",
+          "promoPrice": 7.99,
+          "savings": 1.5,
+          "savingsPct": 16,
+          "size": "10 ct / 15 oz"
         },
         {
           "ingredient": "shredded cheese",
@@ -6686,8 +6708,202 @@
           "size": "8 oz"
         }
       ],
-      "totalSavings": 13,
-      "dealCount": 15
+      "totalSavings": 14.91,
+      "dealCount": 16
+    },
+    {
+      "title": "Cheeseburgers",
+      "meal": "dinner",
+      "style": "meat",
+      "onSaleIngredients": [
+        {
+          "ingredient": "cheese",
+          "dealName": "Athenos Crumbled Traditional Feta Cheese",
+          "promoPrice": 3.99,
+          "savings": 2,
+          "savingsPct": 33,
+          "size": "6 oz"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Choice Beef Chuck Roast",
+          "promoPrice": 7.99,
+          "savings": 3,
+          "savingsPct": 27,
+          "size": "1 lb"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
+          "promoPrice": 6.99,
+          "savings": 1.5,
+          "savingsPct": 18,
+          "size": "1 lb"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Part Skim Ricotta Cheese",
+          "promoPrice": 2.69,
+          "savings": 0.5,
+          "savingsPct": 16,
+          "size": "15 oz"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Steak-umm® All Natural 100% Beef Sandwich Steaks",
+          "promoPrice": 7.99,
+          "savings": 1.5,
+          "savingsPct": 16,
+          "size": "10 ct / 15 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Parmesan Grated Cheese",
+          "promoPrice": 2.99,
+          "savings": 0.4,
+          "savingsPct": 12,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Philadelphia Original Cream Cheese Spread",
+          "promoPrice": 3.99,
+          "savings": 0.5,
+          "savingsPct": 11,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Colby Jack Shredded Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Medium Cheddar Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Mozzarella Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        }
+      ],
+      "totalSavings": 10.68,
+      "dealCount": 11
+    },
+    {
+      "title": "Skillet meatloaf / cheeseburger meatloaf",
+      "meal": "dinner",
+      "style": "meat",
+      "onSaleIngredients": [
+        {
+          "ingredient": "cheese",
+          "dealName": "Athenos Crumbled Traditional Feta Cheese",
+          "promoPrice": 3.99,
+          "savings": 2,
+          "savingsPct": 33,
+          "size": "6 oz"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Choice Beef Chuck Roast",
+          "promoPrice": 7.99,
+          "savings": 3,
+          "savingsPct": 27,
+          "size": "1 lb"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
+          "promoPrice": 6.99,
+          "savings": 1.5,
+          "savingsPct": 18,
+          "size": "1 lb"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Part Skim Ricotta Cheese",
+          "promoPrice": 2.69,
+          "savings": 0.5,
+          "savingsPct": 16,
+          "size": "15 oz"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Steak-umm® All Natural 100% Beef Sandwich Steaks",
+          "promoPrice": 7.99,
+          "savings": 1.5,
+          "savingsPct": 16,
+          "size": "10 ct / 15 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Parmesan Grated Cheese",
+          "promoPrice": 2.99,
+          "savings": 0.4,
+          "savingsPct": 12,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Philadelphia Original Cream Cheese Spread",
+          "promoPrice": 3.99,
+          "savings": 0.5,
+          "savingsPct": 11,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Colby Jack Shredded Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Medium Cheddar Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Mozzarella Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        }
+      ],
+      "totalSavings": 10.68,
+      "dealCount": 11
     },
     {
       "title": "Tortellini with pesto and shrimp and spinach",
@@ -6725,14 +6941,6 @@
           "savings": 0.5,
           "savingsPct": 16,
           "size": "15 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "De Cecco Penne Rigate Pasta",
-          "promoPrice": 3.49,
-          "savings": 0.5,
-          "savingsPct": 13,
-          "size": "1 lb"
         },
         {
           "ingredient": "cheese",
@@ -6791,372 +6999,8 @@
           "size": "1.25 oz"
         }
       ],
-      "totalSavings": 6.96,
-      "dealCount": 12
-    },
-    {
-      "title": "Zucchini and squash lasagne",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "onSaleIngredients": [
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty Linguine Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty™ Long Spaghetti Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "zucchini",
-          "dealName": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
-          "promoPrice": 4.5,
-          "savings": 2.29,
-          "savingsPct": 34,
-          "size": "9 ct / 9 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Athenos Crumbled Traditional Feta Cheese",
-          "promoPrice": 3.99,
-          "savings": 2,
-          "savingsPct": 33,
-          "size": "6 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Part Skim Ricotta Cheese",
-          "promoPrice": 2.69,
-          "savings": 0.5,
-          "savingsPct": 16,
-          "size": "15 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "De Cecco Penne Rigate Pasta",
-          "promoPrice": 3.49,
-          "savings": 0.5,
-          "savingsPct": 13,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Parmesan Grated Cheese",
-          "promoPrice": 2.99,
-          "savings": 0.4,
-          "savingsPct": 12,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Philadelphia Original Cream Cheese Spread",
-          "promoPrice": 3.99,
-          "savings": 0.5,
-          "savingsPct": 11,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Colby Jack Shredded Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Medium Cheddar Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Mozzarella Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        }
-      ],
-      "totalSavings": 8.05,
+      "totalSavings": 6.46,
       "dealCount": 11
-    },
-    {
-      "title": "Wonton soup",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "onSaleIngredients": [
-        {
-          "ingredient": "- g dried egg noodles per person",
-          "dealName": "American Beauty™ Long Spaghetti Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "light soy sauce",
-          "dealName": "Kikkoman® Soy Sauce",
-          "promoPrice": 4.99,
-          "savings": 2,
-          "savingsPct": 29,
-          "size": "20 fl oz"
-        },
-        {
-          "ingredient": "g peeled prawns shrimp",
-          "dealName": "Private Selection® Black Tiger Raw-Tail Off Peeled & Deveined Jumbo Shrimp",
-          "promoPrice": 10.99,
-          "savings": 4,
-          "savingsPct": 27,
-          "size": "16 ounces"
-        },
-        {
-          "ingredient": "chicken broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "chicken broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "g lean pork mince",
-          "dealName": "Carando® Hot Sicilian Ground Sausage",
-          "promoPrice": 5,
-          "savings": 1.49,
-          "savingsPct": 23,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "sugar",
-          "dealName": "Kroger® Dark Brown Sugar",
-          "promoPrice": 2,
-          "savings": 0.29,
-          "savingsPct": 13,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "chicken broth",
-          "dealName": "Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller Pack BIG DEAL!",
-          "promoPrice": 4.49,
-          "savings": 0.5,
-          "savingsPct": 10,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "- g dried egg noodles per person",
-          "dealName": "American Beauty Extra Wide Egg Noodles",
-          "promoPrice": 2.99,
-          "savings": 0.3,
-          "savingsPct": 9,
-          "size": "12 oz"
-        },
-        {
-          "ingredient": "chicken broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        }
-      ],
-      "totalSavings": 10.96,
-      "dealCount": 10
-    },
-    {
-      "title": "Cheeseburgers",
-      "meal": "dinner",
-      "style": "meat",
-      "onSaleIngredients": [
-        {
-          "ingredient": "cheese",
-          "dealName": "Athenos Crumbled Traditional Feta Cheese",
-          "promoPrice": 3.99,
-          "savings": 2,
-          "savingsPct": 33,
-          "size": "6 oz"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Choice Beef Chuck Roast",
-          "promoPrice": 7.99,
-          "savings": 3,
-          "savingsPct": 27,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
-          "promoPrice": 6.99,
-          "savings": 1.5,
-          "savingsPct": 18,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Part Skim Ricotta Cheese",
-          "promoPrice": 2.69,
-          "savings": 0.5,
-          "savingsPct": 16,
-          "size": "15 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Parmesan Grated Cheese",
-          "promoPrice": 2.99,
-          "savings": 0.4,
-          "savingsPct": 12,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Philadelphia Original Cream Cheese Spread",
-          "promoPrice": 3.99,
-          "savings": 0.5,
-          "savingsPct": 11,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Colby Jack Shredded Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Medium Cheddar Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Mozzarella Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        }
-      ],
-      "totalSavings": 9.18,
-      "dealCount": 10
-    },
-    {
-      "title": "Skillet meatloaf / cheeseburger meatloaf",
-      "meal": "dinner",
-      "style": "meat",
-      "onSaleIngredients": [
-        {
-          "ingredient": "cheese",
-          "dealName": "Athenos Crumbled Traditional Feta Cheese",
-          "promoPrice": 3.99,
-          "savings": 2,
-          "savingsPct": 33,
-          "size": "6 oz"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Choice Beef Chuck Roast",
-          "promoPrice": 7.99,
-          "savings": 3,
-          "savingsPct": 27,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
-          "promoPrice": 6.99,
-          "savings": 1.5,
-          "savingsPct": 18,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Part Skim Ricotta Cheese",
-          "promoPrice": 2.69,
-          "savings": 0.5,
-          "savingsPct": 16,
-          "size": "15 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Parmesan Grated Cheese",
-          "promoPrice": 2.99,
-          "savings": 0.4,
-          "savingsPct": 12,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Philadelphia Original Cream Cheese Spread",
-          "promoPrice": 3.99,
-          "savings": 0.5,
-          "savingsPct": 11,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Colby Jack Shredded Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Medium Cheddar Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Mozzarella Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        }
-      ],
-      "totalSavings": 9.18,
-      "dealCount": 10
     },
     {
       "title": "Spaghetti",
@@ -7245,6 +7089,95 @@
         }
       ],
       "totalSavings": 7.57,
+      "dealCount": 10
+    },
+    {
+      "title": "Zucchini and squash lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "onSaleIngredients": [
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty Linguine Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty™ Long Spaghetti Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "zucchini",
+          "dealName": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
+          "promoPrice": 4.5,
+          "savings": 2.29,
+          "savingsPct": 34,
+          "size": "9 ct / 9 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Athenos Crumbled Traditional Feta Cheese",
+          "promoPrice": 3.99,
+          "savings": 2,
+          "savingsPct": 33,
+          "size": "6 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Part Skim Ricotta Cheese",
+          "promoPrice": 2.69,
+          "savings": 0.5,
+          "savingsPct": 16,
+          "size": "15 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Parmesan Grated Cheese",
+          "promoPrice": 2.99,
+          "savings": 0.4,
+          "savingsPct": 12,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Philadelphia Original Cream Cheese Spread",
+          "promoPrice": 3.99,
+          "savings": 0.5,
+          "savingsPct": 11,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Colby Jack Shredded Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Medium Cheddar Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Mozzarella Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        }
+      ],
+      "totalSavings": 7.55,
       "dealCount": 10
     },
     {
@@ -7337,6 +7270,95 @@
       "dealCount": 10
     },
     {
+      "title": "Grilled cheese and tomato soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "onSaleIngredients": [
+        {
+          "ingredient": "cheese",
+          "dealName": "Athenos Crumbled Traditional Feta Cheese",
+          "promoPrice": 3.99,
+          "savings": 2,
+          "savingsPct": 33,
+          "size": "6 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Part Skim Ricotta Cheese",
+          "promoPrice": 2.69,
+          "savings": 0.5,
+          "savingsPct": 16,
+          "size": "15 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Parmesan Grated Cheese",
+          "promoPrice": 2.99,
+          "savings": 0.4,
+          "savingsPct": 12,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Philadelphia Original Cream Cheese Spread",
+          "promoPrice": 3.99,
+          "savings": 0.5,
+          "savingsPct": 11,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Colby Jack Shredded Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Medium Cheddar Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Mozzarella Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        }
+      ],
+      "totalSavings": 6.28,
+      "dealCount": 10
+    },
+    {
       "title": "Camper chicken enchiladas",
       "meal": "dinner",
       "style": "meat",
@@ -7426,505 +7448,12 @@
       "dealCount": 10
     },
     {
-      "title": "Homemade mac n cheese",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "onSaleIngredients": [
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty Linguine Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty™ Long Spaghetti Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Athenos Crumbled Traditional Feta Cheese",
-          "promoPrice": 3.99,
-          "savings": 2,
-          "savingsPct": 33,
-          "size": "6 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Part Skim Ricotta Cheese",
-          "promoPrice": 2.69,
-          "savings": 0.5,
-          "savingsPct": 16,
-          "size": "15 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "De Cecco Penne Rigate Pasta",
-          "promoPrice": 3.49,
-          "savings": 0.5,
-          "savingsPct": 13,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Parmesan Grated Cheese",
-          "promoPrice": 2.99,
-          "savings": 0.4,
-          "savingsPct": 12,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Philadelphia Original Cream Cheese Spread",
-          "promoPrice": 3.99,
-          "savings": 0.5,
-          "savingsPct": 11,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Colby Jack Shredded Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Medium Cheddar Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Mozzarella Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        }
-      ],
-      "totalSavings": 5.76,
-      "dealCount": 10
-    },
-    {
-      "title": "Lasagne",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "onSaleIngredients": [
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty Linguine Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty™ Long Spaghetti Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Athenos Crumbled Traditional Feta Cheese",
-          "promoPrice": 3.99,
-          "savings": 2,
-          "savingsPct": 33,
-          "size": "6 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Part Skim Ricotta Cheese",
-          "promoPrice": 2.69,
-          "savings": 0.5,
-          "savingsPct": 16,
-          "size": "15 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "De Cecco Penne Rigate Pasta",
-          "promoPrice": 3.49,
-          "savings": 0.5,
-          "savingsPct": 13,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Parmesan Grated Cheese",
-          "promoPrice": 2.99,
-          "savings": 0.4,
-          "savingsPct": 12,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Philadelphia Original Cream Cheese Spread",
-          "promoPrice": 3.99,
-          "savings": 0.5,
-          "savingsPct": 11,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Colby Jack Shredded Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Medium Cheddar Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Mozzarella Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        }
-      ],
-      "totalSavings": 5.76,
-      "dealCount": 10
-    },
-    {
-      "title": "Penne lasagne",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "onSaleIngredients": [
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty Linguine Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty™ Long Spaghetti Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Athenos Crumbled Traditional Feta Cheese",
-          "promoPrice": 3.99,
-          "savings": 2,
-          "savingsPct": 33,
-          "size": "6 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Part Skim Ricotta Cheese",
-          "promoPrice": 2.69,
-          "savings": 0.5,
-          "savingsPct": 16,
-          "size": "15 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "De Cecco Penne Rigate Pasta",
-          "promoPrice": 3.49,
-          "savings": 0.5,
-          "savingsPct": 13,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Parmesan Grated Cheese",
-          "promoPrice": 2.99,
-          "savings": 0.4,
-          "savingsPct": 12,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Philadelphia Original Cream Cheese Spread",
-          "promoPrice": 3.99,
-          "savings": 0.5,
-          "savingsPct": 11,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Colby Jack Shredded Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Medium Cheddar Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Mozzarella Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        }
-      ],
-      "totalSavings": 5.76,
-      "dealCount": 10
-    },
-    {
-      "title": "Tortellini with sausage, spinach, mushrooms, lemon",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "onSaleIngredients": [
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty Linguine Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "American Beauty™ Long Spaghetti Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Athenos Crumbled Traditional Feta Cheese",
-          "promoPrice": 3.99,
-          "savings": 2,
-          "savingsPct": 33,
-          "size": "6 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Part Skim Ricotta Cheese",
-          "promoPrice": 2.69,
-          "savings": 0.5,
-          "savingsPct": 16,
-          "size": "15 oz"
-        },
-        {
-          "ingredient": "pasta",
-          "dealName": "De Cecco Penne Rigate Pasta",
-          "promoPrice": 3.49,
-          "savings": 0.5,
-          "savingsPct": 13,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Parmesan Grated Cheese",
-          "promoPrice": 2.99,
-          "savings": 0.4,
-          "savingsPct": 12,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Philadelphia Original Cream Cheese Spread",
-          "promoPrice": 3.99,
-          "savings": 0.5,
-          "savingsPct": 11,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Colby Jack Shredded Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Medium Cheddar Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Mozzarella Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        }
-      ],
-      "totalSavings": 5.76,
-      "dealCount": 10
-    },
-    {
-      "title": "Grilled cheese and tomato soup",
+      "title": "Wonton soup",
       "meal": "dinner",
       "style": "soup-or-stew",
       "onSaleIngredients": [
         {
-          "ingredient": "cheese",
-          "dealName": "Athenos Crumbled Traditional Feta Cheese",
-          "promoPrice": 3.99,
-          "savings": 2,
-          "savingsPct": 33,
-          "size": "6 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Part Skim Ricotta Cheese",
-          "promoPrice": 2.69,
-          "savings": 0.5,
-          "savingsPct": 16,
-          "size": "15 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Parmesan Grated Cheese",
-          "promoPrice": 2.99,
-          "savings": 0.4,
-          "savingsPct": 12,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Philadelphia Original Cream Cheese Spread",
-          "promoPrice": 3.99,
-          "savings": 0.5,
-          "savingsPct": 11,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Colby Jack Shredded Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Medium Cheddar Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        },
-        {
-          "ingredient": "cheese",
-          "dealName": "Kroger® Mozzarella Block Cheese",
-          "promoPrice": 2.33,
-          "savings": 0.16,
-          "savingsPct": 6,
-          "size": "8 oz"
-        }
-      ],
-      "totalSavings": 5.57,
-      "dealCount": 10
-    },
-    {
-      "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
-      "meal": "breakfast",
-      "style": "meat",
-      "onSaleIngredients": [
-        {
-          "ingredient": "rice noodles",
-          "dealName": "American Beauty™ Long Spaghetti Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
-          "ingredient": "water",
-          "dealName": "Simply® Watermelon Juice",
-          "promoPrice": 2,
-          "savings": 1.39,
-          "savingsPct": 41,
-          "size": "52 fl oz"
-        },
-        {
-          "ingredient": "rice vinegar",
-          "dealName": "Rice-A-Roni® Long Grain & Wild Rice",
-          "promoPrice": 1,
-          "savings": 0.5,
-          "savingsPct": 33,
-          "size": "4.3 oz"
-        },
-        {
-          "ingredient": "rice vinegar",
-          "dealName": "Mahatma Basmati Rice, Long Grain Rice, Uncooked Rice, 32 oz (907g)",
-          "promoPrice": 3.99,
-          "savings": 1.8,
-          "savingsPct": 31,
-          "size": "2 lbr"
-        },
-        {
-          "ingredient": "ground chicken or turkey",
-          "dealName": "Kroger® 85/15 Fresh Ground Turkey Tray 1 LB",
-          "promoPrice": 3.5,
-          "savings": 1.49,
-          "savingsPct": 30,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "rice vinegar",
-          "dealName": "Minute Fragrant & Fluffy Jasmine Rice",
-          "promoPrice": 2.29,
-          "savings": 1,
-          "savingsPct": 30,
-          "size": "12 onz"
-        },
-        {
-          "ingredient": "soy sauce",
+          "ingredient": "light soy sauce",
           "dealName": "Kikkoman® Soy Sauce",
           "promoPrice": 4.99,
           "savings": 2,
@@ -7932,23 +7461,71 @@
           "size": "20 fl oz"
         },
         {
-          "ingredient": "rice vinegar",
-          "dealName": "Minute® Gluten-Free Instant White Rice",
-          "promoPrice": 2.29,
-          "savings": 0.9,
-          "savingsPct": 28,
-          "size": "14 oz"
+          "ingredient": "g peeled prawns shrimp",
+          "dealName": "Private Selection® Black Tiger Raw-Tail Off Peeled & Deveined Jumbo Shrimp",
+          "promoPrice": 10.99,
+          "savings": 4,
+          "savingsPct": 27,
+          "size": "16 ounces"
         },
         {
-          "ingredient": "ground chicken or turkey",
+          "ingredient": "chicken broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "chicken broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "chicken broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "g lean pork mince",
+          "dealName": "Carando® Hot Sicilian Ground Sausage",
+          "promoPrice": 5,
+          "savings": 1.49,
+          "savingsPct": 23,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "sugar",
+          "dealName": "Kroger® Dark Brown Sugar",
+          "promoPrice": 2,
+          "savings": 0.29,
+          "savingsPct": 13,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "chicken broth",
           "dealName": "Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller Pack BIG DEAL!",
           "promoPrice": 4.49,
           "savings": 0.5,
           "savingsPct": 10,
           "size": "1 lb"
+        },
+        {
+          "ingredient": "- g dried egg noodles per person",
+          "dealName": "American Beauty Extra Wide Egg Noodles",
+          "promoPrice": 2.99,
+          "savings": 0.3,
+          "savingsPct": 9,
+          "size": "12 oz"
         }
       ],
-      "totalSavings": 10.27,
+      "totalSavings": 10.98,
       "dealCount": 9
     },
     {
@@ -8005,6 +7582,14 @@
           "size": "32 oz"
         },
         {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
           "ingredient": "chicken",
           "dealName": "Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller Pack BIG DEAL!",
           "promoPrice": 4.49,
@@ -8019,17 +7604,333 @@
           "savings": 1,
           "savingsPct": 7,
           "size": "4 lb"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
         }
       ],
-      "totalSavings": 7.39,
+      "totalSavings": 8.1,
+      "dealCount": 9
+    },
+    {
+      "title": "Homemade mac n cheese",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "onSaleIngredients": [
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty Linguine Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty™ Long Spaghetti Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Athenos Crumbled Traditional Feta Cheese",
+          "promoPrice": 3.99,
+          "savings": 2,
+          "savingsPct": 33,
+          "size": "6 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Part Skim Ricotta Cheese",
+          "promoPrice": 2.69,
+          "savings": 0.5,
+          "savingsPct": 16,
+          "size": "15 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Parmesan Grated Cheese",
+          "promoPrice": 2.99,
+          "savings": 0.4,
+          "savingsPct": 12,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Philadelphia Original Cream Cheese Spread",
+          "promoPrice": 3.99,
+          "savings": 0.5,
+          "savingsPct": 11,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Colby Jack Shredded Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Medium Cheddar Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Mozzarella Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        }
+      ],
+      "totalSavings": 5.26,
+      "dealCount": 9
+    },
+    {
+      "title": "Lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "onSaleIngredients": [
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty Linguine Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty™ Long Spaghetti Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Athenos Crumbled Traditional Feta Cheese",
+          "promoPrice": 3.99,
+          "savings": 2,
+          "savingsPct": 33,
+          "size": "6 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Part Skim Ricotta Cheese",
+          "promoPrice": 2.69,
+          "savings": 0.5,
+          "savingsPct": 16,
+          "size": "15 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Parmesan Grated Cheese",
+          "promoPrice": 2.99,
+          "savings": 0.4,
+          "savingsPct": 12,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Philadelphia Original Cream Cheese Spread",
+          "promoPrice": 3.99,
+          "savings": 0.5,
+          "savingsPct": 11,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Colby Jack Shredded Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Medium Cheddar Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Mozzarella Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        }
+      ],
+      "totalSavings": 5.26,
+      "dealCount": 9
+    },
+    {
+      "title": "Penne lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "onSaleIngredients": [
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty Linguine Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty™ Long Spaghetti Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Athenos Crumbled Traditional Feta Cheese",
+          "promoPrice": 3.99,
+          "savings": 2,
+          "savingsPct": 33,
+          "size": "6 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Part Skim Ricotta Cheese",
+          "promoPrice": 2.69,
+          "savings": 0.5,
+          "savingsPct": 16,
+          "size": "15 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Parmesan Grated Cheese",
+          "promoPrice": 2.99,
+          "savings": 0.4,
+          "savingsPct": 12,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Philadelphia Original Cream Cheese Spread",
+          "promoPrice": 3.99,
+          "savings": 0.5,
+          "savingsPct": 11,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Colby Jack Shredded Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Medium Cheddar Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Mozzarella Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        }
+      ],
+      "totalSavings": 5.26,
+      "dealCount": 9
+    },
+    {
+      "title": "Tortellini with sausage, spinach, mushrooms, lemon",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "onSaleIngredients": [
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty Linguine Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "pasta",
+          "dealName": "American Beauty™ Long Spaghetti Pasta",
+          "promoPrice": 1,
+          "savings": 0.69,
+          "savingsPct": 41,
+          "size": "16 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Athenos Crumbled Traditional Feta Cheese",
+          "promoPrice": 3.99,
+          "savings": 2,
+          "savingsPct": 33,
+          "size": "6 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Part Skim Ricotta Cheese",
+          "promoPrice": 2.69,
+          "savings": 0.5,
+          "savingsPct": 16,
+          "size": "15 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Parmesan Grated Cheese",
+          "promoPrice": 2.99,
+          "savings": 0.4,
+          "savingsPct": 12,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Philadelphia Original Cream Cheese Spread",
+          "promoPrice": 3.99,
+          "savings": 0.5,
+          "savingsPct": 11,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Colby Jack Shredded Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Medium Cheddar Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Mozzarella Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        }
+      ],
+      "totalSavings": 5.26,
       "dealCount": 9
     },
     {
@@ -8112,6 +8013,79 @@
       ],
       "totalSavings": 4.72,
       "dealCount": 9
+    },
+    {
+      "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
+      "meal": "breakfast",
+      "style": "meat",
+      "onSaleIngredients": [
+        {
+          "ingredient": "water",
+          "dealName": "Simply® Watermelon Juice Drink Bottle",
+          "promoPrice": 2,
+          "savings": 1.39,
+          "savingsPct": 41,
+          "size": "52 fl oz"
+        },
+        {
+          "ingredient": "rice vinegar",
+          "dealName": "Rice-A-Roni® Long Grain & Wild Rice",
+          "promoPrice": 1,
+          "savings": 0.5,
+          "savingsPct": 33,
+          "size": "4.3 oz"
+        },
+        {
+          "ingredient": "rice vinegar",
+          "dealName": "Mahatma Basmati Rice, Long Grain Rice, Uncooked Rice, 32 oz (907g)",
+          "promoPrice": 3.99,
+          "savings": 1.8,
+          "savingsPct": 31,
+          "size": "2 lbr"
+        },
+        {
+          "ingredient": "ground chicken or turkey",
+          "dealName": "Kroger® 85/15 Fresh Ground Turkey Tray 1 LB",
+          "promoPrice": 3.5,
+          "savings": 1.49,
+          "savingsPct": 30,
+          "size": "1 lb"
+        },
+        {
+          "ingredient": "rice vinegar",
+          "dealName": "Minute Fragrant & Fluffy Jasmine Rice",
+          "promoPrice": 2.29,
+          "savings": 1,
+          "savingsPct": 30,
+          "size": "12 onz"
+        },
+        {
+          "ingredient": "soy sauce",
+          "dealName": "Kikkoman® Soy Sauce",
+          "promoPrice": 4.99,
+          "savings": 2,
+          "savingsPct": 29,
+          "size": "20 fl oz"
+        },
+        {
+          "ingredient": "rice vinegar",
+          "dealName": "Minute® Gluten-Free Instant White Rice",
+          "promoPrice": 2.29,
+          "savings": 0.9,
+          "savingsPct": 28,
+          "size": "14 oz"
+        },
+        {
+          "ingredient": "ground chicken or turkey",
+          "dealName": "Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller Pack BIG DEAL!",
+          "promoPrice": 4.49,
+          "savings": 0.5,
+          "savingsPct": 10,
+          "size": "1 lb"
+        }
+      ],
+      "totalSavings": 9.58,
+      "dealCount": 8
     },
     {
       "title": "Suggested - One-pot chicken and rice",
@@ -8574,14 +8548,6 @@
       "style": "rice-or-pasta",
       "onSaleIngredients": [
         {
-          "ingredient": "uncooked yolk-free noodles",
-          "dealName": "American Beauty™ Long Spaghetti Pasta",
-          "promoPrice": 1,
-          "savings": 0.69,
-          "savingsPct": 41,
-          "size": "16 oz"
-        },
-        {
           "ingredient": "lean ground beef",
           "dealName": "Choice Beef Chuck Roast",
           "promoPrice": 7.99,
@@ -8606,6 +8572,14 @@
           "size": "32 oz"
         },
         {
+          "ingredient": "can reduced-sodium beef broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
           "ingredient": "lean ground beef",
           "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
           "promoPrice": 6.99,
@@ -8614,15 +8588,15 @@
           "size": "1 lb"
         },
         {
-          "ingredient": "can reduced-sodium beef broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
+          "ingredient": "lean ground beef",
+          "dealName": "Steak-umm® All Natural 100% Beef Sandwich Steaks",
+          "promoPrice": 7.99,
+          "savings": 1.5,
+          "savingsPct": 16,
+          "size": "10 ct / 15 oz"
         }
       ],
-      "totalSavings": 6.88,
+      "totalSavings": 8.4,
       "dealCount": 6
     },
     {
@@ -8696,6 +8670,14 @@
           "size": "32 oz"
         },
         {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
           "ingredient": "chicken",
           "dealName": "Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller Pack BIG DEAL!",
           "promoPrice": 4.49,
@@ -8710,17 +8692,9 @@
           "savings": 1,
           "savingsPct": 7,
           "size": "4 lb"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
         }
       ],
-      "totalSavings": 3.19,
+      "totalSavings": 3.9,
       "dealCount": 5
     },
     {
@@ -8745,6 +8719,14 @@
           "size": "32 oz"
         },
         {
+          "ingredient": "cans chicken broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
           "ingredient": "red enchilada sauce",
           "dealName": "Old El Paso Mild Red Enchilada Sauce",
           "promoPrice": 3.99,
@@ -8759,17 +8741,9 @@
           "savings": 0.5,
           "savingsPct": 10,
           "size": "1 lb"
-        },
-        {
-          "ingredient": "cans chicken broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
         }
       ],
-      "totalSavings": 2.79,
+      "totalSavings": 3.5,
       "dealCount": 5
     },
     {
@@ -8794,6 +8768,14 @@
           "size": "32 oz"
         },
         {
+          "ingredient": "cans chicken broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
           "ingredient": "red enchilada sauce",
           "dealName": "Old El Paso Mild Red Enchilada Sauce",
           "promoPrice": 3.99,
@@ -8808,18 +8790,92 @@
           "savings": 0.5,
           "savingsPct": 10,
           "size": "1 lb"
-        },
-        {
-          "ingredient": "cans chicken broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
         }
       ],
-      "totalSavings": 2.79,
+      "totalSavings": 3.5,
       "dealCount": 5
+    },
+    {
+      "title": "Suggested - Korean beef bulgogi bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "onSaleIngredients": [
+        {
+          "ingredient": "beef",
+          "dealName": "Choice Beef Chuck Roast",
+          "promoPrice": 7.99,
+          "savings": 3,
+          "savingsPct": 27,
+          "size": "1 lb"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
+          "promoPrice": 6.99,
+          "savings": 1.5,
+          "savingsPct": 18,
+          "size": "1 lb"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Steak-umm® All Natural 100% Beef Sandwich Steaks",
+          "promoPrice": 7.99,
+          "savings": 1.5,
+          "savingsPct": 16,
+          "size": "10 ct / 15 oz"
+        }
+      ],
+      "totalSavings": 6.8,
+      "dealCount": 4
+    },
+    {
+      "title": "Beef and broccoli",
+      "meal": "dinner",
+      "style": "meat",
+      "onSaleIngredients": [
+        {
+          "ingredient": "beef",
+          "dealName": "Choice Beef Chuck Roast",
+          "promoPrice": 7.99,
+          "savings": 3,
+          "savingsPct": 27,
+          "size": "1 lb"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
+          "promoPrice": 6.99,
+          "savings": 1.5,
+          "savingsPct": 18,
+          "size": "1 lb"
+        },
+        {
+          "ingredient": "beef",
+          "dealName": "Steak-umm® All Natural 100% Beef Sandwich Steaks",
+          "promoPrice": 7.99,
+          "savings": 1.5,
+          "savingsPct": 16,
+          "size": "10 ct / 15 oz"
+        }
+      ],
+      "totalSavings": 6.8,
+      "dealCount": 4
     },
     {
       "title": "Salmon and rice",
@@ -8943,72 +8999,6 @@
       ],
       "totalSavings": 4.2,
       "dealCount": 4
-    },
-    {
-      "title": "Suggested - Korean beef bulgogi bowls",
-      "meal": "dinner",
-      "style": "bowls",
-      "onSaleIngredients": [
-        {
-          "ingredient": "beef",
-          "dealName": "Choice Beef Chuck Roast",
-          "promoPrice": 7.99,
-          "savings": 3,
-          "savingsPct": 27,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
-          "promoPrice": 6.99,
-          "savings": 1.5,
-          "savingsPct": 18,
-          "size": "1 lb"
-        }
-      ],
-      "totalSavings": 5.3,
-      "dealCount": 3
-    },
-    {
-      "title": "Beef and broccoli",
-      "meal": "dinner",
-      "style": "meat",
-      "onSaleIngredients": [
-        {
-          "ingredient": "beef",
-          "dealName": "Choice Beef Chuck Roast",
-          "promoPrice": 7.99,
-          "savings": 3,
-          "savingsPct": 27,
-          "size": "1 lb"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "beef",
-          "dealName": "Kroger® 80/20 Ground Beef Tray 1 LB",
-          "promoPrice": 6.99,
-          "savings": 1.5,
-          "savingsPct": 18,
-          "size": "1 lb"
-        }
-      ],
-      "totalSavings": 5.3,
-      "dealCount": 3
     },
     {
       "title": "BBQ in crockpot",
@@ -9140,6 +9130,270 @@
         }
       ],
       "totalSavings": 4.29,
+      "dealCount": 3
+    },
+    {
+      "title": "Chili",
+      "meal": "dinner",
+      "style": "meat",
+      "onSaleIngredients": [
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        }
+      ],
+      "totalSavings": 2.4,
+      "dealCount": 3
+    },
+    {
+      "title": "Round steak stroganoff",
+      "meal": "dinner",
+      "style": "meat",
+      "onSaleIngredients": [
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        }
+      ],
+      "totalSavings": 2.4,
+      "dealCount": 3
+    },
+    {
+      "title": "Stew",
+      "meal": "dinner",
+      "style": "meat",
+      "onSaleIngredients": [
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        }
+      ],
+      "totalSavings": 2.4,
+      "dealCount": 3
+    },
+    {
+      "title": "Cheddar broccoli soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "onSaleIngredients": [
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        }
+      ],
+      "totalSavings": 2.4,
+      "dealCount": 3
+    },
+    {
+      "title": "Suggested - Black bean soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "onSaleIngredients": [
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        }
+      ],
+      "totalSavings": 2.4,
+      "dealCount": 3
+    },
+    {
+      "title": "Suggested - Butternut squash soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "onSaleIngredients": [
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        }
+      ],
+      "totalSavings": 2.4,
+      "dealCount": 3
+    },
+    {
+      "title": "Suggested - Miso soup with tofu and vegetables",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "onSaleIngredients": [
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        }
+      ],
+      "totalSavings": 2.4,
+      "dealCount": 3
+    },
+    {
+      "title": "Suggested - Lentil soup",
+      "meal": "lunch",
+      "style": "soup-or-stew",
+      "onSaleIngredients": [
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "broth",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        }
+      ],
+      "totalSavings": 2.4,
       "dealCount": 3
     },
     {
@@ -9539,277 +9793,13 @@
       "dealCount": 3
     },
     {
-      "title": "Chili",
-      "meal": "dinner",
-      "style": "meat",
-      "onSaleIngredients": [
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        }
-      ],
-      "totalSavings": 1.69,
-      "dealCount": 3
-    },
-    {
-      "title": "Round steak stroganoff",
-      "meal": "dinner",
-      "style": "meat",
-      "onSaleIngredients": [
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        }
-      ],
-      "totalSavings": 1.69,
-      "dealCount": 3
-    },
-    {
-      "title": "Stew",
-      "meal": "dinner",
-      "style": "meat",
-      "onSaleIngredients": [
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        }
-      ],
-      "totalSavings": 1.69,
-      "dealCount": 3
-    },
-    {
-      "title": "Cheddar broccoli soup",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "onSaleIngredients": [
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        }
-      ],
-      "totalSavings": 1.69,
-      "dealCount": 3
-    },
-    {
-      "title": "Suggested - Black bean soup",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "onSaleIngredients": [
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        }
-      ],
-      "totalSavings": 1.69,
-      "dealCount": 3
-    },
-    {
-      "title": "Suggested - Butternut squash soup",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "onSaleIngredients": [
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        }
-      ],
-      "totalSavings": 1.69,
-      "dealCount": 3
-    },
-    {
-      "title": "Suggested - Miso soup with tofu and vegetables",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "onSaleIngredients": [
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        }
-      ],
-      "totalSavings": 1.69,
-      "dealCount": 3
-    },
-    {
-      "title": "Suggested - Lentil soup",
-      "meal": "lunch",
-      "style": "soup-or-stew",
-      "onSaleIngredients": [
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 fl oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
-          "promoPrice": 2.19,
-          "savings": 0.8,
-          "savingsPct": 27,
-          "size": "32 oz"
-        },
-        {
-          "ingredient": "broth",
-          "dealName": "Kroger® Fat Free Vegetable Broth",
-          "promoPrice": 1.5,
-          "savings": 0.09,
-          "savingsPct": 6,
-          "size": "32 oz"
-        }
-      ],
-      "totalSavings": 1.69,
-      "dealCount": 3
-    },
-    {
       "title": "Stir fry",
       "meal": "dinner",
       "style": "vegetarian",
       "onSaleIngredients": [
         {
           "ingredient": "water",
-          "dealName": "Simply® Watermelon Juice",
+          "dealName": "Simply® Watermelon Juice Drink Bottle",
           "promoPrice": 2,
           "savings": 1.39,
           "savingsPct": 41,
