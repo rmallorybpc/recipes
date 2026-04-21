@@ -455,6 +455,7 @@
 
       <section class="metaBar" aria-live="polite">
         <p id="metaText"></p>
+        <p id="seasonalRegionLabel" class="windowText"></p>
       </section>
 
       <section id="panel-peak" class="panel" aria-label="Peak right now"></section>
@@ -467,7 +468,7 @@
           Built with GitHub Pages &nbsp;·&nbsp;
           <a href="https://github.com/rmallorybpc/recipes" target="_blank" rel="noopener">View source</a>
         </p>
-        <p class="siteFooter-sources">
+        <p class="siteFooter-sources" id="seasonalSourceAttribution">
           Seasonal availability data is sourced from the <a href="https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar" target="_blank" rel="noopener">Colorado Department of Agriculture Produce Calendar</a> and the <a href="https://coloradoproduce.org" target="_blank" rel="noopener">Colorado Fruit and Vegetable Growers Association</a>.
         </p>
       </footer>
@@ -479,6 +480,33 @@
       const CATEGORY_ORDER = ["vegetable", "fruit", "herb", "grain", "allium", "root", "squash", "legume"];
 
       const MATCH_MISSING_MESSAGE = "Run `node ./scripts/generate-seasonal-match.mjs` to see recipe matches.";
+
+      const REGIONAL_SEASONAL_MAP = {
+        "HART": "./data/seasonal-southeast.json",
+        "RALPHS": "./data/seasonal-california.json",
+        "FRED": "./data/seasonal-pacific-northwest.json",
+        "QFC": "./data/seasonal-pacific-northwest.json",
+        "SMITHS": "./data/seasonal-utah-mountain.json",
+        "FRYS": "./data/seasonal-desert-southwest.json",
+        "MARIANOS": "./data/seasonal-midwest.json",
+        "KING SOOPERS": "./data/seasonal-colorado.json",
+        "DILLONS": "./data/seasonal-colorado.json",
+        "KROGER": "./data/seasonal-colorado.json",
+        "DEFAULT": "./data/seasonal-colorado.json"
+      };
+
+      function getSeasonalFileForChain(chainName) {
+        if (!chainName) return REGIONAL_SEASONAL_MAP["DEFAULT"];
+        const normalized = chainName.toUpperCase()
+          .replace(/[^A-Z0-9 ]/g, "")
+          .trim();
+        for (const key of Object.keys(REGIONAL_SEASONAL_MAP)) {
+          if (normalized.includes(key) || key.includes(normalized)) {
+            return REGIONAL_SEASONAL_MAP[key];
+          }
+        }
+        return REGIONAL_SEASONAL_MAP["DEFAULT"];
+      }
 
       const currentMonth = new Date().getMonth() + 1;
       const monthShort = MONTHS[currentMonth - 1];
@@ -509,12 +537,17 @@
       };
 
       const metaText = document.getElementById("metaText");
+      const seasonalRegionLabel = document.getElementById("seasonalRegionLabel");
+      const seasonalSourceAttribution = document.getElementById("seasonalSourceAttribution");
       const tabButtons = [...document.querySelectorAll(".tabButton")];
       const panels = [...document.querySelectorAll(".panel")];
 
       let seasonalProduce = [];
       let seasonalByKey = {};
       let seasonalMatchData = null;
+      let seasonalContextLabel = "Colorado";
+      let seasonalContextSource = "";
+      let seasonalContextSourceUrl = "";
 
       function monthName(n) {
         const index = Number(n) - 1;
@@ -559,6 +592,31 @@
           .replace(/[^a-z0-9\s]/g, " ")
           .replace(/\s+/g, " ")
           .trim();
+      }
+
+      function toSeasonalEntries(seasonalPayload) {
+        const produceObject = seasonalPayload && typeof seasonalPayload.produce === "object" ? seasonalPayload.produce : null;
+        if (Array.isArray(produceObject)) {
+          return produceObject.map((item) => ({
+            name: String(item && item.name ? item.name : "").trim(),
+            peak: Array.isArray(item && item.peak_months) ? item.peak_months : [],
+            available: Array.isArray(item && item.available_months) ? item.available_months : [],
+            category: item && item.category ? String(item.category) : "other",
+            notes: item && item.notes ? String(item.notes) : ""
+          })).filter((item) => item.name);
+        }
+
+        if (produceObject && !Array.isArray(produceObject)) {
+          return Object.entries(produceObject).map(([name, details]) => ({
+            name,
+            peak: Array.isArray(details && details.peak) ? details.peak : [],
+            available: Array.isArray(details && details.available) ? details.available : [],
+            category: details && details.category ? details.category : "other",
+            notes: details && details.notes ? details.notes : ""
+          }));
+        }
+
+        return [];
       }
 
       function categorySort(a, b) {
@@ -904,7 +962,10 @@
       }
 
       async function loadData() {
-        const seasonalPromise = fetch("./data/seasonal-colorado.json").then((response) => {
+        const savedChain = localStorage.getItem("recipes_user_chain");
+        const seasonalFile = getSeasonalFileForChain(savedChain);
+
+        const seasonalPromise = fetch(seasonalFile).then((response) => {
           if (!response.ok) {
             throw new Error("Could not load seasonal data.");
           }
@@ -924,15 +985,13 @@
           throw seasonalResult.reason;
         }
 
-        const produceObject = seasonalResult.value.produce || {};
-        seasonalByKey = produceObject;
-        seasonalProduce = Object.entries(produceObject).map(([name, details]) => ({
-          name,
-          peak: Array.isArray(details.peak) ? details.peak : [],
-          available: Array.isArray(details.available) ? details.available : [],
-          category: details.category || "other",
-          notes: details.notes || ""
-        }));
+        const seasonalPayload = seasonalResult.value || {};
+        seasonalContextLabel = String(seasonalPayload.label || seasonalPayload.regionLabel || "Colorado");
+        seasonalContextSource = String(seasonalPayload.source || "");
+        seasonalContextSourceUrl = String(seasonalPayload.source_url || seasonalPayload.sourceUrl || "");
+
+        seasonalProduce = toSeasonalEntries(seasonalPayload);
+        seasonalByKey = Object.fromEntries(seasonalProduce.map((item) => [item.name, item]));
 
         seasonalMatchData = matchResult.status === "fulfilled" ? matchResult.value : null;
       }
@@ -942,9 +1001,20 @@
 
         try {
           await loadData();
+          if (seasonalRegionLabel) {
+            seasonalRegionLabel.textContent = `Seasonal data: ${seasonalContextLabel}`;
+          }
+          if (seasonalSourceAttribution) {
+            const sourceName = seasonalContextSource || "Seasonal Source";
+            if (seasonalContextSourceUrl) {
+              seasonalSourceAttribution.innerHTML = `Seasonal availability data is sourced from <a href="${safeText(seasonalContextSourceUrl)}" target="_blank" rel="noopener">${safeText(sourceName)}</a>.`;
+            } else {
+              seasonalSourceAttribution.textContent = `Seasonal availability data is sourced from ${sourceName}.`;
+            }
+          }
         } catch (error) {
           const peakPanel = document.getElementById("panel-peak");
-          const message = error instanceof Error ? error.message : "Unable to load Colorado seasonal data.";
+          const message = error instanceof Error ? error.message : "Unable to load seasonal data.";
           peakPanel.innerHTML = `<p class="emptyState">${safeText(message)}</p>`;
           setActiveTab("tab-peak");
           return;

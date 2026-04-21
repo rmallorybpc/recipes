@@ -408,6 +408,33 @@
         "July", "August", "September", "October", "November", "December"
       ];
 
+      const REGIONAL_SEASONAL_MAP = {
+        "HART": "./data/seasonal-southeast.json",
+        "RALPHS": "./data/seasonal-california.json",
+        "FRED": "./data/seasonal-pacific-northwest.json",
+        "QFC": "./data/seasonal-pacific-northwest.json",
+        "SMITHS": "./data/seasonal-utah-mountain.json",
+        "FRYS": "./data/seasonal-desert-southwest.json",
+        "MARIANOS": "./data/seasonal-midwest.json",
+        "KING SOOPERS": "./data/seasonal-colorado.json",
+        "DILLONS": "./data/seasonal-colorado.json",
+        "KROGER": "./data/seasonal-colorado.json",
+        "DEFAULT": "./data/seasonal-colorado.json"
+      };
+
+      function getSeasonalFileForChain(chainName) {
+        if (!chainName) return REGIONAL_SEASONAL_MAP["DEFAULT"];
+        const normalized = chainName.toUpperCase()
+          .replace(/[^A-Z0-9 ]/g, "")
+          .trim();
+        for (const key of Object.keys(REGIONAL_SEASONAL_MAP)) {
+          if (normalized.includes(key) || key.includes(normalized)) {
+            return REGIONAL_SEASONAL_MAP[key];
+          }
+        }
+        return REGIONAL_SEASONAL_MAP["DEFAULT"];
+      }
+
       const UNIT_WORD_PATTERN = /^(?:cups?|tbsp|tsp|oz|lb|lbs|pounds?|can|cans|clove|cloves|slice|slices|package|pkg|bunch|pinch|dash|tablespoons?|teaspoons?)\b\.?\s*/i;
       const LEADING_QUANTITY_PATTERN = /^\s*(?:(?:\d+\s+\d\/\d)|(?:\d+\/\d+)|(?:\d+)|(?:\d*\.\d+)|(?:\d+-\d+)|(?:[¼½¾⅓⅔⅛⅜⅝⅞]))\s*/;
 
@@ -422,7 +449,8 @@
           prices: false,
           seasonal: false,
           deals: false
-        }
+        },
+        seasonalContextLabel: "Colorado"
       };
 
       const dataStatusBar = document.getElementById("dataStatusBar");
@@ -745,6 +773,7 @@
           <span class="statusPill ${recipesClass}">${recipesCount} recipes</span>
           <span class="statusPill ${pricesClass}">${actualPriceCount} prices</span>
           <span class="statusPill ${seasonalClass}">Seasonal data</span>
+          <span class="statusPill isGreen">Seasonal data: ${state.seasonalContextLabel}</span>
         `;
       }
 
@@ -999,7 +1028,10 @@
       }
 
       async function loadData() {
-        const [recipesResult, pricesResult, multipliersResult, dealsResult] = await Promise.allSettled([
+        const savedChain = localStorage.getItem("recipes_user_chain");
+        const seasonalFile = getSeasonalFileForChain(savedChain);
+
+        const [recipesResult, pricesResult, multipliersResult, seasonalContextResult, dealsResult] = await Promise.allSettled([
           fetch("./data/recipes-with-ingredients.json").then((response) => {
             if (!response.ok) {
               throw new Error("recipes-with-ingredients.json missing");
@@ -1015,6 +1047,12 @@
           fetch("./data/seasonal-price-multipliers.json").then((response) => {
             if (!response.ok) {
               throw new Error("seasonal-price-multipliers.json missing");
+            }
+            return response.json();
+          }),
+          fetch(seasonalFile).then((response) => {
+            if (!response.ok) {
+              throw new Error("seasonal file missing");
             }
             return response.json();
           }),
@@ -1054,6 +1092,13 @@
         } else {
           state.multipliersData = {};
           state.loadedFlags.seasonal = false;
+        }
+
+        if (seasonalContextResult.status === "fulfilled") {
+          const payload = seasonalContextResult.value || {};
+          state.seasonalContextLabel = String(payload.label || payload.regionLabel || "Colorado");
+        } else {
+          state.seasonalContextLabel = "Colorado";
         }
 
         if (dealsResult.status === "fulfilled") {

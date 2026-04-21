@@ -596,6 +596,20 @@
         DEFAULT: "./data/weekly-deals.json"
       };
 
+      const REGIONAL_SEASONAL_MAP = {
+        "HART": "./data/seasonal-southeast.json",
+        "RALPHS": "./data/seasonal-california.json",
+        "FRED": "./data/seasonal-pacific-northwest.json",
+        "QFC": "./data/seasonal-pacific-northwest.json",
+        "SMITHS": "./data/seasonal-utah-mountain.json",
+        "FRYS": "./data/seasonal-desert-southwest.json",
+        "MARIANOS": "./data/seasonal-midwest.json",
+        "KING SOOPERS": "./data/seasonal-colorado.json",
+        "DILLONS": "./data/seasonal-colorado.json",
+        "KROGER": "./data/seasonal-colorado.json",
+        "DEFAULT": "./data/seasonal-colorado.json"
+      };
+
       function getDealsFileForChain(chainName) {
         if (!chainName) return CHAIN_DEALS_MAP.DEFAULT;
         const normalized = chainName.toUpperCase()
@@ -607,6 +621,19 @@
           }
         }
         return CHAIN_DEALS_MAP.DEFAULT;
+      }
+
+      function getSeasonalFileForChain(chainName) {
+        if (!chainName) return REGIONAL_SEASONAL_MAP["DEFAULT"];
+        const normalized = chainName.toUpperCase()
+          .replace(/[^A-Z0-9 ]/g, "")
+          .trim();
+        for (const key of Object.keys(REGIONAL_SEASONAL_MAP)) {
+          if (normalized.includes(key) || key.includes(normalized)) {
+            return REGIONAL_SEASONAL_MAP[key];
+          }
+        }
+        return REGIONAL_SEASONAL_MAP["DEFAULT"];
       }
 
       const DAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -635,6 +662,7 @@
       let recipesData = null;
       let dealsData = null;
       let seasonalData = null;
+      let seasonalLabel = "Colorado";
       let currentPlan = null;
       let hasStoredClaudePrompt = false;
 
@@ -813,13 +841,38 @@
       }
 
       function countSeasonalPeakItems(data) {
-        if (!data || typeof data !== "object" || !data.produce || typeof data.produce !== "object") {
+        if (!data || typeof data !== "object") {
           return null;
         }
+
+        const seasonalEntries = getSeasonalProduceEntries(data);
         const month = new Date().getMonth() + 1;
-        return Object.values(data.produce).filter((entry) => {
-          return entry && Array.isArray(entry.peak) && entry.peak.includes(month);
-        }).length;
+        return seasonalEntries.filter((entry) => Array.isArray(entry.peak) && entry.peak.includes(month)).length;
+      }
+
+      function getSeasonalLabel(data) {
+        return String((data && (data.label || data.regionLabel)) || "Colorado");
+      }
+
+      function getSeasonalProduceEntries(data) {
+        const produce = data && data.produce;
+        if (Array.isArray(produce)) {
+          return produce.map((item) => ({
+            name: String(item && item.name ? item.name : "").toLowerCase(),
+            peak: Array.isArray(item && item.peak_months) ? item.peak_months : [],
+            available: Array.isArray(item && item.available_months) ? item.available_months : []
+          })).filter((item) => item.name);
+        }
+
+        if (produce && typeof produce === "object") {
+          return Object.entries(produce).map(([name, entry]) => ({
+            name: String(name || "").toLowerCase(),
+            peak: Array.isArray(entry && entry.peak) ? entry.peak : [],
+            available: Array.isArray(entry && entry.available) ? entry.available : []
+          })).filter((item) => item.name);
+        }
+
+        return [];
       }
 
       async function loadSummaryData() {
@@ -896,17 +949,19 @@
         }
 
         try {
-          const response = await fetch("./data/seasonal-colorado.json");
+          const seasonalFile = getSeasonalFileForChain(savedChain);
+          const response = await fetch(seasonalFile);
           if (!response.ok) {
-            throw new Error("Missing seasonal-colorado.json");
+            throw new Error("Missing seasonal data file");
           }
           const data = await response.json();
           seasonalData = data;
+          seasonalLabel = getSeasonalLabel(data);
           const count = countSeasonalPeakItems(data);
           if (count !== null) {
             results[2] = {
               key: "seasonal",
-              text: `Seasonal: ${count} ingredients at peak in Colorado this month`,
+              text: `Seasonal: ${count} ingredients at peak in ${seasonalLabel} this month`,
               success: true
             };
           }
@@ -939,6 +994,17 @@
         }
 
         summaryPills.insertAdjacentElement("afterend", storeContext);
+
+        const existingSeasonalContext = document.getElementById("summarySeasonalContext");
+        if (existingSeasonalContext) {
+          existingSeasonalContext.remove();
+        }
+
+        const seasonalContext = document.createElement("p");
+        seasonalContext.id = "summarySeasonalContext";
+        seasonalContext.className = "summaryStoreContext";
+        seasonalContext.textContent = `Seasonal data: ${seasonalLabel}`;
+        storeContext.insertAdjacentElement("afterend", seasonalContext);
       }
 
       function escapeHtml(value) {
@@ -1021,26 +1087,26 @@
 
       function scoreSeasonal(recipe, seasonalData, currentMonth) {
         const haystack = `${getRecipeIngredientText(recipe)} ${String(recipe && recipe.title ? recipe.title : "").toLowerCase()}`;
-        const produce = seasonalData && typeof seasonalData === "object" ? seasonalData : {};
+        const produceEntries = getSeasonalProduceEntries(seasonalData || {});
         const peakMatches = [];
         const availableMatches = [];
 
-        Object.entries(produce).forEach(([produceName, info]) => {
-          const nameLower = String(produceName || "").toLowerCase();
+        produceEntries.forEach((entry) => {
+          const nameLower = String(entry.name || "").toLowerCase();
           if (!nameLower || !haystack.includes(nameLower)) {
             return;
           }
 
-          const isPeak = info && Array.isArray(info.peak) && info.peak.includes(currentMonth);
-          const isAvailable = info && Array.isArray(info.available) && info.available.includes(currentMonth);
+          const isPeak = Array.isArray(entry.peak) && entry.peak.includes(currentMonth);
+          const isAvailable = Array.isArray(entry.available) && entry.available.includes(currentMonth);
 
           if (isPeak) {
-            peakMatches.push(produceName);
+            peakMatches.push(nameLower);
             return;
           }
 
           if (isAvailable) {
-            availableMatches.push(produceName);
+            availableMatches.push(nameLower);
           }
         });
 
@@ -1245,14 +1311,13 @@
         });
 
         const currentMonth = new Date().getMonth() + 1;
-        const seasonalProduce = seasonalData && typeof seasonalData === "object" && seasonalData.produce
-          ? seasonalData.produce
-          : {};
+        const seasonalProduce = getSeasonalProduceEntries(seasonalData || {});
         const peakNow = [];
         const alsoAvailable = [];
-        Object.entries(seasonalProduce).forEach(([name, info]) => {
-          const isPeak = info && Array.isArray(info.peak) && info.peak.includes(currentMonth);
-          const isAvailable = info && Array.isArray(info.available) && info.available.includes(currentMonth);
+        seasonalProduce.forEach((entry) => {
+          const name = entry.name;
+          const isPeak = Array.isArray(entry.peak) && entry.peak.includes(currentMonth);
+          const isAvailable = Array.isArray(entry.available) && entry.available.includes(currentMonth);
           if (isPeak) {
             peakNow.push(name);
           } else if (isAvailable) {
@@ -1314,7 +1379,7 @@
             ? foodDeals.map((deal) => `- ${String(deal.name || deal.term || "Deal")}: $${formatCurrency(deal.promoPrice)} (save ${Number(deal.savingsPct) || 0}%)`)
             : ["- No food-category deals available this week."]),
           "",
-          "IN SEASON IN COLORADO THIS MONTH:",
+          `IN SEASON IN ${getSeasonalLabel(seasonalData).toUpperCase()} THIS MONTH:`,
           `Peak now: ${peakNow.length ? peakNow.join(", ") : "None listed"}`,
           `Also available: ${alsoAvailable.length ? alsoAvailable.join(", ") : "None listed"}`,
           "",
