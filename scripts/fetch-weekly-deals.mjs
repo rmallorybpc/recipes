@@ -231,6 +231,30 @@ const CHAIN_LOCATIONS = [
     locationId: '53100503',
     name: "Mariano's - Chicago IL",
     outputFile: 'data/deals-marianos.json'
+  },
+  {
+    chain: 'PICK N SAVE',
+    locationId: '53400868',
+    name: 'Pick n Save - Milwaukee WI',
+    outputFile: 'data/deals-pick-n-save.json'
+  },
+  {
+    chain: 'CITYMARKET',
+    locationId: '62000405',
+    name: 'City Market - Glenwood Springs CO',
+    outputFile: 'data/deals-city-market.json'
+  },
+  {
+    chain: 'QFC',
+    locationId: '70500847',
+    name: 'QFC - Seattle WA',
+    outputFile: 'data/deals-qfc.json'
+  },
+  {
+    chain: 'METRO MARKET',
+    locationId: '53400371',
+    name: 'Metro Market - Milwaukee WI',
+    outputFile: 'data/deals-metro-market.json'
   }
 ];
 
