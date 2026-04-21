@@ -26,7 +26,7 @@ summary: Hands-off slow cooker chicken tortilla soup with black beans, corn, and
 - 1 teaspoon chili powder
 - 1 teaspoon smoked paprika
 - salt and pepper to taste
-- shredded cheddar cheese, sour cream, tortilla strips, and cilantro for serving
+- shredded cheddar, sour cream, tortilla strips, and cilantro for serving
 
 ## Instructions
 

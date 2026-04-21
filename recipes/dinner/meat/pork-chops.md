@@ -24,7 +24,6 @@ summary: Pan-seared bone-in pork chops with a garlic herb pan sauce. Ready in 25
 - 1 teaspoon garlic powder
 - salt and pepper to taste
 - lemon wedges for serving
-- mashed potatoes or roasted vegetables for serving
 
 ## Instructions
 

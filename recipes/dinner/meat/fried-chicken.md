@@ -24,7 +24,6 @@ summary: Crispy buttermilk-marinated fried chicken with a deeply seasoned crust.
 - 1 teaspoon cayenne pepper
 - 1 teaspoon dried oregano
 - vegetable oil for frying
-- hot sauce for the buttermilk marinade (optional)
 
 ## Instructions
 
