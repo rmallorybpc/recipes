@@ -34,7 +34,10 @@ const CHAIN_QUERIES = [
   { chain: 'Fred Meyer',    zip: '97201', state: 'OR' },
   { chain: 'Smiths',        zip: '84101', state: 'UT' },
   { chain: 'Frys',          zip: '85001', state: 'AZ' },
-  { chain: 'Marianos',      zip: '60601', state: 'IL' }
+  { chain: 'Marianos',      zip: '60601', state: 'IL' },
+  { chain: 'Pick n Save',   zip: '53202', state: 'WI' },
+  { chain: 'City Market',   zip: '81601', state: 'CO' },
+  { chain: 'QFC',           zip: '98101', state: 'WA' }
 ];
 
 for (const query of CHAIN_QUERIES) {
