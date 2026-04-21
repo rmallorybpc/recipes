@@ -5,8 +5,9 @@ on:
     paths:
       - "recipes/**/*.md"
       - "scripts/generate-ingredient-data.mjs"
-      - "data/seasonal-colorado.json"
+      - "data/seasonal-*.json"
       - "data/weekly-deals.json"
+      - "data/deals-*.json"
   workflow_dispatch:
 
 permissions:
