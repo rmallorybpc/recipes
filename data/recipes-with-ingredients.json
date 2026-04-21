@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-21T14:58:57.975Z",
+  "generated_at": "2026-04-21T17:13:57.367Z",
   "stats": {
     "total_recipes": 98,
     "with_existing_source": 98,
     "resolved_from_search": 0,
-    "scraped_ingredients": 10,
-    "heuristic_only": 88
+    "scraped_ingredients": 11,
+    "heuristic_only": 87
   },
   "recipes": [
     {
@@ -295,21 +295,39 @@
       "resolved_source_url": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1",
       "source_origin": "existing_source",
       "ingredients": [
-        "zucchini",
-        "basil",
-        "olive oil",
-        "parmesan",
-        "cheese"
+        "1/2 lb Italian chicken sausage, ground spicy",
+        "1 Basil, fresh",
+        "1 tbsp Oregano, fresh",
+        "1 Red bell pepper",
+        "1 can San marzano tomatoes",
+        "1 tbsp Thyme, fresh",
+        "2 Zucchini or yellow summer squash, large",
+        "3/4 cup Basil pesto, homemade or store-bought",
+        "1 Kosher salt and black pepper",
+        "1 pinch Red pepper flakes",
+        "2 tbsp Olive oil, extra virgin",
+        "1 cup Fontina cheese",
+        "4 oz Mozzarella",
+        "1 1/2 cups Whole milk ricotta cheese"
       ],
       "ingredients_normalized": [
-        "zucchini",
+        "italian chicken sausage ground spicy",
         "basil",
-        "olive oil",
-        "parmesan",
-        "cheese"
+        "oregano",
+        "red bell pepper",
+        "can san marzano tomatoes",
+        "thyme",
+        "zucchini or yellow summer squash large",
+        "basil pesto homemade or store-bought",
+        "kosher salt and black pepper",
+        "pinch red pepper flakes",
+        "olive oil extra virgin",
+        "fontina cheese",
+        "mozzarella",
+        "whole milk ricotta cheese"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
     },
     {
       "title": "Suggested - Avocado toast with egg",

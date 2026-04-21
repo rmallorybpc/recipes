@@ -1,10 +1,102 @@
 {
-  "generatedAt": "2026-04-21T14:58:57.983Z",
+  "generatedAt": "2026-04-21T17:13:57.382Z",
   "region": "colorado",
   "regionLabel": "Colorado",
   "totalRecipes": 98,
   "matchedRecipes": 25,
   "recipes": [
+    {
+      "title": "Spicy pesto and cheese stuffed zucchini involtin",
+      "meal": "breakfast",
+      "style": "vegetarian",
+      "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1",
+      "seasonalIngredients": [
+        {
+          "ingredient": "basil",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "1 Basil, fresh"
+        },
+        {
+          "ingredient": "peppers",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1 Red bell pepper"
+        },
+        {
+          "ingredient": "tomatoes",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1 can San marzano tomatoes"
+        },
+        {
+          "ingredient": "thyme",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1 tbsp Thyme, fresh"
+        },
+        {
+          "ingredient": "zucchini",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "2 Zucchini or yellow summer squash, large"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "seasonalScore": 5
+    },
     {
       "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
       "meal": "breakfast",
@@ -653,50 +745,6 @@
         9,
         10,
         11
-      ],
-      "seasonalScore": 2
-    },
-    {
-      "title": "Spicy pesto and cheese stuffed zucchini involtin",
-      "meal": "breakfast",
-      "style": "vegetarian",
-      "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1",
-      "seasonalIngredients": [
-        {
-          "ingredient": "zucchini",
-          "peak": [
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9
-          ],
-          "matchedTerm": "zucchini"
-        },
-        {
-          "ingredient": "basil",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "matchedTerm": "basil"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        6,
-        7,
-        8,
-        9
       ],
       "seasonalScore": 2
     },
