@@ -15,9 +15,10 @@ summary: "Creamy Greek yogurt layered with granola, fresh berries, and a drizzle
 
 - 2 cups plain Greek yogurt
 - 1 cup granola
-- 1 cup fresh berries (strawberries, blueberries, raspberries)
+- 1 cup mixed fresh berries (strawberries, blueberries, raspberries)
 - 2 tablespoons honey
-- 1/4 cup sliced almonds (optional)
+- 1 teaspoon vanilla extract
+- 1/4 cup sliced almonds or walnuts (optional)
 
 ## Instructions
 

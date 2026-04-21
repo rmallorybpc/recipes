@@ -13,13 +13,16 @@ summary: "Crispy flour tortillas filled with melted cheese and shredded chicken.
 
 ## Ingredients
 
+- 2 cups cooked chicken, shredded
 - 4 large flour tortillas
-- 2 cups shredded cooked chicken
-- 2 cups shredded Mexican cheese blend
-- 1/2 cup black beans, drained and rinsed
-- 1/4 cup pickled jalapenos (optional)
-- 1 tablespoon butter or oil for cooking
-- salsa and sour cream for serving
+- 2 cups shredded Monterey Jack or cheddar cheese
+- 1/2 cup diced bell peppers
+- 1/4 cup diced red onion
+- 1 tablespoon butter or olive oil
+- 1 teaspoon cumin
+- 1/2 teaspoon garlic powder
+- salt and pepper to taste
+- sour cream, salsa, and guacamole for serving
 
 ## Instructions
 

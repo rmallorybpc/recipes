@@ -14,22 +14,20 @@ summary: "Spiced ground lamb skewers grilled until charred and juicy, served wit
 ## Ingredients
 
 - 1.5 lbs ground lamb
-- 1 small onion, grated
+- 1 large onion, grated
 - 3 cloves garlic, minced
-- 1/4 cup fresh parsley, minced
+- 1/4 cup fresh parsley, chopped
 - 1 teaspoon cumin
 - 1 teaspoon coriander
 - 1/2 teaspoon cinnamon
-- 1/2 teaspoon smoked paprika
-- 1/4 teaspoon cayenne
-- salt and pepper
-- 4 pita breads
+- 1/2 teaspoon allspice
+- 1/4 teaspoon cayenne pepper
+- salt and pepper to taste
 - 1 cup plain Greek yogurt
-- 1/2 cucumber, grated and squeezed dry
+- 1 cucumber, grated and squeezed dry
+- 2 tablespoons fresh dill
 - 1 tablespoon lemon juice
-- 1 clove garlic, minced
-- 1 tablespoon fresh dill
-- cherry tomatoes, cucumber, and red onion for serving
+- pita bread and sliced tomatoes for serving
 
 ## Instructions
 

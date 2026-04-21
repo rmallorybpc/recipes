@@ -14,17 +14,17 @@ summary: "A simplified home version of Vietnamese beef pho with fragrant star an
 ## Ingredients
 
 - 8 cups beef broth
-- 1 lb beef sirloin, very thinly sliced
-- 8 oz rice noodles
-- 1 onion, halved and charred under the broiler
-- 3-inch piece fresh ginger, halved and charred
+- 1 lb beef sirloin or brisket, thinly sliced
+- 8 oz flat rice noodles
+- 1 large onion, halved
+- 3 inch piece ginger, halved
 - 3 star anise
 - 2 cinnamon sticks
 - 4 cloves
-- 1 tablespoon fish sauce
-- 1 teaspoon sugar
-- salt to taste
-- bean sprouts, Thai basil, lime wedges, jalapeno, hoisin, and sriracha for serving
+- 2 tablespoons fish sauce
+- 1 tablespoon sugar
+- bean sprouts, fresh basil, lime, jalapeño, and hoisin sauce for serving
+- sriracha for serving
 
 ## Instructions
 

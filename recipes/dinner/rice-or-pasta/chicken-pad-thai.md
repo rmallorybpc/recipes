@@ -14,18 +14,19 @@ summary: "Rice noodles stir-fried with chicken, egg, bean sprouts, and a tangy t
 ## Ingredients
 
 - 8 oz flat rice noodles
-- 2 chicken breasts, sliced thin
-- 3 eggs, beaten
-- 2 cups bean sprouts
-- 4 scallions, sliced
-- 1/2 cup roasted peanuts, roughly chopped
+- 1 lb boneless skinless chicken breasts, thinly sliced
+- 2 eggs, lightly beaten
+- 1 cup bean sprouts
+- 3 scallions, sliced
+- 1/4 cup roasted peanuts, chopped
 - 3 cloves garlic, minced
-- 3 tablespoons tamarind paste
 - 3 tablespoons fish sauce
-- 2 tablespoons sugar
-- 1 tablespoon oyster sauce
+- 2 tablespoons tamarind paste
+- 2 tablespoons brown sugar
+- 1 tablespoon soy sauce
+- 1 teaspoon sriracha
 - 2 tablespoons vegetable oil
-- lime wedges and cilantro for serving
+- lime wedges and fresh cilantro for serving
 
 ## Instructions
 

@@ -13,16 +13,17 @@ summary: "Panko-crusted chicken cutlets fried until golden and served over rice 
 
 ## Ingredients
 
-- 4 chicken breasts, pounded to 1/2-inch thickness
+- 4 boneless skinless chicken breasts, pounded thin
 - 1 cup panko breadcrumbs
 - 2 eggs, beaten
-- 1/2 cup flour
-- salt and pepper
-- vegetable oil for shallow frying
-- 2 cups steamed rice
-- 2 cups shredded cabbage
-- 4 tablespoons tonkatsu sauce
-- Japanese mayo for drizzling (optional)
+- 1/2 cup all-purpose flour
+- vegetable oil for frying
+- 1/4 cup tonkatsu sauce or Worcestershire sauce
+- 2 tablespoons soy sauce
+- 1 tablespoon ketchup
+- 1 tablespoon mirin
+- salt and pepper to taste
+- shredded cabbage and steamed rice for serving
 
 ## Instructions
 

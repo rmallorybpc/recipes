@@ -13,19 +13,19 @@ summary: "Rich and creamy New England-style clam chowder with tender potatoes, s
 
 ## Ingredients
 
-- 4 strips bacon, chopped
+- 3 cans chopped clams (6.5 oz each), juice reserved
+- 4 slices bacon, diced
+- 3 medium potatoes, diced
 - 1 large onion, diced
 - 3 stalks celery, diced
 - 3 cloves garlic, minced
-- 3 medium potatoes, peeled and diced
-- 3 cans chopped clams (6.5 oz each), juice reserved
-- 2 cups chicken or clam broth
-- 1 1/2 cups heavy cream
-- 2 tablespoons butter
-- 2 tablespoons flour
+- 2 cups heavy cream
+- 1 cup whole milk
+- 3 tablespoons butter
+- 3 tablespoons all-purpose flour
 - 1 teaspoon dried thyme
-- salt and white pepper to taste
-- fresh chives for garnish
+- 2 bay leaves
+- salt and pepper to taste
 - oyster crackers for serving
 
 ## Instructions

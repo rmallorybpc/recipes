@@ -13,19 +13,20 @@ summary: "Rich and smoky black bean soup from pantry staples in 30 minutes. Load
 
 ## Ingredients
 
-- 3 cans black beans, drained and rinsed (reserve 1 can liquid)
+- 3 cans black beans (15 oz each), drained and rinsed
+- 4 cups chicken or vegetable broth
 - 1 large onion, diced
 - 4 cloves garlic, minced
-- 1 red bell pepper, diced
-- 1 jalapeno, seeded and minced
-- 4 cups vegetable or chicken broth
-- 2 teaspoons cumin
-- 1 teaspoon smoked paprika
-- 1/2 teaspoon chili powder
-- juice of 1 lime
+- 2 stalks celery, diced
+- 2 carrots, diced
+- 1 can diced tomatoes (14 oz)
+- 1 teaspoon cumin
+- 1 teaspoon chili powder
+- 1/2 teaspoon smoked paprika
+- 1/2 teaspoon oregano
 - 2 tablespoons olive oil
 - salt and pepper to taste
-- sour cream, avocado, cilantro, and lime for serving
+- sour cream, cilantro, and lime for serving
 
 ## Instructions
 

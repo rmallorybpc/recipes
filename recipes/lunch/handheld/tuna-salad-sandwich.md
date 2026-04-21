@@ -13,15 +13,16 @@ summary: "Classic tuna salad with celery, red onion, and mayo on toasted bread. 
 
 ## Ingredients
 
-- 2 cans tuna in water, drained
+- 2 cans tuna in water (5 oz each), drained
 - 3 tablespoons mayonnaise
+- 1 tablespoon Dijon mustard
 - 2 stalks celery, finely diced
 - 2 tablespoons red onion, finely diced
-- 1 tablespoon Dijon mustard
 - 1 tablespoon lemon juice
+- 1 tablespoon fresh dill or parsley, chopped
 - salt and pepper to taste
-- 4 slices bread, toasted
-- lettuce leaves for serving
+- 8 slices bread
+- lettuce and tomato for serving
 
 ## Instructions
 

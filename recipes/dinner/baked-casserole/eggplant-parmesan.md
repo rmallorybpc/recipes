@@ -13,15 +13,18 @@ summary: "Sliced eggplant breaded and baked then layered with marinara and mozza
 
 ## Ingredients
 
-- 2 large eggplants, sliced into 1/2-inch rounds
-- 2 eggs, beaten
-- 1 1/2 cups Italian seasoned breadcrumbs
-- 1/2 cup Parmesan cheese, grated
-- 3 cups marinara sauce
+- 2 large eggplants, sliced 1/4 inch thick
+- 2 cups marinara sauce
 - 2 cups shredded mozzarella cheese
-- 1/2 cup fresh basil leaves
-- 2 tablespoons olive oil
+- 1/2 cup grated Parmesan cheese
+- 2 eggs, beaten
+- 1 cup Italian seasoned breadcrumbs
+- 1/2 cup all-purpose flour
+- 1/4 cup olive oil
+- 1 teaspoon dried basil
+- 1 teaspoon dried oregano
 - salt and pepper to taste
+- fresh basil for garnish
 
 ## Instructions
 

@@ -13,17 +13,18 @@ summary: "Chicken thighs and rice cooked together in one pot with garlic, onion,
 
 ## Ingredients
 
-- 4 chicken thighs, bone-in skin-on
+- 1.5 lbs bone-in skin-on chicken thighs
 - 1 1/2 cups long-grain white rice
-- 2 1/2 cups chicken broth
+- 3 cups chicken broth
 - 1 large onion, diced
 - 4 cloves garlic, minced
-- 1 teaspoon smoked paprika
+- 1 can diced tomatoes (14 oz)
 - 1 teaspoon cumin
-- 1 teaspoon dried thyme
+- 1 teaspoon smoked paprika
+- 1 teaspoon turmeric
 - 2 tablespoons olive oil
 - salt and pepper to taste
-- fresh parsley for garnish
+- fresh cilantro and lemon wedges for serving
 
 ## Instructions
 

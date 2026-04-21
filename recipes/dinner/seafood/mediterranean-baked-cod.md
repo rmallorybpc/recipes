@@ -14,16 +14,18 @@ summary: "Cod fillets baked over cherry tomatoes, olives, capers, and white wine
 ## Ingredients
 
 - 4 cod fillets (6 oz each)
-- 2 cups cherry tomatoes, halved
+- 1 cup cherry tomatoes, halved
 - 1/2 cup kalamata olives, pitted
-- 2 tablespoons capers
-- 4 cloves garlic, minced
-- 1/4 cup dry white wine
+- 1/4 cup capers
+- 3 cloves garlic, minced
+- 1 large onion, thinly sliced
+- 1/2 cup dry white wine or chicken broth
 - 3 tablespoons olive oil
-- juice of 1 lemon
 - 1 teaspoon dried oregano
-- fresh parsley for garnish
+- 1 teaspoon dried thyme
+- 1/4 teaspoon red pepper flakes
 - salt and pepper to taste
+- fresh parsley and lemon for serving
 
 ## Instructions
 

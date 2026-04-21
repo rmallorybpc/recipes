@@ -13,12 +13,15 @@ summary: "A simple turkey and avocado wrap with crisp lettuce, tomato, and a sme
 
 ## Ingredients
 
-- 2 large flour tortillas
-- 6 oz sliced turkey breast
-- 1 avocado, sliced
-- 1 cup romaine lettuce, shredded
-- 1 tomato, sliced
-- 2 tablespoons mayo or hummus
+- 4 large flour tortillas
+- 8 oz deli turkey breast, sliced
+- 2 ripe avocados, sliced
+- 4 oz cream cheese or hummus
+- 2 cups baby spinach or mixed greens
+- 1 large tomato, sliced
+- 1/2 red onion, thinly sliced
+- 4 oz Swiss or provolone cheese, sliced
+- 1 tablespoon lemon juice
 - salt and pepper to taste
 
 ## Instructions

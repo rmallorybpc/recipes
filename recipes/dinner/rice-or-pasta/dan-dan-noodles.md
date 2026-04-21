@@ -13,18 +13,20 @@ summary: "Chinese wheat noodles in a spicy sesame and chili sauce with ground po
 
 ## Ingredients
 
-- 12 oz Chinese wheat noodles or spaghetti
+- 8 oz Chinese noodles or spaghetti
 - 1/2 lb ground pork
-- 4 tablespoons soy sauce
-- 2 tablespoons Chinese sesame paste or tahini
-- 2 tablespoons chili oil
-- 1 tablespoon rice vinegar
-- 1 tablespoon sugar
-- 1/2 cup chicken broth
-- 4 cloves garlic, minced
+- 2 cups baby spinach or bok choy
+- 3 cloves garlic, minced
 - 1 tablespoon fresh ginger, grated
-- 3 scallions, sliced
-- sesame seeds for garnish
+- 3 tablespoons soy sauce
+- 2 tablespoons tahini or peanut butter
+- 1 tablespoon chili oil or sesame oil
+- 1 tablespoon rice vinegar
+- 1 tablespoon Sichuan peppercorn oil (optional)
+- 1 teaspoon brown sugar
+- 2 scallions, sliced
+- 2 tablespoons vegetable oil
+- roasted peanuts for garnish
 
 ## Instructions
 

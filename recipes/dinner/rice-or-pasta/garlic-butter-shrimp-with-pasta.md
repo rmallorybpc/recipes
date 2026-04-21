@@ -13,17 +13,18 @@ summary: "Juicy shrimp sauteed in garlic butter with white wine and lemon tossed
 
 ## Ingredients
 
+- 1 lb linguine or spaghetti
 - 1 lb large shrimp, peeled and deveined
-- 12 oz linguine
-- 4 tablespoons butter
-- 4 cloves garlic, minced
-- 1/2 cup dry white wine
+- 6 cloves garlic, minced
+- 4 tablespoons unsalted butter
+- 2 tablespoons olive oil
+- 1/2 cup dry white wine or chicken broth
 - juice of 1 lemon
+- zest of 1 lemon
 - 1/4 teaspoon red pepper flakes
 - 1/4 cup fresh parsley, chopped
-- 1/4 cup Parmesan cheese, grated
+- 1/4 cup grated Parmesan cheese
 - salt and pepper to taste
-- olive oil for cooking
 
 ## Instructions
 

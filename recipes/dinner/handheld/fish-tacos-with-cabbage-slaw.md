@@ -13,20 +13,21 @@ summary: "Crispy pan-fried white fish in corn tortillas with tangy cabbage slaw 
 
 ## Ingredients
 
-- 1 lb white fish fillets (cod, tilapia, or mahi-mahi)
+- 1.5 lbs white fish fillets (cod, tilapia, or mahi mahi)
+- 8 small corn or flour tortillas
+- 2 cups shredded cabbage
+- 1 mango, diced
+- 1 jalapeno, minced
+- 1/4 cup fresh cilantro, chopped
+- 3 tablespoons lime juice
+- 2 tablespoons mayonnaise
+- 1 tablespoon sour cream
 - 1 teaspoon cumin
 - 1 teaspoon chili powder
-- 1/2 teaspoon garlic powder
-- salt and pepper
+- 1 teaspoon smoked paprika
 - 2 tablespoons olive oil
-- 8 corn tortillas
-- 2 cups shredded green cabbage
-- 1/4 cup sour cream
-- 2 tablespoons mayonnaise
-- juice of 2 limes
-- 1 chipotle pepper in adobo, minced
-- 1 teaspoon adobo sauce
-- fresh cilantro and avocado for serving
+- salt and pepper to taste
+- avocado slices for serving
 
 ## Instructions
 

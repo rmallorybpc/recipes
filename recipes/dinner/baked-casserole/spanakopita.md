@@ -13,18 +13,17 @@ summary: "Flaky phyllo pastry filled with spinach, feta, ricotta, and dill. A Gr
 
 ## Ingredients
 
-- 1 lb frozen phyllo dough, thawed overnight
-- 2 lbs fresh spinach (or 20 oz frozen, thawed and squeezed dry)
-- 1 cup feta cheese, crumbled
-- 1 cup ricotta cheese
+- 1 lb fresh spinach, chopped
+- 1 lb feta cheese, crumbled
 - 3 eggs, beaten
-- 1 large onion, finely diced
-- 4 cloves garlic, minced
-- 1/4 cup fresh dill, chopped
+- 1 large onion, diced
+- 3 cloves garlic, minced
+- 2 tablespoons fresh dill, chopped
 - 1/4 cup fresh parsley, chopped
+- 1/2 teaspoon nutmeg
+- 1 package phyllo dough (16 oz), thawed
 - 1/2 cup butter, melted
 - salt and pepper to taste
-- nutmeg, a pinch
 
 ## Instructions
 

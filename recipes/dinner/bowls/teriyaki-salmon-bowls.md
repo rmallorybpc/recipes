@@ -14,19 +14,18 @@ summary: "Glazed teriyaki salmon over steamed rice with cucumber, edamame, avoca
 ## Ingredients
 
 - 4 salmon fillets (6 oz each)
-- 3 tablespoons soy sauce
-- 2 tablespoons honey
-- 1 tablespoon rice vinegar
-- 1 teaspoon sesame oil
-- 1 teaspoon fresh ginger, grated
-- 2 cloves garlic, minced
-- 2 cups rice, cooked
+- 2 cups jasmine rice, cooked
+- 1 cup edamame, shelled
 - 1 cucumber, sliced
-- 1 cup edamame, shelled and cooked
 - 1 avocado, sliced
 - 2 scallions, sliced
+- 1/4 cup soy sauce
+- 2 tablespoons honey
+- 1 tablespoon sesame oil
+- 1 tablespoon rice vinegar
+- 1 teaspoon fresh ginger, grated
+- 2 cloves garlic, minced
 - sesame seeds for garnish
-- sriracha mayo for drizzling
 
 ## Instructions
 

@@ -18,15 +18,15 @@ summary: "Eggs poached in a spiced tomato and pepper sauce. A Middle Eastern cla
 - 1 large onion, diced
 - 1 red bell pepper, diced
 - 4 cloves garlic, minced
-- 1 jalapeno, seeded and minced
-- 2 teaspoons cumin
+- 1 teaspoon cumin
 - 1 teaspoon smoked paprika
-- 1/2 teaspoon cayenne pepper
+- 1/2 teaspoon chili powder
+- 1/4 teaspoon cayenne pepper
 - 2 tablespoons olive oil
 - salt and pepper to taste
 - fresh parsley or cilantro for garnish
-- feta cheese for topping (optional)
-- crusty bread for serving
+- 1/4 cup feta cheese, crumbled (optional)
+- crusty bread or pita for serving
 
 ## Instructions
 

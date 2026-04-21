@@ -13,22 +13,22 @@ summary: "A warming coconut milk vegetable curry with chickpeas, sweet potato, s
 
 ## Ingredients
 
-- 1 can chickpeas, drained and rinsed
-- 1 large sweet potato, diced
-- 2 cups baby spinach
-- 1 can coconut milk (14 oz)
-- 1 can diced tomatoes (14 oz)
+- 2 cans chickpeas (15 oz each), drained
+- 1 can coconut milk (13.5 oz)
+- 1 can crushed tomatoes (14 oz)
 - 1 large onion, diced
 - 4 cloves garlic, minced
 - 1 tablespoon fresh ginger, grated
+- 2 cups spinach or kale
+- 1 large sweet potato, cubed
 - 2 tablespoons curry powder
 - 1 teaspoon cumin
 - 1 teaspoon turmeric
 - 1/2 teaspoon cayenne pepper
 - 2 tablespoons vegetable oil
 - salt to taste
-- basmati rice and naan for serving
 - fresh cilantro for garnish
+- basmati rice or naan for serving
 
 ## Instructions
 

@@ -13,17 +13,19 @@ summary: "Thinly sliced beef marinated in soy, pear, sesame, and garlic, quickly
 
 ## Ingredients
 
-- 1.5 lbs beef sirloin or ribeye, thinly sliced
-- 1/4 cup soy sauce
-- 2 tablespoons sesame oil
-- 2 tablespoons brown sugar
-- 1 Asian pear, grated
+- 1.5 lbs ground beef or thinly sliced sirloin
+- 2 cups jasmine rice, cooked
 - 4 cloves garlic, minced
 - 1 tablespoon fresh ginger, grated
+- 1/4 cup soy sauce
+- 2 tablespoons brown sugar
+- 1 tablespoon sesame oil
+- 1 tablespoon rice wine or mirin
+- 1/2 teaspoon red pepper flakes
 - 3 scallions, sliced
 - 1 tablespoon vegetable oil
-- 2 cups cooked rice
-- cucumber slices, kimchi, and sesame seeds for serving
+- sesame seeds for garnish
+- cucumber slices and shredded carrots for serving
 
 ## Instructions
 

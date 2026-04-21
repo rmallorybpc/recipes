@@ -13,14 +13,16 @@ summary: "Chicken breasts stuffed with fresh mozzarella and tomato, seared and f
 
 ## Ingredients
 
-- 4 chicken breasts
-- 4 oz fresh mozzarella, sliced
-- 2 tomatoes, sliced
+- 4 boneless skinless chicken breasts
+- 4 oz fresh mozzarella cheese, sliced
+- 2 medium tomatoes, sliced
 - 1/4 cup fresh basil leaves
-- 3 tablespoons olive oil
-- 2 cloves garlic, minced
-- balsamic glaze for serving
+- 2 tablespoons balsamic glaze
+- 2 tablespoons olive oil
+- 1 teaspoon garlic powder
+- 1 teaspoon Italian seasoning
 - salt and pepper to taste
+- toothpicks for securing
 
 ## Instructions
 

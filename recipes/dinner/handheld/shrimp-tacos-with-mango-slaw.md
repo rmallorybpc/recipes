@@ -14,20 +14,20 @@ summary: "Chili-lime shrimp in warm tortillas topped with a bright mango and cab
 ## Ingredients
 
 - 1 lb large shrimp, peeled and deveined
-- 1 teaspoon chili powder
-- 1/2 teaspoon cumin
-- 1/2 teaspoon garlic powder
-- juice of 1 lime
-- 1 tablespoon olive oil
 - 8 small corn or flour tortillas
 - 2 cups shredded cabbage
 - 1 mango, diced
-- 1/4 red onion, thinly sliced
-- 1/4 cup fresh cilantro
-- 2 tablespoons lime juice
-- 1 tablespoon honey
-- salt to taste
-- avocado and sour cream for serving
+- 1/2 red onion, finely diced
+- 1 jalapeno, minced
+- 1/4 cup fresh cilantro, chopped
+- 3 tablespoons lime juice
+- 2 tablespoons mayonnaise
+- 1 teaspoon cumin
+- 1 teaspoon chili powder
+- 1 teaspoon smoked paprika
+- 2 tablespoons olive oil
+- salt and pepper to taste
+- avocado slices for serving
 
 ## Instructions
 

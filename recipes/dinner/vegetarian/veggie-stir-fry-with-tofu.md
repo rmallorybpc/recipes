@@ -16,14 +16,16 @@ summary: "Crispy baked tofu and colorful vegetables in a savory ginger-garlic sa
 - 14 oz extra-firm tofu, pressed and cubed
 - 2 cups broccoli florets
 - 1 red bell pepper, sliced
+- 1 yellow bell pepper, sliced
 - 1 cup snap peas
-- 2 carrots, sliced thin
-- 4 cloves garlic, minced
+- 2 carrots, thinly sliced
+- 3 cloves garlic, minced
 - 1 tablespoon fresh ginger, grated
 - 3 tablespoons soy sauce
-- 1 tablespoon hoisin sauce
+- 1 tablespoon oyster sauce or hoisin sauce
 - 1 tablespoon sesame oil
-- 1 teaspoon cornstarch
+- 1 tablespoon cornstarch
+- 1/4 cup water
 - 2 tablespoons vegetable oil
 - cooked rice for serving
 - sesame seeds for garnish

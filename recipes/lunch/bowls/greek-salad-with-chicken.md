@@ -13,17 +13,18 @@ summary: "Chopped romaine with cucumber, tomato, red onion, olives, and feta top
 
 ## Ingredients
 
-- 2 chicken breasts, grilled and sliced
+- 2 grilled chicken breasts, sliced
 - 1 head romaine lettuce, chopped
 - 1 cucumber, diced
-- 2 tomatoes, diced
+- 2 cups cherry tomatoes, halved
 - 1/2 red onion, thinly sliced
-- 1/2 cup kalamata olives
-- 1/2 cup feta cheese, crumbled
+- 1/2 cup kalamata olives, pitted
+- 4 oz feta cheese, crumbled
 - 3 tablespoons olive oil
 - 2 tablespoons red wine vinegar
 - 1 teaspoon dried oregano
 - salt and pepper to taste
+- pita bread for serving
 
 ## Instructions
 

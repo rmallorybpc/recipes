@@ -13,18 +13,19 @@ summary: "Corn tortillas filled with seasoned black beans, roasted corn, and che
 
 ## Ingredients
 
-- 2 cans black beans, drained and rinsed
-- 1 1/2 cups frozen corn, thawed
-- 1 can red enchilada sauce (28 oz)
+- 2 cans black beans (15 oz each), drained and rinsed
+- 10 flour or corn tortillas
+- 2 cans red enchilada sauce (10 oz each)
 - 2 cups shredded Mexican cheese blend
-- 1 small onion, diced
+- 1 large onion, diced
+- 1 can diced green chiles (4 oz)
 - 3 cloves garlic, minced
+- 1 cup frozen corn
 - 1 teaspoon cumin
 - 1 teaspoon chili powder
-- 10 small corn tortillas
 - 2 tablespoons olive oil
 - salt and pepper to taste
-- sour cream, avocado, and cilantro for serving
+- sour cream and cilantro for serving
 
 ## Instructions
 

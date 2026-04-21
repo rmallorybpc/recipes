@@ -13,12 +13,13 @@ summary: "Italian sausages with sauteed bell peppers and onions in a savory toma
 
 ## Ingredients
 
-- 4 Italian sausages (sweet or hot)
+- 1.5 lbs Italian sausage links (sweet or hot)
 - 3 bell peppers (red, yellow, green), sliced
 - 1 large onion, sliced
 - 4 cloves garlic, minced
-- 1 can diced tomatoes (14 oz)
+- 1 can crushed tomatoes (14 oz)
 - 1 teaspoon dried oregano
+- 1 teaspoon dried basil
 - 1/2 teaspoon red pepper flakes
 - 2 tablespoons olive oil
 - salt and pepper to taste

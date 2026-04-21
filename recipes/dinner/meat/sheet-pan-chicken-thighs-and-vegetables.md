@@ -13,15 +13,18 @@ summary: "Bone-in chicken thighs and seasonal vegetables roasted on a single she
 
 ## Ingredients
 
-- 6 bone-in chicken thighs, skin-on
+- 2 lbs bone-in skin-on chicken thighs
 - 2 cups broccoli florets
-- 2 cups cherry tomatoes
+- 1 large sweet potato, cubed
+- 1 red bell pepper, sliced
 - 1 zucchini, sliced
-- 1 red onion, cut into wedges
-- 4 tablespoons olive oil
+- 1 large onion, cut into wedges
 - 4 cloves garlic, minced
-- 1 teaspoon dried oregano
+- 3 tablespoons olive oil
 - 1 teaspoon smoked paprika
+- 1 teaspoon garlic powder
+- 1 teaspoon dried thyme
+- 1 teaspoon Italian seasoning
 - salt and pepper to taste
 - lemon wedges for serving
 

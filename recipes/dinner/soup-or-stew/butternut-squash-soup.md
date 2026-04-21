@@ -14,16 +14,18 @@ summary: "Silky roasted butternut squash soup with apple, ginger, and a swirl of
 ## Ingredients
 
 - 1 large butternut squash (about 3 lbs), peeled and cubed
-- 1 apple, peeled and diced
 - 1 large onion, diced
 - 3 cloves garlic, minced
-- 1 tablespoon fresh ginger, grated
-- 4 cups vegetable broth
+- 4 cups chicken or vegetable broth
 - 1/2 cup heavy cream or coconut milk
-- 2 tablespoons olive oil
+- 2 tablespoons butter
+- 1 tablespoon olive oil
+- 1 teaspoon cumin
 - 1/2 teaspoon nutmeg
+- 1/2 teaspoon cinnamon
+- 1/4 teaspoon cayenne pepper
 - salt and pepper to taste
-- pumpkin seeds and cream for garnish
+- toasted pumpkin seeds and cream for garnish
 
 ## Instructions
 

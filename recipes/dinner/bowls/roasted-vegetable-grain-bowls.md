@@ -13,21 +13,19 @@ summary: "Roasted seasonal vegetables over farro or quinoa with hummus, pickled 
 
 ## Ingredients
 
-- 2 cups farro or quinoa
-- 2 zucchini, sliced
-- 1 red bell pepper, diced
-- 1 eggplant, cubed
-- 1 red onion, sliced into wedges
+- 2 cups farro, quinoa, or brown rice, cooked
+- 2 cups broccoli florets
+- 1 large sweet potato, cubed
+- 1 red bell pepper, sliced
+- 1 zucchini, sliced
+- 1 cup cherry tomatoes
 - 3 tablespoons olive oil
+- 2 tablespoons tahini
+- 1 tablespoon lemon juice
+- 1 clove garlic, minced
 - 1 teaspoon cumin
-- 1 teaspoon smoked paprika
 - salt and pepper to taste
-- 1 cup hummus
-- 1/2 cup cherry tomatoes, halved
-- 1/4 cup fresh parsley
-- juice of 1 lemon
-- 2 tablespoons olive oil for dressing
-- feta cheese for topping (optional)
+- fresh parsley and feta cheese for garnish
 
 ## Instructions
 

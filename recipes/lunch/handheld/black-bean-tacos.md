@@ -13,17 +13,17 @@ summary: "Crispy black bean tacos with shredded cabbage slaw, avocado, and a squ
 
 ## Ingredients
 
-- 2 cans black beans, drained and rinsed
+- 2 cans black beans (15 oz each), drained and rinsed
+- 8 small corn or flour tortillas
+- 1 cup frozen corn, thawed
+- 1 large onion, diced
+- 3 cloves garlic, minced
 - 1 teaspoon cumin
 - 1 teaspoon chili powder
-- 1/2 teaspoon garlic powder
-- salt to taste
-- 8 small corn or flour tortillas
-- 2 cups shredded cabbage
-- 1 avocado, sliced
-- 1/2 cup salsa
-- juice of 1 lime
-- fresh cilantro for garnish
+- 1/2 teaspoon smoked paprika
+- 2 tablespoons olive oil
+- salt and pepper to taste
+- shredded cheese, sour cream, salsa, avocado, and cilantro for serving
 
 ## Instructions
 

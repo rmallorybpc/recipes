@@ -13,20 +13,22 @@ summary: "Chicken in a rich buttery tomato cream sauce. A milder and sweeter cou
 
 ## Ingredients
 
-- 2 lbs chicken thighs, cut into chunks
-- 4 tablespoons butter, divided
-- 1 large onion, diced
-- 5 cloves garlic, minced
-- 1 tablespoon fresh ginger, grated
-- 1 can tomato puree (14 oz)
+- 2 lbs boneless skinless chicken thighs, cubed
+- 1 can crushed tomatoes (28 oz)
 - 1 cup heavy cream
-- 2 teaspoons garam masala
-- 1 teaspoon cumin
+- 1 large onion, diced
+- 4 cloves garlic, minced
+- 1 tablespoon fresh ginger, grated
+- 4 tablespoons butter
+- 2 tablespoons garam masala
+- 1 tablespoon cumin
+- 1 tablespoon paprika
 - 1 teaspoon turmeric
-- 1 teaspoon paprika
-- 1 tablespoon sugar
+- 1 teaspoon coriander
+- 1/2 teaspoon cayenne pepper
 - salt to taste
-- basmati rice, naan, and fresh cilantro for serving
+- fresh cilantro for garnish
+- basmati rice and naan for serving
 
 ## Instructions
 

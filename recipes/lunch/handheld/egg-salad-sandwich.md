@@ -13,15 +13,15 @@ summary: "Creamy egg salad with Dijon, celery, and chives on toasted bread. A cl
 
 ## Ingredients
 
-- 6 large eggs
+- 8 hard-boiled eggs, peeled and chopped
 - 3 tablespoons mayonnaise
 - 1 tablespoon Dijon mustard
 - 2 stalks celery, finely diced
-- 2 tablespoons fresh chives, minced
+- 2 tablespoons fresh chives or dill, chopped
 - 1 tablespoon lemon juice
 - salt and pepper to taste
-- 4 slices bread, toasted
-- lettuce and sliced tomato for serving
+- 8 slices bread or 4 croissants
+- lettuce and tomato for serving
 
 ## Instructions
 

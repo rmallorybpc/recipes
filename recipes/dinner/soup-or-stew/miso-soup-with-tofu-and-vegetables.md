@@ -13,14 +13,15 @@ summary: "A warming miso soup with silken tofu, wakame seaweed, mushrooms, and s
 
 ## Ingredients
 
-- 4 cups dashi broth (or water with 1 teaspoon dashi powder)
-- 3 tablespoons white miso paste
-- 8 oz silken tofu, cubed
-- 1 cup shiitake mushrooms, sliced
-- 2 tablespoons dried wakame seaweed, soaked in water
-- 3 scallions, thinly sliced
-- 1 tablespoon soy sauce
-- steamed rice for serving
+- 4 cups dashi or vegetable broth
+- 3 tablespoons white or red miso paste
+- 8 oz firm tofu, cubed
+- 2 cups baby spinach or bok choy
+- 4 scallions, sliced
+- 1 cup mushrooms, sliced
+- 2 tablespoons dried wakame seaweed (optional)
+- 1 teaspoon sesame oil
+- soy sauce to taste
 
 ## Instructions
 

@@ -13,21 +13,21 @@ summary: "Yellow lentils simmered with tomato, ginger, and turmeric finished wit
 
 ## Ingredients
 
-- 1 1/2 cups yellow split lentils, rinsed
-- 1 large tomato, diced
+- 1.5 cups red or yellow lentils, rinsed
+- 4 cups water or vegetable broth
 - 1 large onion, diced
+- 3 tomatoes, diced
 - 4 cloves garlic, minced
 - 1 tablespoon fresh ginger, grated
+- 1 teaspoon cumin seeds
 - 1 teaspoon turmeric
-- 1 teaspoon cumin
-- 4 cups water or vegetable broth
+- 1 teaspoon garam masala
+- 1/2 teaspoon coriander
+- 1/2 teaspoon red chili powder
+- 2 tablespoons ghee or butter
+- 2 tablespoons vegetable oil
 - salt to taste
-- 2 tablespoons ghee or butter for tadka
-- 1 teaspoon cumin seeds for tadka
-- 4 cloves garlic sliced for tadka
-- 2 dried red chilies for tadka
-- 1/2 teaspoon garam masala for tadka
-- fresh cilantro and lemon juice for serving
+- fresh cilantro for garnish
 - basmati rice or naan for serving
 
 ## Instructions

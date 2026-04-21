@@ -13,13 +13,13 @@ summary: "Fresh mozzarella, ripe tomatoes, and basil drizzled with olive oil and
 
 ## Ingredients
 
-- 3 large ripe tomatoes, sliced
+- 4 oz prosciutto, thinly sliced
 - 8 oz fresh mozzarella, sliced
-- 1/4 cup fresh basil leaves
-- 4 oz prosciutto, thin sliced
-- 3 tablespoons good olive oil
+- 3 large ripe tomatoes, sliced
+- 1/2 cup fresh basil leaves
+- 3 tablespoons extra virgin olive oil
 - 2 tablespoons balsamic glaze
-- flaky sea salt and black pepper
+- flaky sea salt and black pepper to taste
 
 ## Instructions
 

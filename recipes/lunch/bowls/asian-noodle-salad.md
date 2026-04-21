@@ -13,20 +13,22 @@ summary: "Cold rice noodles with shredded cabbage, carrots, cucumber, and scalli
 
 ## Ingredients
 
-- 8 oz rice noodles
+- 8 oz rice noodles or soba noodles
 - 2 cups shredded purple cabbage
-- 2 carrots, julienned or grated
-- 1 cucumber, thinly sliced
-- 4 scallions, sliced
-- 1/4 cup fresh cilantro
-- 1/4 cup roasted peanuts, roughly chopped
+- 1 cup shredded carrots
+- 1 cucumber, julienned
+- 1 red bell pepper, thinly sliced
+- 3 scallions, sliced
+- 1/4 cup fresh cilantro, chopped
+- 1/4 cup roasted peanuts
 - 3 tablespoons soy sauce
-- 2 tablespoons sesame oil
-- 1 tablespoon rice vinegar
+- 2 tablespoons rice vinegar
+- 1 tablespoon sesame oil
 - 1 tablespoon honey
-- 1 teaspoon fresh ginger, grated
-- 1 clove garlic, minced
-- juice of 1 lime
+- 1 tablespoon fresh ginger, grated
+- 2 cloves garlic, minced
+- 1 teaspoon sriracha
+- lime wedges for serving
 
 ## Instructions
 

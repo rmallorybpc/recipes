@@ -13,16 +13,18 @@ summary: "Day-old rice stir-fried with eggs, soy sauce, and whatever vegetables 
 
 ## Ingredients
 
-- 3 cups cooked rice, day-old
-- 4 eggs, beaten
-- 1 cup frozen peas
-- 2 carrots, diced small
-- 4 cloves garlic, minced
+- 3 cups cooked white rice, day-old preferred
+- 3 eggs, beaten
+- 1 cup frozen peas and carrots, thawed
+- 1 cup corn kernels
+- 3 scallions, sliced
+- 3 cloves garlic, minced
+- 1 tablespoon fresh ginger, grated
 - 3 tablespoons soy sauce
 - 1 tablespoon sesame oil
 - 2 tablespoons vegetable oil
-- 3 scallions, sliced
 - salt and pepper to taste
+- sesame seeds for garnish
 
 ## Instructions
 

@@ -13,19 +13,18 @@ summary: "Tender chicken and vegetables in a fragrant coconut milk green curry s
 
 ## Ingredients
 
-- 1.5 lbs chicken thighs, cut into chunks
-- 2 cans coconut milk (14 oz each)
+- 1.5 lbs boneless skinless chicken thighs or tofu, cubed
+- 2 cans coconut milk (13.5 oz each)
 - 3 tablespoons green curry paste
-- 1 zucchini, sliced
-- 1 cup snap peas
-- 1 red bell pepper, sliced
-- 4 cloves garlic, minced
+- 2 cups vegetables (zucchini, bell peppers, snap peas)
+- 1 large onion, sliced
+- 3 cloves garlic, minced
 - 1 tablespoon fresh ginger, grated
-- 2 tablespoons fish sauce
+- 1 tablespoon fish sauce or soy sauce
 - 1 tablespoon brown sugar
+- 1 tablespoon vegetable oil
 - juice of 1 lime
-- 1 cup Thai basil leaves
-- 2 tablespoons vegetable oil
+- fresh basil and cilantro for garnish
 - jasmine rice for serving
 
 ## Instructions

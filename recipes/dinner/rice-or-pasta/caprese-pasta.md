@@ -13,15 +13,16 @@ summary: "Hot pasta tossed with fresh mozzarella, cherry tomatoes, torn basil, a
 
 ## Ingredients
 
-- 12 oz pasta (penne or rigatoni)
+- 1 lb pasta (penne or fusilli)
 - 2 cups cherry tomatoes, halved
-- 8 oz fresh mozzarella, torn into pieces
-- 1/2 cup fresh basil, roughly torn
-- 3 tablespoons good olive oil
-- 2 cloves garlic, minced
+- 8 oz fresh mozzarella, cubed
+- 1/2 cup fresh basil leaves, torn
+- 3 cloves garlic, minced
+- 3 tablespoons olive oil
+- 2 tablespoons balsamic vinegar
+- 1/4 cup grated Parmesan cheese
 - 1/4 teaspoon red pepper flakes
 - salt and pepper to taste
-- balsamic glaze for drizzling
 
 ## Instructions
 

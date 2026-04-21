@@ -13,21 +13,21 @@ summary: "Creamy spiced spinach with cubes of paneer cheese. A classic Indian ve
 
 ## Ingredients
 
-- 14 oz paneer, cubed
-- 1 lb fresh spinach (or 10 oz frozen, thawed and squeezed dry)
+- 1 lb fresh spinach or frozen spinach, thawed
+- 8 oz paneer cheese, cubed
 - 1 large onion, diced
+- 3 tomatoes, diced
 - 4 cloves garlic, minced
 - 1 tablespoon fresh ginger, grated
-- 1 can diced tomatoes (14 oz)
-- 1/2 cup heavy cream or coconut milk
-- 2 tablespoons butter
+- 1/2 cup heavy cream or yogurt
+- 2 tablespoons butter or ghee
 - 1 teaspoon cumin seeds
 - 1 teaspoon garam masala
 - 1 teaspoon coriander
 - 1/2 teaspoon turmeric
-- 1/4 teaspoon cayenne
+- 1/2 teaspoon chili powder
 - salt to taste
-- basmati rice and naan for serving
+- basmati rice or naan for serving
 
 ## Instructions
 

@@ -13,11 +13,12 @@ summary: "The classic BLT - crispy bacon, fresh tomato, and crisp lettuce on toa
 
 ## Ingredients
 
-- 8 strips bacon
-- 4 slices bread, toasted
-- 2 tomatoes, sliced thick
+- 8 slices thick-cut bacon
+- 8 slices bread (sourdough or white sandwich bread)
+- 2 large ripe tomatoes, sliced
 - 4 leaves romaine or iceberg lettuce
-- 3 tablespoons mayonnaise
+- 4 tablespoons mayonnaise
+- 1 tablespoon Dijon mustard (optional)
 - salt and pepper to taste
 
 ## Instructions

@@ -13,15 +13,16 @@ summary: "Scrambled eggs with sausage, peppers, and cheese wrapped in a warm flo
 
 ## Ingredients
 
-- 6 large eggs
-- 4 breakfast sausage links or 1/2 lb ground breakfast sausage
-- 1/2 green bell pepper, diced
-- 1/2 onion, diced
-- 1 cup shredded cheddar cheese
 - 4 large flour tortillas
+- 6 eggs, beaten
+- 1/2 lb breakfast sausage or bacon, cooked and crumbled
+- 1 cup shredded cheddar cheese
+- 1/2 cup diced bell peppers
+- 1/2 cup diced onion
+- 1/2 cup frozen hash browns or diced potatoes, cooked
 - 2 tablespoons butter
 - salt and pepper to taste
-- salsa and hot sauce for serving
+- salsa and sour cream for serving
 
 ## Instructions
 

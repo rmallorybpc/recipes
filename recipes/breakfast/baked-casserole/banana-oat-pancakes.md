@@ -14,14 +14,14 @@ summary: "Fluffy pancakes made with mashed banana and oats. Naturally sweetened 
 ## Ingredients
 
 - 2 ripe bananas, mashed
-- 1 1/2 cups rolled oats
+- 1 cup rolled oats
 - 2 eggs
-- 1/2 cup milk
+- 1/4 cup milk
 - 1 teaspoon vanilla extract
 - 1 teaspoon baking powder
 - 1/2 teaspoon cinnamon
-- pinch of salt
-- butter for cooking
+- 1/4 teaspoon salt
+- butter or coconut oil for cooking
 - maple syrup and fresh fruit for serving
 
 ## Instructions

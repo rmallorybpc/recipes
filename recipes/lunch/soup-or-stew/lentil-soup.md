@@ -13,20 +13,22 @@ summary: "Hearty red lentil soup with carrots, celery, cumin, and lemon. A satis
 
 ## Ingredients
 
-- 1 1/2 cups red lentils, rinsed
+- 2 cups green or brown lentils, rinsed
+- 6 cups chicken or vegetable broth
 - 1 large onion, diced
-- 3 cloves garlic, minced
-- 2 carrots, diced
-- 2 stalks celery, diced
+- 3 carrots, diced
+- 3 stalks celery, diced
+- 4 cloves garlic, minced
 - 1 can diced tomatoes (14 oz)
-- 6 cups vegetable broth
 - 2 teaspoons cumin
 - 1 teaspoon turmeric
-- 1/2 teaspoon smoked paprika
-- juice of 1 lemon
+- 1 teaspoon smoked paprika
+- 1/2 teaspoon coriander
 - 2 tablespoons olive oil
+- juice of 1 lemon
 - salt and pepper to taste
 - fresh parsley for garnish
+- crusty bread for serving
 
 ## Instructions
 

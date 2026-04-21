@@ -13,21 +13,23 @@ summary: "Tender marinated chicken in a rich and creamy tomato-based curry sauce
 
 ## Ingredients
 
-- 2 lbs chicken thighs, cut into chunks
-- 1 cup plain yogurt
-- 2 teaspoons garam masala
-- 1 teaspoon turmeric
-- 1 teaspoon cumin
-- 1 teaspoon paprika
-- 1 large onion, diced
-- 5 cloves garlic, minced
-- 1 tablespoon fresh ginger, grated
+- 2 lbs boneless skinless chicken breasts, cubed
 - 1 can crushed tomatoes (28 oz)
-- 1 cup heavy cream
+- 1 cup heavy cream or coconut milk
+- 1 large onion, diced
+- 4 cloves garlic, minced
+- 1 tablespoon fresh ginger, grated
 - 2 tablespoons butter
-- 2 tablespoons vegetable oil
+- 2 tablespoons garam masala
+- 1 tablespoon cumin
+- 1 tablespoon paprika
+- 1 teaspoon turmeric
+- 1 teaspoon coriander
+- 1/2 teaspoon cayenne pepper
 - salt to taste
-- fresh cilantro, basmati rice, and naan for serving
+- fresh cilantro for garnish
+- basmati rice for serving
+- naan bread for serving
 
 ## Instructions
 

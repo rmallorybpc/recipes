@@ -13,17 +13,18 @@ summary: "Classic shrimp fried rice with egg, peas, carrots, and soy sauce. Best
 
 ## Ingredients
 
+- 3 cups cooked white rice, day-old preferred
 - 1 lb medium shrimp, peeled and deveined
-- 3 cups cooked rice, preferably day-old
-- 3 eggs, beaten
-- 1 cup frozen peas and carrots
-- 4 cloves garlic, minced
-- 3 tablespoons soy sauce
-- 1 tablespoon oyster sauce
-- 1 teaspoon sesame oil
+- 2 eggs, beaten
+- 1 cup frozen peas
+- 2 carrots, diced
 - 3 scallions, sliced
+- 3 cloves garlic, minced
+- 3 tablespoons soy sauce
+- 1 tablespoon sesame oil
 - 2 tablespoons vegetable oil
 - salt and pepper to taste
+- sesame seeds for garnish
 
 ## Instructions
 

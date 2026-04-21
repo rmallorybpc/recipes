@@ -15,11 +15,14 @@ summary: "Sheet pan salmon and asparagus roasted together with lemon, garlic, an
 
 - 4 salmon fillets (6 oz each)
 - 1 lb asparagus, trimmed
-- 3 tablespoons olive oil
-- 4 cloves garlic, minced
+- 3 cloves garlic, minced
+- 2 tablespoons Dijon mustard
+- 2 tablespoons honey
+- 2 tablespoons soy sauce
+- 2 tablespoons olive oil
 - juice of 1 lemon
-- zest of 1 lemon
-- 1 teaspoon dried thyme or dill
+- 1 teaspoon smoked paprika
+- 1 teaspoon dried thyme
 - salt and pepper to taste
 - lemon slices for serving
 

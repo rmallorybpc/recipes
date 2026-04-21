@@ -13,21 +13,21 @@ summary: "Potatoes and cauliflower spiced with cumin, turmeric, and garam masala
 
 ## Ingredients
 
-- 2 large potatoes, peeled and diced
-- 1 head cauliflower, cut into florets
+- 3 medium potatoes, cubed
+- 1 medium head cauliflower, cut into florets
 - 1 large onion, diced
+- 3 tomatoes, diced
 - 4 cloves garlic, minced
 - 1 tablespoon fresh ginger, grated
-- 1 can diced tomatoes (14 oz)
-- 2 teaspoons cumin seeds
+- 1 teaspoon cumin seeds
 - 1 teaspoon turmeric
-- 1 teaspoon garam masala
 - 1 teaspoon coriander
-- 1/2 teaspoon cayenne
+- 1 teaspoon garam masala
+- 1/2 teaspoon chili powder
 - 3 tablespoons vegetable oil
 - salt to taste
 - fresh cilantro for garnish
-- basmati rice or naan for serving
+- naan or rice for serving
 
 ## Instructions
 
