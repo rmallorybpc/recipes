@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-21T17:17:33.673Z",
+  "generated_at": "2026-04-21T20:24:38.120Z",
   "stats": {
     "total_recipes": 98,
     "with_existing_source": 98,
     "resolved_from_search": 0,
-    "scraped_ingredients": 11,
-    "heuristic_only": 87
+    "scraped_ingredients": 10,
+    "heuristic_only": 88
   },
   "recipes": [
     {
@@ -1375,33 +1375,17 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/",
       "source_origin": "existing_source",
       "ingredients": [
-        "6 cups chicken broth, or as needed",
-        "3 tablespoons olive oil, divided",
-        "1 pound portobello mushrooms, thinly sliced",
-        "1 pound white mushrooms, thinly sliced",
-        "2 medium shallots, diced",
-        "1.5 cups Arborio rice",
-        "0.5 cup dry white wine",
-        "0.33333334326744 cup freshly grated Parmesan cheese",
-        "4 tablespoons butter",
-        "3 tablespoons finely chopped chives",
-        "sea salt and freshly ground black pepper to taste"
+        "salt",
+        "pepper",
+        "olive oil"
       ],
       "ingredients_normalized": [
-        "chicken broth or as needed",
-        "olive oil",
-        "portobello mushrooms thinly",
-        "white mushrooms thinly",
-        "medium shallots",
-        "arborio rice",
-        "dry white wine",
-        "freshly grated parmesan cheese",
-        "butter",
-        "finely chives",
-        "sea salt and freshly ground black pepper"
+        "salt",
+        "pepper",
+        "olive oil"
       ],
-      "ingredient_source": "source_scrape",
-      "confidence": 0.95
+      "ingredient_source": "title_heuristic",
+      "confidence": 0.45
     },
     {
       "title": "Suggested - One-pot chicken and rice",

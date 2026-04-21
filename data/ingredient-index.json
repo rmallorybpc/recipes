@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-21T17:17:33.679Z",
-  "total_ingredients": 140,
+  "generated_at": "2026-04-21T20:24:38.122Z",
+  "total_ingredients": 131,
   "entries": [
     {
       "ingredient": "- g dried egg noodles per person",
@@ -31,12 +31,6 @@
       "ingredient": "applesauce",
       "recipe_ids": [
         "breakfast-baked-casserole-pineapple-zucchini-muffin"
-      ]
-    },
-    {
-      "ingredient": "arborio rice",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -123,7 +117,6 @@
         "breakfast-baked-casserole-big-daddy-biscuits",
         "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
         "dinner-rice-or-pasta-hamburger-stroganoff",
-        "dinner-rice-or-pasta-suggested-mushroom-risotto",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot"
       ]
@@ -214,12 +207,6 @@
       "ingredient": "chicken broth",
       "recipe_ids": [
         "dinner-soup-or-stew-wonton-soup"
-      ]
-    },
-    {
-      "ingredient": "chicken broth or as needed",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -330,21 +317,9 @@
       ]
     },
     {
-      "ingredient": "dry white wine",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-mushroom-risotto"
-      ]
-    },
-    {
       "ingredient": "eggs",
       "recipe_ids": [
         "breakfast-baked-casserole-pineapple-zucchini-muffin"
-      ]
-    },
-    {
-      "ingredient": "finely chives",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -366,12 +341,6 @@
       "recipe_ids": [
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot"
-      ]
-    },
-    {
-      "ingredient": "freshly grated parmesan cheese",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -554,12 +523,6 @@
       ]
     },
     {
-      "ingredient": "medium shallots",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-mushroom-risotto"
-      ]
-    },
-    {
       "ingredient": "mushroom",
       "recipe_ids": [
         "dinner-meat-round-steak-stroganoff"
@@ -711,6 +674,7 @@
         "dinner-rice-or-pasta-hamburger-stroganoff",
         "dinner-rice-or-pasta-suggested-caprese-pasta",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
+        "dinner-rice-or-pasta-suggested-mushroom-risotto",
         "dinner-seafood-suggested-mediterranean-baked-cod",
         "dinner-soup-or-stew-suggested-clam-chowder",
         "dinner-soup-or-stew-suggested-dal-tadka",
@@ -734,12 +698,6 @@
         "dinner-meat-bbq-in-crockpot",
         "dinner-meat-braised-short-ribs",
         "dinner-meat-pork-chops"
-      ]
-    },
-    {
-      "ingredient": "portobello mushrooms thinly",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -811,6 +769,7 @@
         "dinner-rice-or-pasta-hamburger-stroganoff",
         "dinner-rice-or-pasta-suggested-caprese-pasta",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
+        "dinner-rice-or-pasta-suggested-mushroom-risotto",
         "dinner-seafood-suggested-mediterranean-baked-cod",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
@@ -835,12 +794,6 @@
       "ingredient": "sambal oelek",
       "recipe_ids": [
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
-      ]
-    },
-    {
-      "ingredient": "sea salt and freshly ground black pepper",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -1039,12 +992,6 @@
       "recipe_ids": [
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
         "dinner-vegetarian-stir-fry"
-      ]
-    },
-    {
-      "ingredient": "white mushrooms thinly",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {

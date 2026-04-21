@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-21T17:17:33.683Z",
+  "generatedAt": "2026-04-21T20:24:38.128Z",
   "region": "colorado",
   "regionLabel": "Colorado",
   "totalRecipes": 98,
-  "matchedRecipes": 26,
+  "matchedRecipes": 25,
   "recipes": [
     {
       "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
@@ -697,55 +697,6 @@
         7,
         8,
         9
-      ],
-      "seasonalScore": 2
-    },
-    {
-      "title": "Suggested - Mushroom risotto",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "shallots",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "2 medium shallots, diced"
-        },
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 tablespoons finely chopped chives"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
       ],
       "seasonalScore": 2
     },
@@ -1764,6 +1715,16 @@
       "meal": "dinner",
       "style": "seafood",
       "source": "https://www.allrecipes.com/recipe/228285/mediterranean-baked-cod/",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "Suggested - Mushroom risotto",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
