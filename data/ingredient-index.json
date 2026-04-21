@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-21T17:13:57.370Z",
-  "total_ingredients": 143,
+  "generated_at": "2026-04-21T17:17:33.679Z",
+  "total_ingredients": 140,
   "entries": [
     {
       "ingredient": "- g dried egg noodles per person",
@@ -34,6 +34,12 @@
       ]
     },
     {
+      "ingredient": "arborio rice",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-mushroom-risotto"
+      ]
+    },
+    {
       "ingredient": "baking powder",
       "recipe_ids": [
         "breakfast-baked-casserole-big-daddy-biscuits",
@@ -52,12 +58,6 @@
       "recipe_ids": [
         "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
         "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach"
-      ]
-    },
-    {
-      "ingredient": "basil pesto homemade or store-bought",
-      "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
       ]
     },
     {
@@ -123,6 +123,7 @@
         "breakfast-baked-casserole-big-daddy-biscuits",
         "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
         "dinner-rice-or-pasta-hamburger-stroganoff",
+        "dinner-rice-or-pasta-suggested-mushroom-risotto",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot"
       ]
@@ -147,12 +148,6 @@
       ]
     },
     {
-      "ingredient": "can san marzano tomatoes",
-      "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
-      ]
-    },
-    {
       "ingredient": "cans chicken broth",
       "recipe_ids": [
         "dinner-soup-or-stew-chicken-tortilla-soup",
@@ -174,6 +169,7 @@
     {
       "ingredient": "cheese",
       "recipe_ids": [
+        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
         "dinner-baked-casserole-homemade-pizza",
         "dinner-baked-casserole-suggested-black-bean-enchiladas",
         "dinner-bowls-chipotle-bowls",
@@ -218,6 +214,12 @@
       "ingredient": "chicken broth",
       "recipe_ids": [
         "dinner-soup-or-stew-wonton-soup"
+      ]
+    },
+    {
+      "ingredient": "chicken broth or as needed",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -328,9 +330,21 @@
       ]
     },
     {
+      "ingredient": "dry white wine",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-mushroom-risotto"
+      ]
+    },
+    {
       "ingredient": "eggs",
       "recipe_ids": [
         "breakfast-baked-casserole-pineapple-zucchini-muffin"
+      ]
+    },
+    {
+      "ingredient": "finely chives",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -355,9 +369,9 @@
       ]
     },
     {
-      "ingredient": "fontina cheese",
+      "ingredient": "freshly grated parmesan cheese",
       "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
+        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -480,12 +494,6 @@
       ]
     },
     {
-      "ingredient": "italian chicken sausage ground spicy",
-      "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
-      ]
-    },
-    {
       "ingredient": "juice of limes",
       "recipe_ids": [
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
@@ -495,12 +503,6 @@
       "ingredient": "kosher salt",
       "recipe_ids": [
         "dinner-meat-tacos"
-      ]
-    },
-    {
-      "ingredient": "kosher salt and black pepper",
-      "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
       ]
     },
     {
@@ -552,9 +554,9 @@
       ]
     },
     {
-      "ingredient": "mozzarella",
+      "ingredient": "medium shallots",
       "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
+        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -584,6 +586,7 @@
         "breakfast-bowls-suggested-greek-yogurt-parfait",
         "breakfast-handheld-suggested-breakfast-burritos",
         "breakfast-meat-greek-pitas-with-turkey-meat",
+        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
         "breakfast-vegetarian-suggested-avocado-toast-with-egg",
         "dinner-baked-casserole-suggested-eggplant-parmesan",
         "dinner-baked-casserole-suggested-spanakopita",
@@ -616,12 +619,6 @@
       ]
     },
     {
-      "ingredient": "olive oil extra virgin",
-      "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
-      ]
-    },
-    {
       "ingredient": "onion",
       "recipe_ids": [
         "breakfast-meat-white-chicken-chili",
@@ -648,7 +645,6 @@
     {
       "ingredient": "oregano",
       "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot"
       ]
@@ -663,6 +659,7 @@
     {
       "ingredient": "parmesan",
       "recipe_ids": [
+        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
         "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach"
       ]
     },
@@ -714,7 +711,6 @@
         "dinner-rice-or-pasta-hamburger-stroganoff",
         "dinner-rice-or-pasta-suggested-caprese-pasta",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
-        "dinner-rice-or-pasta-suggested-mushroom-risotto",
         "dinner-seafood-suggested-mediterranean-baked-cod",
         "dinner-soup-or-stew-suggested-clam-chowder",
         "dinner-soup-or-stew-suggested-dal-tadka",
@@ -733,12 +729,6 @@
       ]
     },
     {
-      "ingredient": "pinch red pepper flakes",
-      "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
-      ]
-    },
-    {
       "ingredient": "pork",
       "recipe_ids": [
         "dinner-meat-bbq-in-crockpot",
@@ -747,15 +737,15 @@
       ]
     },
     {
-      "ingredient": "potato",
+      "ingredient": "portobello mushrooms thinly",
       "recipe_ids": [
-        "dinner-meat-grilled-chicken-with-potato-salad"
+        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
-      "ingredient": "red bell pepper",
+      "ingredient": "potato",
       "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
+        "dinner-meat-grilled-chicken-with-potato-salad"
       ]
     },
     {
@@ -821,7 +811,6 @@
         "dinner-rice-or-pasta-hamburger-stroganoff",
         "dinner-rice-or-pasta-suggested-caprese-pasta",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
-        "dinner-rice-or-pasta-suggested-mushroom-risotto",
         "dinner-seafood-suggested-mediterranean-baked-cod",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
@@ -846,6 +835,12 @@
       "ingredient": "sambal oelek",
       "recipe_ids": [
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
+      ]
+    },
+    {
+      "ingredient": "sea salt and freshly ground black pepper",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
@@ -985,12 +980,6 @@
       ]
     },
     {
-      "ingredient": "thyme",
-      "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
-      ]
-    },
-    {
       "ingredient": "tomato paste",
       "recipe_ids": [
         "dinner-meat-tacos",
@@ -1053,15 +1042,15 @@
       ]
     },
     {
-      "ingredient": "white sugar",
+      "ingredient": "white mushrooms thinly",
       "recipe_ids": [
-        "dinner-rice-or-pasta-spaghetti"
+        "dinner-rice-or-pasta-suggested-mushroom-risotto"
       ]
     },
     {
-      "ingredient": "whole milk ricotta cheese",
+      "ingredient": "white sugar",
       "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
+        "dinner-rice-or-pasta-spaghetti"
       ]
     },
     {
@@ -1087,14 +1076,9 @@
     {
       "ingredient": "zucchini",
       "recipe_ids": [
+        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
         "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne"
-      ]
-    },
-    {
-      "ingredient": "zucchini or yellow summer squash large",
-      "recipe_ids": [
-        "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin"
       ]
     }
   ]

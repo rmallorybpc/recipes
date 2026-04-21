@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-21T17:13:57.389Z",
+  "generatedAt": "2026-04-21T17:17:33.690Z",
   "weekOf": "2026-04-15",
   "locationId": "62000100",
   "chain": "King Soopers",
   "totalDeals": 126,
-  "dealsWithRecipes": 79,
+  "dealsWithRecipes": 78,
   "totalRecipes": 98,
   "recipesWithDeals": 90,
   "dealRecipes": [
@@ -255,12 +255,6 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007294011715",
       "matchedRecipes": [
         {
-          "title": "Spicy pesto and cheese stuffed zucchini involtin",
-          "meal": "breakfast",
-          "style": "vegetarian",
-          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
-        },
-        {
           "title": "Homemade pizza",
           "meal": "dinner",
           "style": "baked-casserole",
@@ -413,6 +407,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Tortellini with pesto and shrimp and spinach",
@@ -613,6 +613,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -681,6 +687,12 @@
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Suggested - One-pot chicken and rice",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -735,6 +747,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -811,6 +829,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -935,6 +959,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -1033,6 +1063,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -1139,6 +1175,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -1261,6 +1303,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Tortellini with pesto and shrimp and spinach",
@@ -1427,6 +1475,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -1617,6 +1671,12 @@
           "source": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Suggested - One-pot chicken and rice",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -1763,6 +1823,12 @@
           "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Cheddar broccoli soup",
           "meal": "dinner",
           "style": "soup-or-stew",
@@ -1865,6 +1931,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Cheddar broccoli soup",
@@ -2001,6 +2073,12 @@
           "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Cheddar broccoli soup",
           "meal": "dinner",
           "style": "soup-or-stew",
@@ -2097,6 +2175,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -2227,12 +2311,6 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0072534226013",
       "matchedRecipes": [
         {
-          "title": "Spicy pesto and cheese stuffed zucchini involtin",
-          "meal": "breakfast",
-          "style": "vegetarian",
-          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
-        },
-        {
           "title": "Tacos",
           "meal": "dinner",
           "style": "meat",
@@ -2308,12 +2386,6 @@
       "size": "15 oz",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111084531",
       "matchedRecipes": [
-        {
-          "title": "Spicy pesto and cheese stuffed zucchini involtin",
-          "meal": "breakfast",
-          "style": "vegetarian",
-          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
-        },
         {
           "title": "Homemade pizza",
           "meal": "dinner",
@@ -2429,6 +2501,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Tortellini with pesto and shrimp and spinach",
@@ -2565,6 +2643,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -2683,6 +2767,12 @@
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Suggested - One-pot chicken and rice",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -2703,26 +2793,6 @@
       ]
     },
     {
-      "dealTerm": "whole milk",
-      "dealName": "Simple Truth Organic® Vitamin D Whole Milk Half Gallon",
-      "brand": "Simple Truth Organic",
-      "category": "Natural & Organic",
-      "promoPrice": 3.99,
-      "regularPrice": 4.69,
-      "savings": 0.7,
-      "savingsPct": 15,
-      "size": "1/2 gal",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111042850",
-      "matchedRecipes": [
-        {
-          "title": "Spicy pesto and cheese stuffed zucchini involtin",
-          "meal": "breakfast",
-          "style": "vegetarian",
-          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
-        }
-      ]
-    },
-    {
       "dealTerm": "thyme",
       "dealName": "Litehouse™ Instantly Fresh Freeze Dried Thyme",
       "brand": "Litehouse",
@@ -2734,12 +2804,6 @@
       "size": "0.52 oz",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007766113978",
       "matchedRecipes": [
-        {
-          "title": "Spicy pesto and cheese stuffed zucchini involtin",
-          "meal": "breakfast",
-          "style": "vegetarian",
-          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
-        },
         {
           "title": "Spaghetti",
           "meal": "dinner",
@@ -2873,6 +2937,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -3023,6 +3093,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -3157,6 +3233,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -3225,6 +3307,12 @@
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Suggested - One-pot chicken and rice",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -3256,6 +3344,12 @@
       "size": "8 oz",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002100000014",
       "matchedRecipes": [
+        {
+          "title": "Spicy pesto and cheese stuffed zucchini involtin",
+          "meal": "breakfast",
+          "style": "vegetarian",
+          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
+        },
         {
           "title": "Homemade pizza",
           "meal": "dinner",
@@ -3679,12 +3773,6 @@
           "source": "https://www.pinterest.com/pin/487233253450153141/sent/?invite_code=4fe827f3cea649cf9c9996a6747132c8&sender=487233390844584842&sfo=1"
         },
         {
-          "title": "Spicy pesto and cheese stuffed zucchini involtin",
-          "meal": "breakfast",
-          "style": "vegetarian",
-          "source": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1"
-        },
-        {
           "title": "Suggested - Chicken tikka masala",
           "meal": "dinner",
           "style": "bowls",
@@ -3749,6 +3837,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -3869,6 +3963,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/16954/fried-rice/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -4383,6 +4483,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -4527,6 +4633,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Suggested - One-pot chicken and rice",
@@ -4705,6 +4817,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -4807,6 +4925,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Cheddar broccoli soup",
@@ -4943,6 +5067,12 @@
           "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Cheddar broccoli soup",
           "meal": "dinner",
           "style": "soup-or-stew",
@@ -5045,6 +5175,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.tasteofhome.com/recipes/hamburger-stroganoff/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Cheddar broccoli soup",
@@ -5223,6 +5359,12 @@
           "source": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Suggested - One-pot chicken and rice",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -5399,6 +5541,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -5531,6 +5679,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Tortellini with pesto and shrimp and spinach",
@@ -5667,6 +5821,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -5799,6 +5959,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Tortellini with pesto and shrimp and spinach",
@@ -5935,6 +6101,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -6067,6 +6239,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Tortellini with pesto and shrimp and spinach",
@@ -6203,6 +6381,12 @@
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
         },
         {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
+        },
+        {
           "title": "Tortellini with pesto and shrimp and spinach",
           "meal": "dinner",
           "style": "rice-or-pasta",
@@ -6335,6 +6519,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Tortellini with pesto and shrimp and spinach",
@@ -6495,6 +6685,12 @@
           "meal": "dinner",
           "style": "rice-or-pasta",
           "source": "https://www.recipetineats.com/spaghetti-bolognese/"
+        },
+        {
+          "title": "Suggested - Mushroom risotto",
+          "meal": "dinner",
+          "style": "rice-or-pasta",
+          "source": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/"
         },
         {
           "title": "Tortellini with pesto and shrimp and spinach",
@@ -6756,28 +6952,12 @@
       "dealCount": 16
     },
     {
-      "title": "Spicy pesto and cheese stuffed zucchini involtin",
-      "meal": "breakfast",
-      "style": "vegetarian",
+      "title": "Suggested - Mushroom risotto",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
       "onSaleIngredients": [
         {
-          "ingredient": "can san marzano tomatoes",
-          "dealName": "Red Gold® Crushed Tomatoes",
-          "promoPrice": 1,
-          "savings": 0.59,
-          "savingsPct": 37,
-          "size": "15 oz"
-        },
-        {
-          "ingredient": "zucchini or yellow summer squash large",
-          "dealName": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
-          "promoPrice": 4.5,
-          "savings": 2.29,
-          "savingsPct": 34,
-          "size": "9 ct / 9 oz"
-        },
-        {
-          "ingredient": "fontina cheese",
+          "ingredient": "freshly grated parmesan cheese",
           "dealName": "Athenos Crumbled Traditional Feta Cheese",
           "promoPrice": 3.99,
           "savings": 2,
@@ -6785,23 +6965,63 @@
           "size": "6 oz"
         },
         {
-          "ingredient": "can san marzano tomatoes",
-          "dealName": "Muir Glen Organic Whole Peeled Canned Tomatoes",
+          "ingredient": "arborio rice",
+          "dealName": "Rice-A-Roni® Long Grain & Wild Rice",
+          "promoPrice": 1,
+          "savings": 0.5,
+          "savingsPct": 33,
+          "size": "4.3 oz"
+        },
+        {
+          "ingredient": "arborio rice",
+          "dealName": "Mahatma Basmati Rice, Long Grain Rice, Uncooked Rice, 32 oz (907g)",
           "promoPrice": 3.99,
+          "savings": 1.8,
+          "savingsPct": 31,
+          "size": "2 lbr"
+        },
+        {
+          "ingredient": "arborio rice",
+          "dealName": "Minute Fragrant & Fluffy Jasmine Rice",
+          "promoPrice": 2.29,
           "savings": 1,
-          "savingsPct": 20,
-          "size": "28 oz"
+          "savingsPct": 30,
+          "size": "12 onz"
         },
         {
-          "ingredient": "can san marzano tomatoes",
-          "dealName": "Simple Truth Organic® Tomato Sauce",
-          "promoPrice": 1.25,
-          "savings": 0.25,
-          "savingsPct": 17,
-          "size": "15 oz"
+          "ingredient": "arborio rice",
+          "dealName": "Minute® Gluten-Free Instant White Rice",
+          "promoPrice": 2.29,
+          "savings": 0.9,
+          "savingsPct": 28,
+          "size": "14 oz"
         },
         {
-          "ingredient": "fontina cheese",
+          "ingredient": "chicken broth or as needed",
+          "dealName": "Swanson 33% Less Sodium Chicken Broth, 32 oz Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 fl oz"
+        },
+        {
+          "ingredient": "chicken broth or as needed",
+          "dealName": "Swanson® 100% Natural Lower Sodium Beef Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "chicken broth or as needed",
+          "dealName": "Swanson® 100% Natural Vegetable Broth Carton",
+          "promoPrice": 2.19,
+          "savings": 0.8,
+          "savingsPct": 27,
+          "size": "32 oz"
+        },
+        {
+          "ingredient": "freshly grated parmesan cheese",
           "dealName": "Kroger® Part Skim Ricotta Cheese",
           "promoPrice": 2.69,
           "savings": 0.5,
@@ -6809,23 +7029,7 @@
           "size": "15 oz"
         },
         {
-          "ingredient": "whole milk ricotta cheese",
-          "dealName": "Simple Truth Organic® Vitamin D Whole Milk Half Gallon",
-          "promoPrice": 3.99,
-          "savings": 0.7,
-          "savingsPct": 15,
-          "size": "1/2 gal"
-        },
-        {
-          "ingredient": "thyme",
-          "dealName": "Litehouse™ Instantly Fresh Freeze Dried Thyme",
-          "promoPrice": 5.99,
-          "savings": 1,
-          "savingsPct": 14,
-          "size": "0.52 oz"
-        },
-        {
-          "ingredient": "fontina cheese",
+          "ingredient": "freshly grated parmesan cheese",
           "dealName": "Kroger® Parmesan Grated Cheese",
           "promoPrice": 2.99,
           "savings": 0.4,
@@ -6833,7 +7037,7 @@
           "size": "8 oz"
         },
         {
-          "ingredient": "olive oil extra virgin",
+          "ingredient": "olive oil",
           "dealName": "Pompeian® Smooth First Cold Pressed Extra Virgin Olive Oil",
           "promoPrice": 8.99,
           "savings": 1,
@@ -6841,7 +7045,7 @@
           "size": "16 fl oz"
         },
         {
-          "ingredient": "italian chicken sausage ground spicy",
+          "ingredient": "chicken broth or as needed",
           "dealName": "Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller Pack BIG DEAL!",
           "promoPrice": 4.49,
           "savings": 0.5,
@@ -6849,7 +7053,7 @@
           "size": "1 lb"
         },
         {
-          "ingredient": "fontina cheese",
+          "ingredient": "freshly grated parmesan cheese",
           "dealName": "Kroger® Colby Jack Shredded Cheese",
           "promoPrice": 2.33,
           "savings": 0.16,
@@ -6857,7 +7061,7 @@
           "size": "8 oz"
         },
         {
-          "ingredient": "fontina cheese",
+          "ingredient": "freshly grated parmesan cheese",
           "dealName": "Kroger® Medium Cheddar Block Cheese",
           "promoPrice": 2.33,
           "savings": 0.16,
@@ -6865,23 +7069,15 @@
           "size": "8 oz"
         },
         {
-          "ingredient": "fontina cheese",
+          "ingredient": "freshly grated parmesan cheese",
           "dealName": "Kroger® Mozzarella Block Cheese",
           "promoPrice": 2.33,
           "savings": 0.16,
           "savingsPct": 6,
           "size": "8 oz"
-        },
-        {
-          "ingredient": "basil",
-          "dealName": "Gotham Greens® Fresh Basil",
-          "promoPrice": 3.79,
-          "savings": 0.2,
-          "savingsPct": 5,
-          "size": "1.25 oz"
         }
       ],
-      "totalSavings": 10.91,
+      "totalSavings": 11.48,
       "dealCount": 15
     },
     {
@@ -7351,6 +7547,95 @@
         }
       ],
       "totalSavings": 7.55,
+      "dealCount": 10
+    },
+    {
+      "title": "Spicy pesto and cheese stuffed zucchini involtin",
+      "meal": "breakfast",
+      "style": "vegetarian",
+      "onSaleIngredients": [
+        {
+          "ingredient": "zucchini",
+          "dealName": "Evergreen™ Zucchini & Carrot Frozen Mini Waffles",
+          "promoPrice": 4.5,
+          "savings": 2.29,
+          "savingsPct": 34,
+          "size": "9 ct / 9 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Athenos Crumbled Traditional Feta Cheese",
+          "promoPrice": 3.99,
+          "savings": 2,
+          "savingsPct": 33,
+          "size": "6 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Part Skim Ricotta Cheese",
+          "promoPrice": 2.69,
+          "savings": 0.5,
+          "savingsPct": 16,
+          "size": "15 oz"
+        },
+        {
+          "ingredient": "parmesan",
+          "dealName": "Kroger® Parmesan Grated Cheese",
+          "promoPrice": 2.99,
+          "savings": 0.4,
+          "savingsPct": 12,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Philadelphia Original Cream Cheese Spread",
+          "promoPrice": 3.99,
+          "savings": 0.5,
+          "savingsPct": 11,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "olive oil",
+          "dealName": "Pompeian® Smooth First Cold Pressed Extra Virgin Olive Oil",
+          "promoPrice": 8.99,
+          "savings": 1,
+          "savingsPct": 10,
+          "size": "16 fl oz"
+        },
+        {
+          "ingredient": "parmesan",
+          "dealName": "Kroger® Colby Jack Shredded Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Medium Cheddar Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "cheese",
+          "dealName": "Kroger® Mozzarella Block Cheese",
+          "promoPrice": 2.33,
+          "savings": 0.16,
+          "savingsPct": 6,
+          "size": "8 oz"
+        },
+        {
+          "ingredient": "basil",
+          "dealName": "Gotham Greens® Fresh Basil",
+          "promoPrice": 3.79,
+          "savings": 0.2,
+          "savingsPct": 5,
+          "size": "1.25 oz"
+        }
+      ],
+      "totalSavings": 7.37,
       "dealCount": 10
     },
     {
@@ -10141,23 +10426,6 @@
     },
     {
       "title": "Suggested - Dan dan noodles",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "onSaleIngredients": [
-        {
-          "ingredient": "olive oil",
-          "dealName": "Pompeian® Smooth First Cold Pressed Extra Virgin Olive Oil",
-          "promoPrice": 8.99,
-          "savings": 1,
-          "savingsPct": 10,
-          "size": "16 fl oz"
-        }
-      ],
-      "totalSavings": 1,
-      "dealCount": 1
-    },
-    {
-      "title": "Suggested - Mushroom risotto",
       "meal": "dinner",
       "style": "rice-or-pasta",
       "onSaleIngredients": [
