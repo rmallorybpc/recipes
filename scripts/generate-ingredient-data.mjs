@@ -157,6 +157,46 @@ function parseRecipeFrontmatter(markdown) {
   return fields;
 }
 
+function parseIngredientsFromMarkdown(markdown) {
+  const lines = markdown.split(/\r?\n/);
+  const ingredients = [];
+  let inIngredientsSection = false;
+
+  for (const line of lines) {
+    const headingMatch = line.match(/^\s{0,3}#{1,6}\s+(.+?)\s*$/);
+    if (headingMatch) {
+      const heading = headingMatch[1].trim().toLowerCase();
+      if (!inIngredientsSection) {
+        inIngredientsSection = /^ingredients?$/.test(heading);
+        continue;
+      }
+
+      // Stop collecting when the next section begins.
+      break;
+    }
+
+    if (!inIngredientsSection) {
+      continue;
+    }
+
+    const bulletMatch = line.match(/^\s*[-*]\s+(.+?)\s*$/);
+    if (bulletMatch) {
+      ingredients.push(bulletMatch[1].trim());
+      continue;
+    }
+
+    if (line.trim().length === 0) {
+      continue;
+    }
+
+    if (ingredients.length > 0) {
+      break;
+    }
+  }
+
+  return dedupe(ingredients.filter(Boolean));
+}
+
 function recipeInventoryKey(meal, style, title) {
   return `${meal}::${style}::${title.toLowerCase().trim()}`;
 }
@@ -242,7 +282,8 @@ async function loadRecipeMetadata() {
     }
 
     const metadataValue = {
-      source_url: frontmatter.source_url || null
+      source_url: frontmatter.source_url || null,
+      markdown_ingredients: parseIngredientsFromMarkdown(markdown)
     };
 
     for (const key of recipeInventoryKeys(meal, style, frontmatter.title)) {
@@ -270,13 +311,14 @@ async function loadInventory() {
       const metadata = recipeInventoryKeys(recipe.meal, recipe.style, recipe.title)
         .map((key) => recipeMetadata.get(key))
         .find(Boolean);
-      if (!metadata?.source_url || recipe.source_url) {
+      if (!metadata) {
         return recipe;
       }
 
       return {
         ...recipe,
-        source_url: metadata.source_url
+        source_url: recipe.source_url || metadata.source_url,
+        markdown_ingredients: Array.isArray(metadata.markdown_ingredients) ? metadata.markdown_ingredients : []
       };
     });
 
@@ -626,6 +668,12 @@ function withStableIds(recipes) {
 }
 
 async function enrichRecipe(recipe) {
+  const { markdown_ingredients: markdownIngredientsRaw, ...recipeBase } = recipe;
+  const markdownIngredients = dedupe(
+    (Array.isArray(markdownIngredientsRaw) ? markdownIngredientsRaw : [])
+      .map((item) => String(item || "").trim())
+      .filter(Boolean)
+  );
   let resolvedUrl = recipe.source_url || null;
   let sourceOrigin = recipe.source_url ? "existing_source" : "none";
 
@@ -643,7 +691,7 @@ async function enrichRecipe(recipe) {
       const parsed = recipeIngredientsFromHtml(html);
       if (parsed && parsed.ingredients.length > 0) {
         return {
-          ...recipe,
+          ...recipeBase,
           source_url: recipe.source_url,
           resolved_source_url: resolvedUrl,
           source_origin: sourceOrigin,
@@ -656,9 +704,22 @@ async function enrichRecipe(recipe) {
     }
   }
 
+  if (markdownIngredients.length > 0) {
+    return {
+      ...recipeBase,
+      source_url: recipe.source_url,
+      resolved_source_url: resolvedUrl,
+      source_origin: sourceOrigin,
+      ingredients: markdownIngredients,
+      ingredients_normalized: dedupe(markdownIngredients.map(normalizeIngredient).filter(Boolean)),
+      ingredient_source: "markdown_recipe",
+      confidence: 0.75
+    };
+  }
+
   const inferred = inferIngredientsFromTitle(recipe.title);
   return {
-    ...recipe,
+    ...recipeBase,
     source_url: recipe.source_url,
     resolved_source_url: resolvedUrl,
     source_origin: sourceOrigin,
@@ -866,7 +927,8 @@ async function main() {
     total_recipes: recipes.length,
     with_existing_source: recipes.filter((r) => !!r.source_url).length,
     resolved_from_search: recipes.filter((r) => r.source_origin === "web_search").length,
-    scraped_ingredients: recipes.filter((r) => r.ingredient_source !== "title_heuristic").length,
+    scraped_ingredients: recipes.filter((r) => r.ingredient_source === "source_scrape" || r.ingredient_source === "searched_scrape").length,
+    markdown_fallback: recipes.filter((r) => r.ingredient_source === "markdown_recipe").length,
     heuristic_only: recipes.filter((r) => r.ingredient_source === "title_heuristic").length
   };
 
@@ -884,7 +946,9 @@ async function main() {
 
   console.log(`Generated ${stats.total_recipes} recipes -> ${path.relative(ROOT_DIR, OUTPUT_PATH)}`);
   console.log(`Ingredient index entries: ${indexPayload.total_ingredients}`);
-  console.log(`Source scrape: ${stats.scraped_ingredients}, Heuristic fallback: ${stats.heuristic_only}`);
+  console.log(
+    `Source scrape: ${stats.scraped_ingredients}, Markdown fallback: ${stats.markdown_fallback}, Heuristic fallback: ${stats.heuristic_only}`
+  );
 
   // --- SEASONAL MATCH GENERATION ---
   const seasonalData = JSON.parse(await readFile(SEASONAL_DATA_PATH, "utf8"));

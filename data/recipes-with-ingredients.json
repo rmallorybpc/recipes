@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-04-21T20:44:46.159Z",
+  "generated_at": "2026-04-21T20:56:36.932Z",
   "stats": {
     "total_recipes": 98,
     "with_existing_source": 98,
     "resolved_from_search": 0,
     "scraped_ingredients": 10,
-    "heuristic_only": 88
+    "markdown_fallback": 88,
+    "heuristic_only": 0
   },
   "recipes": [
     {
@@ -17,17 +18,23 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/7040/jps-big-daddy-biscuits/",
       "source_origin": "existing_source",
       "ingredients": [
-        "flour",
-        "butter",
-        "baking powder"
+        "2 cups all-purpose flour",
+        "1 tablespoon baking powder",
+        "1 teaspoon salt",
+        "1 tablespoon white sugar",
+        "1/3 cup butter, cubed and cold",
+        "1 cup milk"
       ],
       "ingredients_normalized": [
-        "flour",
-        "butter",
-        "baking powder"
+        "all-purpose flour",
+        "baking powder",
+        "salt",
+        "white sugar",
+        "butter cubed and cold",
+        "milk"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Crusty bread",
@@ -62,17 +69,29 @@
       "resolved_source_url": "https://www.ambitiouskitchen.com/flourless-peanut-butter-chickpea-muffins/",
       "source_origin": "existing_source",
       "ingredients": [
-        "butter",
-        "baking powder",
-        "peanut butter"
+        "1 can chickpeas (15 oz), drained and rinsed",
+        "1/2 cup natural peanut butter",
+        "1/3 cup honey or maple syrup",
+        "2 eggs",
+        "1 teaspoon vanilla extract",
+        "1/2 teaspoon baking powder",
+        "1/4 teaspoon baking soda",
+        "1/4 teaspoon salt",
+        "1/2 cup chocolate chips (optional)"
       ],
       "ingredients_normalized": [
-        "butter",
+        "can chickpeas drained and rinsed",
+        "natural peanut butter",
+        "honey or maple syrup",
+        "eggs",
+        "vanilla extract",
         "baking powder",
-        "peanut butter"
+        "baking soda",
+        "salt",
+        "chocolate chips"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Pineapple zucchini muffin",
@@ -122,17 +141,31 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/banana-oat-pancakes/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "2 ripe bananas, mashed",
+        "1 cup rolled oats",
+        "2 eggs",
+        "1/4 cup milk",
+        "1 teaspoon vanilla extract",
+        "1 teaspoon baking powder",
+        "1/2 teaspoon cinnamon",
+        "1/4 teaspoon salt",
+        "butter or coconut oil for cooking",
+        "maple syrup and fresh fruit for serving"
       ],
       "ingredients_normalized": [
+        "ripe bananas mashed",
+        "rolled oats",
+        "eggs",
+        "milk",
+        "vanilla extract",
+        "baking powder",
+        "cinnamon",
         "salt",
-        "pepper",
-        "olive oil"
+        "butter or coconut oil for cooking",
+        "maple syrup and fruit"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Greek yogurt parfait",
@@ -143,17 +176,23 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/greek-yogurt-parfait/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "2 cups plain Greek yogurt",
+        "1 cup granola",
+        "1 cup mixed fresh berries (strawberries, blueberries, raspberries)",
+        "2 tablespoons honey",
+        "1 teaspoon vanilla extract",
+        "1/4 cup sliced almonds or walnuts (optional)"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "plain greek yogurt",
+        "granola",
+        "mixed berries",
+        "honey",
+        "vanilla extract",
+        "almonds or walnuts"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Breakfast burritos",
@@ -164,17 +203,31 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/14942/breakfast-burrito/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "4 large flour tortillas",
+        "6 eggs, beaten",
+        "1/2 lb breakfast sausage or bacon, cooked and crumbled",
+        "1 cup shredded cheddar cheese",
+        "1/2 cup diced bell peppers",
+        "1/2 cup diced onion",
+        "1/2 cup frozen hash browns or diced potatoes, cooked",
+        "2 tablespoons butter",
+        "salt and pepper to taste",
+        "salsa and sour cream for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "large flour tortillas",
+        "eggs beaten",
+        "breakfast sausage or bacon cooked and crumbled",
+        "shredded cheddar cheese",
+        "bell peppers",
+        "onion",
+        "frozen hash browns or potatoes cooked",
+        "butter",
+        "salt and pepper",
+        "salsa and sour cream"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Greek pitas with chicken",
@@ -185,13 +238,39 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/23600/greek-chicken-pitas/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "1 lb boneless skinless chicken breasts, cut into strips",
+        "4 pita bread rounds",
+        "1 cup plain Greek yogurt",
+        "1 cucumber, diced",
+        "2 tomatoes, diced",
+        "1/2 red onion, thinly sliced",
+        "3 cloves garlic, minced",
+        "2 tablespoons olive oil",
+        "1 tablespoon lemon juice",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried thyme",
+        "1/2 teaspoon cumin",
+        "salt and pepper to taste",
+        "1/4 cup feta cheese, crumbled"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "boneless skinless chicken breasts cut into strips",
+        "pita bread rounds",
+        "plain greek yogurt",
+        "cucumber",
+        "tomatoes",
+        "red onion thinly",
+        "cloves garlic",
+        "olive oil",
+        "lemon juice",
+        "dried oregano",
+        "dried thyme",
+        "cumin",
+        "salt and pepper",
+        "feta cheese crumbled"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Greek pitas with turkey meat",
@@ -202,17 +281,41 @@
       "resolved_source_url": "https://www.foodnetwork.com/recipes/turkey-gyros",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1 lb ground turkey",
+        "4 pita bread rounds",
+        "1 cup plain Greek yogurt",
+        "1 cucumber, grated and squeezed dry",
+        "3 cloves garlic, minced",
+        "1 tablespoon lemon juice",
+        "1 tablespoon fresh dill, chopped",
+        "1/2 red onion, thinly sliced",
+        "2 tomatoes, sliced",
+        "2 tablespoons olive oil",
+        "1 teaspoon dried oregano",
+        "1/2 teaspoon cumin",
+        "1/2 teaspoon smoked paprika",
+        "salt and pepper to taste",
+        "1/4 cup feta cheese, crumbled"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "ground turkey",
+        "pita bread rounds",
+        "plain greek yogurt",
+        "cucumber grated and squeezed dry",
+        "cloves garlic",
+        "lemon juice",
+        "dill",
+        "red onion thinly",
+        "tomatoes",
+        "olive oil",
+        "dried oregano",
+        "cumin",
+        "smoked paprika",
+        "salt and pepper",
+        "feta cheese crumbled"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Peanut chicken lettuce wraps with ginger garlic sauce",
@@ -272,19 +375,41 @@
       "resolved_source_url": "https://www.pinterest.com/pin/487233253450153141/sent/?invite_code=4fe827f3cea649cf9c9996a6747132c8&sender=487233390844584842&sfo=1",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken",
-        "broth",
-        "onion",
-        "garlic"
+        "2 lbs boneless skinless chicken breasts",
+        "2 cans white beans (cannellini or Great Northern), drained",
+        "2 cans chicken broth (14.5 oz each)",
+        "1 large onion, diced",
+        "3 cloves garlic, minced",
+        "2 cans diced green chiles (4 oz each)",
+        "1 cup frozen corn",
+        "1 teaspoon cumin",
+        "1 teaspoon chili powder",
+        "1/2 teaspoon oregano",
+        "1/2 teaspoon garlic powder",
+        "1/2 cup sour cream",
+        "4 oz cream cheese, softened",
+        "salt and pepper to taste",
+        "shredded Monterey Jack cheese, cilantro, and lime for serving"
       ],
       "ingredients_normalized": [
-        "chicken",
-        "broth",
-        "onion",
-        "garlic"
+        "boneless skinless chicken breasts",
+        "cans white beans drained",
+        "cans chicken broth",
+        "large onion",
+        "cloves garlic",
+        "cans green chiles",
+        "frozen corn",
+        "cumin",
+        "chili powder",
+        "oregano",
+        "garlic powder",
+        "sour cream",
+        "cream cheese softened",
+        "salt and pepper",
+        "shredded monterey jack cheese cilantro and lime"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Spicy pesto and cheese stuffed zucchini involtin",
@@ -295,21 +420,33 @@
       "resolved_source_url": "https://www.pinterest.com/pin/487233253440955193/sent/?invite_code=6cfdfc25e6084bb68f039422b2f63e6e&sender=487233390844584842&sfo=1",
       "source_origin": "existing_source",
       "ingredients": [
-        "zucchini",
-        "basil",
-        "olive oil",
-        "parmesan",
-        "cheese"
+        "3 medium zucchini, sliced lengthwise into thin strips",
+        "1/2 cup basil pesto",
+        "1 cup ricotta cheese",
+        "1/2 cup shredded mozzarella cheese",
+        "1/4 cup grated Parmesan cheese",
+        "2 cloves garlic, minced",
+        "1/4 teaspoon red pepper flakes",
+        "2 tablespoons olive oil",
+        "1 cup marinara sauce",
+        "salt and pepper to taste",
+        "fresh basil leaves for garnish"
       ],
       "ingredients_normalized": [
-        "zucchini",
-        "basil",
+        "medium zucchini lengthwise into thin strips",
+        "basil pesto",
+        "ricotta cheese",
+        "shredded mozzarella cheese",
+        "grated parmesan cheese",
+        "cloves garlic",
+        "red pepper flakes",
         "olive oil",
-        "parmesan",
-        "cheese"
+        "marinara sauce",
+        "salt and pepper",
+        "basil leaves for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Avocado toast with egg",
@@ -320,17 +457,27 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/241032/avocado-toast/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "2 slices thick-cut bread, toasted",
+        "1 ripe avocado",
+        "2 eggs",
+        "1 tablespoon lemon juice",
+        "1/4 teaspoon red pepper flakes",
+        "salt and pepper to taste",
+        "everything bagel seasoning (optional)",
+        "fresh herbs for garnish"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "slices thick-cut bread toasted",
+        "ripe avocado",
+        "eggs",
+        "lemon juice",
+        "red pepper flakes",
+        "salt and pepper",
+        "everything bagel seasoning",
+        "herbs for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Homemade pizza",
@@ -341,17 +488,31 @@
       "resolved_source_url": "https://www.seriouseats.com/basic-new-york-style-pizza-dough",
       "source_origin": "existing_source",
       "ingredients": [
-        "flour",
-        "cheese",
-        "tomato sauce"
+        "3 cups all-purpose flour",
+        "1 packet instant yeast (2 1/4 tsp)",
+        "1 teaspoon sugar",
+        "1 teaspoon salt",
+        "1 tablespoon olive oil",
+        "1 cup warm water",
+        "1 cup pizza sauce or marinara",
+        "2 cups shredded mozzarella cheese",
+        "1/2 cup grated Parmesan cheese",
+        "toppings of choice: pepperoni, bell peppers, onion, mushrooms, olives"
       ],
       "ingredients_normalized": [
-        "flour",
-        "cheese",
-        "tomato sauce"
+        "all-purpose flour",
+        "packet instant yeast",
+        "sugar",
+        "salt",
+        "olive oil",
+        "warm water",
+        "pizza sauce or marinara",
+        "shredded mozzarella cheese",
+        "grated parmesan cheese",
+        "toppings of choice pepperoni bell peppers onion mushrooms olives"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Black bean enchiladas",
@@ -362,17 +523,37 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/214842/black-bean-enchiladas/",
       "source_origin": "existing_source",
       "ingredients": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "2 cans black beans (15 oz each), drained and rinsed",
+        "10 flour or corn tortillas",
+        "2 cans red enchilada sauce (10 oz each)",
+        "2 cups shredded Mexican cheese blend",
+        "1 large onion, diced",
+        "1 can diced green chiles (4 oz)",
+        "3 cloves garlic, minced",
+        "1 cup frozen corn",
+        "1 teaspoon cumin",
+        "1 teaspoon chili powder",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "sour cream and cilantro for serving"
       ],
       "ingredients_normalized": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "cans black beans drained and rinsed",
+        "flour or corn tortillas",
+        "cans red enchilada sauce",
+        "shredded mexican cheese blend",
+        "large onion",
+        "can green chiles",
+        "cloves garlic",
+        "frozen corn",
+        "cumin",
+        "chili powder",
+        "olive oil",
+        "salt and pepper",
+        "sour cream and cilantro"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Eggplant parmesan",
@@ -383,17 +564,35 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/13981/eggplant-parmesan-ii/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "2 large eggplants, sliced 1/4 inch thick",
+        "2 cups marinara sauce",
+        "2 cups shredded mozzarella cheese",
+        "1/2 cup grated Parmesan cheese",
+        "2 eggs, beaten",
+        "1 cup Italian seasoned breadcrumbs",
+        "1/2 cup all-purpose flour",
+        "1/4 cup olive oil",
+        "1 teaspoon dried basil",
+        "1 teaspoon dried oregano",
+        "salt and pepper to taste",
+        "fresh basil for garnish"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "large eggplants inch thick",
+        "marinara sauce",
+        "shredded mozzarella cheese",
+        "grated parmesan cheese",
+        "eggs beaten",
+        "italian seasoned breadcrumbs",
+        "all-purpose flour",
+        "olive oil",
+        "dried basil",
+        "dried oregano",
+        "salt and pepper",
+        "basil for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Spanakopita",
@@ -404,17 +603,33 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/25680/spanakopita-greek-spinach-pie/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1 lb fresh spinach, chopped",
+        "1 lb feta cheese, crumbled",
+        "3 eggs, beaten",
+        "1 large onion, diced",
+        "3 cloves garlic, minced",
+        "2 tablespoons fresh dill, chopped",
+        "1/4 cup fresh parsley, chopped",
+        "1/2 teaspoon nutmeg",
+        "1 package phyllo dough (16 oz), thawed",
+        "1/2 cup butter, melted",
+        "salt and pepper to taste"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "spinach",
+        "feta cheese crumbled",
+        "eggs beaten",
+        "large onion",
+        "cloves garlic",
+        "dill",
+        "parsley",
+        "nutmeg",
+        "package phyllo dough thawed",
+        "butter melted",
+        "salt and pepper"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Chipotle bowls",
@@ -425,17 +640,43 @@
       "resolved_source_url": "https://www.themodernproper.com/chipotle-chicken-burrito-bowls",
       "source_origin": "existing_source",
       "ingredients": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "2 lbs boneless skinless chicken thighs",
+        "2 cups long-grain white rice",
+        "2 cans black beans, drained and rinsed",
+        "2 cups frozen corn, thawed",
+        "1 can diced tomatoes with green chiles",
+        "1 large onion, diced",
+        "3 cloves garlic, minced",
+        "2 chipotle peppers in adobo sauce, minced",
+        "1 tablespoon adobo sauce",
+        "1 teaspoon cumin",
+        "1 teaspoon chili powder",
+        "1 teaspoon smoked paprika",
+        "2 tablespoons olive oil",
+        "juice of 2 limes",
+        "salt and pepper to taste",
+        "sour cream, salsa, guacamole, shredded cheese, and cilantro for serving"
       ],
       "ingredients_normalized": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "boneless skinless chicken thighs",
+        "long-grain white rice",
+        "cans black beans drained and rinsed",
+        "frozen corn thawed",
+        "can tomatoes with green chiles",
+        "large onion",
+        "cloves garlic",
+        "chipotle peppers in adobo sauce",
+        "adobo sauce",
+        "cumin",
+        "chili powder",
+        "smoked paprika",
+        "olive oil",
+        "juice of limes",
+        "salt and pepper",
+        "sour cream salsa guacamole shredded cheese and cilantro"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Salmon veggie bowls",
@@ -446,13 +687,41 @@
       "resolved_source_url": "https://www.halfbakedharvest.com/salmon-bowls/",
       "source_origin": "existing_source",
       "ingredients": [
-        "seafood"
+        "4 salmon fillets (6 oz each)",
+        "2 cups rice or quinoa, cooked",
+        "2 cups broccoli florets",
+        "1 large sweet potato, cubed and roasted",
+        "1 avocado, sliced",
+        "1 cucumber, sliced",
+        "2 tablespoons soy sauce",
+        "1 tablespoon sesame oil",
+        "1 tablespoon honey",
+        "1 tablespoon rice vinegar",
+        "1 teaspoon fresh ginger, grated",
+        "2 cloves garlic, minced",
+        "sesame seeds for garnish",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste"
       ],
       "ingredients_normalized": [
-        "seafood"
+        "salmon fillets",
+        "rice or quinoa cooked",
+        "broccoli florets",
+        "large sweet potato cubed and roasted",
+        "avocado",
+        "cucumber",
+        "soy sauce",
+        "sesame oil",
+        "honey",
+        "rice vinegar",
+        "ginger grated",
+        "cloves garlic",
+        "sesame seeds for garnish",
+        "olive oil",
+        "salt and pepper"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Chicken tikka masala",
@@ -463,13 +732,45 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228293/curry-stand-chicken-tikka-masala-sauce/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "2 lbs boneless skinless chicken breasts, cubed",
+        "1 can crushed tomatoes (28 oz)",
+        "1 cup heavy cream or coconut milk",
+        "1 large onion, diced",
+        "4 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "2 tablespoons butter",
+        "2 tablespoons garam masala",
+        "1 tablespoon cumin",
+        "1 tablespoon paprika",
+        "1 teaspoon turmeric",
+        "1 teaspoon coriander",
+        "1/2 teaspoon cayenne pepper",
+        "salt to taste",
+        "fresh cilantro for garnish",
+        "basmati rice for serving",
+        "naan bread for serving"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "boneless skinless chicken breasts cubed",
+        "can crushed tomatoes",
+        "heavy cream or coconut milk",
+        "large onion",
+        "cloves garlic",
+        "ginger grated",
+        "butter",
+        "garam masala",
+        "cumin",
+        "paprika",
+        "turmeric",
+        "coriander",
+        "cayenne pepper",
+        "salt",
+        "cilantro for garnish",
+        "basmati rice",
+        "naan bread"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Korean beef bulgogi bowls",
@@ -480,13 +781,37 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/246686/korean-beef-bowl/",
       "source_origin": "existing_source",
       "ingredients": [
-        "beef"
+        "1.5 lbs ground beef or thinly sliced sirloin",
+        "2 cups jasmine rice, cooked",
+        "4 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "1/4 cup soy sauce",
+        "2 tablespoons brown sugar",
+        "1 tablespoon sesame oil",
+        "1 tablespoon rice wine or mirin",
+        "1/2 teaspoon red pepper flakes",
+        "3 scallions, sliced",
+        "1 tablespoon vegetable oil",
+        "sesame seeds for garnish",
+        "cucumber slices and shredded carrots for serving"
       ],
       "ingredients_normalized": [
-        "beef"
+        "ground beef or thinly sirloin",
+        "jasmine rice cooked",
+        "cloves garlic",
+        "ginger grated",
+        "soy sauce",
+        "brown sugar",
+        "sesame oil",
+        "rice wine or mirin",
+        "red pepper flakes",
+        "scallions",
+        "vegetable oil",
+        "sesame seeds for garnish",
+        "cucumber slices and shredded carrots"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Roasted vegetable grain bowls",
@@ -497,17 +822,37 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/263648/roasted-vegetable-and-farro-bowl/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "2 cups farro, quinoa, or brown rice, cooked",
+        "2 cups broccoli florets",
+        "1 large sweet potato, cubed",
+        "1 red bell pepper, sliced",
+        "1 zucchini, sliced",
+        "1 cup cherry tomatoes",
+        "3 tablespoons olive oil",
+        "2 tablespoons tahini",
+        "1 tablespoon lemon juice",
+        "1 clove garlic, minced",
+        "1 teaspoon cumin",
+        "salt and pepper to taste",
+        "fresh parsley and feta cheese for garnish"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "farro quinoa or brown rice cooked",
+        "broccoli florets",
+        "large sweet potato cubed",
+        "red bell pepper",
+        "zucchini",
+        "cherry tomatoes",
+        "olive oil",
+        "tahini",
+        "lemon juice",
+        "clove garlic",
+        "cumin",
+        "salt and pepper",
+        "parsley and feta cheese for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Teriyaki salmon bowls",
@@ -518,13 +863,37 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/teriyaki-salmon/",
       "source_origin": "existing_source",
       "ingredients": [
-        "seafood"
+        "4 salmon fillets (6 oz each)",
+        "2 cups jasmine rice, cooked",
+        "1 cup edamame, shelled",
+        "1 cucumber, sliced",
+        "1 avocado, sliced",
+        "2 scallions, sliced",
+        "1/4 cup soy sauce",
+        "2 tablespoons honey",
+        "1 tablespoon sesame oil",
+        "1 tablespoon rice vinegar",
+        "1 teaspoon fresh ginger, grated",
+        "2 cloves garlic, minced",
+        "sesame seeds for garnish"
       ],
       "ingredients_normalized": [
-        "seafood"
+        "salmon fillets",
+        "jasmine rice cooked",
+        "edamame shelled",
+        "cucumber",
+        "avocado",
+        "scallions",
+        "soy sauce",
+        "honey",
+        "sesame oil",
+        "rice vinegar",
+        "ginger grated",
+        "cloves garlic",
+        "sesame seeds for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Thai green curry",
@@ -535,17 +904,37 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/222412/thai-green-curry/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1.5 lbs boneless skinless chicken thighs or tofu, cubed",
+        "2 cans coconut milk (13.5 oz each)",
+        "3 tablespoons green curry paste",
+        "2 cups vegetables (zucchini, bell peppers, snap peas)",
+        "1 large onion, sliced",
+        "3 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "1 tablespoon fish sauce or soy sauce",
+        "1 tablespoon brown sugar",
+        "1 tablespoon vegetable oil",
+        "juice of 1 lime",
+        "fresh basil and cilantro for garnish",
+        "jasmine rice for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "boneless skinless chicken thighs or tofu cubed",
+        "cans coconut milk",
+        "green curry paste",
+        "vegetables",
+        "large onion",
+        "cloves garlic",
+        "ginger grated",
+        "fish sauce or soy sauce",
+        "brown sugar",
+        "vegetable oil",
+        "juice of lime",
+        "basil and cilantro for garnish",
+        "jasmine rice"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Vegetable curry",
@@ -556,17 +945,43 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/34423/chickpea-coconut-curry/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "2 cans chickpeas (15 oz each), drained",
+        "1 can coconut milk (13.5 oz)",
+        "1 can crushed tomatoes (14 oz)",
+        "1 large onion, diced",
+        "4 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "2 cups spinach or kale",
+        "1 large sweet potato, cubed",
+        "2 tablespoons curry powder",
+        "1 teaspoon cumin",
+        "1 teaspoon turmeric",
+        "1/2 teaspoon cayenne pepper",
+        "2 tablespoons vegetable oil",
+        "salt to taste",
+        "fresh cilantro for garnish",
+        "basmati rice or naan for serving"
       ],
       "ingredients_normalized": [
+        "cans chickpeas drained",
+        "can coconut milk",
+        "can crushed tomatoes",
+        "large onion",
+        "cloves garlic",
+        "ginger grated",
+        "spinach or kale",
+        "large sweet potato cubed",
+        "curry powder",
+        "cumin",
+        "turmeric",
+        "cayenne pepper",
+        "vegetable oil",
         "salt",
-        "pepper",
-        "olive oil"
+        "cilantro for garnish",
+        "basmati rice or naan"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Lettuce wraps",
@@ -577,13 +992,39 @@
       "resolved_source_url": "https://www.damndelicious.net/2014/06/13/chicken-lettuce-wraps/",
       "source_origin": "existing_source",
       "ingredients": [
-        "lettuce"
+        "1 lb ground chicken or turkey",
+        "1 head butter lettuce, leaves separated",
+        "1 cup water chestnuts, drained and diced",
+        "3 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "3 tablespoons hoisin sauce",
+        "2 tablespoons soy sauce",
+        "1 tablespoon rice wine vinegar",
+        "1 tablespoon sesame oil",
+        "1 teaspoon sriracha",
+        "3 scallions, sliced",
+        "2 tablespoons vegetable oil",
+        "salt and pepper to taste",
+        "shredded carrots and chopped peanuts for garnish"
       ],
       "ingredients_normalized": [
-        "lettuce"
+        "ground chicken or turkey",
+        "head butter lettuce leaves separated",
+        "water chestnuts drained and",
+        "cloves garlic",
+        "ginger grated",
+        "hoisin sauce",
+        "soy sauce",
+        "rice wine vinegar",
+        "sesame oil",
+        "sriracha",
+        "scallions",
+        "vegetable oil",
+        "salt and pepper",
+        "shredded carrots and peanuts for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Fish tacos with cabbage slaw",
@@ -594,17 +1035,41 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/fish-tacos/",
       "source_origin": "existing_source",
       "ingredients": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "1.5 lbs white fish fillets (cod, tilapia, or mahi mahi)",
+        "8 small corn or flour tortillas",
+        "2 cups shredded cabbage",
+        "1 mango, diced",
+        "1 jalapeno, minced",
+        "1/4 cup fresh cilantro, chopped",
+        "3 tablespoons lime juice",
+        "2 tablespoons mayonnaise",
+        "1 tablespoon sour cream",
+        "1 teaspoon cumin",
+        "1 teaspoon chili powder",
+        "1 teaspoon smoked paprika",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "avocado slices for serving"
       ],
       "ingredients_normalized": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "white fish fillets",
+        "small corn or flour tortillas",
+        "shredded cabbage",
+        "mango",
+        "jalapeno",
+        "cilantro",
+        "lime juice",
+        "mayonnaise",
+        "sour cream",
+        "cumin",
+        "chili powder",
+        "smoked paprika",
+        "olive oil",
+        "salt and pepper",
+        "avocado slices"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Sausage and peppers",
@@ -615,17 +1080,33 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/35306/sausage-and-peppers/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1.5 lbs Italian sausage links (sweet or hot)",
+        "3 bell peppers (red, yellow, green), sliced",
+        "1 large onion, sliced",
+        "4 cloves garlic, minced",
+        "1 can crushed tomatoes (14 oz)",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried basil",
+        "1/2 teaspoon red pepper flakes",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "hoagie rolls or pasta for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "italian sausage links",
+        "bell peppers",
+        "large onion",
+        "cloves garlic",
+        "can crushed tomatoes",
+        "dried oregano",
+        "dried basil",
+        "red pepper flakes",
+        "olive oil",
+        "salt and pepper",
+        "hoagie rolls or pasta"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Shrimp tacos with mango slaw",
@@ -636,19 +1117,41 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/234060/shrimp-tacos/",
       "source_origin": "existing_source",
       "ingredients": [
-        "seafood",
-        "tortilla",
-        "onion",
-        "cheese"
+        "1 lb large shrimp, peeled and deveined",
+        "8 small corn or flour tortillas",
+        "2 cups shredded cabbage",
+        "1 mango, diced",
+        "1/2 red onion, finely diced",
+        "1 jalapeno, minced",
+        "1/4 cup fresh cilantro, chopped",
+        "3 tablespoons lime juice",
+        "2 tablespoons mayonnaise",
+        "1 teaspoon cumin",
+        "1 teaspoon chili powder",
+        "1 teaspoon smoked paprika",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "avocado slices for serving"
       ],
       "ingredients_normalized": [
-        "seafood",
-        "tortilla",
-        "onion",
-        "cheese"
+        "large shrimp peeled and deveined",
+        "small corn or flour tortillas",
+        "shredded cabbage",
+        "mango",
+        "red onion finely",
+        "jalapeno",
+        "cilantro",
+        "lime juice",
+        "mayonnaise",
+        "cumin",
+        "chili powder",
+        "smoked paprika",
+        "olive oil",
+        "salt and pepper",
+        "avocado slices"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "BBQ in crockpot",
@@ -659,13 +1162,37 @@
       "resolved_source_url": "https://www.cookingclassy.com/slow-cooker-pulled-pork/",
       "source_origin": "existing_source",
       "ingredients": [
-        "pork"
+        "3-4 lbs pork shoulder or pork butt",
+        "1 1/2 cups BBQ sauce",
+        "1/2 cup apple cider vinegar",
+        "1/2 cup chicken broth",
+        "1/4 cup brown sugar",
+        "1 tablespoon Worcestershire sauce",
+        "1 tablespoon chili powder",
+        "1 teaspoon garlic powder",
+        "1 teaspoon onion powder",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon salt",
+        "1/2 teaspoon black pepper",
+        "hamburger buns and coleslaw for serving"
       ],
       "ingredients_normalized": [
-        "pork"
+        "pork shoulder or pork butt",
+        "bbq sauce",
+        "apple cider vinegar",
+        "chicken broth",
+        "brown sugar",
+        "worcestershire sauce",
+        "chili powder",
+        "garlic powder",
+        "onion powder",
+        "smoked paprika",
+        "salt",
+        "black pepper",
+        "hamburger buns and coleslaw"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Beef and broccoli",
@@ -676,15 +1203,37 @@
       "resolved_source_url": "https://www.recipetineats.com/beef-and-broccoli/",
       "source_origin": "existing_source",
       "ingredients": [
-        "beef",
-        "broccoli"
+        "1 lb flank steak or sirloin, thinly sliced against the grain",
+        "4 cups broccoli florets",
+        "3 cloves garlic, minced",
+        "1 teaspoon fresh ginger, grated",
+        "1/3 cup soy sauce",
+        "3 tablespoons oyster sauce",
+        "2 tablespoons brown sugar",
+        "1 tablespoon sesame oil",
+        "1 tablespoon cornstarch",
+        "1/4 cup water",
+        "2 tablespoons vegetable oil",
+        "cooked rice for serving",
+        "sesame seeds for garnish"
       ],
       "ingredients_normalized": [
-        "beef",
-        "broccoli"
+        "flank steak or sirloin thinly against the grain",
+        "broccoli florets",
+        "cloves garlic",
+        "ginger grated",
+        "soy sauce",
+        "oyster sauce",
+        "brown sugar",
+        "sesame oil",
+        "cornstarch",
+        "water",
+        "vegetable oil",
+        "cooked rice",
+        "sesame seeds for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Braised short ribs",
@@ -695,13 +1244,37 @@
       "resolved_source_url": "https://www.seriouseats.com/braised-short-ribs-recipe",
       "source_origin": "existing_source",
       "ingredients": [
-        "pork"
+        "3-4 lbs bone-in beef short ribs",
+        "1 large onion, diced",
+        "3 carrots, diced",
+        "3 stalks celery, diced",
+        "6 cloves garlic, minced",
+        "2 tablespoons tomato paste",
+        "2 cups dry red wine",
+        "2 cups beef broth",
+        "4 sprigs fresh thyme",
+        "2 bay leaves",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "mashed potatoes or egg noodles for serving"
       ],
       "ingredients_normalized": [
-        "pork"
+        "bone-in beef short ribs",
+        "large onion",
+        "carrots",
+        "stalks celery",
+        "cloves garlic",
+        "tomato paste",
+        "dry red wine",
+        "beef broth",
+        "sprigs thyme",
+        "bay leaves",
+        "olive oil",
+        "salt and pepper",
+        "mashed potatoes or egg noodles"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Camper chicken enchiladas",
@@ -712,19 +1285,35 @@
       "resolved_source_url": "https://www.tasteofhome.com/recipes/chicken-enchiladas/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken",
-        "tortilla",
-        "onion",
-        "cheese"
+        "2 lbs boneless skinless chicken breasts, cooked and shredded",
+        "10 flour tortillas",
+        "2 cans red enchilada sauce (10 oz each)",
+        "2 cups shredded Mexican cheese blend",
+        "1 large onion, diced",
+        "1 can diced green chiles (4 oz)",
+        "3 cloves garlic, minced",
+        "1 teaspoon cumin",
+        "1 teaspoon chili powder",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "sour cream and cilantro for serving"
       ],
       "ingredients_normalized": [
-        "chicken",
-        "tortilla",
-        "onion",
-        "cheese"
+        "boneless skinless chicken breasts cooked and shredded",
+        "flour tortillas",
+        "cans red enchilada sauce",
+        "shredded mexican cheese blend",
+        "large onion",
+        "can green chiles",
+        "cloves garlic",
+        "cumin",
+        "chili powder",
+        "olive oil",
+        "salt and pepper",
+        "sour cream and cilantro"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Cheeseburgers",
@@ -735,15 +1324,37 @@
       "resolved_source_url": "https://www.seriouseats.com/the-best-basic-burger",
       "source_origin": "existing_source",
       "ingredients": [
-        "beef",
-        "cheese"
+        "2 lbs ground beef (80/20 blend)",
+        "4 hamburger buns, toasted",
+        "4 slices cheddar or American cheese",
+        "1 large onion, sliced",
+        "2 tomatoes, sliced",
+        "4 leaves romaine or iceberg lettuce",
+        "3 tablespoons mayonnaise",
+        "2 tablespoons ketchup",
+        "1 tablespoon yellow mustard",
+        "1 tablespoon Worcestershire sauce",
+        "1 teaspoon garlic powder",
+        "salt and pepper to taste",
+        "pickles for serving"
       ],
       "ingredients_normalized": [
-        "beef",
-        "cheese"
+        "ground beef",
+        "hamburger buns toasted",
+        "slices cheddar or american cheese",
+        "large onion",
+        "tomatoes",
+        "leaves romaine or iceberg lettuce",
+        "mayonnaise",
+        "ketchup",
+        "yellow mustard",
+        "worcestershire sauce",
+        "garlic powder",
+        "salt and pepper",
+        "pickles"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Chicken parm",
@@ -754,13 +1365,39 @@
       "resolved_source_url": "https://www.foodnetwork.com/recipes/ree-drummond/chicken-parmesan",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "4 boneless skinless chicken breasts, pounded thin",
+        "2 cups marinara sauce",
+        "1 1/2 cups shredded mozzarella cheese",
+        "1/2 cup grated Parmesan cheese",
+        "1 cup Italian seasoned breadcrumbs",
+        "2 eggs, beaten",
+        "1/2 cup all-purpose flour",
+        "2 tablespoons olive oil",
+        "1 teaspoon garlic powder",
+        "1 teaspoon dried basil",
+        "1 teaspoon dried oregano",
+        "salt and pepper to taste",
+        "fresh basil for garnish",
+        "pasta for serving"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "boneless skinless chicken breasts pounded thin",
+        "marinara sauce",
+        "shredded mozzarella cheese",
+        "grated parmesan cheese",
+        "italian seasoned breadcrumbs",
+        "eggs beaten",
+        "all-purpose flour",
+        "olive oil",
+        "garlic powder",
+        "dried basil",
+        "dried oregano",
+        "salt and pepper",
+        "basil for garnish",
+        "pasta"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Chicken wings",
@@ -771,13 +1408,31 @@
       "resolved_source_url": "https://www.seriouseats.com/the-best-buffalo-wings-recipe",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "3 lbs chicken wings, split at joints tips discarded",
+        "1/2 cup hot sauce (Frank's RedHot preferred)",
+        "4 tablespoons unsalted butter, melted",
+        "1 teaspoon garlic powder",
+        "1 teaspoon onion powder",
+        "1 teaspoon smoked paprika",
+        "1 tablespoon baking powder",
+        "1 teaspoon salt",
+        "1/2 teaspoon black pepper",
+        "celery sticks and blue cheese or ranch dressing for serving"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "chicken wings split at joints tips discarded",
+        "hot sauce",
+        "unsalted butter melted",
+        "garlic powder",
+        "onion powder",
+        "smoked paprika",
+        "baking powder",
+        "salt",
+        "black pepper",
+        "celery sticks and blue cheese or ranch dressing"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Chili",
@@ -788,17 +1443,43 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/26317/award-winning-chili/",
       "source_origin": "existing_source",
       "ingredients": [
-        "broth",
-        "onion",
-        "garlic"
+        "2 lbs ground beef or ground turkey",
+        "1 large onion, diced",
+        "3 cloves garlic, minced",
+        "1 green bell pepper, diced",
+        "2 cans diced tomatoes (14 oz each)",
+        "1 can tomato sauce (15 oz)",
+        "2 cans kidney beans, drained and rinsed",
+        "2 cups beef broth",
+        "2 tablespoons chili powder",
+        "1 tablespoon cumin",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon oregano",
+        "1/2 teaspoon cayenne pepper",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "sour cream, shredded cheese, and scallions for serving"
       ],
       "ingredients_normalized": [
-        "broth",
-        "onion",
-        "garlic"
+        "ground beef or ground turkey",
+        "large onion",
+        "cloves garlic",
+        "green bell pepper",
+        "cans tomatoes",
+        "can tomato sauce",
+        "cans kidney beans drained and rinsed",
+        "beef broth",
+        "chili powder",
+        "cumin",
+        "smoked paprika",
+        "oregano",
+        "cayenne pepper",
+        "olive oil",
+        "salt and pepper",
+        "sour cream shredded cheese and scallions"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Deconstructed steak sandwiches with cheese",
@@ -809,13 +1490,33 @@
       "resolved_source_url": "https://www.foodnetwork.com/recipes/philly-cheesesteak",
       "source_origin": "existing_source",
       "ingredients": [
-        "cheese"
+        "1.5 lbs ribeye or sirloin steak, thinly sliced",
+        "4 hoagie rolls or sub rolls",
+        "1 large onion, thinly sliced",
+        "2 green bell peppers, thinly sliced",
+        "8 slices provolone or white American cheese",
+        "3 tablespoons butter",
+        "2 tablespoons Worcestershire sauce",
+        "1 tablespoon vegetable oil",
+        "1 teaspoon garlic powder",
+        "salt and pepper to taste",
+        "mushrooms, sliced (optional)"
       ],
       "ingredients_normalized": [
-        "cheese"
+        "ribeye or sirloin steak thinly",
+        "hoagie rolls or sub rolls",
+        "large onion thinly",
+        "green bell peppers thinly",
+        "slices provolone or white american cheese",
+        "butter",
+        "worcestershire sauce",
+        "vegetable oil",
+        "garlic powder",
+        "salt and pepper",
+        "mushrooms"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Fried chicken",
@@ -826,13 +1527,33 @@
       "resolved_source_url": "https://www.seriouseats.com/the-food-labs-buttermilk-fried-chicken",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "3-4 lbs chicken pieces (thighs, drumsticks, breasts)",
+        "2 cups buttermilk",
+        "2 cups all-purpose flour",
+        "1 tablespoon garlic powder",
+        "1 tablespoon onion powder",
+        "1 tablespoon smoked paprika",
+        "1 tablespoon salt",
+        "1 teaspoon black pepper",
+        "1 teaspoon cayenne pepper",
+        "1 teaspoon dried oregano",
+        "vegetable oil for frying"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "chicken pieces",
+        "buttermilk",
+        "all-purpose flour",
+        "garlic powder",
+        "onion powder",
+        "smoked paprika",
+        "salt",
+        "black pepper",
+        "cayenne pepper",
+        "dried oregano",
+        "vegetable oil for frying"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Grilled chicken with potato salad",
@@ -843,15 +1564,37 @@
       "resolved_source_url": "https://www.bonappetit.com/recipe/grilled-chicken-and-potato-salad",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken",
-        "potato"
+        "4 boneless skinless chicken breasts",
+        "2 lbs Yukon Gold potatoes, cubed",
+        "3 tablespoons olive oil",
+        "2 tablespoons Dijon mustard",
+        "2 tablespoons red wine vinegar",
+        "3 stalks celery, diced",
+        "1/4 red onion, finely diced",
+        "3 tablespoons mayonnaise",
+        "2 tablespoons fresh parsley, chopped",
+        "1 teaspoon garlic powder",
+        "1 teaspoon smoked paprika",
+        "salt and pepper to taste",
+        "lemon wedges for serving"
       ],
       "ingredients_normalized": [
-        "chicken",
-        "potato"
+        "boneless skinless chicken breasts",
+        "yukon gold potatoes cubed",
+        "olive oil",
+        "dijon mustard",
+        "red wine vinegar",
+        "stalks celery",
+        "red onion finely",
+        "mayonnaise",
+        "parsley",
+        "garlic powder",
+        "smoked paprika",
+        "salt and pepper",
+        "lemon wedges"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Pork chops",
@@ -862,13 +1605,33 @@
       "resolved_source_url": "https://www.seriouseats.com/pan-seared-pork-chops-with-herb-pan-sauce",
       "source_origin": "existing_source",
       "ingredients": [
-        "pork"
+        "4 bone-in pork chops (3/4 to 1 inch thick)",
+        "4 cloves garlic, minced",
+        "3 sprigs fresh rosemary or thyme",
+        "2 tablespoons butter",
+        "2 tablespoons olive oil",
+        "1/2 cup chicken broth",
+        "1 tablespoon Dijon mustard",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon garlic powder",
+        "salt and pepper to taste",
+        "lemon wedges for serving"
       ],
       "ingredients_normalized": [
-        "pork"
+        "bone-in pork chops",
+        "cloves garlic",
+        "sprigs rosemary or thyme",
+        "butter",
+        "olive oil",
+        "chicken broth",
+        "dijon mustard",
+        "smoked paprika",
+        "garlic powder",
+        "salt and pepper",
+        "lemon wedges"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Round steak stroganoff",
@@ -879,17 +1642,39 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/11718/simple-beef-stroganoff/",
       "source_origin": "existing_source",
       "ingredients": [
-        "mushroom",
-        "onion",
-        "broth"
+        "1.5 lbs round steak, thinly sliced",
+        "8 oz cremini mushrooms, sliced",
+        "1 large onion, diced",
+        "3 cloves garlic, minced",
+        "2 cups beef broth",
+        "1 cup sour cream",
+        "2 tablespoons Worcestershire sauce",
+        "2 tablespoons tomato paste",
+        "2 tablespoons all-purpose flour",
+        "2 tablespoons butter",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "egg noodles for serving",
+        "fresh parsley for garnish"
       ],
       "ingredients_normalized": [
-        "mushroom",
-        "onion",
-        "broth"
+        "round steak thinly",
+        "cremini mushrooms",
+        "large onion",
+        "cloves garlic",
+        "beef broth",
+        "sour cream",
+        "worcestershire sauce",
+        "tomato paste",
+        "all-purpose flour",
+        "butter",
+        "olive oil",
+        "salt and pepper",
+        "egg noodles",
+        "parsley for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Skillet meatloaf / cheeseburger meatloaf",
@@ -900,15 +1685,39 @@
       "resolved_source_url": "https://www.foodnetwork.com/recipes/food-network-kitchen/classic-meatloaf",
       "source_origin": "existing_source",
       "ingredients": [
-        "beef",
-        "cheese"
+        "2 lbs ground beef (80/20)",
+        "1 cup shredded cheddar cheese",
+        "1/2 cup breadcrumbs",
+        "1/2 cup whole milk",
+        "1 large onion, finely diced",
+        "3 cloves garlic, minced",
+        "2 eggs, beaten",
+        "2 tablespoons Worcestershire sauce",
+        "1/4 cup ketchup",
+        "1 tablespoon yellow mustard",
+        "1 teaspoon salt",
+        "1/2 teaspoon black pepper",
+        "1/2 teaspoon smoked paprika",
+        "1/4 cup ketchup mixed with 1 tablespoon brown sugar for glaze"
       ],
       "ingredients_normalized": [
-        "beef",
-        "cheese"
+        "ground beef",
+        "shredded cheddar cheese",
+        "breadcrumbs",
+        "whole milk",
+        "large onion finely",
+        "cloves garlic",
+        "eggs beaten",
+        "worcestershire sauce",
+        "ketchup",
+        "yellow mustard",
+        "salt",
+        "black pepper",
+        "smoked paprika",
+        "ketchup mixed with brown sugar for glaze"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Steak kabobs deconstructed",
@@ -919,17 +1728,41 @@
       "resolved_source_url": "https://www.foodnetwork.com/recipes/bobby-flay/steak-kabobs",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "2 lbs sirloin or ribeye steak, cut into 1.5-inch cubes",
+        "2 red bell peppers, cut into chunks",
+        "2 green bell peppers, cut into chunks",
+        "1 large red onion, cut into chunks",
+        "2 cups cherry tomatoes",
+        "8 oz mushrooms, whole or halved",
+        "3 cloves garlic, minced",
+        "3 tablespoons olive oil",
+        "2 tablespoons soy sauce",
+        "1 tablespoon Worcestershire sauce",
+        "1 tablespoon red wine vinegar",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon dried oregano",
+        "salt and pepper to taste",
+        "fresh parsley for garnish"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "sirloin or ribeye steak cut into -inch cubes",
+        "red bell peppers cut into chunks",
+        "green bell peppers cut into chunks",
+        "large red onion cut into chunks",
+        "cherry tomatoes",
+        "mushrooms whole or halved",
+        "cloves garlic",
+        "olive oil",
+        "soy sauce",
+        "worcestershire sauce",
+        "red wine vinegar",
+        "smoked paprika",
+        "dried oregano",
+        "salt and pepper",
+        "parsley for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Stew",
@@ -940,17 +1773,43 @@
       "resolved_source_url": "https://www.seriouseats.com/old-fashioned-beef-stew",
       "source_origin": "existing_source",
       "ingredients": [
-        "broth",
-        "onion",
-        "garlic"
+        "2 lbs beef chuck, cut into 2-inch cubes",
+        "1 large onion, diced",
+        "4 carrots, cut into 1-inch pieces",
+        "4 stalks celery, cut into 1-inch pieces",
+        "3 medium potatoes, cut into 2-inch cubes",
+        "4 cloves garlic, minced",
+        "2 tablespoons tomato paste",
+        "3 cups beef broth",
+        "1 cup dry red wine",
+        "2 tablespoons Worcestershire sauce",
+        "2 sprigs fresh thyme",
+        "2 bay leaves",
+        "3 tablespoons all-purpose flour",
+        "3 tablespoons olive oil",
+        "salt and pepper to taste",
+        "fresh parsley for garnish"
       ],
       "ingredients_normalized": [
-        "broth",
-        "onion",
-        "garlic"
+        "beef chuck cut into -inch cubes",
+        "large onion",
+        "carrots cut into -inch pieces",
+        "stalks celery cut into -inch pieces",
+        "medium potatoes cut into -inch cubes",
+        "cloves garlic",
+        "tomato paste",
+        "beef broth",
+        "dry red wine",
+        "worcestershire sauce",
+        "sprigs thyme",
+        "bay leaves",
+        "all-purpose flour",
+        "olive oil",
+        "salt and pepper",
+        "parsley for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Butter chicken",
@@ -961,13 +1820,43 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/246717/chef-johns-chicken-tikka-masala/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "2 lbs boneless skinless chicken thighs, cubed",
+        "1 can crushed tomatoes (28 oz)",
+        "1 cup heavy cream",
+        "1 large onion, diced",
+        "4 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "4 tablespoons butter",
+        "2 tablespoons garam masala",
+        "1 tablespoon cumin",
+        "1 tablespoon paprika",
+        "1 teaspoon turmeric",
+        "1 teaspoon coriander",
+        "1/2 teaspoon cayenne pepper",
+        "salt to taste",
+        "fresh cilantro for garnish",
+        "basmati rice and naan for serving"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "boneless skinless chicken thighs cubed",
+        "can crushed tomatoes",
+        "heavy cream",
+        "large onion",
+        "cloves garlic",
+        "ginger grated",
+        "butter",
+        "garam masala",
+        "cumin",
+        "paprika",
+        "turmeric",
+        "coriander",
+        "cayenne pepper",
+        "salt",
+        "cilantro for garnish",
+        "basmati rice and naan"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Caprese stuffed chicken",
@@ -978,13 +1867,31 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/caprese-stuffed-chicken/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "4 boneless skinless chicken breasts",
+        "4 oz fresh mozzarella cheese, sliced",
+        "2 medium tomatoes, sliced",
+        "1/4 cup fresh basil leaves",
+        "2 tablespoons balsamic glaze",
+        "2 tablespoons olive oil",
+        "1 teaspoon garlic powder",
+        "1 teaspoon Italian seasoning",
+        "salt and pepper to taste",
+        "toothpicks for securing"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "boneless skinless chicken breasts",
+        "mozzarella cheese",
+        "medium tomatoes",
+        "basil leaves",
+        "balsamic glaze",
+        "olive oil",
+        "garlic powder",
+        "italian seasoning",
+        "salt and pepper",
+        "toothpicks for securing"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Japanese chicken katsu",
@@ -995,13 +1902,33 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/72069/chicken-katsu/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "4 boneless skinless chicken breasts, pounded thin",
+        "1 cup panko breadcrumbs",
+        "2 eggs, beaten",
+        "1/2 cup all-purpose flour",
+        "vegetable oil for frying",
+        "1/4 cup tonkatsu sauce or Worcestershire sauce",
+        "2 tablespoons soy sauce",
+        "1 tablespoon ketchup",
+        "1 tablespoon mirin",
+        "salt and pepper to taste",
+        "shredded cabbage and steamed rice for serving"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "boneless skinless chicken breasts pounded thin",
+        "panko breadcrumbs",
+        "eggs beaten",
+        "all-purpose flour",
+        "vegetable oil for frying",
+        "tonkatsu sauce or worcestershire sauce",
+        "soy sauce",
+        "ketchup",
+        "mirin",
+        "salt and pepper",
+        "shredded cabbage and steamed rice"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Lamb kofta with tzatziki",
@@ -1012,17 +1939,41 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/lamb-kofta/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1.5 lbs ground lamb",
+        "1 large onion, grated",
+        "3 cloves garlic, minced",
+        "1/4 cup fresh parsley, chopped",
+        "1 teaspoon cumin",
+        "1 teaspoon coriander",
+        "1/2 teaspoon cinnamon",
+        "1/2 teaspoon allspice",
+        "1/4 teaspoon cayenne pepper",
+        "salt and pepper to taste",
+        "1 cup plain Greek yogurt",
+        "1 cucumber, grated and squeezed dry",
+        "2 tablespoons fresh dill",
+        "1 tablespoon lemon juice",
+        "pita bread and sliced tomatoes for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "ground lamb",
+        "large onion grated",
+        "cloves garlic",
+        "parsley",
+        "cumin",
+        "coriander",
+        "cinnamon",
+        "allspice",
+        "cayenne pepper",
+        "salt and pepper",
+        "plain greek yogurt",
+        "cucumber grated and squeezed dry",
+        "dill",
+        "lemon juice",
+        "pita bread and tomatoes"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Sheet pan chicken thighs and vegetables",
@@ -1033,13 +1984,39 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/234440/sheet-pan-chicken-thighs-and-veggies/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "2 lbs bone-in skin-on chicken thighs",
+        "2 cups broccoli florets",
+        "1 large sweet potato, cubed",
+        "1 red bell pepper, sliced",
+        "1 zucchini, sliced",
+        "1 large onion, cut into wedges",
+        "4 cloves garlic, minced",
+        "3 tablespoons olive oil",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon garlic powder",
+        "1 teaspoon dried thyme",
+        "1 teaspoon Italian seasoning",
+        "salt and pepper to taste",
+        "lemon wedges for serving"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "bone-in skin-on chicken thighs",
+        "broccoli florets",
+        "large sweet potato cubed",
+        "red bell pepper",
+        "zucchini",
+        "large onion cut into wedges",
+        "cloves garlic",
+        "olive oil",
+        "smoked paprika",
+        "garlic powder",
+        "dried thyme",
+        "italian seasoning",
+        "salt and pepper",
+        "lemon wedges"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Tacos",
@@ -1140,15 +2117,35 @@
       "resolved_source_url": "https://www.seriouseats.com/the-food-labs-ultra-gooey-stovetop-mac-and-cheese",
       "source_origin": "existing_source",
       "ingredients": [
-        "pasta",
-        "cheese"
+        "1 lb elbow macaroni",
+        "3 cups sharp cheddar cheese, shredded",
+        "1 cup Gruyere cheese, shredded",
+        "3 cups whole milk",
+        "3 tablespoons unsalted butter",
+        "3 tablespoons all-purpose flour",
+        "1 teaspoon Dijon mustard",
+        "1/2 teaspoon smoked paprika",
+        "1/4 teaspoon cayenne pepper",
+        "1/2 teaspoon garlic powder",
+        "salt and pepper to taste",
+        "breadcrumbs and butter for topping (optional)"
       ],
       "ingredients_normalized": [
-        "pasta",
-        "cheese"
+        "elbow macaroni",
+        "sharp cheddar cheese shredded",
+        "gruyere cheese shredded",
+        "whole milk",
+        "unsalted butter",
+        "all-purpose flour",
+        "dijon mustard",
+        "smoked paprika",
+        "cayenne pepper",
+        "garlic powder",
+        "salt and pepper",
+        "breadcrumbs and butter for topping"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Lasagne",
@@ -1159,15 +2156,45 @@
       "resolved_source_url": "https://www.recipetineats.com/the-best-lasagna/",
       "source_origin": "existing_source",
       "ingredients": [
-        "pasta",
-        "cheese"
+        "12 lasagne noodles",
+        "1 lb ground beef",
+        "1/2 lb Italian sausage",
+        "1 large onion, diced",
+        "4 cloves garlic, minced",
+        "1 can crushed tomatoes (28 oz)",
+        "1 can tomato sauce (15 oz)",
+        "2 tablespoons tomato paste",
+        "2 cups ricotta cheese",
+        "2 eggs, beaten",
+        "3 cups shredded mozzarella cheese",
+        "1 cup grated Parmesan cheese",
+        "2 tablespoons olive oil",
+        "1 teaspoon dried basil",
+        "1 teaspoon dried oregano",
+        "salt and pepper to taste",
+        "fresh basil for garnish"
       ],
       "ingredients_normalized": [
-        "pasta",
-        "cheese"
+        "lasagne noodles",
+        "ground beef",
+        "italian sausage",
+        "large onion",
+        "cloves garlic",
+        "can crushed tomatoes",
+        "can tomato sauce",
+        "tomato paste",
+        "ricotta cheese",
+        "eggs beaten",
+        "shredded mozzarella cheese",
+        "grated parmesan cheese",
+        "olive oil",
+        "dried basil",
+        "dried oregano",
+        "salt and pepper",
+        "basil for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Meatballs with zucchini and rice",
@@ -1178,15 +2205,39 @@
       "resolved_source_url": "https://www.budgetbytes.com/baked-meatballs/",
       "source_origin": "existing_source",
       "ingredients": [
-        "rice",
-        "zucchini"
+        "1 lb ground beef or mixed beef and pork",
+        "2 medium zucchini, diced",
+        "1 1/2 cups long-grain white rice",
+        "1/2 cup breadcrumbs",
+        "1/4 cup grated Parmesan cheese",
+        "1 egg, beaten",
+        "3 cloves garlic, minced",
+        "1 large onion, diced",
+        "1 can diced tomatoes (14 oz)",
+        "2 cups beef or chicken broth",
+        "1 tablespoon Italian seasoning",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "fresh parsley for garnish"
       ],
       "ingredients_normalized": [
-        "rice",
-        "zucchini"
+        "ground beef or mixed beef and pork",
+        "medium zucchini",
+        "long-grain white rice",
+        "breadcrumbs",
+        "grated parmesan cheese",
+        "egg beaten",
+        "cloves garlic",
+        "large onion",
+        "can tomatoes",
+        "beef or chicken broth",
+        "italian seasoning",
+        "olive oil",
+        "salt and pepper",
+        "parsley for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Penne lasagne",
@@ -1197,15 +2248,41 @@
       "resolved_source_url": "https://www.foodnetwork.com/recipes/baked-penne-recipe",
       "source_origin": "existing_source",
       "ingredients": [
-        "pasta",
-        "cheese"
+        "1 lb penne pasta",
+        "1 lb ground beef or Italian sausage",
+        "1 large onion, diced",
+        "4 cloves garlic, minced",
+        "1 can crushed tomatoes (28 oz)",
+        "1 can tomato sauce (15 oz)",
+        "1 cup ricotta cheese",
+        "2 cups shredded mozzarella cheese",
+        "1/2 cup grated Parmesan cheese",
+        "2 tablespoons olive oil",
+        "1 teaspoon dried basil",
+        "1 teaspoon dried oregano",
+        "1/2 teaspoon red pepper flakes",
+        "salt and pepper to taste",
+        "fresh basil for garnish"
       ],
       "ingredients_normalized": [
-        "pasta",
-        "cheese"
+        "penne pasta",
+        "ground beef or italian sausage",
+        "large onion",
+        "cloves garlic",
+        "can crushed tomatoes",
+        "can tomato sauce",
+        "ricotta cheese",
+        "shredded mozzarella cheese",
+        "grated parmesan cheese",
+        "olive oil",
+        "dried basil",
+        "dried oregano",
+        "red pepper flakes",
+        "salt and pepper",
+        "basil for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Salmon and rice",
@@ -1216,15 +2293,35 @@
       "resolved_source_url": "https://www.halfbakedharvest.com/easy-lemon-butter-salmon-rice/",
       "source_origin": "existing_source",
       "ingredients": [
-        "seafood",
-        "rice"
+        "4 salmon fillets (6 oz each)",
+        "1 1/2 cups long-grain white rice or basmati rice",
+        "3 tablespoons unsalted butter",
+        "3 cloves garlic, minced",
+        "juice of 1 lemon",
+        "zest of 1 lemon",
+        "2 tablespoons soy sauce",
+        "1 tablespoon honey",
+        "1 tablespoon olive oil",
+        "2 tablespoons fresh parsley, chopped",
+        "salt and pepper to taste",
+        "lemon slices for serving"
       ],
       "ingredients_normalized": [
-        "seafood",
-        "rice"
+        "salmon fillets",
+        "long-grain white rice or basmati rice",
+        "unsalted butter",
+        "cloves garlic",
+        "juice of lemon",
+        "zest of lemon",
+        "soy sauce",
+        "honey",
+        "olive oil",
+        "parsley",
+        "salt and pepper",
+        "lemon slices"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Spaghetti",
@@ -1282,17 +2379,31 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/229960/caprese-pasta/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1 lb pasta (penne or fusilli)",
+        "2 cups cherry tomatoes, halved",
+        "8 oz fresh mozzarella, cubed",
+        "1/2 cup fresh basil leaves, torn",
+        "3 cloves garlic, minced",
+        "3 tablespoons olive oil",
+        "2 tablespoons balsamic vinegar",
+        "1/4 cup grated Parmesan cheese",
+        "1/4 teaspoon red pepper flakes",
+        "salt and pepper to taste"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "pasta",
+        "cherry tomatoes halved",
+        "mozzarella cubed",
+        "basil leaves torn",
+        "cloves garlic",
+        "olive oil",
+        "balsamic vinegar",
+        "grated parmesan cheese",
+        "red pepper flakes",
+        "salt and pepper"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Chicken pad thai",
@@ -1303,13 +2414,39 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "8 oz flat rice noodles",
+        "1 lb boneless skinless chicken breasts, thinly sliced",
+        "2 eggs, lightly beaten",
+        "1 cup bean sprouts",
+        "3 scallions, sliced",
+        "1/4 cup roasted peanuts, chopped",
+        "3 cloves garlic, minced",
+        "3 tablespoons fish sauce",
+        "2 tablespoons tamarind paste",
+        "2 tablespoons brown sugar",
+        "1 tablespoon soy sauce",
+        "1 teaspoon sriracha",
+        "2 tablespoons vegetable oil",
+        "lime wedges and fresh cilantro for serving"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "flat rice noodles",
+        "boneless skinless chicken breasts thinly",
+        "eggs lightly beaten",
+        "bean sprouts",
+        "scallions",
+        "roasted peanuts",
+        "cloves garlic",
+        "fish sauce",
+        "tamarind paste",
+        "brown sugar",
+        "soy sauce",
+        "sriracha",
+        "vegetable oil",
+        "lime wedges and cilantro"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Dan dan noodles",
@@ -1320,17 +2457,39 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/dan-dan-noodles/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "8 oz Chinese noodles or spaghetti",
+        "1/2 lb ground pork",
+        "2 cups baby spinach or bok choy",
+        "3 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "3 tablespoons soy sauce",
+        "2 tablespoons tahini or peanut butter",
+        "1 tablespoon chili oil or sesame oil",
+        "1 tablespoon rice vinegar",
+        "1 tablespoon Sichuan peppercorn oil (optional)",
+        "1 teaspoon brown sugar",
+        "2 scallions, sliced",
+        "2 tablespoons vegetable oil",
+        "roasted peanuts for garnish"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "chinese noodles or spaghetti",
+        "ground pork",
+        "baby spinach or bok choy",
+        "cloves garlic",
+        "ginger grated",
+        "soy sauce",
+        "tahini or peanut butter",
+        "chili oil or sesame oil",
+        "rice vinegar",
+        "sichuan peppercorn oil",
+        "brown sugar",
+        "scallions",
+        "vegetable oil",
+        "roasted peanuts for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Fried rice with egg and vegetables",
@@ -1341,13 +2500,35 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/16954/fried-rice/",
       "source_origin": "existing_source",
       "ingredients": [
-        "rice"
+        "3 cups cooked white rice, day-old preferred",
+        "3 eggs, beaten",
+        "1 cup frozen peas and carrots, thawed",
+        "1 cup corn kernels",
+        "3 scallions, sliced",
+        "3 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "3 tablespoons soy sauce",
+        "1 tablespoon sesame oil",
+        "2 tablespoons vegetable oil",
+        "salt and pepper to taste",
+        "sesame seeds for garnish"
       ],
       "ingredients_normalized": [
-        "rice"
+        "cooked white rice day-old preferred",
+        "eggs beaten",
+        "frozen peas and carrots thawed",
+        "corn kernels",
+        "scallions",
+        "cloves garlic",
+        "ginger grated",
+        "soy sauce",
+        "sesame oil",
+        "vegetable oil",
+        "salt and pepper",
+        "sesame seeds for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Garlic butter shrimp with pasta",
@@ -1358,13 +2539,35 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/238604/garlic-shrimp-pasta/",
       "source_origin": "existing_source",
       "ingredients": [
-        "seafood"
+        "1 lb linguine or spaghetti",
+        "1 lb large shrimp, peeled and deveined",
+        "6 cloves garlic, minced",
+        "4 tablespoons unsalted butter",
+        "2 tablespoons olive oil",
+        "1/2 cup dry white wine or chicken broth",
+        "juice of 1 lemon",
+        "zest of 1 lemon",
+        "1/4 teaspoon red pepper flakes",
+        "1/4 cup fresh parsley, chopped",
+        "1/4 cup grated Parmesan cheese",
+        "salt and pepper to taste"
       ],
       "ingredients_normalized": [
-        "seafood"
+        "linguine or spaghetti",
+        "large shrimp peeled and deveined",
+        "cloves garlic",
+        "unsalted butter",
+        "olive oil",
+        "dry white wine or chicken broth",
+        "juice of lemon",
+        "zest of lemon",
+        "red pepper flakes",
+        "parsley",
+        "grated parmesan cheese",
+        "salt and pepper"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Mushroom risotto",
@@ -1375,17 +2578,35 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1 1/2 cups Arborio rice",
+        "1 lb mixed mushrooms (cremini, shiitake, or portobello), sliced",
+        "1 large onion, finely diced",
+        "4 cloves garlic, minced",
+        "1/2 cup dry white wine",
+        "5 cups vegetable or chicken broth, warmed",
+        "1/2 cup Parmesan cheese, grated",
+        "3 tablespoons butter",
+        "2 tablespoons olive oil",
+        "2 teaspoons fresh thyme",
+        "salt and pepper to taste",
+        "fresh parsley for garnish"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "arborio rice",
+        "mixed mushrooms",
+        "large onion finely",
+        "cloves garlic",
+        "dry white wine",
+        "vegetable or chicken broth warmed",
+        "parmesan cheese grated",
+        "butter",
+        "olive oil",
+        "thyme",
+        "salt and pepper",
+        "parsley for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - One-pot chicken and rice",
@@ -1396,15 +2617,35 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/one-pot-chicken-rice/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken",
-        "rice"
+        "1.5 lbs bone-in skin-on chicken thighs",
+        "1 1/2 cups long-grain white rice",
+        "3 cups chicken broth",
+        "1 large onion, diced",
+        "4 cloves garlic, minced",
+        "1 can diced tomatoes (14 oz)",
+        "1 teaspoon cumin",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon turmeric",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "fresh cilantro and lemon wedges for serving"
       ],
       "ingredients_normalized": [
-        "chicken",
-        "rice"
+        "bone-in skin-on chicken thighs",
+        "long-grain white rice",
+        "chicken broth",
+        "large onion",
+        "cloves garlic",
+        "can tomatoes",
+        "cumin",
+        "smoked paprika",
+        "turmeric",
+        "olive oil",
+        "salt and pepper",
+        "cilantro and lemon wedges"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Shrimp fried rice",
@@ -1415,15 +2656,35 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/16954/shrimp-fried-rice/",
       "source_origin": "existing_source",
       "ingredients": [
-        "seafood",
-        "rice"
+        "3 cups cooked white rice, day-old preferred",
+        "1 lb medium shrimp, peeled and deveined",
+        "2 eggs, beaten",
+        "1 cup frozen peas",
+        "2 carrots, diced",
+        "3 scallions, sliced",
+        "3 cloves garlic, minced",
+        "3 tablespoons soy sauce",
+        "1 tablespoon sesame oil",
+        "2 tablespoons vegetable oil",
+        "salt and pepper to taste",
+        "sesame seeds for garnish"
       ],
       "ingredients_normalized": [
-        "seafood",
-        "rice"
+        "cooked white rice day-old preferred",
+        "medium shrimp peeled and deveined",
+        "eggs beaten",
+        "frozen peas",
+        "carrots",
+        "scallions",
+        "cloves garlic",
+        "soy sauce",
+        "sesame oil",
+        "vegetable oil",
+        "salt and pepper",
+        "sesame seeds for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Tortellini with pesto and shrimp and spinach",
@@ -1434,23 +2695,33 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/pesto-tortellini-shrimp/",
       "source_origin": "existing_source",
       "ingredients": [
-        "seafood",
-        "pasta",
-        "cheese",
-        "basil",
-        "olive oil",
-        "parmesan"
+        "20 oz refrigerated cheese tortellini",
+        "1 lb large shrimp, peeled and deveined",
+        "3 cups baby spinach",
+        "1/2 cup basil pesto",
+        "3 cloves garlic, minced",
+        "1/4 cup grated Parmesan cheese",
+        "2 tablespoons olive oil",
+        "juice of 1 lemon",
+        "1/4 teaspoon red pepper flakes",
+        "salt and pepper to taste",
+        "fresh basil for garnish"
       ],
       "ingredients_normalized": [
-        "seafood",
-        "pasta",
-        "cheese",
-        "basil",
+        "refrigerated cheese tortellini",
+        "large shrimp peeled and deveined",
+        "baby spinach",
+        "basil pesto",
+        "cloves garlic",
+        "grated parmesan cheese",
         "olive oil",
-        "parmesan"
+        "juice of lemon",
+        "red pepper flakes",
+        "salt and pepper",
+        "basil for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Tortellini with sausage, spinach, mushrooms, lemon",
@@ -1461,15 +2732,39 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/tortellini-sausage-spinach/",
       "source_origin": "existing_source",
       "ingredients": [
-        "pasta",
-        "cheese"
+        "20 oz refrigerated cheese tortellini",
+        "1 lb Italian sausage, casings removed",
+        "8 oz cremini mushrooms, sliced",
+        "3 cups baby spinach",
+        "3 cloves garlic, minced",
+        "1/2 cup heavy cream",
+        "1/2 cup chicken broth",
+        "juice of 1 lemon",
+        "zest of 1 lemon",
+        "1/4 cup grated Parmesan cheese",
+        "2 tablespoons olive oil",
+        "1/4 teaspoon red pepper flakes",
+        "salt and pepper to taste",
+        "fresh parsley for garnish"
       ],
       "ingredients_normalized": [
-        "pasta",
-        "cheese"
+        "refrigerated cheese tortellini",
+        "italian sausage casings removed",
+        "cremini mushrooms",
+        "baby spinach",
+        "cloves garlic",
+        "heavy cream",
+        "chicken broth",
+        "juice of lemon",
+        "zest of lemon",
+        "grated parmesan cheese",
+        "olive oil",
+        "red pepper flakes",
+        "salt and pepper",
+        "parsley for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Zucchini and squash lasagne",
@@ -1480,17 +2775,43 @@
       "resolved_source_url": "https://www.bonappetit.com/recipe/summer-squash-lasagna",
       "source_origin": "existing_source",
       "ingredients": [
-        "pasta",
-        "cheese",
-        "zucchini"
+        "12 lasagne noodles",
+        "3 medium zucchini, thinly sliced lengthwise",
+        "2 yellow squash, thinly sliced lengthwise",
+        "2 cups ricotta cheese",
+        "2 eggs, beaten",
+        "3 cups shredded mozzarella cheese",
+        "1/2 cup grated Parmesan cheese",
+        "2 cups marinara sauce",
+        "3 cloves garlic, minced",
+        "1 large onion, diced",
+        "2 tablespoons olive oil",
+        "1 teaspoon dried basil",
+        "1 teaspoon dried oregano",
+        "1/4 teaspoon red pepper flakes",
+        "salt and pepper to taste",
+        "fresh basil for garnish"
       ],
       "ingredients_normalized": [
-        "pasta",
-        "cheese",
-        "zucchini"
+        "lasagne noodles",
+        "medium zucchini thinly lengthwise",
+        "yellow squash thinly lengthwise",
+        "ricotta cheese",
+        "eggs beaten",
+        "shredded mozzarella cheese",
+        "grated parmesan cheese",
+        "marinara sauce",
+        "cloves garlic",
+        "large onion",
+        "olive oil",
+        "dried basil",
+        "dried oregano",
+        "red pepper flakes",
+        "salt and pepper",
+        "basil for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Baked salmon with asparagus",
@@ -1501,13 +2822,35 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/baked-salmon-with-garlic-and-dijon/",
       "source_origin": "existing_source",
       "ingredients": [
-        "seafood"
+        "4 salmon fillets (6 oz each)",
+        "1 lb asparagus, trimmed",
+        "3 cloves garlic, minced",
+        "2 tablespoons Dijon mustard",
+        "2 tablespoons honey",
+        "2 tablespoons soy sauce",
+        "2 tablespoons olive oil",
+        "juice of 1 lemon",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon dried thyme",
+        "salt and pepper to taste",
+        "lemon slices for serving"
       ],
       "ingredients_normalized": [
-        "seafood"
+        "salmon fillets",
+        "asparagus trimmed",
+        "cloves garlic",
+        "dijon mustard",
+        "honey",
+        "soy sauce",
+        "olive oil",
+        "juice of lemon",
+        "smoked paprika",
+        "dried thyme",
+        "salt and pepper",
+        "lemon slices"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Mediterranean baked cod",
@@ -1518,17 +2861,37 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/mediterranean-baked-cod/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "4 cod fillets (6 oz each)",
+        "1 cup cherry tomatoes, halved",
+        "1/2 cup kalamata olives, pitted",
+        "1/4 cup capers",
+        "3 cloves garlic, minced",
+        "1 large onion, thinly sliced",
+        "1/2 cup dry white wine or chicken broth",
+        "3 tablespoons olive oil",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried thyme",
+        "1/4 teaspoon red pepper flakes",
+        "salt and pepper to taste",
+        "fresh parsley and lemon for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "cod fillets",
+        "cherry tomatoes halved",
+        "kalamata olives pitted",
+        "capers",
+        "cloves garlic",
+        "large onion thinly",
+        "dry white wine or chicken broth",
+        "olive oil",
+        "dried oregano",
+        "dried thyme",
+        "red pepper flakes",
+        "salt and pepper",
+        "parsley and lemon"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Cheddar broccoli soup",
@@ -1539,19 +2902,37 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/24098/broccoli-cheese-soup/",
       "source_origin": "existing_source",
       "ingredients": [
-        "broth",
-        "onion",
-        "garlic",
-        "broccoli"
+        "4 cups broccoli florets, chopped",
+        "2 cups sharp cheddar cheese, shredded",
+        "1 large onion, diced",
+        "3 cloves garlic, minced",
+        "2 carrots, shredded",
+        "3 cups chicken or vegetable broth",
+        "2 cups whole milk or half-and-half",
+        "3 tablespoons unsalted butter",
+        "3 tablespoons all-purpose flour",
+        "1/2 teaspoon mustard powder",
+        "1/4 teaspoon cayenne pepper",
+        "salt and pepper to taste",
+        "crusty bread for serving"
       ],
       "ingredients_normalized": [
-        "broth",
-        "onion",
-        "garlic",
-        "broccoli"
+        "broccoli florets",
+        "sharp cheddar cheese shredded",
+        "large onion",
+        "cloves garlic",
+        "carrots shredded",
+        "chicken or vegetable broth",
+        "whole milk or half-and-half",
+        "unsalted butter",
+        "all-purpose flour",
+        "mustard powder",
+        "cayenne pepper",
+        "salt and pepper",
+        "crusty bread"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Chicken tortilla soup",
@@ -1664,21 +3045,39 @@
       "resolved_source_url": "https://www.tasteofhome.com/recipes/chicken-and-wild-rice-soup/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken",
-        "broth",
-        "onion",
-        "garlic",
-        "rice"
+        "1.5 lbs boneless skinless chicken breasts or thighs",
+        "1 cup uncooked wild rice blend",
+        "1 large onion, diced",
+        "3 carrots, diced",
+        "3 stalks celery, diced",
+        "4 cloves garlic, minced",
+        "6 cups chicken broth",
+        "1 cup heavy cream or half-and-half",
+        "3 tablespoons unsalted butter",
+        "3 tablespoons all-purpose flour",
+        "1 teaspoon dried thyme",
+        "1 bay leaf",
+        "salt and pepper to taste",
+        "fresh parsley for garnish"
       ],
       "ingredients_normalized": [
-        "chicken",
-        "broth",
-        "onion",
-        "garlic",
-        "rice"
+        "boneless skinless chicken breasts or thighs",
+        "uncooked wild rice blend",
+        "large onion",
+        "carrots",
+        "stalks celery",
+        "cloves garlic",
+        "chicken broth",
+        "heavy cream or half-and-half",
+        "unsalted butter",
+        "all-purpose flour",
+        "dried thyme",
+        "bay leaf",
+        "salt and pepper",
+        "parsley for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Grilled cheese and tomato soup",
@@ -1689,19 +3088,37 @@
       "resolved_source_url": "https://www.seriouseats.com/cream-of-tomato-soup-from-scratch",
       "source_origin": "existing_source",
       "ingredients": [
-        "broth",
-        "onion",
-        "garlic",
-        "cheese"
+        "2 cans whole peeled tomatoes (28 oz each)",
+        "1 large onion, diced",
+        "4 cloves garlic, minced",
+        "2 cups chicken or vegetable broth",
+        "1/2 cup heavy cream",
+        "2 tablespoons unsalted butter",
+        "1 tablespoon olive oil",
+        "1 teaspoon sugar",
+        "1/2 teaspoon dried basil",
+        "salt and pepper to taste",
+        "8 slices thick-cut bread (sourdough preferred)",
+        "8 slices cheddar or Gruyere cheese",
+        "4 tablespoons butter, softened"
       ],
       "ingredients_normalized": [
-        "broth",
-        "onion",
-        "garlic",
-        "cheese"
+        "cans whole peeled tomatoes",
+        "large onion",
+        "cloves garlic",
+        "chicken or vegetable broth",
+        "heavy cream",
+        "unsalted butter",
+        "olive oil",
+        "sugar",
+        "dried basil",
+        "salt and pepper",
+        "slices thick-cut bread",
+        "slices cheddar or gruyere cheese",
+        "butter softened"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Black bean soup",
@@ -1712,17 +3129,39 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/14838/black-bean-soup/",
       "source_origin": "existing_source",
       "ingredients": [
-        "broth",
-        "onion",
-        "garlic"
+        "3 cans black beans (15 oz each), drained and rinsed",
+        "4 cups chicken or vegetable broth",
+        "1 large onion, diced",
+        "4 cloves garlic, minced",
+        "2 stalks celery, diced",
+        "2 carrots, diced",
+        "1 can diced tomatoes (14 oz)",
+        "1 teaspoon cumin",
+        "1 teaspoon chili powder",
+        "1/2 teaspoon smoked paprika",
+        "1/2 teaspoon oregano",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "sour cream, cilantro, and lime for serving"
       ],
       "ingredients_normalized": [
-        "broth",
-        "onion",
-        "garlic"
+        "cans black beans drained and rinsed",
+        "chicken or vegetable broth",
+        "large onion",
+        "cloves garlic",
+        "stalks celery",
+        "carrots",
+        "can tomatoes",
+        "cumin",
+        "chili powder",
+        "smoked paprika",
+        "oregano",
+        "olive oil",
+        "salt and pepper",
+        "sour cream cilantro and lime"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Butternut squash soup",
@@ -1733,17 +3172,37 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/229658/butternut-squash-soup-ii/",
       "source_origin": "existing_source",
       "ingredients": [
-        "broth",
-        "onion",
-        "garlic"
+        "1 large butternut squash (about 3 lbs), peeled and cubed",
+        "1 large onion, diced",
+        "3 cloves garlic, minced",
+        "4 cups chicken or vegetable broth",
+        "1/2 cup heavy cream or coconut milk",
+        "2 tablespoons butter",
+        "1 tablespoon olive oil",
+        "1 teaspoon cumin",
+        "1/2 teaspoon nutmeg",
+        "1/2 teaspoon cinnamon",
+        "1/4 teaspoon cayenne pepper",
+        "salt and pepper to taste",
+        "toasted pumpkin seeds and cream for garnish"
       ],
       "ingredients_normalized": [
-        "broth",
-        "onion",
-        "garlic"
+        "large butternut squash peeled and cubed",
+        "large onion",
+        "cloves garlic",
+        "chicken or vegetable broth",
+        "heavy cream or coconut milk",
+        "butter",
+        "olive oil",
+        "cumin",
+        "nutmeg",
+        "cinnamon",
+        "cayenne pepper",
+        "salt and pepper",
+        "toasted pumpkin seeds and cream for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Clam chowder",
@@ -1754,17 +3213,39 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/13109/new-england-clam-chowder-i/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "3 cans chopped clams (6.5 oz each), juice reserved",
+        "4 slices bacon, diced",
+        "3 medium potatoes, diced",
+        "1 large onion, diced",
+        "3 stalks celery, diced",
+        "3 cloves garlic, minced",
+        "2 cups heavy cream",
+        "1 cup whole milk",
+        "3 tablespoons butter",
+        "3 tablespoons all-purpose flour",
+        "1 teaspoon dried thyme",
+        "2 bay leaves",
+        "salt and pepper to taste",
+        "oyster crackers for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "cans clams juice reserved",
+        "slices bacon",
+        "medium potatoes",
+        "large onion",
+        "stalks celery",
+        "cloves garlic",
+        "heavy cream",
+        "whole milk",
+        "butter",
+        "all-purpose flour",
+        "dried thyme",
+        "bay leaves",
+        "salt and pepper",
+        "oyster crackers"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Dal tadka",
@@ -1775,17 +3256,43 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/dal-tadka/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1.5 cups red or yellow lentils, rinsed",
+        "4 cups water or vegetable broth",
+        "1 large onion, diced",
+        "3 tomatoes, diced",
+        "4 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "1 teaspoon cumin seeds",
+        "1 teaspoon turmeric",
+        "1 teaspoon garam masala",
+        "1/2 teaspoon coriander",
+        "1/2 teaspoon red chili powder",
+        "2 tablespoons ghee or butter",
+        "2 tablespoons vegetable oil",
+        "salt to taste",
+        "fresh cilantro for garnish",
+        "basmati rice or naan for serving"
       ],
       "ingredients_normalized": [
+        "red or yellow lentils rinsed",
+        "water or vegetable broth",
+        "large onion",
+        "tomatoes",
+        "cloves garlic",
+        "ginger grated",
+        "cumin seeds",
+        "turmeric",
+        "garam masala",
+        "coriander",
+        "red chili powder",
+        "ghee or butter",
+        "vegetable oil",
         "salt",
-        "pepper",
-        "olive oil"
+        "cilantro for garnish",
+        "basmati rice or naan"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Miso soup with tofu and vegetables",
@@ -1796,17 +3303,29 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/13107/real-miso-soup/",
       "source_origin": "existing_source",
       "ingredients": [
-        "broth",
-        "onion",
-        "garlic"
+        "4 cups dashi or vegetable broth",
+        "3 tablespoons white or red miso paste",
+        "8 oz firm tofu, cubed",
+        "2 cups baby spinach or bok choy",
+        "4 scallions, sliced",
+        "1 cup mushrooms, sliced",
+        "2 tablespoons dried wakame seaweed (optional)",
+        "1 teaspoon sesame oil",
+        "soy sauce to taste"
       ],
       "ingredients_normalized": [
-        "broth",
-        "onion",
-        "garlic"
+        "dashi or vegetable broth",
+        "white or red miso paste",
+        "firm tofu cubed",
+        "baby spinach or bok choy",
+        "scallions",
+        "mushrooms",
+        "dried wakame seaweed",
+        "sesame oil",
+        "soy sauce"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Vietnamese pho",
@@ -1817,17 +3336,35 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228720/authentic-pho/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "8 cups beef broth",
+        "1 lb beef sirloin or brisket, thinly sliced",
+        "8 oz flat rice noodles",
+        "1 large onion, halved",
+        "3 inch piece ginger, halved",
+        "3 star anise",
+        "2 cinnamon sticks",
+        "4 cloves",
+        "2 tablespoons fish sauce",
+        "1 tablespoon sugar",
+        "bean sprouts, fresh basil, lime, jalapeño, and hoisin sauce for serving",
+        "sriracha for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "beef broth",
+        "beef sirloin or brisket thinly",
+        "flat rice noodles",
+        "large onion halved",
+        "inch piece ginger halved",
+        "star anise",
+        "cinnamon sticks",
+        "cloves",
+        "fish sauce",
+        "sugar",
+        "bean sprouts basil lime jalape o and hoisin sauce",
+        "sriracha"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Wonton soup",
@@ -1940,17 +3477,41 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/aloo-gobi/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "3 medium potatoes, cubed",
+        "1 medium head cauliflower, cut into florets",
+        "1 large onion, diced",
+        "3 tomatoes, diced",
+        "4 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "1 teaspoon cumin seeds",
+        "1 teaspoon turmeric",
+        "1 teaspoon coriander",
+        "1 teaspoon garam masala",
+        "1/2 teaspoon chili powder",
+        "3 tablespoons vegetable oil",
+        "salt to taste",
+        "fresh cilantro for garnish",
+        "naan or rice for serving"
       ],
       "ingredients_normalized": [
+        "medium potatoes cubed",
+        "medium head cauliflower cut into florets",
+        "large onion",
+        "tomatoes",
+        "cloves garlic",
+        "ginger grated",
+        "cumin seeds",
+        "turmeric",
+        "coriander",
+        "garam masala",
+        "chili powder",
+        "vegetable oil",
         "salt",
-        "pepper",
-        "olive oil"
+        "cilantro for garnish",
+        "naan or rice"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Saag paneer",
@@ -1961,17 +3522,41 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/saag-paneer/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "1 lb fresh spinach or frozen spinach, thawed",
+        "8 oz paneer cheese, cubed",
+        "1 large onion, diced",
+        "3 tomatoes, diced",
+        "4 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "1/2 cup heavy cream or yogurt",
+        "2 tablespoons butter or ghee",
+        "1 teaspoon cumin seeds",
+        "1 teaspoon garam masala",
+        "1 teaspoon coriander",
+        "1/2 teaspoon turmeric",
+        "1/2 teaspoon chili powder",
+        "salt to taste",
+        "basmati rice or naan for serving"
       ],
       "ingredients_normalized": [
+        "spinach or frozen spinach thawed",
+        "paneer cheese cubed",
+        "large onion",
+        "tomatoes",
+        "cloves garlic",
+        "ginger grated",
+        "heavy cream or yogurt",
+        "butter or ghee",
+        "cumin seeds",
+        "garam masala",
+        "coriander",
+        "turmeric",
+        "chili powder",
         "salt",
-        "pepper",
-        "olive oil"
+        "basmati rice or naan"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Shakshuka",
@@ -1982,17 +3567,39 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/267468/easy-shakshuka/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "6 large eggs",
+        "1 can crushed tomatoes (28 oz)",
+        "1 large onion, diced",
+        "1 red bell pepper, diced",
+        "4 cloves garlic, minced",
+        "1 teaspoon cumin",
+        "1 teaspoon smoked paprika",
+        "1/2 teaspoon chili powder",
+        "1/4 teaspoon cayenne pepper",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "fresh parsley or cilantro for garnish",
+        "1/4 cup feta cheese, crumbled (optional)",
+        "crusty bread or pita for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "large eggs",
+        "can crushed tomatoes",
+        "large onion",
+        "red bell pepper",
+        "cloves garlic",
+        "cumin",
+        "smoked paprika",
+        "chili powder",
+        "cayenne pepper",
+        "olive oil",
+        "salt and pepper",
+        "parsley or cilantro for garnish",
+        "feta cheese crumbled",
+        "crusty bread or pita"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Veggie stir fry with tofu",
@@ -2003,17 +3610,43 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "14 oz extra-firm tofu, pressed and cubed",
+        "2 cups broccoli florets",
+        "1 red bell pepper, sliced",
+        "1 yellow bell pepper, sliced",
+        "1 cup snap peas",
+        "2 carrots, thinly sliced",
+        "3 cloves garlic, minced",
+        "1 tablespoon fresh ginger, grated",
+        "3 tablespoons soy sauce",
+        "1 tablespoon oyster sauce or hoisin sauce",
+        "1 tablespoon sesame oil",
+        "1 tablespoon cornstarch",
+        "1/4 cup water",
+        "2 tablespoons vegetable oil",
+        "cooked rice for serving",
+        "sesame seeds for garnish"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "extra-firm tofu pressed and cubed",
+        "broccoli florets",
+        "red bell pepper",
+        "yellow bell pepper",
+        "snap peas",
+        "carrots thinly",
+        "cloves garlic",
+        "ginger grated",
+        "soy sauce",
+        "oyster sauce or hoisin sauce",
+        "sesame oil",
+        "cornstarch",
+        "water",
+        "vegetable oil",
+        "cooked rice",
+        "sesame seeds for garnish"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Asian noodle salad",
@@ -2024,17 +3657,43 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/237310/cold-asian-noodle-salad/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "8 oz rice noodles or soba noodles",
+        "2 cups shredded purple cabbage",
+        "1 cup shredded carrots",
+        "1 cucumber, julienned",
+        "1 red bell pepper, thinly sliced",
+        "3 scallions, sliced",
+        "1/4 cup fresh cilantro, chopped",
+        "1/4 cup roasted peanuts",
+        "3 tablespoons soy sauce",
+        "2 tablespoons rice vinegar",
+        "1 tablespoon sesame oil",
+        "1 tablespoon honey",
+        "1 tablespoon fresh ginger, grated",
+        "2 cloves garlic, minced",
+        "1 teaspoon sriracha",
+        "lime wedges for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "rice noodles or soba noodles",
+        "shredded purple cabbage",
+        "shredded carrots",
+        "cucumber julienned",
+        "red bell pepper thinly",
+        "scallions",
+        "cilantro",
+        "roasted peanuts",
+        "soy sauce",
+        "rice vinegar",
+        "sesame oil",
+        "honey",
+        "ginger grated",
+        "cloves garlic",
+        "sriracha",
+        "lime wedges"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Caprese salad with prosciutto",
@@ -2045,17 +3704,25 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/12720/caprese-salad/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "4 oz prosciutto, thinly sliced",
+        "8 oz fresh mozzarella, sliced",
+        "3 large ripe tomatoes, sliced",
+        "1/2 cup fresh basil leaves",
+        "3 tablespoons extra virgin olive oil",
+        "2 tablespoons balsamic glaze",
+        "flaky sea salt and black pepper to taste"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "prosciutto thinly",
+        "mozzarella",
+        "large ripe tomatoes",
+        "basil leaves",
+        "extra virgin olive oil",
+        "balsamic glaze",
+        "flaky sea salt and black pepper"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Greek salad with chicken",
@@ -2066,13 +3733,35 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/21177/greek-salad/",
       "source_origin": "existing_source",
       "ingredients": [
-        "chicken"
+        "2 grilled chicken breasts, sliced",
+        "1 head romaine lettuce, chopped",
+        "1 cucumber, diced",
+        "2 cups cherry tomatoes, halved",
+        "1/2 red onion, thinly sliced",
+        "1/2 cup kalamata olives, pitted",
+        "4 oz feta cheese, crumbled",
+        "3 tablespoons olive oil",
+        "2 tablespoons red wine vinegar",
+        "1 teaspoon dried oregano",
+        "salt and pepper to taste",
+        "pita bread for serving"
       ],
       "ingredients_normalized": [
-        "chicken"
+        "grilled chicken breasts",
+        "head romaine lettuce",
+        "cucumber",
+        "cherry tomatoes halved",
+        "red onion thinly",
+        "kalamata olives pitted",
+        "feta cheese crumbled",
+        "olive oil",
+        "red wine vinegar",
+        "dried oregano",
+        "salt and pepper",
+        "pita bread"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Black bean tacos",
@@ -2083,17 +3772,33 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/261680/black-bean-tacos/",
       "source_origin": "existing_source",
       "ingredients": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "2 cans black beans (15 oz each), drained and rinsed",
+        "8 small corn or flour tortillas",
+        "1 cup frozen corn, thawed",
+        "1 large onion, diced",
+        "3 cloves garlic, minced",
+        "1 teaspoon cumin",
+        "1 teaspoon chili powder",
+        "1/2 teaspoon smoked paprika",
+        "2 tablespoons olive oil",
+        "salt and pepper to taste",
+        "shredded cheese, sour cream, salsa, avocado, and cilantro for serving"
       ],
       "ingredients_normalized": [
-        "tortilla",
-        "onion",
-        "cheese"
+        "cans black beans drained and rinsed",
+        "small corn or flour tortillas",
+        "frozen corn thawed",
+        "large onion",
+        "cloves garlic",
+        "cumin",
+        "chili powder",
+        "smoked paprika",
+        "olive oil",
+        "salt and pepper",
+        "shredded cheese sour cream salsa avocado and cilantro"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - BLT sandwich",
@@ -2104,17 +3809,25 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/218735/classic-blt/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "8 slices thick-cut bacon",
+        "8 slices bread (sourdough or white sandwich bread)",
+        "2 large ripe tomatoes, sliced",
+        "4 leaves romaine or iceberg lettuce",
+        "4 tablespoons mayonnaise",
+        "1 tablespoon Dijon mustard (optional)",
+        "salt and pepper to taste"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "slices thick-cut bacon",
+        "slices bread",
+        "large ripe tomatoes",
+        "leaves romaine or iceberg lettuce",
+        "mayonnaise",
+        "dijon mustard",
+        "salt and pepper"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Egg salad sandwich",
@@ -2125,17 +3838,29 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/4565/classic-egg-salad/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "8 hard-boiled eggs, peeled and chopped",
+        "3 tablespoons mayonnaise",
+        "1 tablespoon Dijon mustard",
+        "2 stalks celery, finely diced",
+        "2 tablespoons fresh chives or dill, chopped",
+        "1 tablespoon lemon juice",
+        "salt and pepper to taste",
+        "8 slices bread or 4 croissants",
+        "lettuce and tomato for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "hard-boiled eggs peeled and",
+        "mayonnaise",
+        "dijon mustard",
+        "stalks celery finely",
+        "chives or dill",
+        "lemon juice",
+        "salt and pepper",
+        "slices bread or croissants",
+        "lettuce and tomato"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Quesadillas",
@@ -2146,17 +3871,31 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/223042/easy-chicken-quesadillas/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "2 cups cooked chicken, shredded",
+        "4 large flour tortillas",
+        "2 cups shredded Monterey Jack or cheddar cheese",
+        "1/2 cup diced bell peppers",
+        "1/4 cup diced red onion",
+        "1 tablespoon butter or olive oil",
+        "1 teaspoon cumin",
+        "1/2 teaspoon garlic powder",
+        "salt and pepper to taste",
+        "sour cream, salsa, and guacamole for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "cooked chicken shredded",
+        "large flour tortillas",
+        "shredded monterey jack or cheddar cheese",
+        "bell peppers",
+        "red onion",
+        "butter or olive oil",
+        "cumin",
+        "garlic powder",
+        "salt and pepper",
+        "sour cream salsa and guacamole"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Tuna salad sandwich",
@@ -2167,17 +3906,31 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/23544/tuna-salad/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "2 cans tuna in water (5 oz each), drained",
+        "3 tablespoons mayonnaise",
+        "1 tablespoon Dijon mustard",
+        "2 stalks celery, finely diced",
+        "2 tablespoons red onion, finely diced",
+        "1 tablespoon lemon juice",
+        "1 tablespoon fresh dill or parsley, chopped",
+        "salt and pepper to taste",
+        "8 slices bread",
+        "lettuce and tomato for serving"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "cans tuna in water drained",
+        "mayonnaise",
+        "dijon mustard",
+        "stalks celery finely",
+        "red onion finely",
+        "lemon juice",
+        "dill or parsley",
+        "salt and pepper",
+        "slices bread",
+        "lettuce and tomato"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Turkey and avocado wrap",
@@ -2188,17 +3941,31 @@
       "resolved_source_url": "https://www.eatingwell.com/recipe/269311/turkey-avocado-wrap/",
       "source_origin": "existing_source",
       "ingredients": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "4 large flour tortillas",
+        "8 oz deli turkey breast, sliced",
+        "2 ripe avocados, sliced",
+        "4 oz cream cheese or hummus",
+        "2 cups baby spinach or mixed greens",
+        "1 large tomato, sliced",
+        "1/2 red onion, thinly sliced",
+        "4 oz Swiss or provolone cheese, sliced",
+        "1 tablespoon lemon juice",
+        "salt and pepper to taste"
       ],
       "ingredients_normalized": [
-        "salt",
-        "pepper",
-        "olive oil"
+        "large flour tortillas",
+        "deli turkey breast",
+        "ripe avocados",
+        "cream cheese or hummus",
+        "baby spinach or mixed greens",
+        "large tomato",
+        "red onion thinly",
+        "swiss or provolone cheese",
+        "lemon juice",
+        "salt and pepper"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     },
     {
       "title": "Suggested - Lentil soup",
@@ -2209,17 +3976,43 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/22028/lentil-soup/",
       "source_origin": "existing_source",
       "ingredients": [
-        "broth",
-        "onion",
-        "garlic"
+        "2 cups green or brown lentils, rinsed",
+        "6 cups chicken or vegetable broth",
+        "1 large onion, diced",
+        "3 carrots, diced",
+        "3 stalks celery, diced",
+        "4 cloves garlic, minced",
+        "1 can diced tomatoes (14 oz)",
+        "2 teaspoons cumin",
+        "1 teaspoon turmeric",
+        "1 teaspoon smoked paprika",
+        "1/2 teaspoon coriander",
+        "2 tablespoons olive oil",
+        "juice of 1 lemon",
+        "salt and pepper to taste",
+        "fresh parsley for garnish",
+        "crusty bread for serving"
       ],
       "ingredients_normalized": [
-        "broth",
-        "onion",
-        "garlic"
+        "green or brown lentils rinsed",
+        "chicken or vegetable broth",
+        "large onion",
+        "carrots",
+        "stalks celery",
+        "cloves garlic",
+        "can tomatoes",
+        "cumin",
+        "turmeric",
+        "smoked paprika",
+        "coriander",
+        "olive oil",
+        "juice of lemon",
+        "salt and pepper",
+        "parsley for garnish",
+        "crusty bread"
       ],
-      "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
     }
   ]
 }
