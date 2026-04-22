@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-22T16:11:42.114Z",
+  "generated_at": "2026-04-22T16:16:27.877Z",
   "stats": {
     "total_recipes": 696,
     "with_existing_source": 98,
-    "resolved_from_search": 0,
+    "resolved_from_search": 5,
     "scraped_ingredients": 9,
     "markdown_fallback": 89,
     "heuristic_only": 598
@@ -5903,8 +5903,8 @@
       "style": "meat",
       "source_url": null,
       "id": "dinner-meat-mealdb-adana-kebab",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bing.com/camera",
+      "source_origin": "web_search",
       "ingredients": [
         "salt",
         "pepper",
@@ -5916,7 +5916,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "MealDB - Algerian Kefta (Meatballs)",
@@ -7831,8 +7831,8 @@
       "style": "meat",
       "source_url": null,
       "id": "dinner-meat-mealdb-irish-stew",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bing.com/",
+      "source_origin": "web_search",
       "ingredients": [
         "broth",
         "onion",
@@ -7844,7 +7844,7 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "MealDB - Jamaican Beef Patties",
@@ -8356,8 +8356,8 @@
       "style": "meat",
       "source_url": null,
       "id": "dinner-meat-mealdb-lemongrass-beef-stew-with-noodles",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bing.com/visualsearch",
+      "source_origin": "web_search",
       "ingredients": [
         "beef",
         "broth",
@@ -8371,7 +8371,7 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "MealDB - Ma Po Tofu",
@@ -14932,8 +14932,8 @@
       "style": "vegetarian",
       "source_url": null,
       "id": "dinner-vegetarian-mealdb-stuffed-bell-peppers-with-quinoa-and-black-beans",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bing.com/tools/qrcode",
+      "source_origin": "web_search",
       "ingredients": [
         "salt",
         "pepper",
@@ -14945,7 +14945,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "MealDB - Sukuma Wiki",
@@ -15176,8 +15176,8 @@
       "style": "vegetarian",
       "source_url": null,
       "id": "dinner-vegetarian-mealdb-tortang-talong",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bing.com/camera",
+      "source_origin": "web_search",
       "ingredients": [
         "salt",
         "pepper",
@@ -15189,7 +15189,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "MealDB - Vegan banh mi",

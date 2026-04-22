@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T16:11:42.151Z",
+  "generatedAt": "2026-04-22T16:16:27.899Z",
   "region": "colorado",
   "regionLabel": "Colorado",
   "totalRecipes": 696,
@@ -6940,7 +6940,7 @@
       "title": "MealDB - Irish stew",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.bing.com/",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -7010,7 +7010,7 @@
       "title": "MealDB - Lemongrass beef stew with noodles",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.bing.com/visualsearch",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -7903,7 +7903,7 @@
       "title": "MealDB - Adana kebab",
       "meal": "dinner",
       "style": "meat",
-      "source": "",
+      "source": "https://www.bing.com/camera",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -12523,7 +12523,7 @@
       "title": "MealDB - Stuffed Bell Peppers with Quinoa and Black Beans",
       "meal": "dinner",
       "style": "vegetarian",
-      "source": "",
+      "source": "https://www.bing.com/tools/qrcode",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -12973,7 +12973,7 @@
       "title": "MealDB - Tortang Talong",
       "meal": "dinner",
       "style": "vegetarian",
-      "source": "",
+      "source": "https://www.bing.com/camera",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
