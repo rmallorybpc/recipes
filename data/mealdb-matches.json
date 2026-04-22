@@ -1,0 +1,946 @@
+{
+  "generated_at": "2026-04-22T14:16:24.920Z",
+  "api_key_type": "paid",
+  "total_searched": 87,
+  "total_matched": 26,
+  "total_no_match": 61,
+  "matches": [
+    {
+      "id": "breakfast-baked-casserole-big-daddy-biscuits",
+      "search": "biscuits",
+      "match_score": 0.9,
+      "mealdb_id": "53111",
+      "mealdb_name": "Anzac biscuits",
+      "mealdb_category": "Dessert",
+      "mealdb_area": "Australian",
+      "source_url": "https://www.themealdb.com/meal/53111",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/anzac-biscuits",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/q47rkb1762324620.jpg",
+      "ingredients": [
+        "85g Porridge oats",
+        "85g Desiccated Coconut",
+        "100g Plain Flour",
+        "100g Caster Sugar",
+        "100g Butter",
+        "1 tblsp Golden Syrup",
+        "1 teaspoon Bicarbonate Of Soda"
+      ],
+      "instructions_preview": "step 1\r\nHeat oven to 180C/fan 160C/gas 4. Put the oats, coconut, flour and sugar in a bowl. Melt the butter in a small pan and stir in the golden syrup. Add the bicarbonate of soda to 2 tbsp boiling w..."
+    },
+    {
+      "id": "breakfast-baked-casserole-suggested-banana-oat-pancakes",
+      "search": "banana pancakes",
+      "match_score": 1,
+      "mealdb_id": "52855",
+      "mealdb_name": "Banana Pancakes",
+      "mealdb_category": "Dessert",
+      "mealdb_area": "American",
+      "source_url": "https://www.themealdb.com/meal/52855",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/banana-pancakes",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
+      "ingredients": [
+        "1 large Banana",
+        "2 medium Eggs",
+        "pinch Baking Powder",
+        "spinkling Vanilla Extract",
+        "1 tsp Oil",
+        "25g Pecan Nuts",
+        "125g Raspberries"
+      ],
+      "instructions_preview": "In a bowl, mash the banana with a fork until it resembles a thick purée. Stir in the eggs, baking powder and vanilla.\r\nHeat a large non-stick frying pan or pancake pan over a medium heat and brush wit..."
+    },
+    {
+      "id": "dinner-baked-casserole-homemade-pizza",
+      "search": "pizza",
+      "match_score": 0.9,
+      "mealdb_id": "53330",
+      "mealdb_name": "Cassava pizza",
+      "mealdb_category": "Pork",
+      "mealdb_area": "Venezulan",
+      "source_url": "https://www.themealdb.com/meal/53330",
+      "mealdb_source_url": "https://goya.es/en/recipes/cassava-pizza",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/lrfdwz1764438393.jpg",
+      "ingredients": [
+        "6 cut thick slices Casabe",
+        "450g Tomato Sauce",
+        "225g Chorizo",
+        "225g Turkey Ham",
+        "75g Sweetcorn",
+        "40g Green Olives",
+        "55g Paprika",
+        "50g Mozzarella"
+      ],
+      "instructions_preview": "Preheat the oven to 200ºC.\r\nCut the bacon or chorizo into medium pieces and the paprika into strips.\r\nSpread a little tomato sauce and mozzarella cheese on each portion of cassava.\r\nAdd the bacon or c..."
+    },
+    {
+      "id": "dinner-bowls-suggested-thai-green-curry",
+      "search": "thai green curry",
+      "match_score": 1,
+      "mealdb_id": "52814",
+      "mealdb_name": "Thai Green Curry",
+      "mealdb_category": "Chicken",
+      "mealdb_area": "Thai",
+      "source_url": "https://www.themealdb.com/meal/52814",
+      "mealdb_source_url": "http://www.bbcgoodfood.com/recipes/3235/thai-green-chicken-curry",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
+      "ingredients": [
+        "225g new Potatoes",
+        "100g green beans",
+        "1 tbsp sunflower oil",
+        "1 clove garlic",
+        "4 tsp Thai green curry paste",
+        "400ml coconut milk",
+        "2 tsp Thai fish sauce",
+        "1 tsp Sugar",
+        "450g boneless Chicken",
+        "2 fresh kaffir leaves lime",
+        "handfull basil",
+        "Boiled Rice"
+      ],
+      "instructions_preview": "Put the potatoes in a pan of boiling water and cook for 5 minutes. Throw in the beans and cook for a further 3 minutes, by which time both should be just tender but not too soft. Drain and put to one ..."
+    },
+    {
+      "id": "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
+      "search": "fish tacos",
+      "match_score": 0.9,
+      "mealdb_id": "52819",
+      "mealdb_name": "Cajun spiced fish tacos",
+      "mealdb_category": "Seafood",
+      "mealdb_area": "Mexican",
+      "source_url": "https://www.themealdb.com/meal/52819",
+      "mealdb_source_url": "https://realfood.tesco.com/recipes/cajun-spiced-fish-tacos.html",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg",
+      "ingredients": [
+        "2 tbsp cajun",
+        "1 tsp cayenne pepper",
+        "4 fillets white fish",
+        "1 tsp vegetable oil",
+        "8 flour tortilla",
+        "1 sliced avocado",
+        "2 shredded little gem lettuce",
+        "4 shredded Spring Onions",
+        "1 x 300ml salsa",
+        "1 pot sour cream",
+        "1 lemon",
+        "1 clove finely chopped garlic"
+      ],
+      "instructions_preview": "Cooking in a cajun spice and cayenne pepper marinade makes this fish super succulent and flavoursome. Top with a zesty dressing and serve in a tortilla for a quick, fuss-free main that's delightfully ..."
+    },
+    {
+      "id": "dinner-meat-beef-and-broccoli",
+      "search": "beef and broccoli",
+      "match_score": 0.9,
+      "mealdb_id": "53366",
+      "mealdb_name": "Beef and Broccoli Stir-Fry",
+      "mealdb_category": "Beef",
+      "mealdb_area": "Chinese",
+      "source_url": "https://www.themealdb.com/meal/53366",
+      "mealdb_source_url": "https://www.simplyrecipes.com/recipes/broccoli_beef/",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/m0p0j81765568742.jpg",
+      "ingredients": [
+        "1 tsp Soy Sauce",
+        "1 tsp Dry sherry",
+        "1/2 tsp Cornstarch",
+        "1/8 teaspoon Black Pepper",
+        "1 lb Sirloin steak",
+        "2 tablespoons Oyster Sauce",
+        "1 tsp Dry sherry",
+        "1 tablespoon Soy Sauce",
+        "1/4 cup Chicken Stock",
+        "1 lb Broccoli",
+        "2 tablespoons High Heat Cooking Oil",
+        "2 cloves minced Garlic",
+        "1 tsp Cornstarch",
+        "1 tablespoon Water"
+      ],
+      "instructions_preview": "Marinate the beef:\r\nStir together the beef marinade ingredients (1 teaspoon soy sauce, 1 teaspoon Chinese rice wine, 1/2 teaspoon cornstarch, 1/8 teaspoon black pepper) in a medium bowl.\r\n\r\nAdd the be..."
+    },
+    {
+      "id": "dinner-meat-chicken-wings",
+      "search": "chicken wings",
+      "match_score": 0.9,
+      "mealdb_id": "53261",
+      "mealdb_name": "Chicken wings with cumin, lemon & garlic",
+      "mealdb_category": "Chicken",
+      "mealdb_area": "Turkish",
+      "source_url": "https://www.themealdb.com/meal/53261",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/chicken-wings-cumin-lemon-garlic",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/4hzyvq1763792564.jpg",
+      "ingredients": [
+        "12 Chicken Wings",
+        "2 cloves minced Garlic",
+        "Zest and juice of 1 Lemon",
+        "1 tsp Cumin Seeds",
+        "2 tablespoons Olive Oil",
+        "1 tablespoon Honey"
+      ],
+      "instructions_preview": "step 1\r\nUsing a pair of sharp kitchen scissors, cut each wing at the knuckle into two pieces. Mix the garlic, lemon zest and juice, cumin and oil with plenty of seasoning, then tip into a dish with th..."
+    },
+    {
+      "id": "dinner-meat-fried-chicken",
+      "search": "fried chicken",
+      "match_score": 0.9,
+      "mealdb_id": "52813",
+      "mealdb_name": "Kentucky Fried Chicken",
+      "mealdb_category": "Chicken",
+      "mealdb_area": "American",
+      "source_url": "https://www.themealdb.com/meal/52813",
+      "mealdb_source_url": "http://www.tablespoon.com/recipes/copycat-kfc-original-style-chicken/97c93d14-9d8c-4bc7-96dc-1e0b37e4fcaa",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/40r49m1763197022.jpg",
+      "ingredients": [
+        "1 whole Chicken",
+        "2 quarts neutral frying Oil",
+        "1 Egg White",
+        "1 1/2 cups Flour",
+        "1 tablespoon Brown Sugar",
+        "1 tablespoon Salt",
+        "1 tablespoon paprika",
+        "2 teaspoons onion salt",
+        "1 teaspoon chili powder",
+        "1 teaspoon black pepper",
+        "1/2 teaspoon celery salt",
+        "1/2 teaspoon sage",
+        "1/2 teaspoon garlic powder",
+        "1/2 teaspoon allspice",
+        "1/2 teaspoon oregano",
+        "1/2 teaspoon basil",
+        "1/2 teaspoon marjoram"
+      ],
+      "instructions_preview": "Preheat fryer to 350°F. Thoroughly mix together all the spice mix ingredients.\r\nCombine spice mix with flour, brown sugar and salt.\r\nDip chicken pieces in egg white to lightly coat them, then transfer..."
+    },
+    {
+      "id": "dinner-meat-pork-chops",
+      "search": "pork chops",
+      "match_score": 0.9,
+      "mealdb_id": "52994",
+      "mealdb_name": "Skillet Apple Pork Chops with Roasted Sweet Potatoes & Zucchini",
+      "mealdb_category": "Pork",
+      "mealdb_area": "American",
+      "source_url": "https://www.themealdb.com/meal/52994",
+      "mealdb_source_url": null,
+      "thumbnail": "https://www.themealdb.com/images/media/meals/h3ijwo1581013377.jpg",
+      "ingredients": [
+        "2 Potatoes",
+        "1 Apples",
+        "2 cloves Garlic",
+        "1 Lemon",
+        "2 Pork",
+        "1 Zucchini",
+        "1 Chicken Stock",
+        "1 tbsp Vegetable Oil",
+        "1 1/2 tsp Sugar",
+        "2 tbsp Butter"
+      ],
+      "instructions_preview": "\r\nServes 2\r\n\r\n\r\n1. \r\n\r\nAdjust racks to top and middle positions and preheat oven to 450 degrees. Wash and dry all produce. Dice sweet potatoes into 1/2-inch pieces. Toss on a baking sheet with a drizz..."
+    },
+    {
+      "id": "dinner-meat-round-steak-stroganoff",
+      "search": "beef stroganoff",
+      "match_score": 1,
+      "mealdb_id": "52834",
+      "mealdb_name": "Beef stroganoff",
+      "mealdb_category": "Beef",
+      "mealdb_area": "Russian",
+      "source_url": "https://www.themealdb.com/meal/52834",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/beef-stroganoff",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/svprys1511176755.jpg",
+      "ingredients": [
+        "1 tbls Olive Oil",
+        "1 Onions",
+        "1 clove Garlic",
+        "1 tbsp Butter",
+        "250g Mushrooms",
+        "500g Beef Fillet",
+        "1tbsp Plain Flour",
+        "150g Creme Fraiche",
+        "1 tbsp English Mustard",
+        "100ml Beef Stock",
+        "Topping Parsley"
+      ],
+      "instructions_preview": "Heat the olive oil in a non-stick frying pan then add the sliced onion and cook on a medium heat until completely softened, so around 15 mins, adding a little splash of water if they start to stick at..."
+    },
+    {
+      "id": "dinner-meat-stew",
+      "search": "beef stew",
+      "match_score": 0.9,
+      "mealdb_id": "53211",
+      "mealdb_name": "Lemongrass beef stew with noodles",
+      "mealdb_category": "Beef",
+      "mealdb_area": "Thai",
+      "source_url": "https://www.themealdb.com/meal/53211",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/lemongrass-beef-stew-noodles",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/ntafxw1763586291.jpg",
+      "ingredients": [
+        "1 tablespoon chopped Ginger",
+        "2 chopped Garlic Clove",
+        "3 Lemongrass Stalks",
+        "2 tblsp Coriander Leaves",
+        "2 sliced Red Chilli",
+        "2 tblsp Vegetable Oil",
+        "250g Beef",
+        "2 tblsp Soy Sauce",
+        "1 tsp Five Spice Powder",
+        "1 tsp Brown Sugar",
+        "400ml Beef Stock",
+        "100g Rice Noodles",
+        "To serve Lime"
+      ],
+      "instructions_preview": "step 1\r\nPut the ginger, garlic, lemongrass, coriander and 1 chilli in a food processor, then pulse until puréed. Heat the oil in a pan over a low heat. Add the purée and cook for 5 mins. Stir in the b..."
+    },
+    {
+      "id": "dinner-rice-or-pasta-homemade-mac-n-cheese",
+      "search": "mac and cheese",
+      "match_score": 0.9,
+      "mealdb_id": "52818",
+      "mealdb_name": "Chicken Fajita Mac and Cheese",
+      "mealdb_category": "Chicken",
+      "mealdb_area": "American",
+      "source_url": "https://www.themealdb.com/meal/52818",
+      "mealdb_source_url": "http://twistedfood.co.uk/chicken-fajita-mac-n-cheese/",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg",
+      "ingredients": [
+        "500g macaroni",
+        "2 cups chicken stock",
+        "1/2 cup heavy cream",
+        "1 packet fajita seasoning",
+        "1 tsp salt",
+        "3 diced chicken breast",
+        "2 tbsp olive oil",
+        "1 small finely diced onion",
+        "2 finely diced red pepper",
+        "2 cloves minced garlic",
+        "1 cup cheddar cheese",
+        "garnish chopped parsley"
+      ],
+      "instructions_preview": "Fry your onion, peppers and garlic in olive oil until nicely translucent. Make a well in your veg and add your chicken. Add your seasoning and salt. Allow to colour slightly.\r\nAdd your cream, stock an..."
+    },
+    {
+      "id": "dinner-rice-or-pasta-lasagne",
+      "search": "lasagne",
+      "match_score": 1,
+      "mealdb_id": "52844",
+      "mealdb_name": "Lasagne",
+      "mealdb_category": "Pasta",
+      "mealdb_area": "Italian",
+      "source_url": "https://www.themealdb.com/meal/52844",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/classic-lasagne",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg",
+      "ingredients": [
+        "1 tblsp Olive Oil",
+        "2 Bacon",
+        "1 finely chopped Onion",
+        "1 Stick Celery",
+        "1 medium Carrots",
+        "2 cloves chopped Garlic",
+        "500g Minced Beef",
+        "1 tbls Tomato Puree",
+        "800g Chopped Tomatoes",
+        "1 tblsp Honey",
+        "500g Lasagne Sheets",
+        "400ml Creme Fraiche",
+        "125g Mozzarella Balls",
+        "50g Parmesan Cheese",
+        "Topping Basil Leaves"
+      ],
+      "instructions_preview": "Heat the oil in a large saucepan. Use kitchen scissors to snip the bacon into small pieces, or use a sharp knife to chop it on a chopping board. Add the bacon to the pan and cook for just a few mins u..."
+    },
+    {
+      "id": "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
+      "search": "meatballs",
+      "match_score": 0.9,
+      "mealdb_id": "53277",
+      "mealdb_name": "Lamb & apricot meatballs",
+      "mealdb_category": "Lamb",
+      "mealdb_area": "Turkish",
+      "source_url": "https://www.themealdb.com/meal/53277",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/lamb-apricot-meatballs",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/72fgzj1764109947.jpg",
+      "ingredients": [
+        "2 tablespoons Olive Oil",
+        "2 chopped Red Onions",
+        "4 Cloves Crushed Garlic",
+        "2 tsp Ground Cumin",
+        "2 tsp Ground Coriander",
+        "400g Tinned Tomatos",
+        "1/2 teaspoon Sugar",
+        "10g Mint",
+        "500g Lamb Mince",
+        "8 Dried Apricots",
+        "50g Breadcrumbs",
+        "To serve Pita Bread"
+      ],
+      "instructions_preview": "step 1\r\nHeat 2 tsp oil in a pan and soften the onions for 5 mins. Add the garlic and spices and cook for a few mins more. Spoon half the onion mixture into a bowl and set aside to cool. Add the tomato..."
+    },
+    {
+      "id": "dinner-rice-or-pasta-spaghetti",
+      "search": "spaghetti bolognese",
+      "match_score": 1,
+      "mealdb_id": "52770",
+      "mealdb_name": "Spaghetti Bolognese",
+      "mealdb_category": "Beef",
+      "mealdb_area": "Italian",
+      "source_url": "https://www.themealdb.com/meal/52770",
+      "mealdb_source_url": null,
+      "thumbnail": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg",
+      "ingredients": [
+        "2 onions",
+        "1tbsp olive oil",
+        "1 clove garlic",
+        "500g lean minced beef",
+        "90g mushrooms",
+        "1tsp dried oregano",
+        "400g can tomatoes",
+        "300ml hot beef stock",
+        "1tbsp tomato puree",
+        "1tbsp worcestershire sauce",
+        "350g spaghetti",
+        "Topping parmesan"
+      ],
+      "instructions_preview": "Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of m..."
+    },
+    {
+      "id": "dinner-rice-or-pasta-suggested-chicken-pad-thai",
+      "search": "pad thai",
+      "match_score": 1,
+      "mealdb_id": "53191",
+      "mealdb_name": "Pad Thai",
+      "mealdb_category": "Seafood",
+      "mealdb_area": "Thai",
+      "source_url": "https://www.themealdb.com/meal/53191",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/easy-pad-thai",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/rg9ze01763479093.jpg",
+      "ingredients": [
+        "125g Rice Noodles",
+        "Juice of 3 Lime",
+        "1/2 teaspoon Cayenne Pepper",
+        "2 teaspoons Muscovado Sugar",
+        "2 tablespoons Fish Sauce",
+        "2 tablespoons Vegetable Oil",
+        "200g Tiger Prawns",
+        "4 finely sliced Spring Onions",
+        "140g Bean Sprouts",
+        "25g Peanuts",
+        "Handful Coriander",
+        "2 Lime",
+        "To serve sweet chilli sauce"
+      ],
+      "instructions_preview": "step 1\r\nPut the noodles in a large heatproof bowl, pour boiling water over them and leave for 4 minutes, then drain and refresh under cold running water.\r\n\r\nstep 2\r\nPut the lime juice, cayenne, sugar ..."
+    },
+    {
+      "id": "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
+      "search": "fried rice",
+      "match_score": 0.9,
+      "mealdb_id": "53367",
+      "mealdb_name": "Chicken Fried Rice",
+      "mealdb_category": "Chicken",
+      "mealdb_area": "Chinese",
+      "source_url": "https://www.themealdb.com/meal/53367",
+      "mealdb_source_url": "https://www.simplyrecipes.com/recipes/chicken_fried_rice/",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/wuyd2h1765655837.jpg",
+      "ingredients": [
+        "1 lb Chicken Thighs",
+        "1 tsp Salt",
+        "3  tablespoons Canola Oil",
+        "3 Large Egg",
+        "2/3 Cup Onion",
+        "2 cloves minced Garlic",
+        "2 tsp Ground Ginger",
+        "1 large Carrots",
+        "2/3 Cup Peas",
+        "4 cups Jasmine Rice",
+        "2 sliced Scallions",
+        "1/2 tsp Chinese five spice powder",
+        "2.5 tbsp Soy Sauce",
+        "1 tsp Sesame Seed Oil"
+      ],
+      "instructions_preview": "Fried rice is best made with leftover rice that's at least a day old. Otherwise it becomes gummy in the skillet.\r\nIf you don’t have any leftover rice from the night before, cook a batch of rice and sp..."
+    },
+    {
+      "id": "dinner-seafood-suggested-baked-salmon-with-asparagus",
+      "search": "baked salmon",
+      "match_score": 0.9,
+      "mealdb_id": "52959",
+      "mealdb_name": "Baked salmon with fennel & tomatoes",
+      "mealdb_category": "Seafood",
+      "mealdb_area": "British",
+      "source_url": "https://www.themealdb.com/meal/52959",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/7745/baked-salmon-with-fennel-and-tomatoes",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+      "ingredients": [
+        "2 medium Fennel",
+        "2 tbs chopped Parsley",
+        "Juice of 1 Lemon",
+        "175g Cherry Tomatoes",
+        "1 tbs Olive Oil",
+        "350g Salmon",
+        "to serve Black Olives"
+      ],
+      "instructions_preview": "Heat oven to 180C/fan 160C/gas 4. Trim the fronds from the fennel and set aside. Cut the fennel bulbs in half, then cut each half into 3 wedges. Cook in boiling salted water for 10 mins, then drain we..."
+    },
+    {
+      "id": "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
+      "search": "tomato soup",
+      "match_score": 0.9,
+      "mealdb_id": "52841",
+      "mealdb_name": "Creamy Tomato Soup",
+      "mealdb_category": "Starter",
+      "mealdb_area": "British",
+      "source_url": "https://www.themealdb.com/meal/52841",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/2604646/creamy-tomato-soup",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg",
+      "ingredients": [
+        "3 tbsp Olive Oil",
+        "2 chopped Onions",
+        "2 sticks Celery",
+        "300g Carrots",
+        "500g Potatoes",
+        "4 Bay Leaf",
+        "5 tblsp Tomato Puree",
+        "2 tblsp Sugar",
+        "2 tblsp White Vinegar",
+        "1½ kg Chopped Tomatoes",
+        "500g Passata",
+        "3 Vegetable Stock Cube",
+        "400ml Whole Milk"
+      ],
+      "instructions_preview": "Put the oil, onions, celery, carrots, potatoes and bay leaves in a big casserole dish, or two saucepans. Fry gently until the onions are softened – about 10-15 mins. Fill the kettle and boil it.\r\nStir..."
+    },
+    {
+      "id": "dinner-soup-or-stew-suggested-clam-chowder",
+      "search": "clam chowder",
+      "match_score": 1,
+      "mealdb_id": "52840",
+      "mealdb_name": "Clam chowder",
+      "mealdb_category": "Starter",
+      "mealdb_area": "American",
+      "source_url": "https://www.themealdb.com/meal/52840",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/clam-chowder",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg",
+      "ingredients": [
+        "1½ kg Clams",
+        "50g Butter",
+        "150g Bacon",
+        "1 finely chopped Onion",
+        "sprigs of fresh Thyme",
+        "1 Bay Leaf",
+        "1 tbls Plain Flour",
+        "150ml Milk",
+        "150ml Double Cream",
+        "2 medium Potatoes",
+        "Chopped Parsley"
+      ],
+      "instructions_preview": "Rinse the clams in several changes of cold water and drain well. Tip the clams into a large pan with 500ml of water. Cover, bring to the boil and simmer for 2 mins until the clams have just opened. Ti..."
+    },
+    {
+      "id": "dinner-soup-or-stew-suggested-dal-tadka",
+      "search": "dal",
+      "match_score": 0.9,
+      "mealdb_id": "52785",
+      "mealdb_name": "Dal fry",
+      "mealdb_category": "Vegetarian",
+      "mealdb_area": "Indian",
+      "source_url": "https://www.themealdb.com/meal/52785",
+      "mealdb_source_url": "https://www.instagram.com/p/BO21bpYD3Fu",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg",
+      "ingredients": [
+        "1 cup Toor dal",
+        "2-1/2 cups Water",
+        "1 tsp Salt",
+        "1/4 tsp Turmeric",
+        "3 tbs Ghee",
+        "1 cup Chopped tomatoes",
+        "1/2 tsp Cumin seeds",
+        "1/2 tsp Mustard Seeds",
+        "2 Bay Leaf",
+        "1 tbs chopped Green Chilli",
+        "2 tsp shredded Ginger",
+        "2 tbs Cilantro",
+        "1/2 tsp Red Pepper",
+        "1/2 tsp Salt",
+        "1 tsp Sugar",
+        "1/4 tsp Garam Masala"
+      ],
+      "instructions_preview": "Wash and soak toor dal in approx. 3 cups of water, for at least one hours. Dal will be double in volume after soaking. Drain the water.\r\nCook dal with 2-1/2 cups water and add salt, turmeric, on mediu..."
+    },
+    {
+      "id": "dinner-soup-or-stew-suggested-vietnamese-pho",
+      "search": "pho",
+      "match_score": 0.9,
+      "mealdb_id": "53238",
+      "mealdb_name": "Beef pho",
+      "mealdb_category": "Beef",
+      "mealdb_area": "Vietnamese",
+      "source_url": "https://www.themealdb.com/meal/53238",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/beef-pho",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/pbzcrx1763765096.jpg",
+      "ingredients": [
+        "1 L Beef Stock",
+        "1 large Onion",
+        "1 Large Chopped Ginger",
+        "1 Cinnamon Stick",
+        "2 Star Anise",
+        "1 tsp Coriander Seeds",
+        "1/2 teaspoon Cloves",
+        "225g Sirloin steak",
+        "1 tsp Palm Sugar",
+        "1 tablespoon Fish Sauce",
+        "1 ½ tbsp Soy Sauce",
+        "200g Rice Noodles",
+        "2 sliced Spring Onions",
+        "1 small Birds-eye Chillies",
+        "Handful Basil",
+        "Handful Coriander",
+        "1 Lime"
+      ],
+      "instructions_preview": "step 1\r\nTip the beef stock along with 500ml of water into a large saucepan. Sit the onion and ginger in a frying pan over a high heat and char on all sides, around 3-5 mins (you can also do this under..."
+    },
+    {
+      "id": "dinner-vegetarian-suggested-shakshuka",
+      "search": "shakshuka",
+      "match_score": 1,
+      "mealdb_id": "52963",
+      "mealdb_name": "Shakshuka",
+      "mealdb_category": "Vegetarian",
+      "mealdb_area": "Egyptian",
+      "source_url": "https://www.themealdb.com/meal/52963",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/7573/spicy-tomato-baked-eggs",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg",
+      "ingredients": [
+        "1 tbs Olive Oil",
+        "2 chopped Red Onions",
+        "1 finely chopped Red Chilli",
+        "1 clove Garlic",
+        "Chopped Coriander",
+        "800g Cherry Tomatoes",
+        "1 tbs Caster Sugar",
+        "4 Eggs",
+        "Spinkling Feta"
+      ],
+      "instructions_preview": "Heat the oil in a frying pan that has a lid, then soften the onions, chilli, garlic and coriander stalks for 5 mins until soft. Stir in the tomatoes and sugar, then bubble for 8-10 mins until thick. C..."
+    },
+    {
+      "id": "lunch-bowls-suggested-asian-noodle-salad",
+      "search": "noodle salad",
+      "match_score": 0.9,
+      "mealdb_id": "53203",
+      "mealdb_name": "Thai rice noodle salad",
+      "mealdb_category": "Vegetarian",
+      "mealdb_area": "Thai",
+      "source_url": "https://www.themealdb.com/meal/53203",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/thai-rice-noodle-salad",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/6g3rso1763486069.jpg",
+      "ingredients": [
+        "1/2 bag Vermicelli Rice Noodles",
+        "200g Bean Sprouts",
+        "Zest and juice of 2 Lime",
+        "2-3 tbsp Fish Sauce",
+        "1 tsp Muscovado Sugar",
+        "1 sliced Red Onions",
+        "2 small Lettuce",
+        "500g Minced Pork",
+        "Knob Ginger",
+        "Pinch Cayenne Pepper",
+        "1 tsp Sunflower Oil",
+        "2 tblsp Sesame Seed",
+        "1 tsp Oil",
+        "4 Sirloin steak",
+        "1 sliced Red Chilli"
+      ],
+      "instructions_preview": "step 1\r\nPlace the noodles and beansprouts in a heatproof bowl and cover with boiling water. Leave for 4 mins, or until the noodles are tender. Drain, then cool under cold running water and drain again..."
+    },
+    {
+      "id": "lunch-bowls-suggested-greek-salad-with-chicken",
+      "search": "greek salad",
+      "match_score": 0.9,
+      "mealdb_id": "53011",
+      "mealdb_name": "Chicken Quinoa Greek Salad",
+      "mealdb_category": "Chicken",
+      "mealdb_area": "Greek",
+      "source_url": "https://www.themealdb.com/meal/53011",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/griddled-chicken-quinoa-greek-salad",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg",
+      "ingredients": [
+        "225g Quinoa",
+        "25g Butter",
+        "1 chopped Red Chilli",
+        "1 clove finely chopped Garlic",
+        "400g Chicken Breast",
+        "2 tbs Olive Oil",
+        "Handful Black Olives",
+        "1 chopped Red Onions",
+        "100g Feta",
+        "Chopped Mint",
+        "Juice of 1/2 Lemon"
+      ],
+      "instructions_preview": "Cook the quinoa following the pack instructions, then rinse in cold water and drain thoroughly.\r\n\r\nMeanwhile, mix the butter, chilli and garlic into a paste. Toss the chicken fillets in 2 tsp of the o..."
+    },
+    {
+      "id": "lunch-handheld-suggested-egg-salad-sandwich",
+      "search": "egg salad",
+      "match_score": 0.9,
+      "mealdb_id": "53157",
+      "mealdb_name": "Chorizo & soft-boiled egg salad",
+      "mealdb_category": "Pork",
+      "mealdb_area": "Spanish",
+      "source_url": "https://www.themealdb.com/meal/53157",
+      "mealdb_source_url": "https://www.bbcgoodfood.com/recipes/chorizo-soft-boiled-egg-salad",
+      "thumbnail": "https://www.themealdb.com/images/media/meals/v8eaed1763257313.jpg",
+      "ingredients": [
+        "500g Baby New Potatoes",
+        "4 Egg",
+        "225g Green Beans",
+        "225g Chorizo",
+        "1 sliced Garlic Clove",
+        "2 tbsp Sherry vinegar",
+        "2 tbsp chopped Parsley"
+      ],
+      "instructions_preview": "step 1\r\nCook the potatoes in a large pan of boiling salted water for 12 mins, adding the eggs after 6 mins, and the beans for the final 2 mins. Drain everything and cool the eggs under cold running wa..."
+    }
+  ],
+  "no_matches": [
+    {
+      "id": "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
+      "search": "peanut butter muffins"
+    },
+    {
+      "id": "breakfast-bowls-suggested-greek-yogurt-parfait",
+      "search": "yogurt parfait"
+    },
+    {
+      "id": "breakfast-handheld-suggested-breakfast-burritos",
+      "search": "breakfast burrito"
+    },
+    {
+      "id": "breakfast-meat-greek-pitas-with-chicken",
+      "search": "chicken pita"
+    },
+    {
+      "id": "breakfast-meat-white-chicken-chili",
+      "search": "white chicken chili"
+    },
+    {
+      "id": "breakfast-vegetarian-suggested-avocado-toast-with-egg",
+      "search": "avocado toast"
+    },
+    {
+      "id": "dinner-baked-casserole-suggested-black-bean-enchiladas",
+      "search": "enchiladas"
+    },
+    {
+      "id": "dinner-baked-casserole-suggested-eggplant-parmesan",
+      "search": "eggplant parmesan"
+    },
+    {
+      "id": "dinner-baked-casserole-suggested-spanakopita",
+      "search": "spanakopita"
+    },
+    {
+      "id": "dinner-bowls-chipotle-bowls",
+      "search": "burrito bowl"
+    },
+    {
+      "id": "dinner-bowls-salmon-veggie-bowls",
+      "search": "salmon bowl"
+    },
+    {
+      "id": "dinner-bowls-suggested-chicken-tikka-masala",
+      "search": "chicken tikka masala"
+    },
+    {
+      "id": "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
+      "search": "beef bulgogi"
+    },
+    {
+      "id": "dinner-bowls-suggested-vegetable-curry",
+      "search": "vegetable curry"
+    },
+    {
+      "id": "dinner-handheld-lettuce-wraps",
+      "search": "lettuce wraps"
+    },
+    {
+      "id": "dinner-handheld-suggested-sausage-and-peppers",
+      "search": "sausage peppers"
+    },
+    {
+      "id": "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
+      "search": "shrimp tacos"
+    },
+    {
+      "id": "dinner-meat-bbq-in-crockpot",
+      "search": "pulled pork"
+    },
+    {
+      "id": "dinner-meat-braised-short-ribs",
+      "search": "short ribs"
+    },
+    {
+      "id": "dinner-meat-camper-chicken-enchiladas",
+      "search": "chicken enchiladas"
+    },
+    {
+      "id": "dinner-meat-cheeseburgers",
+      "search": "beef burger"
+    },
+    {
+      "id": "dinner-meat-chicken-parm",
+      "search": "chicken parmesan"
+    },
+    {
+      "id": "dinner-meat-chili",
+      "search": "beef chili"
+    },
+    {
+      "id": "dinner-meat-grilled-chicken-with-potato-salad",
+      "search": "grilled chicken"
+    },
+    {
+      "id": "dinner-meat-steak-kabobs-deconstructed",
+      "search": "beef kabobs"
+    },
+    {
+      "id": "dinner-meat-suggested-butter-chicken",
+      "search": "butter chicken"
+    },
+    {
+      "id": "dinner-meat-suggested-caprese-stuffed-chicken",
+      "search": "caprese chicken"
+    },
+    {
+      "id": "dinner-meat-suggested-japanese-chicken-katsu",
+      "search": "chicken katsu"
+    },
+    {
+      "id": "dinner-meat-suggested-lamb-kofta-with-tzatziki",
+      "search": "lamb kofta"
+    },
+    {
+      "id": "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
+      "search": "chicken thighs"
+    },
+    {
+      "id": "dinner-meat-tacos",
+      "search": "beef tacos"
+    },
+    {
+      "id": "dinner-rice-or-pasta-penne-lasagne",
+      "search": "baked penne"
+    },
+    {
+      "id": "dinner-rice-or-pasta-salmon-and-rice",
+      "search": "salmon rice"
+    },
+    {
+      "id": "dinner-rice-or-pasta-suggested-caprese-pasta",
+      "search": "caprese pasta"
+    },
+    {
+      "id": "dinner-rice-or-pasta-suggested-dan-dan-noodles",
+      "search": "dan dan noodles"
+    },
+    {
+      "id": "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta",
+      "search": "shrimp pasta"
+    },
+    {
+      "id": "dinner-rice-or-pasta-suggested-mushroom-risotto",
+      "search": "mushroom risotto"
+    },
+    {
+      "id": "dinner-rice-or-pasta-suggested-one-pot-chicken-and-rice",
+      "search": "chicken rice"
+    },
+    {
+      "id": "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
+      "search": "shrimp fried rice"
+    },
+    {
+      "id": "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
+      "search": "tortellini"
+    },
+    {
+      "id": "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
+      "search": "vegetable lasagne"
+    },
+    {
+      "id": "dinner-seafood-suggested-mediterranean-baked-cod",
+      "search": "baked cod"
+    },
+    {
+      "id": "dinner-soup-or-stew-cheddar-broccoli-soup",
+      "search": "broccoli cheese soup"
+    },
+    {
+      "id": "dinner-soup-or-stew-chicken-tortilla-soup",
+      "search": "chicken tortilla soup"
+    },
+    {
+      "id": "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
+      "search": "chicken tortilla soup"
+    },
+    {
+      "id": "dinner-soup-or-stew-chicken-wild-rice-soup",
+      "search": "chicken wild rice soup"
+    },
+    {
+      "id": "dinner-soup-or-stew-suggested-black-bean-soup",
+      "search": "black bean soup"
+    },
+    {
+      "id": "dinner-soup-or-stew-suggested-butternut-squash-soup",
+      "search": "butternut squash soup"
+    },
+    {
+      "id": "dinner-soup-or-stew-suggested-miso-soup-with-tofu-and-vegetables",
+      "search": "miso soup"
+    },
+    {
+      "id": "dinner-soup-or-stew-wonton-soup",
+      "search": "wonton soup"
+    },
+    {
+      "id": "dinner-vegetarian-stir-fry",
+      "search": "vegetable stir fry"
+    },
+    {
+      "id": "dinner-vegetarian-suggested-aloo-gobi",
+      "search": "aloo gobi"
+    },
+    {
+      "id": "dinner-vegetarian-suggested-saag-paneer",
+      "search": "saag paneer"
+    },
+    {
+      "id": "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu",
+      "search": "tofu stir fry"
+    },
+    {
+      "id": "lunch-bowls-suggested-caprese-salad-with-prosciutto",
+      "search": "caprese salad"
+    },
+    {
+      "id": "lunch-handheld-suggested-black-bean-tacos",
+      "search": "black bean tacos"
+    },
+    {
+      "id": "lunch-handheld-suggested-blt-sandwich",
+      "search": "BLT"
+    },
+    {
+      "id": "lunch-handheld-suggested-quesadillas",
+      "search": "quesadilla"
+    },
+    {
+      "id": "lunch-handheld-suggested-tuna-salad-sandwich",
+      "search": "tuna salad"
+    },
+    {
+      "id": "lunch-handheld-suggested-turkey-and-avocado-wrap",
+      "search": "turkey wrap"
+    },
+    {
+      "id": "lunch-soup-or-stew-suggested-lentil-soup",
+      "search": "lentil soup"
+    }
+  ]
+}
