@@ -15,8 +15,15 @@ const SEASONAL_DATA_PATH = path.join(ROOT_DIR, "data", "seasonal-colorado.json")
 const SEASONAL_OUTPUT_PATH = path.join(ROOT_DIR, "data", "seasonal-match.json");
 
 const BING_SEARCH_URL = "https://www.bing.com/search";
+const MEALDB_SEARCH_URL = "https://www.themealdb.com/api/json/v1/1/search.php";
+const MEALDB_LOOKUP_URL = "https://www.themealdb.com/api/json/v1/1/lookup.php";
 const REQUEST_TIMEOUT_MS = 5000;
 const ENRICH_CONCURRENCY = 6;
+
+const MEALDB_TITLE_ID_OVERRIDES = new Map([
+  ["chorizo soft boiled egg salad", "53157"],
+  ["lamb apricot meatballs", "53277"]
+]);
 
 const TITLE_RULES = [
   [/chicken/, ["chicken"]],
@@ -205,6 +212,10 @@ function stripSuggestedPrefix(title) {
   return String(title || "").replace(/^suggested\s*-\s*/i, "").trim();
 }
 
+function stripMealDbPrefix(title) {
+  return String(title || "").replace(/^the\s*meal\s*db\s*-\s*/i, "").replace(/^mealdb\s*-\s*/i, "").trim();
+}
+
 function recipeInventoryKeys(meal, style, title) {
   const raw = String(title || "").trim();
   if (!raw) {
@@ -215,6 +226,16 @@ function recipeInventoryKeys(meal, style, title) {
   const withoutSuggested = stripSuggestedPrefix(raw);
   if (withoutSuggested && withoutSuggested.toLowerCase() !== raw.toLowerCase()) {
     keys.push(recipeInventoryKey(meal, style, withoutSuggested));
+  }
+
+  const withoutMealDb = stripMealDbPrefix(raw);
+  if (withoutMealDb && withoutMealDb.toLowerCase() !== raw.toLowerCase()) {
+    keys.push(recipeInventoryKey(meal, style, withoutMealDb));
+  }
+
+  const withoutSuggestedMealDb = stripMealDbPrefix(withoutSuggested);
+  if (withoutSuggestedMealDb && !keys.some((key) => key === recipeInventoryKey(meal, style, withoutSuggestedMealDb))) {
+    keys.push(recipeInventoryKey(meal, style, withoutSuggestedMealDb));
   }
 
   return dedupe(keys);
@@ -629,6 +650,192 @@ function inferIngredientsFromTitle(title) {
   return dedupe(inferred).filter((ingredient) => !excluded.has(ingredient));
 }
 
+function isMealDbTitle(title) {
+  return /^mealdb\s*-\s*/i.test(String(title || "").trim());
+}
+
+function extractMealDbIngredients(meal) {
+  const ingredients = [];
+
+  for (let i = 1; i <= 20; i += 1) {
+    const ingredient = String(meal?.[`strIngredient${i}`] || "").trim();
+    const measure = String(meal?.[`strMeasure${i}`] || "").trim();
+
+    if (!ingredient) {
+      continue;
+    }
+
+    ingredients.push([measure, ingredient].filter(Boolean).join(" ").trim());
+  }
+
+  return dedupe(ingredients.filter(Boolean));
+}
+
+function normalizeTitleForMatch(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function mealDbSearchQueries(title) {
+  const cleaned = normalizeTitleForMatch(title);
+  if (!cleaned) {
+    return [];
+  }
+
+  const tokens = cleaned.split(" ").filter(Boolean);
+  const compactTokens = tokens.filter((token) => !["and", "with", "the", "a", "an", "of"].includes(token));
+
+  const queries = [
+    cleaned,
+    compactTokens.join(" "),
+    compactTokens.slice(0, 4).join(" "),
+    compactTokens.slice(0, 3).join(" "),
+    compactTokens.slice(0, 2).join(" "),
+    tokens.slice(0, 3).join(" "),
+    tokens.slice(0, 2).join(" ")
+  ];
+
+  return dedupe(queries.map((query) => query.trim()).filter((query) => query.length >= 3));
+}
+
+async function searchMealDbByName(query) {
+  const params = new URLSearchParams({ s: query });
+  const payload = await requestText(`${MEALDB_SEARCH_URL}?${params.toString()}`, {
+    headers: {
+      accept: "application/json,text/plain;q=0.9,*/*;q=0.8"
+    }
+  });
+
+  if (!payload) {
+    return [];
+  }
+
+  try {
+    const parsed = JSON.parse(payload);
+    return Array.isArray(parsed?.meals) ? parsed.meals : [];
+  } catch (_error) {
+    return [];
+  }
+}
+
+async function lookupMealDbById(id) {
+  const params = new URLSearchParams({ i: String(id || "").trim() });
+  const payload = await requestText(`${MEALDB_LOOKUP_URL}?${params.toString()}`, {
+    headers: {
+      accept: "application/json,text/plain;q=0.9,*/*;q=0.8"
+    }
+  });
+
+  if (!payload) {
+    return null;
+  }
+
+  try {
+    const parsed = JSON.parse(payload);
+    const meals = Array.isArray(parsed?.meals) ? parsed.meals : [];
+    return meals[0] || null;
+  } catch (_error) {
+    return null;
+  }
+}
+
+async function lookupMealDbRecipe(title) {
+  if (!isMealDbTitle(title)) {
+    return null;
+  }
+
+  const mealTitle = stripMealDbPrefix(title);
+  if (!mealTitle) {
+    return null;
+  }
+
+  try {
+    const normalizedMealTitle = normalizeTitleForMatch(mealTitle);
+    const overrideId = MEALDB_TITLE_ID_OVERRIDES.get(normalizedMealTitle);
+    if (overrideId) {
+      const overrideMeal = await lookupMealDbById(overrideId);
+      const overrideIngredients = extractMealDbIngredients(overrideMeal);
+
+      if (overrideMeal && overrideIngredients.length) {
+        return {
+          mealdbId: String(overrideMeal.idMeal || overrideId).trim(),
+          sourceUrl: overrideMeal.idMeal ? `https://www.themealdb.com/meal/${overrideMeal.idMeal}` : `https://www.themealdb.com/meal/${overrideId}`,
+          ingredients: overrideIngredients
+        };
+      }
+    }
+
+    const mealMap = new Map();
+    for (const query of mealDbSearchQueries(mealTitle)) {
+      const mealsForQuery = await searchMealDbByName(query);
+      for (const meal of mealsForQuery) {
+        const id = String(meal?.idMeal || "").trim();
+        if (!id || mealMap.has(id)) {
+          continue;
+        }
+        mealMap.set(id, meal);
+      }
+
+      if (mealMap.size >= 25) {
+        break;
+      }
+    }
+
+    const meals = [...mealMap.values()];
+    if (!meals.length) {
+      return null;
+    }
+
+    const target = normalizeTitleForMatch(mealTitle);
+    let best = meals[0];
+    let bestScore = 0;
+
+    for (const meal of meals) {
+      const candidate = normalizeTitleForMatch(meal?.strMeal || "");
+      if (!candidate) {
+        continue;
+      }
+
+      let score = 0;
+      if (candidate === target) {
+        score = 1;
+      } else if (candidate.includes(target) || target.includes(candidate)) {
+        score = 0.8;
+      } else {
+        const targetTokens = target.split(" ").filter(Boolean);
+        const candidateTokens = new Set(candidate.split(" ").filter(Boolean));
+        const overlap = targetTokens.filter((token) => candidateTokens.has(token)).length;
+        score = targetTokens.length ? overlap / targetTokens.length : 0;
+      }
+
+      if (score > bestScore) {
+        best = meal;
+        bestScore = score;
+      }
+    }
+
+    if (!best || bestScore < 0.3) {
+      return null;
+    }
+
+    const ingredients = extractMealDbIngredients(best);
+    if (!ingredients.length) {
+      return null;
+    }
+
+    return {
+      mealdbId: String(best.idMeal || "").trim(),
+      sourceUrl: best.idMeal ? `https://www.themealdb.com/meal/${best.idMeal}` : null,
+      ingredients
+    };
+  } catch (_error) {
+    return null;
+  }
+}
+
 function buildIngredientIndex(recipes) {
   const map = new Map();
 
@@ -715,6 +922,24 @@ async function enrichRecipe(recipe) {
       ingredient_source: "markdown_recipe",
       confidence: 0.75
     };
+  }
+
+  if (isMealDbTitle(recipe.title)) {
+    const mealDbMatch = await lookupMealDbRecipe(recipe.title);
+    if (mealDbMatch) {
+      const normalizedMealDbIngredients = dedupe(mealDbMatch.ingredients.map(normalizeIngredient).filter(Boolean));
+
+      return {
+        ...recipeBase,
+        source_url: recipe.source_url || mealDbMatch.sourceUrl,
+        resolved_source_url: resolvedUrl || mealDbMatch.sourceUrl,
+        source_origin: sourceOrigin,
+        ingredients: mealDbMatch.ingredients,
+        ingredients_normalized: normalizedMealDbIngredients,
+        ingredient_source: "mealdb_api",
+        confidence: 0.9
+      };
+    }
   }
 
   const inferred = inferIngredientsFromTitle(recipe.title);
