@@ -1,0 +1,74 @@
+name: Enrich Recipes from TheMealDB
+
+on:
+  workflow_dispatch:
+    inputs:
+      min_score:
+        description: 'Minimum match score for ingredient replacement (0.0-1.0)'
+        required: false
+        default: '0.8'
+      urls_only:
+        description: 'Only update source URLs, skip ingredient replacement'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch TheMealDB matches
+        env:
+          MEALDB_API_KEY: ${{ secrets.MEALDB_API_KEY }}
+        run: node ./scripts/fetch-mealdb-recipes.mjs
+
+      - name: Apply enrichment
+        run: |
+          ARGS=""
+          if [ "${{ inputs.urls_only }}" = "true" ]; then
+            ARGS="$ARGS --urls-only"
+          fi
+          ARGS="$ARGS --min-score=${{ inputs.min_score }}"
+          node ./scripts/apply-mealdb-enrichment.mjs $ARGS
+
+      - name: Regenerate ingredient datasets
+        run: node ./scripts/generate-ingredient-data.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/mealdb-matches.json \
+                  data/recipes-with-ingredients.json \
+                  data/ingredient-index.json \
+                  data/seasonal-match.json \
+                  data/deals-match.json \
+                  recipes/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "feat: enrich recipes from TheMealDB [skip ci]"
+          git push
