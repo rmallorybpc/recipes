@@ -21,7 +21,7 @@ of public APIs. The total infrastructure cost is zero.
 A family recipe system with six interconnected pages:
 
 **[Planner](https://rmallorybpc.github.io/recipes/)** — Browse
-99 recipes by meal type and cooking style. Drag recipe cards into
+hundreds of recipes by meal type and cooking style. Drag recipe cards into
 a weekly meal planning grid organized by day and meal slot.
 
 **[Ingredient Search](https://rmallorybpc.github.io/recipes/ingredients.html)**
@@ -123,6 +123,10 @@ data/                  # Generated data files served as static JSON
 scripts/               # Node.js scripts for data generation and import
   generate-ingredient-data.mjs
   fetch-weekly-deals.mjs
+  import-mealdb-catalog.mjs
+  clean-mealdb-imported-recipes.mjs
+  fetch-mealdb-recipes.mjs
+  apply-mealdb-enrichment.mjs
   import-recipe-from-issue.mjs
   import-suggested-recipes.mjs
   verify-ingredient-data-with-model.mjs
@@ -162,6 +166,56 @@ After any import, regenerate the full data pipeline:
 ```bash
 node ./scripts/generate-ingredient-data.mjs
 ```
+
+## Importing TheMealDB Catalog (Paid API)
+
+The repository now supports full-catalog import from TheMealDB's
+paid API in an additive, idempotent way.
+
+What the importer updates:
+
+- Creates new recipe markdown files under `recipes/<meal>/<style>/`
+- Updates style-level `known-recipes.md` indexes
+- Appends new entries to the `RECIPES` array in `script.js`
+- Writes import state and reporting files in `data/`
+
+Primary command:
+
+```bash
+MEALDB_API_KEY=<paid_key> node ./scripts/import-mealdb-catalog.mjs
+```
+
+Useful options:
+
+- `--dry-run` to preview without writing files
+- `--limit=<n>` to test with a small subset
+- `--delay-ms=<n>` to control API pacing
+- `--write-import-log` to write a raw catalog snapshot
+- `--strict-category-map` to fail on unmapped MealDB categories
+
+NPM aliases:
+
+```bash
+npm run import:mealdb -- --dry-run --limit=20
+npm run clean:mealdb -- --dry-run
+```
+
+Post-import steps:
+
+```bash
+node ./scripts/clean-mealdb-imported-recipes.mjs
+node ./scripts/generate-ingredient-data.mjs
+```
+
+Generated MealDB tracking files:
+
+- `data/mealdb-imported-ids.json`
+- `data/mealdb-import-report.json`
+- `data/mealdb-catalog-raw.json` (only when `--write-import-log` is used)
+
+Note: existing scripts `fetch-mealdb-recipes.mjs` and
+`apply-mealdb-enrichment.mjs` remain available for matching and
+enriching existing recipes.
 
 ## Running the Deals Fetch Locally
 
@@ -223,9 +277,10 @@ Full search options are documented in `docs/searching.md`.
 | Data | Source | Update frequency |
 |---|---|---|
 | Weekly deals | [Kroger Developer API](https://developer.kroger.com) | Every Wednesday via GitHub Actions |
+| Meal metadata and instructions | [TheMealDB API](https://www.themealdb.com/api.php) | On demand (manual import script) |
 | Seasonal availability | [Colorado Department of Agriculture](https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar) | Annual |
 | Seasonal price multipliers | [USDA Economic Research Service](https://www.ers.usda.gov) + CDA calendar | Annual |
-| Recipe ingredients | Source recipe pages + title heuristics | On import |
+| Recipe ingredients | Source recipe pages + TheMealDB imports + title heuristics | On import |
 | Ingredient validation | Claude Sonnet via [GitHub Models](https://github.com/features/models) | On demand |
 
 ## Technical Notes
