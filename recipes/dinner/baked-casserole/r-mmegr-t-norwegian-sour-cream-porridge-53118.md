@@ -1,0 +1,44 @@
+---
+title: "Rømmegrøt – Norwegian Sour Cream Porridge"
+meal: dinner
+style: baked-casserole
+protein: none
+cuisine: "Norwegian"
+time_minutes: 30
+servings: 4
+source_url: https://www.themealdb.com/meal/53118
+keywords: ["breakfast", "norwegian"]
+---
+
+# Summary
+
+Rømmegrøt – Norwegian Sour Cream Porridge from TheMealDB imported into the planner collection.
+
+## Ingredients
+
+- 2 cups Full fat sour cream
+- 3/4 cup Flour
+- 2 cups Milk
+- 1 tsp Salt
+- Sprinkling Sugar
+- Sprinkling Cinnamon
+- To taste Butter
+
+## Instructions
+
+1. ▢.
+2. Cook the sour cream in a covered saucepan on medium heat for about 5 minutes.
+3. Turn down the heat and add half of the flour and stir well with a whisk.
+4. Once the flour is fully incorporated, let the mixture continue to cook, stirring occasionally, until fat starts to release.
+5. Use a spoon to gather as much of the fat as you can in a small bowl, saving for later. (Don't worry if you can't get any fat – in that case you can add butter later.).
+6. Whisk in the rest of the flour and then slowly add the milk, whisking constantly to avoid lumps.
+7. Let the porridge continue to cook on low heat for 5 minutes and then add salt.
+8. Serve with sugar, cinnamon, and the fat from the porridge.
+9. If you're using lower fat sour cream you can top the rømmegrøt with some butter instead.
+
+## Notes
+
+- Imported from TheMealDB (id: 53118).
+- Original category: Breakfast.
+- Original area: Norwegian.
+- Video: https://www.youtube.com/watch?v=v4rIJOWXM3w

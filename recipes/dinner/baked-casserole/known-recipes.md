@@ -5,3 +5,140 @@
 - Suggested - Black bean enchiladas
 - Suggested - Eggplant parmesan
 - Suggested - Spanakopita
+
+- MealDB - Æbleskiver
+- MealDB - Alfajores
+- MealDB - Anzac biscuits
+- MealDB - Apam balik
+- MealDB - Apple & Blackberry Crumble
+- MealDB - Apple cake
+- MealDB - Apple Frangipan Tart
+- MealDB - Apricot & Turkish delight mess
+- MealDB - Authentic Norwegian Kransekake
+- MealDB - Bakewell tart
+- MealDB - Baklava with spiced nuts, ricotta & chocolate
+- MealDB - Banana Pancakes
+- MealDB - Battenberg Cake
+- MealDB - BeaverTails
+- MealDB - Beetroot pancakes
+- MealDB - Blackberry Fool
+- MealDB - Blueberry & lemon friands
+- MealDB - Bread and Butter Pudding
+- MealDB - Bread omelette
+- MealDB - Breakfast Potatoes
+- MealDB - Budino Di Ricotta
+- MealDB - Canadian Butter Tarts
+- MealDB - Caribbean Tamarind balls
+- MealDB - Carrot Cake
+- MealDB - Cashew Ghoriba Biscuits
+- MealDB - Chelsea Buns
+- MealDB - Chinon Apple Tarts
+- MealDB - Choc Chip Pecan Pie
+- MealDB - Chocolate alfajores
+- MealDB - Chocolate Avocado Mousse
+- MealDB - Chocolate Caramel Crispy
+- MealDB - Chocolate churros with chocolate & salted caramel sauce
+- MealDB - Chocolate Coconut Squares
+- MealDB - Chocolate empanadas
+- MealDB - Chocolate Gateau
+- MealDB - Chocolate Raspberry Brownies
+- MealDB - Chocolate Souffle
+- MealDB - Christmas cake
+- MealDB - Christmas Pudding Flapjack
+- MealDB - Christmas Pudding Trifle
+- MealDB - Churros
+- MealDB - Cinnamon buns
+- MealDB - Classic Christmas pudding
+- MealDB - Cornes de Gazelle (Gazelle Horns)
+- MealDB - Crema Catalana
+- MealDB - Date squares
+- MealDB - Dulce de Leche
+- MealDB - Dundee cake
+- MealDB - Dutch poffertjes (mini pancakes)
+- MealDB - Dutch stroopwafel
+- MealDB - Dziriat (Algerian Almond Tarts)
+- MealDB - Eccles Cakes
+- MealDB - English Breakfast
+- MealDB - Ensaimada
+- MealDB - Eton Mess
+- MealDB - Figgy Duff
+- MealDB - Flan
+- MealDB - Flapper Pie
+- MealDB - Fruit and Cream Cheese Breakfast Pastries
+- MealDB - Full English Breakfast
+- MealDB - Fyrstekake – Norwegian Prince Cake
+- MealDB - Gevulde speculaas
+- MealDB - Grape Nut Ice Cream
+- MealDB - Home-made Mandazi
+- MealDB - Honey Yogurt Cheesecake
+- MealDB - Hot Chocolate Fudge
+- MealDB - Jam jam cookies
+- MealDB - Jam Roly-Poly
+- MealDB - Jamaican Banana Fritters
+- MealDB - Jamaican Cornmeal Porridge
+- MealDB - Jamaican Spice Bun Recipe
+- MealDB - Jamaican Sweet Potato Pudding
+- MealDB - Key Lime Pie
+- MealDB - Knafeh
+- MealDB - Krispy Kreme Donut
+- MealDB - Kvæfjord Cake “Verdens Beste” (World’s Best Cake)
+- MealDB - Lamingtons
+- MealDB - Madeira Cake
+- MealDB - Mamoul (Eid biscuits)
+- MealDB - Mazariner – Scandinavian Almond Tartlets
+- MealDB - Mince Pies
+- MealDB - Mini bundt cakes
+- MealDB - Nanaimo Bars
+- MealDB - New York cheesecake
+- MealDB - No-Churn Rum Raisin Ice Cream
+- MealDB - Norwegian Krumkake
+- MealDB - Oatmeal pancakes
+- MealDB - Pancakes
+- MealDB - Parkin Cake
+- MealDB - Passion fruit mousse
+- MealDB - Peach & Blueberry Grunt
+- MealDB - Peanut Butter Cheesecake
+- MealDB - Peanut Butter Cookies
+- MealDB - Pear Tarte Tatin
+- MealDB - Piernik (Polish gingerbread)
+- MealDB - Pistachio cake
+- MealDB - Pistachio Kunafa Chocolate Cake and Cupcakes
+- MealDB - Polish chocolate & walnut cake
+- MealDB - Polish doughnuts (Pączki)
+- MealDB - Polskie Nalesniki (Polish Pancakes)
+- MealDB - Portuguese custard tarts
+- MealDB - Postre Chajá
+- MealDB - Pouding chomeur
+- MealDB - Pumpkin Pie
+- MealDB - Raspberry mousse
+- MealDB - Rock Cakes
+- MealDB - Rocky Road Fudge
+- MealDB - Rogaliki (Polish Croissant Cookies)
+- MealDB - Rømmegrøt – Norwegian Sour Cream Porridge
+- MealDB - Salmon Eggs Eggs Benedict
+- MealDB - Salted Caramel Cheescake
+- MealDB - Saskatoon Pie
+- MealDB - Seri muka kuih
+- MealDB - Smoked Haddock Kedgeree
+- MealDB - Spanish fig & almond balls
+- MealDB - Spotted Dick
+- MealDB - Sticky Toffee Pudding
+- MealDB - Sticky Toffee Pudding Ultimate
+- MealDB - Strawberries Romanoff
+- MealDB - Strawberry Rhubarb Pie
+- MealDB - Sugar Pie
+- MealDB - Suksessterte (Norwegian almond “success cake”)
+- MealDB - Šúĺlance s Makom
+- MealDB - Summer Pudding
+- MealDB - Tall Skoleboller
+- MealDB - Tarte Tatin
+- MealDB - Timbits
+- MealDB - Torrijas with sherry
+- MealDB - Treacle Tart
+- MealDB - Tunisian Orange Cake
+- MealDB - Ugali – Kenyan cornmeal
+- MealDB - Vanilla alfajores
+- MealDB - Walnut Roll Gužvara
+- MealDB - Walnut, date & honey cake
+- MealDB - White chocolate creme brulee
+- MealDB - Yemeni Lahsa (Elite Shakshuka)

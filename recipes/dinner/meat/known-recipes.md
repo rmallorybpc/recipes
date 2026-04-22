@@ -24,3 +24,226 @@
 - Suggested - Lamb kofta with tzatziki
 - Suggested - Sheet pan chicken thighs and vegetables
 - Suggested - Caprese stuffed chicken
+
+- MealDB - Algerian Kefta (Meatballs)
+- MealDB - Arepa Pabellón
+- MealDB - Arepa pelua
+- MealDB - Asado
+- MealDB - Aussie Burgers
+- MealDB - Beef and Broccoli Stir-Fry
+- MealDB - Beef and Mustard Pie
+- MealDB - Beef and Oyster pie
+- MealDB - Beef Asado
+- MealDB - Beef Banh Mi Bowls with Sriracha Mayo, Carrot & Pickled Cucumber
+- MealDB - Beef Bourguignon
+- MealDB - Beef Brisket Pot Roast
+- MealDB - Beef Caldereta
+- MealDB - Beef Dumpling Stew
+- MealDB - Beef Empanadas
+- MealDB - Beef Lo Mein
+- MealDB - Beef Mandi
+- MealDB - Beef Mechado
+- MealDB - Beef pho
+- MealDB - Beef Rendang
+
+- MealDB - 15-minute chicken & halloumi burgers
+- MealDB - Adana kebab
+- MealDB - Arroz al horno (baked rice)
+- MealDB - Ayam Percik
+- MealDB - Barbecue pork buns
+- MealDB - BBQ Pork Sloppy Joes
+- MealDB - Beef stroganoff
+- MealDB - Beef Sunday Roast
+- MealDB - Beef Wellington
+- MealDB - Big Mac
+- MealDB - Bigos (Hunters Stew)
+- MealDB - Bigos (Polish hunter's stew)
+- MealDB - Bistek
+- MealDB - Bitterballen (Dutch meatballs)
+- MealDB - Borsch
+- MealDB - Boxty Breakfast
+- MealDB - Braised Beef Chilli
+- MealDB - Brown Stew Chicken
+- MealDB - Brun Lapskaus (Norwegian Beef Vegetable Stew)
+- MealDB - Bryndzové Halušky
+- MealDB - Bubble & Squeak
+- MealDB - Carbonada Criolla
+- MealDB - Cassava pizza
+- MealDB - Cevapi Sausages
+- MealDB - Chick-Fil-A Sandwich
+- MealDB - Chicken & chorizo rice pot
+- MealDB - Chicken & mushroom Hotpot
+- MealDB - Chicken Alfredo Primavera
+- MealDB - Chicken Basquaise
+- MealDB - Chicken Congee
+- MealDB - Chicken Couscous
+- MealDB - Chicken Enchilada Casserole
+- MealDB - Chicken Fajita Mac and Cheese
+- MealDB - Chicken Fried Rice
+- MealDB - Chicken Ham and Leek Pie
+- MealDB - Chicken Handi
+- MealDB - Chicken Karaage
+- MealDB - Chicken Mandi
+- MealDB - Chicken Marengo
+- MealDB - Chicken Parmentier
+- MealDB - Chicken Quinoa Greek Salad
+- MealDB - Chicken Shawarma with homemade garlic herb yoghurt sauce
+- MealDB - Chicken wings with cumin, lemon & garlic
+- MealDB - Chicken with saffron, raisins & pine nuts
+- MealDB - Chickpea, chorizo & spinach stew
+- MealDB - Chilli ginger lamb chops
+- MealDB - Chinese Orange Chicken
+- MealDB - Chivito sandwich
+- MealDB - Chivito uruguayo
+- MealDB - Chorba Hamra bel Frik (Algerian Lamb, Tomato, and Freekeh Soup)
+- MealDB - Choripán
+- MealDB - Chorizo & chickpea soup
+- MealDB - Chorizo & soft-boiled egg salad
+- MealDB - Chorizo & tomato salad
+- MealDB - Chorizo, potato & cheese omelette
+- MealDB - Classic Tourtière
+- MealDB - Coddled pork with cider
+- MealDB - Coq au vin
+- MealDB - Corned Beef and Cabbage
+- MealDB - Corned Beef and Cabbage – Jamaican Style
+- MealDB - Corned Beef Hash
+- MealDB - Crispy Sausages and Greens
+- MealDB - Croatian Bean Stew
+- MealDB - Croatian lamb peka
+- MealDB - Crock Pot Chicken Baked Tacos
+- MealDB - Cumberland Pie
+- MealDB - Drunken noodles (pad kee mao)
+- MealDB - Easy Spanish chicken
+- MealDB - Egyptian Fatteh
+- MealDB - Empanadas
+- MealDB - Fårikål (Norwegian National Dish)
+- MealDB - Fašírky
+- MealDB - French Onion Chicken with Roasted Carrots & Mashed Potatoes
+- MealDB - General Tsos Chicken
+- MealDB - Golabki (cabbage roll)
+- MealDB - Ham croquetas
+- MealDB - Ham hock colcannon
+- MealDB - Honey Balsamic Chicken with Crispy Broccoli & Potatoes
+- MealDB - Hot and Sour Soup
+- MealDB - Hot cumin lamb wrap with crunchy slaw & spicy mayo
+- MealDB - Imam bayildi with BBQ lamb & tzatziki
+- MealDB - Irish stew
+- MealDB - Jamaican Beef Patties
+- MealDB - Jamaican Curry Chicken Recipe
+- MealDB - Jamaican Curry Goat
+- MealDB - Jamon & wild garlic croquetas
+- MealDB - Japanese Katsudon
+- MealDB - Jerk chicken with rice & peas
+- MealDB - Jiggs Dinner
+- MealDB - kabse
+- MealDB - Kapsalon
+- MealDB - Karbonader (Lean Beef Patties) with Caramelized Onions
+- MealDB - Katsu Chicken curry
+- MealDB - Keleya Zaara
+- MealDB - Kentucky Fried Chicken
+- MealDB - Kenyan Beef Curry
+- MealDB - kofta burgers
+- MealDB - Kung Pao Chicken
+- MealDB - Lamb & apricot meatballs
+- MealDB - Lamb and Lemon Souvlaki
+- MealDB - Lamb and Potato pie
+- MealDB - Lamb Biryani
+- MealDB - Lamb Pilaf (Plov)
+- MealDB - Lamb Rogan josh
+- MealDB - Lamb Tagine
+- MealDB - Lamb tomato and sweet spices
+- MealDB - Lamb Tzatziki Burgers
+- MealDB - Lancashire hotpot
+- MealDB - Lemongrass beef stew with noodles
+- MealDB - Ma Po Tofu
+- MealDB - Massaman Beef curry
+- MealDB - Matambre a la Pizza
+- MealDB - Mbuzi Choma (Roasted Goat)
+- MealDB - McSinghs Scotch pie
+- MealDB - Milanesa
+- MealDB - Minced Beef Pie
+- MealDB - Mini chilli beef pies
+- MealDB - Montreal Smoked Meat
+- MealDB - Moussaka
+- MealDB - Mulukhiyah
+- MealDB - Nutty Chicken Curry
+- MealDB - Oxtail with broad beans
+- MealDB - Pad See Ew
+- MealDB - Panang chicken curry (kaeng panang gai)
+- MealDB - Paszteciki (Polish Pasties)
+- MealDB - Pate Chinois
+- MealDB - Piri-piri chicken and slaw
+- MealDB - Pollo en pepitoria
+- MealDB - Pork & sauerkraut goulash
+- MealDB - Pork Cassoulet
+- MealDB - Pork rib bortsch
+- MealDB - Portuguese barbecued pork (Febras assadas)
+- MealDB - Portuguese prego with green piri-piri
+- MealDB - Potato Gratin with Chicken
+- MealDB - Poulet Roti a l'Algerienne (Algerian Roast Chicken)
+- MealDB - Rappie Pie
+- MealDB - Raspeballer (Norwegian Potato Dumplings)
+- MealDB - Red curry chicken kebabs
+- MealDB - Red Peas Soup
+- MealDB - Rice paper dumplings
+- MealDB - Rigatoni with fennel sausage sauce
+- MealDB - Roasted chicken with creamy walnut sauce
+- MealDB - Rosemary braised red cabbage with kabanos
+- MealDB - Rosol (Polish Chicken Soup)
+- MealDB - Roti john
+- MealDB - Shawarma
+- MealDB - Shawarma chuck roast wrap
+- MealDB - Skillet Apple Pork Chops with Roasted Sweet Potatoes & Zucchini
+- MealDB - Slow-roast lamb with cinnamon, fennel & citrus
+- MealDB - Slow-roasted ham with lemon, garlic & sage
+- MealDB - Smoky chicken skewers
+- MealDB - Soy-Glazed Meatloaves with Wasabi Mashed Potatoes & Roasted Carrots
+- MealDB - Spaghetti Bolognese
+- MealDB - Spaghetti with Spanish flavours
+- MealDB - Spanish beans with chicken & chorizo
+- MealDB - Spanish Chicken
+- MealDB - Spanish chicken pie
+- MealDB - Spanish tomato bread with jamón Serrano
+- MealDB - Spanish-style slow-cooked lamb shoulder & beans
+- MealDB - Spiced smoky barbecued chicken
+- MealDB - Stamppot
+- MealDB - Steak & Vietnamese noodle salad
+- MealDB - Steak and Kidney Pie
+- MealDB - Steak Diane
+- MealDB - Sticky Chicken
+- MealDB - Stir-fried chicken with chillies & basil
+- MealDB - Stuffed Lamb Tomatoes
+- MealDB - Sweet and Sour Chicken
+- MealDB - Sweet and Sour Pork
+- MealDB - Szechuan Beef
+- MealDB - Tajine de Poulet aux Carottes et Patates Douces (Chicken and Sweet Potato Tagine)
+- MealDB - Tandoori chicken
+- MealDB - Teriyaki Chicken Casserole
+- MealDB - Thai beef stir-fry
+- MealDB - Thai chicken cakes with sweet chilli sauce
+- MealDB - Thai drumsticks
+- MealDB - Thai green chicken soup
+- MealDB - Thai Green Curry
+- MealDB - Thai pork & peanut curry
+- MealDB - Toad In The Hole
+- MealDB - Tom kha gai
+- MealDB - Tonkatsu pork
+- MealDB - Torta de fiambre
+- MealDB - Tourtiere
+- MealDB - Traditional Croatian Goulash
+- MealDB - Tunisian Lamb Soup
+- MealDB - Turkish lahmacun
+- MealDB - Turkish lamb pilau
+- MealDB - Turkish-style lamb
+- MealDB - Vegetable Shepherds Pie
+- MealDB - Venezuelan Coconut Chicken
+- MealDB - Venezuelan Sancocho
+- MealDB - Venezuelan Shredded Beef
+- MealDB - Vietnamese chicken salad
+- MealDB - Vietnamese Grilled Pork (bun-thit-nuong)
+- MealDB - Vietnamese lamb shanks with sweet potatoes
+- MealDB - Vietnamese pork salad
+- MealDB - Vietnamese-style caramel pork
+- MealDB - Warm roast asparagus salad
+- MealDB - Wontons
+- MealDB - Zapiekanki

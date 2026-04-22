@@ -9,3 +9,70 @@
 - Suggested - Korean beef bulgogi bowls
 - Suggested - Thai green curry
 - Suggested - Chicken tikka masala
+
+- MealDB - Air Fryer Egg Rolls
+- MealDB - Algerian Bouzgene Berber Bread with Roasted Pepper Sauce
+- MealDB - Algerian Carrots
+- MealDB - Baba Ghanoush
+- MealDB - Bean & Sausage Hotpot
+- MealDB - Blini Pancakes
+- MealDB - Boulangère Potatoes
+- MealDB - Brie wrapped in prosciutto & brioche
+- MealDB - Burek
+- MealDB - Cacik
+- MealDB - Callaloo and SaltFish
+- MealDB - Callaloo Jamaican Style
+- MealDB - Chakchouka
+- MealDB - Challah
+- MealDB - Cheese Borek
+- MealDB - Corba
+- MealDB - Duck Confit
+- MealDB - Fainá
+- MealDB - Fennel Dauphinoise
+- MealDB - Feteer Meshaltet
+- MealDB - French Lentils With Garlic and Thyme
+- MealDB - French Omelette
+- MealDB - French Onion Soup
+- MealDB - Fresh sardines
+- MealDB - Griddled flatbreads
+- MealDB - Hummus
+- MealDB - Jamaican Boiled Dumplings
+- MealDB - Jamaican Festival (Sweet Dumpling)
+- MealDB - Jamaican Fried Dumplings
+- MealDB - Jamaican Steamed Cabbage
+- MealDB - Japanese gohan rice
+- MealDB - Khobz el Dar (Algerian Semolina Bread)
+- MealDB - Kumpir
+- MealDB - Locro
+- MealDB - Migas
+- MealDB - Mushroom soup with buckwheat
+- MealDB - Mustard champ
+- MealDB - Mutabbaq
+- MealDB - Norwegian Potato Lefse
+- MealDB - Osso Buco alla Milanese
+- MealDB - Pierogi (Polish Dumplings)
+- MealDB - Pizza Express Margherita
+- MealDB - Polish patties (kotlety)
+- MealDB - Poutine
+- MealDB - Prawn & Fennel Bisque
+- MealDB - Purple sprouting broccoli tempura with nuoc cham
+- MealDB - Ramen Noodles with Boiled Egg
+- MealDB - Rye bread
+- MealDB - Sesame Cucumber Salad
+- MealDB - Shakshouka
+- MealDB - Shakshuka Feta Cheese
+- MealDB - Shawarma bread
+- MealDB - Smoked aubergine purée
+- MealDB - Snert (Dutch Split Pea Soup)
+- MealDB - Spanish meatballs with clams, chorizo & squid
+- MealDB - Split Pea Soup
+- MealDB - Syrian Bread
+- MealDB - Syrian Rice with Meat
+- MealDB - Three-cheese souffles
+- MealDB - Turkey Bánh mì
+- MealDB - Turkey Meatloaf
+- MealDB - Turkish rice (vermicelli rice)
+- MealDB - Venezuelan Arepas
+- MealDB - Venezuelan turnovers
+- MealDB - Yorkshire Puddings
+- MealDB - Zemiakové Placky

@@ -6,3 +6,93 @@
 - Suggested - Shakshuka
 - Suggested - Saag paneer
 - Suggested - Aloo gobi
+
+- MealDB - Air fryer patatas bravas
+- MealDB - Algerian Flafla (Bell Pepper Salad)
+- MealDB - Aubergine & hummus grills
+- MealDB - Aubergine couscous salad
+- MealDB - Avocado dip with new potatoes
+- MealDB - Baingan Bharta
+- MealDB - Beetroot & red cabbage sauerkraut
+- MealDB - Beetroot latkes
+- MealDB - Beetroot Soup (Borscht)
+- MealDB - Braised stuffed cabbage
+- MealDB - Cabbage Soup (Shchi)
+- MealDB - Chickpea Fajitas
+- MealDB - Chinese Tomato Egg Stir Fry
+- MealDB - Chtitha Batata (Algerian Potato Stew)
+- MealDB - Crispy Eggplant
+- MealDB - Cucumber & fennel salad
+- MealDB - Dal fry
+- MealDB - Egg Drop Soup
+- MealDB - Eggplant Adobo
+- MealDB - Ezme
+- MealDB - Falafel
+- MealDB - Falafel Pita Sandwich with Tahini Sauce
+- MealDB - Fasoliyyeh Bi Z-Zayt (Syrian Green Beans with Olive Oil)
+- MealDB - Flamiche
+- MealDB - Ful Medames
+- MealDB - Gigantes Plaki
+- MealDB - Griddled aubergines with sesame dressing
+- MealDB - Grilled aubergines with spicy chickpeas & walnut sauce
+- MealDB - Grilled eggplant with coconut milk
+- MealDB - Hodge Podge
+- MealDB - Jamaican Instant Pot Rice and Beans
+- MealDB - Jamaican Rice and Peas
+- MealDB - Kafteji
+- MealDB - Kidney Bean Curry
+- MealDB - Koshari
+- MealDB - Leblebi Soup
+- MealDB - Matar Paneer
+- MealDB - Molasses Baked Beans
+- MealDB - Moroccan Carrot Soup
+- MealDB - Mushroom & Chestnut Rotolo
+- MealDB - Nordic smørrebrød with asparagus and horseradish cream
+- MealDB - Padron peppers
+- MealDB - Patatas bravas
+- MealDB - Pisto con huevos
+- MealDB - Pomegranate salad
+- MealDB - Potato Salad (Olivier Salad)
+- MealDB - Provençal Omelette Cake
+- MealDB - Ratatouille
+- MealDB - Red onion pickle
+- MealDB - Ribollita
+- MealDB - Roast aubergine with goat's cheese & toasted flatbread
+- MealDB - Roast fennel and aubergine paella
+- MealDB - Roasted Eggplant With Tahini, Pine Nuts, and Lentils
+- MealDB - Sauerkraut pierogi
+- MealDB - Sauerkraut pierogii
+- MealDB - Shakshuka
+- MealDB - Sichuan Eggplant
+- MealDB - Sichuan Style Stir-Fried Chinese Long Beans
+- MealDB - Silken Tofu with Sesame Soy Sauce
+- MealDB - Smoky Lentil Chili with Squash
+- MealDB - Spanish Tortilla
+- MealDB - Spiced tortilla
+- MealDB - Spicy Arrabiata Penne
+- MealDB - Spicy North African Potato Salad
+- MealDB - Spinach & Ricotta Cannelloni
+- MealDB - Squash linguine
+- MealDB - Stovetop Eggplant With Harissa, Chickpeas, and Cumin Yogurt
+- MealDB - Stuffed Bell Peppers with Quinoa and Black Beans
+- MealDB - Sukuma Wiki
+- MealDB - Summer Pistou
+- MealDB - Sweet potato salad
+- MealDB - Tahini Lentils
+- MealDB - Tamiya
+- MealDB - Tangy cabbage slaw
+- MealDB - Tangy carrot, cabbage & onion salad
+- MealDB - Thai coconut & veg broth
+- MealDB - Thai pumpkin soup
+- MealDB - Thai rice noodle salad
+- MealDB - Tofu, greens & cashew stir-fry
+- MealDB - Tortang Talong
+- MealDB - Vegan banh mi
+- MealDB - Vegan Chocolate Cake
+- MealDB - Vegan Lasagna
+- MealDB - Vegetarian Casserole
+- MealDB - Vegetarian Chilli
+- MealDB - Vegetarian Shakshuka
+- MealDB - Vietnamese veg parcels
+- MealDB - Vietnamese-style veggie hotpot
+- MealDB - Yaki Udon

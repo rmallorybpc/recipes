@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-22T15:10:15.006Z",
+  "generatedAt": "2026-04-22T16:11:42.151Z",
   "region": "colorado",
   "regionLabel": "Colorado",
-  "totalRecipes": 98,
-  "matchedRecipes": 95,
+  "totalRecipes": 696,
+  "matchedRecipes": 138,
   "recipes": [
     {
       "title": "Suggested - Roasted vegetable grain bowls",
@@ -5235,6 +5235,54 @@
       "seasonalScore": 2
     },
     {
+      "title": "MealDB - Broccoli & Stilton soup",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        },
+        {
+          "ingredient": "broccoli",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "broccoli"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 2
+    },
+    {
       "title": "Pineapple zucchini muffin",
       "meal": "breakfast",
       "style": "baked-casserole",
@@ -6123,6 +6171,1464 @@
       "seasonalScore": 1
     },
     {
+      "title": "MealDB - Beef and Broccoli Stir-Fry",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "broccoli",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "broccoli"
+        }
+      ],
+      "bestMonths": [
+        8,
+        9
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Beef Dumpling Stew",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Beetroot Soup (Borscht)",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Bigos (Hunters Stew)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Bigos (Polish hunter's stew)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Brown Stew Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Brun Lapskaus (Norwegian Beef Vegetable Stew)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Cabbage Soup (Shchi)",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Chickpea, chorizo & spinach stew",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Chorba Hamra bel Frik (Algerian Lamb, Tomato, and Freekeh Soup)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Chorizo & chickpea soup",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Chtitha Batata (Algerian Potato Stew)",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Clam, chorizo & white bean stew",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Creamy Tomato Soup",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Croatian Bean Stew",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Egg Drop Soup",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Fish Soup (Ukha)",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Fish Stew with Rouille",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Fiskesuppe (Creamy Norwegian Fish Soup)",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - French Onion Soup",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Honey Balsamic Chicken with Crispy Broccoli & Potatoes",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "broccoli",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "broccoli"
+        }
+      ],
+      "bestMonths": [
+        8,
+        9
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Hot and Sour Soup",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Irish stew",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Leblebi Soup",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Lemongrass beef stew with noodles",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Moroccan Carrot Soup",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Mushroom soup with buckwheat",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Portuguese fish stew (Caldeirada de peixe)",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Purple sprouting broccoli tempura with nuoc cham",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "broccoli",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "broccoli"
+        }
+      ],
+      "bestMonths": [
+        8,
+        9
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Red Peas Soup",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Rosol (Polish Chicken Soup)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Salmon noodle soup",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Skillet Apple Pork Chops with Roasted Sweet Potatoes & Zucchini",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "zucchini",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "zucchini"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Smoky Lentil Chili with Squash",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Snert (Dutch Split Pea Soup)",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Split Pea Soup",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Thai curry noodle soup",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Thai green chicken soup",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Thai pumpkin soup",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Tom yum (hot & sour) soup with prawns",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Tom yum soup with prawns",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "MealDB - Tunisian Lamb Soup",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "garlic"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
       "title": "Skillet meatloaf / cheeseburger meatloaf",
       "meal": "dinner",
       "style": "meat",
@@ -6378,6 +7884,5556 @@
       "meal": "breakfast",
       "style": "baked-casserole",
       "source": "https://www.recipetineats.com/easy-yeast-bread-recipe-no-knead/",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - 15-minute chicken & halloumi burgers",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Adana kebab",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Æbleskiver",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Air Fryer Egg Rolls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Air fryer patatas bravas",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ajo blanco",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Alfajores",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Algerian Bouzgene Berber Bread with Roasted Pepper Sauce",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Algerian Carrots",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Algerian Flafla (Bell Pepper Salad)",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Algerian Kefta (Meatballs)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Anzac biscuits",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Apam balik",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Apple & Blackberry Crumble",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Apple cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Apple Frangipan Tart",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Apricot & Turkish delight mess",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Arepa Pabellón",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Arepa pelua",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Arroz al horno (baked rice)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Arroz con gambas y calamar",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Asado",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Aubergine & hummus grills",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Aubergine couscous salad",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Aussie Burgers",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Authentic Norwegian Kransekake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Avocado dip with new potatoes",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ayam Percik",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Baba Ghanoush",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Baingan Bharta",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Baked salmon with fennel & tomatoes",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Bakewell tart",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Baklava with spiced nuts, ricotta & chocolate",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Banana Pancakes",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Bang bang prawn salad",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Barbecue pork buns",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Barramundi with Moroccan spices",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Battenberg Cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - BBQ Pork Sloppy Joes",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Bean & Sausage Hotpot",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - BeaverTails",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef and Mustard Pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef and Oyster pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Asado",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Banh Mi Bowls with Sriracha Mayo, Carrot & Pickled Cucumber",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Bourguignon",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Brisket Pot Roast",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Caldereta",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Empanadas",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Lo Mein",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Mandi",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Mechado",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef pho",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Rendang",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef stroganoff",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Sunday Roast",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beef Wellington",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beetroot & red cabbage sauerkraut",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beetroot latkes",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Beetroot pancakes",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Big Mac",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Bistek",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Bitterballen (Dutch meatballs)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Blackberry Fool",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Blini Pancakes",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Blueberry & lemon friands",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Borsch",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Boulangère Potatoes",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Boxty Breakfast",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Braised Beef Chilli",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Braised stuffed cabbage",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Bread and Butter Pudding",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Bread omelette",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Breakfast Potatoes",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Brie wrapped in prosciutto & brioche",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Bryndzové Halušky",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Bubble & Squeak",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Budino Di Ricotta",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Burek",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cacik",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cajun spiced fish tacos",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Callaloo and SaltFish",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Callaloo Jamaican Style",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Canadian Butter Tarts",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Carbonada Criolla",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Caribbean Tamarind balls",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Carrot Cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cashew Ghoriba Biscuits",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cassava pizza",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cevapi Sausages",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chakchouka",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Challah",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cheese Borek",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chelsea Buns",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chick-Fil-A Sandwich",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken & chorizo rice pot",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken & mushroom Hotpot",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Alfredo Primavera",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Basquaise",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Congee",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Couscous",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Enchilada Casserole",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Fajita Mac and Cheese",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Fried Rice",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Ham and Leek Pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Handi",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Karaage",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Mandi",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Marengo",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Parmentier",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Quinoa Greek Salad",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken Shawarma with homemade garlic herb yoghurt sauce",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken wings with cumin, lemon & garlic",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chicken with saffron, raisins & pine nuts",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chickpea Fajitas",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chilli ginger lamb chops",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chilli prawn linguine",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chinese Orange Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chinese Tomato Egg Stir Fry",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chinon Apple Tarts",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chivito sandwich",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chivito uruguayo",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Choc Chip Pecan Pie",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chocolate alfajores",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chocolate Avocado Mousse",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chocolate Caramel Crispy",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chocolate churros with chocolate & salted caramel sauce",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chocolate Coconut Squares",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chocolate empanadas",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chocolate Gateau",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chocolate Raspberry Brownies",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chocolate Souffle",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Choripán",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chorizo & soft-boiled egg salad",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chorizo & tomato salad",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Chorizo, potato & cheese omelette",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Christmas cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Christmas Pudding Flapjack",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Christmas Pudding Trifle",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Churros",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cinnamon buns",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Clam chowder",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Classic Christmas pudding",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Classic Tourtière",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Coddled pork with cider",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Coq au vin",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Corba",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Corned Beef and Cabbage",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Corned Beef and Cabbage – Jamaican Style",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Corned Beef Hash",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cornes de Gazelle (Gazelle Horns)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cream Cheese Tart",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Crema Catalana",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Crispy Eggplant",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Crispy Sausages and Greens",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Croatian lamb peka",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Crock Pot Chicken Baked Tacos",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cucumber & fennel salad",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Cumberland Pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Dal fry",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Date squares",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Drunken noodles (pad kee mao)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Duck Confit",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Dulce de Leche",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Dundee cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Dutch poffertjes (mini pancakes)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Dutch stroopwafel",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Dziriat (Algerian Almond Tarts)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Easy Spanish chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Eccles Cakes",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Egg Foo Young",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Eggplant Adobo",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Egyptian Fatteh",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Empanadas",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - English Breakfast",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ensaimada",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Escovitch Fish",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Eton Mess",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ezme",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fainá",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Falafel",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Falafel Pita Sandwich with Tahini Sauce",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fårikål (Norwegian National Dish)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fašírky",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fasoliyyeh Bi Z-Zayt (Syrian Green Beans with Olive Oil)",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fennel Dauphinoise",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Feteer Meshaltet",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fettuccine Alfredo",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fettucine alfredo",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Figgy Duff",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fish fofos",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fish pie",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Flamiche",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Flan",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Flapper Pie",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - French Lentils With Garlic and Thyme",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - French Omelette",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - French Onion Chicken with Roasted Carrots & Mashed Potatoes",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fresh sardines",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fried calamari",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fruit and Cream Cheese Breakfast Pastries",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ful Medames",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Full English Breakfast",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Fyrstekake – Norwegian Prince Cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Gambas al ajillo",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Garides Saganaki",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Garlicky prawns with sherry",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - General Tsos Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Gevulde speculaas",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Gigantes Plaki",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Golabki (cabbage roll)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Grape Nut Ice Cream",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Griddled aubergines with sesame dressing",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Griddled flatbreads",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Grilled aubergines with spicy chickpeas & walnut sauce",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Grilled eggplant with coconut milk",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Grilled Mac and Cheese Sandwich",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Grilled Portuguese sardines",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ham croquetas",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ham hock colcannon",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Hodge Podge",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Home-made Mandazi",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Honey Teriyaki Salmon",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Honey Yogurt Cheesecake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Hot Chocolate Fudge",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Hot cumin lamb wrap with crunchy slaw & spicy mayo",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Hummus",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Imam bayildi with BBQ lamb & tzatziki",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jam jam cookies",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jam Roly-Poly",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Banana Fritters",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Beef Patties",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Boiled Dumplings",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Cornmeal Porridge",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Curry Chicken Recipe",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Curry Goat",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Curry Shrimp Recipe",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Festival (Sweet Dumpling)",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Fried Dumplings",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Instant Pot Rice and Beans",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Pepper Shrimp",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Rice and Peas",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Spice Bun Recipe",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Steamed Cabbage",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamaican Sweet Potato Pudding",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jamon & wild garlic croquetas",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Japanese gohan rice",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Japanese Katsudon",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jerk chicken with rice & peas",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Jiggs Dinner",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - kabse",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kafteji",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kapsalon",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Karbonader (Lean Beef Patties) with Caramelized Onions",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Katsu Chicken curry",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kedgeree",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Keleya Zaara",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kentucky Fried Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kenyan Beef Curry",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Key Lime Pie",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Khobz el Dar (Algerian Semolina Bread)",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kidney Bean Curry",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Knafeh",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - kofta burgers",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Koshari",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Krispy Kreme Donut",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kumpir",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kung Pao Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kung Po Prawns",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Kvæfjord Cake “Verdens Beste” (World’s Best Cake)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Laksa King Prawn Noodles",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamb & apricot meatballs",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamb and Lemon Souvlaki",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamb and Potato pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamb Biryani",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamb Pilaf (Plov)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamb Rogan josh",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamb Tagine",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamb tomato and sweet spices",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamb Tzatziki Burgers",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lamingtons",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lancashire hotpot",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lasagna Sandwiches",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Locro",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ma Po Tofu",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Madeira Cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mamoul (Eid biscuits)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Massaman Beef curry",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Matambre a la Pizza",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Matar Paneer",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mazariner – Scandinavian Almond Tartlets",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mbuzi Choma (Roasted Goat)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - McSinghs Scotch pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mediterranean Pasta Salad",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mee goreng mamak",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Migas",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Milanesa",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mince Pies",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Minced Beef Pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mini bundt cakes",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mini chilli beef pies",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Molasses Baked Beans",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Montreal Smoked Meat",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Moussaka",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mulukhiyah",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mushroom & Chestnut Rotolo",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mustard champ",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Mutabbaq",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Nanaimo Bars",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Napa Cabbage with Dried Shrimp",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Nasi lemak",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - New York cheesecake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - No-Churn Rum Raisin Ice Cream",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Noodle bowl salad",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Nordic smørrebrød with asparagus and horseradish cream",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Norwegian Krumkake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Norwegian Potato Lefse",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Nutty Chicken Curry",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Oatmeal pancakes",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Osso Buco alla Milanese",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Oxtail with broad beans",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pad See Ew",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pad Thai",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Padron peppers",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Paella",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pan-fried hake, white bean & chorizo broth",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Panang chicken curry (kaeng panang gai)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pancakes",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Parkin Cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Passion fruit mousse",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Paszteciki (Polish Pasties)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Patatas bravas",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pate Chinois",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Peach & Blueberry Grunt",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Peanut Butter Cheesecake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Peanut Butter Cookies",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pear Tarte Tatin",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Piernik (Polish gingerbread)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pierogi (Polish Dumplings)",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pilchard puttanesca",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Piri-piri chicken and slaw",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pistachio cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pistachio Kunafa Chocolate Cake and Cupcakes",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pisto con huevos",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pizza Express Margherita",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Polish chocolate & walnut cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Polish doughnuts (Pączki)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Polish patties (kotlety)",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pollo en pepitoria",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Polskie Nalesniki (Polish Pancakes)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pomegranate salad",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pork & sauerkraut goulash",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pork Cassoulet",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pork rib bortsch",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Portuguese barbecued pork (Febras assadas)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Portuguese custard tarts",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Portuguese prego with green piri-piri",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Postre Chajá",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Potato Gratin with Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Potato Salad (Olivier Salad)",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pouding chomeur",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Poulet Roti a l'Algerienne (Algerian Roast Chicken)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Poutine",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Prawn & Fennel Bisque",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Prawn & noodle salad with crispy shallots",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Prawn stir-fry",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Prawns with Romesco sauce",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Provençal Omelette Cake",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Pumpkin Pie",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Quick gazpacho",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Quick salt & pepper squid",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ramen Noodles with Boiled Egg",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Rappie Pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Raspberry mousse",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Raspeballer (Norwegian Potato Dumplings)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ratatouille",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Recheado Masala Fish",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Red curry chicken kebabs",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Red onion pickle",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ribollita",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Rice paper dumplings",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Rigatoni with fennel sausage sauce",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Roast aubergine with goat's cheese & toasted flatbread",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Roast fennel and aubergine paella",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Roasted chicken with creamy walnut sauce",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Roasted Eggplant With Tahini, Pine Nuts, and Lentils",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Rock Cakes",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Rocky Road Fudge",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Rogaliki (Polish Croissant Cookies)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Rømmegrøt – Norwegian Sour Cream Porridge",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Rosemary braised red cabbage with kabanos",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Roti john",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Rye bread",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Salmon Avocado Salad",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Salmon Eggs Eggs Benedict",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Salmon noodle wraps",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Salmon Prawn Risotto",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Salt & pepper squid",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Salt cod tortilla",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Salted Caramel Cheescake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Saltfish and Ackee",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Saskatoon Pie",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sauerkraut pierogi",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sauerkraut pierogii",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sea bass with sizzled ginger, chilli & spring onions",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Seafood fideuà",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Seafood rice",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Seri muka kuih",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sesame Cucumber Salad",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Shakshouka",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Shakshuka",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Shakshuka Feta Cheese",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Shawarma",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Shawarma bread",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Shawarma chuck roast wrap",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Shrimp Chow Fun",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Shrimp With Snow Peas",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sichuan Eggplant",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sichuan Style Stir-Fried Chinese Long Beans",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Silken Tofu with Sesame Soy Sauce",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Singapore Noodles with Shrimp",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sledz w Oleju (Polish Herrings)",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Slow-roast lamb with cinnamon, fennel & citrus",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Slow-roasted ham with lemon, garlic & sage",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Smoked aubergine purée",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Smoked Haddock Kedgeree",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Smoky chicken skewers",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Soy-Glazed Meatloaves with Wasabi Mashed Potatoes & Roasted Carrots",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spaghetti alla Carbonara",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spaghetti Bolognese",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spaghetti with Spanish flavours",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish beans with chicken & chorizo",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish chicken pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish fig & almond balls",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish meatballs with clams, chorizo & squid",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish rice & prawn one-pot",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish seafood rice",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish tomato bread with jamón Serrano",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish Tortilla",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spanish-style slow-cooked lamb shoulder & beans",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spiced smoky barbecued chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spiced tortilla",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spicy Arrabiata Penne",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spicy North African Potato Salad",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spicy Thai prawn noodles",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spinach & Ricotta Cannelloni",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spotted Dick",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Spring onion and prawn empanadas",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Squash linguine",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Squid, chickpea & chorizo salad",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Stamppot",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Steak & Vietnamese noodle salad",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Steak and Kidney Pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Steak Diane",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sticky Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sticky Toffee Pudding",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sticky Toffee Pudding Ultimate",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Stir-fried chicken with chillies & basil",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Stovetop Eggplant With Harissa, Chickpeas, and Cumin Yogurt",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Strawberries Romanoff",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Strawberry Rhubarb Pie",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Stuffed Bell Peppers with Quinoa and Black Beans",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Stuffed Lamb Tomatoes",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sugar Pie",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Suksessterte (Norwegian almond “success cake”)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sukuma Wiki",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Šúĺlance s Makom",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Summer Pistou",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Summer Pudding",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sushi",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sweet and Sour Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sweet and Sour Pork",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Sweet potato salad",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Syrian Bread",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Syrian Rice with Meat",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Syrian Spaghetti",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Szechuan Beef",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tahini Lentils",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tajine de Poulet aux Carottes et Patates Douces (Chicken and Sweet Potato Tagine)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tall Skoleboller",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tamiya",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tandoori chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tangy cabbage slaw",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tangy carrot, cabbage & onion salad",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tarte Tatin",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Teriyaki Chicken Casserole",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai beef stir-fry",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai chicken cakes with sweet chilli sauce",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai coconut & veg broth",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai drumsticks",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai fried rice with prawns & peas",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai Green Curry",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai pork & peanut curry",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai prawn curry",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai rice noodle salad",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai-style fish broth with greens",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Thai-style steamed fish",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Three Fish Pie",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Three-cheese souffles",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Timbits",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Toad In The Hole",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tofu, greens & cashew stir-fry",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tom kha gai",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tonkatsu pork",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Torrijas with sherry",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Torta de fiambre",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tortang Talong",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tourtiere",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Traditional Croatian Goulash",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Treacle Tart",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tuna and Egg Briks",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tuna Nicoise",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Tunisian Orange Cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Turkey Bánh mì",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Turkey Meatloaf",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Turkish lahmacun",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Turkish lamb pilau",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Turkish rice (vermicelli rice)",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Turkish-style lamb",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Ugali – Kenyan cornmeal",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vanilla alfajores",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vegan banh mi",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vegan Chocolate Cake",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vegan Lasagna",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vegetable Shepherds Pie",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vegetarian Casserole",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vegetarian Chilli",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vegetarian Shakshuka",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Venetian Duck Ragu",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Venezuelan Arepas",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Venezuelan Coconut Chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Venezuelan Sancocho",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Venezuelan Shredded Beef",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Venezuelan turnovers",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vietnamese caramel trout",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vietnamese chicken salad",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vietnamese Grilled Pork (bun-thit-nuong)",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vietnamese lamb shanks with sweet potatoes",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vietnamese pork salad",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vietnamese prawn spiralized rolls",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vietnamese veg parcels",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vietnamese-style caramel pork",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Vietnamese-style veggie hotpot",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Walnut Roll Gužvara",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Walnut, date & honey cake",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Warm roast asparagus salad",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - White chocolate creme brulee",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Wontons",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Yaki Udon",
+      "meal": "dinner",
+      "style": "vegetarian",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Yemeni Lahsa (Elite Shakshuka)",
+      "meal": "dinner",
+      "style": "baked-casserole",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Yorkshire Puddings",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Zapiekanki",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "",
+      "seasonalIngredients": [],
+      "bestMonths": [],
+      "availableMonths": [],
+      "seasonalScore": 0
+    },
+    {
+      "title": "MealDB - Zemiakové Placky",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],

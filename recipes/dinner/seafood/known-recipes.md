@@ -2,3 +2,74 @@
 
 - Suggested - Baked salmon with asparagus
 - Suggested - Mediterranean baked cod
+
+- MealDB - Arroz con gambas y calamar
+- MealDB - Baked salmon with fennel & tomatoes
+- MealDB - Bang bang prawn salad
+- MealDB - Barramundi with Moroccan spices
+- MealDB - Cajun spiced fish tacos
+- MealDB - Clam, chorizo & white bean stew
+- MealDB - Egg Foo Young
+- MealDB - Escovitch Fish
+- MealDB - Fish fofos
+- MealDB - Fish pie
+- MealDB - Fish Soup (Ukha)
+- MealDB - Fish Stew with Rouille
+- MealDB - Fiskesuppe (Creamy Norwegian Fish Soup)
+- MealDB - Fried calamari
+- MealDB - Gambas al ajillo
+- MealDB - Garides Saganaki
+- MealDB - Garlicky prawns with sherry
+- MealDB - Grilled Portuguese sardines
+- MealDB - Honey Teriyaki Salmon
+- MealDB - Jamaican Curry Shrimp Recipe
+- MealDB - Jamaican Pepper Shrimp
+- MealDB - Kedgeree
+- MealDB - Kung Po Prawns
+- MealDB - Laksa King Prawn Noodles
+- MealDB - Mediterranean Pasta Salad
+- MealDB - Mee goreng mamak
+- MealDB - Napa Cabbage with Dried Shrimp
+- MealDB - Nasi lemak
+- MealDB - Noodle bowl salad
+- MealDB - Pad Thai
+- MealDB - Paella
+- MealDB - Pan-fried hake, white bean & chorizo broth
+- MealDB - Portuguese fish stew (Caldeirada de peixe)
+- MealDB - Prawn & noodle salad with crispy shallots
+- MealDB - Prawn stir-fry
+- MealDB - Prawns with Romesco sauce
+- MealDB - Quick salt & pepper squid
+- MealDB - Recheado Masala Fish
+- MealDB - Salmon Avocado Salad
+- MealDB - Salmon noodle soup
+- MealDB - Salmon noodle wraps
+- MealDB - Salmon Prawn Risotto
+- MealDB - Salt & pepper squid
+- MealDB - Salt cod tortilla
+- MealDB - Saltfish and Ackee
+- MealDB - Sea bass with sizzled ginger, chilli & spring onions
+- MealDB - Seafood fideuà
+- MealDB - Seafood rice
+- MealDB - Shrimp Chow Fun
+- MealDB - Shrimp With Snow Peas
+- MealDB - Singapore Noodles with Shrimp
+- MealDB - Sledz w Oleju (Polish Herrings)
+- MealDB - Spanish rice & prawn one-pot
+- MealDB - Spanish seafood rice
+- MealDB - Spicy Thai prawn noodles
+- MealDB - Spring onion and prawn empanadas
+- MealDB - Squid, chickpea & chorizo salad
+- MealDB - Sushi
+- MealDB - Thai curry noodle soup
+- MealDB - Thai fried rice with prawns & peas
+- MealDB - Thai prawn curry
+- MealDB - Thai-style fish broth with greens
+- MealDB - Thai-style steamed fish
+- MealDB - Three Fish Pie
+- MealDB - Tom yum (hot & sour) soup with prawns
+- MealDB - Tom yum soup with prawns
+- MealDB - Tuna and Egg Briks
+- MealDB - Tuna Nicoise
+- MealDB - Vietnamese caramel trout
+- MealDB - Vietnamese prawn spiralized rolls

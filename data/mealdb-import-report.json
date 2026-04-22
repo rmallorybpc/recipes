@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-04-22T16:10:47.151Z",
+  "mode": "live",
+  "input": {
+    "hydrated_count": 598,
+    "unique_ids": 598,
+    "categories_count": 14,
+    "lookup_failures": 0
+  },
+  "output": {
+    "markdown_created": 554,
+    "skipped_known_id": 44,
+    "skipped_existing_file": 18,
+    "known_recipes_added": 578,
+    "script_entries_added": 578,
+    "write_failures": 0,
+    "import_state_ids": 598
+  },
+  "failures": []
+}
