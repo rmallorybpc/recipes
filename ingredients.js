@@ -158,13 +158,25 @@ function renderFullIngredientList(ingredients, recipeId) {
 
 function reliabilityText(source) {
   const value = String(source || "").toLowerCase();
-  return value.includes("scrape") ? "From source" : "Estimated";
+  if (value.includes("scrape") || value === "mealdb_api" || value === "markdown_recipe") {
+    return "From source";
+  }
+
+  return "Estimated";
 }
 
 function reliabilityDetail(source) {
   const value = String(source || "").toLowerCase();
   if (value.includes("scrape")) {
     return "Ingredients were scraped from the linked source recipe.";
+  }
+
+  if (value === "mealdb_api") {
+    return "Ingredients were pulled directly from TheMealDB for this recipe.";
+  }
+
+  if (value === "markdown_recipe") {
+    return "Ingredients were loaded from the recipe file in this collection.";
   }
 
   return "Ingredients are inferred and may be incomplete.";
