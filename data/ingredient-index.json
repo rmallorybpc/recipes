@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-22T16:16:27.883Z",
-  "total_ingredients": 589,
+  "generated_at": "2026-04-22T16:27:12.333Z",
+  "total_ingredients": 591,
   "entries": [
     {
       "ingredient": "- g dried egg noodles per person",
@@ -79,7 +79,6 @@
       "ingredient": "avocado",
       "recipe_ids": [
         "dinner-bowls-salmon-veggie-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
       ]
     },
@@ -488,6 +487,12 @@
         "dinner-meat-fried-chicken",
         "dinner-meat-stew",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles"
+      ]
+    },
+    {
+      "ingredient": "brown sugar or more",
+      "recipe_ids": [
+        "dinner-bowls-suggested-teriyaki-salmon-bowls"
       ]
     },
     {
@@ -1040,7 +1045,6 @@
         "dinner-bowls-salmon-veggie-bowls",
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-bowls-suggested-vegetable-curry",
         "dinner-handheld-lettuce-wraps",
         "dinner-handheld-suggested-sausage-and-peppers",
@@ -1199,8 +1203,7 @@
       "ingredient": "cucumber",
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-chicken",
-        "dinner-bowls-salmon-veggie-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls"
+        "dinner-bowls-salmon-veggie-bowls"
       ]
     },
     {
@@ -1378,12 +1381,6 @@
       "recipe_ids": [
         "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta",
         "dinner-seafood-suggested-mediterranean-baked-cod"
-      ]
-    },
-    {
-      "ingredient": "edamame shelled",
-      "recipe_ids": [
-        "dinner-bowls-suggested-teriyaki-salmon-bowls"
       ]
     },
     {
@@ -1994,6 +1991,7 @@
       "ingredient": "garlic powder",
       "recipe_ids": [
         "breakfast-meat-white-chicken-chili",
+        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-meat-bbq-in-crockpot",
         "dinner-meat-cheeseburgers",
         "dinner-meat-chicken-parm",
@@ -2026,7 +2024,6 @@
         "dinner-bowls-salmon-veggie-bowls",
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-bowls-suggested-vegetable-curry",
         "dinner-handheld-lettuce-wraps",
         "dinner-meat-beef-and-broccoli",
@@ -2147,6 +2144,7 @@
     {
       "ingredient": "ground ginger",
       "recipe_ids": [
+        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
       ]
     },
@@ -2154,6 +2152,12 @@
       "ingredient": "ground lamb",
       "recipe_ids": [
         "dinner-meat-suggested-lamb-kofta-with-tzatziki"
+      ]
+    },
+    {
+      "ingredient": "ground mustard",
+      "recipe_ids": [
+        "dinner-bowls-suggested-teriyaki-salmon-bowls"
       ]
     },
     {
@@ -2275,7 +2279,6 @@
         "breakfast-bowls-suggested-greek-yogurt-parfait",
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
         "dinner-bowls-salmon-veggie-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-meat-chicken-wings",
         "dinner-rice-or-pasta-salmon-and-rice"
       ]
@@ -2339,8 +2342,7 @@
     {
       "ingredient": "jasmine rice cooked",
       "recipe_ids": [
-        "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls"
+        "dinner-bowls-suggested-korean-beef-bulgogi-bowls"
       ]
     },
     {
@@ -2603,6 +2605,7 @@
         "breakfast-meat-greek-pitas-with-turkey-meat",
         "breakfast-vegetarian-suggested-avocado-toast-with-egg",
         "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
+        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-meat-suggested-lamb-kofta-with-tzatziki",
         "lunch-handheld-suggested-tuna-salad-sandwich",
         "lunch-handheld-suggested-turkey-and-avocado-wrap"
@@ -4192,7 +4195,6 @@
       "recipe_ids": [
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
         "dinner-bowls-salmon-veggie-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles"
       ]
     },
@@ -4244,8 +4246,13 @@
       "ingredient": "salmon fillets",
       "recipe_ids": [
         "dinner-bowls-salmon-veggie-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-rice-or-pasta-salmon-and-rice"
+      ]
+    },
+    {
+      "ingredient": "salmon steaks",
+      "recipe_ids": [
+        "dinner-bowls-suggested-teriyaki-salmon-bowls"
       ]
     },
     {
@@ -4719,7 +4726,6 @@
       "ingredient": "scallions",
       "recipe_ids": [
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-handheld-lettuce-wraps",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
         "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
@@ -4779,6 +4785,7 @@
     {
       "ingredient": "sesame seeds",
       "recipe_ids": [
+        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-vegetarian-stir-fry"
       ]
     },
@@ -4787,7 +4794,6 @@
       "recipe_ids": [
         "dinner-bowls-salmon-veggie-bowls",
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-meat-beef-and-broccoli",
         "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
         "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu"

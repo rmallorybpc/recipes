@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-22T16:16:27.877Z",
+  "generated_at": "2026-04-22T16:27:12.326Z",
   "stats": {
     "total_recipes": 696,
     "with_existing_source": 98,
-    "resolved_from_search": 5,
-    "scraped_ingredients": 9,
-    "markdown_fallback": 89,
+    "resolved_from_search": 2,
+    "scraped_ingredients": 10,
+    "markdown_fallback": 88,
     "heuristic_only": 598
   },
   "recipes": [
@@ -5025,37 +5025,29 @@
       "resolved_source_url": "https://www.allrecipes.com/recipe/228285/teriyaki-salmon/",
       "source_origin": "existing_source",
       "ingredients": [
-        "4 salmon fillets (6 oz each)",
-        "2 cups jasmine rice, cooked",
-        "1 cup edamame, shelled",
-        "1 cucumber, sliced",
-        "1 avocado, sliced",
-        "2 scallions, sliced",
-        "1/4 cup soy sauce",
-        "2 tablespoons honey",
-        "1 tablespoon sesame oil",
-        "1 tablespoon rice vinegar",
-        "1 teaspoon fresh ginger, grated",
-        "2 cloves garlic, minced",
-        "sesame seeds for garnish"
+        "0.25 cup sesame oil",
+        "0.25 cup lemon juice",
+        "0.25 cup soy sauce",
+        "2 tablespoons brown sugar, or more to taste",
+        "1 tablespoon sesame seeds",
+        "1 teaspoon ground mustard",
+        "1 teaspoon ground ginger",
+        "0.25 teaspoon garlic powder",
+        "4 (6 ounce) salmon steaks"
       ],
       "ingredients_normalized": [
-        "salmon fillets",
-        "jasmine rice cooked",
-        "edamame shelled",
-        "cucumber",
-        "avocado",
-        "scallions",
-        "soy sauce",
-        "honey",
         "sesame oil",
-        "rice vinegar",
-        "ginger grated",
-        "cloves garlic",
-        "sesame seeds for garnish"
+        "lemon juice",
+        "soy sauce",
+        "brown sugar or more",
+        "sesame seeds",
+        "ground mustard",
+        "ground ginger",
+        "garlic powder",
+        "salmon steaks"
       ],
-      "ingredient_source": "markdown_recipe",
-      "confidence": 0.75
+      "ingredient_source": "source_scrape",
+      "confidence": 0.95
     },
     {
       "title": "Suggested - Thai green curry",
@@ -5903,8 +5895,8 @@
       "style": "meat",
       "source_url": null,
       "id": "dinner-meat-mealdb-adana-kebab",
-      "resolved_source_url": "https://www.bing.com/camera",
-      "source_origin": "web_search",
+      "resolved_source_url": null,
+      "source_origin": "none",
       "ingredients": [
         "salt",
         "pepper",
@@ -5916,7 +5908,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "confidence": 0.35
     },
     {
       "title": "MealDB - Algerian Kefta (Meatballs)",
@@ -7831,8 +7823,8 @@
       "style": "meat",
       "source_url": null,
       "id": "dinner-meat-mealdb-irish-stew",
-      "resolved_source_url": "https://www.bing.com/",
-      "source_origin": "web_search",
+      "resolved_source_url": null,
+      "source_origin": "none",
       "ingredients": [
         "broth",
         "onion",
@@ -7844,7 +7836,7 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "confidence": 0.35
     },
     {
       "title": "MealDB - Jamaican Beef Patties",
@@ -8356,8 +8348,8 @@
       "style": "meat",
       "source_url": null,
       "id": "dinner-meat-mealdb-lemongrass-beef-stew-with-noodles",
-      "resolved_source_url": "https://www.bing.com/visualsearch",
-      "source_origin": "web_search",
+      "resolved_source_url": null,
+      "source_origin": "none",
       "ingredients": [
         "beef",
         "broth",
@@ -8371,7 +8363,7 @@
         "garlic"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "confidence": 0.35
     },
     {
       "title": "MealDB - Ma Po Tofu",
@@ -12272,8 +12264,8 @@
       "style": "seafood",
       "source_url": null,
       "id": "dinner-seafood-mealdb-quick-salt-pepper-squid",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bing.com/",
+      "source_origin": "web_search",
       "ingredients": [
         "salt",
         "pepper",
@@ -12285,7 +12277,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "MealDB - Recheado Masala Fish",
@@ -14091,8 +14083,8 @@
       "style": "vegetarian",
       "source_url": null,
       "id": "dinner-vegetarian-mealdb-griddled-aubergines-with-sesame-dressing",
-      "resolved_source_url": null,
-      "source_origin": "none",
+      "resolved_source_url": "https://www.bing.com/visualsearch",
+      "source_origin": "web_search",
       "ingredients": [
         "salt",
         "pepper",
@@ -14104,7 +14096,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.35
+      "confidence": 0.45
     },
     {
       "title": "MealDB - Grilled aubergines with spicy chickpeas & walnut sauce",
@@ -14932,8 +14924,8 @@
       "style": "vegetarian",
       "source_url": null,
       "id": "dinner-vegetarian-mealdb-stuffed-bell-peppers-with-quinoa-and-black-beans",
-      "resolved_source_url": "https://www.bing.com/tools/qrcode",
-      "source_origin": "web_search",
+      "resolved_source_url": null,
+      "source_origin": "none",
       "ingredients": [
         "salt",
         "pepper",
@@ -14945,7 +14937,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "confidence": 0.35
     },
     {
       "title": "MealDB - Sukuma Wiki",
@@ -15176,8 +15168,8 @@
       "style": "vegetarian",
       "source_url": null,
       "id": "dinner-vegetarian-mealdb-tortang-talong",
-      "resolved_source_url": "https://www.bing.com/camera",
-      "source_origin": "web_search",
+      "resolved_source_url": null,
+      "source_origin": "none",
       "ingredients": [
         "salt",
         "pepper",
@@ -15189,7 +15181,7 @@
         "olive oil"
       ],
       "ingredient_source": "title_heuristic",
-      "confidence": 0.45
+      "confidence": 0.35
     },
     {
       "title": "MealDB - Vegan banh mi",

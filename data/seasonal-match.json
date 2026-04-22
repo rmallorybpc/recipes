@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T16:16:27.899Z",
+  "generatedAt": "2026-04-22T16:27:12.347Z",
   "region": "colorado",
   "regionLabel": "Colorado",
   "totalRecipes": 696,
@@ -5945,56 +5945,6 @@
       "seasonalScore": 2
     },
     {
-      "title": "Suggested - Teriyaki salmon bowls",
-      "meal": "dinner",
-      "style": "bowls",
-      "source": "https://www.allrecipes.com/recipe/228285/teriyaki-salmon/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "2 scallions, sliced"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "2 cloves garlic, minced"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
-    },
-    {
       "title": "Suggested - Vietnamese pho",
       "meal": "dinner",
       "style": "soup-or-stew",
@@ -6940,7 +6890,7 @@
       "title": "MealDB - Irish stew",
       "meal": "dinner",
       "style": "meat",
-      "source": "https://www.bing.com/",
+      "source": "",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -7010,7 +6960,7 @@
       "title": "MealDB - Lemongrass beef stew with noodles",
       "meal": "dinner",
       "style": "meat",
-      "source": "https://www.bing.com/visualsearch",
+      "source": "",
       "seasonalIngredients": [
         {
           "ingredient": "garlic",
@@ -7831,6 +7781,41 @@
       "seasonalScore": 1
     },
     {
+      "title": "Suggested - Teriyaki salmon bowls",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "https://www.allrecipes.com/recipe/228285/teriyaki-salmon/",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "0.25 teaspoon garlic powder"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
       "title": "Suggested - Turkey and avocado wrap",
       "meal": "lunch",
       "style": "handheld",
@@ -7903,7 +7888,7 @@
       "title": "MealDB - Adana kebab",
       "meal": "dinner",
       "style": "meat",
-      "source": "https://www.bing.com/camera",
+      "source": "",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -10013,7 +9998,7 @@
       "title": "MealDB - Griddled aubergines with sesame dressing",
       "meal": "dinner",
       "style": "vegetarian",
-      "source": "",
+      "source": "https://www.bing.com/visualsearch",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -11603,7 +11588,7 @@
       "title": "MealDB - Quick salt & pepper squid",
       "meal": "dinner",
       "style": "seafood",
-      "source": "",
+      "source": "https://www.bing.com/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -12523,7 +12508,7 @@
       "title": "MealDB - Stuffed Bell Peppers with Quinoa and Black Beans",
       "meal": "dinner",
       "style": "vegetarian",
-      "source": "https://www.bing.com/tools/qrcode",
+      "source": "",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
@@ -12973,7 +12958,7 @@
       "title": "MealDB - Tortang Talong",
       "meal": "dinner",
       "style": "vegetarian",
-      "source": "https://www.bing.com/camera",
+      "source": "",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
