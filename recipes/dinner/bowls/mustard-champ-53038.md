@@ -25,15 +25,12 @@ Mustard champ from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1.
-2. Boil the potatoes for 15 mins or until tender.
-3. Drain, then mash.
-4. STEP 2.
-5. Heat the milk and half the butter in the corner of the pan, then beat into the mash, along with the wholegrain mustard.
-6. STEP 3.
-7. Gently fry the spring onions in the remaining butter for 2 mins until just soft but still a perky green.
-8. Fold into the mash and serve.
-9. Great with gammon or to top a fish pie.
+1. Boil the potatoes for 15 mins or until tender.
+2. Drain, then mash.
+3. Heat the milk and half the butter in the corner of the pan, then beat into the mash, along with the wholegrain mustard.
+4. Gently fry the spring onions in the remaining butter for 2 mins until just soft but still a perky green.
+5. Fold into the mash and serve.
+6. Great with gammon or to top a fish pie.
 
 ## Notes
 

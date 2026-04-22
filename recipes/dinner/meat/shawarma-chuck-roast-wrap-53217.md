@@ -31,28 +31,19 @@ Shawarma chuck roast wrap from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 1.
-2. In a dutch oven or slow cooker, add all the spices, beef broth and lemon juice.
-3. Stir to combine..
-4. 2.
-5. Add the beef and turn to coat, spoon some sauce over the top.
-6. 3.
-7. Cover and cook on low for 8-10 hours.
-8. 4.
-9. After cooking, remove beef and use two forks to shred.
-10. Discard any excess fat.
-11. 5.
-12. Skim fat off of the top of the liquid remaining.
-13. 6.
-14. Mix shredded beef into sauce.
-15. Keep warm until you are ready to serve.
-16. 7.
-17. Build wrap by spreading garlic sauce on the pita.
-18. Top with beef and add garnishes to your liking.
-19. 8.
-20. Fold it burrito style.
-21. 9.
-22. Heat a grill pan and grill the wrap.
+1. In a dutch oven or slow cooker, add all the spices, beef broth and lemon juice.
+2. Stir to combine..
+3. Add the beef and turn to coat, spoon some sauce over the top.
+4. Cover and cook on low for 8-10 hours.
+5. After cooking, remove beef and use two forks to shred.
+6. Discard any excess fat.
+7. Skim fat off of the top of the liquid remaining.
+8. Mix shredded beef into sauce.
+9. Keep warm until you are ready to serve.
+10. Build wrap by spreading garlic sauce on the pita.
+11. Top with beef and add garnishes to your liking.
+12. Fold it burrito style.
+13. Heat a grill pan and grill the wrap.
 
 ## Notes
 

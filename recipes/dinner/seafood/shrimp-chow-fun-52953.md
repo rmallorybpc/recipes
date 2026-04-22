@@ -36,14 +36,14 @@ Shrimp Chow Fun from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1 - SOAK THE RICE NOODLES.
+1. SOAK THE RICE NOODLES.
 2. Soak the rice noodles overnight untill they are soft.
-3. STEP 2 - BOIL THE RICE NOODLES.
+3. BOIL THE RICE NOODLES.
 4. Boil the noodles for 10-15 minutes and then rinse with cold water to stop the cooking process of the noodles.
-5. STEP 3 -MARINATING THE SHRIMP.
+5. MARINATING THE SHRIMP.
 6. In a bowl add the shrimp, egg, 1 pinch of white pepper, 1 Teaspoon of sesame seed oil, 1 Tablespoon corn starch and 1 tablespoon of oil.
 7. Mix together well.
-8. STEP 4 - STIR FRY.
+8. STIR FRY.
 9. In a wok add 2 Tablespoons of oil, shrimp and stir fry them until it is golden brown.
 10. Set the shrimp aside.
 11. Add 1 Tablespoon of oil to the work and then add minced garlic, ginger and all of the vegetables.

@@ -3,7 +3,7 @@ title: "Venezuelan Arepas"
 meal: dinner
 style: bowls
 protein: none
-cuisine: "Venezulan"
+cuisine: "Venezuelan"
 time_minutes: 30
 servings: 4
 source_url: https://www.themealdb.com/meal/53325

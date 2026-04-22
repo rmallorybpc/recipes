@@ -31,17 +31,15 @@ Turkey Bánh mì from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. To make the pickled slaw, tip the carrots and cabbage into a large bowl.
-3. In a small bowl, combine the ginger, rice vinegar, sugar and a few pinches of salt.
-4. Pour over the vegetables and toss together.
-5. Set aside for at least 15 mins.
-6. step 2.
-7. Halve the baguettes lengthways and spread the pâté over the bottom half.
-8. Top with the pickled slaw, cucumber and turkey.
-9. Mix the mayonnaise with the chopped chilli and dollop over the top.
-10. Scatter over the mint leaves and sliced chilli.
-11. Sandwich together and dig in.
+1. To make the pickled slaw, tip the carrots and cabbage into a large bowl.
+2. In a small bowl, combine the ginger, rice vinegar, sugar and a few pinches of salt.
+3. Pour over the vegetables and toss together.
+4. Set aside for at least 15 mins.
+5. Halve the baguettes lengthways and spread the pâté over the bottom half.
+6. Top with the pickled slaw, cucumber and turkey.
+7. Mix the mayonnaise with the chopped chilli and dollop over the top.
+8. Scatter over the mint leaves and sliced chilli.
+9. Sandwich together and dig in.
 
 ## Notes
 

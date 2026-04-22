@@ -36,23 +36,21 @@ Spanish meatballs with clams, chorizo & squid from TheMealDB imported into the p
 
 ## Instructions
 
-1. step 1.
-2. Melt the butter in a heavy-based casserole, then soften the shallots for 5 mins.
-3. Add the paprika and crushed garlic and cook for 1 min until the paprika becomes fragrant.
-4. Splash in the sherry, then pour the whole lot into a bowl with the breadcrumbs.
-5. Season and cool.
-6. step 2.
-7. Add the pork mince and the egg yolk to the bowl, then beat well.
-8. Shape into 18 small meatballs.
-9. Wipe the pan, put on a medium-high heat, then add the oil.
-10. Fry the meatballs for 5 mins, just to colour, then lift onto a plate, but keep the oil in the pan.
-11. Sizzle the chorizo with the sliced garlic.
-12. Add the squid and fry to give a little colour.
-13. Now tip in the white wine and bring to the boil, scraping the bottom.
-14. Stir in the pulped tomatoes, bring to the boil, then add the meatballs and the clams.
-15. Cover and cook for 5 mins until the clam shells open.
-16. Discard any that stay shut.
-17. Sprinkle with the chopped parsley, drizzle with the extra virgin oil, then serve with crusty bread.
+1. Melt the butter in a heavy-based casserole, then soften the shallots for 5 mins.
+2. Add the paprika and crushed garlic and cook for 1 min until the paprika becomes fragrant.
+3. Splash in the sherry, then pour the whole lot into a bowl with the breadcrumbs.
+4. Season and cool.
+5. Add the pork mince and the egg yolk to the bowl, then beat well.
+6. Shape into 18 small meatballs.
+7. Wipe the pan, put on a medium-high heat, then add the oil.
+8. Fry the meatballs for 5 mins, just to colour, then lift onto a plate, but keep the oil in the pan.
+9. Sizzle the chorizo with the sliced garlic.
+10. Add the squid and fry to give a little colour.
+11. Now tip in the white wine and bring to the boil, scraping the bottom.
+12. Stir in the pulped tomatoes, bring to the boil, then add the meatballs and the clams.
+13. Cover and cook for 5 mins until the clam shells open.
+14. Discard any that stay shut.
+15. Sprinkle with the chopped parsley, drizzle with the extra virgin oil, then serve with crusty bread.
 
 ## Notes
 

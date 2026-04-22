@@ -34,19 +34,17 @@ Prawn & noodle salad with crispy shallots from TheMealDB imported into the plann
 
 ## Instructions
 
-1. step 1.
-2. For the crispy shallots, heat 5cm of oil until hot in a wok.
-3. You will know the oil is hot enough when one piece of shallot sizzles as soon as it’s dropped in.
-4. Toss the shallot slices with flour, shake off excess and fry in the oil until golden.
-5. They fry quickly, about 1 min.
-6. Drain on kitchen paper, sprinkle with salt and set aside.
-7. step 2.
-8. To make the dressing, mix the lime juice, sugar, fish sauce and garlic and set aside.
-9. In a large mixing bowl, pour boiling water over the noodles.
-10. Leave them for 2 mins or until they are just cooked, then rinse under cold water.
-11. Drain well, shaking the sieve numerous times to get out the excess water, then place back in the bowl.
-12. Add prawns, onion, chilli, cucumber and herbs.
-13. Pour the dressing over, mix, then sprinkle with the shallots and peanuts.
+1. For the crispy shallots, heat 5cm of oil until hot in a wok.
+2. You will know the oil is hot enough when one piece of shallot sizzles as soon as it’s dropped in.
+3. Toss the shallot slices with flour, shake off excess and fry in the oil until golden.
+4. They fry quickly, about 1 min.
+5. Drain on kitchen paper, sprinkle with salt and set aside.
+6. To make the dressing, mix the lime juice, sugar, fish sauce and garlic and set aside.
+7. In a large mixing bowl, pour boiling water over the noodles.
+8. Leave them for 2 mins or until they are just cooked, then rinse under cold water.
+9. Drain well, shaking the sieve numerous times to get out the excess water, then place back in the bowl.
+10. Add prawns, onion, chilli, cucumber and herbs.
+11. Pour the dressing over, mix, then sprinkle with the shallots and peanuts.
 
 ## Notes
 

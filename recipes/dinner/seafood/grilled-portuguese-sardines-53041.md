@@ -26,14 +26,12 @@ Grilled Portuguese sardines from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1.
-2. Put all of the ingredients, except the sardines, into a bowl and mix together with some seasoning.
-3. Pour into a baking dish, add the sardines and toss really well.
-4. Cover and chill for a few hours.
-5. STEP 2.
-6. Heat a BBQ or griddle pan until hot.
-7. Cook the sardines for 4-5 minutes on each side or until really caramelised and charred.
-8. Put onto a serving plate, drizzle with oil, sprinkle with a little more paprika and squeeze over the lemon wedges.
+1. Put all of the ingredients, except the sardines, into a bowl and mix together with some seasoning.
+2. Pour into a baking dish, add the sardines and toss really well.
+3. Cover and chill for a few hours.
+4. Heat a BBQ or griddle pan until hot.
+5. Cook the sardines for 4-5 minutes on each side or until really caramelised and charred.
+6. Put onto a serving plate, drizzle with oil, sprinkle with a little more paprika and squeeze over the lemon wedges.
 
 ## Notes
 

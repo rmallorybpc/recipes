@@ -23,19 +23,16 @@ Corned Beef and Cabbage from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 1.
-2. Place corned beef in large pot or Dutch oven and cover with water.
-3. Add the spice packet that came with the corned beef.
-4. Cover pot and bring to a boil, then reduce to a simmer.
-5. Simmer approximately 50 minutes per pound or until tender.
-6. 2.
-7. Add whole potatoes and peeled and cut carrots, and cook until the vegetables are almost tender.
-8. Add cabbage and cook for 15 more minutes.
-9. Remove meat and let rest 15 minutes.
-10. 3.
-11. Place vegetables in a bowl and cover.
-12. Add as much broth (cooking liquid reserved in the Dutch oven or large pot) as you want.
-13. Slice meat across the grain.
+1. Place corned beef in large pot or Dutch oven and cover with water.
+2. Add the spice packet that came with the corned beef.
+3. Cover pot and bring to a boil, then reduce to a simmer.
+4. Simmer approximately 50 minutes per pound or until tender.
+5. Add whole potatoes and peeled and cut carrots, and cook until the vegetables are almost tender.
+6. Add cabbage and cook for 15 more minutes.
+7. Remove meat and let rest 15 minutes.
+8. Place vegetables in a bowl and cover.
+9. Add as much broth (cooking liquid reserved in the Dutch oven or large pot) as you want.
+10. Slice meat across the grain.
 
 ## Notes
 

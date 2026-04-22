@@ -34,26 +34,22 @@ Rice paper dumplings from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Tip the cabbage into a food processor and blitz until finely chopped.
-3. Season with ½ tsp salt, toss well and set aside for 15 mins.
-4. Tip into a clean tea towel and squeeze out as much water as you can.
-5. Tip into a bowl with the carrot, mushrooms, pork mince, garlic, ginger, soy sauce, sesame oil and spring onions.
-6. Season with black pepper.
-7. Scrunch everything together using your hands, mixing well until everything is combined.
-8. step 2.
-9. Soak the spring roll sheets for a couple of seconds in a shallow dish of warm water, then transfer to an oiled chopping board.
-10. Working with one sheet at a time, spoon 1 heaped tbsp of the filling into the middle, then fold the bottom up and over the filling.
-11. Fold down the top of the sheet, then the sides to fully encase and make a neat square.
-12. If the dumpling feels a little fragile, soak another sheet and wrap it again.
-13. Repeat with the remaining sheets and filling, transferring the dumplings to an oiled plate as you go.
-14. step 3.
-15. Heat the oil in a large, non-stick frying pan (ensuring it is no more than a third full) over a medium-high heat and fry the dumplings for 3-5 mins until golden brown.
-16. Use a slotted spoon or spider to turn them, then cover with a lid and cook for another 3-4 mins until golden.
-17. Remove the lid and cook for 1-2 mins.
-18. step 4.
-19. Meanwhile, combine all the dipping sauce ingredients in small bowl.
-20. Serve the dumplings with the dipping sauce on the side.
+1. Tip the cabbage into a food processor and blitz until finely chopped.
+2. Season with ½ tsp salt, toss well and set aside for 15 mins.
+3. Tip into a clean tea towel and squeeze out as much water as you can.
+4. Tip into a bowl with the carrot, mushrooms, pork mince, garlic, ginger, soy sauce, sesame oil and spring onions.
+5. Season with black pepper.
+6. Scrunch everything together using your hands, mixing well until everything is combined.
+7. Soak the spring roll sheets for a couple of seconds in a shallow dish of warm water, then transfer to an oiled chopping board.
+8. Working with one sheet at a time, spoon 1 heaped tbsp of the filling into the middle, then fold the bottom up and over the filling.
+9. Fold down the top of the sheet, then the sides to fully encase and make a neat square.
+10. If the dumpling feels a little fragile, soak another sheet and wrap it again.
+11. Repeat with the remaining sheets and filling, transferring the dumplings to an oiled plate as you go.
+12. Heat the oil in a large, non-stick frying pan (ensuring it is no more than a third full) over a medium-high heat and fry the dumplings for 3-5 mins until golden brown.
+13. Use a slotted spoon or spider to turn them, then cover with a lid and cook for another 3-4 mins until golden.
+14. Remove the lid and cook for 1-2 mins.
+15. Meanwhile, combine all the dipping sauce ingredients in small bowl.
+16. Serve the dumplings with the dipping sauce on the side.
 
 ## Notes
 

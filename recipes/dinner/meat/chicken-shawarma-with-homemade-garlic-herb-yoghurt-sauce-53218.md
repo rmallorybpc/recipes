@@ -33,32 +33,26 @@ Chicken Shawarma with homemade garlic herb yoghurt sauce from TheMealDB imported
 
 ## Instructions
 
-1. 1.
-2. Start by cutting your chicken up into reasonably small slices.
-3. Grab your ziplock bag and dump the freshly sliced chicken inside.
-4. 2.
-5. Add garlic, coriander, cumin, cardomom, cayenne pepper, paprika, salt, pepper, lemon juice and olive oil to the bag.
-6. Close the bag and mix thoroughly.
-7. Place in fridge for 10-12 hours (shorter is fine but longer is better).
-8. 3.
-9. Once ready to cook, heat your fry pan to medium-high and add a tiny bit of olive oil.
-10. Fry one side of all of your flatbreads until slightly toasty.
-11. Remove from pan, add enough oil to coat the fry pan.
-12. Put crumble fries into air fryer on 180 for 15 minutes shaking occasionally.
-13. 4.
-14. The pan should be pretty hot by now, add the chicken in 2 batches (unless you have a big fry pan) to avoid overcrowding.
-15. The chicken should get a nice sear and darker colour which is perfect.
-16. Cook for a further 5-8 minutes or until cooked through.
-17. Repeat with next chicken batch.
-18. 5.
-19. While chicken is cooking, place your Greek yoghurt into a bowl.
-20. Combine garlic, finely chopped mint and parsley, squeeze or so of lemon and cumin.
-21. Combine and add salt to taste.
-22. In a small bowl, combine 1tsp garlic powder, paprika, cumin, onion powder, oregano, dried parsley, cayenne pepper (optional) mix and leave aside for fries.
-23. 6.
-24. Season fries immediately once cooked and add salt to taste.
-25. Once the chicken is complete, serve immediately by laying out your flatbread, spreading the sauce evenly over the bread, add lettuce, onion, tomato, fries, chicken, feta and more sauce on top.
-26. Serve immediately.
+1. Start by cutting your chicken up into reasonably small slices.
+2. Grab your ziplock bag and dump the freshly sliced chicken inside.
+3. Add garlic, coriander, cumin, cardomom, cayenne pepper, paprika, salt, pepper, lemon juice and olive oil to the bag.
+4. Close the bag and mix thoroughly.
+5. Place in fridge for 10-12 hours (shorter is fine but longer is better).
+6. Once ready to cook, heat your fry pan to medium-high and add a tiny bit of olive oil.
+7. Fry one side of all of your flatbreads until slightly toasty.
+8. Remove from pan, add enough oil to coat the fry pan.
+9. Put crumble fries into air fryer on 180 for 15 minutes shaking occasionally.
+10. The pan should be pretty hot by now, add the chicken in 2 batches (unless you have a big fry pan) to avoid overcrowding.
+11. The chicken should get a nice sear and darker colour which is perfect.
+12. Cook for a further 5-8 minutes or until cooked through.
+13. Repeat with next chicken batch.
+14. While chicken is cooking, place your Greek yoghurt into a bowl.
+15. Combine garlic, finely chopped mint and parsley, squeeze or so of lemon and cumin.
+16. Combine and add salt to taste.
+17. In a small bowl, combine 1tsp garlic powder, paprika, cumin, onion powder, oregano, dried parsley, cayenne pepper (optional) mix and leave aside for fries.
+18. Season fries immediately once cooked and add salt to taste.
+19. Once the chicken is complete, serve immediately by laying out your flatbread, spreading the sauce evenly over the bread, add lettuce, onion, tomato, fries, chicken, feta and more sauce on top.
+20. Serve immediately.
 
 ## Notes
 

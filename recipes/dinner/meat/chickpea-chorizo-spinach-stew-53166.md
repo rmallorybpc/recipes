@@ -32,16 +32,14 @@ Chickpea, chorizo & spinach stew from TheMealDB imported into the planner collec
 
 ## Instructions
 
-1. step 1.
-2. Heat the oil in a large pan, then gently fry the onion for 3-4 mins until it begins to soften.
-3. Stir in the carrot, celery, thyme and bay leaves.
-4. Season, then cook for 2-3 mins, stirring occasionally.
-5. Add the garlic, chorizo, cinnamon and smoked paprika.
-6. Gently fry until the vegetables soften and the chorizo starts to release its oils and crisp up.
-7. step 2.
-8. Stir in the chickpeas, vinegar and 150ml water, then bring to a simmer for 1-2 mins until the chickpeas have heated up.
-9. Add the spinach, then stir through the chickpeas until it wilts a little.
-10. Remove from the heat, season to taste, then serve warm with crusty bread.
+1. Heat the oil in a large pan, then gently fry the onion for 3-4 mins until it begins to soften.
+2. Stir in the carrot, celery, thyme and bay leaves.
+3. Season, then cook for 2-3 mins, stirring occasionally.
+4. Add the garlic, chorizo, cinnamon and smoked paprika.
+5. Gently fry until the vegetables soften and the chorizo starts to release its oils and crisp up.
+6. Stir in the chickpeas, vinegar and 150ml water, then bring to a simmer for 1-2 mins until the chickpeas have heated up.
+7. Add the spinach, then stir through the chickpeas until it wilts a little.
+8. Remove from the heat, season to taste, then serve warm with crusty bread.
 
 ## Notes
 

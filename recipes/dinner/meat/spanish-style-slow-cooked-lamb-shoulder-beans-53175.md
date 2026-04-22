@@ -33,20 +33,17 @@ Spanish-style slow-cooked lamb shoulder & beans from TheMealDB imported into the
 
 ## Instructions
 
-1. step 1.
-2. To make the spice mix, combine all of the ingredients together with a large pinch of salt.
-3. Slash the lamb shoulder all over with a sharp knife and rub in.
-4. If you have the time, marinate for up to 24 hrs, but this is not essential.
-5. step 2.
-6. Heat the oven to 150C/130C fan/gas 2.
-7. Heat the oil in a large flameproof casserole dish or roasting tin over a medium-high heat, add the onions, carrots and garlic and sizzle for 5 mins until the onions and carrots are softened.
-8. Pour over the stock, then bring to the boil.
-9. Nestle the lamb in the pan and cover, then transfer to the oven and roast for 2 hrs.
-10. step 3.
-11. Uncover and transfer the lamb to a plate using tongs.
-12. Stir the beans, peppers and olives through the stock in the pan, sit the lamb back on top and return to the oven, uncovered, for 1 hr 30 mins until the lamb is cooked through.
-13. Transfer the lamb to a board and shred using two forks.
-14. Stir the parsley through the braised beans before serving.
+1. To make the spice mix, combine all of the ingredients together with a large pinch of salt.
+2. Slash the lamb shoulder all over with a sharp knife and rub in.
+3. If you have the time, marinate for up to 24 hrs, but this is not essential.
+4. Heat the oven to 150C/130C fan/gas 2.
+5. Heat the oil in a large flameproof casserole dish or roasting tin over a medium-high heat, add the onions, carrots and garlic and sizzle for 5 mins until the onions and carrots are softened.
+6. Pour over the stock, then bring to the boil.
+7. Nestle the lamb in the pan and cover, then transfer to the oven and roast for 2 hrs.
+8. Uncover and transfer the lamb to a plate using tongs.
+9. Stir the beans, peppers and olives through the stock in the pan, sit the lamb back on top and return to the oven, uncovered, for 1 hr 30 mins until the lamb is cooked through.
+10. Transfer the lamb to a board and shred using two forks.
+11. Stir the parsley through the braised beans before serving.
 
 ## Notes
 

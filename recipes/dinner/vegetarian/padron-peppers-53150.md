@@ -21,13 +21,11 @@ Padron peppers from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the olive oil in a large frying pan over a high heat, or if using an air-fryer, heat to 205C for 3 mins.
-3. Fry the peppers, stirring frequently, for 5 mins until blistered and wilted.
-4. The peppers should be soft and slightly charred.
-5. step 2.
-6. Transfer the peppers to a serving plate and season with some sea salt.
-7. Serve with dips or as part of a tapas spread, if you like.
+1. Heat the olive oil in a large frying pan over a high heat, or if using an air-fryer, heat to 205C for 3 mins.
+2. Fry the peppers, stirring frequently, for 5 mins until blistered and wilted.
+3. The peppers should be soft and slightly charred.
+4. Transfer the peppers to a serving plate and season with some sea salt.
+5. Serve with dips or as part of a tapas spread, if you like.
 
 ## Notes
 

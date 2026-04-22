@@ -32,15 +32,13 @@ Noodle bowl salad from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Drop the noodles into a large bowl, then pour over enough boiling water to cover.
-3. Tip in the sliced sugar snaps and leave for 4 minutes.
-4. Drain in a colander, put under cold running water to cool off, then drain again.
-5. Tip into a bowl and toss in the sesame oil.
-6. step 2.
-7. Mix the dressing ingredients.
-8. Pile spring onions, coriander and salmon onto the noodles, pour over the dressing and toss everything together.
-9. Serve with a pretzel or bread roll.
+1. Drop the noodles into a large bowl, then pour over enough boiling water to cover.
+2. Tip in the sliced sugar snaps and leave for 4 minutes.
+3. Drain in a colander, put under cold running water to cool off, then drain again.
+4. Tip into a bowl and toss in the sesame oil.
+5. Mix the dressing ingredients.
+6. Pile spring onions, coriander and salmon onto the noodles, pour over the dressing and toss everything together.
+7. Serve with a pretzel or bread roll.
 
 ## Notes
 

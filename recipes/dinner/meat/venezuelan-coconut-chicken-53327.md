@@ -3,7 +3,7 @@ title: "Venezuelan Coconut Chicken"
 meal: dinner
 style: meat
 protein: chicken
-cuisine: "Venezulan"
+cuisine: "Venezuelan"
 time_minutes: 30
 servings: 4
 source_url: https://www.themealdb.com/meal/53327

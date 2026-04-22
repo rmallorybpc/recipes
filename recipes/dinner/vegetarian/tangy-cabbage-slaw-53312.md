@@ -29,12 +29,10 @@ Tangy cabbage slaw from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Whisk together mayonnaise, lemon zest and juice, vinegar, mustard and celery salt in a small bowl, then season generously.
-3. step 2.
-4. Add cabbage, carrots, onion and celery.
-5. Mix well and refrigerate.
-6. Can be made up to 1 day ahead.
+1. Whisk together mayonnaise, lemon zest and juice, vinegar, mustard and celery salt in a small bowl, then season generously.
+2. Add cabbage, carrots, onion and celery.
+3. Mix well and refrigerate.
+4. Can be made up to 1 day ahead.
 
 ## Notes
 

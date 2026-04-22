@@ -32,16 +32,13 @@ Steak & Vietnamese noodle salad from TheMealDB imported into the planner collect
 
 ## Instructions
 
-1. step 1.
-2. Mix all the ingredients for the dressing together in a bowl with 1 tbsp water until the sugar has dissolved.
-3. step 2.
-4. Cook the noodles following pack instructions, then plunge into a bowl of cold water to cool completely.
-5. Drain the noodles, then add the carrot, cabbage, spring onion and dressing, and toss to combine.
-6. step 3.
-7. Heat the oil in a frying pan over a high heat.
-8. Season the steak, then cook to your liking; 2-3 mins on each side for medium rare.
-9. Leave to rest for 5 mins, then slice.
-10. Divide the salad and steak slices between bowls and scatter over some coriander to serve.
+1. Mix all the ingredients for the dressing together in a bowl with 1 tbsp water until the sugar has dissolved.
+2. Cook the noodles following pack instructions, then plunge into a bowl of cold water to cool completely.
+3. Drain the noodles, then add the carrot, cabbage, spring onion and dressing, and toss to combine.
+4. Heat the oil in a frying pan over a high heat.
+5. Season the steak, then cook to your liking; 2-3 mins on each side for medium rare.
+6. Leave to rest for 5 mins, then slice.
+7. Divide the salad and steak slices between bowls and scatter over some coriander to serve.
 
 ## Notes
 

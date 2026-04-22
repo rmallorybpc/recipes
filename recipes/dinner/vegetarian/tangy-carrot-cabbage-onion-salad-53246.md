@@ -29,11 +29,10 @@ Tangy carrot, cabbage & onion salad from TheMealDB imported into the planner col
 
 ## Instructions
 
-1. step 1.
-2. Tip the carrots, cabbage and onions into a bowl.
-3. Make the dressing by stirring the ingredients together until the sugar has dissolved.
-4. Pour over salad, tossing the vegetables in the dressing.
-5. Add the herbs, toss again, then scatter over the peanuts.
+1. Tip the carrots, cabbage and onions into a bowl.
+2. Make the dressing by stirring the ingredients together until the sugar has dissolved.
+3. Pour over salad, tossing the vegetables in the dressing.
+4. Add the herbs, toss again, then scatter over the peanuts.
 
 ## Notes
 

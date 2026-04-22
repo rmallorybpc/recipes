@@ -25,9 +25,8 @@ Quick gazpacho from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. In a blender (or with a stick blender), whizz together the passata, red pepper, chilli, garlic, sherry vinegar and lime juice until smooth.
-3. Season to taste, then serve with ice cubes.
+1. In a blender (or with a stick blender), whizz together the passata, red pepper, chilli, garlic, sherry vinegar and lime juice until smooth.
+2. Season to taste, then serve with ice cubes.
 
 ## Notes
 

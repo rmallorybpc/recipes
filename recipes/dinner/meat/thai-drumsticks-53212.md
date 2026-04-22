@@ -25,14 +25,12 @@ Thai drumsticks from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat oven to 200C/180C fan/gas 6 and line a baking tray with foil.
-3. Mix the chilli sauce with the orange zest and juice, garlic, curry paste and ¼ tsp salt.
-4. Add the chicken and coat really well.
-5. step 2.
-6. Arrange the drumsticks on the foil, spaced apart.
-7. Coat the chicken with any marinade left in the bowl, then roast for 35-40 mins until tender.
-8. Wrap in foil or pack into a food container.
+1. Heat oven to 200C/180C fan/gas 6 and line a baking tray with foil.
+2. Mix the chilli sauce with the orange zest and juice, garlic, curry paste and ¼ tsp salt.
+3. Add the chicken and coat really well.
+4. Arrange the drumsticks on the foil, spaced apart.
+5. Coat the chicken with any marinade left in the bowl, then roast for 35-40 mins until tender.
+6. Wrap in foil or pack into a food container.
 
 ## Notes
 

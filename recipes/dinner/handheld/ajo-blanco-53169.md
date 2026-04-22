@@ -24,13 +24,10 @@ Ajo blanco from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Tip the bread into a bowl and pour over 350ml water.
-3. Leave to soak for 10 mins.
-4. step 2.
-5. Blend the ingredients together with 350ml water and 1 tsp salt.
-6. step 3.
-7. Let the soup cool in the fridge for 1 hr or so, then serve with a drizzle of oil and some black pepper.
+1. Tip the bread into a bowl and pour over 350ml water.
+2. Leave to soak for 10 mins.
+3. Blend the ingredients together with 350ml water and 1 tsp salt.
+4. Let the soup cool in the fridge for 1 hr or so, then serve with a drizzle of oil and some black pepper.
 
 ## Notes
 

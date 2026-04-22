@@ -29,13 +29,11 @@ Japanese Katsudon from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1.
-2. Heat the oil in a pan, fry the sliced onion until golden brown, then add the tonkatsu (see recipe here), placing it in the middle of the pan.
-3. Mix the dashi, soy, mirin and sugar together and tip three-quarters of the mixture around the tonkatsu.
-4. Sizzle for a couple of mins so the sauce thickens a little and the tonkatsu reheats.
-5. STEP 2.
-6. Tip the beaten eggs around the tonkatsu and cook for 2-3 mins until the egg is cooked through but still a little runny.
-7. Divide the rice between two bowls, then top each with half the egg and tonkatsu mix, sprinkle over the chives and serve immediately, drizzling with a little more soy if you want an extra umami kick.
+1. Heat the oil in a pan, fry the sliced onion until golden brown, then add the tonkatsu (see recipe here), placing it in the middle of the pan.
+2. Mix the dashi, soy, mirin and sugar together and tip three-quarters of the mixture around the tonkatsu.
+3. Sizzle for a couple of mins so the sauce thickens a little and the tonkatsu reheats.
+4. Tip the beaten eggs around the tonkatsu and cook for 2-3 mins until the egg is cooked through but still a little runny.
+5. Divide the rice between two bowls, then top each with half the egg and tonkatsu mix, sprinkle over the chives and serve immediately, drizzling with a little more soy if you want an extra umami kick.
 
 ## Notes
 

@@ -38,20 +38,18 @@ Piernik (Polish gingerbread) from TheMealDB imported into the planner collection
 3. Put the honey, sugar and butter in a medium saucepan and cook over a medium heat until fully melted.
 4. Remove from the heat and allow to cool.
 5. Put the flour and spices in a large bowl and mix everything together.
-6. step 2.
-7. Once the liquid ingredients have cooled, whisk in the eggs.
-8. Pour over the dry ingredients, whisking them together to form a smooth batter – be careful not to overmix as this can lead to a dry cake.
-9. Pour into the prepared tin and bake for 50-55 mins or until risen and a skewer inserted into the middle of the cake comes out clean.
-10. Allow the cake to cool in the pan for 20 mins before turning out onto a wire rack to cool completely.
-11. step 3.
-12. Once cooled, use a large serrated knife to slice the cake into 3 layers.
-13. Spread the jam across the 2 bottom cake layers, then reassemble the cake and set aside while you make the glaze.
-14. Put the cream, chocolate and honey in a medium pan and cook over a low-medium heat until the chocolate is melted and you have a smooth, pourable mixture.
-15. Put the cake on a wire rack set over a parchment-lined baking tray and pour over the glaze, making sure to cover the entire cake.
-16. Use a fish slice to carefully transfer the cake to a serving plate and allow the glaze to set.
-17. To decorate, dust with a little edible gold powder, if you like.
-18. Uniced, this cake will keep for up to 5 days.
-19. Once iced, enjoy within 3 days – just keep in the fridge, but remove before serving and eat at room temperature.
+6. Once the liquid ingredients have cooled, whisk in the eggs.
+7. Pour over the dry ingredients, whisking them together to form a smooth batter – be careful not to overmix as this can lead to a dry cake.
+8. Pour into the prepared tin and bake for 50-55 mins or until risen and a skewer inserted into the middle of the cake comes out clean.
+9. Allow the cake to cool in the pan for 20 mins before turning out onto a wire rack to cool completely.
+10. Once cooled, use a large serrated knife to slice the cake into 3 layers.
+11. Spread the jam across the 2 bottom cake layers, then reassemble the cake and set aside while you make the glaze.
+12. Put the cream, chocolate and honey in a medium pan and cook over a low-medium heat until the chocolate is melted and you have a smooth, pourable mixture.
+13. Put the cake on a wire rack set over a parchment-lined baking tray and pour over the glaze, making sure to cover the entire cake.
+14. Use a fish slice to carefully transfer the cake to a serving plate and allow the glaze to set.
+15. To decorate, dust with a little edible gold powder, if you like.
+16. Uniced, this cake will keep for up to 5 days.
+17. Once iced, enjoy within 3 days – just keep in the fridge, but remove before serving and eat at room temperature.
 
 ## Notes
 

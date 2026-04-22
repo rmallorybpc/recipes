@@ -26,13 +26,11 @@ Spanish Chicken from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat oven to 190C/170C fan/gas 5.
-3. Put all the ingredients into a large, wide ovenproof dish.
-4. Mix everything together with your hands and season.
-5. step 2.
-6. Bake for 45 mins, stirring the onions after 20 mins, until the chicken is golden and the onions tender.
-7. Serve with rice.
+1. Heat oven to 190C/170C fan/gas 5.
+2. Put all the ingredients into a large, wide ovenproof dish.
+3. Mix everything together with your hands and season.
+4. Bake for 45 mins, stirring the onions after 20 mins, until the chicken is golden and the onions tender.
+5. Serve with rice.
 
 ## Notes
 

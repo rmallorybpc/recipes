@@ -38,19 +38,16 @@ Polish chocolate & walnut cake from TheMealDB imported into the planner collecti
 6. Tip in the flour mixture and gently fold everything together with a spatula.
 7. Pour the prepared batter into the lined tin and bake for 35 mins.
 8. Cool for 5 mins, remove from the tin and re-line the tin with baking parchment.
-9. step 2.
-10. To make the meringue, whisk the whites until stiff, then gradually whisk in the sugar, one tablespoon at a time.
-11. When you have a stiff and shiny meringue, fold in the finely chopped walnuts, flour and startch.
-12. Spread the mixture into the re-lined tin and cook for 40 mins on the same heat.
-13. Remove from the oven and leave to cool.
-14. step 3.
-15. For the chocolate glaze, heat the cream over low heat, then remove from the heat, pour the chopped chocolate into it and mix it until it melts and becomes shiny.
-16. step 4.
-17. Cut the cooled chocolate sponge cake and meringue into two layers.
-18. Put the nut meringue on top of the bottom layer of sponge and sprinkle on some of the reserved walnuts.
-19. Add another layer of meringue and then the upper layer of chocolate sponge cake and cover the top with chocolate glaze.
-20. Decorate with walnuts.
-21. Put the finished cake in the fridge for 1-2 hrs before serving.
+9. To make the meringue, whisk the whites until stiff, then gradually whisk in the sugar, one tablespoon at a time.
+10. When you have a stiff and shiny meringue, fold in the finely chopped walnuts, flour and startch.
+11. Spread the mixture into the re-lined tin and cook for 40 mins on the same heat.
+12. Remove from the oven and leave to cool.
+13. For the chocolate glaze, heat the cream over low heat, then remove from the heat, pour the chopped chocolate into it and mix it until it melts and becomes shiny.
+14. Cut the cooled chocolate sponge cake and meringue into two layers.
+15. Put the nut meringue on top of the bottom layer of sponge and sprinkle on some of the reserved walnuts.
+16. Add another layer of meringue and then the upper layer of chocolate sponge cake and cover the top with chocolate glaze.
+17. Decorate with walnuts.
+18. Put the finished cake in the fridge for 1-2 hrs before serving.
 
 ## Notes
 

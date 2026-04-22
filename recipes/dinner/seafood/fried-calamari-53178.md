@@ -26,22 +26,19 @@ Fried calamari from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Cut the squid into rings about ½cm thick.
-3. Tip the flour into a freezer bag and season well.
-4. Add the capers, then give everything a good shake to mix together.
-5. Tip the squid into the bag, then shake again until all the rings are well coated.
-6. Mix together the garlic and mayonnaise, then place in a serving bowl.
-7. step 2.
-8. Pour some oil into a large pan until it comes about 7cm up the sides, but the pan is no more than a third full.
-9. Place over a medium heat and let the oil warm up.
-10. To test that the oil is ready, place a small piece of bread in the pan – it should sizzle when it touches the oil.
-11. step 3.
-12. Remove a handful of squid from the flour and shake off any excess.
-13. Gently drop into the oil, then cook for about 3 mins until crisp.
-14. Remove with a slotted spoon and place on kitchen paper.
-15. Repeat with the remaining squid.
-16. Serve straight away with the mayonnaise and lemon wedges.
+1. Cut the squid into rings about ½cm thick.
+2. Tip the flour into a freezer bag and season well.
+3. Add the capers, then give everything a good shake to mix together.
+4. Tip the squid into the bag, then shake again until all the rings are well coated.
+5. Mix together the garlic and mayonnaise, then place in a serving bowl.
+6. Pour some oil into a large pan until it comes about 7cm up the sides, but the pan is no more than a third full.
+7. Place over a medium heat and let the oil warm up.
+8. To test that the oil is ready, place a small piece of bread in the pan – it should sizzle when it touches the oil.
+9. Remove a handful of squid from the flour and shake off any excess.
+10. Gently drop into the oil, then cook for about 3 mins until crisp.
+11. Remove with a slotted spoon and place on kitchen paper.
+12. Repeat with the remaining squid.
+13. Serve straight away with the mayonnaise and lemon wedges.
 
 ## Notes
 

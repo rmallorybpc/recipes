@@ -28,13 +28,11 @@ Spanish rice & prawn one-pot from TheMealDB imported into the planner collection
 
 ## Instructions
 
-1. step 1.
-2. Boil the kettle.
-3. In a non-stick frying or shallow pan with a lid, fry the onion, peppers, chorizo and garlic in the oil over a high heat for 3 mins.
-4. Stir in the rice and chopped tomatoes with 500ml boiling water, cover, then cook over a high heat for 12 mins.
-5. step 2.
-6. Uncover, then stir – the rice should be almost tender.
-7. Stir in the prawns, with a splash more water if the rice is looking dry, then cook for another min until the prawns are just pink and rice tender.
+1. Boil the kettle.
+2. In a non-stick frying or shallow pan with a lid, fry the onion, peppers, chorizo and garlic in the oil over a high heat for 3 mins.
+3. Stir in the rice and chopped tomatoes with 500ml boiling water, cover, then cook over a high heat for 12 mins.
+4. Uncover, then stir – the rice should be almost tender.
+5. Stir in the prawns, with a splash more water if the rice is looking dry, then cook for another min until the prawns are just pink and rice tender.
 
 ## Notes
 

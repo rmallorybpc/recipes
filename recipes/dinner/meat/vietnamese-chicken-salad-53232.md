@@ -32,14 +32,12 @@ Vietnamese chicken salad from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. To make the dressing, whisk all the ingredients together in a large serving bowl.
-3. Cook the noodles following pack instructions, then drain and add to the bowl with the dressing.
-4. step 2.
-5. Peel the carrot into long strips using a vegetable peeler.
-6. Do the same for the cucumber, until you reach the seeds (discard them).
-7. Add the carrot and cucumber to the noodle mixture along with the shredded chicken, radishes, red onion and mint.
-8. Toss well to coat in the dressing, scatter over the peanuts and serve.
+1. To make the dressing, whisk all the ingredients together in a large serving bowl.
+2. Cook the noodles following pack instructions, then drain and add to the bowl with the dressing.
+3. Peel the carrot into long strips using a vegetable peeler.
+4. Do the same for the cucumber, until you reach the seeds (discard them).
+5. Add the carrot and cucumber to the noodle mixture along with the shredded chicken, radishes, red onion and mint.
+6. Toss well to coat in the dressing, scatter over the peanuts and serve.
 
 ## Notes
 

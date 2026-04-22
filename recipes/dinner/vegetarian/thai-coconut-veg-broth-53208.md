@@ -32,16 +32,14 @@ Thai coconut & veg broth from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Place the curry paste in a large saucepan or wok with the oil.
-3. Fry for 1 min until fragrant.
-4. Tip in the vegetable stock, coconut milk and brown sugar.
-5. Simmer for 3 mins.
-6. step 2.
-7. Add the noodles, carrots and Chinese leaf and simmer for 4-6 mins, until all are tender.
-8. Mix in beansprouts and tomatoes.
-9. Add lime juice to taste and some extra seasoning, if you like.
-10. Spoon into bowls and sprinkle with spring onions and coriander.
+1. Place the curry paste in a large saucepan or wok with the oil.
+2. Fry for 1 min until fragrant.
+3. Tip in the vegetable stock, coconut milk and brown sugar.
+4. Simmer for 3 mins.
+5. Add the noodles, carrots and Chinese leaf and simmer for 4-6 mins, until all are tender.
+6. Mix in beansprouts and tomatoes.
+7. Add lime juice to taste and some extra seasoning, if you like.
+8. Spoon into bowls and sprinkle with spring onions and coriander.
 
 ## Notes
 

@@ -41,16 +41,14 @@ Pistachio cake from TheMealDB imported into the planner collection.
 7. Beat in the vanilla, then fold in the flour mixture gently.
 8. Carefully spoon into the prepared tin and bake for 35-40 mins until a skewer inserted into the middle comes out clean.
 9. Set aside to cool completely on a wire rack in the tin.
-10. step 2.
-11. Meanwhile, sift the icing sugar into a bowl, then tip in the mascarpone, double cream and pistachio paste.
-12. Beat until well combined, then set aside in the fridge for 20-30 mins to thicken to a spooning consistency.
-13. step 3.
-14. Cut the cooled cake in half horizontally using a serrated knife, so you have two layers.
-15. Put the bottom layer on a plate or cake stand and spread over a generous spoonful of the pistachio cream.
-16. Top with a generous handful of the raspberries so the cake is covered.
-17. Top with the other sponge half, then cover the top and sides of the cake with the remaining cream.
-18. Scatter over the last of the raspberries, the remaining pistachios and the lime zest to serve.
-19. Will keep chilled in an airtight container for two days.
+10. Meanwhile, sift the icing sugar into a bowl, then tip in the mascarpone, double cream and pistachio paste.
+11. Beat until well combined, then set aside in the fridge for 20-30 mins to thicken to a spooning consistency.
+12. Cut the cooled cake in half horizontally using a serrated knife, so you have two layers.
+13. Put the bottom layer on a plate or cake stand and spread over a generous spoonful of the pistachio cream.
+14. Top with a generous handful of the raspberries so the cake is covered.
+15. Top with the other sponge half, then cover the top and sides of the cake with the remaining cream.
+16. Scatter over the last of the raspberries, the remaining pistachios and the lime zest to serve.
+17. Will keep chilled in an airtight container for two days.
 
 ## Notes
 

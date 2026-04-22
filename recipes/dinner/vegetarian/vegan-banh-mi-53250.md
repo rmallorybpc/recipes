@@ -28,15 +28,13 @@ Vegan banh mi from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Put the shredded veg in a bowl and add the vinegar, sugar and 1 tsp salt.
-3. Toss everything together, then set aside to pickle quickly while you prepare the rest of the sandwich.
-4. step 2.
-5. Heat oven to 180C/160C fan/gas 4.
-6. Cut the baguette into four, then slice each piece horizontally in half.
-7. Put the baguette pieces in the oven for 5 mins until lightly toasted and warm.
-8. Spread each piece with a layer of hummus, then top four pieces with the tempeh slices and pile the pickled veg on top.
-9. To serve, sprinkle over the herbs and squeeze over some hot sauce, then top with the other baguette pieces to make sandwiches.
+1. Put the shredded veg in a bowl and add the vinegar, sugar and 1 tsp salt.
+2. Toss everything together, then set aside to pickle quickly while you prepare the rest of the sandwich.
+3. Heat oven to 180C/160C fan/gas 4.
+4. Cut the baguette into four, then slice each piece horizontally in half.
+5. Put the baguette pieces in the oven for 5 mins until lightly toasted and warm.
+6. Spread each piece with a layer of hummus, then top four pieces with the tempeh slices and pile the pickled veg on top.
+7. To serve, sprinkle over the herbs and squeeze over some hot sauce, then top with the other baguette pieces to make sandwiches.
 
 ## Notes
 

@@ -28,9 +28,8 @@ Apricot & Turkish delight mess from TheMealDB imported into the planner collecti
 
 ## Instructions
 
-1. step 1.
-2. Place the mascarpone, yogurt, sugar and orange flower water into a large bowl and whisk until thickened.
-3. Fold the remaining ingredients through, then divide the mix between 2 dessert glasses or bowls and decorate with extra mint, if you like.
+1. Place the mascarpone, yogurt, sugar and orange flower water into a large bowl and whisk until thickened.
+2. Fold the remaining ingredients through, then divide the mix between 2 dessert glasses or bowls and decorate with extra mint, if you like.
 
 ## Notes
 

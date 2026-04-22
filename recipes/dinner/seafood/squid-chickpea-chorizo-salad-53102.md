@@ -28,18 +28,16 @@ Squid, chickpea & chorizo salad from TheMealDB imported into the planner collect
 
 ## Instructions
 
-1. step 1.
-2. Cook the peppers whole under a grill, on a barbecue or griddle, until completely charred.
-3. Place the peppers in a bowl, cover with a plate until cool enough to handle, then peel, deseed and finely slice.
-4. In a large bowl mix the peppers and any juices with the chickpeas, parsley, chilli and garlic.
-5. Set aside.
-6. step 2.
-7. Heat a large frying pan until smoking.
-8. Working quickly and carefully, add a splash of oil to the pan, then the squid.
-9. Stir-fry for about 30 secs.
-10. Scatter the chorizo over the squid, continue to cook for 30 secs more, then tip into the bowl with the peppers.
-11. Season everything with salt and pepper, then dress with the remaining oil, lemon juice and lemon zest.
-12. Mix together, pile onto a platter and let everyone help themselves.
+1. Cook the peppers whole under a grill, on a barbecue or griddle, until completely charred.
+2. Place the peppers in a bowl, cover with a plate until cool enough to handle, then peel, deseed and finely slice.
+3. In a large bowl mix the peppers and any juices with the chickpeas, parsley, chilli and garlic.
+4. Set aside.
+5. Heat a large frying pan until smoking.
+6. Working quickly and carefully, add a splash of oil to the pan, then the squid.
+7. Stir-fry for about 30 secs.
+8. Scatter the chorizo over the squid, continue to cook for 30 secs more, then tip into the bowl with the peppers.
+9. Season everything with salt and pepper, then dress with the remaining oil, lemon juice and lemon zest.
+10. Mix together, pile onto a platter and let everyone help themselves.
 
 ## Notes
 

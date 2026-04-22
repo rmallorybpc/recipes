@@ -30,18 +30,12 @@ Vegetarian Shakshuka from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 1.
-2. Fry onion and pepper together on medium heat until onion is soft.
-3. 2.
-4. Add garlic granules, cook for a minute.
-5. 3.
-6. Add chopped tomatoes and remaining spices, stir well.
-7. 4.
-8. Simmer for about 20 minutes.
-9. 5.
-10. Make indents for in the sauce and crack an egg into each one.
-11. 6.
-12. Once egg whites are cooked through, garnish and serve with toast.
+1. Fry onion and pepper together on medium heat until onion is soft.
+2. Add garlic granules, cook for a minute.
+3. Add chopped tomatoes and remaining spices, stir well.
+4. Simmer for about 20 minutes.
+5. Make indents for in the sauce and crack an egg into each one.
+6. Once egg whites are cooked through, garnish and serve with toast.
 
 ## Notes
 

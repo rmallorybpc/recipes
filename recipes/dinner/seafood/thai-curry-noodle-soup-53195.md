@@ -30,12 +30,10 @@ Thai curry noodle soup from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the oil in a saucepan over a medium heat and cook the curry paste for 1 min before adding the stir-fry veg and prawns.
-3. Cook for 3 mins until the prawns are mostly pink, then add the coconut milk, veg stock and noodles.
-4. step 2.
-5. Bring to the boil, then reduce the heat to a simmer and cook for 5 mins until the noodles are cooked through and the veg is tender but still has a bite.
-6. Divide between two bowls and sprinkle over the herbs, chilli and spring onion.
+1. Heat the oil in a saucepan over a medium heat and cook the curry paste for 1 min before adding the stir-fry veg and prawns.
+2. Cook for 3 mins until the prawns are mostly pink, then add the coconut milk, veg stock and noodles.
+3. Bring to the boil, then reduce the heat to a simmer and cook for 5 mins until the noodles are cooked through and the veg is tender but still has a bite.
+4. Divide between two bowls and sprinkle over the herbs, chilli and spring onion.
 
 ## Notes
 

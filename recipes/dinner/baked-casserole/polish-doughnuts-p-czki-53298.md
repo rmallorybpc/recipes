@@ -37,27 +37,21 @@ Polish doughnuts (Pączki) from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. To make the leaven, mix the yeast with the sugar and flour, and stir in the warm milk.
-3. Set aside in a warm place for 30 minutes.
-4. step 2.
-5. For the dough, put egg yolks into a heatproof bowl and add the sugar and vanilla sugar.
-6. Set the bowl over a pan of simmering water and whisk until smooth and thick.
-7. step 3.
-8. Sift the flour into the bowl of a stand mixer, add the beaten yolks and the warm cream, mix thoroughly, then add a pinch of salt and the leaven.
-9. Bring together to make a dough and knead for 10 minutes (or 15-20 if doing this by hand).
-10. step 4.
-11. When the dough stops sticking to your hands, pour in the cooled melted butter and knead for a few more minutes.
-12. Cover with a cloth and leave in a warm place to rise for at least 1 hr-1 hr 30 mins.
-13. step 5.
-14. Mix the jam with the ground almonds and spoon into a piping bag or jam syringe.
-15. Divide the dough into 16 pieces and shape them into doughnuts.
-16. Cover and leave to rise for 30 mins.
-17. step 6.
-18. Fill a deep pan or a deep fat fryer one third full of oil or melted lard and heat it until it is 180C – if you don’t have a thermometer, drop in a small chunk of bread.
-19. The oil is ready when it browns in about 30 secs.
-20. Add the doughnuts and fry, turning them once for about 1-2 mins on each side (a thin lighter ring should form in the middle).
-21. After removing, drain the doughnuts of excess fat on some kitchen paper.
+1. To make the leaven, mix the yeast with the sugar and flour, and stir in the warm milk.
+2. Set aside in a warm place for 30 minutes.
+3. For the dough, put egg yolks into a heatproof bowl and add the sugar and vanilla sugar.
+4. Set the bowl over a pan of simmering water and whisk until smooth and thick.
+5. Sift the flour into the bowl of a stand mixer, add the beaten yolks and the warm cream, mix thoroughly, then add a pinch of salt and the leaven.
+6. Bring together to make a dough and knead for 10 minutes (or 15-20 if doing this by hand).
+7. When the dough stops sticking to your hands, pour in the cooled melted butter and knead for a few more minutes.
+8. Cover with a cloth and leave in a warm place to rise for at least 1 hr-1 hr 30 mins.
+9. Mix the jam with the ground almonds and spoon into a piping bag or jam syringe.
+10. Divide the dough into 16 pieces and shape them into doughnuts.
+11. Cover and leave to rise for 30 mins.
+12. Fill a deep pan or a deep fat fryer one third full of oil or melted lard and heat it until it is 180C – if you don’t have a thermometer, drop in a small chunk of bread.
+13. The oil is ready when it browns in about 30 secs.
+14. Add the doughnuts and fry, turning them once for about 1-2 mins on each side (a thin lighter ring should form in the middle).
+15. After removing, drain the doughnuts of excess fat on some kitchen paper.
 
 ## Notes
 

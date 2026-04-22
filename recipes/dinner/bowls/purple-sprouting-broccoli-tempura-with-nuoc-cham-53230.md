@@ -29,16 +29,13 @@ Purple sprouting broccoli tempura with nuoc cham from TheMealDB imported into th
 
 ## Instructions
 
-1. step 1.
-2. For the nuoc cham, whisk together all of the ingredients with 5 tbsp hot water in a small bowl.
-3. Set aside while you make the tempura.
-4. step 2.
-5. Whisk the cornflour, plain flour, sesame seeds (if using) and a large pinch of salt together.
-6. Fill a large, deep pan no more than a third full with the vegetable oil and heat until it reaches 180C or a cube of bread dropped in browns in 20 seconds.
-7. step 3.
-8. Quickly whisk the soda water into the flour mixture, being careful not to overmix, then dunk in the broccoli using tongs.
-9. Carefully lower into the hot oil and cook for 2-3 mins until crisp.
-10. Drain on kitchen paper, then serve with the nuoc cham on the side for dipping.
+1. For the nuoc cham, whisk together all of the ingredients with 5 tbsp hot water in a small bowl.
+2. Set aside while you make the tempura.
+3. Whisk the cornflour, plain flour, sesame seeds (if using) and a large pinch of salt together.
+4. Fill a large, deep pan no more than a third full with the vegetable oil and heat until it reaches 180C or a cube of bread dropped in browns in 20 seconds.
+5. Quickly whisk the soda water into the flour mixture, being careful not to overmix, then dunk in the broccoli using tongs.
+6. Carefully lower into the hot oil and cook for 2-3 mins until crisp.
+7. Drain on kitchen paper, then serve with the nuoc cham on the side for dipping.
 
 ## Notes
 

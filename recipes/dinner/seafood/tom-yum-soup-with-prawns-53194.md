@@ -33,20 +33,17 @@ Tom yum soup with prawns from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Pour 1.3 litres water into a large saucepan over a high heat.
-3. Add the onion, tomato, chilli, galangal, lemongrass, prawn heads and chicken stock cube.
-4. Stir and bring to a boil, then reduce the heat to medium and simmer for 20 mins until the liquid has reduced.
-5. step 2.
-6. Carefully strain the hot broth into a large heatproof bowl or jug, then discard the prawn heads.
-7. Return the strained veg and herb mixture to the saucepan and pour over the broth.
-8. Stir through the mushrooms and lime leaves, then cook for 3 mins until the mushrooms are tender.
-9. step 3.
-10. Add 1 tbsp sugar, the fish sauce, lime juice, coconut milk and prawns.
-11. Bring to the boil and cook until the prawns are cooked through, about 1-2 mins.
-12. Remove from the heat.
-13. Remove the lemongrass, then stir in the Thai chilli jam, if using.
-14. Scatter over the coriander to finish, if you like, and serve.
+1. Pour 1.3 litres water into a large saucepan over a high heat.
+2. Add the onion, tomato, chilli, galangal, lemongrass, prawn heads and chicken stock cube.
+3. Stir and bring to a boil, then reduce the heat to medium and simmer for 20 mins until the liquid has reduced.
+4. Carefully strain the hot broth into a large heatproof bowl or jug, then discard the prawn heads.
+5. Return the strained veg and herb mixture to the saucepan and pour over the broth.
+6. Stir through the mushrooms and lime leaves, then cook for 3 mins until the mushrooms are tender.
+7. Add 1 tbsp sugar, the fish sauce, lime juice, coconut milk and prawns.
+8. Bring to the boil and cook until the prawns are cooked through, about 1-2 mins.
+9. Remove from the heat.
+10. Remove the lemongrass, then stir in the Thai chilli jam, if using.
+11. Scatter over the coriander to finish, if you like, and serve.
 
 ## Notes
 

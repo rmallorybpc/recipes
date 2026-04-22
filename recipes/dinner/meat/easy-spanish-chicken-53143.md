@@ -31,17 +31,15 @@ Easy Spanish chicken from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the oven to 200C/180C fan/gas 6.
-3. Heat the olive oil in a large ovenproof frying pan over a medium heat and fry the onion, chorizo and peppers along with a pinch of salt and pepper for 15 mins until the veg has softened and the chorizo has released its oils.
-4. Add the paprika and garlic, and cook for another few minutes until fragrant.
-5. step 2.
-6. Tip in the chopped tomatoes, olives and butter beans, stir to combine and season.
-7. Nestle in the chicken thighs and season well.
-8. Transfer to the oven and bake for 40 mins until the chicken skin is crisp and the meat cooked through and tender.
-9. Scatter with the parsley and serve.
-10. Watch after ad (0.04):.
-11. 3 Budget Egg Ideas.
+1. Heat the oven to 200C/180C fan/gas 6.
+2. Heat the olive oil in a large ovenproof frying pan over a medium heat and fry the onion, chorizo and peppers along with a pinch of salt and pepper for 15 mins until the veg has softened and the chorizo has released its oils.
+3. Add the paprika and garlic, and cook for another few minutes until fragrant.
+4. Tip in the chopped tomatoes, olives and butter beans, stir to combine and season.
+5. Nestle in the chicken thighs and season well.
+6. Transfer to the oven and bake for 40 mins until the chicken skin is crisp and the meat cooked through and tender.
+7. Scatter with the parsley and serve.
+8. Watch after ad (0.04):.
+9. 3 Budget Egg Ideas.
 
 ## Notes
 

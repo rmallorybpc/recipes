@@ -39,25 +39,21 @@ Panang chicken curry (kaeng panang gai) from TheMealDB imported into the planner
 
 ## Instructions
 
-1. step 1.
-2. First, make the curry paste.
-3. Use a pestle and mortar to pound together the dried and fresh chillies, shrimp paste, garlic, galangal, lemongrass, lime zest, white pepper, coriander, cumin, nutmeg and peanuts, plus 1 tsp salt.
-4. You should have a rough paste.
-5. Alternatively, add all the ingredients to a food processor along with 2-3 tbsp of coconut milk and pulse until you have a paste.
-6. Store in a lidded jar in the fridge.
-7. Will keep for up to two weeks.
-8. step 2.
-9. Add 2-3 tbsp of the thick part of the coconut milk into a saucepan over a medium-high heat.
-10. When the coconut milk starts bubbling, add 1-2 tbsp of the curry paste and stir well for about 1 min, until fragrant.
-11. step 3.
-12. Stir in the chicken and let it cook for about 3-4 mins until beginning to brown all over.
-13. Follow with the French beans and stir well.
-14. step 4.
-15. Season with the fish sauce and sugar, then add the rest of coconut milk.
-16. Mix well, add half the makrut lime leaves and simmer for 3-5 mins until the chicken is cooked through.
-17. Taste and add more sugar or fish sauce if necessary – it should be salty and nutty, and the sweetness should come through.
-18. Add the Thai basil leaves, give it a quick mix and take off the heat.
-19. Serve with steamed jasmine rice, garnished with the sliced chilli and the rest of the makrut lime leaves.
+1. First, make the curry paste.
+2. Use a pestle and mortar to pound together the dried and fresh chillies, shrimp paste, garlic, galangal, lemongrass, lime zest, white pepper, coriander, cumin, nutmeg and peanuts, plus 1 tsp salt.
+3. You should have a rough paste.
+4. Alternatively, add all the ingredients to a food processor along with 2-3 tbsp of coconut milk and pulse until you have a paste.
+5. Store in a lidded jar in the fridge.
+6. Will keep for up to two weeks.
+7. Add 2-3 tbsp of the thick part of the coconut milk into a saucepan over a medium-high heat.
+8. When the coconut milk starts bubbling, add 1-2 tbsp of the curry paste and stir well for about 1 min, until fragrant.
+9. Stir in the chicken and let it cook for about 3-4 mins until beginning to brown all over.
+10. Follow with the French beans and stir well.
+11. Season with the fish sauce and sugar, then add the rest of coconut milk.
+12. Mix well, add half the makrut lime leaves and simmer for 3-5 mins until the chicken is cooked through.
+13. Taste and add more sugar or fish sauce if necessary – it should be salty and nutty, and the sweetness should come through.
+14. Add the Thai basil leaves, give it a quick mix and take off the heat.
+15. Serve with steamed jasmine rice, garnished with the sliced chilli and the rest of the makrut lime leaves.
 
 ## Notes
 

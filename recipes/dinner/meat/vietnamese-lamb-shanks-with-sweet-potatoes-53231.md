@@ -37,17 +37,15 @@ Vietnamese lamb shanks with sweet potatoes from TheMealDB imported into the plan
 
 ## Instructions
 
-1. step 1.
-2. Heat oven to 160C/140C fan/gas 3.
-3. Heat 1 tbsp oil in a heavy-bottomed casserole, season the shanks, then brown them 2 at a time on all sides, adding the remaining oil for the second batch.
-4. Remove the lamb and add the onions.
-5. Fry them quite briskly, about 30 secs, add the ginger, garlic and chopped chilli, then turn the heat down and cook for 1 min.
-6. Add 1 tbsp sugar, stir, then add the star anise, lemongrass, stock, purée and seasoning.
-7. Bring to the boil.
-8. step 2.
-9. Cover and cook in the oven for 1½ hrs, then add the sweet potatoes and cook for 1 hr more.
-10. The lamb should be completely tender and almost falling off the bones.
-11. Stir in the fish sauce, lime juice and 1 tsp sugar to just lift the flavour, then scatter with the mint, basil and the sliced chilli to serve.
+1. Heat oven to 160C/140C fan/gas 3.
+2. Heat 1 tbsp oil in a heavy-bottomed casserole, season the shanks, then brown them 2 at a time on all sides, adding the remaining oil for the second batch.
+3. Remove the lamb and add the onions.
+4. Fry them quite briskly, about 30 secs, add the ginger, garlic and chopped chilli, then turn the heat down and cook for 1 min.
+5. Add 1 tbsp sugar, stir, then add the star anise, lemongrass, stock, purée and seasoning.
+6. Bring to the boil.
+7. Cover and cook in the oven for 1½ hrs, then add the sweet potatoes and cook for 1 hr more.
+8. The lamb should be completely tender and almost falling off the bones.
+9. Stir in the fish sauce, lime juice and 1 tsp sugar to just lift the flavour, then scatter with the mint, basil and the sliced chilli to serve.
 
 ## Notes
 

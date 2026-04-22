@@ -33,28 +33,23 @@ Chocolate empanadas from TheMealDB imported into the planner collection.
 2. Boil for two and a half hours, occassionally adding water.
 3. Let cool before opening.
 4. For further tips, please check here.
-5. 2.
-6. For the dough combine the flour, cocoa powder, and salt in a large bowl.
-7. Add the cold butter in small pieces and rub into crumbs with your fingers Add the egg and work into a dough.
-8. You may have to add milk, a tablespoon at a time if it still is to dry.
-9. Wrap and chill for at least half an hour or overnight.
-10. 3.
-11. Line a baking sheeet with parchment paper and preheat the oven to 180 degrees Celsius.
-12. 4.
-13. Roll out the dough on a lightly floured surface, it should be thin.
-14. Cut out circles of 12cm either with a cookie cutter or with a smaller plate/dish.
-15. Put two to three teaspoons of the dulce de leche in the middle of each circle.
-16. Brush the edges with milk, I do this with my pinkie.
-17. Fold each circle in half so that you have a half moon and press down the edges with a fork.
-18. You can also turn the edges about half a centimeter inwards every centimeter or so to create a pattern.
-19. 5.
-20. Place the prepared empanadas on the baking sheet and brush with egg wash.
-21. Bake for about 20-25min.
-22. 6.
-23. Towards the end of the baking time, melt the remaining butter and mix the sugar and cinnamon in a small bowl.
-24. Once you take the empanadas out, immediately brush with the butter and sprinkle with the sugar mix.
-25. Empanadas can be enjoyed either still warm or cold.
-26. If eating warm, be careful not to burn yourself with hot filling!.
+5. For the dough combine the flour, cocoa powder, and salt in a large bowl.
+6. Add the cold butter in small pieces and rub into crumbs with your fingers Add the egg and work into a dough.
+7. You may have to add milk, a tablespoon at a time if it still is to dry.
+8. Wrap and chill for at least half an hour or overnight.
+9. Line a baking sheeet with parchment paper and preheat the oven to 180 degrees Celsius.
+10. Roll out the dough on a lightly floured surface, it should be thin.
+11. Cut out circles of 12cm either with a cookie cutter or with a smaller plate/dish.
+12. Put two to three teaspoons of the dulce de leche in the middle of each circle.
+13. Brush the edges with milk, I do this with my pinkie.
+14. Fold each circle in half so that you have a half moon and press down the edges with a fork.
+15. You can also turn the edges about half a centimeter inwards every centimeter or so to create a pattern.
+16. Place the prepared empanadas on the baking sheet and brush with egg wash.
+17. Bake for about 20-25min.
+18. Towards the end of the baking time, melt the remaining butter and mix the sugar and cinnamon in a small bowl.
+19. Once you take the empanadas out, immediately brush with the butter and sprinkle with the sugar mix.
+20. Empanadas can be enjoyed either still warm or cold.
+21. If eating warm, be careful not to burn yourself with hot filling!.
 
 ## Notes
 

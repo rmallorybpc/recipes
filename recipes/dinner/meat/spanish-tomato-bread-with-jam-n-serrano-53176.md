@@ -26,13 +26,11 @@ Spanish tomato bread with jamón Serrano from TheMealDB imported into the planne
 
 ## Instructions
 
-1. step 1.
-2. Mix together the chopped tomatoes, garlic clove, olive oil, salt and pepper.
-3. Keep in the fridge until needed.
-4. step 2.
-5. To serve, toast 20 slices of baguette.
-6. Spoon a little tomato topping on to each piece of toast.
-7. Tear 5-6 slices of jamón Serrano into pieces and put one piece on each slice of bread.
+1. Mix together the chopped tomatoes, garlic clove, olive oil, salt and pepper.
+2. Keep in the fridge until needed.
+3. To serve, toast 20 slices of baguette.
+4. Spoon a little tomato topping on to each piece of toast.
+5. Tear 5-6 slices of jamón Serrano into pieces and put one piece on each slice of bread.
 
 ## Notes
 

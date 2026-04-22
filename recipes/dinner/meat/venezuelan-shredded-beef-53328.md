@@ -3,7 +3,7 @@ title: "Venezuelan Shredded Beef"
 meal: dinner
 style: meat
 protein: beef
-cuisine: "Venezulan"
+cuisine: "Venezuelan"
 time_minutes: 30
 servings: 4
 source_url: https://www.themealdb.com/meal/53328

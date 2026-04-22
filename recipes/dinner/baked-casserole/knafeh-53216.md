@@ -31,25 +31,21 @@ Knafeh from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 1.
-2. Take kanfhe in a bowl and roughly cut them.
-3. Pour melted butter, yellow food color and mix well with your hands.
-4. In a separate bowl mix milk, cream cheese, sugar, cornstarch well.
-5. 2.
-6. Turn on the flame and boil the liquid, when it gets thick turn off the flame let it cool down a little bit.
-7. Add mozzarella in it and mix it well.
-8. Now make a base with half of the kanfhe in a dish, gently press it to level the dough well.
-9. Pour the cheese mixture on the top and level it with a spoon.
-10. 3.
-11. Cover it with the other half of the kanfhe.
-12. Put the dish in a preheated oven at 200 degree for about 20-25 minutes.
-13. It's ready when kunafa is golden and crunchy in the surface.
-14. 4.
-15. Boil water in a pan and dissolve sugar in it for 4–5 minutes.
-16. OR cook it until slightly thicken and keep on stirring.
-17. Add lemon juice with rose water, mix well.
-18. Evenly pour the syrup over the kunafa as soon as it comes out of the oven.
-19. Your kunafa is ready to serve.
+1. Take kanfhe in a bowl and roughly cut them.
+2. Pour melted butter, yellow food color and mix well with your hands.
+3. In a separate bowl mix milk, cream cheese, sugar, cornstarch well.
+4. Turn on the flame and boil the liquid, when it gets thick turn off the flame let it cool down a little bit.
+5. Add mozzarella in it and mix it well.
+6. Now make a base with half of the kanfhe in a dish, gently press it to level the dough well.
+7. Pour the cheese mixture on the top and level it with a spoon.
+8. Cover it with the other half of the kanfhe.
+9. Put the dish in a preheated oven at 200 degree for about 20-25 minutes.
+10. It's ready when kunafa is golden and crunchy in the surface.
+11. Boil water in a pan and dissolve sugar in it for 4–5 minutes.
+12. OR cook it until slightly thicken and keep on stirring.
+13. Add lemon juice with rose water, mix well.
+14. Evenly pour the syrup over the kunafa as soon as it comes out of the oven.
+15. Your kunafa is ready to serve.
 
 ## Notes
 

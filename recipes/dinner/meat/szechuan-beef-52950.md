@@ -39,9 +39,9 @@ Szechuan Beef from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1 - MARINATING THE BEEF.
+1. MARINATING THE BEEF.
 2. In a bowl, add the beef, salt, sesame seed oil, white pepper, egg white, 2 Tablespoon of corn starch and 1 Tablespoon of oil.
-3. STEP 2 - STIR FRY.
+3. STIR FRY.
 4. First Cook the beef by adding 2 Tablespoon of oil until the beef is golden brown.
 5. Set the beef aside.
 6. In a wok add 1 Tablespoon of oil, minced ginger, minced garlic and stir-fry for few seconds.

@@ -34,21 +34,16 @@ Mutabbaq from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 1.
-2. Heat the frying pan and add in some oil.
-3. Fry the mashed garlic and ginger first and then add in the minced meat and all seasoning.
-4. When the meat is cooked, set aside to cool down.
-5. 2.
-6. Get another big bowl.
-7. Add in egg, chopped tomato, chopped spring onion and minced meat.
-8. 3.
-9. Get one 2 sheets of filo pastry or 1 sheet spring roll wrap.
-10. Brush it with some butter and then put some filling in the middle.
-11. Fold the pastry and brush more butter on the seal part.
-12. 4.
-13. Heat a frying pan and add in some oil to cook the parcel until its both sides and 4 edges all turn into golden brown. (Or brush melted butter all over the parcel and bake it in 180°C oven for 10-15 minutes).
-14. 5.
-15. Enjoy.
+1. Heat the frying pan and add in some oil.
+2. Fry the mashed garlic and ginger first and then add in the minced meat and all seasoning.
+3. When the meat is cooked, set aside to cool down.
+4. Get another big bowl.
+5. Add in egg, chopped tomato, chopped spring onion and minced meat.
+6. Get one 2 sheets of filo pastry or 1 sheet spring roll wrap.
+7. Brush it with some butter and then put some filling in the middle.
+8. Fold the pastry and brush more butter on the seal part.
+9. Heat a frying pan and add in some oil to cook the parcel until its both sides and 4 edges all turn into golden brown. (Or brush melted butter all over the parcel and bake it in 180°C oven for 10-15 minutes).
+10. Enjoy.
 
 ## Notes
 

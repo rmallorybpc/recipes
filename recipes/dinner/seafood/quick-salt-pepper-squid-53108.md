@@ -25,22 +25,19 @@ Quick salt & pepper squid from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Ask the fishmonger to clean the squid; little ones often come ready-cleaned.
-3. Using kitchen scissors, cut open the body and open out.
-4. Wash well, then pat dry.
-5. If you have a large squid, cut the body into four portions, roughly square.
-6. Small squid can just be opened up.
-7. step 2.
-8. Using the tip of a very sharp knife, score the top in a neat criss-cross.
-9. Brush with oil and set aside while you heat the barbecue or griddle until ready to cook.
-10. step 3.
-11. Mix together 2 tsp sea salt, Chinese five-spice and 1 tsp freshly ground black pepper.
-12. Sprinkle on both sides of the squid just before cooking, according to taste.
-13. You may not need it all.
-14. Heat the griddle pan to hot and cook about 1 min each side, until it starts to curl.
-15. Remove with tongs to a serving plate and drizzle with a little sesame oil.
-16. To serve, garnish with coriander leaves and serve with small bowls of sweet chilli sauce to dip into.
+1. Ask the fishmonger to clean the squid; little ones often come ready-cleaned.
+2. Using kitchen scissors, cut open the body and open out.
+3. Wash well, then pat dry.
+4. If you have a large squid, cut the body into four portions, roughly square.
+5. Small squid can just be opened up.
+6. Using the tip of a very sharp knife, score the top in a neat criss-cross.
+7. Brush with oil and set aside while you heat the barbecue or griddle until ready to cook.
+8. Mix together 2 tsp sea salt, Chinese five-spice and 1 tsp freshly ground black pepper.
+9. Sprinkle on both sides of the squid just before cooking, according to taste.
+10. You may not need it all.
+11. Heat the griddle pan to hot and cook about 1 min each side, until it starts to curl.
+12. Remove with tongs to a serving plate and drizzle with a little sesame oil.
+13. To serve, garnish with coriander leaves and serve with small bowls of sweet chilli sauce to dip into.
 
 ## Notes
 

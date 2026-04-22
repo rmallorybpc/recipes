@@ -36,12 +36,12 @@ Beef Lo Mein from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1 - MARINATING THE BEEF.
+1. MARINATING THE BEEF.
 2. In a bowl, add the beef, salt, 1 pinch white pepper, 1 Teaspoon sesame seed oil, 1/2 egg, corn starch,1 Tablespoon of oil and mix together.
-3. STEP 2 - BOILING THE THE NOODLES.
+3. BOILING THE THE NOODLES.
 4. In a 6 qt pot add your noodles to boiling water until the noodles are submerged and boil on high heat for 10 seconds.
 5. After your noodles is done boiling strain and cool with cold water.
-6. STEP 3 - STIR FRY.
+6. STIR FRY.
 7. Add 2 Tablespoons of oil, beef and cook on high heat untill beef is medium cooked.
 8. Set the cooked beef aside.
 9. In a wok add 2 Tablespoon of oil, onions, minced garlic, minced ginger, bean sprouts, mushrooms, peapods and 1.5 cups of water or until the vegetables are submerged in water.

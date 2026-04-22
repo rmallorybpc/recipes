@@ -27,20 +27,17 @@ Grilled eggplant with coconut milk from TheMealDB imported into the planner coll
 
 1. Prepare the eggplants for grilling by pricking them all over with a fork.
 2. This is so it won’t burst during the grilling process as the natural water in it heats up.
-3. 2.
-4. Grill the eggplants, turning them over frequently to ensure even cooking.
-5. Grill until the skins are dark brown, even black and the eggplant is soft when you touch it.
-6. 3.
-7. Soak the grilled eggplant in a bowl of water to cool it down.
-8. Peel the skin off the eggplant.
-9. Place the whole eggplants in a shallow dish (my mom actually cuts the eggplant into small, bite-sized pieces).
-10. 4.
-11. In a small mixing bowl, mix together the coconut milk or cream, lemon powder, salt and hot pepper.
-12. Mix until the lemon powder and salt dissolve.
-13. Taste, then adjust the amount of lemon powder, salt and hot pepper to your liking.
-14. Pour the mixture over the eggplant.
-15. Sprinkle the green onions over the eggplant and coconut milk.
-16. Stir gently to combine.
+3. Grill the eggplants, turning them over frequently to ensure even cooking.
+4. Grill until the skins are dark brown, even black and the eggplant is soft when you touch it.
+5. Soak the grilled eggplant in a bowl of water to cool it down.
+6. Peel the skin off the eggplant.
+7. Place the whole eggplants in a shallow dish (my mom actually cuts the eggplant into small, bite-sized pieces).
+8. In a small mixing bowl, mix together the coconut milk or cream, lemon powder, salt and hot pepper.
+9. Mix until the lemon powder and salt dissolve.
+10. Taste, then adjust the amount of lemon powder, salt and hot pepper to your liking.
+11. Pour the mixture over the eggplant.
+12. Sprinkle the green onions over the eggplant and coconut milk.
+13. Stir gently to combine.
 
 ## Notes
 

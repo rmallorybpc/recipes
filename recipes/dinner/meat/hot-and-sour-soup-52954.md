@@ -34,7 +34,7 @@ Hot and Sour Soup from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1 - MAKING THE SOUP.
+1. MAKING THE SOUP.
 2. In a wok add chicken broth and wait for it to boil.
 3. Next add salt, sugar, sesame seed oil, white pepper, hot pepper sauce, vinegar and soy sauce and stir for few seconds.
 4. Add Tofu, mushrooms, black wood ear mushrooms to the wok.

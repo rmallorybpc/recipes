@@ -27,16 +27,14 @@ Smoky chicken skewers from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. You need 15 skewers: if wooden, soak in water for 10 mins.
-3. Cut chicken into 3cm pieces and place in a bowl.
-4. Add 1 tbsp olive oil, the spices, garlic and vinegar, toss well and season.
-5. You can do this up to a day before and refrigerate.
-6. step 2.
-7. Thread 2-3 pieces on each skewer.
-8. Pour remaining oil in a frying pan or rub onto a griddle pan.
-9. Get the pan hot and sear the chicken for 3-4 mins on each side – you may have to do this in batches, keeping the cooked skewers warm in a low oven.
-10. Serve with smoky aïoli if you like.
+1. You need 15 skewers: if wooden, soak in water for 10 mins.
+2. Cut chicken into 3cm pieces and place in a bowl.
+3. Add 1 tbsp olive oil, the spices, garlic and vinegar, toss well and season.
+4. You can do this up to a day before and refrigerate.
+5. Thread 2-3 pieces on each skewer.
+6. Pour remaining oil in a frying pan or rub onto a griddle pan.
+7. Get the pan hot and sear the chicken for 3-4 mins on each side – you may have to do this in batches, keeping the cooked skewers warm in a low oven.
+8. Serve with smoky aïoli if you like.
 
 ## Notes
 

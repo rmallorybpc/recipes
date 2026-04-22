@@ -68,12 +68,9 @@ Lamb Biryani from TheMealDB imported into the planner collection.
 27. And switch off.
 28. Mix and serve hot!.
 29. Notes.
-30. 1.
-31. If you are cooking in oven, do make sure to cook in a big oven safe pan and cover it tight and then keep in oven for the final step.
-32. 2.
-33. You can skip biryani masala if you don’t have and add just garam masala (1 tsp and red chilli powder – 3 tsp instead of 1 tsp).
-34. 3.
-35. If it is spicy in the end, squeeze some lemon, it will reduce the heat and enhance the flavors also.
+30. If you are cooking in oven, do make sure to cook in a big oven safe pan and cover it tight and then keep in oven for the final step.
+31. You can skip biryani masala if you don’t have and add just garam masala (1 tsp and red chilli powder – 3 tsp instead of 1 tsp).
+32. If it is spicy in the end, squeeze some lemon, it will reduce the heat and enhance the flavors also.
 
 ## Notes
 

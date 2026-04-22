@@ -29,14 +29,12 @@ Salmon noodle soup from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Pour the stock into a large pan, bring to the boil, then stir in the curry paste.
-3. Add the noodles and cook for 8 mins.
-4. Tip in the mushrooms and corn and cook for 2 mins more.
-5. step 2.
-6. Add the salmon to the pan and cook for 3 mins or until cooked through.
-7. Remove from the heat and stir in the lime juice, soy sauce and a pinch of sugar.
-8. Ladle into 4 bowls and sprinkle over the coriander just before you serve.
+1. Pour the stock into a large pan, bring to the boil, then stir in the curry paste.
+2. Add the noodles and cook for 8 mins.
+3. Tip in the mushrooms and corn and cook for 2 mins more.
+4. Add the salmon to the pan and cook for 3 mins or until cooked through.
+5. Remove from the heat and stir in the lime juice, soy sauce and a pinch of sugar.
+6. Ladle into 4 bowls and sprinkle over the coriander just before you serve.
 
 ## Notes
 

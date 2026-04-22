@@ -30,22 +30,19 @@ Hot cumin lamb wrap with crunchy slaw & spicy mayo from TheMealDB imported into 
 
 ## Instructions
 
-1. step 1.
-2. Heat a griddle pan.
-3. Rub the lamb steaks with the oil, cumin and some seasoning.
-4. Griddle for about 3-4 mins on each side or until cooked to your liking.
-5. Place to one side on a plate to rest.
-6. step 2.
-7. In a large bowl, stir the sugar into the vinegar until dissolved.
-8. Add the carrots, spring onions, cabbage and some seasoning, and toss together.
-9. step 3.
-10. Blitz the whole peppers and the mayo in a food processor.
-11. Add a heap of the salad to each flatbread.
-12. Slice the lamb, trimming off any excess fat and lay on top of the salad, drizzling with the resting juices.
-13. Spoon over the mayo and scatter with a few of the sliced peppers.
-14. Roll up and eat.
-15. If using pitta, split and stuff.
-16. Serve any extra salad on the side.
+1. Heat a griddle pan.
+2. Rub the lamb steaks with the oil, cumin and some seasoning.
+3. Griddle for about 3-4 mins on each side or until cooked to your liking.
+4. Place to one side on a plate to rest.
+5. In a large bowl, stir the sugar into the vinegar until dissolved.
+6. Add the carrots, spring onions, cabbage and some seasoning, and toss together.
+7. Blitz the whole peppers and the mayo in a food processor.
+8. Add a heap of the salad to each flatbread.
+9. Slice the lamb, trimming off any excess fat and lay on top of the salad, drizzling with the resting juices.
+10. Spoon over the mayo and scatter with a few of the sliced peppers.
+11. Roll up and eat.
+12. If using pitta, split and stuff.
+13. Serve any extra salad on the side.
 
 ## Notes
 

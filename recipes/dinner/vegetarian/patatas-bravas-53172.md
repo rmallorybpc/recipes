@@ -30,17 +30,15 @@ Patatas bravas from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the oil in a pan and fry the onion for about 5 mins until softened.
-3. Add the garlic, chopped tomatoes, tomato purée, sweet paprika, chilli powder, sugar and a pinch of salt, then bring to the boil, stirring occasionally.
-4. Lower to a simmer and cook for 10 mins until pulpy.
-5. Can be kept chilled for up to 24 hrs.
-6. step 2.
-7. Heat oven to 200C/180C fan/gas 6.
-8. Pat the potatoes dry with kitchen paper, then tip into a roasting tin and toss in the olive oil and some seasoning.
-9. Roast for 40-50 mins until crisp and golden.
-10. Tip the potatoes into serving dishes and spoon over the tomato sauce.
-11. Sprinkle with some fresh parsley to serve.
+1. Heat the oil in a pan and fry the onion for about 5 mins until softened.
+2. Add the garlic, chopped tomatoes, tomato purée, sweet paprika, chilli powder, sugar and a pinch of salt, then bring to the boil, stirring occasionally.
+3. Lower to a simmer and cook for 10 mins until pulpy.
+4. Can be kept chilled for up to 24 hrs.
+5. Heat oven to 200C/180C fan/gas 6.
+6. Pat the potatoes dry with kitchen paper, then tip into a roasting tin and toss in the olive oil and some seasoning.
+7. Roast for 40-50 mins until crisp and golden.
+8. Tip the potatoes into serving dishes and spoon over the tomato sauce.
+9. Sprinkle with some fresh parsley to serve.
 
 ## Notes
 

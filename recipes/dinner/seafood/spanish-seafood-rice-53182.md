@@ -30,15 +30,12 @@ Spanish seafood rice from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the oil in a large saucepan and soften the onion for 6-7 mins.
-3. Add the pepper and garlic, cook for 2 mins more, then stir in the paella rice and cook for 1 min, stirring to coat.
-4. step 2.
-5. Pour in the stock, add the saffron and bring to the boil.
-6. Cook, uncovered, at a gentle bubble, for 20 mins, stirring occasionally until the rice is tender.
-7. step 3.
-8. Stir in the seafood and lemon juice and cook for 2 mins or until piping hot and completely cooked through.
-9. Serve in warm bowls scattered with the parsley.
+1. Heat the oil in a large saucepan and soften the onion for 6-7 mins.
+2. Add the pepper and garlic, cook for 2 mins more, then stir in the paella rice and cook for 1 min, stirring to coat.
+3. Pour in the stock, add the saffron and bring to the boil.
+4. Cook, uncovered, at a gentle bubble, for 20 mins, stirring occasionally until the rice is tender.
+5. Stir in the seafood and lemon juice and cook for 2 mins or until piping hot and completely cooked through.
+6. Serve in warm bowls scattered with the parsley.
 
 ## Notes
 

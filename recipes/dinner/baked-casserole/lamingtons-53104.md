@@ -33,34 +33,28 @@ Lamingtons from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the oven to 200C/180C fan/gas 6.
-3. Butter and line a 20 x 30cm rectangle tin.
-4. step 2.
-5. Beat the butter and sugar in a free-standing mixer until pale and fluffy.
-6. Add the eggs one at a time and beat well.
-7. Beat through the flour, milk and salt until fully combined, then spoon into the tin.
-8. Bake in the oven for 25 mins or until golden and firm to the touch.
-9. Set aside to cool completely.
-10. step 3.
-11. Slice the sponge horizontally to create two halves.
-12. Trim the edges to make perfect corners.
-13. Cut the sponge into 18 squares.
-14. Lightly whip the cream with the icing sugar until it reaches soft peaks.
-15. Spread a little of the jam on half of the sponge squares then pipe or spread over a little of the cream.
-16. Sandwich each one with a second square of sponge then set aside in the fridge to chill.
-17. step 4.
-18. To make the icing, whisk together the melted butter and milk in a bowl.
-19. Sieve the cocoa powder and icing sugar together in a seperate bowl.
-20. Gradually add the cocoa and sugar to the butter and milk mixture, whisking continuously to ensure there are no lumps.
-21. If it gets lumpy, whizz with a hand blender until smooth.
-22. step 5.
-23. Divide the coconut between three shallow bowls (this keeps it from getting coated in too much chocolate whilst you’re dipping).
-24. step 6.
-25. Dip each lamington in the icing until completely covered.
-26. Roll in the coconut and set on a wire rack.
-27. Repeat with the remaining sponges.
-28. Chill for a minimum of 1 hr.
+1. Heat the oven to 200C/180C fan/gas 6.
+2. Butter and line a 20 x 30cm rectangle tin.
+3. Beat the butter and sugar in a free-standing mixer until pale and fluffy.
+4. Add the eggs one at a time and beat well.
+5. Beat through the flour, milk and salt until fully combined, then spoon into the tin.
+6. Bake in the oven for 25 mins or until golden and firm to the touch.
+7. Set aside to cool completely.
+8. Slice the sponge horizontally to create two halves.
+9. Trim the edges to make perfect corners.
+10. Cut the sponge into 18 squares.
+11. Lightly whip the cream with the icing sugar until it reaches soft peaks.
+12. Spread a little of the jam on half of the sponge squares then pipe or spread over a little of the cream.
+13. Sandwich each one with a second square of sponge then set aside in the fridge to chill.
+14. To make the icing, whisk together the melted butter and milk in a bowl.
+15. Sieve the cocoa powder and icing sugar together in a seperate bowl.
+16. Gradually add the cocoa and sugar to the butter and milk mixture, whisking continuously to ensure there are no lumps.
+17. If it gets lumpy, whizz with a hand blender until smooth.
+18. Divide the coconut between three shallow bowls (this keeps it from getting coated in too much chocolate whilst you’re dipping).
+19. Dip each lamington in the icing until completely covered.
+20. Roll in the coconut and set on a wire rack.
+21. Repeat with the remaining sponges.
+22. Chill for a minimum of 1 hr.
 
 ## Notes
 

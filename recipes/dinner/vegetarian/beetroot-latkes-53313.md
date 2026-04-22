@@ -31,16 +31,13 @@ Beetroot latkes from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the oven to 180C/160C fan/gas 4.
-3. Make the latkes by combining all of the ingredients.
-4. step 2.
-5. Heat the oil in a large non-stick pan.
-6. Spoon in the mixture to make six round latkes.
-7. Fry for 4-5 mins on each side, then transfer to a baking sheet and bake for 10 mins.
-8. step 3.
-9. Combine the yogurt and mint in a small bowl.
-10. Toss the salad leaves and tomatoes together, then serve the latkes with the mint yogurt and salad.
+1. Heat the oven to 180C/160C fan/gas 4.
+2. Make the latkes by combining all of the ingredients.
+3. Heat the oil in a large non-stick pan.
+4. Spoon in the mixture to make six round latkes.
+5. Fry for 4-5 mins on each side, then transfer to a baking sheet and bake for 10 mins.
+6. Combine the yogurt and mint in a small bowl.
+7. Toss the salad leaves and tomatoes together, then serve the latkes with the mint yogurt and salad.
 
 ## Notes
 

@@ -23,25 +23,17 @@ Tortang Talong from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 0.
-2. Grill the eggplant until the color of skin turns almost black.
-3. 1.
-4. Let the eggplant cool for a while then peel off the skin.
-5. Set aside.
-6. 2.
-7. Crack the eggs and place in a bowl.
-8. 3.
-9. Add salt and beat.
-10. 4.
-11. Place the eggplant on a flat surface and flatten using a fork.
-12. 5.
-13. Dip the flattened eggplant in the beaten egg mixture.
-14. 6.
-15. Heat the pan and pour the cooking oil.
-16. 7.
-17. Fry the eggplant (that was dipped in the beaten mixture).
-18. Make sure that both sides are cooked.
-19. Frying time will take you about 3 to 4 minutes per side on medium heat.
+1. Grill the eggplant until the color of skin turns almost black.
+2. Let the eggplant cool for a while then peel off the skin.
+3. Set aside.
+4. Crack the eggs and place in a bowl.
+5. Add salt and beat.
+6. Place the eggplant on a flat surface and flatten using a fork.
+7. Dip the flattened eggplant in the beaten egg mixture.
+8. Heat the pan and pour the cooking oil.
+9. Fry the eggplant (that was dipped in the beaten mixture).
+10. Make sure that both sides are cooked.
+11. Frying time will take you about 3 to 4 minutes per side on medium heat.
 
 ## Notes
 

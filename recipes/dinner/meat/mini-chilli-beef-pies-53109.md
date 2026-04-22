@@ -32,25 +32,22 @@ Mini chilli beef pies from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. To make chilli, heat oil in a pan and fry onion for 5 mins until soft.
-3. Add spices; fry for 1 min.
-4. Stir in beef and cook for a few mins.
-5. Add tomato purée, stock and cinnamon.
-6. Give it a stir, bring to the boil, then simmer for 15-20 mins until very little liquid is left.
-7. Add beans 5 mins before the end of cooking.
-8. Check seasoning and cool.
-9. step 2.
-10. Heat oven to 200C/fan 180C/gas 6.
-11. Using a 7cm pastry cutter, stamp out 12 circles from the pastry.
-12. Use to line a 12-hole mini muffin tray, prick the base of the pastry with a fork, and bake for 10 mins.
-13. Remove from oven and cool on a wire tray.
-14. Repeat with remaining pastry.
-15. step 3.
-16. Meanwhile, cook the potato in boiling water until tender.
-17. Drain, mash with soured cream and seasoning, then stir through chives.
-18. Spoon 1-2 tsp of chilli mix into the pastry cases and top with a tsp of mash.
-19. Ruffle mash with a fork; return to the oven for 15 mins or until golden.
+1. To make chilli, heat oil in a pan and fry onion for 5 mins until soft.
+2. Add spices; fry for 1 min.
+3. Stir in beef and cook for a few mins.
+4. Add tomato purée, stock and cinnamon.
+5. Give it a stir, bring to the boil, then simmer for 15-20 mins until very little liquid is left.
+6. Add beans 5 mins before the end of cooking.
+7. Check seasoning and cool.
+8. Heat oven to 200C/fan 180C/gas 6.
+9. Using a 7cm pastry cutter, stamp out 12 circles from the pastry.
+10. Use to line a 12-hole mini muffin tray, prick the base of the pastry with a fork, and bake for 10 mins.
+11. Remove from oven and cool on a wire tray.
+12. Repeat with remaining pastry.
+13. Meanwhile, cook the potato in boiling water until tender.
+14. Drain, mash with soured cream and seasoning, then stir through chives.
+15. Spoon 1-2 tsp of chilli mix into the pastry cases and top with a tsp of mash.
+16. Ruffle mash with a fork; return to the oven for 15 mins or until golden.
 
 ## Notes
 

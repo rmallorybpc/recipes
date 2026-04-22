@@ -24,13 +24,10 @@ Hummus from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Drain the chickpeas into a sieve set over a bowl or jug to catch the liquid.
-3. Tip the chickpeas, tahini, garlic and yogurt into a food processor or blender and whizz to smooth.
-4. step 2.
-5. Whizz in a tbsp of the chickpea liquid at a time until you have a nice consistency, then scrape into a bowl.
-6. step 3.
-7. Stir in a squeeze of lemon juice and season to taste.
+1. Drain the chickpeas into a sieve set over a bowl or jug to catch the liquid.
+2. Tip the chickpeas, tahini, garlic and yogurt into a food processor or blender and whizz to smooth.
+3. Whizz in a tbsp of the chickpea liquid at a time until you have a nice consistency, then scrape into a bowl.
+4. Stir in a squeeze of lemon juice and season to taste.
 
 ## Notes
 

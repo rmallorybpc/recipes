@@ -24,13 +24,11 @@ Garlicky prawns with sherry from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the olive oil in a large frying pan.
-3. Tip in the garlic slices and cook for a few secs.
-4. Then stir through the prawns and cook for a couple of mins until they start to turn pink.
-5. step 2.
-6. Pour over the sherry and cook for a few mins more, just until the prawns are cooked through.
-7. Sprinkle with parsley before serving.
+1. Heat the olive oil in a large frying pan.
+2. Tip in the garlic slices and cook for a few secs.
+3. Then stir through the prawns and cook for a couple of mins until they start to turn pink.
+4. Pour over the sherry and cook for a few mins more, just until the prawns are cooked through.
+5. Sprinkle with parsley before serving.
 
 ## Notes
 

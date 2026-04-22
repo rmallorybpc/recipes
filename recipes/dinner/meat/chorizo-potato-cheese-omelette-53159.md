@@ -25,14 +25,13 @@ Chorizo, potato & cheese omelette from TheMealDB imported into the planner colle
 
 ## Instructions
 
-1. step 1.
-2. Cook the potato in boiling water for 8-10 mins or until tender.
-3. Drain and allow to steam-dry.
-4. Heat oil in an omelette pan, add chorizo and cook for 2 mins.
-5. Add the potato and cook for a further 5 mins until the potato starts to crisp.
-6. Spoon pan contents out, wipe pan and cook a 2 or 3-egg omelette in the same pan.
-7. When almost cooked, scatter with the chorizo and potato, parsley and cheese.
-8. Fold the omelette in the pan and cook for 1 min more to melt the cheese.
+1. Cook the potato in boiling water for 8-10 mins or until tender.
+2. Drain and allow to steam-dry.
+3. Heat oil in an omelette pan, add chorizo and cook for 2 mins.
+4. Add the potato and cook for a further 5 mins until the potato starts to crisp.
+5. Spoon pan contents out, wipe pan and cook a 2 or 3-egg omelette in the same pan.
+6. When almost cooked, scatter with the chorizo and potato, parsley and cheese.
+7. Fold the omelette in the pan and cook for 1 min more to melt the cheese.
 
 ## Notes
 

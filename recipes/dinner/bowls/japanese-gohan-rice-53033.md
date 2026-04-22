@@ -23,16 +23,14 @@ Japanese gohan rice from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1.
-2. Rinsing and soaking your rice is key to achieving the perfect texture.
-3. Measure the rice into a bowl, cover with cold water, then use your fingers to massage the grains of rice – the water will become cloudy.
-4. Drain and rinse again with fresh water.
-5. Repeat five more times until the water stays clear.
-6. STEP 2.
-7. Tip the rinsed rice into a saucepan with 400ml water, or 200ml dashi and 200ml water, bring to the boil, then turn down the heat to a low simmer, cover with a tight-fitting lid with a steam hole and cook for 15 mins.
-8. Remove from the heat and leave to sit for another 15 mins, then stir through the mirin.
-9. Remove the lid and give it a good stir.
-10. Serve with any or all of the optional toppings.
+1. Rinsing and soaking your rice is key to achieving the perfect texture.
+2. Measure the rice into a bowl, cover with cold water, then use your fingers to massage the grains of rice – the water will become cloudy.
+3. Drain and rinse again with fresh water.
+4. Repeat five more times until the water stays clear.
+5. Tip the rinsed rice into a saucepan with 400ml water, or 200ml dashi and 200ml water, bring to the boil, then turn down the heat to a low simmer, cover with a tight-fitting lid with a steam hole and cook for 15 mins.
+6. Remove from the heat and leave to sit for another 15 mins, then stir through the mirin.
+7. Remove the lid and give it a good stir.
+8. Serve with any or all of the optional toppings.
 
 ## Notes
 

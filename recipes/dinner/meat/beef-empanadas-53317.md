@@ -40,26 +40,23 @@ Beef Empanadas from TheMealDB imported into the planner collection.
 1. For the dough place lard, warm water and salt in a large kneading bowl and stir.
 2. Add flour and oregano and either knead five miutes by hand or with the kneading function of your machine.
 3. Let rest covered for at least half an hour or overnight in the fridge.
-4. 2.
-5. For the filling place tomatoes for about 30 seconds in boiling water, then cool with cold water and peel of skin and cut into cubes.
-6. Press garlic through garlic press, cut onions into cubes.
-7. Simmer garlic and onions in some olive oil until translucent.
-8. Take out onions and garlic and brown the meat at high heat from all sides.
-9. Season with all herbs and add the onions, garlic and tomatoes.
-10. Let simmer for a few minutes, add salt, pepper and additional spices to taste.
-11. You can prepare the meat the night before, chill in fridge if doing so.
-12. Boil eggs and also cut into cubes and mix with prepared meat.
-13. 3.
-14. Cut dough into half and roll out one half thinnly on floured surface.
-15. Cut out circles about 12-15cm in diameter.
-16. Mine have a diameter of 12.5 cm.
-17. Place about 2-4 teaspoons of filling on one circle, put a bit of water all around the edges and fold over the other half so that you get half moons.
-18. Be sure to seal the edges with a fork.
-19. Repeat until you have no dough and filling left.
-20. 4.
-21. Meanwhile preheat oven to 200 degrees Celsius.
-22. Brush empanadas with egg wash and bake about 8 empanadas on a baking sheet lined with parchment paper for about 25min or until golden.
-23. Serve warm with chimichurri sauce.
+4. For the filling place tomatoes for about 30 seconds in boiling water, then cool with cold water and peel of skin and cut into cubes.
+5. Press garlic through garlic press, cut onions into cubes.
+6. Simmer garlic and onions in some olive oil until translucent.
+7. Take out onions and garlic and brown the meat at high heat from all sides.
+8. Season with all herbs and add the onions, garlic and tomatoes.
+9. Let simmer for a few minutes, add salt, pepper and additional spices to taste.
+10. You can prepare the meat the night before, chill in fridge if doing so.
+11. Boil eggs and also cut into cubes and mix with prepared meat.
+12. Cut dough into half and roll out one half thinnly on floured surface.
+13. Cut out circles about 12-15cm in diameter.
+14. Mine have a diameter of 12.5 cm.
+15. Place about 2-4 teaspoons of filling on one circle, put a bit of water all around the edges and fold over the other half so that you get half moons.
+16. Be sure to seal the edges with a fork.
+17. Repeat until you have no dough and filling left.
+18. Meanwhile preheat oven to 200 degrees Celsius.
+19. Brush empanadas with egg wash and bake about 8 empanadas on a baking sheet lined with parchment paper for about 25min or until golden.
+20. Serve warm with chimichurri sauce.
 
 ## Notes
 

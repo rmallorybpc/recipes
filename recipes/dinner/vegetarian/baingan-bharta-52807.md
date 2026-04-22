@@ -38,64 +38,48 @@ Baingan Bharta from TheMealDB imported into the planner collection.
 8. Keep the eggplant turning after a 2 to 3 minutes on the flame, so that its evenly.
 9. cooked.
 10. You could also embed some garlic cloves in the baingan and then roast it.
-11. 2.
-12. Roast the aubergine till its completely cooked and tender.
-13. With a knife check the doneness.
-14. The knife should slid.
-15. easily in aubergines without any resistance.
-16. Remove the baingan and immerse in a bowl of water till it cools.
-17. down.
-18. 3.
-19. You can also do the dhungar technique of infusing charcoal smoky flavor in the baingan.
-20. This is an optional step.
-21. Use natural charcoal for this method.
-22. Heat a small piece of charcoal on flame till it becomes smoking hot and red.
-23. 4.
-24. Make small cuts on the baingan with a knife.
-25. Place the red hot charcoal in the same plate where the roasted.
-26. aubergine is kept.
-27. Add a few drops of oil on the charcoal.
-28. The charcoal would begin to smoke.
-29. 5.
-30. As soon as smoke begins to release from the charcoal, cover the entire plate tightly with a large bowl.
-31. Allow the.
-32. charcoal smoke to get infused for 1 to 2 minutes.
-33. The more you do, the more smoky the baingan bharta will.
-34. become.
-35. I just keep for a minute.
-36. Alternatively, you can also do this dhungar method once the baingan bharta is.
-37. cooked, just like the way we do for Dal Tadka.
-38. 6.
-39. Peel the skin from the roasted and smoked eggplant.
-40. 7.
-41. Chop the cooked eggplant finely or you can even mash it.
-42. 8.
-43. In a kadai or pan, heat oil.
-44. Then add finely chopped onions and garlic.
-45. 9.
-46. Saute the onions till translucent.
-47. Don't brown them.
-48. 10.
-49. Add chopped green chilies and saute for a minute.
-50. 11.
-51. Add the chopped tomatoes and mix it well.
-52. 12.
-53. Bhuno (saute) the tomatoes till the oil starts separating from the mixture.
-54. 13.
-55. Now add the red chili powder.
-56. Stir and mix well.
-57. 14.
-58. Add the chopped cooked baingan.
-59. 15.
-60. Stir and mix the chopped baingan very well with the onion­tomato masala mixture.
-61. 16.
-62. Season with salt.
-63. Stir and saute for some more 4 to 5 minutes more.
-64. 17.
-65. Finally stir in the coriander leaves with the baingan bharta or garnish it with them.
-66. Serve Baingan Bharta with.
-67. phulkas, rotis or chapatis.
-68. It goes well even with bread, toasted or grilled bread and plain rice or jeera rice.
+11. Roast the aubergine till its completely cooked and tender.
+12. With a knife check the doneness.
+13. The knife should slid.
+14. easily in aubergines without any resistance.
+15. Remove the baingan and immerse in a bowl of water till it cools.
+16. down.
+17. You can also do the dhungar technique of infusing charcoal smoky flavor in the baingan.
+18. This is an optional step.
+19. Use natural charcoal for this method.
+20. Heat a small piece of charcoal on flame till it becomes smoking hot and red.
+21. Make small cuts on the baingan with a knife.
+22. Place the red hot charcoal in the same plate where the roasted.
+23. aubergine is kept.
+24. Add a few drops of oil on the charcoal.
+25. The charcoal would begin to smoke.
+26. As soon as smoke begins to release from the charcoal, cover the entire plate tightly with a large bowl.
+27. Allow the.
+28. charcoal smoke to get infused for 1 to 2 minutes.
+29. The more you do, the more smoky the baingan bharta will.
+30. become.
+31. I just keep for a minute.
+32. Alternatively, you can also do this dhungar method once the baingan bharta is.
+33. cooked, just like the way we do for Dal Tadka.
+34. Peel the skin from the roasted and smoked eggplant.
+35. Chop the cooked eggplant finely or you can even mash it.
+36. In a kadai or pan, heat oil.
+37. Then add finely chopped onions and garlic.
+38. Saute the onions till translucent.
+39. Don't brown them.
+40. Add chopped green chilies and saute for a minute.
+41. Add the chopped tomatoes and mix it well.
+42. Bhuno (saute) the tomatoes till the oil starts separating from the mixture.
+43. Now add the red chili powder.
+44. Stir and mix well.
+45. Add the chopped cooked baingan.
+46. Stir and mix the chopped baingan very well with the onion­tomato masala mixture.
+47. Season with salt.
+48. Stir and saute for some more 4 to 5 minutes more.
+49. Finally stir in the coriander leaves with the baingan bharta or garnish it with them.
+50. Serve Baingan Bharta with.
+51. phulkas, rotis or chapatis.
+52. It goes well even with bread, toasted or grilled bread and plain rice or jeera rice.
 
 ## Notes
 

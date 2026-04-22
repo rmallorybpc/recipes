@@ -36,15 +36,13 @@ Piri-piri chicken and slaw from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1.
-2. Whizz together all of the marinade ingredients in a small food processor.
-3. Rub the marinade onto the chicken and leave for 1 hour at room temperature.
-4. STEP 2.
-5. Heat the oven to 190C/fan 170C/gas 5.
-6. Put the chicken in a roasting tray and cook for 1 hour 20 minutes.
-7. Rest under loose foil for 20 minutes.
-8. While the chicken is resting, mix together the slaw ingredients and season.
-9. Serve the chicken with slaw, fries and condiments.
+1. Whizz together all of the marinade ingredients in a small food processor.
+2. Rub the marinade onto the chicken and leave for 1 hour at room temperature.
+3. Heat the oven to 190C/fan 170C/gas 5.
+4. Put the chicken in a roasting tray and cook for 1 hour 20 minutes.
+5. Rest under loose foil for 20 minutes.
+6. While the chicken is resting, mix together the slaw ingredients and season.
+7. Serve the chicken with slaw, fries and condiments.
 
 ## Notes
 

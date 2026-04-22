@@ -27,23 +27,19 @@ Slow-roast lamb with cinnamon, fennel & citrus from TheMealDB imported into the 
 
 ## Instructions
 
-1. step 1.
-2. Put the lamb into a large food bag with all the juice and marinate overnight.
-3. step 2.
-4. The next day, take the lamb out of the fridge 1 hr before you want to cook it.
-5. Heat oven to 220C/200C fan/gas 7.
-6. Take the lamb out of the marinade (reserve remaining marinade) and pat dry.
-7. Rub with half the oil and roast for 15-20 mins until browned.
-8. Remove lamb and reduce oven to 160C/140C fan/gas 3.
-9. step 3.
-10. Mix the zests, remaining oil, honey, spices and garlic with plenty of seasoning.
-11. Lay a large sheet of baking parchment on a large sheet of foil.
-12. Sit the lamb leg on top, rub all over with the paste and pull up the sides of the foil.
-13. Drizzle marinade into base, and scrunch foil to seal.
-14. step 4.
-15. Roast for 4 hrs, until very tender.
-16. Rest, still wrapped, for 30 mins.
-17. Unwrap and serve with juices.
+1. Put the lamb into a large food bag with all the juice and marinate overnight.
+2. The next day, take the lamb out of the fridge 1 hr before you want to cook it.
+3. Heat oven to 220C/200C fan/gas 7.
+4. Take the lamb out of the marinade (reserve remaining marinade) and pat dry.
+5. Rub with half the oil and roast for 15-20 mins until browned.
+6. Remove lamb and reduce oven to 160C/140C fan/gas 3.
+7. Mix the zests, remaining oil, honey, spices and garlic with plenty of seasoning.
+8. Lay a large sheet of baking parchment on a large sheet of foil.
+9. Sit the lamb leg on top, rub all over with the paste and pull up the sides of the foil.
+10. Drizzle marinade into base, and scrunch foil to seal.
+11. Roast for 4 hrs, until very tender.
+12. Rest, still wrapped, for 30 mins.
+13. Unwrap and serve with juices.
 
 ## Notes
 

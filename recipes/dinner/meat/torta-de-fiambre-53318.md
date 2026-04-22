@@ -30,16 +30,12 @@ Torta de fiambre from TheMealDB imported into the planner collection.
 
 1. Line the bottom of a springform of 20-2cm (8-9inches) with parchment paper, I usually leave some overhang as the batter is very liquid and may spill a bit.
 2. Preheat oven to 220 degrees Celsius.
-3. 2.
-4. Grate the cheese and take out the ham.
-5. 3.
-6. Mix all remaining ingredients in a large bowl for about one to two minutes.
-7. 4.
-8. Pour half the batter into the prepared pan, it is going to be very liquid.
-9. Then place ham and cheese on top and pour the remaining batter on top.
-10. 5.
-11. Bake for about 20-25 minutes or until top is golden.
-12. Wait for a few minutes before releasing from the pan and enjoy either hot or cold with some fresh herbs.
+3. Grate the cheese and take out the ham.
+4. Mix all remaining ingredients in a large bowl for about one to two minutes.
+5. Pour half the batter into the prepared pan, it is going to be very liquid.
+6. Then place ham and cheese on top and pour the remaining batter on top.
+7. Bake for about 20-25 minutes or until top is golden.
+8. Wait for a few minutes before releasing from the pan and enjoy either hot or cold with some fresh herbs.
 
 ## Notes
 

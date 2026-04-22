@@ -27,13 +27,11 @@ Sweet potato salad from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat oven to 200C/180C fan/gas 6.
-3. Toss the sweet potato chunks with the olive oil and some seasoning, and spread on a baking parchment-lined baking sheet.
-4. Roast for 30 - 35 mins until tender and golden.
-5. Cool at room temperature.
-6. step 2.
-7. When just about cool whisk together all the dressing ingredients with a little more seasoning and gently toss through the potato chunks – use your hands to avoid breaking them up.
+1. Heat oven to 200C/180C fan/gas 6.
+2. Toss the sweet potato chunks with the olive oil and some seasoning, and spread on a baking parchment-lined baking sheet.
+3. Roast for 30 - 35 mins until tender and golden.
+4. Cool at room temperature.
+5. When just about cool whisk together all the dressing ingredients with a little more seasoning and gently toss through the potato chunks – use your hands to avoid breaking them up.
 
 ## Notes
 

@@ -30,13 +30,11 @@ Thai chicken cakes with sweet chilli sauce from TheMealDB imported into the plan
 
 ## Instructions
 
-1. step 1.
-2. Toss the chicken, garlic, ginger, onion, coriander and chilli into a food processor and season well.
-3. Blitz until the chicken is finely ground and everything is well mixed.
-4. Use your hands to shape six small cakes.
-5. step 2.
-6. Heat the oil in a frying pan, then fry the cakes over a medium heat for about 6-8 mins, turning once.
-7. Serve hot, with sweet chilli sauce, lime wedges, coriander, shredded spring onion and red chilli.
+1. Toss the chicken, garlic, ginger, onion, coriander and chilli into a food processor and season well.
+2. Blitz until the chicken is finely ground and everything is well mixed.
+3. Use your hands to shape six small cakes.
+4. Heat the oil in a frying pan, then fry the cakes over a medium heat for about 6-8 mins, turning once.
+5. Serve hot, with sweet chilli sauce, lime wedges, coriander, shredded spring onion and red chilli.
 
 ## Notes
 

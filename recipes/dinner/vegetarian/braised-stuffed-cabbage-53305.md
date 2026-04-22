@@ -30,23 +30,20 @@ Braised stuffed cabbage from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat oven to 180C/fan 160C/gas 4.
-3. Remove the tough central stalk from the cabbage leaves.
-4. Bring a large pan of salted water to the boil, add the cabbage, then cook for just 1-2 mins until the leaves are starting to wilt.
-5. Drain and refresh under cold running water.
-6. Drain well, then pat dry with a tea towel.
-7. step 2.
-8. Heat the oil in a pan, add the onion, then fry for 5 mins until slightly browned.
-9. Add the rosemary and celery, then cook for 8 mins more.
-10. Stir in the rice, then cook for a min or so until the grains are glistening.
-11. Remove from the heat, stir in the chestnuts and cranberries, then season.
-12. step 3.
-13. Spoon a little stuffing onto a cabbage leaf, roll up and fold in the sides to enclose the filling.
-14. Put in a single layer in a large, oiled, shallow ovenproof dish with the join underneath.
-15. Fill the remaining leaves in the same way.
-16. Mix the stock, vinegar and honey, then pour over the cabbage.
-17. Cover the dish tightly with foil, bake for 1 hr, uncover, then cook for a further 15 mins.
+1. Heat oven to 180C/fan 160C/gas 4.
+2. Remove the tough central stalk from the cabbage leaves.
+3. Bring a large pan of salted water to the boil, add the cabbage, then cook for just 1-2 mins until the leaves are starting to wilt.
+4. Drain and refresh under cold running water.
+5. Drain well, then pat dry with a tea towel.
+6. Heat the oil in a pan, add the onion, then fry for 5 mins until slightly browned.
+7. Add the rosemary and celery, then cook for 8 mins more.
+8. Stir in the rice, then cook for a min or so until the grains are glistening.
+9. Remove from the heat, stir in the chestnuts and cranberries, then season.
+10. Spoon a little stuffing onto a cabbage leaf, roll up and fold in the sides to enclose the filling.
+11. Put in a single layer in a large, oiled, shallow ovenproof dish with the join underneath.
+12. Fill the remaining leaves in the same way.
+13. Mix the stock, vinegar and honey, then pour over the cabbage.
+14. Cover the dish tightly with foil, bake for 1 hr, uncover, then cook for a further 15 mins.
 
 ## Notes
 

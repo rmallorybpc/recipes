@@ -28,17 +28,13 @@ Crispy Eggplant from TheMealDB imported into the planner collection.
 
 1. Slice eggplant into 1 cm (0.4-inch) slices.
 2. Place them in a bowl and sprinkle them with salt. allow them to sit for 30 minutes to render some of their liquid and bitterness.
-3. 2.
-4. After 30 minutes wash eggplant slices from salt and pat dry with a kitchen towel.
-5. 3.
-6. In a large bowl/plate place breadcrumbs and sesame seeds.
-7. In another bowl beat 2 eggs with pinch salt and pepper.
-8. 4.
-9. Heal oil in a large skillet over high heat.
-10. 5.
-11. Dip eggplant slices in egg, then in crumbs, and place in hot oil.
-12. Fry 2 to 3 minutes on each side, or until golden brown.
-13. Drain on a paper towel.
+3. After 30 minutes wash eggplant slices from salt and pat dry with a kitchen towel.
+4. In a large bowl/plate place breadcrumbs and sesame seeds.
+5. In another bowl beat 2 eggs with pinch salt and pepper.
+6. Heal oil in a large skillet over high heat.
+7. Dip eggplant slices in egg, then in crumbs, and place in hot oil.
+8. Fry 2 to 3 minutes on each side, or until golden brown.
+9. Drain on a paper towel.
 
 ## Notes
 

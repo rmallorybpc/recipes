@@ -33,33 +33,25 @@ Beef Caldereta from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 0.
-2. Heat oil in a cooking pot.
-3. Saute onion and garlic until onion softens.
-4. 1.
-5. Add beef.
-6. Saute until the outer part turns light brown.
-7. 2.
-8. Add soy sauce.
-9. Pour tomato sauce and water.
-10. Let boil.
-11. 3.
-12. Add Knorr Beef Cube.
-13. Cover the pressure cooker.
-14. Cook for 30 minutes.
-15. 4.
-16. Pan-fry carrot and potato until it browns.
-17. Set aside.
-18. 5.
-19. Add chili pepper, liver spread and peanut butter.
-20. Stir.
-21. 6.
-22. Add bell peppers, fried potato and carrot.
-23. Cover the pot.
-24. Continue cooking for 5 to 7 minutes.
-25. 7.
-26. Season with salt and ground black pepper.
-27. Serve.
+1. Heat oil in a cooking pot.
+2. Saute onion and garlic until onion softens.
+3. Add beef.
+4. Saute until the outer part turns light brown.
+5. Add soy sauce.
+6. Pour tomato sauce and water.
+7. Let boil.
+8. Add Knorr Beef Cube.
+9. Cover the pressure cooker.
+10. Cook for 30 minutes.
+11. Pan-fry carrot and potato until it browns.
+12. Set aside.
+13. Add chili pepper, liver spread and peanut butter.
+14. Stir.
+15. Add bell peppers, fried potato and carrot.
+16. Cover the pot.
+17. Continue cooking for 5 to 7 minutes.
+18. Season with salt and ground black pepper.
+19. Serve.
 
 ## Notes
 

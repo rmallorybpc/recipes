@@ -26,18 +26,16 @@ Salmon noodle wraps from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat oven to 200C/fan 180C/gas 6.
-3. Put the noodles in a bowl and pour over enough boiling water to just cover them.
-4. Leave for 2 mins, until they are bendable, but not too soft, then drain well.
-5. Return to the bowl with the spring onions, petit pois, salt and pepper and a third of the butter.
-6. Mix well until the butter has melted.
-7. step 2.
-8. Pile the noodles and vegetables onto two large squares of baking parchment, then sit the salmon on top.
-9. Slice the remaining butter and arrange over the top of the salmon.
-10. Bring the ends of the paper over the fish, fold them together to seal, then tuck the ends of the paper underneath so there are no gaps.
-11. Put the parcels on a baking sheet and bake for 15-20 mins.
-12. Transfer to dinner plates and serve without delay.
+1. Heat oven to 200C/fan 180C/gas 6.
+2. Put the noodles in a bowl and pour over enough boiling water to just cover them.
+3. Leave for 2 mins, until they are bendable, but not too soft, then drain well.
+4. Return to the bowl with the spring onions, petit pois, salt and pepper and a third of the butter.
+5. Mix well until the butter has melted.
+6. Pile the noodles and vegetables onto two large squares of baking parchment, then sit the salmon on top.
+7. Slice the remaining butter and arrange over the top of the salmon.
+8. Bring the ends of the paper over the fish, fold them together to seal, then tuck the ends of the paper underneath so there are no gaps.
+9. Put the parcels on a baking sheet and bake for 15-20 mins.
+10. Transfer to dinner plates and serve without delay.
 
 ## Notes
 

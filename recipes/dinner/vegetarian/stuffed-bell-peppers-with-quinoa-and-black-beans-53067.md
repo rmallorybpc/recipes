@@ -34,29 +34,22 @@ Stuffed Bell Peppers with Quinoa and Black Beans from TheMealDB imported into th
 
 ## Instructions
 
-1. 1.
-2. Preheat your oven to 375°F (190°C).
-3. Lightly grease a 9x13-inch baking dish or a similar-sized casserole dish.
-4. 2.
-5. Place the bell pepper halves in the prepared baking dish, cut side up.
-6. Bake for 15-20 minutes, or until slightly softened.
-7. 3.
-8. While the bell peppers are baking, prepare the filling.
-9. In a large skillet, heat the olive oil over medium heat.
-10. Add the chopped onion, and cook for 3-4 minutes, until softened.
-11. Add the garlic, and cook for another 1 minute, until fragrant.
-12. 4.
-13. Stir in the cooked quinoa, black beans, corn, diced tomatoes, ground cumin, chili powder, smoked paprika, salt, and pepper.
-14. Cook for 5-7 minutes, until heated through.
-15. Remove the skillet from heat, and stir in 1 cup of the shredded cheese, if using.
-16. 5.
-17. Remove the bell peppers from the oven, and carefully stuff each pepper half with the quinoa and black bean mixture.
-18. Top the stuffed peppers with the remaining 1/2 cup of shredded cheese, if using.
-19. 6.
-20. Return the stuffed peppers to the oven, and bake for another 15-20 minutes, until the cheese is melted and the peppers are tender.
-21. 7.
-22. Remove from the oven, and allow the stuffed peppers to cool for 5 minutes before serving.
-23. Garnish with fresh chopped cilantro.
+1. Preheat your oven to 375°F (190°C).
+2. Lightly grease a 9x13-inch baking dish or a similar-sized casserole dish.
+3. Place the bell pepper halves in the prepared baking dish, cut side up.
+4. Bake for 15-20 minutes, or until slightly softened.
+5. While the bell peppers are baking, prepare the filling.
+6. In a large skillet, heat the olive oil over medium heat.
+7. Add the chopped onion, and cook for 3-4 minutes, until softened.
+8. Add the garlic, and cook for another 1 minute, until fragrant.
+9. Stir in the cooked quinoa, black beans, corn, diced tomatoes, ground cumin, chili powder, smoked paprika, salt, and pepper.
+10. Cook for 5-7 minutes, until heated through.
+11. Remove the skillet from heat, and stir in 1 cup of the shredded cheese, if using.
+12. Remove the bell peppers from the oven, and carefully stuff each pepper half with the quinoa and black bean mixture.
+13. Top the stuffed peppers with the remaining 1/2 cup of shredded cheese, if using.
+14. Return the stuffed peppers to the oven, and bake for another 15-20 minutes, until the cheese is melted and the peppers are tender.
+15. Remove from the oven, and allow the stuffed peppers to cool for 5 minutes before serving.
+16. Garnish with fresh chopped cilantro.
 
 ## Notes
 

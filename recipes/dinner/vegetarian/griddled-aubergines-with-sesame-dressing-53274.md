@@ -28,13 +28,11 @@ Griddled aubergines with sesame dressing from TheMealDB imported into the planne
 
 ## Instructions
 
-1. step 1.
-2. Brush each aubergine slice with some oil, then season.
-3. Heat a griddle pan or barbecue.
-4. When hot, griddle the aubergine slices for 2-3 mins on each side until golden brown and tender.
-5. step 2.
-6. Mix the yogurt with the tahini, garlic, lemon juice and herbs, then season.
-7. Top the aubergines with the dressing and scatter over extra herb leaves.
+1. Brush each aubergine slice with some oil, then season.
+2. Heat a griddle pan or barbecue.
+3. When hot, griddle the aubergine slices for 2-3 mins on each side until golden brown and tender.
+4. Mix the yogurt with the tahini, garlic, lemon juice and herbs, then season.
+5. Top the aubergines with the dressing and scatter over extra herb leaves.
 
 ## Notes
 

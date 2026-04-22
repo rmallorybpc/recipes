@@ -27,15 +27,13 @@ Thai prawn curry from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the oil in a medium saucepan.
-3. Tip in the onion and ginger, then cook for a few mins until softened.
-4. Stir in the curry paste, then cook for 1 min more.
-5. Pour over the chopped tomatoes and coconut cream.
-6. Bring to the boil, then leave to simmer for 5 mins, adding a little boiling water if the mixture gets too thick.
-7. step 2.
-8. Tip in the prawns, then cook for 5-10 mins more, depending on how large they are.
-9. Serve alongside some plain rice and sprinkle with a little chopped coriander, if you like.
+1. Heat the oil in a medium saucepan.
+2. Tip in the onion and ginger, then cook for a few mins until softened.
+3. Stir in the curry paste, then cook for 1 min more.
+4. Pour over the chopped tomatoes and coconut cream.
+5. Bring to the boil, then leave to simmer for 5 mins, adding a little boiling water if the mixture gets too thick.
+6. Tip in the prawns, then cook for 5-10 mins more, depending on how large they are.
+7. Serve alongside some plain rice and sprinkle with a little chopped coriander, if you like.
 
 ## Notes
 

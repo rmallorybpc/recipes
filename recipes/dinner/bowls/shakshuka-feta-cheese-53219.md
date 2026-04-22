@@ -31,18 +31,13 @@ Shakshuka Feta Cheese from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 1.
-2. In a pan heat the oil medium to high heat, with a tablespoon of olive oil.
-3. 2.
-4. Add the chopped vegetables as onions, garlic, celery and red pepper.
-5. Stir all together for 5 mins.
-6. 3.
-7. Add the cumin powder and salt and pepper and the tomato sauce and let it cook for another 7 mins.
-8. 4.
-9. Add the eggs, cover and leave to coo for 8 mins.
-10. Add the fresh spinach and feta cheese at the end.
-11. 5.
-12. Serve with fresh bread.
+1. In a pan heat the oil medium to high heat, with a tablespoon of olive oil.
+2. Add the chopped vegetables as onions, garlic, celery and red pepper.
+3. Stir all together for 5 mins.
+4. Add the cumin powder and salt and pepper and the tomato sauce and let it cook for another 7 mins.
+5. Add the eggs, cover and leave to coo for 8 mins.
+6. Add the fresh spinach and feta cheese at the end.
+7. Serve with fresh bread.
 
 ## Notes
 

@@ -23,23 +23,16 @@ Yorkshire Puddings from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat oven to 230C/fan 210C/gas 8.
-3. step 2.
-4. Drizzle a little sunflower oil evenly into two 4-hole Yorkshire pudding tins or two 12-hole non-stick muffin tins and place in the oven to heat through.
-5. step 3.
-6. To make the batter, tip 140g plain flour into a bowl and beat in 4 eggs until smooth.
-7. step 4.
-8. Gradually add 200ml milk and carry on beating until the mix is completely lump-free.
-9. Season with salt and pepper.
-10. step 5.
-11. Pour the batter into a jug, then remove the hot tins from the oven.
-12. Carefully and evenly pour the batter into the holes.
-13. step 6.
-14. Place the tins back in the oven and leave undisturbed for 20-25 mins until the puddings have puffed up and browned.
-15. step 7.
-16. Serve immediately.
-17. You can now cool them and freeze for up to 1 month.
+1. Heat oven to 230C/fan 210C/gas 8.
+2. Drizzle a little sunflower oil evenly into two 4-hole Yorkshire pudding tins or two 12-hole non-stick muffin tins and place in the oven to heat through.
+3. To make the batter, tip 140g plain flour into a bowl and beat in 4 eggs until smooth.
+4. Gradually add 200ml milk and carry on beating until the mix is completely lump-free.
+5. Season with salt and pepper.
+6. Pour the batter into a jug, then remove the hot tins from the oven.
+7. Carefully and evenly pour the batter into the holes.
+8. Place the tins back in the oven and leave undisturbed for 20-25 mins until the puddings have puffed up and browned.
+9. Serve immediately.
+10. You can now cool them and freeze for up to 1 month.
 
 ## Notes
 

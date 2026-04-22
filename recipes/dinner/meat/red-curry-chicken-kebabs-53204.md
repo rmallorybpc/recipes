@@ -26,12 +26,11 @@ Red curry chicken kebabs from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Fire up the barbecue or heat a griddle pan to high.
-3. Tip chicken, curry paste and coconut milk into a bowl, then mix well until the chicken is evenly coated.
-4. Thread vegetables and chicken onto skewers.
-5. Cook the skewers on the barbecue or griddle for 5-8 mins, turning every so often, until the chicken is cooked through and charred.
-6. Serve with herby rice, salad and a lime half to squeeze over.
+1. Fire up the barbecue or heat a griddle pan to high.
+2. Tip chicken, curry paste and coconut milk into a bowl, then mix well until the chicken is evenly coated.
+3. Thread vegetables and chicken onto skewers.
+4. Cook the skewers on the barbecue or griddle for 5-8 mins, turning every so often, until the chicken is cooked through and charred.
+5. Serve with herby rice, salad and a lime half to squeeze over.
 
 ## Notes
 

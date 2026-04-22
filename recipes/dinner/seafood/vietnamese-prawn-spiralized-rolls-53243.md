@@ -30,17 +30,13 @@ Vietnamese prawn spiralized rolls from TheMealDB imported into the planner colle
 
 ## Instructions
 
-1. step 1.
-2. Mix all the ingredients for the dipping sauce along with 50ml water in a bowl and set aside to allow the sugar to dissolve and flavour to infuse.
-3. step 2.
-4. To assemble the rolls, fill a wide bowl with warm water and grab a clean damp tea towel to work on.
-5. Dip a rice paper wrapper into the water for a few seconds until it softens then carefully place onto the tea towel.
-6. step 3.
-7. Put a few mint and coriander leaves in the centre of the wrapper then top with two prawns and a small handful of the spiralized veg, which may need to be cut up if the spirals are too long.
-8. step 4.
-9. Fold the sides of the wrapper into the centre, over the filling, then fold in the edges, so that the filling is completely encased, then tightly roll.
-10. Repeat until all of the wrappers and filling have been used.
-11. To serve, slice on a diagonal and eat with the dipping sauce.
+1. Mix all the ingredients for the dipping sauce along with 50ml water in a bowl and set aside to allow the sugar to dissolve and flavour to infuse.
+2. To assemble the rolls, fill a wide bowl with warm water and grab a clean damp tea towel to work on.
+3. Dip a rice paper wrapper into the water for a few seconds until it softens then carefully place onto the tea towel.
+4. Put a few mint and coriander leaves in the centre of the wrapper then top with two prawns and a small handful of the spiralized veg, which may need to be cut up if the spirals are too long.
+5. Fold the sides of the wrapper into the centre, over the filling, then fold in the edges, so that the filling is completely encased, then tightly roll.
+6. Repeat until all of the wrappers and filling have been used.
+7. To serve, slice on a diagonal and eat with the dipping sauce.
 
 ## Notes
 

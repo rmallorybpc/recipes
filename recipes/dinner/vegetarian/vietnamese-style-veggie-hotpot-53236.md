@@ -30,13 +30,12 @@ Vietnamese-style veggie hotpot from TheMealDB imported into the planner collecti
 
 ## Instructions
 
-1. step 1.
-2. Heat the oil in a medium-size, lidded saucepan.
-3. Add the ginger and garlic, then stir-fry for about 5 mins.
-4. Add the squash, soy sauce, sugar and stock.
-5. Cover, then simmer for 10 mins.
-6. Remove the lid, add the green beans, then cook for 3 mins more until the squash and beans are tender.
-7. Stir the spring onions through at the last minute, then sprinkle with coriander and serve with rice.
+1. Heat the oil in a medium-size, lidded saucepan.
+2. Add the ginger and garlic, then stir-fry for about 5 mins.
+3. Add the squash, soy sauce, sugar and stock.
+4. Cover, then simmer for 10 mins.
+5. Remove the lid, add the green beans, then cook for 3 mins more until the squash and beans are tender.
+6. Stir the spring onions through at the last minute, then sprinkle with coriander and serve with rice.
 
 ## Notes
 

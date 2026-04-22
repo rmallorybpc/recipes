@@ -3,7 +3,7 @@ title: "Passion fruit mousse"
 meal: dinner
 style: baked-casserole
 protein: none
-cuisine: "Venezulan"
+cuisine: "Venezuelan"
 time_minutes: 30
 servings: 4
 source_url: https://www.themealdb.com/meal/53333

@@ -27,12 +27,10 @@ Bang bang prawn salad from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Cook the noodles following pack instructions, then rinse under cold water and drain thoroughly.
-3. In a small saucepan melt together the peanut butter, coconut milk, sweet chilli sauce and half the spring onions, adding 1-2 tbsp of water to loosen the mixture to a drizzling consistency.
-4. step 2.
-5. Mix the noodles, cucumber and beansprouts in a serving dish.
-6. Top with the prawns, drizzle over the peanut sauce and scatter over the remaining spring onions.
+1. Cook the noodles following pack instructions, then rinse under cold water and drain thoroughly.
+2. In a small saucepan melt together the peanut butter, coconut milk, sweet chilli sauce and half the spring onions, adding 1-2 tbsp of water to loosen the mixture to a drizzling consistency.
+3. Mix the noodles, cucumber and beansprouts in a serving dish.
+4. Top with the prawns, drizzle over the peanut sauce and scatter over the remaining spring onions.
 
 ## Notes
 

@@ -25,20 +25,13 @@ Shawarma bread from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 1.
-2. Sieve flour and add baking powder,salt,sugar,oil nd mix together.
-3. 2.
-4. Add water nd knead the dough for like 10mins.
-5. 3.
-6. Cover the mixture and allow it to rise.
-7. 4.
-8. After it rised transfer it to a work surface and form a round (you can use a plate or pot's lid).
-9. 5.
-10. Heat ur pan and put it.
-11. 6.
-12. It'll start puffing then you turn it.
-13. 7.
-14. And lastly put it in in a warm place, then you'll see it has pocket.
+1. Sieve flour and add baking powder,salt,sugar,oil nd mix together.
+2. Add water nd knead the dough for like 10mins.
+3. Cover the mixture and allow it to rise.
+4. After it rised transfer it to a work surface and form a round (you can use a plate or pot's lid).
+5. Heat ur pan and put it.
+6. It'll start puffing then you turn it.
+7. And lastly put it in in a warm place, then you'll see it has pocket.
 
 ## Notes
 

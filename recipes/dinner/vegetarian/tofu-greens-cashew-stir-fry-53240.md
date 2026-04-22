@@ -30,12 +30,11 @@ Tofu, greens & cashew stir-fry from TheMealDB imported into the planner collecti
 
 ## Instructions
 
-1. step 1.
-2. Heat the oil in a non-stick wok.
-3. Add the broccoli, then fry on a high heat for 5 mins or until just tender, adding a little water if it begins to catch.
-4. Add the garlic and chilli, fry for 1 min, then toss through the spring onions, soya beans, pak choi and tofu.
-5. Stir-fry for 2-3 mins.
-6. Add the hoisin, soy and nuts to warm through.
+1. Heat the oil in a non-stick wok.
+2. Add the broccoli, then fry on a high heat for 5 mins or until just tender, adding a little water if it begins to catch.
+3. Add the garlic and chilli, fry for 1 min, then toss through the spring onions, soya beans, pak choi and tofu.
+4. Stir-fry for 2-3 mins.
+5. Add the hoisin, soy and nuts to warm through.
 
 ## Notes
 

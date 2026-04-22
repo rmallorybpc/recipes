@@ -27,14 +27,12 @@ Seafood rice from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat the oil in a deep frying pan, then soften the leek for 5 mins without browning.
-3. Add the chorizo and fry until it releases its oils.
-4. Stir in the turmeric and rice until coated by the oils, then pour in the stock.
-5. Bring to the boil, then simmer for 15 mins, stirring occasionally.
-6. step 2.
-7. Tip in the peas and cook for 5 mins, then stir in the seafood to heat through for a final 1-2 mins cooking or until rice is cooked.
-8. Check for seasoning and serve immediately with lemon wedges.
+1. Heat the oil in a deep frying pan, then soften the leek for 5 mins without browning.
+2. Add the chorizo and fry until it releases its oils.
+3. Stir in the turmeric and rice until coated by the oils, then pour in the stock.
+4. Bring to the boil, then simmer for 15 mins, stirring occasionally.
+5. Tip in the peas and cook for 5 mins, then stir in the seafood to heat through for a final 1-2 mins cooking or until rice is cooked.
+6. Check for seasoning and serve immediately with lemon wedges.
 
 ## Notes
 

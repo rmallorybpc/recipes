@@ -28,12 +28,12 @@ Chicken Congee from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. STEP 1 - MARINATING THE CHICKEN.
+1. MARINATING THE CHICKEN.
 2. In a bowl, add chicken, salt, white pepper, ginger juice and then mix it together well.
 3. Set the chicken aside.
-4. STEP 2 - RINSE THE WHITE RICE.
+4. RINSE THE WHITE RICE.
 5. Rinse the rice in a metal bowl or pot a couple times and then drain the water.
-6. STEP 2 - BOILING THE WHITE RICE.
+6. BOILING THE WHITE RICE.
 7. Next add 8 cups of water and then set the stove on high heat until it is boiling.
 8. Once rice porridge starts to boil, set the stove on low heat and then stir it once every 8-10 minutes for around 20-25 minutes.
 9. After 25 minutes, this is optional but you can add a little bit more water to make rice porridge to make it less thick or to your preference.

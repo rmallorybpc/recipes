@@ -34,23 +34,18 @@ Cumberland Pie from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat oven to 160C/140C fan/gas 3.
-3. Soften the celery, onion, carrots, bay and 1 thyme sprig in a casserole with 1 tbsp oil and the butter for 10 mins.
-4. Stir in the flour, followed by the purée, Worcestershire sauce and stock cubes.
-5. step 2.
-6. Gradually stir in 600ml hot water, then tip in the beef and bring to a gentle simmer.
-7. Cover and cook in the oven for 2 hrs 30 mins, then uncover and cook for 30 mins -1 hr more until the meat is really tender and sauce thickened.
-8. step 3.
-9. Meanwhile, cook potatoes in a pan of boiling water until they’re not done but about ¾ of the way there.
-10. step 4.
-11. Transfer meat to a baking dish.
-12. Slice spuds into 1cm thick rounds and gently toss with seasoning, the remaining oil and thyme leaves.
-13. Layer on the beef, scattering with the cheese as you layer.
-14. You can cover and chill the pie now for 1 day, or freeze for up to 3 months.
-15. step 5.
-16. Increase oven to 200C/180C fan/gas 6 and bake for 30-40 mins until golden and crispy, and sauce bubbling if the dish went in cold.
-17. Serve with peas.
+1. Heat oven to 160C/140C fan/gas 3.
+2. Soften the celery, onion, carrots, bay and 1 thyme sprig in a casserole with 1 tbsp oil and the butter for 10 mins.
+3. Stir in the flour, followed by the purée, Worcestershire sauce and stock cubes.
+4. Gradually stir in 600ml hot water, then tip in the beef and bring to a gentle simmer.
+5. Cover and cook in the oven for 2 hrs 30 mins, then uncover and cook for 30 mins -1 hr more until the meat is really tender and sauce thickened.
+6. Meanwhile, cook potatoes in a pan of boiling water until they’re not done but about ¾ of the way there.
+7. Transfer meat to a baking dish.
+8. Slice spuds into 1cm thick rounds and gently toss with seasoning, the remaining oil and thyme leaves.
+9. Layer on the beef, scattering with the cheese as you layer.
+10. You can cover and chill the pie now for 1 day, or freeze for up to 3 months.
+11. Increase oven to 200C/180C fan/gas 6 and bake for 30-40 mins until golden and crispy, and sauce bubbling if the dish went in cold.
+12. Serve with peas.
 
 ## Notes
 

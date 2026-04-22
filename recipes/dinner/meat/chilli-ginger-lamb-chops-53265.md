@@ -26,13 +26,11 @@ Chilli ginger lamb chops from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Put the garlic in a bowl with the ginger, lemon juice, oil, spices and seasoning.
-3. Blitz with a hand blender until smooth, then use to coat the lamb chops on both sides.
-4. Leave to marinate in the fridge for a couple of hours or overnight.
-5. step 2.
-6. Heat a barbecue until hot.
-7. Barbecue the chops over the coals for 3 mins on each side until cooked but still pink and juicy in the centre.
+1. Put the garlic in a bowl with the ginger, lemon juice, oil, spices and seasoning.
+2. Blitz with a hand blender until smooth, then use to coat the lamb chops on both sides.
+3. Leave to marinate in the fridge for a couple of hours or overnight.
+4. Heat a barbecue until hot.
+5. Barbecue the chops over the coals for 3 mins on each side until cooked but still pink and juicy in the centre.
 
 ## Notes
 

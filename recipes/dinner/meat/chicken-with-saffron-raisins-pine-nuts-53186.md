@@ -29,23 +29,19 @@ Chicken with saffron, raisins & pine nuts from TheMealDB imported into the plann
 
 ## Instructions
 
-1. step 1.
-2. Heat a large frying pan on a high heat and season the chicken.
-3. Add the olive oil to the pan, then the chicken.
-4. Brown for about 5 mins on each side, remove onto a plate, then set aside.
-5. step 2.
-6. Lower the heat to medium.
-7. In the remaining fat, fry the onions for 3 mins, then add the garlic and saffron.
-8. Cook for 3-4 mins more.
-9. Add the sherry, then simmer for 3-5 mins until syrupy.
-10. step 3.
-11. Put the chicken leg pieces back into the pan, tip in the stock, thyme and raisins, cover, then gently cook on a low heat for 20 mins.
-12. Add the breast meat and any juices left on the plate.
-13. Simmer for 10 mins more until cooked through and the sauce in the pan has reduced.
-14. step 4.
-15. While the chicken is cooking, heat oven to 200C/180C fan/gas 6.
-16. Scatter the pine nuts over a baking sheet, then roast for 10 mins until golden and toasted.
-17. Once the chicken has cooked through, season to taste, scatter with pine nuts and parsley, then serve with rice.
+1. Heat a large frying pan on a high heat and season the chicken.
+2. Add the olive oil to the pan, then the chicken.
+3. Brown for about 5 mins on each side, remove onto a plate, then set aside.
+4. Lower the heat to medium.
+5. In the remaining fat, fry the onions for 3 mins, then add the garlic and saffron.
+6. Cook for 3-4 mins more.
+7. Add the sherry, then simmer for 3-5 mins until syrupy.
+8. Put the chicken leg pieces back into the pan, tip in the stock, thyme and raisins, cover, then gently cook on a low heat for 20 mins.
+9. Add the breast meat and any juices left on the plate.
+10. Simmer for 10 mins more until cooked through and the sauce in the pan has reduced.
+11. While the chicken is cooking, heat oven to 200C/180C fan/gas 6.
+12. Scatter the pine nuts over a baking sheet, then roast for 10 mins until golden and toasted.
+13. Once the chicken has cooked through, season to taste, scatter with pine nuts and parsley, then serve with rice.
 
 ## Notes
 

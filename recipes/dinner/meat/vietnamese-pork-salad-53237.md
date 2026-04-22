@@ -37,22 +37,19 @@ Vietnamese pork salad from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. The day before: make the dressing.
-3. Put the sugar and lime juice in a pan with 1 tbsp water and bring to the boil to dissolve the sugar.
-4. Add the chilli and coriander and stir well, then pulse in a blender until smooth.
-5. Tip into a bowl, then stir in the sesame oil, fish sauce, soy sauce and sesame seeds to make a dressing.
-6. Cover and chill until needed.
-7. step 2.
-8. Two hours before serving: heat a griddle pan.
-9. Preheat the oven to 200C/gas 6/fan 180C.
-10. Brush the pork with oil and griddle on all sides for a few minutes until seared.
-11. Transfer to a baking tray and put in the oven for about 10-12 minutes until cooked through.
-12. Cool, thinly slice against the grain of the meat.
-13. Tip into a bowl and pour over half the dressing.
-14. step 3.
-15. To serve: toss the remaining salad ingredients in a bowl with the remaining dressing.
-16. Pile on to a platter, top with the pork slices and spoon over any juices.
+1. The day before: make the dressing.
+2. Put the sugar and lime juice in a pan with 1 tbsp water and bring to the boil to dissolve the sugar.
+3. Add the chilli and coriander and stir well, then pulse in a blender until smooth.
+4. Tip into a bowl, then stir in the sesame oil, fish sauce, soy sauce and sesame seeds to make a dressing.
+5. Cover and chill until needed.
+6. Two hours before serving: heat a griddle pan.
+7. Preheat the oven to 200C/gas 6/fan 180C.
+8. Brush the pork with oil and griddle on all sides for a few minutes until seared.
+9. Transfer to a baking tray and put in the oven for about 10-12 minutes until cooked through.
+10. Cool, thinly slice against the grain of the meat.
+11. Tip into a bowl and pour over half the dressing.
+12. To serve: toss the remaining salad ingredients in a bowl with the remaining dressing.
+13. Pile on to a platter, top with the pork slices and spoon over any juices.
 
 ## Notes
 

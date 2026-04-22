@@ -28,14 +28,12 @@ Turkish lamb pilau from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Dry-fry the pine nuts or almonds in a large pan until lightly toasted, then tip onto a plate.
-3. Add the oil to the pan, then fry the onion and cinnamon together until starting to turn golden.
-4. Turn up the heat, stir in the lamb, fry until the meat changes colour, then tip in the rice and cook for 1 min, stirring all the time.
-5. step 2.
-6. Pour in 500ml boiling water, crumble in the stock cube, add the apricots, then season to taste.
-7. Turn the heat down, cover and simmer for 12 mins until the rice is tender and the stock has been absorbed.
-8. Toss in the pine nuts and mint and serve.
+1. Dry-fry the pine nuts or almonds in a large pan until lightly toasted, then tip onto a plate.
+2. Add the oil to the pan, then fry the onion and cinnamon together until starting to turn golden.
+3. Turn up the heat, stir in the lamb, fry until the meat changes colour, then tip in the rice and cook for 1 min, stirring all the time.
+4. Pour in 500ml boiling water, crumble in the stock cube, add the apricots, then season to taste.
+5. Turn the heat down, cover and simmer for 12 mins until the rice is tender and the stock has been absorbed.
+6. Toss in the pine nuts and mint and serve.
 
 ## Notes
 

@@ -31,16 +31,14 @@ Thai fried rice with prawns & peas from TheMealDB imported into the planner coll
 
 ## Instructions
 
-1. step 1.
-2. Heat 1 tbsp of the oil in a wok, add the onion, garlic and chilli, and cook for 2-3 mins until golden.
-3. Add the prawns and cook for 1 min.
-4. Tip in the rice and peas, and keep tossing until very hot.
-5. Add the soy and fish sauce, then stir through the chopped coriander.
-6. Keep warm while you fry the eggs.
-7. step 2.
-8. Heat the remaining oil in a frying pan and fry the eggs with some seasoning.
-9. Divide the fried rice mix between 4 bowls and top each with a fried egg.
-10. Serve scattered with coriander, with chilli sauce, if you like.
+1. Heat 1 tbsp of the oil in a wok, add the onion, garlic and chilli, and cook for 2-3 mins until golden.
+2. Add the prawns and cook for 1 min.
+3. Tip in the rice and peas, and keep tossing until very hot.
+4. Add the soy and fish sauce, then stir through the chopped coriander.
+5. Keep warm while you fry the eggs.
+6. Heat the remaining oil in a frying pan and fry the eggs with some seasoning.
+7. Divide the fried rice mix between 4 bowls and top each with a fried egg.
+8. Serve scattered with coriander, with chilli sauce, if you like.
 
 ## Notes
 

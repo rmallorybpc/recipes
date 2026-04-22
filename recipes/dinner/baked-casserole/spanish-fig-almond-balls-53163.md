@@ -27,15 +27,13 @@ Spanish fig & almond balls from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Whizz the almonds in a food processor until most are finely chopped, then tip into a large bowl.
-3. Roughly chop the figs, then whizz to a smooth sticky paste.
-4. Scrape onto the almonds then, using your hands, mix together well with the dried fruit, brandy, honey and cloves.
-5. step 2.
-6. Divide the mixture into 6 and roll into balls.
-7. Tip the sesame seeds onto a tray, then roll the balls in them until covered.
-8. Cover the tray loosely with a clean tea towel, then leave the fig balls to dry for a week before packaging.
-9. Will keep in a cool place for 2 months.
+1. Whizz the almonds in a food processor until most are finely chopped, then tip into a large bowl.
+2. Roughly chop the figs, then whizz to a smooth sticky paste.
+3. Scrape onto the almonds then, using your hands, mix together well with the dried fruit, brandy, honey and cloves.
+4. Divide the mixture into 6 and roll into balls.
+5. Tip the sesame seeds onto a tray, then roll the balls in them until covered.
+6. Cover the tray loosely with a clean tea towel, then leave the fig balls to dry for a week before packaging.
+7. Will keep in a cool place for 2 months.
 
 ## Notes
 

@@ -27,14 +27,12 @@ Aubergine couscous salad from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat grill to high.
-3. Put the aubergine on a baking sheet, brush with oil and season.
-4. Grill for about 15 mins, turning and brushing with more oil halfway, until browned and softened.
-5. step 2.
-6. Meanwhile, tip the couscous into a large bowl, pour over the stock, then cover and leave for 10 mins.
-7. Mix the tomatoes, mint, goat’s cheese and remaining oil together.
-8. Fluff the couscous up with a fork, then stir in the aubergines, tomato mixture and lemon juice.
+1. Heat grill to high.
+2. Put the aubergine on a baking sheet, brush with oil and season.
+3. Grill for about 15 mins, turning and brushing with more oil halfway, until browned and softened.
+4. Meanwhile, tip the couscous into a large bowl, pour over the stock, then cover and leave for 10 mins.
+5. Mix the tomatoes, mint, goat’s cheese and remaining oil together.
+6. Fluff the couscous up with a fork, then stir in the aubergines, tomato mixture and lemon juice.
 
 ## Notes
 

@@ -28,12 +28,10 @@ Tom yum (hot & sour) soup with prawns from TheMealDB imported into the planner c
 
 ## Instructions
 
-1. step 1.
-2. Bring the stock to a boil in a medium-sized saucepan.
-3. Add the lemongrass, galangal, coriander roots and lime leaves, then simmer for 2 mins.
-4. step 2.
-5. Add the prawns, fish sauce, chillies and lime juice, then return to the boil.
-6. Taste and adjust the seasoning with either more lime juice or fish sauce, then garnish with coriander leaves and serve.
+1. Bring the stock to a boil in a medium-sized saucepan.
+2. Add the lemongrass, galangal, coriander roots and lime leaves, then simmer for 2 mins.
+3. Add the prawns, fish sauce, chillies and lime juice, then return to the boil.
+4. Taste and adjust the seasoning with either more lime juice or fish sauce, then garnish with coriander leaves and serve.
 
 ## Notes
 

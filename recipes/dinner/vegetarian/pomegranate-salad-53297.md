@@ -29,12 +29,10 @@ Pomegranate salad from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Combine the olive oil, lemon juice, honey and thyme leaves in a large bowl.
-3. Season well, then tip in the lettuce, tomatoes, spring onions and chilli, and toss to combine.
-4. step 2.
-5. Scoop out the pomegranate seeds over a bowl and remove any white membrane.
-6. Arrange the dressed salad on a platter, then scatter over the pomegranate seeds and feta.
+1. Combine the olive oil, lemon juice, honey and thyme leaves in a large bowl.
+2. Season well, then tip in the lettuce, tomatoes, spring onions and chilli, and toss to combine.
+3. Scoop out the pomegranate seeds over a bowl and remove any white membrane.
+4. Arrange the dressed salad on a platter, then scatter over the pomegranate seeds and feta.
 
 ## Notes
 

@@ -25,14 +25,12 @@ Sticky Chicken from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Make 3 slashes on each of the drumsticks.
-3. Mix together the soy, honey, oil, tomato purée and mustard.
-4. Pour this mixture over the chicken and coat thoroughly.
-5. Leave to marinate for 30 mins at room temperature or overnight in the fridge.
-6. Heat oven to 200C/fan 180C/gas 6.
-7. step 2.
-8. Tip the chicken into a shallow roasting tray and cook for 35 mins, turning occasionally, until the chicken is tender and glistening with the marinade.
+1. Make 3 slashes on each of the drumsticks.
+2. Mix together the soy, honey, oil, tomato purée and mustard.
+3. Pour this mixture over the chicken and coat thoroughly.
+4. Leave to marinate for 30 mins at room temperature or overnight in the fridge.
+5. Heat oven to 200C/fan 180C/gas 6.
+6. Tip the chicken into a shallow roasting tray and cook for 35 mins, turning occasionally, until the chicken is tender and glistening with the marinade.
 
 ## Notes
 

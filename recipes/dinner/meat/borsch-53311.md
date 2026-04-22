@@ -35,21 +35,17 @@ Borsch from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. To make the stock, put the meat, whole onion, bay leaf and 2 litres of lightly salted cold water in a large saucepan.
-3. Cook over a very low heat for 1 hr 30 mins or until the beef shin is soft and falls apart easily – this can take up to 3 hrs.
-4. Skim off the scum with a spoon from time to time.
-5. Break up any larger pieces of beef into the broth, remove the whole onion and discard.
-6. step 2.
-7. Add the potatoes to the borscht, season well with salt and pepper and cook for 10-15 mins until tender.
-8. Meanwhile, heat the sunflower oil in a large, deep frying pan.
-9. Add the diced onion and carrot, and cook over a medium heat, stirring, until the carrot is soft and is about to start caramelising.
-10. step 3.
-11. Add the beetroot and cook for around 5 mins, stirring occasionally.
-12. Add the red pepper, if using, and cook for another 2 mins, then add the tomatoes and prunes, stir, then increase the heat and boil to reduce slightly, before adding everything to the borscht.
-13. step 4.
-14. Add the shredded cabbage and the kidney beans, and cook for 7-10 mins or until tender.
-15. Serve with a dollop of sour cream or crème fraîche, lots of chopped dill and some crusty bread.
+1. To make the stock, put the meat, whole onion, bay leaf and 2 litres of lightly salted cold water in a large saucepan.
+2. Cook over a very low heat for 1 hr 30 mins or until the beef shin is soft and falls apart easily – this can take up to 3 hrs.
+3. Skim off the scum with a spoon from time to time.
+4. Break up any larger pieces of beef into the broth, remove the whole onion and discard.
+5. Add the potatoes to the borscht, season well with salt and pepper and cook for 10-15 mins until tender.
+6. Meanwhile, heat the sunflower oil in a large, deep frying pan.
+7. Add the diced onion and carrot, and cook over a medium heat, stirring, until the carrot is soft and is about to start caramelising.
+8. Add the beetroot and cook for around 5 mins, stirring occasionally.
+9. Add the red pepper, if using, and cook for another 2 mins, then add the tomatoes and prunes, stir, then increase the heat and boil to reduce slightly, before adding everything to the borscht.
+10. Add the shredded cabbage and the kidney beans, and cook for 7-10 mins or until tender.
+11. Serve with a dollop of sour cream or crème fraîche, lots of chopped dill and some crusty bread.
 
 ## Notes
 

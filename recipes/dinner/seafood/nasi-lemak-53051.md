@@ -40,30 +40,26 @@ Nasi lemak from TheMealDB imported into the planner collection.
 1. In a medium saucepan over medium heat, stir together coconut milk, water, ground ginger, ginger root, salt, bay leaf, and rice.
 2. Cover, and bring to a boil.
 3. Reduce heat, and simmer for 20 to 30 minutes, or until done.
-4. Step 2.
-5. Place eggs in a saucepan, and cover with cold water.
-6. Bring water to a boil, and immediately remove from heat.
-7. Cover, and let eggs stand in hot water for 10 to 12 minutes.
-8. Remove eggs from hot water, cool, peel and slice in half.
-9. Slice cucumber.
-10. Step 3.
-11. Meanwhile, in a large skillet or wok, heat 1 cup vegetable oil over medium-high heat.
-12. Stir in peanuts and cook briefly, until lightly browned.
-13. Remove peanuts with a slotted spoon and place on paper towels to soak up excess grease.
-14. Return skillet to stove.
-15. Stir in the contents of one package anchovies; cook briefly, turning, until crisp.
-16. Remove with a slotted spoon and place on paper towels.
-17. Discard oil.
-18. Wipe out skillet.
-19. Step 4.
-20. Heat 2 tablespoons oil in the skillet.
-21. Stir in the onion, garlic, and shallots; cook until fragrant, about 1 or 2 minutes.
-22. Mix in the chile paste, and cook for 10 minutes, stirring occasionally.
-23. If the chile paste is too dry, add a small amount of water.
-24. Stir in remaining anchovies; cook for 5 minutes.
-25. Stir in salt, sugar, and tamarind juice; simmer until sauce is thick, about 5 minutes.
-26. Step 5.
-27. Serve the onion and garlic sauce over the warm rice, and top with peanuts, fried anchovies, cucumbers, and eggs.
+4. Place eggs in a saucepan, and cover with cold water.
+5. Bring water to a boil, and immediately remove from heat.
+6. Cover, and let eggs stand in hot water for 10 to 12 minutes.
+7. Remove eggs from hot water, cool, peel and slice in half.
+8. Slice cucumber.
+9. Meanwhile, in a large skillet or wok, heat 1 cup vegetable oil over medium-high heat.
+10. Stir in peanuts and cook briefly, until lightly browned.
+11. Remove peanuts with a slotted spoon and place on paper towels to soak up excess grease.
+12. Return skillet to stove.
+13. Stir in the contents of one package anchovies; cook briefly, turning, until crisp.
+14. Remove with a slotted spoon and place on paper towels.
+15. Discard oil.
+16. Wipe out skillet.
+17. Heat 2 tablespoons oil in the skillet.
+18. Stir in the onion, garlic, and shallots; cook until fragrant, about 1 or 2 minutes.
+19. Mix in the chile paste, and cook for 10 minutes, stirring occasionally.
+20. If the chile paste is too dry, add a small amount of water.
+21. Stir in remaining anchovies; cook for 5 minutes.
+22. Stir in salt, sugar, and tamarind juice; simmer until sauce is thick, about 5 minutes.
+23. Serve the onion and garlic sauce over the warm rice, and top with peanuts, fried anchovies, cucumbers, and eggs.
 
 ## Notes
 

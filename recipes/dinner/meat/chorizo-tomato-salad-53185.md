@@ -25,13 +25,11 @@ Chorizo & tomato salad from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Put the tomatoes in a bowl with the onion and thyme.
-3. Season, then drizzle with the vinegar and oil.
-4. Let the flavours mingle while you cook the chorizo.
-5. step 2.
-6. In a hot, dry pan, fry the chorizo slices until browned on both sides.
-7. Serve the tomatoes with the fried chorizo, drizzled with a little oil from the pan.
+1. Put the tomatoes in a bowl with the onion and thyme.
+2. Season, then drizzle with the vinegar and oil.
+3. Let the flavours mingle while you cook the chorizo.
+4. In a hot, dry pan, fry the chorizo slices until browned on both sides.
+5. Serve the tomatoes with the fried chorizo, drizzled with a little oil from the pan.
 
 ## Notes
 

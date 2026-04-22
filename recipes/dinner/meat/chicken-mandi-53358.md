@@ -34,29 +34,21 @@ Chicken Mandi from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. 1.
-2. Clean and cut the chicken; marinate briefly with salt, turmeric and a little oil.
-3. 2.
-4. Rinse and soak basmati rice 20–30 minutes.
-5. 3.
-6. In a large pot, heat ghee/oil.
-7. Fry chopped onion until golden.
-8. Add minced garlic and green chillies and fry 1–2 min.
-9. 4.
-10. Add whole spices (cardamom, cloves, cinnamon, bay leaves) and ground spices (coriander, cumin).
-11. Stir until fragrant.
-12. 5.
-13. Add chicken pieces, brown lightly and add enough water/chicken stock to cover.
-14. Simmer until chicken is nearly cooked.
-15. 6.
-16. Remove chicken; measure remaining liquid and add soaked rice.
-17. Bring to a boil, then reduce heat, cover and cook rice until almost done.
-18. 7.
-19. Return the chicken to the rice pot on top, cover tightly and steam on low for 10–15 min so flavors meld.
-20. (Optional) For authentic smoky aroma: heat a small charcoal until red hot, place it on a small foil cup in the centre of the pot, add a tsp of butter/oil on the coal then cover immediately to trap smoke for 5–10 minutes.
-21. Remove coal.
-22. 9.
-23. Garnish with fried onions, chopped coriander and serve with chutney or raita.
+1. Clean and cut the chicken; marinate briefly with salt, turmeric and a little oil.
+2. Rinse and soak basmati rice 20–30 minutes.
+3. In a large pot, heat ghee/oil.
+4. Fry chopped onion until golden.
+5. Add minced garlic and green chillies and fry 1–2 min.
+6. Add whole spices (cardamom, cloves, cinnamon, bay leaves) and ground spices (coriander, cumin).
+7. Stir until fragrant.
+8. Add chicken pieces, brown lightly and add enough water/chicken stock to cover.
+9. Simmer until chicken is nearly cooked.
+10. Remove chicken; measure remaining liquid and add soaked rice.
+11. Bring to a boil, then reduce heat, cover and cook rice until almost done.
+12. Return the chicken to the rice pot on top, cover tightly and steam on low for 10–15 min so flavors meld.
+13. (Optional) For authentic smoky aroma: heat a small charcoal until red hot, place it on a small foil cup in the centre of the pot, add a tsp of butter/oil on the coal then cover immediately to trap smoke for 5–10 minutes.
+14. Remove coal.
+15. Garnish with fried onions, chopped coriander and serve with chutney or raita.
 
 ## Notes
 

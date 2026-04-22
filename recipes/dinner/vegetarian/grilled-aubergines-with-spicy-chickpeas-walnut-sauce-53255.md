@@ -32,19 +32,16 @@ Grilled aubergines with spicy chickpeas & walnut sauce from TheMealDB imported i
 
 ## Instructions
 
-1. step 1.
-2. Heat 2 tbsp oil in a pan, add the onion and fry until soft and lightly browned, about 10 mins.
-3. Add the chilli, ginger and spices and mix well.
-4. Stir in the chickpeas, tomatoes and 5 tbsp water, bring to the boil, then simmer for 10 mins.
-5. Add a little salt and pepper and the lemon juice.
-6. step 2.
-7. Arrange the aubergines over a grill pan.
-8. Brush lightly with oil, sprinkle with salt and pepper, then grill until golden.
-9. Flip them over, brush again with oil, season and grill again until tender and golden.
-10. step 3.
-11. Mix the yogurt with the garlic, most of the walnuts and coriander and a little salt and pepper.
-12. Arrange the aubergine slices over a warm platter and spoon over the chickpea mix.
-13. Drizzle with the walnut sauce and scatter with the remaining walnuts and coriander.
+1. Heat 2 tbsp oil in a pan, add the onion and fry until soft and lightly browned, about 10 mins.
+2. Add the chilli, ginger and spices and mix well.
+3. Stir in the chickpeas, tomatoes and 5 tbsp water, bring to the boil, then simmer for 10 mins.
+4. Add a little salt and pepper and the lemon juice.
+5. Arrange the aubergines over a grill pan.
+6. Brush lightly with oil, sprinkle with salt and pepper, then grill until golden.
+7. Flip them over, brush again with oil, season and grill again until tender and golden.
+8. Mix the yogurt with the garlic, most of the walnuts and coriander and a little salt and pepper.
+9. Arrange the aubergine slices over a warm platter and spoon over the chickpea mix.
+10. Drizzle with the walnut sauce and scatter with the remaining walnuts and coriander.
 
 ## Notes
 

@@ -35,20 +35,17 @@ Bigos (Polish hunter's stew) from TheMealDB imported into the planner collection
 
 ## Instructions
 
-1. step 1.
-2. Put the cabbage in a heavy casserole dish, add the stock and cook over a low heat for about 50 mins, until tender.
-3. step 2.
-4. Cut the soaked mushrooms into strips and save the soaking water.
-5. Heat the lard and fry the sausages and bacon, then scoop out, leaving the fat in the pan.
-6. Fry the onion in the same pan for 5-8 mins until lightly browned.
-7. step 3.
-8. Add the mushrooms and their liquid along with all the cooked meat, onions and prunes, then cover and cook for 20 mins.
-9. Add the spices, red wine and tomato purée and bring to a simmer, then cover and cook for 1 hr.
-10. Season well and leave to cool.
-11. Will keep covered and chilled for up to two days.
-12. Bigos improves in flavour over a couple of days.
-13. Leave to cool first.
-14. Reheat until piping hot before serving.
+1. Put the cabbage in a heavy casserole dish, add the stock and cook over a low heat for about 50 mins, until tender.
+2. Cut the soaked mushrooms into strips and save the soaking water.
+3. Heat the lard and fry the sausages and bacon, then scoop out, leaving the fat in the pan.
+4. Fry the onion in the same pan for 5-8 mins until lightly browned.
+5. Add the mushrooms and their liquid along with all the cooked meat, onions and prunes, then cover and cook for 20 mins.
+6. Add the spices, red wine and tomato purée and bring to a simmer, then cover and cook for 1 hr.
+7. Season well and leave to cool.
+8. Will keep covered and chilled for up to two days.
+9. Bigos improves in flavour over a couple of days.
+10. Leave to cool first.
+11. Reheat until piping hot before serving.
 
 ## Notes
 

@@ -49,16 +49,11 @@ Recheado Masala Fish from TheMealDB imported into the planner collection.
 14. Fry until golden brown from both sides.
 15. Serve the recheado mackerels hot with salad, lime wedges, rice and curry.
 16. Notes.
-17. 1.
-18. Ensure the masala paste is thick else the result won't be good.
-19. 2.
-20. If you aren't able to find kashmiri chilies then use bedgi chilies or kashmiri red chili powder.
-21. 3.
-22. You could use white vinegar or coconut vinegar.
-23. 4.
-24. Any left over paste could be stored in the fridge for future use.
-25. 5.
-26. Cinnamon could be avoided as it's a strong spice used generally for meat or chicken.
+17. Ensure the masala paste is thick else the result won't be good.
+18. If you aren't able to find kashmiri chilies then use bedgi chilies or kashmiri red chili powder.
+19. You could use white vinegar or coconut vinegar.
+20. Any left over paste could be stored in the fridge for future use.
+21. Cinnamon could be avoided as it's a strong spice used generally for meat or chicken.
 
 ## Notes
 

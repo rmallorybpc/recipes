@@ -24,16 +24,14 @@ Smoked aubergine purée from TheMealDB imported into the planner collection.
 
 ## Instructions
 
-1. step 1.
-2. Heat grill to very hot.
-3. Slice the aubergines in half lengthways, then grill for 25 mins, turning occasionally, until soft – the skin will remain firm, but the flesh will soften.
-4. Lift the aubergines off the grill and leave until cool enough to handle.
-5. step 2.
-6. Using a sharp knife, score the grilled flesh and scoop out the flesh with a spoon.
-7. Tip into a bowl and mash with a fork until you get a thick pulp.
-8. Beat in the lemon juice and garlic.
-9. Add the yogurt and dill, and season.
-10. Serve while still warm.
+1. Heat grill to very hot.
+2. Slice the aubergines in half lengthways, then grill for 25 mins, turning occasionally, until soft – the skin will remain firm, but the flesh will soften.
+3. Lift the aubergines off the grill and leave until cool enough to handle.
+4. Using a sharp knife, score the grilled flesh and scoop out the flesh with a spoon.
+5. Tip into a bowl and mash with a fork until you get a thick pulp.
+6. Beat in the lemon juice and garlic.
+7. Add the yogurt and dill, and season.
+8. Serve while still warm.
 
 ## Notes
 
