@@ -24,7 +24,7 @@ const repoRoot = join(__dirname, '..');
 
 // Use paid key if provided, otherwise fall back to free test key
 const API_KEY = process.env.MEALDB_API_KEY || '1';
-const BASE_URL = `https://www.themealdb.com/api/json/v1/${API_KEY}`;
+const BASE_URL = `https://www.themealdb.com/api/json/v2/${API_KEY}`;
 
 console.log(`Using API key: ${API_KEY === '1' ? 'free test key (1)' : 'paid key ****'}`);
 console.log(`Note: Free key returns limited results. Full database requires paid key.\n`);
