@@ -153,6 +153,8 @@ const RECIPES = [
   { name: "Suggested - Greek yogurt parfait", meal: "breakfast", style: "bowls" },
 ];
 
+let recipes = [...RECIPES];
+
 const mealFilter = document.querySelector("#mealFilter");
 const styleFilter = document.querySelector("#styleFilter");
 const queryFilter = document.querySelector("#queryFilter");
@@ -464,14 +466,76 @@ function makeEmptyMealPlan() {
   }, {});
 }
 
+function legacyRecipeId(recipeName, index) {
+  return `${toId(recipeName)}-${index}`;
+}
+
 function hydrateRecipeIds() {
-  RECIPES.forEach((recipe, index) => {
-    const id = `${toId(recipe.name)}-${index}`;
-    recipe.id = id;
-    recipesById.set(id, recipe);
+  recipesById.clear();
+
+  recipes.forEach((recipe, index) => {
+    if (!recipe.id) {
+      recipe.id = legacyRecipeId(recipe.name, index);
+    }
+
+    recipesById.set(recipe.id, recipe);
+
+    // Keep old localStorage plan entries working after switching from static IDs.
+    const oldId = legacyRecipeId(recipe.name, index);
+    if (!recipesById.has(oldId)) {
+      recipesById.set(oldId, recipe);
+    }
   });
 
   recipesById.set(ATE_OUT_RECIPE.id, ATE_OUT_RECIPE);
+}
+
+function toPlannerRecipe(item, index) {
+  if (!item || typeof item !== "object") {
+    return null;
+  }
+
+  const name = String(item.title || item.name || "").trim();
+  const meal = String(item.meal || "").trim().toLowerCase();
+  const style = String(item.style || "").trim().toLowerCase();
+
+  if (!name || !MEALS.some((entry) => entry.key === meal) || !style) {
+    return null;
+  }
+
+  const stableId = String(item.id || "").trim();
+  return {
+    id: stableId || legacyRecipeId(name, index),
+    name,
+    meal,
+    style,
+    source: item.source_url ? String(item.source_url) : undefined
+  };
+}
+
+async function loadRecipesFromDataset() {
+  try {
+    const response = await fetch("data/recipes-with-ingredients.json", { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const payload = await response.json();
+    const loaded = Array.isArray(payload?.recipes)
+      ? payload.recipes
+          .map((item, index) => toPlannerRecipe(item, index))
+          .filter(Boolean)
+      : [];
+
+    if (!loaded.length) {
+      throw new Error("Dataset contained no usable recipes");
+    }
+
+    recipes = loaded;
+  } catch (error) {
+    console.warn("Falling back to built-in recipe list.", error);
+    recipes = [...RECIPES];
+  }
 }
 
 function loadWeekPlan() {
@@ -591,7 +655,7 @@ function addMealsToPlannerGrid(meals) {
         return;
       }
 
-      const matchedRecipe = RECIPES.find((recipe) => {
+      const matchedRecipe = recipes.find((recipe) => {
         return String(recipe.name || "").trim().toLowerCase() === String(meal.title || "").trim().toLowerCase();
       });
 
@@ -1148,7 +1212,7 @@ function applyFilters() {
   const style = styleFilter.value;
   const query = queryFilter.value.trim().toLowerCase();
 
-  const filtered = RECIPES.filter((recipe) => {
+  const filtered = recipes.filter((recipe) => {
     const matchesMeal = meal === "all" || recipe.meal === meal;
     const matchesStyle = style === "all" || recipe.style === style;
     const haystack = `${recipe.name} ${recipe.meal} ${recipe.style}`.toLowerCase();
@@ -1215,23 +1279,29 @@ if (isTouchDevice) {
   ensureTouchPickerStyles();
 }
 
-hydrateRecipeIds();
-weekPlan = loadWeekPlan();
-loadBreakfastExpandedState();
-renderPlanner();
+async function initializePlanner() {
+  await loadRecipesFromDataset();
 
-const pendingPlannerMealsRaw = sessionStorage.getItem("recipes_add_to_planner");
-if (pendingPlannerMealsRaw) {
-  sessionStorage.removeItem("recipes_add_to_planner");
+  hydrateRecipeIds();
+  weekPlan = loadWeekPlan();
+  loadBreakfastExpandedState();
+  renderPlanner();
 
-  try {
-    const parsedMeals = JSON.parse(pendingPlannerMealsRaw);
-    const meals = Array.isArray(parsedMeals) ? parsedMeals : [parsedMeals];
-    addMealsToPlannerGrid(meals);
-    document.getElementById("plannerGrid")?.scrollIntoView({ behavior: "smooth", block: "start" });
-  } catch (error) {
-    console.error("Failed to parse pending planner meals from sessionStorage.", error);
+  const pendingPlannerMealsRaw = sessionStorage.getItem("recipes_add_to_planner");
+  if (pendingPlannerMealsRaw) {
+    sessionStorage.removeItem("recipes_add_to_planner");
+
+    try {
+      const parsedMeals = JSON.parse(pendingPlannerMealsRaw);
+      const meals = Array.isArray(parsedMeals) ? parsedMeals : [parsedMeals];
+      addMealsToPlannerGrid(meals);
+      document.getElementById("plannerGrid")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    } catch (error) {
+      console.error("Failed to parse pending planner meals from sessionStorage.", error);
+    }
   }
+
+  applyFilters();
 }
 
-applyFilters();
+initializePlanner();
