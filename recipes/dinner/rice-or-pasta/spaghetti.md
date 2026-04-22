@@ -6,29 +6,25 @@ protein: beef
 cuisine: italian
 time_minutes: 40
 servings: 6
-source_url: https://www.recipetineats.com/spaghetti-bolognese/
+source_url: https://www.themealdb.com/meal/52770
 keywords: family, kid-friendly, comfort, classic, weeknight
 summary: Classic spaghetti bolognese with a rich slow-simmered meat sauce. A family dinner staple.
 ---
 
 ## Ingredients
 
-- 1 lb spaghetti
-- 1 lb ground beef
-- 1/2 lb ground pork (optional)
-- 1 large onion, finely diced
-- 3 carrots, finely diced
-- 3 stalks celery, finely diced
-- 4 cloves garlic, minced
-- 1 can crushed tomatoes (28 oz)
-- 1/2 cup dry red wine
-- 1/2 cup whole milk
-- 2 tablespoons tomato paste
-- 2 tablespoons olive oil
-- 1 teaspoon dried basil
-- 1 teaspoon dried oregano
-- salt and pepper to taste
-- grated Parmesan cheese for serving
+- 2 onions
+- 1tbsp olive oil
+- 1 clove garlic
+- 500g lean minced beef
+- 90g mushrooms
+- 1tsp dried oregano
+- 400g can tomatoes
+- 300ml hot beef stock
+- 1tbsp tomato puree
+- 1tbsp worcestershire sauce
+- 350g spaghetti
+- Topping parmesan
 
 ## Instructions
 

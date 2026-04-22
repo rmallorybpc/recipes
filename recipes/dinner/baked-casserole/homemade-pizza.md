@@ -6,23 +6,21 @@ protein: none
 cuisine: italian
 time_minutes: 45
 servings: 4
-source_url: https://www.seriouseats.com/basic-new-york-style-pizza-dough
+source_url: https://www.themealdb.com/meal/53330
 keywords: family, kid-friendly, weekend, comfort, customizable
 summary: Homemade pizza with a crispy yeasted crust, tomato sauce, and melted mozzarella. Fully customizable with your favorite toppings.
 ---
 
 ## Ingredients
 
-- 3 cups all-purpose flour
-- 1 packet instant yeast (2 1/4 tsp)
-- 1 teaspoon sugar
-- 1 teaspoon salt
-- 1 tablespoon olive oil
-- 1 cup warm water
-- 1 cup pizza sauce or marinara
-- 2 cups shredded mozzarella cheese
-- 1/2 cup grated Parmesan cheese
-- toppings of choice: pepperoni, bell peppers, onion, mushrooms, olives
+- 6 cut thick slices Casabe
+- 450g Tomato Sauce
+- 225g Chorizo
+- 225g Turkey Ham
+- 75g Sweetcorn
+- 40g Green Olives
+- 55g Paprika
+- 50g Mozzarella
 
 ## Instructions
 

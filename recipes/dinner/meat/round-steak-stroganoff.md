@@ -6,27 +6,24 @@ protein: beef
 cuisine: american
 time_minutes: 40
 servings: 4
-source_url: https://www.allrecipes.com/recipe/11718/simple-beef-stroganoff/
+source_url: https://www.themealdb.com/meal/52834
 keywords: comfort, weeknight, creamy, hearty
 summary: Tender round steak in a creamy mushroom and sour cream sauce served over egg noodles.
 ---
 
 ## Ingredients
 
-- 1.5 lbs round steak, thinly sliced
-- 8 oz cremini mushrooms, sliced
-- 1 large onion, diced
-- 3 cloves garlic, minced
-- 2 cups beef broth
-- 1 cup sour cream
-- 2 tablespoons Worcestershire sauce
-- 2 tablespoons tomato paste
-- 2 tablespoons all-purpose flour
-- 2 tablespoons butter
-- 2 tablespoons olive oil
-- salt and pepper to taste
-- egg noodles for serving
-- fresh parsley for garnish
+- 1 tbls Olive Oil
+- 1 Onions
+- 1 clove Garlic
+- 1 tbsp Butter
+- 250g Mushrooms
+- 500g Beef Fillet
+- 1tbsp Plain Flour
+- 150g Creme Fraiche
+- 1 tbsp English Mustard
+- 100ml Beef Stock
+- Topping Parsley
 
 ## Instructions
 

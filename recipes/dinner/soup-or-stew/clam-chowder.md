@@ -6,27 +6,24 @@ protein: seafood
 cuisine: american
 time_minutes: 45
 servings: 6
-source_url: https://www.allrecipes.com/recipe/13109/new-england-clam-chowder-i/
+source_url: https://www.themealdb.com/meal/52840
 keywords: "comfort, winter, creamy, hearty"
 summary: "Rich and creamy New England-style clam chowder with tender potatoes, smoky bacon, and briny clams."
 ---
 
 ## Ingredients
 
-- 3 cans chopped clams (6.5 oz each), juice reserved
-- 4 slices bacon, diced
-- 3 medium potatoes, diced
-- 1 large onion, diced
-- 3 stalks celery, diced
-- 3 cloves garlic, minced
-- 2 cups heavy cream
-- 1 cup whole milk
-- 3 tablespoons butter
-- 3 tablespoons all-purpose flour
-- 1 teaspoon dried thyme
-- 2 bay leaves
-- salt and pepper to taste
-- oyster crackers for serving
+- 1½ kg Clams
+- 50g Butter
+- 150g Bacon
+- 1 finely chopped Onion
+- sprigs of fresh Thyme
+- 1 Bay Leaf
+- 1 tbls Plain Flour
+- 150ml Milk
+- 150ml Double Cream
+- 2 medium Potatoes
+- Chopped Parsley
 
 ## Instructions
 

@@ -6,25 +6,24 @@ protein: chicken
 cuisine: greek
 time_minutes: 20
 servings: 4
-source_url: https://www.allrecipes.com/recipe/21177/greek-salad/
+source_url: https://www.themealdb.com/meal/53011
 keywords: "fresh, mediterranean, healthy, summer"
 summary: "Chopped romaine with cucumber, tomato, red onion, olives, and feta topped with grilled or rotisserie chicken and Greek dressing."
 ---
 
 ## Ingredients
 
-- 2 grilled chicken breasts, sliced
-- 1 head romaine lettuce, chopped
-- 1 cucumber, diced
-- 2 cups cherry tomatoes, halved
-- 1/2 red onion, thinly sliced
-- 1/2 cup kalamata olives, pitted
-- 4 oz feta cheese, crumbled
-- 3 tablespoons olive oil
-- 2 tablespoons red wine vinegar
-- 1 teaspoon dried oregano
-- salt and pepper to taste
-- pita bread for serving
+- 225g Quinoa
+- 25g Butter
+- 1 chopped Red Chilli
+- 1 clove finely chopped Garlic
+- 400g Chicken Breast
+- 2 tbs Olive Oil
+- Handful Black Olives
+- 1 chopped Red Onions
+- 100g Feta
+- Chopped Mint
+- Juice of 1/2 Lemon
 
 ## Instructions
 

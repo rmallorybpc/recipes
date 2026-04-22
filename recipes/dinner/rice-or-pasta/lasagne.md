@@ -6,30 +6,28 @@ protein: beef
 cuisine: italian
 time_minutes: 60
 servings: 8
-source_url: https://www.recipetineats.com/the-best-lasagna/
+source_url: https://www.themealdb.com/meal/52844
 keywords: comfort, weekend, make-ahead, crowd-pleaser, family
 summary: Classic layered lasagna with meat sauce, ricotta, and mozzarella. A crowd-pleasing weekend project.
 ---
 
 ## Ingredients
 
-- 12 lasagne noodles
-- 1 lb ground beef
-- 1/2 lb Italian sausage
-- 1 large onion, diced
-- 4 cloves garlic, minced
-- 1 can crushed tomatoes (28 oz)
-- 1 can tomato sauce (15 oz)
-- 2 tablespoons tomato paste
-- 2 cups ricotta cheese
-- 2 eggs, beaten
-- 3 cups shredded mozzarella cheese
-- 1 cup grated Parmesan cheese
-- 2 tablespoons olive oil
-- 1 teaspoon dried basil
-- 1 teaspoon dried oregano
-- salt and pepper to taste
-- fresh basil for garnish
+- 1 tblsp Olive Oil
+- 2 Bacon
+- 1 finely chopped Onion
+- 1 Stick Celery
+- 1 medium Carrots
+- 2 cloves chopped Garlic
+- 500g Minced Beef
+- 1 tbls Tomato Puree
+- 800g Chopped Tomatoes
+- 1 tblsp Honey
+- 500g Lasagne Sheets
+- 400ml Creme Fraiche
+- 125g Mozzarella Balls
+- 50g Parmesan Cheese
+- Topping Basil Leaves
 
 ## Instructions
 

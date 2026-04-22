@@ -6,29 +6,28 @@ protein: none
 cuisine: asian
 time_minutes: 20
 servings: 4
-source_url: https://www.allrecipes.com/recipe/237310/cold-asian-noodle-salad/
+source_url: https://www.themealdb.com/meal/53203
 keywords: "vegetarian, meal-prep, cold, summer, fresh"
 summary: "Cold rice noodles with shredded cabbage, carrots, cucumber, and scallions in a sesame-ginger dressing. Great for meal prep."
 ---
 
 ## Ingredients
 
-- 8 oz rice noodles or soba noodles
-- 2 cups shredded purple cabbage
-- 1 cup shredded carrots
-- 1 cucumber, julienned
-- 1 red bell pepper, thinly sliced
-- 3 scallions, sliced
-- 1/4 cup fresh cilantro, chopped
-- 1/4 cup roasted peanuts
-- 3 tablespoons soy sauce
-- 2 tablespoons rice vinegar
-- 1 tablespoon sesame oil
-- 1 tablespoon honey
-- 1 tablespoon fresh ginger, grated
-- 2 cloves garlic, minced
-- 1 teaspoon sriracha
-- lime wedges for serving
+- 1/2 bag Vermicelli Rice Noodles
+- 200g Bean Sprouts
+- Zest and juice of 2 Lime
+- 2-3 tbsp Fish Sauce
+- 1 tsp Muscovado Sugar
+- 1 sliced Red Onions
+- 2 small Lettuce
+- 500g Minced Pork
+- Knob Ginger
+- Pinch Cayenne Pepper
+- 1 tsp Sunflower Oil
+- 2 tblsp Sesame Seed
+- 1 tsp Oil
+- 4 Sirloin steak
+- 1 sliced Red Chilli
 
 ## Instructions
 

@@ -6,27 +6,22 @@ protein: none
 cuisine: middle-eastern
 time_minutes: 30
 servings: 4
-source_url: https://www.allrecipes.com/recipe/267468/easy-shakshuka/
+source_url: https://www.themealdb.com/meal/52963
 keywords: "vegetarian, quick, one-pan, healthy, egg-based"
 summary: "Eggs poached in a spiced tomato and pepper sauce. A Middle Eastern classic that works for breakfast, brunch, or dinner."
 ---
 
 ## Ingredients
 
-- 6 large eggs
-- 1 can crushed tomatoes (28 oz)
-- 1 large onion, diced
-- 1 red bell pepper, diced
-- 4 cloves garlic, minced
-- 1 teaspoon cumin
-- 1 teaspoon smoked paprika
-- 1/2 teaspoon chili powder
-- 1/4 teaspoon cayenne pepper
-- 2 tablespoons olive oil
-- salt and pepper to taste
-- fresh parsley or cilantro for garnish
-- 1/4 cup feta cheese, crumbled (optional)
-- crusty bread or pita for serving
+- 1 tbs Olive Oil
+- 2 chopped Red Onions
+- 1 finely chopped Red Chilli
+- 1 clove Garlic
+- Chopped Coriander
+- 800g Cherry Tomatoes
+- 1 tbs Caster Sugar
+- 4 Eggs
+- Spinkling Feta
 
 ## Instructions
 

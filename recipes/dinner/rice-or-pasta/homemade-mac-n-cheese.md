@@ -6,25 +6,25 @@ protein: none
 cuisine: american
 time_minutes: 30
 servings: 6
-source_url: https://www.seriouseats.com/the-food-labs-ultra-gooey-stovetop-mac-and-cheese
+source_url: https://www.themealdb.com/meal/52818
 keywords: comfort, kid-friendly, vegetarian, family, classic
 summary: Ultra-creamy stovetop mac and cheese with sharp cheddar and Gruyere. Far superior to the box.
 ---
 
 ## Ingredients
 
-- 1 lb elbow macaroni
-- 3 cups sharp cheddar cheese, shredded
-- 1 cup Gruyere cheese, shredded
-- 3 cups whole milk
-- 3 tablespoons unsalted butter
-- 3 tablespoons all-purpose flour
-- 1 teaspoon Dijon mustard
-- 1/2 teaspoon smoked paprika
-- 1/4 teaspoon cayenne pepper
-- 1/2 teaspoon garlic powder
-- salt and pepper to taste
-- breadcrumbs and butter for topping (optional)
+- 500g macaroni
+- 2 cups chicken stock
+- 1/2 cup heavy cream
+- 1 packet fajita seasoning
+- 1 tsp salt
+- 3 diced chicken breast
+- 2 tbsp olive oil
+- 1 small finely diced onion
+- 2 finely diced red pepper
+- 2 cloves minced garlic
+- 1 cup cheddar cheese
+- garnish chopped parsley
 
 ## Instructions
 

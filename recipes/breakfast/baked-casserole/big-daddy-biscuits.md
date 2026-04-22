@@ -6,19 +6,20 @@ protein: none
 cuisine: american
 time_minutes: 20
 servings: 8
-source_url: https://www.allrecipes.com/recipe/7040/jps-big-daddy-biscuits/
+source_url: https://www.themealdb.com/meal/53111
 keywords: quick, kid-friendly, comfort, weekend
 summary: Large fluffy buttermilk biscuits that rise tall and bake golden. A Southern comfort classic.
 ---
 
 ## Ingredients
 
-- 2 cups all-purpose flour
-- 1 tablespoon baking powder
-- 1 teaspoon salt
-- 1 tablespoon white sugar
-- 1/3 cup butter, cubed and cold
-- 1 cup milk
+- 85g Porridge oats
+- 85g Desiccated Coconut
+- 100g Plain Flour
+- 100g Caster Sugar
+- 100g Butter
+- 1 tblsp Golden Syrup
+- 1 teaspoon Bicarbonate Of Soda
 
 ## Instructions
 

@@ -6,24 +6,23 @@ protein: pork
 cuisine: american
 time_minutes: 25
 servings: 4
-source_url: https://www.seriouseats.com/pan-seared-pork-chops-with-herb-pan-sauce
+source_url: https://www.themealdb.com/meal/52994
 keywords: quick, weeknight, comfort, easy
 summary: Pan-seared bone-in pork chops with a garlic herb pan sauce. Ready in 25 minutes.
 ---
 
 ## Ingredients
 
-- 4 bone-in pork chops (3/4 to 1 inch thick)
-- 4 cloves garlic, minced
-- 3 sprigs fresh rosemary or thyme
-- 2 tablespoons butter
-- 2 tablespoons olive oil
-- 1/2 cup chicken broth
-- 1 tablespoon Dijon mustard
-- 1 teaspoon smoked paprika
-- 1 teaspoon garlic powder
-- salt and pepper to taste
-- lemon wedges for serving
+- 2 Potatoes
+- 1 Apples
+- 2 cloves Garlic
+- 1 Lemon
+- 2 Pork
+- 1 Zucchini
+- 1 Chicken Stock
+- 1 tbsp Vegetable Oil
+- 1 1/2 tsp Sugar
+- 2 tbsp Butter
 
 ## Instructions
 

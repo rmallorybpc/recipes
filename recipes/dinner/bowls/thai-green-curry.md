@@ -6,26 +6,25 @@ protein: chicken
 cuisine: thai
 time_minutes: 35
 servings: 4
-source_url: https://www.allrecipes.com/recipe/222412/thai-green-curry/
+source_url: https://www.themealdb.com/meal/52814
 keywords: "thai, asian, coconut, quick, weeknight"
 summary: "Tender chicken and vegetables in a fragrant coconut milk green curry sauce. Serve over jasmine rice with fresh Thai basil."
 ---
 
 ## Ingredients
 
-- 1.5 lbs boneless skinless chicken thighs or tofu, cubed
-- 2 cans coconut milk (13.5 oz each)
-- 3 tablespoons green curry paste
-- 2 cups vegetables (zucchini, bell peppers, snap peas)
-- 1 large onion, sliced
-- 3 cloves garlic, minced
-- 1 tablespoon fresh ginger, grated
-- 1 tablespoon fish sauce or soy sauce
-- 1 tablespoon brown sugar
-- 1 tablespoon vegetable oil
-- juice of 1 lime
-- fresh basil and cilantro for garnish
-- jasmine rice for serving
+- 225g new Potatoes
+- 100g green beans
+- 1 tbsp sunflower oil
+- 1 clove garlic
+- 4 tsp Thai green curry paste
+- 400ml coconut milk
+- 2 tsp Thai fish sauce
+- 1 tsp Sugar
+- 450g boneless Chicken
+- 2 fresh kaffir leaves lime
+- handfull basil
+- Boiled Rice
 
 ## Instructions
 

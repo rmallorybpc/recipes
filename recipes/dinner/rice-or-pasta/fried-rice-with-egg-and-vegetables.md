@@ -6,25 +6,27 @@ protein: none
 cuisine: asian
 time_minutes: 15
 servings: 4
-source_url: https://www.allrecipes.com/recipe/16954/fried-rice/
+source_url: https://www.themealdb.com/meal/53367
 keywords: "vegetarian, quick, pantry, leftover-rice, kid-friendly"
 summary: "Day-old rice stir-fried with eggs, soy sauce, and whatever vegetables are in the fridge. Ready in 15 minutes."
 ---
 
 ## Ingredients
 
-- 3 cups cooked white rice, day-old preferred
-- 3 eggs, beaten
-- 1 cup frozen peas and carrots, thawed
-- 1 cup corn kernels
-- 3 scallions, sliced
-- 3 cloves garlic, minced
-- 1 tablespoon fresh ginger, grated
-- 3 tablespoons soy sauce
-- 1 tablespoon sesame oil
-- 2 tablespoons vegetable oil
-- salt and pepper to taste
-- sesame seeds for garnish
+- 1 lb Chicken Thighs
+- 1 tsp Salt
+- 3  tablespoons Canola Oil
+- 3 Large Egg
+- 2/3 Cup Onion
+- 2 cloves minced Garlic
+- 2 tsp Ground Ginger
+- 1 large Carrots
+- 2/3 Cup Peas
+- 4 cups Jasmine Rice
+- 2 sliced Scallions
+- 1/2 tsp Chinese five spice powder
+- 2.5 tbsp Soy Sauce
+- 1 tsp Sesame Seed Oil
 
 ## Instructions
 

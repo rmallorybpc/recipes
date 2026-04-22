@@ -6,23 +6,20 @@ protein: none
 cuisine: american
 time_minutes: 20
 servings: 4
-source_url: https://www.allrecipes.com/recipe/228285/banana-oat-pancakes/
+source_url: https://www.themealdb.com/meal/52855
 keywords: "healthy, kid-friendly, gluten-free-option, quick, weekend"
 summary: "Fluffy pancakes made with mashed banana and oats. Naturally sweetened and more filling than standard pancakes."
 ---
 
 ## Ingredients
 
-- 2 ripe bananas, mashed
-- 1 cup rolled oats
-- 2 eggs
-- 1/4 cup milk
-- 1 teaspoon vanilla extract
-- 1 teaspoon baking powder
-- 1/2 teaspoon cinnamon
-- 1/4 teaspoon salt
-- butter or coconut oil for cooking
-- maple syrup and fresh fruit for serving
+- 1 large Banana
+- 2 medium Eggs
+- pinch Baking Powder
+- spinkling Vanilla Extract
+- 1 tsp Oil
+- 25g Pecan Nuts
+- 125g Raspberries
 
 ## Instructions
 

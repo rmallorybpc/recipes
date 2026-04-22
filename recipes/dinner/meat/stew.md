@@ -6,29 +6,26 @@ protein: beef
 cuisine: american
 time_minutes: 60
 servings: 6
-source_url: https://www.seriouseats.com/old-fashioned-beef-stew
+source_url: https://www.themealdb.com/meal/53211
 keywords: comfort, winter, hearty, slow-cook, meal-prep
 summary: Old-fashioned beef stew with tender chunks of chuck, carrots, potatoes, and celery in a rich broth.
 ---
 
 ## Ingredients
 
-- 2 lbs beef chuck, cut into 2-inch cubes
-- 1 large onion, diced
-- 4 carrots, cut into 1-inch pieces
-- 4 stalks celery, cut into 1-inch pieces
-- 3 medium potatoes, cut into 2-inch cubes
-- 4 cloves garlic, minced
-- 2 tablespoons tomato paste
-- 3 cups beef broth
-- 1 cup dry red wine
-- 2 tablespoons Worcestershire sauce
-- 2 sprigs fresh thyme
-- 2 bay leaves
-- 3 tablespoons all-purpose flour
-- 3 tablespoons olive oil
-- salt and pepper to taste
-- fresh parsley for garnish
+- 1 tablespoon chopped Ginger
+- 2 chopped Garlic Clove
+- 3 Lemongrass Stalks
+- 2 tblsp Coriander Leaves
+- 2 sliced Red Chilli
+- 2 tblsp Vegetable Oil
+- 250g Beef
+- 2 tblsp Soy Sauce
+- 1 tsp Five Spice Powder
+- 1 tsp Brown Sugar
+- 400ml Beef Stock
+- 100g Rice Noodles
+- To serve Lime
 
 ## Instructions
 

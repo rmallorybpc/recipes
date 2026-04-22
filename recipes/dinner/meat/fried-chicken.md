@@ -6,24 +6,30 @@ protein: chicken
 cuisine: american
 time_minutes: 50
 servings: 4
-source_url: https://www.seriouseats.com/the-food-labs-buttermilk-fried-chicken
+source_url: https://www.themealdb.com/meal/52813
 keywords: comfort, weekend, crispy, southern, family
 summary: Crispy buttermilk-marinated fried chicken with a deeply seasoned crust. A Southern comfort food classic.
 ---
 
 ## Ingredients
 
-- 3-4 lbs chicken pieces (thighs, drumsticks, breasts)
-- 2 cups buttermilk
-- 2 cups all-purpose flour
-- 1 tablespoon garlic powder
-- 1 tablespoon onion powder
-- 1 tablespoon smoked paprika
-- 1 tablespoon salt
+- 1 whole Chicken
+- 2 quarts neutral frying Oil
+- 1 Egg White
+- 1 1/2 cups Flour
+- 1 tablespoon Brown Sugar
+- 1 tablespoon Salt
+- 1 tablespoon paprika
+- 2 teaspoons onion salt
+- 1 teaspoon chili powder
 - 1 teaspoon black pepper
-- 1 teaspoon cayenne pepper
-- 1 teaspoon dried oregano
-- vegetable oil for frying
+- 1/2 teaspoon celery salt
+- 1/2 teaspoon sage
+- 1/2 teaspoon garlic powder
+- 1/2 teaspoon allspice
+- 1/2 teaspoon oregano
+- 1/2 teaspoon basil
+- 1/2 teaspoon marjoram
 
 ## Instructions
 

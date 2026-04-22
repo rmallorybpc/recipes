@@ -6,28 +6,25 @@ protein: fish
 cuisine: mexican
 time_minutes: 25
 servings: 4
-source_url: https://www.allrecipes.com/recipe/228285/fish-tacos/
+source_url: https://www.themealdb.com/meal/52819
 keywords: "fresh, quick, coastal, summer"
 summary: "Crispy pan-fried white fish in corn tortillas with tangy cabbage slaw and a chipotle crema."
 ---
 
 ## Ingredients
 
-- 1.5 lbs white fish fillets (cod, tilapia, or mahi mahi)
-- 8 small corn or flour tortillas
-- 2 cups shredded cabbage
-- 1 mango, diced
-- 1 jalapeno, minced
-- 1/4 cup fresh cilantro, chopped
-- 3 tablespoons lime juice
-- 2 tablespoons mayonnaise
-- 1 tablespoon sour cream
-- 1 teaspoon cumin
-- 1 teaspoon chili powder
-- 1 teaspoon smoked paprika
-- 2 tablespoons olive oil
-- salt and pepper to taste
-- avocado slices for serving
+- 2 tbsp cajun
+- 1 tsp cayenne pepper
+- 4 fillets white fish
+- 1 tsp vegetable oil
+- 8 flour tortilla
+- 1 sliced avocado
+- 2 shredded little gem lettuce
+- 4 shredded Spring Onions
+- 1 x 300ml salsa
+- 1 pot sour cream
+- 1 lemon
+- 1 clove finely chopped garlic
 
 ## Instructions
 

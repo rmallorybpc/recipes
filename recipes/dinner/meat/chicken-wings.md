@@ -6,23 +6,19 @@ protein: chicken
 cuisine: american
 time_minutes: 50
 servings: 4
-source_url: https://www.seriouseats.com/the-best-buffalo-wings-recipe
+source_url: https://www.themealdb.com/meal/53261
 keywords: game-day, crowd-pleaser, crispy, comfort, party
 summary: Crispy oven-baked chicken wings tossed in classic Buffalo hot sauce. Game day essential.
 ---
 
 ## Ingredients
 
-- 3 lbs chicken wings, split at joints tips discarded
-- 1/2 cup hot sauce (Frank's RedHot preferred)
-- 4 tablespoons unsalted butter, melted
-- 1 teaspoon garlic powder
-- 1 teaspoon onion powder
-- 1 teaspoon smoked paprika
-- 1 tablespoon baking powder
-- 1 teaspoon salt
-- 1/2 teaspoon black pepper
-- celery sticks and blue cheese or ranch dressing for serving
+- 12 Chicken Wings
+- 2 cloves minced Garlic
+- Zest and juice of 1 Lemon
+- 1 tsp Cumin Seeds
+- 2 tablespoons Olive Oil
+- 1 tablespoon Honey
 
 ## Instructions
 

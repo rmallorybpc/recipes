@@ -6,25 +6,30 @@ protein: beef
 cuisine: vietnamese
 time_minutes: 45
 servings: 4
-source_url: https://www.allrecipes.com/recipe/228720/authentic-pho/
+source_url: https://www.themealdb.com/meal/53238
 keywords: "asian, vietnamese, warming, noodles, weekend"
 summary: "A simplified home version of Vietnamese beef pho with fragrant star anise broth, rice noodles, thin sliced beef, and fresh herbs."
 ---
 
 ## Ingredients
 
-- 8 cups beef broth
-- 1 lb beef sirloin or brisket, thinly sliced
-- 8 oz flat rice noodles
-- 1 large onion, halved
-- 3 inch piece ginger, halved
-- 3 star anise
-- 2 cinnamon sticks
-- 4 cloves
-- 2 tablespoons fish sauce
-- 1 tablespoon sugar
-- bean sprouts, fresh basil, lime, jalapeño, and hoisin sauce for serving
-- sriracha for serving
+- 1 L Beef Stock
+- 1 large Onion
+- 1 Large Chopped Ginger
+- 1 Cinnamon Stick
+- 2 Star Anise
+- 1 tsp Coriander Seeds
+- 1/2 teaspoon Cloves
+- 225g Sirloin steak
+- 1 tsp Palm Sugar
+- 1 tablespoon Fish Sauce
+- 1 ½ tbsp Soy Sauce
+- 200g Rice Noodles
+- 2 sliced Spring Onions
+- 1 small Birds-eye Chillies
+- Handful Basil
+- Handful Coriander
+- 1 Lime
 
 ## Instructions
 

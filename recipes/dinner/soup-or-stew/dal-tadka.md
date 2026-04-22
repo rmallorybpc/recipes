@@ -6,29 +6,29 @@ protein: none
 cuisine: indian
 time_minutes: 40
 servings: 4
-source_url: https://www.allrecipes.com/recipe/228285/dal-tadka/
+source_url: https://www.themealdb.com/meal/52785
 keywords: "vegetarian, vegan, indian, healthy, budget, high-protein"
 summary: "Yellow lentils simmered with tomato, ginger, and turmeric finished with a sizzling tempered oil of cumin, garlic, and dried chilies."
 ---
 
 ## Ingredients
 
-- 1.5 cups red or yellow lentils, rinsed
-- 4 cups water or vegetable broth
-- 1 large onion, diced
-- 3 tomatoes, diced
-- 4 cloves garlic, minced
-- 1 tablespoon fresh ginger, grated
-- 1 teaspoon cumin seeds
-- 1 teaspoon turmeric
-- 1 teaspoon garam masala
-- 1/2 teaspoon coriander
-- 1/2 teaspoon red chili powder
-- 2 tablespoons ghee or butter
-- 2 tablespoons vegetable oil
-- salt to taste
-- fresh cilantro for garnish
-- basmati rice or naan for serving
+- 1 cup Toor dal
+- 2-1/2 cups Water
+- 1 tsp Salt
+- 1/4 tsp Turmeric
+- 3 tbs Ghee
+- 1 cup Chopped tomatoes
+- 1/2 tsp Cumin seeds
+- 1/2 tsp Mustard Seeds
+- 2 Bay Leaf
+- 1 tbs chopped Green Chilli
+- 2 tsp shredded Ginger
+- 2 tbs Cilantro
+- 1/2 tsp Red Pepper
+- 1/2 tsp Salt
+- 1 tsp Sugar
+- 1/4 tsp Garam Masala
 
 ## Instructions
 

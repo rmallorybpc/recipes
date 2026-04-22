@@ -6,26 +6,26 @@ protein: none
 cuisine: american
 time_minutes: 35
 servings: 4
-source_url: https://www.seriouseats.com/cream-of-tomato-soup-from-scratch
+source_url: https://www.themealdb.com/meal/52841
 keywords: comfort, vegetarian, classic, quick, kid-friendly
 summary: Silky roasted tomato soup paired with buttery grilled cheese sandwiches. The ultimate comfort food combination.
 ---
 
 ## Ingredients
 
-- 2 cans whole peeled tomatoes (28 oz each)
-- 1 large onion, diced
-- 4 cloves garlic, minced
-- 2 cups chicken or vegetable broth
-- 1/2 cup heavy cream
-- 2 tablespoons unsalted butter
-- 1 tablespoon olive oil
-- 1 teaspoon sugar
-- 1/2 teaspoon dried basil
-- salt and pepper to taste
-- 8 slices thick-cut bread (sourdough preferred)
-- 8 slices cheddar or Gruyere cheese
-- 4 tablespoons butter, softened
+- 3 tbsp Olive Oil
+- 2 chopped Onions
+- 2 sticks Celery
+- 300g Carrots
+- 500g Potatoes
+- 4 Bay Leaf
+- 5 tblsp Tomato Puree
+- 2 tblsp Sugar
+- 2 tblsp White Vinegar
+- 1½ kg Chopped Tomatoes
+- 500g Passata
+- 3 Vegetable Stock Cube
+- 400ml Whole Milk
 
 ## Instructions
 

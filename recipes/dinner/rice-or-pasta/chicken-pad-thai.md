@@ -6,27 +6,26 @@ protein: chicken
 cuisine: thai
 time_minutes: 30
 servings: 4
-source_url: https://www.allrecipes.com/recipe/66664/chicken-pad-thai/
+source_url: https://www.themealdb.com/meal/53191
 keywords: "asian, thai, weeknight, noodles, quick"
 summary: "Rice noodles stir-fried with chicken, egg, bean sprouts, and a tangy tamarind-based sauce topped with peanuts and lime."
 ---
 
 ## Ingredients
 
-- 8 oz flat rice noodles
-- 1 lb boneless skinless chicken breasts, thinly sliced
-- 2 eggs, lightly beaten
-- 1 cup bean sprouts
-- 3 scallions, sliced
-- 1/4 cup roasted peanuts, chopped
-- 3 cloves garlic, minced
-- 3 tablespoons fish sauce
-- 2 tablespoons tamarind paste
-- 2 tablespoons brown sugar
-- 1 tablespoon soy sauce
-- 1 teaspoon sriracha
-- 2 tablespoons vegetable oil
-- lime wedges and fresh cilantro for serving
+- 125g Rice Noodles
+- Juice of 3 Lime
+- 1/2 teaspoon Cayenne Pepper
+- 2 teaspoons Muscovado Sugar
+- 2 tablespoons Fish Sauce
+- 2 tablespoons Vegetable Oil
+- 200g Tiger Prawns
+- 4 finely sliced Spring Onions
+- 140g Bean Sprouts
+- 25g Peanuts
+- Handful Coriander
+- 2 Lime
+- To serve sweet chilli sauce
 
 ## Instructions
 

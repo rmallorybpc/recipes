@@ -6,25 +6,20 @@ protein: salmon
 cuisine: american
 time_minutes: 30
 servings: 4
-source_url: https://www.allrecipes.com/recipe/228285/baked-salmon-with-garlic-and-dijon/
+source_url: https://www.themealdb.com/meal/52959
 keywords: "healthy, spring, one-pan, quick, fresh"
 summary: "Sheet pan salmon and asparagus roasted together with lemon, garlic, and herbs. One pan, minimal cleanup, ready in 30 minutes."
 ---
 
 ## Ingredients
 
-- 4 salmon fillets (6 oz each)
-- 1 lb asparagus, trimmed
-- 3 cloves garlic, minced
-- 2 tablespoons Dijon mustard
-- 2 tablespoons honey
-- 2 tablespoons soy sauce
-- 2 tablespoons olive oil
-- juice of 1 lemon
-- 1 teaspoon smoked paprika
-- 1 teaspoon dried thyme
-- salt and pepper to taste
-- lemon slices for serving
+- 2 medium Fennel
+- 2 tbs chopped Parsley
+- Juice of 1 Lemon
+- 175g Cherry Tomatoes
+- 1 tbs Olive Oil
+- 350g Salmon
+- to serve Black Olives
 
 ## Instructions
 
