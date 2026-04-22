@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-21T20:58:27.165Z",
-  "total_ingredients": 484,
+  "generated_at": "2026-04-22T14:49:38.252Z",
+  "total_ingredients": 576,
   "entries": [
     {
       "ingredient": "- g dried egg noodles per person",
@@ -29,25 +29,19 @@
     {
       "ingredient": "all-purpose flour",
       "recipe_ids": [
-        "breakfast-baked-casserole-big-daddy-biscuits",
         "breakfast-baked-casserole-pineapple-zucchini-muffin",
-        "dinner-baked-casserole-homemade-pizza",
         "dinner-baked-casserole-suggested-eggplant-parmesan",
         "dinner-meat-chicken-parm",
-        "dinner-meat-fried-chicken",
-        "dinner-meat-round-steak-stroganoff",
-        "dinner-meat-stew",
         "dinner-meat-suggested-japanese-chicken-katsu",
         "dinner-rice-or-pasta-hamburger-stroganoff",
-        "dinner-rice-or-pasta-homemade-mac-n-cheese",
         "dinner-soup-or-stew-cheddar-broccoli-soup",
-        "dinner-soup-or-stew-chicken-wild-rice-soup",
-        "dinner-soup-or-stew-suggested-clam-chowder"
+        "dinner-soup-or-stew-chicken-wild-rice-soup"
       ]
     },
     {
       "ingredient": "allspice",
       "recipe_ids": [
+        "dinner-meat-fried-chicken",
         "dinner-meat-suggested-lamb-kofta-with-tzatziki"
       ]
     },
@@ -64,6 +58,12 @@
       ]
     },
     {
+      "ingredient": "apples",
+      "recipe_ids": [
+        "dinner-meat-pork-chops"
+      ]
+    },
+    {
       "ingredient": "applesauce",
       "recipe_ids": [
         "breakfast-baked-casserole-pineapple-zucchini-muffin"
@@ -76,22 +76,16 @@
       ]
     },
     {
-      "ingredient": "asparagus trimmed",
-      "recipe_ids": [
-        "dinner-seafood-suggested-baked-salmon-with-asparagus"
-      ]
-    },
-    {
       "ingredient": "avocado",
       "recipe_ids": [
         "dinner-bowls-salmon-veggie-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls"
+        "dinner-bowls-suggested-teriyaki-salmon-bowls",
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
       ]
     },
     {
       "ingredient": "avocado slices",
       "recipe_ids": [
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw"
       ]
     },
@@ -116,13 +110,22 @@
       ]
     },
     {
+      "ingredient": "bacon",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "bag vermicelli rice noodles",
+      "recipe_ids": [
+        "lunch-bowls-suggested-asian-noodle-salad"
+      ]
+    },
+    {
       "ingredient": "baking powder",
       "recipe_ids": [
-        "breakfast-baked-casserole-big-daddy-biscuits",
         "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
-        "breakfast-baked-casserole-pineapple-zucchini-muffin",
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes",
-        "dinner-meat-chicken-wings"
+        "breakfast-baked-casserole-pineapple-zucchini-muffin"
       ]
     },
     {
@@ -146,9 +149,9 @@
       ]
     },
     {
-      "ingredient": "basil and cilantro for garnish",
+      "ingredient": "basil",
       "recipe_ids": [
-        "dinner-bowls-suggested-thai-green-curry"
+        "dinner-meat-fried-chicken"
       ]
     },
     {
@@ -156,7 +159,6 @@
       "recipe_ids": [
         "dinner-baked-casserole-suggested-eggplant-parmesan",
         "dinner-meat-chicken-parm",
-        "dinner-rice-or-pasta-lasagne",
         "dinner-rice-or-pasta-penne-lasagne",
         "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne"
@@ -204,22 +206,22 @@
       "ingredient": "basmati rice or naan",
       "recipe_ids": [
         "dinner-bowls-suggested-vegetable-curry",
-        "dinner-soup-or-stew-suggested-dal-tadka",
         "dinner-vegetarian-suggested-saag-paneer"
       ]
     },
     {
       "ingredient": "bay leaf",
       "recipe_ids": [
-        "dinner-soup-or-stew-chicken-wild-rice-soup"
+        "dinner-soup-or-stew-chicken-wild-rice-soup",
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
+        "dinner-soup-or-stew-suggested-clam-chowder",
+        "dinner-soup-or-stew-suggested-dal-tadka"
       ]
     },
     {
       "ingredient": "bay leaves",
       "recipe_ids": [
-        "dinner-meat-braised-short-ribs",
-        "dinner-meat-stew",
-        "dinner-soup-or-stew-suggested-clam-chowder"
+        "dinner-meat-braised-short-ribs"
       ]
     },
     {
@@ -229,48 +231,17 @@
       ]
     },
     {
-      "ingredient": "bean sprouts",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
-      ]
-    },
-    {
-      "ingredient": "bean sprouts basil lime jalape o and hoisin sauce",
-      "recipe_ids": [
-        "dinner-soup-or-stew-suggested-vietnamese-pho"
-      ]
-    },
-    {
-      "ingredient": "beef bouillon cubes",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-spaghetti"
-      ]
-    },
-    {
       "ingredient": "beef broth",
       "recipe_ids": [
         "dinner-meat-braised-short-ribs",
-        "dinner-meat-chili",
+        "dinner-meat-chili"
+      ]
+    },
+    {
+      "ingredient": "beef stock",
+      "recipe_ids": [
         "dinner-meat-round-steak-stroganoff",
         "dinner-meat-stew",
-        "dinner-soup-or-stew-suggested-vietnamese-pho"
-      ]
-    },
-    {
-      "ingredient": "beef chuck cut into -inch cubes",
-      "recipe_ids": [
-        "dinner-meat-stew"
-      ]
-    },
-    {
-      "ingredient": "beef or chicken broth",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
-      ]
-    },
-    {
-      "ingredient": "beef sirloin or brisket thinly",
-      "recipe_ids": [
         "dinner-soup-or-stew-suggested-vietnamese-pho"
       ]
     },
@@ -283,13 +254,23 @@
       ]
     },
     {
+      "ingredient": "bicarbonate of soda",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits"
+      ]
+    },
+    {
       "ingredient": "black pepper",
       "recipe_ids": [
         "dinner-meat-bbq-in-crockpot",
-        "dinner-meat-chicken-wings",
         "dinner-meat-fried-chicken",
-        "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
-        "dinner-rice-or-pasta-spaghetti"
+        "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf"
+      ]
+    },
+    {
+      "ingredient": "boiled rice",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry"
       ]
     },
     {
@@ -302,12 +283,6 @@
       "ingredient": "bone-in beef short ribs",
       "recipe_ids": [
         "dinner-meat-braised-short-ribs"
-      ]
-    },
-    {
-      "ingredient": "bone-in pork chops",
-      "recipe_ids": [
-        "dinner-meat-pork-chops"
       ]
     },
     {
@@ -359,12 +334,6 @@
       ]
     },
     {
-      "ingredient": "boneless skinless chicken breasts thinly",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
-      ]
-    },
-    {
       "ingredient": "boneless skinless chicken thighs",
       "recipe_ids": [
         "dinner-bowls-chipotle-bowls"
@@ -377,22 +346,9 @@
       ]
     },
     {
-      "ingredient": "boneless skinless chicken thighs or tofu cubed",
-      "recipe_ids": [
-        "dinner-bowls-suggested-thai-green-curry"
-      ]
-    },
-    {
       "ingredient": "breadcrumbs",
       "recipe_ids": [
-        "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
-      ]
-    },
-    {
-      "ingredient": "breadcrumbs and butter for topping",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-homemade-mac-n-cheese"
+        "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf"
       ]
     },
     {
@@ -416,10 +372,10 @@
       "ingredient": "brown sugar",
       "recipe_ids": [
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
-        "dinner-bowls-suggested-thai-green-curry",
         "dinner-meat-bbq-in-crockpot",
         "dinner-meat-beef-and-broccoli",
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
+        "dinner-meat-fried-chicken",
+        "dinner-meat-stew",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles"
       ]
     },
@@ -436,26 +392,13 @@
         "dinner-rice-or-pasta-suggested-mushroom-risotto",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
-        "dinner-soup-or-stew-suggested-butternut-squash-soup",
-        "dinner-soup-or-stew-suggested-clam-chowder"
-      ]
-    },
-    {
-      "ingredient": "butter cubed and cold",
-      "recipe_ids": [
-        "breakfast-baked-casserole-big-daddy-biscuits"
+        "dinner-soup-or-stew-suggested-butternut-squash-soup"
       ]
     },
     {
       "ingredient": "butter melted",
       "recipe_ids": [
         "dinner-baked-casserole-suggested-spanakopita"
-      ]
-    },
-    {
-      "ingredient": "butter or coconut oil for cooking",
-      "recipe_ids": [
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
       ]
     },
     {
@@ -471,15 +414,9 @@
       ]
     },
     {
-      "ingredient": "butter softened",
+      "ingredient": "cajun",
       "recipe_ids": [
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
-      ]
-    },
-    {
-      "ingredient": "buttermilk",
-      "recipe_ids": [
-        "dinner-meat-fried-chicken"
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
       ]
     },
     {
@@ -507,9 +444,7 @@
         "dinner-bowls-suggested-vegetable-curry",
         "dinner-handheld-suggested-sausage-and-peppers",
         "dinner-meat-suggested-butter-chicken",
-        "dinner-rice-or-pasta-lasagne",
-        "dinner-rice-or-pasta-penne-lasagne",
-        "dinner-vegetarian-suggested-shakshuka"
+        "dinner-rice-or-pasta-penne-lasagne"
       ]
     },
     {
@@ -536,14 +471,12 @@
       "ingredient": "can tomato sauce",
       "recipe_ids": [
         "dinner-meat-chili",
-        "dinner-rice-or-pasta-lasagne",
         "dinner-rice-or-pasta-penne-lasagne"
       ]
     },
     {
       "ingredient": "can tomatoes",
       "recipe_ids": [
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
         "dinner-rice-or-pasta-suggested-one-pot-chicken-and-rice",
         "dinner-soup-or-stew-suggested-black-bean-soup",
         "lunch-soup-or-stew-suggested-lentil-soup"
@@ -553,6 +486,12 @@
       "ingredient": "can tomatoes with green chiles",
       "recipe_ids": [
         "dinner-bowls-chipotle-bowls"
+      ]
+    },
+    {
+      "ingredient": "canola oil",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
       ]
     },
     {
@@ -576,18 +515,6 @@
       "ingredient": "cans chickpeas drained",
       "recipe_ids": [
         "dinner-bowls-suggested-vegetable-curry"
-      ]
-    },
-    {
-      "ingredient": "cans clams juice reserved",
-      "recipe_ids": [
-        "dinner-soup-or-stew-suggested-clam-chowder"
-      ]
-    },
-    {
-      "ingredient": "cans coconut milk",
-      "recipe_ids": [
-        "dinner-bowls-suggested-thai-green-curry"
       ]
     },
     {
@@ -628,12 +555,6 @@
       ]
     },
     {
-      "ingredient": "cans whole peeled tomatoes",
-      "recipe_ids": [
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
-      ]
-    },
-    {
       "ingredient": "capers",
       "recipe_ids": [
         "dinner-seafood-suggested-mediterranean-baked-cod"
@@ -662,12 +583,6 @@
       ]
     },
     {
-      "ingredient": "carrots cut into -inch pieces",
-      "recipe_ids": [
-        "dinner-meat-stew"
-      ]
-    },
-    {
       "ingredient": "carrots shredded",
       "recipe_ids": [
         "dinner-soup-or-stew-cheddar-broccoli-soup"
@@ -684,20 +599,25 @@
       "recipe_ids": [
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-bowls-suggested-vegetable-curry",
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-meat-chili",
-        "dinner-meat-fried-chicken",
         "dinner-meat-suggested-butter-chicken",
         "dinner-meat-suggested-lamb-kofta-with-tzatziki",
-        "dinner-rice-or-pasta-homemade-mac-n-cheese",
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
         "dinner-soup-or-stew-cheddar-broccoli-soup",
-        "dinner-soup-or-stew-suggested-butternut-squash-soup",
-        "dinner-vegetarian-suggested-shakshuka"
+        "dinner-soup-or-stew-suggested-butternut-squash-soup"
       ]
     },
     {
-      "ingredient": "celery sticks and blue cheese or ranch dressing",
+      "ingredient": "celery salt",
       "recipe_ids": [
-        "dinner-meat-chicken-wings"
+        "dinner-meat-fried-chicken"
+      ]
+    },
+    {
+      "ingredient": "cheddar cheese",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-homemade-mac-n-cheese"
       ]
     },
     {
@@ -711,15 +631,19 @@
       "ingredient": "cherry tomatoes halved",
       "recipe_ids": [
         "dinner-rice-or-pasta-suggested-caprese-pasta",
-        "dinner-seafood-suggested-mediterranean-baked-cod",
-        "lunch-bowls-suggested-greek-salad-with-chicken"
+        "dinner-seafood-suggested-mediterranean-baked-cod"
+      ]
+    },
+    {
+      "ingredient": "chicken breast",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-homemade-mac-n-cheese"
       ]
     },
     {
       "ingredient": "chicken broth",
       "recipe_ids": [
         "dinner-meat-bbq-in-crockpot",
-        "dinner-meat-pork-chops",
         "dinner-rice-or-pasta-suggested-one-pot-chicken-and-rice",
         "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
         "dinner-soup-or-stew-chicken-wild-rice-soup",
@@ -730,20 +654,26 @@
       "ingredient": "chicken or vegetable broth",
       "recipe_ids": [
         "dinner-soup-or-stew-cheddar-broccoli-soup",
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
         "dinner-soup-or-stew-suggested-black-bean-soup",
         "dinner-soup-or-stew-suggested-butternut-squash-soup",
         "lunch-soup-or-stew-suggested-lentil-soup"
       ]
     },
     {
-      "ingredient": "chicken pieces",
+      "ingredient": "chicken stock",
       "recipe_ids": [
-        "dinner-meat-fried-chicken"
+        "dinner-meat-pork-chops",
+        "dinner-rice-or-pasta-homemade-mac-n-cheese"
       ]
     },
     {
-      "ingredient": "chicken wings split at joints tips discarded",
+      "ingredient": "chicken thighs",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
+      ]
+    },
+    {
+      "ingredient": "chicken wings",
       "recipe_ids": [
         "dinner-meat-chicken-wings"
       ]
@@ -760,18 +690,17 @@
         "breakfast-meat-white-chicken-chili",
         "dinner-baked-casserole-suggested-black-bean-enchiladas",
         "dinner-bowls-chipotle-bowls",
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
         "dinner-meat-bbq-in-crockpot",
         "dinner-meat-camper-chicken-enchiladas",
         "dinner-meat-chili",
+        "dinner-meat-fried-chicken",
         "dinner-meat-tacos",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
         "dinner-soup-or-stew-suggested-black-bean-soup",
         "dinner-vegetarian-suggested-aloo-gobi",
         "dinner-vegetarian-suggested-saag-paneer",
-        "dinner-vegetarian-suggested-shakshuka",
         "lunch-handheld-suggested-black-bean-tacos"
       ]
     },
@@ -788,6 +717,12 @@
       ]
     },
     {
+      "ingredient": "chinese five spice powder",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
+      ]
+    },
+    {
       "ingredient": "chinese noodles or spaghetti",
       "recipe_ids": [
         "dinner-rice-or-pasta-suggested-dan-dan-noodles"
@@ -800,12 +735,6 @@
       ]
     },
     {
-      "ingredient": "chives or dill",
-      "recipe_ids": [
-        "lunch-handheld-suggested-egg-salad-sandwich"
-      ]
-    },
-    {
       "ingredient": "chocolate chips",
       "recipe_ids": [
         "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins"
@@ -814,11 +743,9 @@
     {
       "ingredient": "cilantro",
       "recipe_ids": [
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
         "dinner-soup-or-stew-chicken-tortilla-soup",
-        "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
-        "lunch-bowls-suggested-asian-noodle-salad"
+        "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot"
       ]
     },
     {
@@ -833,7 +760,6 @@
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-bowls-suggested-vegetable-curry",
         "dinner-meat-suggested-butter-chicken",
-        "dinner-soup-or-stew-suggested-dal-tadka",
         "dinner-vegetarian-suggested-aloo-gobi"
       ]
     },
@@ -846,27 +772,43 @@
     {
       "ingredient": "cinnamon",
       "recipe_ids": [
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes",
         "dinner-meat-suggested-lamb-kofta-with-tzatziki",
         "dinner-soup-or-stew-suggested-butternut-squash-soup"
       ]
     },
     {
-      "ingredient": "cinnamon sticks",
+      "ingredient": "cinnamon stick",
       "recipe_ids": [
         "dinner-soup-or-stew-suggested-vietnamese-pho"
       ]
     },
     {
+      "ingredient": "clove finely garlic",
+      "recipe_ids": [
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
+        "lunch-bowls-suggested-greek-salad-with-chicken"
+      ]
+    },
+    {
       "ingredient": "clove garlic",
       "recipe_ids": [
-        "dinner-bowls-suggested-roasted-vegetable-grain-bowls"
+        "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
+        "dinner-bowls-suggested-thai-green-curry",
+        "dinner-meat-round-steak-stroganoff",
+        "dinner-rice-or-pasta-spaghetti",
+        "dinner-vegetarian-suggested-shakshuka"
       ]
     },
     {
       "ingredient": "cloves",
       "recipe_ids": [
         "dinner-soup-or-stew-suggested-vietnamese-pho"
+      ]
+    },
+    {
+      "ingredient": "cloves crushed garlic",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
       ]
     },
     {
@@ -883,28 +825,25 @@
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
         "dinner-bowls-suggested-teriyaki-salmon-bowls",
-        "dinner-bowls-suggested-thai-green-curry",
         "dinner-bowls-suggested-vegetable-curry",
         "dinner-handheld-lettuce-wraps",
         "dinner-handheld-suggested-sausage-and-peppers",
         "dinner-meat-beef-and-broccoli",
         "dinner-meat-braised-short-ribs",
         "dinner-meat-camper-chicken-enchiladas",
+        "dinner-meat-chicken-wings",
         "dinner-meat-chili",
         "dinner-meat-pork-chops",
-        "dinner-meat-round-steak-stroganoff",
         "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
         "dinner-meat-steak-kabobs-deconstructed",
-        "dinner-meat-stew",
         "dinner-meat-suggested-butter-chicken",
         "dinner-meat-suggested-lamb-kofta-with-tzatziki",
         "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
+        "dinner-rice-or-pasta-homemade-mac-n-cheese",
         "dinner-rice-or-pasta-lasagne",
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
         "dinner-rice-or-pasta-penne-lasagne",
         "dinner-rice-or-pasta-salmon-and-rice",
         "dinner-rice-or-pasta-suggested-caprese-pasta",
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
         "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta",
@@ -914,22 +853,16 @@
         "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
         "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus",
         "dinner-seafood-suggested-mediterranean-baked-cod",
         "dinner-soup-or-stew-cheddar-broccoli-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
         "dinner-soup-or-stew-chicken-wild-rice-soup",
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
         "dinner-soup-or-stew-suggested-black-bean-soup",
         "dinner-soup-or-stew-suggested-butternut-squash-soup",
-        "dinner-soup-or-stew-suggested-clam-chowder",
-        "dinner-soup-or-stew-suggested-dal-tadka",
         "dinner-vegetarian-suggested-aloo-gobi",
         "dinner-vegetarian-suggested-saag-paneer",
-        "dinner-vegetarian-suggested-shakshuka",
         "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu",
-        "lunch-bowls-suggested-asian-noodle-salad",
         "lunch-handheld-suggested-black-bean-tacos",
         "lunch-soup-or-stew-suggested-lentil-soup"
       ]
@@ -938,6 +871,12 @@
       "ingredient": "cm piece of ginger",
       "recipe_ids": [
         "dinner-soup-or-stew-wonton-soup"
+      ]
+    },
+    {
+      "ingredient": "coconut milk",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry"
       ]
     },
     {
@@ -962,14 +901,7 @@
     {
       "ingredient": "cooked white rice day-old preferred",
       "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-rice-or-pasta-suggested-shrimp-fried-rice"
-      ]
-    },
-    {
-      "ingredient": "cooking salt",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-spaghetti"
       ]
     },
     {
@@ -984,16 +916,16 @@
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-meat-suggested-butter-chicken",
         "dinner-meat-suggested-lamb-kofta-with-tzatziki",
-        "dinner-soup-or-stew-suggested-dal-tadka",
         "dinner-vegetarian-suggested-aloo-gobi",
         "dinner-vegetarian-suggested-saag-paneer",
+        "dinner-vegetarian-suggested-shakshuka",
         "lunch-soup-or-stew-suggested-lentil-soup"
       ]
     },
     {
-      "ingredient": "corn kernels",
+      "ingredient": "coriander seeds",
       "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
       ]
     },
     {
@@ -1029,9 +961,14 @@
       ]
     },
     {
+      "ingredient": "creme fraiche",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
       "ingredient": "cremini mushrooms",
       "recipe_ids": [
-        "dinner-meat-round-steak-stroganoff",
         "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon"
       ]
     },
@@ -1043,18 +980,11 @@
       ]
     },
     {
-      "ingredient": "crusty bread or pita",
-      "recipe_ids": [
-        "dinner-vegetarian-suggested-shakshuka"
-      ]
-    },
-    {
       "ingredient": "cucumber",
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-chicken",
         "dinner-bowls-salmon-veggie-bowls",
-        "dinner-bowls-suggested-teriyaki-salmon-bowls",
-        "lunch-bowls-suggested-greek-salad-with-chicken"
+        "dinner-bowls-suggested-teriyaki-salmon-bowls"
       ]
     },
     {
@@ -1062,12 +992,6 @@
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-turkey-meat",
         "dinner-meat-suggested-lamb-kofta-with-tzatziki"
-      ]
-    },
-    {
-      "ingredient": "cucumber julienned",
-      "recipe_ids": [
-        "lunch-bowls-suggested-asian-noodle-salad"
       ]
     },
     {
@@ -1087,7 +1011,6 @@
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
         "dinner-bowls-suggested-vegetable-curry",
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
         "dinner-meat-camper-chicken-enchiladas",
         "dinner-meat-chili",
@@ -1098,7 +1021,6 @@
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
         "dinner-soup-or-stew-suggested-black-bean-soup",
         "dinner-soup-or-stew-suggested-butternut-squash-soup",
-        "dinner-vegetarian-suggested-shakshuka",
         "lunch-handheld-suggested-black-bean-tacos",
         "lunch-handheld-suggested-quesadillas",
         "lunch-soup-or-stew-suggested-lentil-soup"
@@ -1107,6 +1029,7 @@
     {
       "ingredient": "cumin seeds",
       "recipe_ids": [
+        "dinner-meat-chicken-wings",
         "dinner-soup-or-stew-suggested-dal-tadka",
         "dinner-vegetarian-suggested-aloo-gobi",
         "dinner-vegetarian-suggested-saag-paneer"
@@ -1122,6 +1045,12 @@
       "ingredient": "curry powder",
       "recipe_ids": [
         "dinner-bowls-suggested-vegetable-curry"
+      ]
+    },
+    {
+      "ingredient": "cut thick slices casabe",
+      "recipe_ids": [
+        "dinner-baked-casserole-homemade-pizza"
       ]
     },
     {
@@ -1146,11 +1075,7 @@
       "ingredient": "dijon mustard",
       "recipe_ids": [
         "dinner-meat-grilled-chicken-with-potato-salad",
-        "dinner-meat-pork-chops",
-        "dinner-rice-or-pasta-homemade-mac-n-cheese",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus",
         "lunch-handheld-suggested-blt-sandwich",
-        "lunch-handheld-suggested-egg-salad-sandwich",
         "lunch-handheld-suggested-tuna-salad-sandwich"
       ]
     },
@@ -1169,21 +1094,25 @@
       ]
     },
     {
+      "ingredient": "double cream",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-clam-chowder"
+      ]
+    },
+    {
+      "ingredient": "dried apricots",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+      ]
+    },
+    {
       "ingredient": "dried basil",
       "recipe_ids": [
         "dinner-baked-casserole-suggested-eggplant-parmesan",
         "dinner-handheld-suggested-sausage-and-peppers",
         "dinner-meat-chicken-parm",
-        "dinner-rice-or-pasta-lasagne",
         "dinner-rice-or-pasta-penne-lasagne",
-        "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
-      ]
-    },
-    {
-      "ingredient": "dried bay leaves",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-spaghetti"
+        "dinner-rice-or-pasta-zucchini-and-squash-lasagne"
       ]
     },
     {
@@ -1194,13 +1123,11 @@
         "dinner-baked-casserole-suggested-eggplant-parmesan",
         "dinner-handheld-suggested-sausage-and-peppers",
         "dinner-meat-chicken-parm",
-        "dinner-meat-fried-chicken",
         "dinner-meat-steak-kabobs-deconstructed",
-        "dinner-rice-or-pasta-lasagne",
         "dinner-rice-or-pasta-penne-lasagne",
+        "dinner-rice-or-pasta-spaghetti",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
-        "dinner-seafood-suggested-mediterranean-baked-cod",
-        "lunch-bowls-suggested-greek-salad-with-chicken"
+        "dinner-seafood-suggested-mediterranean-baked-cod"
       ]
     },
     {
@@ -1208,10 +1135,8 @@
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-chicken",
         "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus",
         "dinner-seafood-suggested-mediterranean-baked-cod",
-        "dinner-soup-or-stew-chicken-wild-rice-soup",
-        "dinner-soup-or-stew-suggested-clam-chowder"
+        "dinner-soup-or-stew-chicken-wild-rice-soup"
       ]
     },
     {
@@ -1223,9 +1148,7 @@
     {
       "ingredient": "dry red wine",
       "recipe_ids": [
-        "dinner-meat-braised-short-ribs",
-        "dinner-meat-stew",
-        "dinner-rice-or-pasta-spaghetti"
+        "dinner-meat-braised-short-ribs"
       ]
     },
     {
@@ -1248,15 +1171,15 @@
       ]
     },
     {
-      "ingredient": "egg beaten",
+      "ingredient": "egg",
       "recipe_ids": [
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+        "lunch-handheld-suggested-egg-salad-sandwich"
       ]
     },
     {
-      "ingredient": "egg noodles",
+      "ingredient": "egg white",
       "recipe_ids": [
-        "dinner-meat-round-steak-stroganoff"
+        "dinner-meat-fried-chicken"
       ]
     },
     {
@@ -1264,8 +1187,8 @@
       "recipe_ids": [
         "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
         "breakfast-baked-casserole-pineapple-zucchini-muffin",
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes",
-        "breakfast-vegetarian-suggested-avocado-toast-with-egg"
+        "breakfast-vegetarian-suggested-avocado-toast-with-egg",
+        "dinner-vegetarian-suggested-shakshuka"
       ]
     },
     {
@@ -1277,22 +1200,14 @@
         "dinner-meat-chicken-parm",
         "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
         "dinner-meat-suggested-japanese-chicken-katsu",
-        "dinner-rice-or-pasta-lasagne",
-        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne"
       ]
     },
     {
-      "ingredient": "eggs lightly beaten",
+      "ingredient": "english mustard",
       "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
-      ]
-    },
-    {
-      "ingredient": "elbow macaroni",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-homemade-mac-n-cheese"
+        "dinner-meat-round-steak-stroganoff"
       ]
     },
     {
@@ -1324,15 +1239,44 @@
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-chicken",
         "breakfast-meat-greek-pitas-with-turkey-meat",
-        "dinner-baked-casserole-suggested-spanakopita",
-        "dinner-vegetarian-suggested-shakshuka",
-        "lunch-bowls-suggested-greek-salad-with-chicken"
+        "dinner-baked-casserole-suggested-spanakopita"
+      ]
+    },
+    {
+      "ingredient": "fillets white fish",
+      "recipe_ids": [
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
       ]
     },
     {
       "ingredient": "finely green onions",
       "recipe_ids": [
         "dinner-vegetarian-stir-fry"
+      ]
+    },
+    {
+      "ingredient": "finely onion",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne",
+        "dinner-soup-or-stew-suggested-clam-chowder"
+      ]
+    },
+    {
+      "ingredient": "finely red chilli",
+      "recipe_ids": [
+        "dinner-vegetarian-suggested-shakshuka"
+      ]
+    },
+    {
+      "ingredient": "finely red pepper",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-homemade-mac-n-cheese"
+      ]
+    },
+    {
+      "ingredient": "finely spring onions",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
       ]
     },
     {
@@ -1345,13 +1289,14 @@
       "ingredient": "fish sauce",
       "recipe_ids": [
         "dinner-rice-or-pasta-suggested-chicken-pad-thai",
-        "dinner-soup-or-stew-suggested-vietnamese-pho"
+        "dinner-soup-or-stew-suggested-vietnamese-pho",
+        "lunch-bowls-suggested-asian-noodle-salad"
       ]
     },
     {
-      "ingredient": "fish sauce or soy sauce",
+      "ingredient": "five spice powder",
       "recipe_ids": [
-        "dinner-bowls-suggested-thai-green-curry"
+        "dinner-meat-stew"
       ]
     },
     {
@@ -1367,16 +1312,10 @@
       ]
     },
     {
-      "ingredient": "flat rice noodles",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
-        "dinner-soup-or-stew-suggested-vietnamese-pho"
-      ]
-    },
-    {
       "ingredient": "flour",
       "recipe_ids": [
-        "breakfast-baked-casserole-crusty-bread"
+        "breakfast-baked-casserole-crusty-bread",
+        "dinner-meat-fried-chicken"
       ]
     },
     {
@@ -1390,6 +1329,12 @@
       "recipe_ids": [
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot"
+      ]
+    },
+    {
+      "ingredient": "flour tortilla",
+      "recipe_ids": [
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
       ]
     },
     {
@@ -1427,19 +1372,140 @@
       ]
     },
     {
-      "ingredient": "frozen peas and carrots thawed",
+      "ingredient": "g baby new potatoes",
       "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
+        "lunch-handheld-suggested-egg-salad-sandwich"
       ]
     },
     {
-      "ingredient": "g beef mince",
+      "ingredient": "g bacon",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-clam-chowder"
+      ]
+    },
+    {
+      "ingredient": "g bean sprouts",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
+        "lunch-bowls-suggested-asian-noodle-salad"
+      ]
+    },
+    {
+      "ingredient": "g beef",
+      "recipe_ids": [
+        "dinner-meat-stew",
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "g beef fillet",
+      "recipe_ids": [
+        "dinner-meat-round-steak-stroganoff"
+      ]
+    },
+    {
+      "ingredient": "g boneless chicken",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry"
+      ]
+    },
+    {
+      "ingredient": "g breadcrumbs",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+      ]
+    },
+    {
+      "ingredient": "g butter",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits",
+        "dinner-soup-or-stew-suggested-clam-chowder",
+        "lunch-bowls-suggested-greek-salad-with-chicken"
+      ]
+    },
+    {
+      "ingredient": "g can tomatoes",
       "recipe_ids": [
         "dinner-rice-or-pasta-spaghetti"
       ]
     },
     {
-      "ingredient": "g can crushed tomato",
+      "ingredient": "g carrots",
+      "recipe_ids": [
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
+      ]
+    },
+    {
+      "ingredient": "g caster sugar",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits"
+      ]
+    },
+    {
+      "ingredient": "g cherry tomatoes",
+      "recipe_ids": [
+        "dinner-seafood-suggested-baked-salmon-with-asparagus",
+        "dinner-vegetarian-suggested-shakshuka"
+      ]
+    },
+    {
+      "ingredient": "g chicken breast",
+      "recipe_ids": [
+        "lunch-bowls-suggested-greek-salad-with-chicken"
+      ]
+    },
+    {
+      "ingredient": "g chorizo",
+      "recipe_ids": [
+        "dinner-baked-casserole-homemade-pizza",
+        "lunch-handheld-suggested-egg-salad-sandwich"
+      ]
+    },
+    {
+      "ingredient": "g creme fraiche",
+      "recipe_ids": [
+        "dinner-meat-round-steak-stroganoff"
+      ]
+    },
+    {
+      "ingredient": "g desiccated coconut",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits"
+      ]
+    },
+    {
+      "ingredient": "g feta",
+      "recipe_ids": [
+        "lunch-bowls-suggested-greek-salad-with-chicken"
+      ]
+    },
+    {
+      "ingredient": "g green beans",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry",
+        "lunch-handheld-suggested-egg-salad-sandwich"
+      ]
+    },
+    {
+      "ingredient": "g green olives",
+      "recipe_ids": [
+        "dinner-baked-casserole-homemade-pizza"
+      ]
+    },
+    {
+      "ingredient": "g lamb mince",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+      ]
+    },
+    {
+      "ingredient": "g lasagne sheets",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "g lean beef",
       "recipe_ids": [
         "dinner-rice-or-pasta-spaghetti"
       ]
@@ -1451,15 +1517,174 @@
       ]
     },
     {
+      "ingredient": "g macaroni",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-homemade-mac-n-cheese"
+      ]
+    },
+    {
+      "ingredient": "g mint",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+      ]
+    },
+    {
+      "ingredient": "g mozzarella",
+      "recipe_ids": [
+        "dinner-baked-casserole-homemade-pizza"
+      ]
+    },
+    {
+      "ingredient": "g mozzarella balls",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "g mushrooms",
+      "recipe_ids": [
+        "dinner-meat-round-steak-stroganoff",
+        "dinner-rice-or-pasta-spaghetti"
+      ]
+    },
+    {
+      "ingredient": "g new potatoes",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry"
+      ]
+    },
+    {
+      "ingredient": "g paprika",
+      "recipe_ids": [
+        "dinner-baked-casserole-homemade-pizza"
+      ]
+    },
+    {
+      "ingredient": "g parmesan cheese",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "g passata",
+      "recipe_ids": [
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
+      ]
+    },
+    {
+      "ingredient": "g peanuts",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
+      ]
+    },
+    {
+      "ingredient": "g pecan nuts",
+      "recipe_ids": [
+        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
+      ]
+    },
+    {
       "ingredient": "g peeled prawns shrimp",
       "recipe_ids": [
         "dinner-soup-or-stew-wonton-soup"
       ]
     },
     {
+      "ingredient": "g plain flour",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits"
+      ]
+    },
+    {
+      "ingredient": "g pork",
+      "recipe_ids": [
+        "lunch-bowls-suggested-asian-noodle-salad"
+      ]
+    },
+    {
+      "ingredient": "g porridge oats",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits"
+      ]
+    },
+    {
+      "ingredient": "g potatoes",
+      "recipe_ids": [
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
+      ]
+    },
+    {
+      "ingredient": "g quinoa",
+      "recipe_ids": [
+        "lunch-bowls-suggested-greek-salad-with-chicken"
+      ]
+    },
+    {
+      "ingredient": "g raspberries",
+      "recipe_ids": [
+        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
+      ]
+    },
+    {
+      "ingredient": "g rice noodles",
+      "recipe_ids": [
+        "dinner-meat-stew",
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
+      ]
+    },
+    {
+      "ingredient": "g salmon",
+      "recipe_ids": [
+        "dinner-seafood-suggested-baked-salmon-with-asparagus"
+      ]
+    },
+    {
+      "ingredient": "g sirloin steak",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
+      ]
+    },
+    {
       "ingredient": "g spaghetti",
       "recipe_ids": [
         "dinner-rice-or-pasta-spaghetti"
+      ]
+    },
+    {
+      "ingredient": "g sweetcorn",
+      "recipe_ids": [
+        "dinner-baked-casserole-homemade-pizza"
+      ]
+    },
+    {
+      "ingredient": "g tiger prawns",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
+      ]
+    },
+    {
+      "ingredient": "g tinned tomatos",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+      ]
+    },
+    {
+      "ingredient": "g tomato sauce",
+      "recipe_ids": [
+        "dinner-baked-casserole-homemade-pizza"
+      ]
+    },
+    {
+      "ingredient": "g tomatoes",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "g turkey ham",
+      "recipe_ids": [
+        "dinner-baked-casserole-homemade-pizza"
       ]
     },
     {
@@ -1473,11 +1698,17 @@
       ]
     },
     {
+      "ingredient": "garlic clove",
+      "recipe_ids": [
+        "dinner-meat-stew",
+        "lunch-handheld-suggested-egg-salad-sandwich"
+      ]
+    },
+    {
       "ingredient": "garlic cloves",
       "recipe_ids": [
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
         "dinner-rice-or-pasta-hamburger-stroganoff",
-        "dinner-rice-or-pasta-spaghetti",
         "dinner-soup-or-stew-wonton-soup",
         "dinner-vegetarian-stir-fry"
       ]
@@ -1489,27 +1720,25 @@
         "dinner-meat-bbq-in-crockpot",
         "dinner-meat-cheeseburgers",
         "dinner-meat-chicken-parm",
-        "dinner-meat-chicken-wings",
         "dinner-meat-deconstructed-steak-sandwiches-with-cheese",
         "dinner-meat-fried-chicken",
         "dinner-meat-grilled-chicken-with-potato-salad",
-        "dinner-meat-pork-chops",
         "dinner-meat-suggested-caprese-stuffed-chicken",
         "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
-        "dinner-rice-or-pasta-homemade-mac-n-cheese",
         "lunch-handheld-suggested-quesadillas"
       ]
     },
     {
-      "ingredient": "ghee or butter",
+      "ingredient": "garnish parsley",
       "recipe_ids": [
-        "dinner-soup-or-stew-suggested-dal-tadka"
+        "dinner-rice-or-pasta-homemade-mac-n-cheese"
       ]
     },
     {
       "ingredient": "ginger",
       "recipe_ids": [
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
+        "dinner-meat-stew",
         "dinner-soup-or-stew-wonton-soup",
         "dinner-vegetarian-stir-fry"
       ]
@@ -1521,18 +1750,14 @@
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
         "dinner-bowls-suggested-teriyaki-salmon-bowls",
-        "dinner-bowls-suggested-thai-green-curry",
         "dinner-bowls-suggested-vegetable-curry",
         "dinner-handheld-lettuce-wraps",
         "dinner-meat-beef-and-broccoli",
         "dinner-meat-suggested-butter-chicken",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
-        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
-        "dinner-soup-or-stew-suggested-dal-tadka",
         "dinner-vegetarian-suggested-aloo-gobi",
         "dinner-vegetarian-suggested-saag-paneer",
-        "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu",
-        "lunch-bowls-suggested-asian-noodle-salad"
+        "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu"
       ]
     },
     {
@@ -1551,11 +1776,8 @@
       "ingredient": "grated parmesan cheese",
       "recipe_ids": [
         "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
-        "dinner-baked-casserole-homemade-pizza",
         "dinner-baked-casserole-suggested-eggplant-parmesan",
         "dinner-meat-chicken-parm",
-        "dinner-rice-or-pasta-lasagne",
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
         "dinner-rice-or-pasta-penne-lasagne",
         "dinner-rice-or-pasta-suggested-caprese-pasta",
         "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta",
@@ -1583,12 +1805,6 @@
       ]
     },
     {
-      "ingredient": "green curry paste",
-      "recipe_ids": [
-        "dinner-bowls-suggested-thai-green-curry"
-      ]
-    },
-    {
       "ingredient": "green onions",
       "recipe_ids": [
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce"
@@ -1601,18 +1817,11 @@
       ]
     },
     {
-      "ingredient": "grilled chicken breasts",
-      "recipe_ids": [
-        "lunch-bowls-suggested-greek-salad-with-chicken"
-      ]
-    },
-    {
       "ingredient": "ground beef",
       "recipe_ids": [
         "dinner-meat-cheeseburgers",
         "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
-        "dinner-meat-tacos",
-        "dinner-rice-or-pasta-lasagne"
+        "dinner-meat-tacos"
       ]
     },
     {
@@ -1625,12 +1834,6 @@
       "ingredient": "ground beef or italian sausage",
       "recipe_ids": [
         "dinner-rice-or-pasta-penne-lasagne"
-      ]
-    },
-    {
-      "ingredient": "ground beef or mixed beef and pork",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
       ]
     },
     {
@@ -1653,6 +1856,24 @@
       ]
     },
     {
+      "ingredient": "ground coriander",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+      ]
+    },
+    {
+      "ingredient": "ground cumin",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+      ]
+    },
+    {
+      "ingredient": "ground ginger",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
+      ]
+    },
+    {
       "ingredient": "ground lamb",
       "recipe_ids": [
         "dinner-meat-suggested-lamb-kofta-with-tzatziki"
@@ -1668,12 +1889,6 @@
       "ingredient": "ground turkey",
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-turkey-meat"
-      ]
-    },
-    {
-      "ingredient": "gruyere cheese shredded",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-homemade-mac-n-cheese"
       ]
     },
     {
@@ -1696,9 +1911,28 @@
       ]
     },
     {
-      "ingredient": "hard-boiled eggs peeled and",
+      "ingredient": "handful basil",
       "recipe_ids": [
-        "lunch-handheld-suggested-egg-salad-sandwich"
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
+      ]
+    },
+    {
+      "ingredient": "handful black olives",
+      "recipe_ids": [
+        "lunch-bowls-suggested-greek-salad-with-chicken"
+      ]
+    },
+    {
+      "ingredient": "handful coriander",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
+      ]
+    },
+    {
+      "ingredient": "handfull basil",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry"
       ]
     },
     {
@@ -1708,18 +1942,11 @@
       ]
     },
     {
-      "ingredient": "head romaine lettuce",
-      "recipe_ids": [
-        "lunch-bowls-suggested-greek-salad-with-chicken"
-      ]
-    },
-    {
       "ingredient": "heavy cream",
       "recipe_ids": [
         "dinner-meat-suggested-butter-chicken",
-        "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
-        "dinner-soup-or-stew-suggested-clam-chowder"
+        "dinner-rice-or-pasta-homemade-mac-n-cheese",
+        "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon"
       ]
     },
     {
@@ -1772,9 +1999,8 @@
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
         "dinner-bowls-salmon-veggie-bowls",
         "dinner-bowls-suggested-teriyaki-salmon-bowls",
-        "dinner-rice-or-pasta-salmon-and-rice",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus",
-        "lunch-bowls-suggested-asian-noodle-salad"
+        "dinner-meat-chicken-wings",
+        "dinner-rice-or-pasta-salmon-and-rice"
       ]
     },
     {
@@ -1784,27 +2010,15 @@
       ]
     },
     {
-      "ingredient": "hot sauce",
+      "ingredient": "hot beef stock",
       "recipe_ids": [
-        "dinner-meat-chicken-wings"
-      ]
-    },
-    {
-      "ingredient": "inch piece ginger halved",
-      "recipe_ids": [
-        "dinner-soup-or-stew-suggested-vietnamese-pho"
+        "dinner-rice-or-pasta-spaghetti"
       ]
     },
     {
       "ingredient": "instant or rapid rise yeast",
       "recipe_ids": [
         "breakfast-baked-casserole-crusty-bread"
-      ]
-    },
-    {
-      "ingredient": "italian sausage",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-lasagne"
       ]
     },
     {
@@ -1830,21 +2044,19 @@
       "ingredient": "italian seasoning",
       "recipe_ids": [
         "dinner-meat-suggested-caprese-stuffed-chicken",
-        "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+        "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables"
       ]
     },
     {
       "ingredient": "jalapeno",
       "recipe_ids": [
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw"
       ]
     },
     {
       "ingredient": "jasmine rice",
       "recipe_ids": [
-        "dinner-bowls-suggested-thai-green-curry"
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
       ]
     },
     {
@@ -1862,13 +2074,14 @@
         "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
         "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
         "dinner-seafood-suggested-baked-salmon-with-asparagus",
+        "lunch-bowls-suggested-greek-salad-with-chicken",
         "lunch-soup-or-stew-suggested-lentil-soup"
       ]
     },
     {
       "ingredient": "juice of lime",
       "recipe_ids": [
-        "dinner-bowls-suggested-thai-green-curry"
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
       ]
     },
     {
@@ -1879,10 +2092,15 @@
       ]
     },
     {
+      "ingredient": "kaffir leaves lime",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry"
+      ]
+    },
+    {
       "ingredient": "kalamata olives pitted",
       "recipe_ids": [
-        "dinner-seafood-suggested-mediterranean-baked-cod",
-        "lunch-bowls-suggested-greek-salad-with-chicken"
+        "dinner-seafood-suggested-mediterranean-baked-cod"
       ]
     },
     {
@@ -1900,9 +2118,33 @@
       ]
     },
     {
+      "ingredient": "kg clams",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-clam-chowder"
+      ]
+    },
+    {
+      "ingredient": "kg tomatoes",
+      "recipe_ids": [
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
+      ]
+    },
+    {
+      "ingredient": "knob ginger",
+      "recipe_ids": [
+        "lunch-bowls-suggested-asian-noodle-salad"
+      ]
+    },
+    {
       "ingredient": "kosher salt",
       "recipe_ids": [
         "dinner-meat-tacos"
+      ]
+    },
+    {
+      "ingredient": "large banana",
+      "recipe_ids": [
+        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
       ]
     },
     {
@@ -1912,15 +2154,21 @@
       ]
     },
     {
-      "ingredient": "large eggplants inch thick",
+      "ingredient": "large carrots",
       "recipe_ids": [
-        "dinner-baked-casserole-suggested-eggplant-parmesan"
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
       ]
     },
     {
-      "ingredient": "large eggs",
+      "ingredient": "large egg",
       "recipe_ids": [
-        "dinner-vegetarian-suggested-shakshuka"
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
+      ]
+    },
+    {
+      "ingredient": "large eggplants inch thick",
+      "recipe_ids": [
+        "dinner-baked-casserole-suggested-eggplant-parmesan"
       ]
     },
     {
@@ -1932,6 +2180,12 @@
       ]
     },
     {
+      "ingredient": "large ginger",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
+      ]
+    },
+    {
       "ingredient": "large onion",
       "recipe_ids": [
         "breakfast-meat-white-chicken-chili",
@@ -1939,31 +2193,23 @@
         "dinner-baked-casserole-suggested-spanakopita",
         "dinner-bowls-chipotle-bowls",
         "dinner-bowls-suggested-chicken-tikka-masala",
-        "dinner-bowls-suggested-thai-green-curry",
         "dinner-bowls-suggested-vegetable-curry",
         "dinner-handheld-suggested-sausage-and-peppers",
         "dinner-meat-braised-short-ribs",
         "dinner-meat-camper-chicken-enchiladas",
         "dinner-meat-cheeseburgers",
         "dinner-meat-chili",
-        "dinner-meat-round-steak-stroganoff",
-        "dinner-meat-stew",
         "dinner-meat-suggested-butter-chicken",
-        "dinner-rice-or-pasta-lasagne",
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
         "dinner-rice-or-pasta-penne-lasagne",
         "dinner-rice-or-pasta-suggested-one-pot-chicken-and-rice",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
         "dinner-soup-or-stew-cheddar-broccoli-soup",
         "dinner-soup-or-stew-chicken-wild-rice-soup",
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
         "dinner-soup-or-stew-suggested-black-bean-soup",
         "dinner-soup-or-stew-suggested-butternut-squash-soup",
-        "dinner-soup-or-stew-suggested-clam-chowder",
-        "dinner-soup-or-stew-suggested-dal-tadka",
+        "dinner-soup-or-stew-suggested-vietnamese-pho",
         "dinner-vegetarian-suggested-aloo-gobi",
         "dinner-vegetarian-suggested-saag-paneer",
-        "dinner-vegetarian-suggested-shakshuka",
         "lunch-handheld-suggested-black-bean-tacos",
         "lunch-soup-or-stew-suggested-lentil-soup"
       ]
@@ -1985,12 +2231,6 @@
       "ingredient": "large onion grated",
       "recipe_ids": [
         "dinner-meat-suggested-lamb-kofta-with-tzatziki"
-      ]
-    },
-    {
-      "ingredient": "large onion halved",
-      "recipe_ids": [
-        "dinner-soup-or-stew-suggested-vietnamese-pho"
       ]
     },
     {
@@ -2050,7 +2290,6 @@
     {
       "ingredient": "lasagne noodles",
       "recipe_ids": [
-        "dinner-rice-or-pasta-lasagne",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne"
       ]
     },
@@ -2074,6 +2313,13 @@
       ]
     },
     {
+      "ingredient": "lemon",
+      "recipe_ids": [
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
+        "dinner-meat-pork-chops"
+      ]
+    },
+    {
       "ingredient": "lemon juice",
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-chicken",
@@ -2081,7 +2327,6 @@
         "breakfast-vegetarian-suggested-avocado-toast-with-egg",
         "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
         "dinner-meat-suggested-lamb-kofta-with-tzatziki",
-        "lunch-handheld-suggested-egg-salad-sandwich",
         "lunch-handheld-suggested-tuna-salad-sandwich",
         "lunch-handheld-suggested-turkey-and-avocado-wrap"
       ]
@@ -2089,22 +2334,25 @@
     {
       "ingredient": "lemon slices",
       "recipe_ids": [
-        "dinner-rice-or-pasta-salmon-and-rice",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus"
+        "dinner-rice-or-pasta-salmon-and-rice"
       ]
     },
     {
       "ingredient": "lemon wedges",
       "recipe_ids": [
         "dinner-meat-grilled-chicken-with-potato-salad",
-        "dinner-meat-pork-chops",
         "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables"
+      ]
+    },
+    {
+      "ingredient": "lemongrass stalks",
+      "recipe_ids": [
+        "dinner-meat-stew"
       ]
     },
     {
       "ingredient": "lettuce and tomato",
       "recipe_ids": [
-        "lunch-handheld-suggested-egg-salad-sandwich",
         "lunch-handheld-suggested-tuna-salad-sandwich"
       ]
     },
@@ -2121,23 +2369,17 @@
       ]
     },
     {
+      "ingredient": "lime",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
+      ]
+    },
+    {
       "ingredient": "lime juice",
       "recipe_ids": [
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
         "dinner-meat-tacos"
-      ]
-    },
-    {
-      "ingredient": "lime wedges",
-      "recipe_ids": [
-        "lunch-bowls-suggested-asian-noodle-salad"
-      ]
-    },
-    {
-      "ingredient": "lime wedges and cilantro",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
       ]
     },
     {
@@ -2150,7 +2392,6 @@
       "ingredient": "long-grain white rice",
       "recipe_ids": [
         "dinner-bowls-chipotle-bowls",
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
         "dinner-rice-or-pasta-suggested-one-pot-chicken-and-rice"
       ]
     },
@@ -2163,14 +2404,7 @@
     {
       "ingredient": "mango",
       "recipe_ids": [
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw"
-      ]
-    },
-    {
-      "ingredient": "maple syrup and fruit",
-      "recipe_ids": [
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
       ]
     },
     {
@@ -2183,6 +2417,12 @@
       ]
     },
     {
+      "ingredient": "marjoram",
+      "recipe_ids": [
+        "dinner-meat-fried-chicken"
+      ]
+    },
+    {
       "ingredient": "mashed potatoes or egg noodles",
       "recipe_ids": [
         "dinner-meat-braised-short-ribs"
@@ -2191,12 +2431,10 @@
     {
       "ingredient": "mayonnaise",
       "recipe_ids": [
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
         "dinner-meat-cheeseburgers",
         "dinner-meat-grilled-chicken-with-potato-salad",
         "lunch-handheld-suggested-blt-sandwich",
-        "lunch-handheld-suggested-egg-salad-sandwich",
         "lunch-handheld-suggested-tuna-salad-sandwich"
       ]
     },
@@ -2204,6 +2442,24 @@
       "ingredient": "medium buk choy",
       "recipe_ids": [
         "dinner-vegetarian-stir-fry"
+      ]
+    },
+    {
+      "ingredient": "medium carrots",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "medium eggs",
+      "recipe_ids": [
+        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
+      ]
+    },
+    {
+      "ingredient": "medium fennel",
+      "recipe_ids": [
+        "dinner-seafood-suggested-baked-salmon-with-asparagus"
       ]
     },
     {
@@ -2225,12 +2481,6 @@
       ]
     },
     {
-      "ingredient": "medium potatoes cut into -inch cubes",
-      "recipe_ids": [
-        "dinner-meat-stew"
-      ]
-    },
-    {
       "ingredient": "medium shrimp peeled and deveined",
       "recipe_ids": [
         "dinner-rice-or-pasta-suggested-shrimp-fried-rice"
@@ -2240,12 +2490,6 @@
       "ingredient": "medium tomatoes",
       "recipe_ids": [
         "dinner-meat-suggested-caprese-stuffed-chicken"
-      ]
-    },
-    {
-      "ingredient": "medium zucchini",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
       ]
     },
     {
@@ -2263,8 +2507,13 @@
     {
       "ingredient": "milk",
       "recipe_ids": [
-        "breakfast-baked-casserole-big-daddy-biscuits",
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
+        "dinner-soup-or-stew-suggested-clam-chowder"
+      ]
+    },
+    {
+      "ingredient": "mint",
+      "recipe_ids": [
+        "lunch-bowls-suggested-greek-salad-with-chicken"
       ]
     },
     {
@@ -2304,6 +2553,13 @@
       ]
     },
     {
+      "ingredient": "muscovado sugar",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
+        "lunch-bowls-suggested-asian-noodle-salad"
+      ]
+    },
+    {
       "ingredient": "mushrooms",
       "recipe_ids": [
         "dinner-meat-deconstructed-steak-sandwiches-with-cheese",
@@ -2322,6 +2578,12 @@
       "ingredient": "mustard powder",
       "recipe_ids": [
         "dinner-soup-or-stew-cheddar-broccoli-soup"
+      ]
+    },
+    {
+      "ingredient": "mustard seeds",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-dal-tadka"
       ]
     },
     {
@@ -2353,7 +2615,9 @@
       "ingredient": "oil",
       "recipe_ids": [
         "breakfast-baked-casserole-pineapple-zucchini-muffin",
-        "dinner-meat-tacos"
+        "breakfast-baked-casserole-suggested-banana-oat-pancakes",
+        "dinner-meat-tacos",
+        "lunch-bowls-suggested-asian-noodle-salad"
       ]
     },
     {
@@ -2362,27 +2626,23 @@
         "breakfast-meat-greek-pitas-with-chicken",
         "breakfast-meat-greek-pitas-with-turkey-meat",
         "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
-        "dinner-baked-casserole-homemade-pizza",
         "dinner-baked-casserole-suggested-black-bean-enchiladas",
         "dinner-baked-casserole-suggested-eggplant-parmesan",
         "dinner-bowls-chipotle-bowls",
         "dinner-bowls-salmon-veggie-bowls",
         "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-sausage-and-peppers",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
         "dinner-meat-braised-short-ribs",
         "dinner-meat-camper-chicken-enchiladas",
         "dinner-meat-chicken-parm",
+        "dinner-meat-chicken-wings",
         "dinner-meat-chili",
         "dinner-meat-grilled-chicken-with-potato-salad",
-        "dinner-meat-pork-chops",
-        "dinner-meat-round-steak-stroganoff",
         "dinner-meat-steak-kabobs-deconstructed",
-        "dinner-meat-stew",
         "dinner-meat-suggested-caprese-stuffed-chicken",
         "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
-        "dinner-rice-or-pasta-lasagne",
+        "dinner-rice-or-pasta-homemade-mac-n-cheese",
         "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
         "dinner-rice-or-pasta-penne-lasagne",
         "dinner-rice-or-pasta-salmon-and-rice",
@@ -2394,13 +2654,10 @@
         "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
         "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus",
         "dinner-seafood-suggested-mediterranean-baked-cod",
         "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
         "dinner-soup-or-stew-suggested-black-bean-soup",
         "dinner-soup-or-stew-suggested-butternut-squash-soup",
-        "dinner-vegetarian-suggested-shakshuka",
-        "lunch-bowls-suggested-greek-salad-with-chicken",
         "lunch-handheld-suggested-black-bean-tacos",
         "lunch-soup-or-stew-suggested-lentil-soup"
       ]
@@ -2409,16 +2666,28 @@
       "ingredient": "onion",
       "recipe_ids": [
         "breakfast-handheld-suggested-breakfast-burritos",
-        "dinner-rice-or-pasta-spaghetti",
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-vegetarian-stir-fry"
       ]
     },
     {
       "ingredient": "onion powder",
       "recipe_ids": [
-        "dinner-meat-bbq-in-crockpot",
-        "dinner-meat-chicken-wings",
+        "dinner-meat-bbq-in-crockpot"
+      ]
+    },
+    {
+      "ingredient": "onion salt",
+      "recipe_ids": [
         "dinner-meat-fried-chicken"
+      ]
+    },
+    {
+      "ingredient": "onions",
+      "recipe_ids": [
+        "dinner-meat-round-steak-stroganoff",
+        "dinner-rice-or-pasta-spaghetti",
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
       ]
     },
     {
@@ -2426,15 +2695,10 @@
       "recipe_ids": [
         "breakfast-meat-white-chicken-chili",
         "dinner-meat-chili",
+        "dinner-meat-fried-chicken",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
         "dinner-soup-or-stew-suggested-black-bean-soup"
-      ]
-    },
-    {
-      "ingredient": "oyster crackers",
-      "recipe_ids": [
-        "dinner-soup-or-stew-suggested-clam-chowder"
       ]
     },
     {
@@ -2458,9 +2722,15 @@
       ]
     },
     {
-      "ingredient": "packet instant yeast",
+      "ingredient": "packet fajita seasoning",
       "recipe_ids": [
-        "dinner-baked-casserole-homemade-pizza"
+        "dinner-rice-or-pasta-homemade-mac-n-cheese"
+      ]
+    },
+    {
+      "ingredient": "palm sugar",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
       ]
     },
     {
@@ -2479,13 +2749,8 @@
       "ingredient": "paprika",
       "recipe_ids": [
         "dinner-bowls-suggested-chicken-tikka-masala",
+        "dinner-meat-fried-chicken",
         "dinner-meat-suggested-butter-chicken"
-      ]
-    },
-    {
-      "ingredient": "parmesan cheese",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-spaghetti"
       ]
     },
     {
@@ -2502,7 +2767,9 @@
         "dinner-meat-suggested-lamb-kofta-with-tzatziki",
         "dinner-rice-or-pasta-hamburger-stroganoff",
         "dinner-rice-or-pasta-salmon-and-rice",
-        "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta"
+        "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta",
+        "dinner-soup-or-stew-suggested-clam-chowder",
+        "lunch-handheld-suggested-egg-salad-sandwich"
       ]
     },
     {
@@ -2520,10 +2787,7 @@
     {
       "ingredient": "parsley for garnish",
       "recipe_ids": [
-        "dinner-meat-round-steak-stroganoff",
         "dinner-meat-steak-kabobs-deconstructed",
-        "dinner-meat-stew",
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
         "dinner-rice-or-pasta-suggested-mushroom-risotto",
         "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
         "dinner-soup-or-stew-chicken-wild-rice-soup",
@@ -2531,16 +2795,16 @@
       ]
     },
     {
-      "ingredient": "parsley or cilantro for garnish",
-      "recipe_ids": [
-        "dinner-vegetarian-suggested-shakshuka"
-      ]
-    },
-    {
       "ingredient": "pasta",
       "recipe_ids": [
         "dinner-meat-chicken-parm",
         "dinner-rice-or-pasta-suggested-caprese-pasta"
+      ]
+    },
+    {
+      "ingredient": "peas",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
       ]
     },
     {
@@ -2562,9 +2826,15 @@
       ]
     },
     {
-      "ingredient": "pita bread",
+      "ingredient": "pinch baking powder",
       "recipe_ids": [
-        "lunch-bowls-suggested-greek-salad-with-chicken"
+        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
+      ]
+    },
+    {
+      "ingredient": "pinch cayenne pepper",
+      "recipe_ids": [
+        "lunch-bowls-suggested-asian-noodle-salad"
       ]
     },
     {
@@ -2581,9 +2851,9 @@
       ]
     },
     {
-      "ingredient": "pizza sauce or marinara",
+      "ingredient": "plain flour",
       "recipe_ids": [
-        "dinner-baked-casserole-homemade-pizza"
+        "dinner-meat-round-steak-stroganoff"
       ]
     },
     {
@@ -2596,9 +2866,27 @@
       ]
     },
     {
+      "ingredient": "pork",
+      "recipe_ids": [
+        "dinner-meat-pork-chops"
+      ]
+    },
+    {
       "ingredient": "pork shoulder or pork butt",
       "recipe_ids": [
         "dinner-meat-bbq-in-crockpot"
+      ]
+    },
+    {
+      "ingredient": "pot sour cream",
+      "recipe_ids": [
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
+      ]
+    },
+    {
+      "ingredient": "potatoes",
+      "recipe_ids": [
+        "dinner-meat-pork-chops"
       ]
     },
     {
@@ -2608,18 +2896,17 @@
       ]
     },
     {
+      "ingredient": "quarts neutral frying oil",
+      "recipe_ids": [
+        "dinner-meat-fried-chicken"
+      ]
+    },
+    {
       "ingredient": "red bell pepper",
       "recipe_ids": [
         "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
         "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
-        "dinner-vegetarian-suggested-shakshuka",
         "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu"
-      ]
-    },
-    {
-      "ingredient": "red bell pepper thinly",
-      "recipe_ids": [
-        "lunch-bowls-suggested-asian-noodle-salad"
       ]
     },
     {
@@ -2629,9 +2916,11 @@
       ]
     },
     {
-      "ingredient": "red chili powder",
+      "ingredient": "red chilli",
       "recipe_ids": [
-        "dinner-soup-or-stew-suggested-dal-tadka"
+        "dinner-meat-stew",
+        "lunch-bowls-suggested-asian-noodle-salad",
+        "lunch-bowls-suggested-greek-salad-with-chicken"
       ]
     },
     {
@@ -2660,21 +2949,24 @@
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-chicken",
         "breakfast-meat-greek-pitas-with-turkey-meat",
-        "lunch-bowls-suggested-greek-salad-with-chicken",
         "lunch-handheld-suggested-turkey-and-avocado-wrap"
       ]
     },
     {
-      "ingredient": "red or yellow lentils rinsed",
+      "ingredient": "red onions",
       "recipe_ids": [
-        "dinner-soup-or-stew-suggested-dal-tadka"
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
+        "dinner-vegetarian-suggested-shakshuka",
+        "lunch-bowls-suggested-asian-noodle-salad",
+        "lunch-bowls-suggested-greek-salad-with-chicken"
       ]
     },
     {
       "ingredient": "red pepper",
       "recipe_ids": [
         "dinner-soup-or-stew-chicken-tortilla-soup",
-        "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot"
+        "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
+        "dinner-soup-or-stew-suggested-dal-tadka"
       ]
     },
     {
@@ -2697,8 +2989,7 @@
       "ingredient": "red wine vinegar",
       "recipe_ids": [
         "dinner-meat-grilled-chicken-with-potato-salad",
-        "dinner-meat-steak-kabobs-deconstructed",
-        "lunch-bowls-suggested-greek-salad-with-chicken"
+        "dinner-meat-steak-kabobs-deconstructed"
       ]
     },
     {
@@ -2727,12 +3018,6 @@
       ]
     },
     {
-      "ingredient": "rice noodles or soba noodles",
-      "recipe_ids": [
-        "lunch-bowls-suggested-asian-noodle-salad"
-      ]
-    },
-    {
       "ingredient": "rice or quinoa cooked",
       "recipe_ids": [
         "dinner-bowls-salmon-veggie-bowls"
@@ -2744,8 +3029,7 @@
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
         "dinner-bowls-salmon-veggie-bowls",
         "dinner-bowls-suggested-teriyaki-salmon-bowls",
-        "dinner-rice-or-pasta-suggested-dan-dan-noodles",
-        "lunch-bowls-suggested-asian-noodle-salad"
+        "dinner-rice-or-pasta-suggested-dan-dan-noodles"
       ]
     },
     {
@@ -2764,7 +3048,6 @@
       "ingredient": "ricotta cheese",
       "recipe_ids": [
         "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
-        "dinner-rice-or-pasta-lasagne",
         "dinner-rice-or-pasta-penne-lasagne",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne"
       ]
@@ -2782,34 +3065,15 @@
       ]
     },
     {
-      "ingredient": "ripe bananas mashed",
-      "recipe_ids": [
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
-      ]
-    },
-    {
-      "ingredient": "roasted peanuts",
-      "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
-        "lunch-bowls-suggested-asian-noodle-salad"
-      ]
-    },
-    {
       "ingredient": "roasted peanuts for garnish",
       "recipe_ids": [
         "dinner-rice-or-pasta-suggested-dan-dan-noodles"
       ]
     },
     {
-      "ingredient": "rolled oats",
+      "ingredient": "sage",
       "recipe_ids": [
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
-      ]
-    },
-    {
-      "ingredient": "round steak thinly",
-      "recipe_ids": [
-        "dinner-meat-round-steak-stroganoff"
+        "dinner-meat-fried-chicken"
       ]
     },
     {
@@ -2817,8 +3081,7 @@
       "recipe_ids": [
         "dinner-bowls-salmon-veggie-bowls",
         "dinner-bowls-suggested-teriyaki-salmon-bowls",
-        "dinner-rice-or-pasta-salmon-and-rice",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus"
+        "dinner-rice-or-pasta-salmon-and-rice"
       ]
     },
     {
@@ -2830,19 +3093,17 @@
     {
       "ingredient": "salt",
       "recipe_ids": [
-        "breakfast-baked-casserole-big-daddy-biscuits",
         "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
         "breakfast-baked-casserole-pineapple-zucchini-muffin",
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes",
-        "dinner-baked-casserole-homemade-pizza",
         "dinner-bowls-suggested-chicken-tikka-masala",
         "dinner-bowls-suggested-vegetable-curry",
         "dinner-meat-bbq-in-crockpot",
-        "dinner-meat-chicken-wings",
         "dinner-meat-fried-chicken",
         "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
         "dinner-meat-suggested-butter-chicken",
         "dinner-rice-or-pasta-hamburger-stroganoff",
+        "dinner-rice-or-pasta-homemade-mac-n-cheese",
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
         "dinner-soup-or-stew-suggested-dal-tadka",
@@ -2867,7 +3128,6 @@
         "dinner-bowls-salmon-veggie-bowls",
         "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
         "dinner-handheld-lettuce-wraps",
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-sausage-and-peppers",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
         "dinner-meat-braised-short-ribs",
@@ -2877,21 +3137,14 @@
         "dinner-meat-chili",
         "dinner-meat-deconstructed-steak-sandwiches-with-cheese",
         "dinner-meat-grilled-chicken-with-potato-salad",
-        "dinner-meat-pork-chops",
-        "dinner-meat-round-steak-stroganoff",
         "dinner-meat-steak-kabobs-deconstructed",
-        "dinner-meat-stew",
         "dinner-meat-suggested-caprese-stuffed-chicken",
         "dinner-meat-suggested-japanese-chicken-katsu",
         "dinner-meat-suggested-lamb-kofta-with-tzatziki",
         "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
-        "dinner-rice-or-pasta-homemade-mac-n-cheese",
-        "dinner-rice-or-pasta-lasagne",
-        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
         "dinner-rice-or-pasta-penne-lasagne",
         "dinner-rice-or-pasta-salmon-and-rice",
         "dinner-rice-or-pasta-suggested-caprese-pasta",
-        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta",
         "dinner-rice-or-pasta-suggested-mushroom-risotto",
         "dinner-rice-or-pasta-suggested-one-pot-chicken-and-rice",
@@ -2899,19 +3152,13 @@
         "dinner-rice-or-pasta-tortellini-with-pesto-and-shrimp-and-spinach",
         "dinner-rice-or-pasta-tortellini-with-sausage-spinach-mushrooms-lemon",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus",
         "dinner-seafood-suggested-mediterranean-baked-cod",
         "dinner-soup-or-stew-cheddar-broccoli-soup",
         "dinner-soup-or-stew-chicken-wild-rice-soup",
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
         "dinner-soup-or-stew-suggested-black-bean-soup",
         "dinner-soup-or-stew-suggested-butternut-squash-soup",
-        "dinner-soup-or-stew-suggested-clam-chowder",
-        "dinner-vegetarian-suggested-shakshuka",
-        "lunch-bowls-suggested-greek-salad-with-chicken",
         "lunch-handheld-suggested-black-bean-tacos",
         "lunch-handheld-suggested-blt-sandwich",
-        "lunch-handheld-suggested-egg-salad-sandwich",
         "lunch-handheld-suggested-quesadillas",
         "lunch-handheld-suggested-tuna-salad-sandwich",
         "lunch-handheld-suggested-turkey-and-avocado-wrap",
@@ -2930,12 +3177,10 @@
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
         "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-handheld-lettuce-wraps",
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
         "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
-        "dinner-soup-or-stew-suggested-miso-soup-with-tofu-and-vegetables",
-        "lunch-bowls-suggested-asian-noodle-salad"
+        "dinner-soup-or-stew-suggested-miso-soup-with-tofu-and-vegetables"
       ]
     },
     {
@@ -2947,18 +3192,22 @@
         "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-handheld-lettuce-wraps",
         "dinner-meat-beef-and-broccoli",
-        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
         "dinner-soup-or-stew-suggested-miso-soup-with-tofu-and-vegetables",
         "dinner-vegetarian-stir-fry",
-        "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu",
-        "lunch-bowls-suggested-asian-noodle-salad"
+        "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu"
       ]
     },
     {
       "ingredient": "sesame oil toasted",
       "recipe_ids": [
         "dinner-soup-or-stew-wonton-soup"
+      ]
+    },
+    {
+      "ingredient": "sesame seed oil",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables"
       ]
     },
     {
@@ -2974,7 +3223,6 @@
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
         "dinner-bowls-suggested-teriyaki-salmon-bowls",
         "dinner-meat-beef-and-broccoli",
-        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
         "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu"
       ]
@@ -2994,14 +3242,18 @@
     {
       "ingredient": "sharp cheddar cheese shredded",
       "recipe_ids": [
-        "dinner-rice-or-pasta-homemade-mac-n-cheese",
         "dinner-soup-or-stew-cheddar-broccoli-soup"
+      ]
+    },
+    {
+      "ingredient": "sherry vinegar",
+      "recipe_ids": [
+        "lunch-handheld-suggested-egg-salad-sandwich"
       ]
     },
     {
       "ingredient": "shredded cabbage",
       "recipe_ids": [
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw"
       ]
     },
@@ -3009,12 +3261,6 @@
       "ingredient": "shredded cabbage and steamed rice",
       "recipe_ids": [
         "dinner-meat-suggested-japanese-chicken-katsu"
-      ]
-    },
-    {
-      "ingredient": "shredded carrots",
-      "recipe_ids": [
-        "lunch-bowls-suggested-asian-noodle-salad"
       ]
     },
     {
@@ -3043,6 +3289,18 @@
       ]
     },
     {
+      "ingredient": "shredded ginger",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-dal-tadka"
+      ]
+    },
+    {
+      "ingredient": "shredded little gem lettuce",
+      "recipe_ids": [
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
+      ]
+    },
+    {
       "ingredient": "shredded mexican cheese blend",
       "recipe_ids": [
         "dinner-baked-casserole-suggested-black-bean-enchiladas",
@@ -3065,18 +3323,16 @@
       "ingredient": "shredded mozzarella cheese",
       "recipe_ids": [
         "breakfast-vegetarian-spicy-pesto-and-cheese-stuffed-zucchini-involtin",
-        "dinner-baked-casserole-homemade-pizza",
         "dinner-baked-casserole-suggested-eggplant-parmesan",
         "dinner-meat-chicken-parm",
-        "dinner-rice-or-pasta-lasagne",
         "dinner-rice-or-pasta-penne-lasagne",
         "dinner-rice-or-pasta-zucchini-and-squash-lasagne"
       ]
     },
     {
-      "ingredient": "shredded purple cabbage",
+      "ingredient": "shredded spring onions",
       "recipe_ids": [
-        "lunch-bowls-suggested-asian-noodle-salad"
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
       ]
     },
     {
@@ -3098,9 +3354,9 @@
       ]
     },
     {
-      "ingredient": "slices bacon",
+      "ingredient": "sirloin steak",
       "recipe_ids": [
-        "dinner-soup-or-stew-suggested-clam-chowder"
+        "lunch-bowls-suggested-asian-noodle-salad"
       ]
     },
     {
@@ -3111,21 +3367,9 @@
       ]
     },
     {
-      "ingredient": "slices bread or croissants",
-      "recipe_ids": [
-        "lunch-handheld-suggested-egg-salad-sandwich"
-      ]
-    },
-    {
       "ingredient": "slices cheddar or american cheese",
       "recipe_ids": [
         "dinner-meat-cheeseburgers"
-      ]
-    },
-    {
-      "ingredient": "slices cheddar or gruyere cheese",
-      "recipe_ids": [
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
       ]
     },
     {
@@ -3141,23 +3385,34 @@
       ]
     },
     {
-      "ingredient": "slices thick-cut bread",
-      "recipe_ids": [
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
-      ]
-    },
-    {
       "ingredient": "slices thick-cut bread toasted",
       "recipe_ids": [
         "breakfast-vegetarian-suggested-avocado-toast-with-egg"
       ]
     },
     {
+      "ingredient": "small birds-eye chillies",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
+      ]
+    },
+    {
       "ingredient": "small corn or flour tortillas",
       "recipe_ids": [
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
         "lunch-handheld-suggested-black-bean-tacos"
+      ]
+    },
+    {
+      "ingredient": "small finely onion",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-homemade-mac-n-cheese"
+      ]
+    },
+    {
+      "ingredient": "small lettuce",
+      "recipe_ids": [
+        "lunch-bowls-suggested-asian-noodle-salad"
       ]
     },
     {
@@ -3165,22 +3420,15 @@
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-turkey-meat",
         "dinner-bowls-chipotle-bowls",
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw",
         "dinner-meat-bbq-in-crockpot",
-        "dinner-meat-chicken-wings",
         "dinner-meat-chili",
-        "dinner-meat-fried-chicken",
         "dinner-meat-grilled-chicken-with-potato-salad",
-        "dinner-meat-pork-chops",
         "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
         "dinner-meat-steak-kabobs-deconstructed",
         "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables",
-        "dinner-rice-or-pasta-homemade-mac-n-cheese",
         "dinner-rice-or-pasta-suggested-one-pot-chicken-and-rice",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus",
         "dinner-soup-or-stew-suggested-black-bean-soup",
-        "dinner-vegetarian-suggested-shakshuka",
         "lunch-handheld-suggested-black-bean-tacos",
         "lunch-soup-or-stew-suggested-lentil-soup"
       ]
@@ -3195,8 +3443,6 @@
       "ingredient": "sour cream",
       "recipe_ids": [
         "breakfast-meat-white-chicken-chili",
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
-        "dinner-meat-round-steak-stroganoff",
         "dinner-meat-tacos"
       ]
     },
@@ -3243,15 +3489,12 @@
         "dinner-meat-steak-kabobs-deconstructed",
         "dinner-meat-suggested-japanese-chicken-katsu",
         "dinner-rice-or-pasta-salmon-and-rice",
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
         "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
-        "dinner-seafood-suggested-baked-salmon-with-asparagus",
         "dinner-soup-or-stew-suggested-miso-soup-with-tofu-and-vegetables",
         "dinner-vegetarian-stir-fry",
-        "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu",
-        "lunch-bowls-suggested-asian-noodle-salad"
+        "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu"
       ]
     },
     {
@@ -3273,26 +3516,39 @@
       ]
     },
     {
-      "ingredient": "sprigs rosemary or thyme",
+      "ingredient": "spinkling feta",
       "recipe_ids": [
-        "dinner-meat-pork-chops"
+        "dinner-vegetarian-suggested-shakshuka"
+      ]
+    },
+    {
+      "ingredient": "spinkling vanilla extract",
+      "recipe_ids": [
+        "breakfast-baked-casserole-suggested-banana-oat-pancakes"
+      ]
+    },
+    {
+      "ingredient": "sprigs of thyme",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-clam-chowder"
       ]
     },
     {
       "ingredient": "sprigs thyme",
       "recipe_ids": [
-        "dinner-meat-braised-short-ribs",
-        "dinner-meat-stew",
-        "dinner-rice-or-pasta-spaghetti"
+        "dinner-meat-braised-short-ribs"
+      ]
+    },
+    {
+      "ingredient": "spring onions",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
       ]
     },
     {
       "ingredient": "sriracha",
       "recipe_ids": [
-        "dinner-handheld-lettuce-wraps",
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai",
-        "dinner-soup-or-stew-suggested-vietnamese-pho",
-        "lunch-bowls-suggested-asian-noodle-salad"
+        "dinner-handheld-lettuce-wraps"
       ]
     },
     {
@@ -3302,20 +3558,12 @@
         "dinner-meat-grilled-chicken-with-potato-salad",
         "dinner-soup-or-stew-chicken-wild-rice-soup",
         "dinner-soup-or-stew-suggested-black-bean-soup",
-        "dinner-soup-or-stew-suggested-clam-chowder",
         "lunch-soup-or-stew-suggested-lentil-soup"
-      ]
-    },
-    {
-      "ingredient": "stalks celery cut into -inch pieces",
-      "recipe_ids": [
-        "dinner-meat-stew"
       ]
     },
     {
       "ingredient": "stalks celery finely",
       "recipe_ids": [
-        "lunch-handheld-suggested-egg-salad-sandwich",
         "lunch-handheld-suggested-tuna-salad-sandwich"
       ]
     },
@@ -3326,12 +3574,32 @@
       ]
     },
     {
+      "ingredient": "stick celery",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "sticks celery",
+      "recipe_ids": [
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
+      ]
+    },
+    {
       "ingredient": "sugar",
       "recipe_ids": [
-        "dinner-baked-casserole-homemade-pizza",
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup",
-        "dinner-soup-or-stew-suggested-vietnamese-pho",
+        "dinner-bowls-suggested-thai-green-curry",
+        "dinner-meat-pork-chops",
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice",
+        "dinner-soup-or-stew-suggested-dal-tadka",
         "dinner-soup-or-stew-wonton-soup"
+      ]
+    },
+    {
+      "ingredient": "sunflower oil",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry",
+        "lunch-bowls-suggested-asian-noodle-salad"
       ]
     },
     {
@@ -3360,9 +3628,119 @@
       ]
     },
     {
-      "ingredient": "tamarind paste",
+      "ingredient": "tbls olive oil",
       "recipe_ids": [
-        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
+        "dinner-meat-round-steak-stroganoff"
+      ]
+    },
+    {
+      "ingredient": "tbls plain flour",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-clam-chowder"
+      ]
+    },
+    {
+      "ingredient": "tbls tomato puree",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "tblsp coriander leaves",
+      "recipe_ids": [
+        "dinner-meat-stew"
+      ]
+    },
+    {
+      "ingredient": "tblsp golden syrup",
+      "recipe_ids": [
+        "breakfast-baked-casserole-big-daddy-biscuits"
+      ]
+    },
+    {
+      "ingredient": "tblsp honey",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "tblsp olive oil",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "tblsp sesame seed",
+      "recipe_ids": [
+        "lunch-bowls-suggested-asian-noodle-salad"
+      ]
+    },
+    {
+      "ingredient": "tblsp soy sauce",
+      "recipe_ids": [
+        "dinner-meat-stew"
+      ]
+    },
+    {
+      "ingredient": "tblsp sugar",
+      "recipe_ids": [
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
+      ]
+    },
+    {
+      "ingredient": "tblsp tomato puree",
+      "recipe_ids": [
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
+      ]
+    },
+    {
+      "ingredient": "tblsp vegetable oil",
+      "recipe_ids": [
+        "dinner-meat-stew"
+      ]
+    },
+    {
+      "ingredient": "tblsp white vinegar",
+      "recipe_ids": [
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
+      ]
+    },
+    {
+      "ingredient": "tbs caster sugar",
+      "recipe_ids": [
+        "dinner-vegetarian-suggested-shakshuka"
+      ]
+    },
+    {
+      "ingredient": "tbs cilantro",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-dal-tadka"
+      ]
+    },
+    {
+      "ingredient": "tbs ghee",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-dal-tadka"
+      ]
+    },
+    {
+      "ingredient": "tbs green chilli",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-dal-tadka"
+      ]
+    },
+    {
+      "ingredient": "tbs olive oil",
+      "recipe_ids": [
+        "dinner-seafood-suggested-baked-salmon-with-asparagus",
+        "dinner-vegetarian-suggested-shakshuka",
+        "lunch-bowls-suggested-greek-salad-with-chicken"
+      ]
+    },
+    {
+      "ingredient": "tbs parsley",
+      "recipe_ids": [
+        "dinner-seafood-suggested-baked-salmon-with-asparagus"
       ]
     },
     {
@@ -3375,6 +3753,12 @@
       "ingredient": "tbsp light soy sauce",
       "recipe_ids": [
         "dinner-soup-or-stew-wonton-soup"
+      ]
+    },
+    {
+      "ingredient": "tbsp soy sauce",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-vietnamese-pho"
       ]
     },
     {
@@ -3408,6 +3792,18 @@
       ]
     },
     {
+      "ingredient": "thai fish sauce",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry"
+      ]
+    },
+    {
+      "ingredient": "thai green curry paste",
+      "recipe_ids": [
+        "dinner-bowls-suggested-thai-green-curry"
+      ]
+    },
+    {
       "ingredient": "thinly shredded lettuce",
       "recipe_ids": [
         "dinner-meat-tacos"
@@ -3420,6 +3816,30 @@
       ]
     },
     {
+      "ingredient": "to serve black olives",
+      "recipe_ids": [
+        "dinner-seafood-suggested-baked-salmon-with-asparagus"
+      ]
+    },
+    {
+      "ingredient": "to serve lime",
+      "recipe_ids": [
+        "dinner-meat-stew"
+      ]
+    },
+    {
+      "ingredient": "to serve pita bread",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice"
+      ]
+    },
+    {
+      "ingredient": "to serve sweet chilli sauce",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-suggested-chicken-pad-thai"
+      ]
+    },
+    {
       "ingredient": "toasted pumpkin seeds and cream for garnish",
       "recipe_ids": [
         "dinner-soup-or-stew-suggested-butternut-squash-soup"
@@ -3429,11 +3849,13 @@
       "ingredient": "tomato paste",
       "recipe_ids": [
         "dinner-meat-braised-short-ribs",
-        "dinner-meat-round-steak-stroganoff",
-        "dinner-meat-stew",
         "dinner-meat-tacos",
-        "dinner-rice-or-pasta-hamburger-stroganoff",
-        "dinner-rice-or-pasta-lasagne",
+        "dinner-rice-or-pasta-hamburger-stroganoff"
+      ]
+    },
+    {
+      "ingredient": "tomato puree",
+      "recipe_ids": [
         "dinner-rice-or-pasta-spaghetti"
       ]
     },
@@ -3456,15 +3878,33 @@
       ]
     },
     {
+      "ingredient": "toor dal",
+      "recipe_ids": [
+        "dinner-soup-or-stew-suggested-dal-tadka"
+      ]
+    },
+    {
       "ingredient": "toothpicks for securing",
       "recipe_ids": [
         "dinner-meat-suggested-caprese-stuffed-chicken"
       ]
     },
     {
-      "ingredient": "toppings of choice pepperoni bell peppers onion mushrooms olives",
+      "ingredient": "topping basil leaves",
       "recipe_ids": [
-        "dinner-baked-casserole-homemade-pizza"
+        "dinner-rice-or-pasta-lasagne"
+      ]
+    },
+    {
+      "ingredient": "topping parmesan",
+      "recipe_ids": [
+        "dinner-rice-or-pasta-spaghetti"
+      ]
+    },
+    {
+      "ingredient": "topping parsley",
+      "recipe_ids": [
+        "dinner-meat-round-steak-stroganoff"
       ]
     },
     {
@@ -3495,18 +3935,10 @@
     {
       "ingredient": "unsalted butter",
       "recipe_ids": [
-        "dinner-rice-or-pasta-homemade-mac-n-cheese",
         "dinner-rice-or-pasta-salmon-and-rice",
         "dinner-rice-or-pasta-suggested-garlic-butter-shrimp-with-pasta",
         "dinner-soup-or-stew-cheddar-broccoli-soup",
-        "dinner-soup-or-stew-chicken-wild-rice-soup",
-        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
-      ]
-    },
-    {
-      "ingredient": "unsalted butter melted",
-      "recipe_ids": [
-        "dinner-meat-chicken-wings"
+        "dinner-soup-or-stew-chicken-wild-rice-soup"
       ]
     },
     {
@@ -3514,7 +3946,6 @@
       "recipe_ids": [
         "breakfast-baked-casserole-flourless-chickpea-peanut-butter-muffins",
         "breakfast-baked-casserole-pineapple-zucchini-muffin",
-        "breakfast-baked-casserole-suggested-banana-oat-pancakes",
         "breakfast-bowls-suggested-greek-yogurt-parfait"
       ]
     },
@@ -3522,16 +3953,15 @@
       "ingredient": "vegetable oil",
       "recipe_ids": [
         "dinner-bowls-suggested-korean-beef-bulgogi-bowls",
-        "dinner-bowls-suggested-thai-green-curry",
         "dinner-bowls-suggested-vegetable-curry",
         "dinner-handheld-lettuce-wraps",
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-meat-beef-and-broccoli",
         "dinner-meat-deconstructed-steak-sandwiches-with-cheese",
+        "dinner-meat-pork-chops",
         "dinner-rice-or-pasta-suggested-chicken-pad-thai",
         "dinner-rice-or-pasta-suggested-dan-dan-noodles",
-        "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables",
         "dinner-rice-or-pasta-suggested-shrimp-fried-rice",
-        "dinner-soup-or-stew-suggested-dal-tadka",
         "dinner-vegetarian-stir-fry",
         "dinner-vegetarian-suggested-aloo-gobi",
         "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu"
@@ -3540,7 +3970,6 @@
     {
       "ingredient": "vegetable oil for frying",
       "recipe_ids": [
-        "dinner-meat-fried-chicken",
         "dinner-meat-suggested-japanese-chicken-katsu"
       ]
     },
@@ -3551,9 +3980,9 @@
       ]
     },
     {
-      "ingredient": "vegetables",
+      "ingredient": "vegetable stock cube",
       "recipe_ids": [
-        "dinner-bowls-suggested-thai-green-curry"
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
       ]
     },
     {
@@ -3563,16 +3992,11 @@
       ]
     },
     {
-      "ingredient": "warm water",
-      "recipe_ids": [
-        "dinner-baked-casserole-homemade-pizza"
-      ]
-    },
-    {
       "ingredient": "water",
       "recipe_ids": [
         "breakfast-meat-peanut-chicken-lettuce-wraps-with-ginger-garlic-sauce",
         "dinner-meat-beef-and-broccoli",
+        "dinner-soup-or-stew-suggested-dal-tadka",
         "dinner-vegetarian-stir-fry",
         "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu"
       ]
@@ -3584,36 +4008,22 @@
       ]
     },
     {
-      "ingredient": "water or vegetable broth",
-      "recipe_ids": [
-        "dinner-soup-or-stew-suggested-dal-tadka"
-      ]
-    },
-    {
-      "ingredient": "white fish fillets",
-      "recipe_ids": [
-        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
-      ]
-    },
-    {
       "ingredient": "white or red miso paste",
       "recipe_ids": [
         "dinner-soup-or-stew-suggested-miso-soup-with-tofu-and-vegetables"
       ]
     },
     {
-      "ingredient": "white sugar",
+      "ingredient": "whole chicken",
       "recipe_ids": [
-        "breakfast-baked-casserole-big-daddy-biscuits",
-        "dinner-rice-or-pasta-spaghetti"
+        "dinner-meat-fried-chicken"
       ]
     },
     {
       "ingredient": "whole milk",
       "recipe_ids": [
         "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
-        "dinner-rice-or-pasta-homemade-mac-n-cheese",
-        "dinner-soup-or-stew-suggested-clam-chowder"
+        "dinner-soup-or-stew-grilled-cheese-and-tomato-soup"
       ]
     },
     {
@@ -3628,11 +4038,15 @@
         "dinner-meat-bbq-in-crockpot",
         "dinner-meat-cheeseburgers",
         "dinner-meat-deconstructed-steak-sandwiches-with-cheese",
-        "dinner-meat-round-steak-stroganoff",
         "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
         "dinner-meat-steak-kabobs-deconstructed",
-        "dinner-meat-stew",
         "dinner-rice-or-pasta-spaghetti"
+      ]
+    },
+    {
+      "ingredient": "x salsa",
+      "recipe_ids": [
+        "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw"
       ]
     },
     {
@@ -3675,6 +4089,18 @@
       ]
     },
     {
+      "ingredient": "zest and juice of lemon",
+      "recipe_ids": [
+        "dinner-meat-chicken-wings"
+      ]
+    },
+    {
+      "ingredient": "zest and juice of lime",
+      "recipe_ids": [
+        "lunch-bowls-suggested-asian-noodle-salad"
+      ]
+    },
+    {
       "ingredient": "zest of lemon",
       "recipe_ids": [
         "dinner-rice-or-pasta-salmon-and-rice",
@@ -3686,6 +4112,7 @@
       "ingredient": "zucchini",
       "recipe_ids": [
         "dinner-bowls-suggested-roasted-vegetable-grain-bowls",
+        "dinner-meat-pork-chops",
         "dinner-meat-suggested-sheet-pan-chicken-thighs-and-vegetables"
       ]
     }

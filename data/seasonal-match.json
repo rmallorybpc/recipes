@@ -1,244 +1,10 @@
 {
-  "generatedAt": "2026-04-21T20:58:27.181Z",
+  "generatedAt": "2026-04-22T14:49:38.260Z",
   "region": "colorado",
   "regionLabel": "Colorado",
   "totalRecipes": 98,
-  "matchedRecipes": 94,
+  "matchedRecipes": 95,
   "recipes": [
-    {
-      "title": "Stew",
-      "meal": "dinner",
-      "style": "meat",
-      "source": "https://www.seriouseats.com/old-fashioned-beef-stew",
-      "seasonalIngredients": [
-        {
-          "ingredient": "carrots",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "4 carrots, cut into 1-inch pieces"
-        },
-        {
-          "ingredient": "celery",
-          "peak": [
-            9
-          ],
-          "available": [
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "4 stalks celery, cut into 1-inch pieces"
-        },
-        {
-          "ingredient": "potatoes",
-          "peak": [
-            9,
-            10
-          ],
-          "available": [
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 medium potatoes, cut into 2-inch cubes"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "4 cloves garlic, minced"
-        },
-        {
-          "ingredient": "thyme",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "2 sprigs fresh thyme"
-        },
-        {
-          "ingredient": "parsley",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "fresh parsley for garnish"
-        }
-      ],
-      "bestMonths": [
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "availableMonths": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 6
-    },
-    {
-      "title": "Suggested - Asian noodle salad",
-      "meal": "lunch",
-      "style": "bowls",
-      "source": "https://www.allrecipes.com/recipe/237310/cold-asian-noodle-salad/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "cabbage",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "2 cups shredded purple cabbage"
-        },
-        {
-          "ingredient": "carrots",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "1 cup shredded carrots"
-        },
-        {
-          "ingredient": "peppers",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1 red bell pepper, thinly sliced"
-        },
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 scallions, sliced"
-        },
-        {
-          "ingredient": "cilantro",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1/4 cup fresh cilantro, chopped"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "2 cloves garlic, minced"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 6
-    },
     {
       "title": "Suggested - Roasted vegetable grain bowls",
       "meal": "dinner",
@@ -743,6 +509,191 @@
       ],
       "availableMonths": [
         5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 5
+    },
+    {
+      "title": "Grilled cheese and tomato soup",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "https://www.themealdb.com/meal/52841",
+      "seasonalIngredients": [
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 chopped Onions"
+        },
+        {
+          "ingredient": "celery",
+          "peak": [
+            9
+          ],
+          "available": [
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "2 sticks Celery"
+        },
+        {
+          "ingredient": "carrots",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "300g Carrots"
+        },
+        {
+          "ingredient": "potatoes",
+          "peak": [
+            9,
+            10
+          ],
+          "available": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "500g Potatoes"
+        },
+        {
+          "ingredient": "tomatoes",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1½ kg Chopped Tomatoes"
+        }
+      ],
+      "bestMonths": [
+        9
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 5
+    },
+    {
+      "title": "Lasagne",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "https://www.themealdb.com/meal/52844",
+      "seasonalIngredients": [
+        {
+          "ingredient": "celery",
+          "peak": [
+            9
+          ],
+          "available": [
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1 Stick Celery"
+        },
+        {
+          "ingredient": "carrots",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "1 medium Carrots"
+        },
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 cloves chopped Garlic"
+        },
+        {
+          "ingredient": "tomatoes",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "800g Chopped Tomatoes"
+        },
+        {
+          "ingredient": "basil",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "Topping Basil Leaves"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "availableMonths": [
         6,
         7,
         8,
@@ -1497,19 +1448,23 @@
       "title": "Meatballs with zucchini and rice",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "https://www.budgetbytes.com/baked-meatballs/",
+      "source": "https://www.themealdb.com/meal/53277",
       "seasonalIngredients": [
         {
-          "ingredient": "zucchini",
+          "ingredient": "onions",
           "peak": [
-            8
+            8,
+            9,
+            10
           ],
           "available": [
             7,
             8,
-            9
+            9,
+            10,
+            11
           ],
-          "matchedTerm": "2 medium zucchini, diced"
+          "matchedTerm": "2 chopped Red Onions"
         },
         {
           "ingredient": "garlic",
@@ -1524,43 +1479,42 @@
             10,
             11
           ],
-          "matchedTerm": "3 cloves garlic, minced"
+          "matchedTerm": "4 Cloves Crushed Garlic"
         },
         {
-          "ingredient": "tomatoes",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1 can diced tomatoes (14 oz)"
-        },
-        {
-          "ingredient": "parsley",
+          "ingredient": "mint",
           "peak": [
             6,
             7,
-            8,
-            9
+            8
           ],
           "available": [
             5,
             6,
             7,
             8,
-            9,
-            10
+            9
           ],
-          "matchedTerm": "fresh parsley for garnish"
+          "matchedTerm": "10g Mint"
+        },
+        {
+          "ingredient": "apricots",
+          "peak": [
+            7
+          ],
+          "available": [
+            7,
+            8
+          ],
+          "matchedTerm": "8 Dried Apricots"
         }
       ],
       "bestMonths": [
-        8
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "availableMonths": [
         5,
@@ -1647,6 +1601,83 @@
       "availableMonths": [
         5,
         6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 4
+    },
+    {
+      "title": "Pork chops",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "https://www.themealdb.com/meal/52994",
+      "seasonalIngredients": [
+        {
+          "ingredient": "potatoes",
+          "peak": [
+            9,
+            10
+          ],
+          "available": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 Potatoes"
+        },
+        {
+          "ingredient": "apples",
+          "peak": [
+            9,
+            10
+          ],
+          "available": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "1 Apples"
+        },
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 cloves Garlic"
+        },
+        {
+          "ingredient": "zucchini",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "1 Zucchini"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "availableMonths": [
         7,
         8,
         9,
@@ -1819,90 +1850,6 @@
       "seasonalScore": 4
     },
     {
-      "title": "Suggested - Clam chowder",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "source": "https://www.allrecipes.com/recipe/13109/new-england-clam-chowder-i/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "potatoes",
-          "peak": [
-            9,
-            10
-          ],
-          "available": [
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 medium potatoes, diced"
-        },
-        {
-          "ingredient": "celery",
-          "peak": [
-            9
-          ],
-          "available": [
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "3 stalks celery, diced"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 cloves garlic, minced"
-        },
-        {
-          "ingredient": "thyme",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1 teaspoon dried thyme"
-        }
-      ],
-      "bestMonths": [
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "availableMonths": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 4
-    },
-    {
       "title": "Suggested - Dan dan noodles",
       "meal": "dinner",
       "style": "rice-or-pasta",
@@ -1987,13 +1934,27 @@
       "seasonalScore": 4
     },
     {
-      "title": "Suggested - Fish tacos with cabbage slaw",
-      "meal": "dinner",
+      "title": "Suggested - Egg salad sandwich",
+      "meal": "lunch",
       "style": "handheld",
-      "source": "https://www.allrecipes.com/recipe/228285/fish-tacos/",
+      "source": "https://www.themealdb.com/meal/53157",
       "seasonalIngredients": [
         {
-          "ingredient": "corn",
+          "ingredient": "potatoes",
+          "peak": [
+            9,
+            10
+          ],
+          "available": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "500g Baby New Potatoes"
+        },
+        {
+          "ingredient": "green beans",
           "peak": [
             8
           ],
@@ -2002,14 +1963,13 @@
             8,
             9
           ],
-          "matchedTerm": "8 small corn or flour tortillas"
+          "matchedTerm": "225g Green Beans"
         },
         {
-          "ingredient": "cabbage",
+          "ingredient": "garlic",
           "peak": [
-            8,
-            9,
-            10
+            7,
+            8
           ],
           "available": [
             7,
@@ -2018,24 +1978,10 @@
             10,
             11
           ],
-          "matchedTerm": "2 cups shredded cabbage"
+          "matchedTerm": "1 sliced Garlic Clove"
         },
         {
-          "ingredient": "peppers",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1 jalapeno, minced"
-        },
-        {
-          "ingredient": "cilantro",
+          "ingredient": "parsley",
           "peak": [
             6,
             7,
@@ -2050,11 +1996,15 @@
             9,
             10
           ],
-          "matchedTerm": "1/4 cup fresh cilantro, chopped"
+          "matchedTerm": "2 tbsp chopped Parsley"
         }
       ],
       "bestMonths": [
-        8
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "availableMonths": [
         5,
@@ -2071,8 +2021,23 @@
       "title": "Suggested - Fried rice with egg and vegetables",
       "meal": "dinner",
       "style": "rice-or-pasta",
-      "source": "https://www.allrecipes.com/recipe/16954/fried-rice/",
+      "source": "https://www.themealdb.com/meal/53367",
       "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 cloves minced Garlic"
+        },
         {
           "ingredient": "carrots",
           "peak": [
@@ -2087,19 +2052,18 @@
             10,
             11
           ],
-          "matchedTerm": "1 cup frozen peas and carrots, thawed"
+          "matchedTerm": "1 large Carrots"
         },
         {
-          "ingredient": "corn",
+          "ingredient": "peas",
           "peak": [
-            8
+            6
           ],
           "available": [
-            7,
-            8,
-            9
+            6,
+            7
           ],
-          "matchedTerm": "1 cup corn kernels"
+          "matchedTerm": "2/3 Cup Peas"
         },
         {
           "ingredient": "onions",
@@ -2115,28 +2079,18 @@
             10,
             11
           ],
-          "matchedTerm": "3 scallions, sliced"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 cloves garlic, minced"
+          "matchedTerm": "2 sliced Scallions"
         }
       ],
       "bestMonths": [
-        8
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "availableMonths": [
+        6,
         7,
         8,
         9,
@@ -2381,88 +2335,6 @@
         8
       ],
       "availableMonths": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 4
-    },
-    {
-      "title": "Suggested - Shakshuka",
-      "meal": "dinner",
-      "style": "vegetarian",
-      "source": "https://www.allrecipes.com/recipe/267468/easy-shakshuka/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "tomatoes",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1 can crushed tomatoes (28 oz)"
-        },
-        {
-          "ingredient": "peppers",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1 red bell pepper, diced"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "4 cloves garlic, minced"
-        },
-        {
-          "ingredient": "cilantro",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "fresh parsley or cilantro for garnish"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        5,
         6,
         7,
         8,
@@ -2725,6 +2597,84 @@
       "seasonalScore": 4
     },
     {
+      "title": "Suggested - Thai green curry",
+      "meal": "dinner",
+      "style": "bowls",
+      "source": "https://www.themealdb.com/meal/52814",
+      "seasonalIngredients": [
+        {
+          "ingredient": "potatoes",
+          "peak": [
+            9,
+            10
+          ],
+          "available": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "225g new Potatoes"
+        },
+        {
+          "ingredient": "green beans",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "100g green beans"
+        },
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "1 clove garlic"
+        },
+        {
+          "ingredient": "basil",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "handfull basil"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "availableMonths": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 4
+    },
+    {
       "title": "Tacos",
       "meal": "dinner",
       "style": "meat",
@@ -2889,7 +2839,7 @@
       "title": "Beef and broccoli",
       "meal": "dinner",
       "style": "meat",
-      "source": "https://www.recipetineats.com/beef-and-broccoli/",
+      "source": "https://www.themealdb.com/meal/53366",
       "seasonalIngredients": [
         {
           "ingredient": "broccoli",
@@ -3279,6 +3229,69 @@
       "seasonalScore": 3
     },
     {
+      "title": "Fried chicken",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "https://www.themealdb.com/meal/52813",
+      "seasonalIngredients": [
+        {
+          "ingredient": "celery",
+          "peak": [
+            9
+          ],
+          "available": [
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1/2 teaspoon celery salt"
+        },
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "1/2 teaspoon garlic powder"
+        },
+        {
+          "ingredient": "basil",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "1/2 teaspoon basil"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "availableMonths": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 3
+    },
+    {
       "title": "Greek pitas with chicken",
       "meal": "breakfast",
       "style": "meat",
@@ -3410,132 +3423,6 @@
       "seasonalScore": 3
     },
     {
-      "title": "Grilled cheese and tomato soup",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "source": "https://www.seriouseats.com/cream-of-tomato-soup-from-scratch",
-      "seasonalIngredients": [
-        {
-          "ingredient": "tomatoes",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "2 cans whole peeled tomatoes (28 oz each)"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "4 cloves garlic, minced"
-        },
-        {
-          "ingredient": "basil",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "matchedTerm": "1/2 teaspoon dried basil"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 3
-    },
-    {
-      "title": "Lasagne",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "source": "https://www.recipetineats.com/the-best-lasagna/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "4 cloves garlic, minced"
-        },
-        {
-          "ingredient": "tomatoes",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1 can crushed tomatoes (28 oz)"
-        },
-        {
-          "ingredient": "basil",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "matchedTerm": "1 teaspoon dried basil"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 3
-    },
-    {
       "title": "Penne lasagne",
       "meal": "dinner",
       "style": "rice-or-pasta",
@@ -3599,11 +3486,27 @@
       "seasonalScore": 3
     },
     {
-      "title": "Spaghetti",
+      "title": "Round steak stroganoff",
       "meal": "dinner",
-      "style": "rice-or-pasta",
-      "source": "https://www.recipetineats.com/spaghetti-bolognese/",
+      "style": "meat",
+      "source": "https://www.themealdb.com/meal/52834",
       "seasonalIngredients": [
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "1 Onions"
+        },
         {
           "ingredient": "garlic",
           "peak": [
@@ -3617,25 +3520,7 @@
             10,
             11
           ],
-          "matchedTerm": "2  garlic cloves (, minced)"
-        },
-        {
-          "ingredient": "thyme",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "2  sprigs fresh thyme ((or 1/2 tsp dried thyme or oregano))"
+          "matchedTerm": "1 clove Garlic"
         },
         {
           "ingredient": "parsley",
@@ -3653,16 +3538,79 @@
             9,
             10
           ],
-          "matchedTerm": "Parmesan cheese (and finely chopped parsley (optional))"
+          "matchedTerm": "Topping Parsley"
         }
       ],
       "bestMonths": [
-        7,
         8
       ],
       "availableMonths": [
         5,
         6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 3
+    },
+    {
+      "title": "Spaghetti",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "https://www.themealdb.com/meal/52770",
+      "seasonalIngredients": [
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 onions"
+        },
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "1 clove garlic"
+        },
+        {
+          "ingredient": "tomatoes",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "400g can tomatoes"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
         7,
         8,
         9,
@@ -3786,76 +3734,6 @@
         8
       ],
       "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 3
-    },
-    {
-      "title": "Suggested - Baked salmon with asparagus",
-      "meal": "dinner",
-      "style": "seafood",
-      "source": "https://www.allrecipes.com/recipe/228285/baked-salmon-with-garlic-and-dijon/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "asparagus",
-          "peak": [
-            5,
-            6
-          ],
-          "available": [
-            5,
-            6
-          ],
-          "matchedTerm": "1 lb asparagus, trimmed"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 cloves garlic, minced"
-        },
-        {
-          "ingredient": "thyme",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1 teaspoon dried thyme"
-        }
-      ],
-      "bestMonths": [
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "availableMonths": [
-        5,
-        6,
         7,
         8,
         9,
@@ -4184,76 +4062,6 @@
       "seasonalScore": 3
     },
     {
-      "title": "Suggested - Chicken pad thai",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "source": "https://www.allrecipes.com/recipe/66664/chicken-pad-thai/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "onions",
-          "peak": [
-            8,
-            9,
-            10
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 scallions, sliced"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 cloves garlic, minced"
-        },
-        {
-          "ingredient": "cilantro",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "lime wedges and fresh cilantro for serving"
-        }
-      ],
-      "bestMonths": [
-        8
-      ],
-      "availableMonths": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 3
-    },
-    {
       "title": "Suggested - Chicken tikka masala",
       "meal": "dinner",
       "style": "bowls",
@@ -4322,42 +4130,13 @@
       "seasonalScore": 3
     },
     {
-      "title": "Suggested - Dal tadka",
+      "title": "Suggested - Clam chowder",
       "meal": "dinner",
       "style": "soup-or-stew",
-      "source": "https://www.allrecipes.com/recipe/228285/dal-tadka/",
+      "source": "https://www.themealdb.com/meal/52840",
       "seasonalIngredients": [
         {
-          "ingredient": "tomatoes",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "3 tomatoes, diced"
-        },
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "4 cloves garlic, minced"
-        },
-        {
-          "ingredient": "cilantro",
+          "ingredient": "thyme",
           "peak": [
             6,
             7,
@@ -4372,7 +4151,109 @@
             9,
             10
           ],
-          "matchedTerm": "fresh cilantro for garnish"
+          "matchedTerm": "sprigs of fresh Thyme"
+        },
+        {
+          "ingredient": "potatoes",
+          "peak": [
+            9,
+            10
+          ],
+          "available": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 medium Potatoes"
+        },
+        {
+          "ingredient": "parsley",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "Chopped Parsley"
+        }
+      ],
+      "bestMonths": [
+        9
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 3
+    },
+    {
+      "title": "Suggested - Fish tacos with cabbage slaw",
+      "meal": "dinner",
+      "style": "handheld",
+      "source": "https://www.themealdb.com/meal/52819",
+      "seasonalIngredients": [
+        {
+          "ingredient": "lettuce",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "2 shredded little gem lettuce"
+        },
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "4 shredded Spring Onions"
+        },
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "1 clove finely chopped garlic"
         }
       ],
       "bestMonths": [
@@ -4390,22 +4271,25 @@
       "seasonalScore": 3
     },
     {
-      "title": "Suggested - Egg salad sandwich",
+      "title": "Suggested - Greek salad with chicken",
       "meal": "lunch",
-      "style": "handheld",
-      "source": "https://www.allrecipes.com/recipe/4565/classic-egg-salad/",
+      "style": "bowls",
+      "source": "https://www.themealdb.com/meal/53011",
       "seasonalIngredients": [
         {
-          "ingredient": "celery",
+          "ingredient": "garlic",
           "peak": [
-            9
+            7,
+            8
           ],
           "available": [
+            7,
             8,
             9,
-            10
+            10,
+            11
           ],
-          "matchedTerm": "2 stalks celery, finely diced"
+          "matchedTerm": "1 clove finely chopped Garlic"
         },
         {
           "ingredient": "onions",
@@ -4421,29 +4305,27 @@
             10,
             11
           ],
-          "matchedTerm": "2 tablespoons fresh chives or dill, chopped"
+          "matchedTerm": "1 chopped Red Onions"
         },
         {
-          "ingredient": "lettuce",
+          "ingredient": "mint",
           "peak": [
             6,
             7,
-            8,
-            9
+            8
           ],
           "available": [
             5,
             6,
             7,
             8,
-            9,
-            10
+            9
           ],
-          "matchedTerm": "lettuce and tomato for serving"
+          "matchedTerm": "Chopped Mint"
         }
       ],
       "bestMonths": [
-        9
+        8
       ],
       "availableMonths": [
         5,
@@ -4735,24 +4617,26 @@
       "seasonalScore": 3
     },
     {
-      "title": "Suggested - Thai green curry",
+      "title": "Suggested - Shakshuka",
       "meal": "dinner",
-      "style": "bowls",
-      "source": "https://www.allrecipes.com/recipe/222412/thai-green-curry/",
+      "style": "vegetarian",
+      "source": "https://www.themealdb.com/meal/52963",
       "seasonalIngredients": [
         {
-          "ingredient": "peppers",
+          "ingredient": "onions",
           "peak": [
             8,
-            9
+            9,
+            10
           ],
           "available": [
             7,
             8,
             9,
-            10
+            10,
+            11
           ],
-          "matchedTerm": "2 cups vegetables (zucchini, bell peppers, snap peas)"
+          "matchedTerm": "2 chopped Red Onions"
         },
         {
           "ingredient": "garlic",
@@ -4767,28 +4651,27 @@
             10,
             11
           ],
-          "matchedTerm": "3 cloves garlic, minced"
+          "matchedTerm": "1 clove Garlic"
         },
         {
-          "ingredient": "basil",
+          "ingredient": "tomatoes",
           "peak": [
-            7,
-            8
-          ],
-          "available": [
-            6,
-            7,
             8,
             9
           ],
-          "matchedTerm": "fresh basil and cilantro for garnish"
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "800g Cherry Tomatoes"
         }
       ],
       "bestMonths": [
         8
       ],
       "availableMonths": [
-        6,
         7,
         8,
         9,
@@ -5194,54 +5077,6 @@
       "seasonalScore": 2
     },
     {
-      "title": "Chicken wings",
-      "meal": "dinner",
-      "style": "meat",
-      "source": "https://www.seriouseats.com/the-best-buffalo-wings-recipe",
-      "seasonalIngredients": [
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "1 teaspoon garlic powder"
-        },
-        {
-          "ingredient": "celery",
-          "peak": [
-            9
-          ],
-          "available": [
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "celery sticks and blue cheese or ranch dressing for serving"
-        }
-      ],
-      "bestMonths": [
-        7,
-        8,
-        9
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
-    },
-    {
       "title": "Deconstructed steak sandwiches with cheese",
       "meal": "dinner",
       "style": "meat",
@@ -5345,6 +5180,61 @@
       "seasonalScore": 2
     },
     {
+      "title": "Homemade mac n cheese",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "https://www.themealdb.com/meal/52818",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 cloves minced garlic"
+        },
+        {
+          "ingredient": "parsley",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "garnish chopped parsley"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 2
+    },
+    {
       "title": "Pineapple zucchini muffin",
       "meal": "breakfast",
       "style": "baked-casserole",
@@ -5383,116 +5273,6 @@
         10
       ],
       "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
-    },
-    {
-      "title": "Pork chops",
-      "meal": "dinner",
-      "style": "meat",
-      "source": "https://www.seriouseats.com/pan-seared-pork-chops-with-herb-pan-sauce",
-      "seasonalIngredients": [
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "4 cloves garlic, minced"
-        },
-        {
-          "ingredient": "thyme",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "3 sprigs fresh rosemary or thyme"
-        }
-      ],
-      "bestMonths": [
-        7,
-        8
-      ],
-      "availableMonths": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 2
-    },
-    {
-      "title": "Round steak stroganoff",
-      "meal": "dinner",
-      "style": "meat",
-      "source": "https://www.allrecipes.com/recipe/11718/simple-beef-stroganoff/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "3 cloves garlic, minced"
-        },
-        {
-          "ingredient": "parsley",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "fresh parsley for garnish"
-        }
-      ],
-      "bestMonths": [
-        7,
-        8
-      ],
-      "availableMonths": [
-        5,
-        6,
         7,
         8,
         9,
@@ -5601,6 +5381,115 @@
         9,
         10,
         11
+      ],
+      "seasonalScore": 2
+    },
+    {
+      "title": "Suggested - Asian noodle salad",
+      "meal": "lunch",
+      "style": "bowls",
+      "source": "https://www.themealdb.com/meal/53203",
+      "seasonalIngredients": [
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "1 sliced Red Onions"
+        },
+        {
+          "ingredient": "lettuce",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "2 small Lettuce"
+        }
+      ],
+      "bestMonths": [
+        8,
+        9
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 2
+    },
+    {
+      "title": "Suggested - Baked salmon with asparagus",
+      "meal": "dinner",
+      "style": "seafood",
+      "source": "https://www.themealdb.com/meal/52959",
+      "seasonalIngredients": [
+        {
+          "ingredient": "parsley",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "2 tbs chopped Parsley"
+        },
+        {
+          "ingredient": "tomatoes",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "175g Cherry Tomatoes"
+        }
+      ],
+      "bestMonths": [
+        8,
+        9
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "seasonalScore": 2
     },
@@ -5752,6 +5641,59 @@
       "seasonalScore": 2
     },
     {
+      "title": "Suggested - Dal tadka",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "https://www.themealdb.com/meal/52785",
+      "seasonalIngredients": [
+        {
+          "ingredient": "tomatoes",
+          "peak": [
+            8,
+            9
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1 cup Chopped tomatoes"
+        },
+        {
+          "ingredient": "cilantro",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "2 tbs Cilantro"
+        }
+      ],
+      "bestMonths": [
+        8,
+        9
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "seasonalScore": 2
+    },
+    {
       "title": "Suggested - Eggplant parmesan",
       "meal": "dinner",
       "style": "baked-casserole",
@@ -5850,59 +5792,6 @@
         9,
         10,
         11
-      ],
-      "seasonalScore": 2
-    },
-    {
-      "title": "Suggested - Greek salad with chicken",
-      "meal": "lunch",
-      "style": "bowls",
-      "source": "https://www.allrecipes.com/recipe/21177/greek-salad/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "lettuce",
-          "peak": [
-            6,
-            7,
-            8,
-            9
-          ],
-          "available": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "1 head romaine lettuce, chopped"
-        },
-        {
-          "ingredient": "tomatoes",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "2 cups cherry tomatoes, halved"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9
-      ],
-      "availableMonths": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
       ],
       "seasonalScore": 2
     },
@@ -6058,6 +5947,56 @@
       "seasonalScore": 2
     },
     {
+      "title": "Suggested - Vietnamese pho",
+      "meal": "dinner",
+      "style": "soup-or-stew",
+      "source": "https://www.themealdb.com/meal/53238",
+      "seasonalIngredients": [
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 sliced Spring Onions"
+        },
+        {
+          "ingredient": "basil",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "Handful Basil"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 2
+    },
+    {
       "title": "BBQ in crockpot",
       "meal": "dinner",
       "style": "meat",
@@ -6077,6 +6016,41 @@
             11
           ],
           "matchedTerm": "1 teaspoon garlic powder"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Chicken wings",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "https://www.themealdb.com/meal/53261",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 cloves minced Garlic"
         }
       ],
       "bestMonths": [
@@ -6120,105 +6094,31 @@
       "seasonalScore": 1
     },
     {
-      "title": "Fried chicken",
-      "meal": "dinner",
-      "style": "meat",
-      "source": "https://www.seriouseats.com/the-food-labs-buttermilk-fried-chicken",
-      "seasonalIngredients": [
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "1 tablespoon garlic powder"
-        }
-      ],
-      "bestMonths": [
-        7,
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 1
-    },
-    {
-      "title": "Homemade mac n cheese",
-      "meal": "dinner",
-      "style": "rice-or-pasta",
-      "source": "https://www.seriouseats.com/the-food-labs-ultra-gooey-stovetop-mac-and-cheese",
-      "seasonalIngredients": [
-        {
-          "ingredient": "garlic",
-          "peak": [
-            7,
-            8
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "matchedTerm": "1/2 teaspoon garlic powder"
-        }
-      ],
-      "bestMonths": [
-        7,
-        8
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "seasonalScore": 1
-    },
-    {
       "title": "Homemade pizza",
       "meal": "dinner",
       "style": "baked-casserole",
-      "source": "https://www.seriouseats.com/basic-new-york-style-pizza-dough",
+      "source": "https://www.themealdb.com/meal/53330",
       "seasonalIngredients": [
         {
-          "ingredient": "peppers",
+          "ingredient": "corn",
           "peak": [
-            8,
-            9
+            8
           ],
           "available": [
             7,
             8,
-            9,
-            10
+            9
           ],
-          "matchedTerm": "toppings of choice: pepperoni, bell peppers, onion, mushrooms, olives"
+          "matchedTerm": "75g Sweetcorn"
         }
       ],
       "bestMonths": [
-        8,
-        9
+        8
       ],
       "availableMonths": [
         7,
         8,
-        9,
-        10
+        9
       ],
       "seasonalScore": 1
     },
@@ -6247,6 +6147,107 @@
       "bestMonths": [
         7,
         8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Stew",
+      "meal": "dinner",
+      "style": "meat",
+      "source": "https://www.themealdb.com/meal/53211",
+      "seasonalIngredients": [
+        {
+          "ingredient": "garlic",
+          "peak": [
+            7,
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "2 chopped Garlic Clove"
+        }
+      ],
+      "bestMonths": [
+        7,
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Suggested - Banana oat pancakes",
+      "meal": "breakfast",
+      "style": "baked-casserole",
+      "source": "https://www.themealdb.com/meal/52855",
+      "seasonalIngredients": [
+        {
+          "ingredient": "raspberries",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "125g Raspberries"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        7,
+        8,
+        9
+      ],
+      "seasonalScore": 1
+    },
+    {
+      "title": "Suggested - Chicken pad thai",
+      "meal": "dinner",
+      "style": "rice-or-pasta",
+      "source": "https://www.themealdb.com/meal/53191",
+      "seasonalIngredients": [
+        {
+          "ingredient": "onions",
+          "peak": [
+            8,
+            9,
+            10
+          ],
+          "available": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "matchedTerm": "4 finely sliced Spring Onions"
+        }
+      ],
+      "bestMonths": [
+        8,
+        9,
+        10
       ],
       "availableMonths": [
         7,
@@ -6363,39 +6364,6 @@
       "seasonalScore": 1
     },
     {
-      "title": "Suggested - Vietnamese pho",
-      "meal": "dinner",
-      "style": "soup-or-stew",
-      "source": "https://www.allrecipes.com/recipe/228720/authentic-pho/",
-      "seasonalIngredients": [
-        {
-          "ingredient": "peppers",
-          "peak": [
-            8,
-            9
-          ],
-          "available": [
-            7,
-            8,
-            9,
-            10
-          ],
-          "matchedTerm": "bean sprouts, fresh basil, lime, jalapeño, and hoisin sauce for serving"
-        }
-      ],
-      "bestMonths": [
-        8,
-        9
-      ],
-      "availableMonths": [
-        7,
-        8,
-        9,
-        10
-      ],
-      "seasonalScore": 1
-    },
-    {
       "title": "Big daddy biscuits",
       "meal": "breakfast",
       "style": "baked-casserole",
@@ -6420,16 +6388,6 @@
       "meal": "breakfast",
       "style": "vegetarian",
       "source": "https://www.allrecipes.com/recipe/241032/avocado-toast/",
-      "seasonalIngredients": [],
-      "bestMonths": [],
-      "availableMonths": [],
-      "seasonalScore": 0
-    },
-    {
-      "title": "Suggested - Banana oat pancakes",
-      "meal": "breakfast",
-      "style": "baked-casserole",
-      "source": "https://www.allrecipes.com/recipe/228285/banana-oat-pancakes/",
       "seasonalIngredients": [],
       "bestMonths": [],
       "availableMonths": [],
