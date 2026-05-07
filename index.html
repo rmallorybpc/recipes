@@ -12,6 +12,31 @@
     <meta property="og:description" content="Browse recipes, build a weekly meal plan, and find what to cook based on what's on sale and in season in Colorado." />
     <meta property="og:url" content="https://rmallorybpc.github.io/recipes/" />
     <meta property="og:type" content="website" />
+    <style>
+      :root {
+        --tmg-cream: #FDFCF0;
+        --tmg-charcoal: #2D3436;
+        --tmg-sage: #84A98C;
+        --tmg-sage-hover: #6B8F74;
+        --tmg-white: #FFFFFF;
+        --tmg-bg: var(--tmg-cream);
+        --tmg-text: var(--tmg-charcoal);
+        --tmg-accent: var(--tmg-sage);
+        --tmg-surface: var(--tmg-white);
+        --tmg-success: #2E8540;
+        --tmg-warning: #C47F00;
+        --tmg-error: #B00020;
+        --tmg-border: 1px solid rgba(45, 52, 54, 0.12);
+        --tmg-border-hover: 1px solid rgba(132, 169, 140, 0.50);
+        --tmg-bento-radius: 16px;
+        --tmg-nav-radius: 8px;
+        --tmg-btn-radius: 8px;
+        --tmg-gap: 24px;
+        --tmg-gap-sm: 12px;
+        --tmg-shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
+        --tmg-shadow-md: 0 2px 8px rgba(45, 52, 54, 0.10);
+      }
+    </style>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -68,31 +93,56 @@
     </style>
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
-        <p class="eyebrow">Family Recipe Book</p>
-        <h1>Find dinner fast, and never lose a favorite again.</h1>
-        <p class="subtitle">
-          Browse by meal and style, then search ingredients or titles across your known recipes.
-        </p>
-        <nav class="subNav" aria-label="Pages">
+    <nav class="tmg-nav" role="banner">
+      <div class="tmg-nav-left">
+        <div class="tmg-logo" aria-label="The Mallory Group">
+          <span>TM</span>
+          <div class="tmg-logo-divider" aria-hidden="true"></div>
+          <span>G</span>
+        </div>
+        <div class="tmg-page-links" aria-label="Pages" role="navigation">
           <a href="index.html" aria-current="page">Planner</a>
           <a href="ingredients.html">Ingredient Search</a>
           <a href="seasonal.html">Seasonal</a>
           <a href="deals.html">Deals</a>
           <a href="suggest.html">Suggest</a>
           <a href="cost.html">Cost</a>
-        </nav>
+        </div>
+      </div>
+      <div class="tmg-dropdown-wrap">
+        <button class="tmg-dropdown-btn" id="tmgDdBtn" aria-haspopup="true" aria-expanded="false" aria-controls="tmgDdMenu">
+          TMG Tool Suite
+          <svg class="tmg-chevron" viewBox="0 0 12 12" fill="none" width="12" height="12" aria-hidden="true">
+            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <div class="tmg-dropdown-menu" id="tmgDdMenu" role="menu">
+          <a href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/" target="_blank" rel="noreferrer" role="menuitem">PDF Multi-Agent Analysis</a>
+          <a href="https://rmallorybpc.github.io/housing-market-intel/" target="_blank" rel="noreferrer" role="menuitem">Housing Market Intel</a>
+          <a href="https://rmallorybpc.github.io/real-estate-report/" target="_blank" rel="noreferrer" role="menuitem">Real Estate Report</a>
+          <a href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/" target="_blank" rel="noreferrer" role="menuitem">NFL Analysis</a>
+          <a href="https://rmallorybpc.github.io/recipes/" target="_blank" rel="noreferrer" role="menuitem">Recipe Book</a>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <div class="tmg-page tmg-container">
+      <section class="hero tmg-card-wide">
+        <p class="eyebrow tmg-eyebrow">Family Recipe Book</p>
+        <h1 class="tmg-page-title">Find dinner fast, and never lose a favorite again.</h1>
+        <p class="subtitle tmg-page-desc">
+          Browse by meal and style, then search ingredients or titles across your known recipes.
+        </p>
       </section>
 
-      <section class="planner" aria-label="Weekly meal planner">
+      <section class="planner tmg-card-wide" aria-label="Weekly meal planner">
         <div class="plannerHead">
-          <h2>Weekly Planner</h2>
+          <h2 class="tmg-card-title">Weekly Planner</h2>
           <div class="plannerActions">
-            <button id="copyPlan" type="button" class="plannerActionButton">Copy</button>
-            <button id="exportPlan" type="button" class="plannerActionButton">Export</button>
-            <button id="printPlan" type="button" class="plannerActionButton">Print</button>
-            <button id="clearCalendar" type="button" class="plannerActionButton">Clear</button>
+            <button id="copyPlan" type="button" class="plannerActionButton tmg-btn-ghost">Copy</button>
+            <button id="exportPlan" type="button" class="plannerActionButton tmg-btn-ghost">Export</button>
+            <button id="printPlan" type="button" class="plannerActionButton tmg-btn-ghost">Print</button>
+            <button id="clearCalendar" type="button" class="plannerActionButton tmg-btn-ghost">Clear</button>
           </div>
         </div>
         <p class="plannerHelp">Drag recipe cards into Breakfast, Lunch, or Dinner lanes.</p>
@@ -100,10 +150,10 @@
         <ul id="plannerGrid" class="plannerGrid"></ul>
       </section>
 
-      <section class="controls" aria-label="Recipe filters">
-        <label>
+      <section class="controls tmg-bento-grid tmg-card-wide" aria-label="Recipe filters">
+        <label class="tmg-field-label">
           Meal
-          <select id="mealFilter">
+          <select id="mealFilter" class="tmg-select">
             <option value="all">All meals</option>
             <option value="breakfast">Breakfast</option>
             <option value="lunch">Lunch</option>
@@ -111,9 +161,9 @@
           </select>
         </label>
 
-        <label>
+        <label class="tmg-field-label">
           Style
-          <select id="styleFilter">
+          <select id="styleFilter" class="tmg-select">
             <option value="all">All styles</option>
             <option value="meat">Meat</option>
             <option value="rice-or-pasta">Rice or Pasta</option>
@@ -126,50 +176,51 @@
           </select>
         </label>
 
-        <label class="searchField">
+        <label class="searchField tmg-field-label">
           Search
           <input
             id="queryFilter"
             type="search"
+            class="tmg-input"
             placeholder="Try: chicken, soup, stroganoff"
           />
         </label>
       </section>
 
-      <section class="metaBar" aria-live="polite">
-        <p id="resultCount">0 recipes</p>
+      <section class="metaBar tmg-card" aria-live="polite">
+        <p id="resultCount" class="tmg-card-sub">0 recipes</p>
       </section>
 
-      <section>
-        <ul id="recipeGrid" class="grid"></ul>
+      <section class="tmg-card-wide">
+        <ul id="recipeGrid" class="grid tmg-bento-grid"></ul>
       </section>
 
-      <section class="submitRecipe" aria-label="Submit a recipe">
-        <h2>Submit A Recipe</h2>
+      <section class="submitRecipe tmg-card-wide" aria-label="Submit a recipe">
+        <h2 class="tmg-card-title">Submit A Recipe</h2>
         <p>
           Fill this out and click Create GitHub Issue. It will open a prefilled issue with
           your recipe in the repository template format.
         </p>
 
         <form id="recipeSubmitForm" class="submitForm">
-          <label>
+          <label class="tmg-field-label">
             Recipe Title
-            <input id="submitTitle" name="title" type="text" required placeholder="e.g. One-pan lemon chicken rice" />
+            <input id="submitTitle" name="title" type="text" class="tmg-input" required placeholder="e.g. One-pan lemon chicken rice" />
           </label>
 
           <div class="submitGrid">
-            <label>
+            <label class="tmg-field-label">
               Meal
-              <select id="submitMeal" name="meal" required>
+              <select id="submitMeal" name="meal" class="tmg-select" required>
                 <option value="breakfast">Breakfast</option>
                 <option value="lunch">Lunch</option>
                 <option value="dinner" selected>Dinner</option>
               </select>
             </label>
 
-            <label>
+            <label class="tmg-field-label">
               Style
-              <select id="submitStyle" name="style" required>
+              <select id="submitStyle" name="style" class="tmg-select" required>
                 <option value="meat">Meat</option>
                 <option value="rice-or-pasta">Rice or Pasta</option>
                 <option value="soup-or-stew">Soup or Stew</option>
@@ -181,69 +232,69 @@
               </select>
             </label>
 
-            <label>
+            <label class="tmg-field-label">
               Protein
-              <input id="submitProtein" name="protein" type="text" placeholder="e.g. chicken, tofu, none" />
+              <input id="submitProtein" name="protein" type="text" class="tmg-input" placeholder="e.g. chicken, tofu, none" />
             </label>
 
-            <label>
+            <label class="tmg-field-label">
               Cuisine
-              <input id="submitCuisine" name="cuisine" type="text" placeholder="e.g. italian, mexican" />
+              <input id="submitCuisine" name="cuisine" type="text" class="tmg-input" placeholder="e.g. italian, mexican" />
             </label>
           </div>
 
           <div class="submitGrid">
-            <label>
+            <label class="tmg-field-label">
               Time (minutes)
-              <input id="submitTime" name="time_minutes" type="number" min="0" step="1" value="0" />
+              <input id="submitTime" name="time_minutes" type="number" class="tmg-input" min="0" step="1" value="0" />
             </label>
 
-            <label>
+            <label class="tmg-field-label">
               Servings
-              <input id="submitServings" name="servings" type="number" min="0" step="1" value="0" />
+              <input id="submitServings" name="servings" type="number" class="tmg-input" min="0" step="1" value="0" />
             </label>
 
-            <label class="wideField">
+            <label class="wideField tmg-field-label">
               Source URL (optional)
-              <input id="submitSource" name="source" type="url" placeholder="https://..." />
+              <input id="submitSource" name="source" type="url" class="tmg-input" placeholder="https://..." />
             </label>
           </div>
 
-          <label>
+          <label class="tmg-field-label">
             Keywords (comma separated)
-            <input id="submitKeywords" name="keywords" type="text" placeholder="quick, kid-friendly, meal-prep" />
+            <input id="submitKeywords" name="keywords" type="text" class="tmg-input" placeholder="quick, kid-friendly, meal-prep" />
           </label>
 
-          <label>
+          <label class="tmg-field-label">
             Summary
-            <textarea id="submitSummary" name="summary" rows="3" placeholder="A short description of the dish."></textarea>
+            <textarea id="submitSummary" name="summary" class="tmg-textarea" rows="3" placeholder="A short description of the dish."></textarea>
           </label>
 
-          <label>
+          <label class="tmg-field-label">
             Ingredients (one per line)
-            <textarea id="submitIngredients" name="ingredients" rows="6" placeholder="1 lb chicken\n2 cups rice"></textarea>
+            <textarea id="submitIngredients" name="ingredients" class="tmg-textarea" rows="6" placeholder="1 lb chicken\n2 cups rice"></textarea>
           </label>
 
-          <label>
+          <label class="tmg-field-label">
             Instructions (one step per line)
-            <textarea id="submitInstructions" name="instructions" rows="6" placeholder="Season chicken\nCook rice\nServe"></textarea>
+            <textarea id="submitInstructions" name="instructions" class="tmg-textarea" rows="6" placeholder="Season chicken\nCook rice\nServe"></textarea>
           </label>
 
-          <label>
+          <label class="tmg-field-label">
             Notes (optional, one per line)
-            <textarea id="submitNotes" name="notes" rows="4" placeholder="Freezes well\nSwap cilantro for parsley"></textarea>
+            <textarea id="submitNotes" name="notes" class="tmg-textarea" rows="4" placeholder="Freezes well\nSwap cilantro for parsley"></textarea>
           </label>
 
           <p id="submitPathPreview" class="pathPreview" aria-live="polite"></p>
           <p id="submitStatus" class="submitStatus" aria-live="polite"></p>
 
           <div class="submitActions">
-            <button id="submitIssueButton" type="submit" class="plannerActionButton">Create GitHub Issue</button>
-            <button id="copyRecipeMarkdown" type="button" class="plannerActionButton">Copy Markdown</button>
+            <button id="submitIssueButton" type="submit" class="plannerActionButton tmg-btn">Create GitHub Issue</button>
+            <button id="copyRecipeMarkdown" type="button" class="plannerActionButton tmg-btn-ghost">Copy Markdown</button>
           </div>
         </form>
       </section>
-      <footer class="siteFooter">
+      <footer class="tmg-footer">
         <p class="siteFooter-nav">
           Family Recipe Book &nbsp;·&nbsp;
           Built with GitHub Pages &nbsp;·&nbsp;
@@ -253,8 +304,38 @@
           Recipe data is stored as structured markdown files in this GitHub repository and imported via GitHub Actions.
         </p>
       </footer>
+      </div>
     </main>
 
     <script src="script.js"></script>
+    <script>
+      (function () {
+        const btn = document.getElementById("tmgDdBtn");
+        const menu = document.getElementById("tmgDdMenu");
+        if (!btn || !menu) return;
+
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          const isOpen = menu.classList.toggle("open");
+          btn.classList.toggle("open", isOpen);
+          btn.setAttribute("aria-expanded", String(isOpen));
+        });
+
+        document.addEventListener("click", function () {
+          menu.classList.remove("open");
+          btn.classList.remove("open");
+          btn.setAttribute("aria-expanded", "false");
+        });
+
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") {
+            menu.classList.remove("open");
+            btn.classList.remove("open");
+            btn.setAttribute("aria-expanded", "false");
+            btn.focus();
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

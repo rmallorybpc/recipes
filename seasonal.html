@@ -12,6 +12,31 @@
     <meta property="og:description" content="Find Colorado produce at peak right now, discover which recipes shine each season, and check any ingredient's harvest window month by month." />
     <meta property="og:url" content="https://rmallorybpc.github.io/recipes/seasonal.html" />
     <meta property="og:type" content="website" />
+    <style>
+      :root {
+        --tmg-cream: #FDFCF0;
+        --tmg-charcoal: #2D3436;
+        --tmg-sage: #84A98C;
+        --tmg-sage-hover: #6B8F74;
+        --tmg-white: #FFFFFF;
+        --tmg-bg: var(--tmg-cream);
+        --tmg-text: var(--tmg-charcoal);
+        --tmg-accent: var(--tmg-sage);
+        --tmg-surface: var(--tmg-white);
+        --tmg-success: #2E8540;
+        --tmg-warning: #C47F00;
+        --tmg-error: #B00020;
+        --tmg-border: 1px solid rgba(45, 52, 54, 0.12);
+        --tmg-border-hover: 1px solid rgba(132, 169, 140, 0.50);
+        --tmg-bento-radius: 16px;
+        --tmg-nav-radius: 8px;
+        --tmg-btn-radius: 8px;
+        --tmg-gap: 24px;
+        --tmg-gap-sm: 12px;
+        --tmg-shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
+        --tmg-shadow-md: 0 2px 8px rgba(45, 52, 54, 0.10);
+      }
+    </style>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -429,40 +454,65 @@
     </style>
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
-        <p class="eyebrow">Colorado Seasonal Produce</p>
-        <h1>Cook what's fresh, every month of the year.</h1>
-        <p class="subtitle">
-          See what Colorado produce is at peak right now, discover which recipes shine each season, and check any ingredient's harvest window.
-        </p>
-        <nav class="subNav" aria-label="Pages">
+    <nav class="tmg-nav" role="banner">
+      <div class="tmg-nav-left">
+        <div class="tmg-logo" aria-label="The Mallory Group">
+          <span>TM</span>
+          <div class="tmg-logo-divider" aria-hidden="true"></div>
+          <span>G</span>
+        </div>
+        <div class="tmg-page-links" aria-label="Pages" role="navigation">
           <a href="index.html">Planner</a>
           <a href="ingredients.html">Ingredient Search</a>
           <a href="seasonal.html" aria-current="page">Seasonal</a>
           <a href="deals.html">Deals</a>
           <a href="suggest.html">Suggest</a>
           <a href="cost.html">Cost</a>
-        </nav>
+        </div>
+      </div>
+      <div class="tmg-dropdown-wrap">
+        <button class="tmg-dropdown-btn" id="tmgDdBtn" aria-haspopup="true" aria-expanded="false" aria-controls="tmgDdMenu">
+          TMG Tool Suite
+          <svg class="tmg-chevron" viewBox="0 0 12 12" fill="none" width="12" height="12" aria-hidden="true">
+            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <div class="tmg-dropdown-menu" id="tmgDdMenu" role="menu">
+          <a href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/" target="_blank" rel="noreferrer" role="menuitem">PDF Multi-Agent Analysis</a>
+          <a href="https://rmallorybpc.github.io/housing-market-intel/" target="_blank" rel="noreferrer" role="menuitem">Housing Market Intel</a>
+          <a href="https://rmallorybpc.github.io/real-estate-report/" target="_blank" rel="noreferrer" role="menuitem">Real Estate Report</a>
+          <a href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/" target="_blank" rel="noreferrer" role="menuitem">NFL Analysis</a>
+          <a href="https://rmallorybpc.github.io/recipes/" target="_blank" rel="noreferrer" role="menuitem">Recipe Book</a>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <div class="tmg-page tmg-container">
+      <section class="hero tmg-card-wide">
+        <p class="eyebrow tmg-eyebrow">Colorado Seasonal Produce</p>
+        <h1 class="tmg-page-title">Cook what's fresh, every month of the year.</h1>
+        <p class="subtitle tmg-page-desc">
+          See what Colorado produce is at peak right now, discover which recipes shine each season, and check any ingredient's harvest window.
+        </p>
       </section>
 
-      <section class="tabs" aria-label="Seasonal views">
-        <button id="tab-peak" class="tabButton active" type="button">Peak Right Now</button>
-        <button id="tab-season" class="tabButton" type="button">In Season Now</button>
-        <button id="tab-calendar" class="tabButton" type="button">Season Calendar</button>
-        <button id="tab-check" class="tabButton" type="button">Ingredient Season Check</button>
+      <section class="tabs tmg-card-wide" aria-label="Seasonal views">
+        <button id="tab-peak" class="tabButton tmg-btn-ghost active" type="button">Peak Right Now</button>
+        <button id="tab-season" class="tabButton tmg-btn-ghost" type="button">In Season Now</button>
+        <button id="tab-calendar" class="tabButton tmg-btn-ghost" type="button">Season Calendar</button>
+        <button id="tab-check" class="tabButton tmg-btn-ghost" type="button">Ingredient Season Check</button>
       </section>
 
-      <section class="metaBar" aria-live="polite">
-        <p id="metaText"></p>
-        <p id="seasonalRegionLabel" class="windowText"></p>
+      <section class="metaBar tmg-card" aria-live="polite">
+        <p id="metaText" class="tmg-card-sub"></p>
+        <p id="seasonalRegionLabel" class="windowText tmg-card-sub"></p>
       </section>
 
-      <section id="panel-peak" class="panel" aria-label="Peak right now"></section>
-      <section id="panel-season" class="panel" aria-label="In season now" hidden></section>
-      <section id="panel-calendar" class="panel" aria-label="Season calendar" hidden></section>
-      <section id="panel-check" class="panel" aria-label="Ingredient season check" hidden></section>
-      <footer class="siteFooter">
+      <section id="panel-peak" class="panel tmg-card-wide" aria-label="Peak right now"></section>
+      <section id="panel-season" class="panel tmg-card-wide" aria-label="In season now" hidden></section>
+      <section id="panel-calendar" class="panel tmg-card-wide" aria-label="Season calendar" hidden></section>
+      <section id="panel-check" class="panel tmg-card-wide" aria-label="Ingredient season check" hidden></section>
+      <footer class="tmg-footer">
         <p class="siteFooter-nav">
           Family Recipe Book &nbsp;·&nbsp;
           Built with GitHub Pages &nbsp;·&nbsp;
@@ -472,6 +522,7 @@
           Seasonal availability data is sourced from the <a href="https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar" target="_blank" rel="noopener">Colorado Department of Agriculture Produce Calendar</a> and the <a href="https://coloradoproduce.org" target="_blank" rel="noopener">Colorado Fruit and Vegetable Growers Association</a>.
         </p>
       </footer>
+      </div>
     </main>
 
     <script>
@@ -928,8 +979,8 @@
         panel.innerHTML = `
           <div class="seasonalSection">
             <div class="checkSearchWrap">
-              <label for="ingredientSeasonSearch">Ingredient lookup</label>
-              <input id="ingredientSeasonSearch" type="search" placeholder="Try: peaches, corn, green chile" value="${safeText(query)}" />
+              <label for="ingredientSeasonSearch" class="tmg-field-label">Ingredient lookup</label>
+              <input id="ingredientSeasonSearch" class="tmg-input" type="search" placeholder="Try: peaches, corn, green chile" value="${safeText(query)}" />
             </div>
             ${resultsHtml}
           </div>
@@ -1031,6 +1082,35 @@
       }
 
       init();
+    </script>
+    <script>
+      (function () {
+        const btn = document.getElementById("tmgDdBtn");
+        const menu = document.getElementById("tmgDdMenu");
+        if (!btn || !menu) return;
+
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          const isOpen = menu.classList.toggle("open");
+          btn.classList.toggle("open", isOpen);
+          btn.setAttribute("aria-expanded", String(isOpen));
+        });
+
+        document.addEventListener("click", function () {
+          menu.classList.remove("open");
+          btn.classList.remove("open");
+          btn.setAttribute("aria-expanded", "false");
+        });
+
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") {
+            menu.classList.remove("open");
+            btn.classList.remove("open");
+            btn.setAttribute("aria-expanded", "false");
+            btn.focus();
+          }
+        });
+      })();
     </script>
   </body>
 </html>

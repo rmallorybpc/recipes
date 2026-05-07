@@ -14,6 +14,7 @@
   box-sizing: border-box;
 }
 
+/*
 body {
   margin: 0;
   font-family: "Bricolage Grotesque", "Segoe UI", sans-serif;
@@ -23,6 +24,7 @@ body {
     linear-gradient(160deg, var(--bg-start), var(--bg-end));
   min-height: 100vh;
 }
+*/
 
 .page {
   width: min(1080px, 92vw);
@@ -107,6 +109,42 @@ h1 {
   border-color: color-mix(in srgb, var(--accent) 50%, #d8c7b8 50%);
 }
 
+.tmg-nav {
+  height: auto;
+  min-height: 56px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.tmg-nav-left {
+  display: grid;
+  align-items: center;
+  gap: 6px;
+}
+
+.tmg-page-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tmg-page-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  text-decoration: none;
+  border: 1px solid rgba(45, 52, 54, 0.2);
+  color: var(--tmg-charcoal);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-size: 12px;
+}
+
+.tmg-page-links a[aria-current="page"] {
+  background: rgba(132, 169, 140, 0.12);
+  border-color: var(--tmg-sage);
+}
+
 .planner {
   margin-top: 1rem;
   background: color-mix(in srgb, var(--card) 90%, #d8efe8 10%);
@@ -149,6 +187,7 @@ h1 {
   font-weight: 700;
 }
 
+/*
 .plannerActionButton {
   min-height: 44px;
   border: 1px solid #d8c7b8;
@@ -168,6 +207,7 @@ h1 {
 .plannerActionButton:focus-visible {
   outline: 3px solid var(--ring);
 }
+*/
 
 .plannerGrid {
   list-style: none;

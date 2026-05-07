@@ -12,6 +12,31 @@
     <meta property="og:description" content="Generate a weekly meal plan built around on-sale ingredients, peak Colorado produce, and your household rules. Refine with Claude for a personalized touch." />
     <meta property="og:url" content="https://rmallorybpc.github.io/recipes/suggest.html" />
     <meta property="og:type" content="website" />
+    <style>
+      :root {
+        --tmg-cream: #FDFCF0;
+        --tmg-charcoal: #2D3436;
+        --tmg-sage: #84A98C;
+        --tmg-sage-hover: #6B8F74;
+        --tmg-white: #FFFFFF;
+        --tmg-bg: var(--tmg-cream);
+        --tmg-text: var(--tmg-charcoal);
+        --tmg-accent: var(--tmg-sage);
+        --tmg-surface: var(--tmg-white);
+        --tmg-success: #2E8540;
+        --tmg-warning: #C47F00;
+        --tmg-error: #B00020;
+        --tmg-border: 1px solid rgba(45, 52, 54, 0.12);
+        --tmg-border-hover: 1px solid rgba(132, 169, 140, 0.50);
+        --tmg-bento-radius: 16px;
+        --tmg-nav-radius: 8px;
+        --tmg-btn-radius: 8px;
+        --tmg-gap: 24px;
+        --tmg-gap-sm: 12px;
+        --tmg-shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
+        --tmg-shadow-md: 0 2px 8px rgba(45, 52, 54, 0.10);
+      }
+    </style>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -466,58 +491,86 @@
     </style>
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
-        <p class="eyebrow">Meal Plan Generator</p>
-        <h1>A week of meals planned around your life.</h1>
-        <p class="subtitle">
-          Builds a personalized week of dinners using your recipe collection, this week's King Soopers deals, and what's in season in Colorado. Apply your household rules, then refine with Claude for a personalized touch.
-        </p>
-        <nav class="subNav" aria-label="Pages">
+    <nav class="tmg-nav" role="banner">
+      <div class="tmg-nav-left">
+        <div class="tmg-logo" aria-label="The Mallory Group">
+          <span>TM</span>
+          <div class="tmg-logo-divider" aria-hidden="true"></div>
+          <span>G</span>
+        </div>
+        <div class="tmg-page-links" aria-label="Pages" role="navigation">
           <a href="index.html">Planner</a>
           <a href="ingredients.html">Ingredient Search</a>
           <a href="seasonal.html">Seasonal</a>
           <a href="deals.html">Deals</a>
           <a href="suggest.html" aria-current="page">Suggest</a>
           <a href="cost.html">Cost</a>
-        </nav>
+        </div>
+      </div>
+      <div class="tmg-dropdown-wrap">
+        <button class="tmg-dropdown-btn" id="tmgDdBtn" aria-haspopup="true" aria-expanded="false" aria-controls="tmgDdMenu">
+          TMG Tool Suite
+          <svg class="tmg-chevron" viewBox="0 0 12 12" fill="none" width="12" height="12" aria-hidden="true">
+            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <div class="tmg-dropdown-menu" id="tmgDdMenu" role="menu">
+          <a href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/" target="_blank" rel="noreferrer" role="menuitem">PDF Multi-Agent Analysis</a>
+          <a href="https://rmallorybpc.github.io/housing-market-intel/" target="_blank" rel="noreferrer" role="menuitem">Housing Market Intel</a>
+          <a href="https://rmallorybpc.github.io/real-estate-report/" target="_blank" rel="noreferrer" role="menuitem">Real Estate Report</a>
+          <a href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/" target="_blank" rel="noreferrer" role="menuitem">NFL Analysis</a>
+          <a href="https://rmallorybpc.github.io/recipes/" target="_blank" rel="noreferrer" role="menuitem">Recipe Book</a>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <div class="tmg-page tmg-container">
+      <section class="hero tmg-card-wide">
+        <p class="eyebrow tmg-eyebrow">Meal Plan Generator</p>
+        <h1 class="tmg-page-title">A week of meals planned around your life.</h1>
+        <p class="subtitle tmg-page-desc">
+          Builds a personalized week of dinners using your recipe collection, this week's King Soopers deals, and what's in season in Colorado. Apply your household rules, then refine with Claude for a personalized touch.
+        </p>
       </section>
 
-      <section class="panelSection" aria-label="Restrictions profile panel">
-        <h2>Household Rules</h2>
-        <p class="panelSubtitle">Saved automatically. Applied every time you generate a plan.</p>
+      <section class="panelSection tmg-card-wide" aria-label="Restrictions profile panel">
+        <h2 class="tmg-card-title">Household Rules</h2>
+        <p class="panelSubtitle tmg-card-sub">Saved automatically. Applied every time you generate a plan.</p>
 
         <div class="settingsCard">
           <div class="cardSubsection">
-            <label class="subsectionLabel" for="dietaryRestrictions">Always avoid</label>
+            <label class="subsectionLabel tmg-field-label" for="dietaryRestrictions">Always avoid</label>
             <textarea
               id="dietaryRestrictions"
+              class="tmg-textarea"
               rows="2"
               placeholder="e.g. no shellfish, no pork, gluten-free, nut allergy"
             ></textarea>
           </div>
 
           <div class="cardSubsection">
-            <label class="subsectionLabel" for="dislikedIngredients">Ingredients we skip</label>
+            <label class="subsectionLabel tmg-field-label" for="dislikedIngredients">Ingredients we skip</label>
             <input
               id="dislikedIngredients"
               type="text"
+              class="tmg-input"
               placeholder="e.g. cilantro, olives, blue cheese"
             />
           </div>
 
           <div class="cardSubsection">
-            <label class="subsectionLabel" for="cuisinePreferences">Cuisines we love</label>
+            <label class="subsectionLabel tmg-field-label" for="cuisinePreferences">Cuisines we love</label>
             <input
               id="cuisinePreferences"
               type="text"
+              class="tmg-input"
               placeholder="e.g. Mexican, Italian, Thai, comfort food"
             />
           </div>
 
           <div class="cardSubsection">
-            <label class="subsectionLabel" for="repeatRule">Avoid repeating a cuisine within</label>
-            <select id="repeatRule">
+            <label class="subsectionLabel tmg-field-label" for="repeatRule">Avoid repeating a cuisine within</label>
+            <select id="repeatRule" class="tmg-select">
               <option value="0">No restriction</option>
               <option value="7">7 days</option>
               <option value="14" selected>14 days</option>
@@ -525,14 +578,14 @@
             </select>
           </div>
 
-          <button id="saveRules" type="button" class="plannerActionButton">Save Rules</button>
+          <button id="saveRules" type="button" class="plannerActionButton tmg-btn-ghost">Save Rules</button>
           <p id="saveStatus" class="fieldNote" aria-live="polite"></p>
         </div>
       </section>
 
-      <section class="panelSection" aria-label="Weekly context panel">
-        <h2>This Week</h2>
-        <p class="panelSubtitle">Optional context that applies only to this plan.</p>
+      <section class="panelSection tmg-card-wide" aria-label="Weekly context panel">
+        <h2 class="tmg-card-title">This Week</h2>
+        <p class="panelSubtitle tmg-card-sub">Optional context that applies only to this plan.</p>
 
         <div class="weeklyCard">
           <div class="cardSubsection">
@@ -541,9 +594,10 @@
           </div>
 
           <div class="cardSubsection">
-            <label class="subsectionLabel" for="weeklyContext">Anything else Claude should know this week</label>
+            <label class="subsectionLabel tmg-field-label" for="weeklyContext">Anything else Claude should know this week</label>
             <textarea
               id="weeklyContext"
+              class="tmg-textarea"
               rows="3"
               placeholder="e.g. We have leftover rotisserie chicken. Busy Thursday, keep it very simple. Want to try something new on Saturday. Grilling Sunday if weather is good."
             ></textarea>
@@ -557,15 +611,15 @@
         </div>
       </section>
 
-      <section class="panelSection" aria-label="Generate meal plan panel">
-        <button id="generateBtn" type="button" class="generateButton">Generate My Week</button>
+      <section class="panelSection tmg-card-wide" aria-label="Generate meal plan panel">
+        <button id="generateBtn" type="button" class="generateButton tmg-btn">Generate My Week</button>
         <p class="generateHelp">
           Runs instantly using your recipe collection, current deals, and seasonal data. Use Refine with Claude for an AI-enhanced version.
         </p>
         <p id="generateStatus" class="generateStatus" aria-live="polite"></p>
         <div id="planOutput" class="planOutput" aria-live="polite"></div>
       </section>
-      <footer class="siteFooter">
+      <footer class="tmg-footer">
         <p class="siteFooter-nav">
           Family Recipe Book &nbsp;·&nbsp;
           Built with GitHub Pages &nbsp;·&nbsp;
@@ -575,6 +629,7 @@
           Meal plan suggestions are generated by a rule-based scoring engine that ranks recipes against weekly deal prices from your nearest Kroger-family store from the <a href="https://developer.kroger.com" target="_blank" rel="noopener">Kroger Developer API</a>, seasonal availability data from the <a href="https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar" target="_blank" rel="noopener">Colorado Department of Agriculture</a>, and household rules saved in your browser.
         </p>
       </footer>
+      </div>
     </main>
 
     <script>
@@ -1850,11 +1905,11 @@
           <p class="panelSubtitle">${escapeHtml(String(safePlan.recipesConsidered || 0))} recipes considered · Generated ${escapeHtml(generatedTime)}</p>
           ${Number(safePlan.estimatedSavings) > 0 ? `<span class="savings-pill">Est. savings this week: $${formatCurrency(safePlan.estimatedSavings)}</span>` : ""}
           <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.75rem;">
-            <button id="addAllToPlanner" type="button" class="plannerActionButton">Add All to Planner</button>
+            <button id="addAllToPlanner" type="button" class="plannerActionButton tmg-btn-ghost">Add All to Planner</button>
             <button
               id="refineWithClaude"
               type="button"
-              class="plannerActionButton"
+              class="plannerActionButton tmg-btn-ghost"
               title="Opens Claude.ai in a new tab with your full plan context as a ready-to-send prompt"
               onclick="refineWithClaude(currentPlan)"
             >Refine with Claude ↗</button>
@@ -1925,12 +1980,12 @@
         shoppingSection.innerHTML = `
           <h3>Shopping List for the Week</h3>
           <h4>On Sale This Week</h4>
-          ${onSaleItems.length
-    ? `<table class="shopping-table"><tbody>${onSaleRows}</tbody></table>`
+              ${onSaleItems.length
+            ? `<table class="shopping-table tmg-table"><tbody>${onSaleRows}</tbody></table>`
     : '<p class="panelSubtitle">No deal matches found for this week\'s recipes.</p>'}
           <h4>Other Items Needed</h4>
           ${otherItems.length ? `<p class="panelSubtitle">${escapeHtml(otherItems.map((item) => item.ingredient).join(", "))}</p>` : ""}
-          <p><button id="copyShoppingList" type="button" class="plannerActionButton">Copy Shopping List</button></p>
+              <p><button id="copyShoppingList" type="button" class="plannerActionButton tmg-btn-ghost">Copy Shopping List</button></p>
         `;
         wrapper.appendChild(shoppingSection);
 
@@ -1942,7 +1997,7 @@
           <p class="refine-instruction">After Claude suggests changes in the new tab, copy its response and paste it here. The planner will parse Claude's plain-text response and update your week.</p>
           <p id="claudeSessionNotice" class="session-notice">A previous Claude prompt was found in your session. The Refine with Claude button will generate a fresh prompt when you have a plan.</p>
           <textarea id="claudeResponseInput" rows="6" placeholder="Paste Claude's response here..." style="width:100%; font-size:13px; font-family:var(--font-mono);"></textarea>
-          <p style="margin-top:0.5rem;"><button id="loadClaudeResponse" type="button" class="plannerActionButton">Apply Claude's Plan</button></p>
+          <p style="margin-top:0.5rem;"><button id="loadClaudeResponse" type="button" class="plannerActionButton tmg-btn-ghost">Apply Claude's Plan</button></p>
         `;
         wrapper.appendChild(refineSection);
 
@@ -2164,6 +2219,35 @@
       }
 
       init();
+    </script>
+    <script>
+      (function () {
+        const btn = document.getElementById("tmgDdBtn");
+        const menu = document.getElementById("tmgDdMenu");
+        if (!btn || !menu) return;
+
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          const isOpen = menu.classList.toggle("open");
+          btn.classList.toggle("open", isOpen);
+          btn.setAttribute("aria-expanded", String(isOpen));
+        });
+
+        document.addEventListener("click", function () {
+          menu.classList.remove("open");
+          btn.classList.remove("open");
+          btn.setAttribute("aria-expanded", "false");
+        });
+
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") {
+            menu.classList.remove("open");
+            btn.classList.remove("open");
+            btn.setAttribute("aria-expanded", "false");
+            btn.focus();
+          }
+        });
+      })();
     </script>
   </body>
 </html>

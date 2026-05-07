@@ -12,6 +12,31 @@
     <meta property="og:description" content="Compare estimated ingredient costs across two months using real King Soopers shelf prices and Colorado seasonal data." />
     <meta property="og:url" content="https://rmallorybpc.github.io/recipes/cost.html" />
     <meta property="og:type" content="website" />
+    <style>
+      :root {
+        --tmg-cream: #FDFCF0;
+        --tmg-charcoal: #2D3436;
+        --tmg-sage: #84A98C;
+        --tmg-sage-hover: #6B8F74;
+        --tmg-white: #FFFFFF;
+        --tmg-bg: var(--tmg-cream);
+        --tmg-text: var(--tmg-charcoal);
+        --tmg-accent: var(--tmg-sage);
+        --tmg-surface: var(--tmg-white);
+        --tmg-success: #2E8540;
+        --tmg-warning: #C47F00;
+        --tmg-error: #B00020;
+        --tmg-border: 1px solid rgba(45, 52, 54, 0.12);
+        --tmg-border-hover: 1px solid rgba(132, 169, 140, 0.50);
+        --tmg-bento-radius: 16px;
+        --tmg-nav-radius: 8px;
+        --tmg-btn-radius: 8px;
+        --tmg-gap: 24px;
+        --tmg-gap-sm: 12px;
+        --tmg-shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
+        --tmg-shadow-md: 0 2px 8px rgba(45, 52, 54, 0.10);
+      }
+    </style>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -340,57 +365,82 @@
     </style>
   </head>
   <body>
-    <main class="page">
-      <section class="hero">
-        <p class="eyebrow">Recipe Cost Estimator</p>
-        <h1>See when each recipe is cheapest to make.</h1>
-        <p class="subtitle">
-          Compare estimated ingredient costs across any two months using real King Soopers shelf prices and Colorado seasonal data. All estimates are marked clearly.
-        </p>
-        <nav class="subNav" aria-label="Pages">
+    <nav class="tmg-nav" role="banner">
+      <div class="tmg-nav-left">
+        <div class="tmg-logo" aria-label="The Mallory Group">
+          <span>TM</span>
+          <div class="tmg-logo-divider" aria-hidden="true"></div>
+          <span>G</span>
+        </div>
+        <div class="tmg-page-links" aria-label="Pages" role="navigation">
           <a href="index.html">Planner</a>
           <a href="ingredients.html">Ingredient Search</a>
           <a href="seasonal.html">Seasonal</a>
           <a href="deals.html">Deals</a>
           <a href="suggest.html">Suggest</a>
           <a href="cost.html" aria-current="page">Cost</a>
-        </nav>
+        </div>
+      </div>
+      <div class="tmg-dropdown-wrap">
+        <button class="tmg-dropdown-btn" id="tmgDdBtn" aria-haspopup="true" aria-expanded="false" aria-controls="tmgDdMenu">
+          TMG Tool Suite
+          <svg class="tmg-chevron" viewBox="0 0 12 12" fill="none" width="12" height="12" aria-hidden="true">
+            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <div class="tmg-dropdown-menu" id="tmgDdMenu" role="menu">
+          <a href="https://rmallorybpc.github.io/pdf-multi-agent-analysis/" target="_blank" rel="noreferrer" role="menuitem">PDF Multi-Agent Analysis</a>
+          <a href="https://rmallorybpc.github.io/housing-market-intel/" target="_blank" rel="noreferrer" role="menuitem">Housing Market Intel</a>
+          <a href="https://rmallorybpc.github.io/real-estate-report/" target="_blank" rel="noreferrer" role="menuitem">Real Estate Report</a>
+          <a href="https://rmallorybpc.github.io/nflanalysis/dashboard/src/" target="_blank" rel="noreferrer" role="menuitem">NFL Analysis</a>
+          <a href="https://rmallorybpc.github.io/recipes/" target="_blank" rel="noreferrer" role="menuitem">Recipe Book</a>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <div class="tmg-page tmg-container">
+      <section class="hero tmg-card-wide">
+        <p class="eyebrow tmg-eyebrow">Recipe Cost Estimator</p>
+        <h1 class="tmg-page-title">See when each recipe is cheapest to make.</h1>
+        <p class="subtitle tmg-page-desc">
+          Compare estimated ingredient costs across any two months using real King Soopers shelf prices and Colorado seasonal data. All estimates are marked clearly.
+        </p>
       </section>
 
-      <section class="dataStatusBar" id="dataStatusBar" aria-live="polite"></section>
+      <section class="dataStatusBar tmg-card" id="dataStatusBar" aria-live="polite"></section>
 
-      <section class="costSection" aria-label="Recipe selector">
-        <h2>Choose Recipe</h2>
-        <label for="recipeSearch" class="recipeSearchLabel">
+      <section class="costSection tmg-card-wide" aria-label="Recipe selector">
+        <h2 class="tmg-card-title">Choose Recipe</h2>
+        <label for="recipeSearch" class="recipeSearchLabel tmg-field-label">
           Search
-          <input id="recipeSearch" type="search" placeholder="Search recipes..." />
+          <input id="recipeSearch" type="search" class="tmg-input" placeholder="Search recipes..." />
         </label>
         <div id="recipeList" class="recipeList" role="listbox" aria-label="Recipes"></div>
         <p class="selectedLine">
           <strong>Selected:</strong>
           <span id="selectedRecipeText">None</span>
-          <button id="clearSelectionBtn" type="button" class="plannerActionButton">Clear</button>
+          <button id="clearSelectionBtn" type="button" class="plannerActionButton tmg-btn-ghost">Clear</button>
         </p>
       </section>
 
-      <section class="costSection" aria-label="Month comparison picker">
-        <h2>Compare Months</h2>
+      <section class="costSection tmg-card-wide" aria-label="Month comparison picker">
+        <h2 class="tmg-card-title">Compare Months</h2>
         <div class="monthPickerRow">
-          <label for="monthA">
+          <label for="monthA" class="tmg-field-label">
             Month 1
-            <select id="monthA"></select>
+            <select id="monthA" class="tmg-select"></select>
           </label>
-          <label for="monthB">
+          <label for="monthB" class="tmg-field-label">
             Month 2
-            <select id="monthB"></select>
+            <select id="monthB" class="tmg-select"></select>
           </label>
         </div>
-        <button id="compareBtn" type="button" class="compareButton">Compare Costs</button>
+        <button id="compareBtn" type="button" class="compareButton tmg-btn">Compare Costs</button>
       </section>
 
-      <section id="costOutput" class="outputPanel" aria-live="polite"></section>
+      <section id="costOutput" class="outputPanel tmg-card-wide" aria-live="polite"></section>
 
-      <footer class="siteFooter">
+      <footer class="tmg-footer">
         <p class="siteFooter-nav">
           Family Recipe Book &nbsp;·&nbsp;
           Built with GitHub Pages &nbsp;·&nbsp;
@@ -400,6 +450,7 @@
           Cost estimates use actual King Soopers shelf prices from the <a href="https://developer.kroger.com" target="_blank" rel="noopener">Kroger Developer API</a> where available, supplemented by seasonal price multipliers derived from <a href="https://www.ers.usda.gov" target="_blank" rel="noopener">USDA Economic Research Service</a> retail price data and the <a href="https://ag.colorado.gov/markets/colorado-proud/colorado-produce-calendar" target="_blank" rel="noopener">Colorado Department of Agriculture seasonal calendar</a>. Ingredients without actual price data are marked as estimated.
         </p>
       </footer>
+      </div>
     </main>
 
     <script>
@@ -997,14 +1048,14 @@
             <span class="verdictPill ${verdictClass}">${verdictText}</span>
           </div>
 
-          <table class="comparisonTable">
+          <table class="comparisonTable tmg-table">
             <thead>
               <tr>
-                <th>Ingredient</th>
-                <th>${monthAName} cost</th>
-                <th>${monthBName} cost</th>
-                <th>Difference</th>
-                <th>Notes</th>
+                <th scope="col">Ingredient</th>
+                <th scope="col">${monthAName} cost</th>
+                <th scope="col">${monthBName} cost</th>
+                <th scope="col">Difference</th>
+                <th scope="col">Notes</th>
               </tr>
             </thead>
             <tbody>
@@ -1136,6 +1187,35 @@
       }
 
       init();
+    </script>
+    <script>
+      (function () {
+        const btn = document.getElementById("tmgDdBtn");
+        const menu = document.getElementById("tmgDdMenu");
+        if (!btn || !menu) return;
+
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          const isOpen = menu.classList.toggle("open");
+          btn.classList.toggle("open", isOpen);
+          btn.setAttribute("aria-expanded", String(isOpen));
+        });
+
+        document.addEventListener("click", function () {
+          menu.classList.remove("open");
+          btn.classList.remove("open");
+          btn.setAttribute("aria-expanded", "false");
+        });
+
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") {
+            menu.classList.remove("open");
+            btn.classList.remove("open");
+            btn.setAttribute("aria-expanded", "false");
+            btn.focus();
+          }
+        });
+      })();
     </script>
   </body>
 </html>
