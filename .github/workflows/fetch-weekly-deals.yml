@@ -57,11 +57,18 @@ jobs:
                   data/deals-metro-market.json
           if ! git diff --staged --quiet; then
             git commit -m "chore: update weekly deals for all chains [skip ci]"
-            if ! git push; then
-              # Another commit landed on main while this job was running.
-              # Rebase and retry once so scheduled/manual runs do not fail on push races.
+            for attempt in 1 2 3; do
+              if git push; then
+                break
+              fi
+
+              if [ "$attempt" -eq 3 ]; then
+                echo "Push failed after 3 attempts"
+                exit 1
+              fi
+
+              echo "Push was rejected (non-fast-forward). Rebasing and retrying..."
               git fetch origin main
               git rebase origin/main
-              git push
-            fi
+            done
           fi
