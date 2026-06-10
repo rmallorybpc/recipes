@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-22T19:37:37.091Z",
-  "total_ingredients": 2122,
+  "generated_at": "2026-06-10T20:36:58.127Z",
+  "total_ingredients": 2132,
   "entries": [
     {
       "ingredient": "- chicken breasts",
@@ -281,13 +281,20 @@
         "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw",
         "dinner-seafood-mealdb-cajun-spiced-fish-tacos",
         "dinner-seafood-mealdb-salmon-avocado-salad",
-        "dinner-vegetarian-mealdb-chickpea-fajitas"
+        "dinner-vegetarian-mealdb-chickpea-fajitas",
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {
       "ingredient": "avocado slices",
       "recipe_ids": [
         "dinner-handheld-suggested-shrimp-tacos-with-mango-slaw"
+      ]
+    },
+    {
+      "ingredient": "baby cucumbers",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {
@@ -1087,6 +1094,12 @@
         "dinner-meat-skillet-meatloaf-cheeseburger-meatloaf",
         "dinner-vegetarian-mealdb-crispy-eggplant",
         "dinner-vegetarian-mealdb-mushroom-chestnut-rotolo"
+      ]
+    },
+    {
+      "ingredient": "breaded chicken tenders",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {
@@ -2087,6 +2100,12 @@
       ]
     },
     {
+      "ingredient": "chili oil",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
+      ]
+    },
+    {
       "ingredient": "chili oil or sesame oil",
       "recipe_ids": [
         "dinner-rice-or-pasta-suggested-dan-dan-noodles"
@@ -2274,7 +2293,8 @@
         "dinner-soup-or-stew-chicken-tortilla-soup",
         "dinner-soup-or-stew-chicken-tortilla-soup-in-crock-pot",
         "dinner-vegetarian-mealdb-fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil",
-        "dinner-vegetarian-mealdb-stuffed-bell-peppers-with-quinoa-and-black-beans"
+        "dinner-vegetarian-mealdb-stuffed-bell-peppers-with-quinoa-and-black-beans",
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {
@@ -8139,7 +8159,8 @@
         "dinner-meat-mealdb-shawarma",
         "dinner-meat-mealdb-tandoori-chicken",
         "dinner-vegetarian-mealdb-beetroot-latkes",
-        "dinner-vegetarian-mealdb-stovetop-eggplant-with-harissa-chickpeas-and-cumin-yogu"
+        "dinner-vegetarian-mealdb-stovetop-eggplant-with-harissa-chickpeas-and-cumin-yogu",
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {
@@ -10066,6 +10087,12 @@
       ]
     },
     {
+      "ingredient": "lime juiced",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
+      ]
+    },
+    {
       "ingredient": "lime leaves",
       "recipe_ids": [
         "dinner-meat-mealdb-thai-green-chicken-soup",
@@ -10257,6 +10284,12 @@
       ]
     },
     {
+      "ingredient": "mayo",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
+      ]
+    },
+    {
       "ingredient": "mayonnaise",
       "recipe_ids": [
         "dinner-bowls-mealdb-turkey-b-nh-m",
@@ -10308,6 +10341,12 @@
       "ingredient": "medium cabbage",
       "recipe_ids": [
         "dinner-vegetarian-mealdb-cabbage-soup-shchi"
+      ]
+    },
+    {
+      "ingredient": "medium carrot",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {
@@ -10933,6 +10972,7 @@
         "dinner-vegetarian-mealdb-stuffed-bell-peppers-with-quinoa-and-black-beans",
         "dinner-vegetarian-mealdb-sweet-potato-salad",
         "dinner-vegetarian-mealdb-tortang-talong",
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice",
         "lunch-handheld-suggested-black-bean-tacos",
         "lunch-soup-or-stew-suggested-lentil-soup"
       ]
@@ -12366,6 +12406,12 @@
       ]
     },
     {
+      "ingredient": "red onion pickled or regular",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
+      ]
+    },
+    {
       "ingredient": "red onion thinly",
       "recipe_ids": [
         "breakfast-meat-greek-pitas-with-chicken",
@@ -13117,7 +13163,8 @@
     {
       "ingredient": "sesame seeds",
       "recipe_ids": [
-        "dinner-vegetarian-stir-fry"
+        "dinner-vegetarian-stir-fry",
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {
@@ -14043,7 +14090,8 @@
         "dinner-vegetarian-mealdb-tofu-greens-cashew-stir-fry",
         "dinner-vegetarian-mealdb-vietnamese-style-veggie-hotpot",
         "dinner-vegetarian-stir-fry",
-        "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu"
+        "dinner-vegetarian-suggested-veggie-stir-fry-with-tofu",
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {
@@ -14420,6 +14468,12 @@
       ]
     },
     {
+      "ingredient": "sriracha if desired",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
+      ]
+    },
+    {
       "ingredient": "stalk celery",
       "recipe_ids": [
         "dinner-vegetarian-mealdb-ribollita"
@@ -14673,6 +14727,12 @@
         "dinner-meat-mealdb-coddled-pork-with-cider",
         "dinner-meat-mealdb-paszteciki-polish-pasties",
         "dinner-meat-mealdb-raspeballer-norwegian-potato-dumplings"
+      ]
+    },
+    {
+      "ingredient": "sweet chili sauce plus more to toss if desired",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {
@@ -17285,6 +17345,12 @@
       "ingredient": "turnips",
       "recipe_ids": [
         "dinner-meat-mealdb-irish-stew"
+      ]
+    },
+    {
+      "ingredient": "uncooked rice",
+      "recipe_ids": [
+        "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice"
       ]
     },
     {

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-22T19:37:37.078Z",
+  "generated_at": "2026-06-10T20:36:58.114Z",
   "stats": {
-    "total_recipes": 696,
+    "total_recipes": 697,
     "with_existing_source": 696,
     "resolved_from_search": 0,
     "scraped_ingredients": 9,
-    "markdown_fallback": 663,
+    "markdown_fallback": 664,
     "heuristic_only": 0
   },
   "recipes": [
@@ -25036,6 +25036,53 @@
         "vegetable oil",
         "cooked rice",
         "sesame seeds for garnish"
+      ],
+      "ingredient_source": "markdown_recipe",
+      "confidence": 0.75
+    },
+    {
+      "title": "Bang Bang Chicken Salad with Crispy Rice",
+      "meal": "lunch",
+      "style": "bowls",
+      "source_url": null,
+      "id": "lunch-bowls-bang-bang-chicken-salad-with-crispy-rice",
+      "resolved_source_url": null,
+      "source_origin": "none",
+      "ingredients": [
+        "1 cup uncooked rice",
+        "2 tbsp olive oil",
+        "2 tbsp soy sauce",
+        "1 tbsp chili oil",
+        "5 breaded chicken tenders",
+        "3 baby cucumbers",
+        "1 medium carrot",
+        "1/2 red onion, pickled or regular",
+        "1 avocado",
+        "1/4 cup cilantro",
+        "1/4 cup mayo",
+        "1/4 cup greek yogurt",
+        "1/4 cup sweet chili sauce, plus more to toss, if desired",
+        "1 tbsp sriracha, if desired",
+        "1 lime, juiced",
+        "sesame seeds"
+      ],
+      "ingredients_normalized": [
+        "uncooked rice",
+        "olive oil",
+        "soy sauce",
+        "chili oil",
+        "breaded chicken tenders",
+        "baby cucumbers",
+        "medium carrot",
+        "red onion pickled or regular",
+        "avocado",
+        "cilantro",
+        "mayo",
+        "greek yogurt",
+        "sweet chili sauce plus more to toss if desired",
+        "sriracha if desired",
+        "lime juiced",
+        "sesame seeds"
       ],
       "ingredient_source": "markdown_recipe",
       "confidence": 0.75

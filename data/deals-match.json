@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-22T19:37:37.229Z",
+  "generatedAt": "2026-06-10T20:36:58.230Z",
   "weekOf": "2026-04-15",
   "locationId": "62000100",
   "chain": "King Soopers",
   "totalDeals": 126,
   "dealsWithRecipes": 118,
-  "totalRecipes": 696,
-  "recipesWithDeals": 664,
+  "totalRecipes": 697,
+  "recipesWithDeals": 665,
   "dealRecipes": [
     {
       "dealTerm": "sirloin",
@@ -4149,6 +4149,12 @@
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
         },
         {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
+        },
+        {
           "title": "Suggested - Asian noodle salad",
           "meal": "lunch",
           "style": "bowls",
@@ -5067,6 +5073,12 @@
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
         },
         {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
+        },
+        {
           "title": "Suggested - Asian noodle salad",
           "meal": "lunch",
           "style": "bowls",
@@ -5801,6 +5813,12 @@
           "meal": "dinner",
           "style": "vegetarian",
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
+        },
+        {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
         },
         {
           "title": "Suggested - Asian noodle salad",
@@ -6839,6 +6857,12 @@
           "meal": "dinner",
           "style": "vegetarian",
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
+        },
+        {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
         }
       ]
     },
@@ -7501,6 +7525,12 @@
           "meal": "dinner",
           "style": "vegetarian",
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
+        },
+        {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
         },
         {
           "title": "Suggested - Asian noodle salad",
@@ -8357,6 +8387,12 @@
           "meal": "dinner",
           "style": "vegetarian",
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
+        },
+        {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
         },
         {
           "title": "Suggested - Asian noodle salad",
@@ -10947,6 +10983,12 @@
           "meal": "dinner",
           "style": "vegetarian",
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
+        },
+        {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
         },
         {
           "title": "Suggested - Asian noodle salad",
@@ -17577,6 +17619,12 @@
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
         },
         {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
+        },
+        {
           "title": "Suggested - Asian noodle salad",
           "meal": "lunch",
           "style": "bowls",
@@ -21373,6 +21421,12 @@
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
         },
         {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
+        },
+        {
           "title": "Suggested - Asian noodle salad",
           "meal": "lunch",
           "style": "bowls",
@@ -23485,6 +23539,12 @@
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
         },
         {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
+        },
+        {
           "title": "Suggested - Asian noodle salad",
           "meal": "lunch",
           "style": "bowls",
@@ -25487,6 +25547,12 @@
           "source": "https://www.themealdb.com/meal/52963"
         },
         {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
+        },
+        {
           "title": "Suggested - Asian noodle salad",
           "meal": "lunch",
           "style": "bowls",
@@ -26303,6 +26369,12 @@
           "meal": "dinner",
           "style": "vegetarian",
           "source": "https://www.themealdb.com/meal/53241"
+        },
+        {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
         },
         {
           "title": "Suggested - Greek salad with chicken",
@@ -27605,6 +27677,12 @@
           "meal": "dinner",
           "style": "vegetarian",
           "source": "https://www.allrecipes.com/recipe/20091/vegetable-stir-fry/"
+        },
+        {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
         },
         {
           "title": "Suggested - Asian noodle salad",
@@ -30111,6 +30189,12 @@
           "meal": "dinner",
           "style": "vegetarian",
           "source": "https://www.themealdb.com/meal/52963"
+        },
+        {
+          "title": "Bang Bang Chicken Salad with Crispy Rice",
+          "meal": "lunch",
+          "style": "bowls",
+          "source": ""
         },
         {
           "title": "Suggested - Asian noodle salad",
@@ -52844,6 +52928,71 @@
           "savings": 1,
           "savingsPct": 10,
           "size": "16 fl oz"
+        }
+      ],
+      "totalSavings": 7.7,
+      "dealCount": 7
+    },
+    {
+      "title": "Bang Bang Chicken Salad with Crispy Rice",
+      "meal": "lunch",
+      "style": "bowls",
+      "onSaleIngredients": [
+        {
+          "ingredient": "uncooked rice",
+          "dealName": "Rice-A-Roni® Long Grain & Wild Rice",
+          "promoPrice": 1,
+          "savings": 0.5,
+          "savingsPct": 33,
+          "size": "4.3 oz"
+        },
+        {
+          "ingredient": "uncooked rice",
+          "dealName": "Mahatma Basmati Rice, Long Grain Rice, Uncooked Rice, 32 oz (907g)",
+          "promoPrice": 3.99,
+          "savings": 1.8,
+          "savingsPct": 31,
+          "size": "2 lbr"
+        },
+        {
+          "ingredient": "uncooked rice",
+          "dealName": "Minute Fragrant & Fluffy Jasmine Rice",
+          "promoPrice": 2.29,
+          "savings": 1,
+          "savingsPct": 30,
+          "size": "12 onz"
+        },
+        {
+          "ingredient": "soy sauce",
+          "dealName": "Kikkoman® Soy Sauce",
+          "promoPrice": 4.99,
+          "savings": 2,
+          "savingsPct": 29,
+          "size": "20 fl oz"
+        },
+        {
+          "ingredient": "uncooked rice",
+          "dealName": "Minute® Gluten-Free Instant White Rice",
+          "promoPrice": 2.29,
+          "savings": 0.9,
+          "savingsPct": 28,
+          "size": "14 oz"
+        },
+        {
+          "ingredient": "olive oil",
+          "dealName": "Pompeian® Smooth First Cold Pressed Extra Virgin Olive Oil",
+          "promoPrice": 8.99,
+          "savings": 1,
+          "savingsPct": 10,
+          "size": "16 fl oz"
+        },
+        {
+          "ingredient": "breaded chicken tenders",
+          "dealName": "Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller Pack BIG DEAL!",
+          "promoPrice": 4.49,
+          "savings": 0.5,
+          "savingsPct": 10,
+          "size": "1 lb"
         }
       ],
       "totalSavings": 7.7,

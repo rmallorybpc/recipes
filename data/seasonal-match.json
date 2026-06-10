@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-22T19:37:37.145Z",
+  "generatedAt": "2026-06-10T20:36:58.163Z",
   "region": "colorado",
   "regionLabel": "Colorado",
-  "totalRecipes": 696,
-  "matchedRecipes": 556,
+  "totalRecipes": 697,
+  "matchedRecipes": 557,
   "recipes": [
     {
       "title": "MealDB - Chorba Hamra bel Frik (Algerian Lamb, Tomato, and Freekeh Soup)",
@@ -20076,6 +20076,56 @@
         11
       ],
       "seasonalScore": 3
+    },
+    {
+      "title": "Bang Bang Chicken Salad with Crispy Rice",
+      "meal": "lunch",
+      "style": "bowls",
+      "source": "",
+      "seasonalIngredients": [
+        {
+          "ingredient": "cucumbers",
+          "peak": [
+            8
+          ],
+          "available": [
+            7,
+            8,
+            9
+          ],
+          "matchedTerm": "3 baby cucumbers"
+        },
+        {
+          "ingredient": "cilantro",
+          "peak": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "available": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "matchedTerm": "1/4 cup cilantro"
+        }
+      ],
+      "bestMonths": [
+        8
+      ],
+      "availableMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "seasonalScore": 2
     },
     {
       "title": "Chicken parm",
