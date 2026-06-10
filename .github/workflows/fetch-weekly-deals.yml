@@ -50,6 +50,12 @@ jobs:
                   data/deals-fred-meyer.json \
                   data/deals-smiths.json \
                   data/deals-frys.json \
-                  data/deals-marianos.json
-          git diff --staged --quiet || git commit -m "chore: update weekly deals for all chains [skip ci]"
-          git diff --staged --quiet || git push
+                  data/deals-marianos.json \
+                  data/deals-pick-n-save.json \
+                  data/deals-city-market.json \
+                  data/deals-qfc.json \
+                  data/deals-metro-market.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update weekly deals for all chains [skip ci]"
+            git push
+          fi
