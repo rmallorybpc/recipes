@@ -57,5 +57,11 @@ jobs:
                   data/deals-metro-market.json
           if ! git diff --staged --quiet; then
             git commit -m "chore: update weekly deals for all chains [skip ci]"
-            git push
+            if ! git push; then
+              # Another commit landed on main while this job was running.
+              # Rebase and retry once so scheduled/manual runs do not fail on push races.
+              git fetch origin main
+              git rebase origin/main
+              git push
+            fi
           fi
