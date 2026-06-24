@@ -127,6 +127,7 @@ h1 {
 .tmg-page-links {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   gap: 0.4rem;
   justify-content: center;
 }
