@@ -120,12 +120,19 @@ h1 {
   display: grid;
   align-items: center;
   gap: 6px;
+  flex: 1;
+  min-width: 0;
 }
 
 .tmg-page-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+  justify-content: center;
+}
+
+.tmg-logo {
+  justify-self: start;
 }
 
 .tmg-page-links a {
