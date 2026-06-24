@@ -117,23 +117,25 @@ h1 {
 }
 
 .tmg-nav-left {
-  display: grid;
+  display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 14px;
   flex: 1;
   min-width: 0;
 }
 
 .tmg-page-links {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  align-items: center;
+  flex: 1;
+  flex-wrap: nowrap;
+  width: auto;
   gap: 0.4rem;
   justify-content: center;
 }
 
 .tmg-logo {
-  justify-self: start;
+  flex-shrink: 0;
 }
 
 .tmg-page-links a {
