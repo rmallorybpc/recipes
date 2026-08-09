@@ -751,10 +751,65 @@ const RECIPES = [
   { name: "MealDB - Mbuzi Choma (Roasted Goat)", meal: "dinner", style: "meat" },
 ];
 
+const RENO_BATCH_STYLES_STRONG = ["soup-or-stew", "baked-casserole"];
+const RENO_BATCH_STYLES_MAYBE = ["rice-or-pasta", "meat", "bowls", "vegetarian"];
+const RENO_BATCH_KEYWORDS = ["freeze", "freezer", "frozen", "batch", "meal prep", "meal-prep", "make ahead", "make-ahead", "makes ahead", "leftover", "double batch", "big batch", "one pot", "one-pot", "slow cooker", "slow-cooker", "crockpot", "crock pot", "instant pot", "casserole", "stew", "chili", "soup", "braise", "curry", "ragu", "bolognese", "sauce"];
+const RENO_FRESH_ONLY = ["best fresh", "serve immediately", "do not freeze", "does not freeze", "serve right away", "best served fresh"];
+const RENO_NO_COOK = ["no-cook", "no cook", "raw", "salad", "sandwich", "wrap", "overnight oats", "no-bake", "no bake", "assemble", "charcuterie", "yogurt", "cereal", "smoothie", "cold "];
+const RENO_MICROWAVE = ["microwave", "microwavable", "reheat", "reheats", "steam"];
+const RENO_POOR_REHEAT = ["crispy", "crunchy", "fried", "deep fry", "deep-fry"];
+
+function renoTextBlob(r) {
+  const kw = Array.isArray(r.keywords) ? r.keywords : [r.keywords];
+  const nt = Array.isArray(r.notes) ? r.notes : [r.notes];
+  return [r.title || r.name, r.style].concat(kw, nt).filter(Boolean).join(" ").toLowerCase();
+}
+
+function renoMatchesAny(text, list) {
+  return list.some(function (k) {
+    return text.indexOf(k) !== -1;
+  });
+}
+
+function renoIsBatch(r) {
+  const text = renoTextBlob(r);
+  if (renoMatchesAny(text, RENO_FRESH_ONLY)) {
+    return false;
+  }
+  if (RENO_BATCH_STYLES_STRONG.indexOf(r.style) !== -1) {
+    return true;
+  }
+  if (renoMatchesAny(text, RENO_BATCH_KEYWORDS)) {
+    return true;
+  }
+
+  const renoServings = Number(r.servings);
+  if (RENO_BATCH_STYLES_MAYBE.indexOf(r.style) !== -1 && Number.isFinite(renoServings) && renoServings >= 6) {
+    return true;
+  }
+
+  return false;
+}
+
+function renoIsMicrowave(r) {
+  const text = renoTextBlob(r);
+  if (renoMatchesAny(text, RENO_NO_COOK)) {
+    return true;
+  }
+  if (renoMatchesAny(text, RENO_MICROWAVE)) {
+    return true;
+  }
+  if (renoIsBatch(r) && !renoMatchesAny(text, RENO_POOR_REHEAT)) {
+    return true;
+  }
+  return false;
+}
+
 let recipes = [...RECIPES];
 
 const mealFilter = document.querySelector("#mealFilter");
 const styleFilter = document.querySelector("#styleFilter");
+const renovationFilter = document.querySelector("#renovationFilter");
 const queryFilter = document.querySelector("#queryFilter");
 const recipeGrid = document.querySelector("#recipeGrid");
 const resultCount = document.querySelector("#resultCount");
@@ -1105,8 +1160,12 @@ function toPlannerRecipe(item, index) {
   return {
     id: stableId || legacyRecipeId(name, index),
     name,
+    title: String(item.title || item.name || "").trim(),
     meal,
     style,
+    keywords: item.keywords,
+    notes: item.notes,
+    servings: item.servings,
     source: item.source_url ? String(item.source_url) : undefined
   };
 }
@@ -1780,10 +1839,15 @@ function renderCards(items) {
       ? '<span class="tag">Any meal</span><span class="tag">Planner option</span>'
       : `<span class="tag">${pretty(recipe.meal)}</span><span class="tag">${pretty(recipe.style)}</span>`;
 
+    const renoBadgesHtml = recipe.isSpecial
+      ? ""
+      : `${renoIsBatch(recipe) ? '<span class="renoBadge renoBadge--batch">cook-ahead</span>' : ""}${renoIsMicrowave(recipe) ? '<span class="renoBadge renoBadge--micro">microwave</span>' : ""}`;
+
     li.innerHTML = `
       <p class="recipeName">${recipe.name}</p>
       <div class="tags">
         ${tagsHtml}
+        ${renoBadgesHtml}
       </div>
       ${sourceHtml}
     `;
@@ -1808,14 +1872,19 @@ function renderCards(items) {
 function applyFilters() {
   const meal = mealFilter.value;
   const style = styleFilter.value;
+  const renovation = renovationFilter ? renovationFilter.value : "all";
   const query = queryFilter.value.trim().toLowerCase();
 
   const filtered = recipes.filter((recipe) => {
     const matchesMeal = meal === "all" || recipe.meal === meal;
     const matchesStyle = style === "all" || recipe.style === style;
+    const matchesRenovation = renovation === "all"
+      || (renovation === "batch" && renoIsBatch(recipe))
+      || (renovation === "microwave" && renoIsMicrowave(recipe))
+      || (renovation === "both" && renoIsBatch(recipe) && renoIsMicrowave(recipe));
     const haystack = `${recipe.name} ${recipe.meal} ${recipe.style}`.toLowerCase();
     const matchesQuery = !query || haystack.includes(query);
-    return matchesMeal && matchesStyle && matchesQuery;
+    return matchesMeal && matchesStyle && matchesRenovation && matchesQuery;
   });
 
   renderCards(filtered);
@@ -1860,6 +1929,9 @@ printPlan.addEventListener("click", () => window.print());
 
 mealFilter.addEventListener("change", applyFilters);
 styleFilter.addEventListener("change", applyFilters);
+if (renovationFilter) {
+  renovationFilter.addEventListener("change", applyFilters);
+}
 queryFilter.addEventListener("input", applyFilters);
 
 if (recipeSubmitForm instanceof HTMLFormElement) {
