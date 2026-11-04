@@ -1,11 +1,24 @@
 {
-  "weekOf": "2026-10-28",
+  "weekOf": "2026-11-04",
   "locationId": "66000088",
   "chain": "Fry's Food And Drug - Phoenix AZ",
-  "generatedAt": "2026-10-28T10:18:20.462Z",
+  "generatedAt": "2026-11-04T10:19:08.461Z",
   "totalSearched": 150,
-  "totalDeals": 138,
+  "totalDeals": 146,
   "deals": [
+    {
+      "term": "whole chicken",
+      "name": "Katie's Best Whole Fryer Chicken",
+      "brand": "Katie's Best",
+      "upc": "0029975700000",
+      "regularPrice": 3.99,
+      "promoPrice": 1.99,
+      "savings": 2,
+      "savingsPct": 50,
+      "size": "4.29 lb",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0029975700000"
+    },
     {
       "term": "thyme",
       "name": "McCormick Gourmet Organic Thyme Leaves",
@@ -18,32 +31,6 @@
       "size": "0.65 oz",
       "category": "Baking Goods",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0005210082795"
-    },
-    {
-      "term": "oranges",
-      "name": "Seedless Mandarin Clementine Oranges in 3lb Bag",
-      "brand": "Fresh Citrus",
-      "upc": "0003338314616",
-      "regularPrice": 5.79,
-      "promoPrice": 2.99,
-      "savings": 2.8,
-      "savingsPct": 48,
-      "size": "3 lb",
-      "category": "Produce",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0003338314616"
-    },
-    {
-      "term": "blueberries",
-      "name": "Private Selection® Fresh Colossal Blueberries",
-      "brand": "Private Selection",
-      "upc": "0001111003931",
-      "regularPrice": 6.99,
-      "promoPrice": 3.99,
-      "savings": 3,
-      "savingsPct": 43,
-      "size": "9.8 oz",
-      "category": "Produce",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111003931"
     },
     {
       "term": "salmon",
@@ -85,19 +72,6 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0029933900000"
     },
     {
-      "term": "shrimp",
-      "name": "Kroger® Extra Large Shrimp Cooked Peeled and Deveined Tail On BIG DEAL!",
-      "brand": "Kroger",
-      "upc": "0001111065387",
-      "regularPrice": 19.98,
-      "promoPrice": 12,
-      "savings": 7.98,
-      "savingsPct": 40,
-      "size": "2 lb",
-      "category": "Frozen",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111065387"
-    },
-    {
       "term": "wild rice",
       "name": "Minute® Gluten Free Ready to Serve Brown & Wild Rice",
       "brand": "Minute",
@@ -109,6 +83,19 @@
       "size": "8.8 oz",
       "category": "Pasta, Sauces, Grain",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001740014004"
+    },
+    {
+      "term": "butternut squash",
+      "name": "Lean Cuisine Signature Butternut Squash Ravioli Frozen Meal",
+      "brand": "Lean Cuisine",
+      "upc": "0001380014406",
+      "regularPrice": 3.79,
+      "promoPrice": 2.49,
+      "savings": 1.3,
+      "savingsPct": 34,
+      "size": "9.875 oz",
+      "category": "Frozen",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001380014406"
     },
     {
       "term": "crab",
@@ -125,7 +112,7 @@
     },
     {
       "term": "crab",
-      "name": "Trans-Ocean Crab Classic Leg Style Imitation Crab",
+      "name": "Trans-Ocean Crab Classic Imitation Crab, Leg Style, 14 oz",
       "brand": "Trans-Ocean",
       "upc": "0071516613803",
       "regularPrice": 4.99,
@@ -137,17 +124,43 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0071516613803"
     },
     {
-      "term": "chicken thighs",
-      "name": "Foster Farms Fresh & Natural Boneless Skinless Chicken Thigh Fillets",
-      "brand": "Foster Farms",
-      "upc": "0027086500000",
+      "term": "bacon",
+      "name": "Farmland® Hickory Smoked Thick Cut Bacon",
+      "brand": "Farmland",
+      "upc": "0007024712311",
       "regularPrice": 5.99,
       "promoPrice": 3.99,
       "savings": 2,
       "savingsPct": 33,
+      "size": "16 oz",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007024712311"
+    },
+    {
+      "term": "chicken thighs",
+      "name": "Foster Farms Fresh & Natural Chicken Thighs",
+      "brand": "Foster Farms",
+      "upc": "0027080900000",
+      "regularPrice": 2.99,
+      "promoPrice": 1.99,
+      "savings": 1,
+      "savingsPct": 33,
       "size": "1 lb",
       "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0027086500000"
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0027080900000"
+    },
+    {
+      "term": "pork tenderloin",
+      "name": "Kroger® Fresh Natural Pork Loin Boneless",
+      "brand": "PORK",
+      "upc": "0020322450000",
+      "regularPrice": 2.99,
+      "promoPrice": 1.99,
+      "savings": 1,
+      "savingsPct": 33,
+      "size": "1 lb",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0020322450000"
     },
     {
       "term": "pork shoulder",
@@ -189,30 +202,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111061834"
     },
     {
-      "term": "shrimp",
-      "name": "Kroger® Crunchy Butterfly Shrimp Frozen",
-      "brand": "Kroger",
-      "upc": "0001111096371",
-      "regularPrice": 15.99,
-      "promoPrice": 10.99,
-      "savings": 5,
+      "term": "salmon",
+      "name": "Sea Cuisine® Citrus Herb Atlantic Salmon",
+      "brand": "Sea Cuisine",
+      "upc": "0003549301462",
+      "regularPrice": 12.99,
+      "promoPrice": 8.99,
+      "savings": 4,
       "savingsPct": 31,
-      "size": "32 ounces",
-      "category": "Frozen",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111096371"
-    },
-    {
-      "term": "dill",
-      "name": "Dan-O's Dip Dill",
-      "brand": "Dan-O's Seasoning",
-      "upc": "0081011225261",
-      "regularPrice": 2.39,
-      "promoPrice": 1.67,
-      "savings": 0.72,
-      "savingsPct": 30,
-      "size": "1 oz",
-      "category": "Baking Goods",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0081011225261"
+      "size": "8 oz",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0003549301462"
     },
     {
       "term": "cod",
@@ -228,29 +228,55 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111065688"
     },
     {
-      "term": "tomatoes",
-      "name": "NatureSweet Cherubs Fresh Heavenly Salad Grape Tomatoes, 9 oz",
-      "brand": "Nature Sweet",
-      "upc": "0075166677275",
-      "regularPrice": 4.19,
-      "promoPrice": 2.99,
-      "savings": 1.2,
+      "term": "ham",
+      "name": "Kroger® Spiral Sliced Honey Ham Half (8-10 Lb) (limit 1 At Sale Price)",
+      "brand": "Kroger",
+      "upc": "0021381000000",
+      "regularPrice": 3.49,
+      "promoPrice": 2.49,
+      "savings": 1,
       "savingsPct": 29,
-      "size": "9 oz",
-      "category": "Produce",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0075166677275"
-    },
-    {
-      "term": "sirloin",
-      "name": "Choice Petite Sirloin Beef Steak Family Pack (About 3-4 Steaks per Pack)",
-      "upc": "0020212500000",
-      "regularPrice": 10.99,
-      "promoPrice": 7.99,
-      "savings": 3,
-      "savingsPct": 27,
       "size": "1 lb",
       "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0020212500000"
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0021381000000"
+    },
+    {
+      "term": "ham",
+      "name": "Sugardale® Ham Shank Portion (limit 1 At Sale Price)",
+      "brand": "Sugardale",
+      "upc": "0024368950000",
+      "regularPrice": 2.79,
+      "promoPrice": 1.99,
+      "savings": 0.8,
+      "savingsPct": 29,
+      "size": "1 lb",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0024368950000"
+    },
+    {
+      "term": "all-purpose flour",
+      "name": "King Arthur All Purpose Unbleached Flour, Non-GMO Project, Certified Kosher, No Preservatives",
+      "brand": "King Arthur Baking Company",
+      "upc": "0007101201050",
+      "regularPrice": 6.99,
+      "promoPrice": 5,
+      "savings": 1.99,
+      "savingsPct": 28,
+      "size": "5 lbs",
+      "category": "Baking Goods",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007101201050"
+    },
+    {
+      "term": "pork shoulder",
+      "name": "Kroger® Natural Fresh Coppa Pork Shoulder Steak (Two Pack)",
+      "upc": "0021862850000",
+      "regularPrice": 5.99,
+      "promoPrice": 4.29,
+      "savings": 1.7,
+      "savingsPct": 28,
+      "size": "1 lb",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0021862850000"
     },
     {
       "term": "butternut squash",
@@ -266,7 +292,7 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0005260329582"
     },
     {
-      "term": "baking soda",
+      "term": "baking powder",
       "name": "ARM & HAMMER Pure Baking Soda",
       "brand": "Arm & Hammer",
       "upc": "0003320001110",
@@ -279,56 +305,55 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0003320001110"
     },
     {
-      "term": "cod",
-      "name": "Cape Cod® Limited Edition Less Fat Original Chips",
-      "brand": "Cape Cod",
-      "upc": "0002068500029",
-      "regularPrice": 5.29,
-      "promoPrice": 3.99,
-      "savings": 1.3,
-      "savingsPct": 25,
-      "size": "8 oz",
-      "category": "Snacks",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002068500029"
-    },
-    {
-      "term": "cod",
-      "name": "Cape Cod® Limited Edition Original Chips",
-      "brand": "Cape Cod",
-      "upc": "0002068500164",
-      "regularPrice": 5.29,
-      "promoPrice": 3.99,
-      "savings": 1.3,
-      "savingsPct": 25,
-      "size": "8 oz",
-      "category": "Snacks",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002068500164"
-    },
-    {
-      "term": "crab",
-      "name": "Dockside Classics Premium Crab Cakes with Cocktail Sauce 4 Count",
-      "brand": "Dockside Classics",
-      "upc": "0004542516544",
-      "regularPrice": 7.99,
-      "promoPrice": 5.99,
-      "savings": 2,
+      "term": "ham",
+      "name": "Bar-S Deli Style Smoked Ham Sliced Lunch Meat, 12oz",
+      "brand": "Bar-S",
+      "upc": "0001590006347",
+      "regularPrice": 3.99,
+      "promoPrice": 3,
+      "savings": 0.99,
       "savingsPct": 25,
       "size": "12 oz",
       "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0004542516544"
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001590006347"
     },
     {
-      "term": "tomatoes",
-      "name": "NatureSweet Constellation Dia De Muertos Seasonal Medley Tomatoes, 10oz",
-      "brand": "Nature Sweet",
-      "upc": "0075166641725",
+      "term": "peaches",
+      "name": "Kroger® Canned Yellow Cling Sliced Peaches No Sugar Added",
+      "brand": "Kroger",
+      "upc": "0001111082306",
+      "regularPrice": 1.99,
+      "promoPrice": 1.5,
+      "savings": 0.49,
+      "savingsPct": 25,
+      "size": "14.5 oz",
+      "category": "Canned & Packaged",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111082306"
+    },
+    {
+      "term": "shrimp",
+      "name": "Kroger® Large Raw Shrimp Peeled & Deveined Tail Off",
+      "brand": "Kroger",
+      "upc": "0001111064984",
+      "regularPrice": 7.99,
+      "promoPrice": 6,
+      "savings": 1.99,
+      "savingsPct": 25,
+      "size": "12 ounces",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111064984"
+    },
+    {
+      "term": "peppers",
+      "name": "Kroger® Tri-Color Bell Peppers",
+      "upc": "0001111091116",
       "regularPrice": 3.99,
       "promoPrice": 2.99,
       "savings": 1,
       "savingsPct": 25,
-      "size": "10 oz",
-      "category": "Produce",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0075166641725"
+      "size": "20 oz",
+      "category": "International",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111091116"
     },
     {
       "term": "garlic",
@@ -357,6 +382,19 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0019029800020"
     },
     {
+      "term": "crab",
+      "name": "Kroger Crab Select Leg Style Imitation Crab Meat",
+      "brand": "Kroger",
+      "upc": "0001111061835",
+      "regularPrice": 3.29,
+      "promoPrice": 2.5,
+      "savings": 0.79,
+      "savingsPct": 24,
+      "size": "8 oz",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111061835"
+    },
+    {
       "term": "salmon",
       "name": "Kroger® Wild Caught Pink Salmon Boneless and Skin On BIG DEAL!",
       "brand": "Kroger",
@@ -370,17 +408,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111069779"
     },
     {
-      "term": "chicken breast",
-      "name": "Heritage Farm® Boneless Skinless Chicken Breasts",
-      "brand": "Heritage Farm",
-      "upc": "0028334900000",
+      "term": "all-purpose flour",
+      "name": "Kroger® Bleached All Purpose Flour",
+      "brand": "Kroger",
+      "upc": "0001111085402",
       "regularPrice": 2.59,
-      "promoPrice": 1.99,
-      "savings": 0.6,
+      "promoPrice": 2,
+      "savings": 0.59,
       "savingsPct": 23,
-      "size": "1 lb",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0028334900000"
+      "size": "5 lb",
+      "category": "Baking Goods",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111085402"
     },
     {
       "term": "green beans",
@@ -407,6 +445,19 @@
       "size": "15.25 onz",
       "category": "Canned & Packaged",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002400016302"
+    },
+    {
+      "term": "avocado",
+      "name": "Fresh Medium Ripe Avocado",
+      "brand": "Fresh Avocados",
+      "upc": "0000000004046",
+      "regularPrice": 0.88,
+      "promoPrice": 0.69,
+      "savings": 0.19,
+      "savingsPct": 22,
+      "size": "1 each",
+      "category": "Produce",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0000000004046"
     },
     {
       "term": "ham",
@@ -447,56 +498,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0005260305410"
     },
     {
-      "term": "chicken wings",
-      "name": "Foster Farms Fresh & Natural Chicken Wings",
-      "brand": "Foster Farms",
-      "upc": "0027081000000",
-      "regularPrice": 4.99,
-      "promoPrice": 3.99,
-      "savings": 1,
+      "term": "shrimp",
+      "name": "Kroger® Extra Large Shrimp Cooked Peeled and Deveined Tail On BIG DEAL!",
+      "brand": "Kroger",
+      "upc": "0001111065387",
+      "regularPrice": 19.98,
+      "promoPrice": 15.98,
+      "savings": 4,
       "savingsPct": 20,
-      "size": "1 lb",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0027081000000"
-    },
-    {
-      "term": "baking powder",
-      "name": "Ghirardelli Premium Baking Cocoa 100% Cocoa Dutch Process Unsweetened Cocoa Powder",
-      "brand": "Ghirardelli",
-      "upc": "0074759940610",
-      "regularPrice": 9.99,
-      "promoPrice": 7.99,
-      "savings": 2,
-      "savingsPct": 20,
-      "size": "8 ounces",
-      "category": "Baking Goods",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0074759940610"
-    },
-    {
-      "term": "panko",
-      "name": "Kooshy Italiano Sourdough Panko Bread Crumbs",
-      "brand": "Kooshy Croutons",
-      "upc": "0085002114506",
-      "regularPrice": 4.99,
-      "promoPrice": 3.99,
-      "savings": 1,
-      "savingsPct": 20,
-      "size": "7.5 oz",
-      "category": "Baking Goods",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0085002114506"
-    },
-    {
-      "term": "panko",
-      "name": "Kooshy Plain Sourdough Panko Bread Crumbs",
-      "brand": "Kooshy Croutons",
-      "upc": "0085002114505",
-      "regularPrice": 4.99,
-      "promoPrice": 3.99,
-      "savings": 1,
-      "savingsPct": 20,
-      "size": "7.5 oz",
-      "category": "Baking Goods",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0085002114505"
+      "size": "2 lb",
+      "category": "Frozen",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111065387"
     },
     {
       "term": "pork shoulder",
@@ -512,7 +524,7 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0025338300000"
     },
     {
-      "term": "beef steak",
+      "term": "ribeye",
       "name": "Simple Truth Organic® Grass Fed Beef Ribeye Steak",
       "brand": "Simple Truth Organic",
       "upc": "0001111019270",
@@ -577,17 +589,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007080074687"
     },
     {
-      "term": "linguine",
-      "name": "Rana™ Chicken Marsala Linguine Meal Kit",
-      "brand": "Rana",
-      "upc": "0081011406046",
-      "regularPrice": 6.79,
-      "promoPrice": 5.49,
-      "savings": 1.3,
-      "savingsPct": 19,
-      "size": "12 oz",
-      "category": "Deli",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0081011406046"
+      "term": "vegetable oil",
+      "name": "Bertolli Extra Virgin Olive Oil, Rich Taste",
+      "brand": "Bertolli",
+      "upc": "0004179000225",
+      "regularPrice": 21.99,
+      "promoPrice": 17.99,
+      "savings": 4,
+      "savingsPct": 18,
+      "size": "50.7 fl oz",
+      "category": "Baking Goods",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0004179000225"
     },
     {
       "term": "tuna",
@@ -615,16 +627,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0020196600000"
     },
     {
-      "term": "sirloin",
-      "name": "Choice Petite Sirloin Beef Steak (About 2-3 Steaks)",
-      "upc": "0020212300000",
-      "regularPrice": 10.99,
-      "promoPrice": 8.99,
-      "savings": 2,
+      "term": "turkey breast",
+      "name": "Longmont Oil Braised Turkey Breast 9oz",
+      "brand": "Longmont",
+      "upc": "0064523051224",
+      "regularPrice": 5.49,
+      "promoPrice": 4.49,
+      "savings": 1,
       "savingsPct": 18,
-      "size": "1 lb",
+      "size": "9 oz",
       "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0020212300000"
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0064523051224"
     },
     {
       "term": "tilapia",
@@ -665,81 +678,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0060699500327"
     },
     {
-      "term": "chicken breast",
-      "name": "Foster Farms Fresh & Natural Boneless Skinless Chicken Breast Fillets",
-      "brand": "Foster Farms",
-      "upc": "0027082700000",
-      "regularPrice": 5.99,
-      "promoPrice": 4.99,
-      "savings": 1,
-      "savingsPct": 17,
-      "size": "1 lb",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0027082700000"
-    },
-    {
-      "term": "raspberries",
-      "name": "Fresh Red Raspberries - 6 OZ Clamshell",
-      "upc": "0003338321000",
-      "regularPrice": 3.59,
-      "promoPrice": 2.99,
-      "savings": 0.6,
-      "savingsPct": 17,
-      "size": "6 oz",
-      "category": "Produce",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0003338321000"
-    },
-    {
-      "term": "breakfast sausage",
-      "name": "Jimmy Dean® Fully Cooked Original Pork Breakfast Sausage Links",
-      "brand": "Jimmy Dean",
-      "upc": "0007790019206",
-      "regularPrice": 5.99,
-      "promoPrice": 4.99,
-      "savings": 1,
-      "savingsPct": 17,
-      "size": "9.6 oz",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007790019206"
-    },
-    {
-      "term": "pork tenderloin",
-      "name": "Kroger® Fresh Natural Pork Loin Boneless",
-      "brand": "PORK",
-      "upc": "0020322450000",
-      "regularPrice": 2.99,
-      "promoPrice": 2.49,
-      "savings": 0.5,
-      "savingsPct": 17,
-      "size": "1 lb",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0020322450000"
-    },
-    {
-      "term": "bacon",
-      "name": "Kroger® Thick Cut Naturally Hardwood Smoked Bacon",
-      "brand": "Kroger",
-      "upc": "0001111097209",
-      "regularPrice": 4.79,
-      "promoPrice": 3.99,
-      "savings": 0.8,
-      "savingsPct": 17,
-      "size": "16 oz",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111097209"
-    },
-    {
-      "term": "avocado",
-      "name": "Mission Fresh Jumbo Avocado Bag",
-      "brand": "Mission",
-      "upc": "0076101048124",
-      "regularPrice": 5.99,
-      "promoPrice": 4.99,
-      "savings": 1,
-      "savingsPct": 17,
-      "size": "4 ct",
-      "category": "Produce",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0076101048124"
+      "term": "white beans",
+      "name": "Bush's Cannellini Beans 15.5 oz",
+      "brand": "Bush's Best",
+      "upc": "0003940001870",
+      "regularPrice": 1.49,
+      "promoPrice": 1.25,
+      "savings": 0.24,
+      "savingsPct": 16,
+      "size": "15.5 oz",
+      "category": "Canned & Packaged",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0003940001870"
     },
     {
       "term": "chickpeas",
@@ -768,17 +717,43 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0003940000116"
     },
     {
-      "term": "salmon",
-      "name": "Kroger® Farm Raised Atlantic Salmon Portions Frozen BIG DEAL!",
-      "brand": "Kroger",
-      "upc": "0001111062826",
-      "regularPrice": 24.99,
-      "promoPrice": 20.99,
-      "savings": 4,
+      "term": "black beans",
+      "name": "Bush's Seasoned Recipe Black Beans 15 oz",
+      "brand": "Bush's Best",
+      "upc": "0003940001884",
+      "regularPrice": 1.49,
+      "promoPrice": 1.25,
+      "savings": 0.24,
       "savingsPct": 16,
-      "size": "32 ounces",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111062826"
+      "size": "15 oz",
+      "category": "Canned & Packaged",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0003940001884"
+    },
+    {
+      "term": "brown sugar",
+      "name": "Kroger® Dark Brown Sugar",
+      "brand": "Kroger",
+      "upc": "0001111083563",
+      "regularPrice": 2.39,
+      "promoPrice": 2,
+      "savings": 0.39,
+      "savingsPct": 16,
+      "size": "32 oz",
+      "category": "Baking Goods",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111083563"
+    },
+    {
+      "term": "brown sugar",
+      "name": "Kroger® Light Brown Sugar",
+      "brand": "Kroger",
+      "upc": "0001111085585",
+      "regularPrice": 2.39,
+      "promoPrice": 2,
+      "savings": 0.39,
+      "savingsPct": 16,
+      "size": "32 oz",
+      "category": "Baking Goods",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111085585"
     },
     {
       "term": "rice",
@@ -792,6 +767,32 @@
       "size": "5 lbr",
       "category": "Pasta, Sauces, Grain",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001740010951"
+    },
+    {
+      "term": "linguine",
+      "name": "Private Selection® Italian Linguine",
+      "brand": "Private Selection",
+      "upc": "0001111008991",
+      "regularPrice": 1.99,
+      "promoPrice": 1.67,
+      "savings": 0.32,
+      "savingsPct": 16,
+      "size": "16 oz",
+      "category": "Pasta, Sauces, Grain",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111008991"
+    },
+    {
+      "term": "penne",
+      "name": "Private Selection® Italian Penne Rigate",
+      "brand": "Private Selection",
+      "upc": "0001111008985",
+      "regularPrice": 1.99,
+      "promoPrice": 1.67,
+      "savings": 0.32,
+      "savingsPct": 16,
+      "size": "16 oz",
+      "category": "Pasta, Sauces, Grain",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111008985"
     },
     {
       "term": "chicken broth",
@@ -923,6 +924,32 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002446306116"
     },
     {
+      "term": "pork tenderloin",
+      "name": "Kroger® Brown Sugar and Bacon Pork Tenderloin",
+      "brand": "Kroger",
+      "upc": "0001111069474",
+      "regularPrice": 7,
+      "promoPrice": 6,
+      "savings": 1,
+      "savingsPct": 14,
+      "size": "18 oz",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111069474"
+    },
+    {
+      "term": "breakfast sausage",
+      "name": "Kroger® Mild Pork Sausage Roll",
+      "brand": "Kroger",
+      "upc": "0001111097298",
+      "regularPrice": 3.49,
+      "promoPrice": 2.99,
+      "savings": 0.5,
+      "savingsPct": 14,
+      "size": "16 oz",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111097298"
+    },
+    {
       "term": "cod",
       "name": "Kroger® Wild Caught Pacific Cod Fillets Frozen BIG DEAL!",
       "brand": "Kroger",
@@ -949,17 +976,43 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0009281924041"
     },
     {
-      "term": "egg noodles",
-      "name": "Mrs. Miller's Wide Egg Noodles",
-      "brand": "Mrs. Miller's",
-      "upc": "0009281924040",
-      "regularPrice": 3.49,
-      "promoPrice": 2.99,
-      "savings": 0.5,
+      "term": "blueberries",
+      "name": "Private Selection® Fresh Colossal Blueberries",
+      "brand": "Private Selection",
+      "upc": "0001111003931",
+      "regularPrice": 6.99,
+      "promoPrice": 5.99,
+      "savings": 1,
       "savingsPct": 14,
-      "size": "13.5 oz",
+      "size": "9.8 oz",
+      "category": "Produce",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111003931"
+    },
+    {
+      "term": "tomato sauce",
+      "name": "Rao's Homemade Tomato Basil Sauce Made With Italian Tomatoes",
+      "brand": "Rao's",
+      "upc": "0074747900115",
+      "regularPrice": 10.49,
+      "promoPrice": 8.99,
+      "savings": 1.5,
+      "savingsPct": 14,
+      "size": "32 oz",
       "category": "Pasta, Sauces, Grain",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0009281924040"
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0074747900115"
+    },
+    {
+      "term": "spaghetti",
+      "name": "Rao's Homemade® Marinara Sauce Made with Italian Tomatoes, 32 oz",
+      "brand": "Rao's",
+      "upc": "0074747900001",
+      "regularPrice": 10.49,
+      "promoPrice": 8.99,
+      "savings": 1.5,
+      "savingsPct": 14,
+      "size": "32 oz",
+      "category": "Pasta, Sauces, Grain",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0074747900001"
     },
     {
       "term": "watermelon",
@@ -975,43 +1028,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0000000004032"
     },
     {
-      "term": "apples",
-      "name": "Kroger® Caramel Apple with Peanuts",
-      "brand": "Kroger",
-      "upc": "0001111061208",
-      "regularPrice": 2.29,
-      "promoPrice": 1.99,
-      "savings": 0.3,
+      "term": "hot sauce",
+      "name": "Louisiana Brand Original Hot Sauce",
+      "brand": "Louisiana",
+      "upc": "0019029800025",
+      "regularPrice": 3.79,
+      "promoPrice": 3.29,
+      "savings": 0.5,
       "savingsPct": 13,
-      "size": "1 ct",
-      "category": "Bakery",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111061208"
-    },
-    {
-      "term": "brown sugar",
-      "name": "Kroger® Dark Brown Sugar",
-      "brand": "Kroger",
-      "upc": "0001111083563",
-      "regularPrice": 2.29,
-      "promoPrice": 2,
-      "savings": 0.29,
-      "savingsPct": 13,
-      "size": "32 oz",
-      "category": "Baking Goods",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111083563"
-    },
-    {
-      "term": "brown sugar",
-      "name": "Kroger® Light Brown Sugar",
-      "brand": "Kroger",
-      "upc": "0001111085585",
-      "regularPrice": 2.29,
-      "promoPrice": 2,
-      "savings": 0.29,
-      "savingsPct": 13,
-      "size": "32 oz",
-      "category": "Baking Goods",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111085585"
+      "size": "12 fl oz",
+      "category": "Condiment & Sauces",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0019029800025"
     },
     {
       "term": "egg noodles",
@@ -1040,19 +1067,6 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111064632"
     },
     {
-      "term": "avocado",
-      "name": "Fresh Large Ripe Avocado",
-      "brand": "Fresh Avocados",
-      "upc": "0000000004225",
-      "regularPrice": 2.25,
-      "promoPrice": 1.99,
-      "savings": 0.26,
-      "savingsPct": 12,
-      "size": "1 each",
-      "category": "Produce",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0000000004225"
-    },
-    {
       "term": "short ribs",
       "name": "Giovanni Rana™️ Beef Short Rib Ravioli 8 oz.",
       "brand": "Rana",
@@ -1067,7 +1081,20 @@
     },
     {
       "term": "olive oil",
-      "name": "Pompeian® Smooth First Cold Pressed Extra Virgin Olive Oil",
+      "name": "Kroger® Extra Virgin Olive Oil",
+      "brand": "Kroger",
+      "upc": "0001111087856",
+      "regularPrice": 6.79,
+      "promoPrice": 6,
+      "savings": 0.79,
+      "savingsPct": 12,
+      "size": "16.9 fl oz",
+      "category": "Baking Goods",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111087856"
+    },
+    {
+      "term": "olive oil",
+      "name": "Smooth Extra Virgin Olive Oil, 16oz Plastic",
       "brand": "Pompeian",
       "upc": "0007040400278",
       "regularPrice": 8.49,
@@ -1091,6 +1118,19 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0020241400000"
     },
     {
+      "term": "hot sauce",
+      "name": "Cholula Original Hot Sauce",
+      "brand": "Cholula",
+      "upc": "0004973309101",
+      "regularPrice": 4.49,
+      "promoPrice": 3.99,
+      "savings": 0.5,
+      "savingsPct": 11,
+      "size": "5 fl oz",
+      "category": "Condiment & Sauces",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0004973309101"
+    },
+    {
       "term": "all-purpose flour",
       "name": "Gold Medal™ All Purpose Flour",
       "brand": "Gold Medal",
@@ -1102,19 +1142,6 @@
       "size": "5 lbs",
       "category": "Baking Goods",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001600010610"
-    },
-    {
-      "term": "all-purpose flour",
-      "name": "Gold Medal™ Unbleached All Purpose Flour",
-      "brand": "Gold Medal",
-      "upc": "0001600019610",
-      "regularPrice": 4.49,
-      "promoPrice": 3.99,
-      "savings": 0.5,
-      "savingsPct": 11,
-      "size": "5 lbs",
-      "category": "Baking Goods",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001600019610"
     },
     {
       "term": "green beans",
@@ -1156,17 +1183,30 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111081211"
     },
     {
-      "term": "ham",
-      "name": "Oscar Mayer Deli Fresh Honey Uncured Ham Thin Sliced Lunchmeat",
-      "brand": "Oscar Mayer",
-      "upc": "0004470003054",
-      "regularPrice": 4.49,
-      "promoPrice": 3.99,
-      "savings": 0.5,
+      "term": "ground beef",
+      "name": "Kroger® 80/20 Ground Beef Tray 1 LB",
+      "brand": "Kroger",
+      "upc": "0001111096972",
+      "regularPrice": 7.29,
+      "promoPrice": 6.49,
+      "savings": 0.8,
       "savingsPct": 11,
-      "size": "9 oz",
+      "size": "1 lb",
       "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0004470003054"
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111096972"
+    },
+    {
+      "term": "shrimp",
+      "name": "Kroger® Peeled & Deveined Tail Off White Raw Shrimp",
+      "brand": "Kroger",
+      "upc": "0001111065386",
+      "regularPrice": 17.98,
+      "promoPrice": 15.98,
+      "savings": 2,
+      "savingsPct": 11,
+      "size": "2 lb",
+      "category": "Frozen",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111065386"
     },
     {
       "term": "chicken breast",
@@ -1182,17 +1222,42 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0004470003099"
     },
     {
-      "term": "butter",
-      "name": "Challenge® Salted Butter",
-      "brand": "Challenge",
-      "upc": "0004720015260",
-      "regularPrice": 6.29,
-      "promoPrice": 5.69,
-      "savings": 0.6,
+      "term": "whole milk",
+      "name": "Simple Truth Organic® Vitamin D Whole Milk Half Gallon",
+      "brand": "Simple Truth Organic",
+      "upc": "0001111042850",
+      "regularPrice": 4.49,
+      "promoPrice": 3.99,
+      "savings": 0.5,
+      "savingsPct": 11,
+      "size": "1/2 gal",
+      "category": "Natural & Organic",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111042850"
+    },
+    {
+      "term": "beef steak",
+      "name": "Choice Tri-Tip Beef Steaks (About 2 per Pack)",
+      "upc": "0020224500000",
+      "regularPrice": 9.99,
+      "promoPrice": 8.99,
+      "savings": 1,
       "savingsPct": 10,
-      "size": "16 oz",
-      "category": "Dairy",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0004720015260"
+      "size": "1 lb",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0020224500000"
+    },
+    {
+      "term": "panko",
+      "name": "Kinder's® Parmesan Herb Crispy Panko Blend Seasoned Coating Mix",
+      "brand": "Kinder's",
+      "upc": "0075579550002",
+      "regularPrice": 4.99,
+      "promoPrice": 4.49,
+      "savings": 0.5,
+      "savingsPct": 10,
+      "size": "5 oz",
+      "category": "Baking Goods",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0075579550002"
     },
     {
       "term": "quinoa",
@@ -1206,32 +1271,6 @@
       "size": "16 oz",
       "category": "Pasta, Sauces, Grain",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111086099"
-    },
-    {
-      "term": "carrots",
-      "name": "Kroger® Steams in Bag Petite Carrots",
-      "brand": "Kroger",
-      "upc": "0001111091651",
-      "regularPrice": 1.99,
-      "promoPrice": 1.79,
-      "savings": 0.2,
-      "savingsPct": 10,
-      "size": "12 oz",
-      "category": "Produce",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111091651"
-    },
-    {
-      "term": "ham",
-      "name": "Private Selection® Wildflower Honey Deli Ham Sliced",
-      "brand": "Private Selection",
-      "upc": "0022575400000",
-      "regularPrice": 9.99,
-      "promoPrice": 8.99,
-      "savings": 1,
-      "savingsPct": 10,
-      "size": "1 lb",
-      "category": "Deli",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0022575400000"
     },
     {
       "term": "carrots",
@@ -1260,19 +1299,6 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111087975"
     },
     {
-      "term": "chicken thighs",
-      "name": "Simple Truth® Natural Boneless and Skinless Fresh Chicken Thighs Griller Pack BIG DEAL!",
-      "brand": "Simple Truth",
-      "upc": "0028896350000",
-      "regularPrice": 4.99,
-      "promoPrice": 4.49,
-      "savings": 0.5,
-      "savingsPct": 10,
-      "size": "1 lb",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0028896350000"
-    },
-    {
       "term": "apple cider vinegar",
       "name": "Bragg® Organic Apple Cider Vinegar with the Mother",
       "brand": "Bragg",
@@ -1286,6 +1312,31 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007430500132"
     },
     {
+      "term": "beef steak",
+      "name": "Choice Petite Sirloin Beef Steak Family Pack (About 3-4 Steaks per Pack)",
+      "upc": "0020212500000",
+      "regularPrice": 10.99,
+      "promoPrice": 9.99,
+      "savings": 1,
+      "savingsPct": 9,
+      "size": "1 lb",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0020212500000"
+    },
+    {
+      "term": "baking soda",
+      "name": "Ghirardelli Classic White Vanilla Flavored Premium Baking Chips",
+      "brand": "Ghirardelli",
+      "upc": "0074759940882",
+      "regularPrice": 14.29,
+      "promoPrice": 12.99,
+      "savings": 1.3,
+      "savingsPct": 9,
+      "size": "22 ounces",
+      "category": "Baking Goods",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0074759940882"
+    },
+    {
       "term": "vegetable oil",
       "name": "Kroger® 100% Pure Vegetable Oil",
       "brand": "Kroger",
@@ -1297,6 +1348,19 @@
       "size": "48 fl oz",
       "category": "Baking Goods",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111085605"
+    },
+    {
+      "term": "vegetable oil",
+      "name": "Kroger® 100% Pure Vegetable Oil",
+      "brand": "Kroger",
+      "upc": "0001111085607",
+      "regularPrice": 3.29,
+      "promoPrice": 3,
+      "savings": 0.29,
+      "savingsPct": 9,
+      "size": "32 fl oz",
+      "category": "Baking Goods",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111085607"
     },
     {
       "term": "beef broth",
@@ -1377,19 +1441,6 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0085759700327"
     },
     {
-      "term": "chicken breast",
-      "name": "Kroger® Chicken Breast Deli Thin Sliced",
-      "brand": "Kroger",
-      "upc": "0001111097725",
-      "regularPrice": 3.79,
-      "promoPrice": 3.5,
-      "savings": 0.29,
-      "savingsPct": 8,
-      "size": "9 oz",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111097725"
-    },
-    {
       "term": "Parmesan",
       "name": "Private Selection® Parmesan Wedge Cheese",
       "brand": "Private Selection",
@@ -1401,18 +1452,6 @@
       "size": "8 oz",
       "category": "Deli",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111063678"
-    },
-    {
-      "term": "beef steak",
-      "name": "Thin Cut Breakfast Beef Steak Family Pack",
-      "upc": "0029184450000",
-      "regularPrice": 12.99,
-      "promoPrice": 11.99,
-      "savings": 1,
-      "savingsPct": 8,
-      "size": "1 lb",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0029184450000"
     },
     {
       "term": "flank steak",
@@ -1440,17 +1479,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002265527487"
     },
     {
-      "term": "turkey breast",
-      "name": "Butterball All Natural Frozen Turkey Breast Roast, Savory Herb, 48 oz",
-      "brand": "Butterball",
-      "upc": "0002265500061",
-      "regularPrice": 14.99,
-      "promoPrice": 13.99,
-      "savings": 1,
+      "term": "rice noodles",
+      "name": "Indomie® Mi Goreng Hot & Spicy Stir Fry Instant Noodles",
+      "brand": "Indomie",
+      "upc": "0008968617168",
+      "regularPrice": 4.59,
+      "promoPrice": 4.29,
+      "savings": 0.3,
       "savingsPct": 7,
-      "size": "3 lbs",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002265500061"
+      "size": "5 ct / 2.82 oz",
+      "category": "International",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0008968617168"
     },
     {
       "term": "Italian sausage",
@@ -1492,19 +1531,6 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111097038"
     },
     {
-      "term": "clams",
-      "name": "Private Selection® Mussels With White Wine, Butter & Garlic Sauce",
-      "brand": "Private Selection",
-      "upc": "0001111060422",
-      "regularPrice": 4.29,
-      "promoPrice": 3.99,
-      "savings": 0.3,
-      "savingsPct": 7,
-      "size": "16 oz",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111060422"
-    },
-    {
       "term": "chicken broth",
       "name": "Kroger® 99% Fat Free Chicken Broth",
       "brand": "Kroger",
@@ -1516,6 +1542,19 @@
       "size": "32 oz",
       "category": "Canned & Packaged",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111004969"
+    },
+    {
+      "term": "pasta",
+      "name": "Kroger® Bow Ties Pasta",
+      "brand": "Kroger",
+      "upc": "0001111085165",
+      "regularPrice": 1.33,
+      "promoPrice": 1.25,
+      "savings": 0.08,
+      "savingsPct": 6,
+      "size": "12 oz",
+      "category": "Pasta, Sauces, Grain",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111085165"
     },
     {
       "term": "pasta",
@@ -1584,6 +1623,19 @@
     },
     {
       "term": "pasta",
+      "name": "Kroger® Rotini",
+      "brand": "Kroger",
+      "upc": "0001111085071",
+      "regularPrice": 1.33,
+      "promoPrice": 1.25,
+      "savings": 0.08,
+      "savingsPct": 6,
+      "size": "16 oz",
+      "category": "Pasta, Sauces, Grain",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111085071"
+    },
+    {
+      "term": "pasta",
       "name": "Kroger® Spaghetti",
       "brand": "Kroger",
       "upc": "0001111085004",
@@ -1594,6 +1646,19 @@
       "size": "16 oz",
       "category": "Pasta, Sauces, Grain",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111085004"
+    },
+    {
+      "term": "spaghetti",
+      "name": "Kroger® Thin Spaghetti",
+      "brand": "Kroger",
+      "upc": "0001111085020",
+      "regularPrice": 1.33,
+      "promoPrice": 1.25,
+      "savings": 0.08,
+      "savingsPct": 6,
+      "size": "16 oz",
+      "category": "Pasta, Sauces, Grain",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111085020"
     },
     {
       "term": "fish sauce",
@@ -1609,17 +1674,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0004123411476"
     },
     {
-      "term": "heavy cream",
-      "name": "Shamrock Farms® Heavy Whipping Cream",
-      "brand": "Shamrock Farms",
-      "upc": "0002830003417",
-      "regularPrice": 8.79,
-      "promoPrice": 8.29,
+      "term": "egg noodles",
+      "name": "Rana™ Family Size 5 Cheese Tortellini",
+      "brand": "Rana",
+      "upc": "0087744800354",
+      "regularPrice": 8.49,
+      "promoPrice": 7.99,
       "savings": 0.5,
       "savingsPct": 6,
-      "size": "1 qt",
-      "category": "Dairy",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0002830003417"
+      "size": "20 oz",
+      "category": "Deli",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0087744800354"
     },
     {
       "term": "short ribs",
@@ -1660,6 +1725,32 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111015145"
     },
     {
+      "term": "shredded cheese",
+      "name": "Sargento® Off the Block Fine Cut 4 Cheese Mexican Blend Natural Cheese Shreds",
+      "brand": "Sargento",
+      "upc": "0004610040092",
+      "regularPrice": 3.5,
+      "promoPrice": 3.33,
+      "savings": 0.17,
+      "savingsPct": 5,
+      "size": "8 oz",
+      "category": "Dairy",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0004610040092"
+    },
+    {
+      "term": "oranges",
+      "name": "Seedless Mandarin Clementine Oranges in 3lb Bag",
+      "brand": "Fresh Citrus",
+      "upc": "0003338314616",
+      "regularPrice": 5.79,
+      "promoPrice": 5.49,
+      "savings": 0.3,
+      "savingsPct": 5,
+      "size": "3 lb",
+      "category": "Produce",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0003338314616"
+    },
+    {
       "term": "honey",
       "name": "Smart Way™ Honey",
       "brand": "Smart Way",
@@ -1673,6 +1764,19 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111012316"
     },
     {
+      "term": "coconut milk",
+      "name": "Thai Kitchen Unsweetened Coconut Milk",
+      "brand": "Thai Kitchen",
+      "upc": "0073762801150",
+      "regularPrice": 4.29,
+      "promoPrice": 4.09,
+      "savings": 0.2,
+      "savingsPct": 5,
+      "size": "13.66 fl oz",
+      "category": "International",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0073762801150"
+    },
+    {
       "term": "broccoli",
       "name": "Broccoli Crown",
       "brand": "Fresh Broccoli & Cauliflower",
@@ -1684,18 +1788,6 @@
       "size": "1 lb",
       "category": "Produce",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0000000003082"
-    },
-    {
-      "term": "beef steak",
-      "name": "Choice Beef Chuck Eye Steak (About 3 Steaks per Pack)",
-      "upc": "0020191700000",
-      "regularPrice": 11.99,
-      "promoPrice": 11.49,
-      "savings": 0.5,
-      "savingsPct": 4,
-      "size": "1 lb",
-      "category": "Meat & Seafood",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0020191700000"
     },
     {
       "term": "ricotta",
@@ -1724,17 +1816,17 @@
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0005150072001"
     },
     {
-      "term": "pinto beans",
-      "name": "La Preferida® Pinto Beans",
-      "brand": "La Preferida",
-      "upc": "0007152401164",
-      "regularPrice": 6.79,
-      "promoPrice": 6.49,
-      "savings": 0.3,
-      "savingsPct": 4,
-      "size": "4 lb",
-      "category": "International",
-      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0007152401164"
+      "term": "breakfast sausage",
+      "name": "Farmer John Classic Pork Sausage Links",
+      "brand": "Farmer John",
+      "upc": "0005050000227",
+      "regularPrice": 2.59,
+      "promoPrice": 2.5,
+      "savings": 0.09,
+      "savingsPct": 3,
+      "size": "8 oz",
+      "category": "Meat & Seafood",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0005050000227"
     },
     {
       "term": "corn",
@@ -1761,6 +1853,19 @@
       "size": "12 oz",
       "category": "Frozen",
       "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0001111089736"
+    },
+    {
+      "term": "whole milk",
+      "name": "Organic Valley® Whole Milk Half Gallon",
+      "brand": "Organic Valley",
+      "upc": "0009396651300",
+      "regularPrice": 5.99,
+      "promoPrice": 5.79,
+      "savings": 0.2,
+      "savingsPct": 3,
+      "size": "64 fl oz",
+      "category": "Dairy",
+      "imageUrl": "https://www.kroger.com/product/images/xlarge/front/0009396651300"
     },
     {
       "term": "rice noodles",
