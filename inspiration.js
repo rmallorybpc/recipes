@@ -2,7 +2,7 @@
 // Loaded before script.js. Uses recipes, pretty, showMealDayPicker and
 // ensureTouchPickerStyles from script.js at run time.
 
-const INSPO_INTERVAL_MS = 6000;
+const INSPO_INTERVAL_MS = 10000;
 const inspo = {
   section: document.getElementById("inspiration"),
   image: document.getElementById("inspoImage"),
@@ -86,6 +86,9 @@ function showInspoSlide() {
     inspo.count.textContent = `${inspo.index + 1} of ${inspo.pool.length}`;
     requestAnimationFrame(() => slide.classList.add("is-visible"));
     preloadInspo(inspo.index + 1);
+    if (typeof playBuildUp === "function") {
+      playBuildUp(recipe, slide);
+    }
   };
   img.onload = () => reveal(img.src);
   let triedOriginal = src === recipe.image;
@@ -121,6 +124,9 @@ function preloadInspo(position) {
   if (recipe) {
     const img = new Image();
     img.src = recipeImageUrl(recipe.image, "large");
+    if (typeof preloadBuildUp === "function") {
+      preloadBuildUp(recipe);
+    }
   }
 }
 
