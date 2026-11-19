@@ -38,7 +38,7 @@ async function loadGroceryIngredients() {
 }
 
 function parseGroceryLine(raw) {
-  let text = String(raw).replace(/–|–/g, "-").replace(/&amp;[a-z#0-9]+;/gi, " ");
+  let text = String(raw).replace(/&amp;(?:#8211|ndash);/g, "-").replace(/&amp;(?:#?[a-z0-9]+);/gi, " ");
   text = text.replace(/\([^)]*\)/g, " ").split(",")[0].replace(/\s+/g, " ").trim();
   let amount = "";
   const toTaste = text.match(/^(.*?)\s+to taste$/i);
