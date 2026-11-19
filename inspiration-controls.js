@@ -20,7 +20,10 @@ if (inspo.section) {
   });
 
   const stage = inspo.section.querySelector(".inspoStage");
-  stage.addEventListener("mouseenter", () => { inspo.hoverPaused = true; restartInspoTimer(); });
+  const canHover = window.matchMedia("(hover: hover)").matches;
+  stage.addEventListener("mouseenter", () => {
+    if (canHover) { inspo.hoverPaused = true; restartInspoTimer(); }
+  });
   stage.addEventListener("mouseleave", () => { inspo.hoverPaused = false; restartInspoTimer(); });
   document.addEventListener("visibilitychange", restartInspoTimer);
 
