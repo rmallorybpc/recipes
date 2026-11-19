@@ -1,24 +1,14 @@
 {
-  "generated_at": "2026-11-19T03:57:35.289Z",
+  "generated_at": "2026-11-19T04:09:12.248Z",
   "stats": {
     "total_recipes": 697,
-    "with_image": 623,
-    "looked_up": 623,
-    "found_new": 623,
-    "reused": 0,
-    "no_mealdb_id": 74
+    "with_image": 598,
+    "looked_up": 0,
+    "found_new": 0,
+    "reused": 598,
+    "no_mealdb_id": 99
   },
   "images": {
-    "breakfast-baked-casserole-suggested-banana-oat-pancakes": {
-      "image": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
-      "mealdb_id": "52855",
-      "source": "themealdb"
-    },
-    "dinner-baked-casserole-homemade-pizza": {
-      "image": "https://www.themealdb.com/images/media/meals/lrfdwz1764438393.jpg",
-      "mealdb_id": "53330",
-      "source": "themealdb"
-    },
     "dinner-baked-casserole-mealdb-bleskiver": {
       "image": "https://www.themealdb.com/images/media/meals/wkhg581762773124.jpg",
       "mealdb_id": "53120",
@@ -1029,11 +1019,6 @@
       "mealdb_id": "53189",
       "source": "themealdb"
     },
-    "dinner-bowls-suggested-thai-green-curry": {
-      "image": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
-      "mealdb_id": "52814",
-      "source": "themealdb"
-    },
     "dinner-handheld-mealdb-ajo-blanco": {
       "image": "https://www.themealdb.com/images/media/meals/5jdtie1763289302.jpg",
       "mealdb_id": "53169",
@@ -1062,26 +1047,6 @@
     "dinner-handheld-mealdb-quick-gazpacho": {
       "image": "https://www.themealdb.com/images/media/meals/h5qmn31763304965.jpg",
       "mealdb_id": "53173",
-      "source": "themealdb"
-    },
-    "dinner-handheld-suggested-fish-tacos-with-cabbage-slaw": {
-      "image": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg",
-      "mealdb_id": "52819",
-      "source": "themealdb"
-    },
-    "dinner-meat-beef-and-broccoli": {
-      "image": "https://www.themealdb.com/images/media/meals/m0p0j81765568742.jpg",
-      "mealdb_id": "53366",
-      "source": "themealdb"
-    },
-    "dinner-meat-chicken-wings": {
-      "image": "https://www.themealdb.com/images/media/meals/4hzyvq1763792564.jpg",
-      "mealdb_id": "53261",
-      "source": "themealdb"
-    },
-    "dinner-meat-fried-chicken": {
-      "image": "https://www.themealdb.com/images/media/meals/40r49m1763197022.jpg",
-      "mealdb_id": "52813",
       "source": "themealdb"
     },
     "dinner-meat-mealdb-15-minute-chicken-halloumi-burgers": {
@@ -2189,31 +2154,6 @@
       "mealdb_id": "53294",
       "source": "themealdb"
     },
-    "dinner-meat-pork-chops": {
-      "image": "https://www.themealdb.com/images/media/meals/h3ijwo1581013377.jpg",
-      "mealdb_id": "52994",
-      "source": "themealdb"
-    },
-    "dinner-meat-round-steak-stroganoff": {
-      "image": "https://www.themealdb.com/images/media/meals/svprys1511176755.jpg",
-      "mealdb_id": "52834",
-      "source": "themealdb"
-    },
-    "dinner-meat-stew": {
-      "image": "https://www.themealdb.com/images/media/meals/ntafxw1763586291.jpg",
-      "mealdb_id": "53211",
-      "source": "themealdb"
-    },
-    "dinner-rice-or-pasta-homemade-mac-n-cheese": {
-      "image": "https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg",
-      "mealdb_id": "52818",
-      "source": "themealdb"
-    },
-    "dinner-rice-or-pasta-lasagne": {
-      "image": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg",
-      "mealdb_id": "52844",
-      "source": "themealdb"
-    },
     "dinner-rice-or-pasta-mealdb-chilli-prawn-linguine": {
       "image": "https://www.themealdb.com/images/media/meals/usywpp1511189717.jpg",
       "mealdb_id": "52839",
@@ -2262,26 +2202,6 @@
     "dinner-rice-or-pasta-mealdb-venetian-duck-ragu": {
       "image": "https://www.themealdb.com/images/media/meals/qvrwpt1511181864.jpg",
       "mealdb_id": "52838",
-      "source": "themealdb"
-    },
-    "dinner-rice-or-pasta-meatballs-with-zucchini-and-rice": {
-      "image": "https://www.themealdb.com/images/media/meals/72fgzj1764109947.jpg",
-      "mealdb_id": "53277",
-      "source": "themealdb"
-    },
-    "dinner-rice-or-pasta-spaghetti": {
-      "image": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg",
-      "mealdb_id": "52770",
-      "source": "themealdb"
-    },
-    "dinner-rice-or-pasta-suggested-chicken-pad-thai": {
-      "image": "https://www.themealdb.com/images/media/meals/rg9ze01763479093.jpg",
-      "mealdb_id": "53191",
-      "source": "themealdb"
-    },
-    "dinner-rice-or-pasta-suggested-fried-rice-with-egg-and-vegetables": {
-      "image": "https://www.themealdb.com/images/media/meals/wuyd2h1765655837.jpg",
-      "mealdb_id": "53367",
       "source": "themealdb"
     },
     "dinner-seafood-mealdb-arroz-con-gambas-y-calamar": {
@@ -2632,31 +2552,6 @@
     "dinner-seafood-mealdb-vietnamese-prawn-spiralized-rolls": {
       "image": "https://www.themealdb.com/images/media/meals/9r2xrg1763771238.jpg",
       "mealdb_id": "53243",
-      "source": "themealdb"
-    },
-    "dinner-seafood-suggested-baked-salmon-with-asparagus": {
-      "image": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
-      "mealdb_id": "52959",
-      "source": "themealdb"
-    },
-    "dinner-soup-or-stew-grilled-cheese-and-tomato-soup": {
-      "image": "https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg",
-      "mealdb_id": "52841",
-      "source": "themealdb"
-    },
-    "dinner-soup-or-stew-suggested-clam-chowder": {
-      "image": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg",
-      "mealdb_id": "52840",
-      "source": "themealdb"
-    },
-    "dinner-soup-or-stew-suggested-dal-tadka": {
-      "image": "https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg",
-      "mealdb_id": "52785",
-      "source": "themealdb"
-    },
-    "dinner-soup-or-stew-suggested-vietnamese-pho": {
-      "image": "https://www.themealdb.com/images/media/meals/pbzcrx1763765096.jpg",
-      "mealdb_id": "53238",
       "source": "themealdb"
     },
     "dinner-vegetarian-mealdb-air-fryer-patatas-bravas": {
@@ -3102,26 +2997,6 @@
     "dinner-vegetarian-mealdb-yaki-udon": {
       "image": "https://www.themealdb.com/images/media/meals/wrustq1511475474.jpg",
       "mealdb_id": "52871",
-      "source": "themealdb"
-    },
-    "dinner-vegetarian-suggested-shakshuka": {
-      "image": "https://www.themealdb.com/images/media/meals/g373701551450225.jpg",
-      "mealdb_id": "52963",
-      "source": "themealdb"
-    },
-    "lunch-bowls-suggested-asian-noodle-salad": {
-      "image": "https://www.themealdb.com/images/media/meals/6g3rso1763486069.jpg",
-      "mealdb_id": "53203",
-      "source": "themealdb"
-    },
-    "lunch-bowls-suggested-greek-salad-with-chicken": {
-      "image": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg",
-      "mealdb_id": "53011",
-      "source": "themealdb"
-    },
-    "lunch-handheld-suggested-egg-salad-sandwich": {
-      "image": "https://www.themealdb.com/images/media/meals/v8eaed1763257313.jpg",
-      "mealdb_id": "53157",
       "source": "themealdb"
     }
   }
