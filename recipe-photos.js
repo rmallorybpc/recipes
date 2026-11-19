@@ -21,6 +21,8 @@ function attachRecipeImages(imageMap) {
     const url = entry?.image;
     if (typeof url === "string" && url.startsWith("https://")) {
       recipe.image = url;
+      recipe.mealIngredients = Array.isArray(entry.ingredients) ? entry.ingredients : [];
+      recipe.video = typeof entry.video === "string" ? entry.video : null;
     }
   });
 }

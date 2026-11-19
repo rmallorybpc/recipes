@@ -1226,3 +1226,78 @@ textarea {
     transition: none;
   }
 }
+
+/* ---------- Ingredient build-up ---------- */
+
+.inspoImage {
+  transition: opacity 0.8s ease;
+}
+
+.inspoSlide.is-building .inspoImage {
+  opacity: 0;
+}
+
+.inspoBuild {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 4%;
+  padding: 6%;
+  background: #f1e6da;
+  opacity: 0;
+  transform: scale(0.6);
+  pointer-events: none;
+  transition: opacity 0.6s ease, transform 0.8s ease;
+}
+
+.inspoCaption {
+  z-index: 2;
+}
+
+.inspoSlide.is-building .inspoBuild {
+  opacity: 1;
+  transform: none;
+}
+
+.inspoChip {
+  width: 28%;
+  max-width: 120px;
+  text-align: center;
+  color: var(--ink);
+  opacity: 0;
+  transform: scale(0.4) translateY(20px);
+  transition: opacity 0.35s ease, transform 0.45s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+
+.inspoChip.on {
+  opacity: 1;
+  transform: none;
+}
+
+.inspoChip img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.inspoChip span {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.72rem;
+}
+
+/* Phone: cover only the square photo, not the caption below it */
+@media (max-width: 640px) {
+  .inspoBuild {
+    bottom: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 18px;
+  }
+}
