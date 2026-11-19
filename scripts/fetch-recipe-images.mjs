@@ -30,7 +30,7 @@ async function readJson(file, fallback) {
   }
 }
 
-async function lookupThumb(mealId) {
+async function lookupMeal(mealId) {
   const url = `https://www.themealdb.com/api/json/v1/${API_KEY}/lookup.php?i=${mealId}`;
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     try {
@@ -41,8 +41,16 @@ async function lookupThumb(mealId) {
       }
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const payload = await response.json();
-      const thumb = payload?.meals?.[0]?.strMealThumb;
-      return typeof thumb === "string" && thumb.startsWith("https://") ? thumb : null;
+      const meal = payload?.meals?.[0];
+      const thumb = meal?.strMealThumb;
+      if (typeof thumb !== "string" || !thumb.startsWith("https://")) return null;
+      const ingredients = [];
+      for (let n = 1; n <= 20; n += 1) {
+        const name = String(meal[`strIngredient${n}`] || "").trim();
+        if (name) ingredients.push(name);
+      }
+      const video = String(meal.strYoutube || "").match(/[?&]v=([\w-]{11})/);
+      return { thumb, ingredients, video: video ? video[1] : null };
     } catch (error) {
       if (attempt === 3) {
         console.warn(`  lookup failed for ${mealId}: ${error.message}`);
@@ -79,16 +87,22 @@ async function main() {
 
     const mealId = match[1];
     const known = existing[recipe.id];
-    if (known && known.mealdb_id === mealId) {
+    if (known && known.mealdb_id === mealId && Array.isArray(known.ingredients)) {
       images[recipe.id] = known;
       reused += 1;
       continue;
     }
 
     looked += 1;
-    const thumb = await lookupThumb(mealId);
-    if (thumb) {
-      images[recipe.id] = { image: thumb, mealdb_id: mealId, source: "themealdb" };
+    const meal = await lookupMeal(mealId);
+    if (meal) {
+      images[recipe.id] = {
+        image: meal.thumb,
+        mealdb_id: mealId,
+        source: "themealdb",
+        ingredients: meal.ingredients,
+        video: meal.video
+      };
       found += 1;
     }
     await sleep(DELAY_MS);
