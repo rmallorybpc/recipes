@@ -68,8 +68,11 @@ async function main() {
   let skipped = 0;
 
   for (const recipe of dataset.recipes) {
+    // Only recipes imported from the TheMealDB catalog. Family recipes can carry a
+    // fuzzy-matched TheMealDB link from older enrichment, which may be a different dish.
+    const imported = /^mealdb\s*-/i.test(String(recipe.title || ""));
     const match = String(recipe.source_url || "").match(/themealdb\.com\/meal\/(\d+)/);
-    if (!recipe.id || !match) {
+    if (!recipe.id || !imported || !match) {
       skipped += 1;
       continue;
     }
