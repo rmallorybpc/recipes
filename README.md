@@ -167,6 +167,16 @@ After any import, regenerate the full data pipeline:
 node ./scripts/generate-ingredient-data.mjs
 ```
 
+## Recipe Photos
+
+The planner shows a photo at the top of each recipe card that has one. If a resized photo fails to load, the card tries the original and hides the photo if that fails too.
+
+- Photos come from TheMealDB, only for recipes imported from the TheMealDB catalog. Family recipes get no photo, even when an older enrichment linked them to a TheMealDB dish, so a photo always shows the actual dish.
+- `scripts/fetch-recipe-images.mjs` writes `data/recipe-images.json`. It keeps saved photos and only looks up new recipes.
+- The `Fetch Recipe Images` workflow runs every Monday and on demand. It uses the `MEALDB_API_KEY` secret.
+
+Run it by hand from the Actions tab: Fetch Recipe Images, then Run workflow.
+
 ## Importing TheMealDB Catalog (Paid API)
 
 The repository now supports full-catalog import from TheMealDB's

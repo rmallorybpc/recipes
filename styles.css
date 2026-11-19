@@ -467,6 +467,7 @@ textarea {
   transform: translateY(12px);
   opacity: 0;
   animation: reveal 420ms ease forwards;
+  align-content: start;
 }
 
 .ateOutCard {
@@ -1006,4 +1007,16 @@ textarea {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* ---------- Recipe photos ---------- */
+
+.cardImage {
+  display: block;
+  width: calc(100% + 1.9rem);
+  margin: -0.95rem -0.95rem 0.2rem;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 18px 18px 0 0;
+  background: #f1e6da;
 }

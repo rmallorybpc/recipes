@@ -1865,6 +1865,19 @@ function renderCards(items) {
       li.appendChild(addBtn);
     }
 
+    if (recipe.image) {
+      const cardImage = document.createElement("img");
+      cardImage.className = "cardImage";
+      cardImage.dataset.full = recipe.image;
+      cardImage.alt = "";
+      cardImage.loading = "lazy";
+      cardImage.decoding = "async";
+      cardImage.draggable = false;
+      cardImage.addEventListener("error", handleRecipeImageError, { once: true });
+      cardImage.src = recipeImageUrl(recipe.image, "medium");
+      li.prepend(cardImage);
+    }
+
     recipeGrid.appendChild(li);
   });
 }
@@ -1950,7 +1963,8 @@ if (isTouchDevice) {
 }
 
 async function initializePlanner() {
-  await loadRecipesFromDataset();
+  const [, imageMap] = await Promise.all([loadRecipesFromDataset(), loadRecipeImages()]);
+  attachRecipeImages(imageMap);
 
   hydrateRecipeIds();
   weekPlan = loadWeekPlan();
