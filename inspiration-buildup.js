@@ -54,11 +54,11 @@ function playBuildUp(recipe, slide) {
   chips.forEach((chip, i) => {
     setTimeout(() => {
       if (token === buildToken) chip.classList.add("on");
-    }, 200 + i * 220);
+    }, 150 + i * 140);
   });
   setTimeout(() => {
     if (token === buildToken) slide.classList.remove("is-building");
-  }, 200 + chips.length * 220 + 900);
+  }, 150 + chips.length * 140 + 600);
 }
 
 function preloadBuildUp(recipe) {

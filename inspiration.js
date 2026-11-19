@@ -2,7 +2,7 @@
 // Loaded before script.js. Uses recipes, pretty, showMealDayPicker and
 // ensureTouchPickerStyles from script.js at run time.
 
-const INSPO_INTERVAL_MS = 10000;
+const INSPO_INTERVAL_MS = 7000;
 const inspo = {
   section: document.getElementById("inspiration"),
   image: document.getElementById("inspoImage"),
