@@ -1901,6 +1901,7 @@ function applyFilters() {
   });
 
   renderCards(filtered);
+  updateInspiration(filtered);
 }
 
 plannerGrid.addEventListener("click", (event) => {
