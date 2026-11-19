@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inspiration sample</title>
+<style>
+body{margin:0;font-family:system-ui,sans-serif;background:#fbf7f0;color:#2b211a}
+main{max-width:560px;margin:0 auto;padding:1rem}
+h1{font-size:1.2rem;margin:.2rem 0 1rem}
+.card{background:#fff;border-radius:20px;padding:.8rem;margin-bottom:1.5rem;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.stage{position:relative;aspect-ratio:1/1;border-radius:16px;overflow:hidden;background:#f1e6da}
+.dish{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.08);transition:opacity .8s,transform 1.2s}
+.grid{position:absolute;inset:0;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;gap:4%;padding:6%;transition:opacity .6s,transform .8s}
+.ing{width:28%;text-align:center;opacity:0;transform:scale(.4) translateY(20px);transition:opacity .35s,transform .45s cubic-bezier(.3,1.6,.5,1)}
+.ing img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff;border-radius:50%;box-shadow:0 3px 10px rgba(0,0,0,.12)}
+.ing span{display:block;font-size:.72rem;margin-top:.2rem}
+.ing.on{opacity:1;transform:none}
+.stage.done .grid{opacity:0;transform:scale(.6)}
+.stage.done .dish{opacity:1;transform:none}
+.video{position:absolute;inset:0;background:#000;display:none}
+.video iframe{width:100%;height:100%;border:0}
+.stage.playing .video{display:block}
+h2{font-size:1.15rem;margin:.7rem 0 .2rem}
+.row{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.5rem}
+button{font:inherit;font-weight:700;border-radius:999px;padding:.5rem .9rem;border:1px solid #e0cfbf;background:#fff;color:#2b211a}
+button.main{background:#c2472c;color:#fff;border:none}
+</style>
+</head>
+<body>
+<main>
+<h1>Sample: ingredient build-up and video</h1>
+<div id="list"></div>
+</main>
+<script>
+const MEALS = [
+  { name: "Spaghetti alla Carbonara",
+    photo: "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+    video: "_T6jkRvhlkk",
+    ingredients: ["Spaghetti", "Egg Yolks", "Bacon", "Pecorino", "Black Pepper", "Salt"] },
+  { name: "Shakshuka with Feta Cheese",
+    photo: "https://www.themealdb.com/images/media/meals/wpkfin1763597958.jpg",
+    video: "xaBo3BxKzp8",
+    ingredients: ["Egg", "Tomato Sauce", "Spinach", "Feta", "Red Pepper", "Shallots", "Garlic", "Ground Cumin", "Olive Oil"] }
+];
+const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const ingUrl = (n) => `https://www.themealdb.com/images/ingredients/${n.toLowerCase().replace(/ /g, "_")}.png`;
+
+function build(meal) {
+  const card = document.createElement("section");
+  card.className = "card";
+  card.innerHTML = `
+    <div class="stage">
+      <div class="grid">${meal.ingredients.slice(0, 9).map((n) =>
+        `<div class="ing"><img alt="" src="${ingUrl(n)}"><span>${n}</span></div>`).join("")}</div>
+      <img class="dish" alt="Finished dish: ${meal.name}" src="${meal.photo}/large">
+      <div class="video"></div>
+    </div>
+    <h2>${meal.name}</h2>
+    <div class="row">
+      <button class="replay" type="button">Replay</button>
+      <button class="main watch" type="button">&#9654; Watch it made</button>
+    </div>`;
+  const stage = card.querySelector(".stage");
+  card.querySelectorAll(".ing img").forEach((img) =>
+    img.addEventListener("error", () => { img.style.visibility = "hidden"; }, { once: true }));
+
+  let timers = [];
+  function play() {
+    timers.forEach(clearTimeout);
+    timers = [];
+    stage.classList.remove("done", "playing");
+    stage.querySelector(".video").innerHTML = "";
+    card.querySelector(".watch").innerHTML = "&#9654; Watch it made";
+    const items = [...stage.querySelectorAll(".ing")];
+    items.forEach((el) => el.classList.remove("on"));
+    if (calm) {
+      stage.classList.add("done");
+      return;
+    }
+    items.forEach((el, i) => timers.push(setTimeout(() => el.classList.add("on"), 300 + i * 280)));
+    timers.push(setTimeout(() => stage.classList.add("done"), 300 + items.length * 280 + 1200));
+  }
+
+  card.querySelector(".replay").addEventListener("click", play);
+  card.querySelector(".watch").addEventListener("click", (e) => {
+    if (stage.classList.contains("playing")) {
+      play();
+      return;
+    }
+    timers.forEach(clearTimeout);
+    stage.classList.add("done", "playing");
+    stage.querySelector(".video").innerHTML =
+      `<iframe src="https://www.youtube-nocookie.com/embed/${meal.video}?autoplay=1&playsinline=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="${meal.name} video"></iframe>`;
+    e.currentTarget.textContent = "Back to photo";
+  });
+
+  new IntersectionObserver((entries, obs) => {
+    if (entries[0].isIntersecting) {
+      play();
+      obs.disconnect();
+    }
+  }, { threshold: 0.5 }).observe(stage);
+  return card;
+}
+
+const list = document.getElementById("list");
+MEALS.forEach((meal) => list.appendChild(build(meal)));
+</script>
+</body>
+</html>
