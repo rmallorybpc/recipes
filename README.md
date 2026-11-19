@@ -174,6 +174,8 @@ The planner shows a photo at the top of each recipe card that has one. If a resi
 - Photos come from TheMealDB, only for recipes imported from the TheMealDB catalog. Family recipes get no photo, even when an older enrichment linked them to a TheMealDB dish, so a photo always shows the actual dish.
 - `scripts/fetch-recipe-images.mjs` writes `data/recipe-images.json`. It keeps saved photos and only looks up new recipes.
 - The `Fetch Recipe Images` workflow runs every Monday and on demand. It uses the `MEALDB_API_KEY` secret.
+- Before each carousel photo, the dish's ingredient photos pop in, then the finished dish fades in. Slides change every 7 seconds.
+- Dishes with a cooking video show a "Watch it made" button. The video plays inside the carousel and pauses the rotation. Ingredient names and video IDs are saved in `data/recipe-images.json`.
 - The carousel ("What looks good tonight?") follows the meal, style, and search filters. It pauses on hover, when the tab is hidden, and for visitors who prefer reduced motion. A photo that fails to load drops out of the rotation.
 
 Run it by hand from the Actions tab: Fetch Recipe Images, then Run workflow.

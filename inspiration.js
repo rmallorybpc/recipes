@@ -86,6 +86,9 @@ function showInspoSlide() {
     inspo.count.textContent = `${inspo.index + 1} of ${inspo.pool.length}`;
     requestAnimationFrame(() => slide.classList.add("is-visible"));
     preloadInspo(inspo.index + 1);
+    if (typeof prepareInspoVideo === "function") {
+      prepareInspoVideo(recipe);
+    }
     if (typeof playBuildUp === "function") {
       playBuildUp(recipe, slide);
     }
