@@ -1301,3 +1301,50 @@ textarea {
     border-radius: 18px;
   }
 }
+
+/* ---------- Inspiration video ---------- */
+
+.inspoVideo {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: rmallorybpc/recipes#0;
+}
+
+.inspoWatch {
+  border: none;
+  background: var(--accent);
+  color: #fff;
+}
+
+.inspoWatch[hidden] {
+  display: none;
+}
+
+/* Desktop: move the caption to the top so the video controls stay clear */
+.inspoSlide.is-playing .inspoCaption {
+  inset: 0 0 auto 0;
+  padding: 1rem 1.1rem 2.5rem;
+  background: linear-gradient(to bottom, rgba(20, 12, 6, 0.82), rgba(20, 12, 6, 0));
+}
+
+@media (max-width: 640px) {
+  .inspoVideo {
+    bottom: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 18px;
+  }
+
+  .inspoWatch {
+    background: var(--ink);
+  }
+
+  .inspoSlide.is-playing .inspoCaption {
+    padding: 0.7rem 0 0;
+    background: none;
+  }
+}
