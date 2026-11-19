@@ -1,0 +1,53 @@
+name: Fetch Recipe Images
+
+on:
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: "Look up every photo again (ignore saved ones)"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # Mondays 09:17 UTC, picks up photos for newly added recipes
+    - cron: "17 9 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-images:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Fetch photos from TheMealDB
+        env:
+          MEALDB_API_KEY: ${{ secrets.MEALDB_API_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.refresh }}" = "true" ]; then
+            ARGS="--refresh"
+          fi
+          node ./scripts/fetch-recipe-images.mjs $ARGS
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/recipe-images.json
+          if git diff --cached --quiet; then
+            echo "No image changes."
+            exit 0
+          fi
+          git commit -m "chore: update recipe images"
+          git push
