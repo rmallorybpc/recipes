@@ -1020,3 +1020,209 @@ textarea {
   border-radius: 18px 18px 0 0;
   background: #f1e6da;
 }
+
+/* ---------- Inspiration carousel ---------- */
+
+.inspiration[hidden] {
+  display: none;
+}
+
+.inspoHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.inspoHint {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.inspoStage {
+  position: relative;
+  margin-top: 0.75rem;
+}
+
+.inspoSlide {
+  position: relative;
+  margin: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #f1e6da;
+  aspect-ratio: 3 / 2;
+  max-height: 520px;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 450ms ease;
+}
+
+.inspoSlide.is-visible {
+  opacity: 1;
+}
+
+.inspoImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.inspoCaption {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 2.5rem 1.1rem 1rem;
+  background: linear-gradient(to top, rgba(20, 12, 6, 0.82), rgba(20, 12, 6, 0));
+  color: #fff;
+}
+
+.inspoTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.inspoTags {
+  margin: 0.25rem 0 0.7rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.inspoActions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.inspoBtn {
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.inspoActions .tmg-btn-ghost {
+  background: #fff;
+  color: var(--ink);
+  border: none;
+}
+
+.inspoLink {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.inspoLink[hidden] {
+  display: none;
+}
+
+.inspoNav {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--ink);
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.inspoNav--prev { left: 0.6rem; }
+.inspoNav--next { right: 0.6rem; }
+
+.inspoControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.inspoPause {
+  font: inherit;
+  background: none;
+  border: 1px solid #e0cfbf;
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+/* Phone: square photo, caption below */
+@media (max-width: 640px) {
+  .inspoSlide {
+    aspect-ratio: auto;
+    max-height: none;
+    background: none;
+    overflow: visible;
+  }
+
+  .inspoImage {
+    aspect-ratio: 1 / 1;
+    height: auto;
+    border-radius: 18px;
+    background: #f1e6da;
+  }
+
+  .inspoCaption {
+    position: static;
+    padding: 0.7rem 0 0;
+    background: none;
+    color: var(--ink);
+  }
+
+  .inspoTitle {
+    font-size: 1.2rem;
+    text-shadow: none;
+  }
+
+  .inspoTags {
+    color: var(--muted);
+    opacity: 1;
+  }
+
+  .inspoActions .tmg-btn-ghost {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  .inspoLink {
+    color: var(--ink);
+    border-color: #e0cfbf;
+    background: none;
+  }
+
+  /* margin % uses width, so this centers on the square photo */
+  .inspoNav {
+    top: 0;
+    transform: none;
+    margin-top: calc(50% - 1.1rem);
+  }
+
+  .inspoNav {
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .inspoSlide {
+    transition: none;
+  }
+}

@@ -141,6 +141,32 @@
         </p>
       </section>
 
+      <section id="inspiration" class="inspiration tmg-card-wide" aria-roledescription="carousel" aria-label="Recipe inspiration" hidden>
+        <div class="inspoHead">
+          <h2 class="tmg-card-title">What looks good tonight?</h2>
+          <p class="inspoHint">Follows your filters below.</p>
+        </div>
+        <div class="inspoStage">
+          <button id="inspoPrev" class="inspoNav inspoNav--prev" type="button" aria-label="Previous recipe">&#8249;</button>
+          <figure class="inspoSlide" aria-live="polite">
+            <img id="inspoImage" class="inspoImage" alt="" decoding="async" />
+            <figcaption class="inspoCaption">
+              <p id="inspoTitle" class="inspoTitle"></p>
+              <p id="inspoTags" class="inspoTags"></p>
+              <div class="inspoActions">
+                <button id="inspoAdd" class="tmg-btn-ghost inspoBtn" type="button">+ Add to plan</button>
+                <a id="inspoLink" class="inspoBtn inspoLink" target="_blank" rel="noopener noreferrer">View recipe</a>
+              </div>
+            </figcaption>
+          </figure>
+          <button id="inspoNext" class="inspoNav inspoNav--next" type="button" aria-label="Next recipe">&#8250;</button>
+        </div>
+        <div class="inspoControls">
+          <button id="inspoPause" class="inspoPause" type="button" aria-pressed="false">Pause</button>
+          <span id="inspoCount" class="inspoCount"></span>
+        </div>
+      </section>
+
       <section class="planner tmg-card-wide" aria-label="Weekly meal planner">
         <div class="plannerHead">
           <h2 class="tmg-card-title">Weekly Planner</h2>
