@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-19T15:34:35.493Z",
+  "generated_at": "2026-11-23T09:27:02.299Z",
   "stats": {
     "total_recipes": 697,
     "with_image": 598,
-    "looked_up": 598,
-    "found_new": 598,
-    "reused": 0,
+    "looked_up": 0,
+    "found_new": 0,
+    "reused": 598,
     "no_mealdb_id": 99
   },
   "images": {
